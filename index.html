@@ -77,7 +77,7 @@ const DATA=[
 [35,"Nanoparticle cancer vaccines shrink tumours across five mouse cancer models","The particles carry tumour antigens with an immune booster and kept T cells active.","Nature Biomedical Engineering","https://www.nature.com/articles/s41551-026-01786-5","Oct 6","papers-14.jpg"],
 [36,"The amino acid L-arginine switches off a key inflammation trigger","It binds NLRP3 directly and eased arthritis and Parkinson's-like symptoms in mice.","Nature Metabolism","https://www.nature.com/articles/s42255-026-01636-3","Oct 6","papers-15.jpg"]]}
 ]
-, DATE='2026-10-07', REPO='OWNER/morning-briefing';
+, DATE='2026-10-07', REPO='jbarseneau99/morning-briefing';
 const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 function votes(level,id,title){return `<span class="v" data-level="${level}" data-id="${id}" data-title="${esc(title)}"><button class="up" title="More like this">👍</button><button class="dn" title="Less like this">👎</button></span>`}
