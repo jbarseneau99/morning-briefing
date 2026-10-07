@@ -1,0 +1,110 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Morning Briefing · Oct 7, 2026</title>
+<style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#1b1b1b;--mut:#666;--line:#e6e3dc;--acc:#1f5fbf;--up:#1e8e4e;--dn:#c0392b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{max-width:860px;margin:0 auto;padding:32px 20px 8px}header h1{margin:0;font:700 28px Georgia,serif}header p{margin:4px 0 0;color:var(--mut)}
+main{max-width:860px;margin:0 auto;padding:8px 20px 60px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:16px 0;overflow:hidden}
+.ch{display:flex;align-items:center;gap:10px;padding:14px 16px;cursor:pointer;user-select:none;border-bottom:1px solid var(--line)}
+.ch h2{margin:0;font-size:19px;flex:1}.car{transition:transform .2s;color:var(--mut)}section.closed .car{transform:rotate(-90deg)}section.closed .body{display:none}section.closed .ch{border-bottom:0}
+.sub{padding:10px 16px 2px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--acc)}
+.row{display:flex;gap:14px;padding:12px 16px;border-top:1px solid #f0eee9}.sub+.row{border-top:0}
+.th{flex:0 0 96px;width:96px;height:64px;border-radius:6px;object-fit:cover;background:#eee}
+.ph{flex:0 0 96px;height:64px;border-radius:6px;background:linear-gradient(135deg,#ecebe6,#dcdad3);display:flex;align-items:center;justify-content:center;color:#999;font-size:11px}
+.tx{flex:1;min-width:0}.tx b{display:block;font-size:16px}.tx .n{color:var(--mut);font-weight:400;margin-right:4px}
+.tx p{margin:3px 0;color:#333;font-size:14.5px}.tx a{color:var(--acc);font-size:13px;text-decoration:none}.tx a:hover{text-decoration:underline}.dt{color:var(--mut);font-size:13px}
+.v{display:flex;gap:4px;align-items:flex-start}.v button{border:1px solid var(--line);background:#fff;border-radius:6px;cursor:pointer;font-size:14px;padding:3px 7px;opacity:.75}
+.v button:hover{opacity:1}.v button.on.up{background:var(--up);border-color:var(--up);opacity:1}.v button.on.dn{background:var(--dn);border-color:var(--dn);opacity:1}
+.ch .v button{font-size:16px;padding:4px 9px}
+</style></head><body>
+<header><h1>Morning Briefing</h1><p>Wednesday, October 7, 2026 · Toronto <button id="send" style="float:right;border:1px solid #1f5fbf;background:#1f5fbf;color:#fff;border-radius:8px;padding:6px 12px;cursor:pointer;font-size:14px">Send feedback</button></p></header><main id="m"></main>
+<script>
+const DATA=[
+{"cat":"General global news","items":[
+[1,"Houthis claim strikes on Riyadh airport as Yemen government forces retake Mokha","The escalation keeps Brent near $100 a barrel and has again disrupted Saudi Arabia's East-West export pipeline.","CNBC","https://www.cnbc.com/2026/10/06/iran-war-yemen-saudi-arabia-mokha-oil.html","Oct 6","01-houthi-saudi.jpg"],
+[2,"Pakistan and Türkiye agree to deploy forces to Saudi Arabia under the Mecca defence pact","This is the first time the August pact has been put into effect, raising the chance of a wider regional war.","Al Jazeera","https://www.aljazeera.com/news/2026/10/6/pakistan-turkiye-join-saudi-deterrence-against-houthis-what-that-means","Oct 6","02-mecca-pact.jpg"]]},
+{"cat":"Technology business news","items":[
+[3,"Schneider Electric agrees to buy PTC for $22.6B in cash","It's Schneider's biggest deal ever, a 42% premium for PTC's industrial design software.","Techlantis","https://thetechlantis.com/news/schneider-electric-acquires-ptc-22-billion","Oct 6",null],
+[4,"Paramount closes its $110B Warner Bros. Discovery deal, forming Skydance","The combined company has about $70B in revenue and starts trading as SKYD.","TechCrunch","https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/","Oct 6",null],
+[5,"Uber to buy ezCater for $2.3B in cash","The deal pushes Uber Eats into corporate catering.","Bloomberg","https://www.bloomberg.com/news/articles/2026-10-06/uber-to-buy-catering-platform-ezcater-for-2-3-billion-in-cash","Oct 6",null]]},
+{"cat":"Investments and deals","items":[
+[6,"Type One Energy raises a $200M Series B for a 400 MW fusion plant by 2034","Breakthrough Energy Ventures and Clutterbuck led; the company says this covers about half the cost of its first plant.","TechCrunch","https://techcrunch.com/2026/10/06/type-one-energy-raised-200m-to-build-a-fusion-power-plant-by-2034/","Oct 6","06-typeone.jpg"],
+[7,"Multiply Labs raises a $75M Series B for robotic biomanufacturing","NantWorks led, with AstraZeneca and Teradyne joining as new investors.","Multiply Labs","https://www.multiplylabs.com/press/series-b-2026","Oct 6","07-multiply.jpg"],
+[8,"Minerva Humanoids comes out of stealth with a $10M pre-seed led by General Catalyst","It builds humanoid robots for hazardous energy and public-safety work and works with the University of Waterloo.","GlobeNewswire","https://www.globenewswire.com/news-release/2026/10/06/3375277/0/en/minerva-humanoids-emerges-from-stealth-with-10m-pre-seed-round-led-by-general-catalyst-to-build-humanoid-robots-for-the-world-s-most-dangerous-jobs.html","Oct 6",null],
+[9,"Quanfluence raises $10M for a photonic quantum computer","Chiratae Ventures led; the startup targets early processors in 2027.","Inc42","https://inc42.com/buzz/quanfluence-raises-10-mn-to-build-full-stack-photonic-quantum-computer/","Oct 7","09-quanfluence.jpg"]]},
+{"cat":"Sciences","items":[
+["Physics & Astronomy"],
+[10,"Francis Halzen wins the 2026 Nobel Prize in Physics for IceCube","He led the Antarctic detector that found high-energy neutrinos from outside our galaxy.","Ars Technica","https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/","Oct 6","10-nobel-physics.jpg"],
+[11,"Astronomers report a likely first \"microblazar,\" a black-hole jet pointed at Earth","The object, IRAS 18293-0941, is about 12,000 light-years away in our own galaxy.","Live Science","https://www.livescience.com/space/black-holes/earth-is-in-the-firing-line-of-a-strange-new-type-of-cosmic-object-a-microblazar","Oct 6","11-microblazar.jpg"],
+["Biology & Medicine"],
+[12,"Medicine Nobel goes to optogenetics pioneers Deisseroth, Hegemann and Nagel","Their work made it possible to switch nerve cells on and off with light in the living brain.","Karolinska Institutet","https://news.ki.se/the-2026-nobel-prize-in-physiology-or-medicine-to-peter-hegemann-georg-nagel-and-karl-deisseroth","Oct 5","12-nobel-medicine.jpg"],
+["Earth & Climate"],
+[13,"A global study finds ecosystems have far less backup capacity than assumed","It combines 423 studies and finds ocean carbon storage depends most strongly on biodiversity.","Scienmag","https://scienmag.com/ecosystems-have-far-less-spare-capacity-than-we-thought-global-study-finds/","Oct 6",null],
+[14,"Climate models may undercount cloud-seeding sea-spray particles about threefold","Long-term measurements in Ireland suggest models underestimate how many of these particles exist.","Scienmag","https://scienmag.com/ocean-spray-particles-that-seed-clouds-are-far-more-abundant-than-models-predict/","Oct 6",null],
+["Materials & Chemistry"],
+[15,"Kagan and Soai win the 2026 Nobel Prize in Chemistry","It recognizes their work on non-linear effects and autocatalysis in asymmetric synthesis.","NPR","https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry","Oct 7","15-nobel-chemistry.jpg"]]},
+{"cat":"Technology & Engineering","items":[
+["Space"],
+[16,"NASA plans a bulk launch purchase for its $30B Moon base","It's meant to get ahead of a rocket shortage with several providers.","Bloomberg","https://www.bloomberg.com/news/articles/2026-10-06/nasa-eyes-bulk-rocket-buy-for-moon-base-amid-spacex-phaseout","Oct 6",null],
+[17,"France picks Exotrail to lead a OneWeb deorbiting demo with Astroscale France and Eutelsat","The mission is planned for 2029–30 under France 2030.","Space Watch Africa","https://spacewatchafrica.com/exotrail-selected-under-france-2030-to-lead-a-sovereign-deorbiting-demonstration-with-astroscale-france-and-eutelsat/","Oct 6","17-exotrail.jpg"],
+[18,"FAA proposes two rules to simplify launch and reentry licensing","One covers lightning hazards and one covers flight-safety analysis.","SpaceNexus Daily","https://spacenexus.us/briefing/2026-10-06","Oct 6",null],
+["Energy & Nuclear"],
+[19,"NANO Nuclear buys U.S. fuel-processing assets for $13.5M","The deal comes with an existing NRC licence, a head start for making microreactor fuel.","Nuclear Engineering International","https://www.neimagazine.com/news/nano-secures-us-fuel-assets/","Oct 6",null],
+["Quantum"],
+[20,"Xanadu and GlobalFoundries sign a multi-year quantum manufacturing partnership","GlobalFoundries will make Xanadu's photon detectors and low-loss chip parts on its 300 mm line in New York.","The Qubit Report","https://thequbitreport.com/the-qubit-report/2026/10/06/the-qubit-report-october-6-2026/","Oct 6",null],
+[21,"Infineon and ZuriQ expand their trapped-ion chip partnership","They aim to scale up from a 9-ion two-dimensional array.","Infineon","https://www.infineon.com/press-release/2026/infpr202610-004","Oct 7","21-infineon.jpg"]]},
+{"cat":"Scientific papers","items":[
+["Space & Astronomy"],
+[22,"Planet found in a multi-star system using images taken 15 years after a microlensing event","Keck and Hubble images of OGLE-2006-BLG-284 directly detect the lens system and its planet.","arXiv","https://arxiv.org/abs/2610.07133","Oct 5","papers-01.jpg"],
+[23,"SETI Institute's largest-ever campaign listens at the point opposite the Sun","The Allen Telescope Array searches the one direction from which aliens could see Earth crossing the Sun.","arXiv","https://arxiv.org/abs/2610.07065","Oct 5","papers-02.jpg"],
+[24,"White dwarf is swallowing debris unlike anything in our solar system","HS 0209+0832 is rich in zinc, copper and niobium but low in silicon and iron.","arXiv","https://arxiv.org/abs/2610.07161","Oct 5","papers-03.jpg"],
+["AI & Robotics"],
+[25,"Google's MedGemma: open medical AI models that read images and text","The models gain 15–18% on chest X-ray classification and beat the base model when data is limited.","Nature Medicine","https://www.nature.com/articles/s41591-026-04626-w","Oct 6","papers-04.jpg"],
+[26,"BRACE: humanoid robots that push, carry and handle uneven ground while following an operator","The whole-body controller applies and compensates for commanded hand forces across many poses and terrains.","arXiv","https://arxiv.org/abs/2610.07052","Oct 5","papers-05.jpg"],
+[27,"Single-camera AI tracks an unknown spacecraft during rendezvous","A transformer plus a Kalman filter estimates the target's position and orientation without its shape, lidar or stereo.","arXiv","https://arxiv.org/abs/2610.07231","Oct 5","papers-06.jpg"],
+["Energy & Nuclear"],
+[28,"New exact stellarator equilibria without the usual symmetry","The analytic solutions give reference cases for testing fusion-device design codes.","arXiv","https://arxiv.org/abs/2610.07304","Oct 5","papers-07.jpg"],
+[29,"Machine-learning model for a leading fusion-reactor alloy","A model trained on quantum-chemistry calculations simulates the strength of V-4Ti-4Cr for reactor walls.","arXiv","https://arxiv.org/abs/2610.08291","Oct 6","papers-08.jpg"],
+["Quantum"],
+[30,"Silicon-style spin qubits in a 6×6 grid","Ten qubits run at once, and moving spins around the grid cuts crosstalk 42-fold.","arXiv","https://arxiv.org/abs/2610.07683","Oct 6","papers-09.jpg"],
+[31,"Benchmarking control of up to 48 electron spins at once","A system-wide fidelity measure covers states normally written off as errors.","arXiv","https://arxiv.org/abs/2610.07393","Oct 5","papers-10.jpg"],
+["Semiconductors & Materials"],
+[32,"Why boron and aluminum behave so differently as dopants in SiC power chips","Modeling shows how the two dopants differ in trapping charge carriers, which can limit device performance.","arXiv","https://arxiv.org/abs/2610.07942","Oct 6","papers-11.jpg"],
+[33,"A quick, non-destructive way to read defect direction in GaN wafers","The light/dark pattern in phase-contrast images reveals the direction of threading dislocations.","arXiv","https://arxiv.org/abs/2610.07837","Oct 6",null],
+["Biology & Medicine"],
+[34,"Longer fat molecules are a shared sign of aging across species","Knocking down the Plb1 gene reversed the effect and extended lifespan in worms.","Nature Aging","https://www.nature.com/articles/s43587-026-01223-x","Oct 6","papers-13.jpg"],
+[35,"Nanoparticle cancer vaccines shrink tumours across five mouse cancer models","The particles carry tumour antigens with an immune booster and kept T cells active.","Nature Biomedical Engineering","https://www.nature.com/articles/s41551-026-01786-5","Oct 6","papers-14.jpg"],
+[36,"The amino acid L-arginine switches off a key inflammation trigger","It binds NLRP3 directly and eased arthritis and Parkinson's-like symptoms in mice.","Nature Metabolism","https://www.nature.com/articles/s42255-026-01636-3","Oct 6","papers-15.jpg"]]}
+]
+, DATE='2026-10-07', REPO='OWNER/morning-briefing';
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+function votes(level,id,title){return `<span class="v" data-level="${level}" data-id="${id}" data-title="${esc(title)}"><button class="up" title="More like this">👍</button><button class="dn" title="Less like this">👎</button></span>`}
+let h='';
+for(const c of DATA){const cid=slug(c.cat);
+ h+=`<section id="${cid}"><div class="ch"><span class="car">▾</span><h2>${esc(c.cat)}</h2>${votes('category',cid,c.cat)}</div><div class="body">`;
+ for(const it of c.items){ if(it.length===1){h+=`<div class="sub">${esc(it[0])}</div>`;continue}
+  const [n,t,s,src,url,dt,img]=it;
+  h+=`<div class="row">${img?`<img class="th" src="img/${img}" alt="" loading="lazy">`:`<div class="ph">no image</div>`}<div class="tx"><b><span class="n">${n}.</span>${esc(t)}</b><p>${esc(s)}</p><a href="${url}" target="_blank" rel="noopener">${esc(src)}</a> <span class="dt">· ${dt}</span></div>${votes('story',String(n).padStart(2,'0'),t)}</div>`;}
+ h+=`</div></section>`;}
+document.getElementById('m').innerHTML=h;
+document.querySelectorAll('.ch').forEach(e=>e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')}));
+const key=(l,i)=>`fb:${DATE}:${l}:${i}`;
+document.querySelectorAll('.v').forEach(v=>{const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
+ if(st)v.querySelector('.'+st).classList.add('on');
+ v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
+  const dir=b.classList.contains('up')?'up':'dn';const was=b.classList.contains('on');
+  v.querySelectorAll('button').forEach(x=>x.classList.remove('on'));
+  const vote=was?'clear':(dir==='up'?'up':'down'); if(!was)b.classList.add('on');
+  was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),dir);
+  try{await fetch('/feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({date:DATE,level,id,title,vote})})}catch(e){console.warn(e)}
+ }))});
+
+document.getElementById('send').addEventListener('click',()=>{const lines=[];
+ document.querySelectorAll('.v').forEach(v=>{const s=localStorage.getItem(key(v.dataset.level,v.dataset.id));if(s)lines.push(`${s==='up'?'👍':'👎'} ${v.dataset.level} ${v.dataset.id}: ${v.dataset.title}`)});
+ if(!lines.length){alert('No votes yet.');return}
+ const body=`date: ${DATE}\n\n`+lines.join('\n');
+ if(!REPO||REPO.startsWith('__')){navigator.clipboard&&navigator.clipboard.writeText(body);alert('Feedback copied to clipboard:\n\n'+body);return}
+ window.open(`https://github.com/${REPO}/issues/new?title=${encodeURIComponent('Feedback '+DATE)}&body=${encodeURIComponent(body)}`,'_blank');});
+</script></body></html>
