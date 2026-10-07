@@ -21,6 +21,7 @@ section{background:var(--card);border:1px solid var(--line);border-radius:12px;m
 .mt{margin:4px 16px 12px;border:0;background:none;color:var(--acc);cursor:pointer;font-size:14px;padding:4px 0}
 .v{display:flex;gap:3px;align-items:flex-start;flex:0 0 auto}.v button{border:1px solid var(--line);background:#fff;border-radius:6px;cursor:pointer;font-size:13px;padding:2px 6px;opacity:.7;line-height:1.4}
 .v button:hover{opacity:1}.v button.on.up{background:var(--up);border-color:var(--up);opacity:1}.v button.on.dn{background:var(--dn);border-color:var(--dn);opacity:1}.v button.on.ne{background:var(--ne);border-color:var(--ne);color:#fff;opacity:1}
+.tog{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:4px 0 4px;background:#fff}.tog button{border:0;background:#fff;padding:8px 16px;cursor:pointer;font-size:14.5px}.tog button.on{background:var(--acc);color:#fff}
 .ch .v button{font-size:15px;padding:3px 8px}
 </style></head><body>
 <header><div><h1>Science & Technology</h1><p>Morning Briefing · Wednesday, October 7, 2026 · Toronto · <a href="../" style="color:#1f5fbf">all feeds</a></p></div><button id="send">Send feedback</button></header><main id="m"></main>
@@ -29,29 +30,36 @@ const DATA=[{"cat": "Technology business news", "subs": [{"sub": "Big Tech", "it
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const slug=s=>s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const votes=(level,id,title)=>`<span class="v" data-level="${level}" data-id="${id}" data-title="${esc(title)}"><button class="up" data-d="up" title="More like this">👍</button><button class="ne" data-d="neutral" title="Neutral">●</button><button class="dn" data-d="down" title="Less like this">👎</button></span>`;
-const row=(it,cls='')=>{const [n,t,s,src,url,dt,img,id]=it;
- return `<div class="row ${cls}" id="s${id}">${img?`<img class="th" src="../img/${img}" alt="" loading="lazy">`:`<div class="ph">no image</div>`}<div class="tx"><b><span class="n">${n}.</span>${esc(t)}</b><p>${esc(s)}</p><a href="${url}" target="_blank" rel="noopener">${esc(src)}</a> <span class="dt">· ${dt}</span></div>${votes('story',id,t)}</div>`};
-let h='';
+const row=(it,cls='',V='all')=>{const [n,t,s,src,url,dt,img,id]=it;
+ return `<div class="row ${cls}" id="${V}-s${id}">${img?`<img class="th" src="../img/${img}" alt="" loading="lazy">`:`<div class="ph">no image</div>`}<div class="tx"><b><span class="n">${n}.</span>${esc(t)}</b><p>${esc(s)}</p><a href="${url}" target="_blank" rel="noopener">${esc(src)}</a> <span class="dt">· ${dt}</span></div>${votes('story',id,t)}</div>`};
+function renderCats(DATA,V){let h='';
 for(const c of DATA){const cid=slug(c.cat);
  // group top 5: round-robin of each subgroup's ranked items
  const top=[];for(let r=0;top.length<5&&r<10;r++)for(const s of c.subs){if(s.items[r]&&top.length<5)top.push(s.items[r])}
- h+=`<section id="${cid}"><div class="ch"><span class="car">▾</span><h2>${esc(c.cat)}</h2>${votes('category',cid,c.cat)}</div><div class="body">`;
- if(!(c.subs.length===1&&!c.subs[0].sub))h+=`<div class="top"><h4>Top 5</h4><ol>${top.map(it=>`<li><a href="#s${it[7]}">${esc(it[1])}</a></li>`).join('')}</ol></div>`;
+ h+=`<section id="${V}-${cid}"><div class="ch"><span class="car">▾</span><h2>${esc(c.cat)}</h2>${votes('category',cid,c.cat)}</div><div class="body">`;
+ if(!(c.subs.length===1&&!c.subs[0].sub))h+=`<div class="top"><h4>Top 5</h4><ol>${top.map(it=>`<li><a href="#${V}-s${it[7]}">${esc(it[1])}</a></li>`).join('')}</ol></div>`;
  for(const s of c.subs){if(!s.items.length)continue;const sid=cid+'/'+slug(s.sub);
   h+=`<div class="sub">`+(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',sid,c.cat+' › '+s.sub)}</div>`:'');
-  s.items.slice(0,10).forEach((it,i)=>h+=row(it,i>=5?'more':''));
+  s.items.slice(0,10).forEach((it,i)=>h+=row(it,i>=5?'more':'',V));
   if(s.items.length>5)h+=`<button class="mt">…more (${Math.min(10,s.items.length)-5})</button>`;
   h+=`</div>`;}
  h+=`</div></section>`;}
-document.getElementById('m').innerHTML=h;
+return h}
+let VIEWS=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+let html='';if(VIEWS.length>1)html+=`<div class="tog">${VIEWS.map((v,i)=>`<button data-v="${v[0]}" class="${i?'':'on'}">${esc(v[1])}</button>`).join('')}</div>`;
+VIEWS.forEach((v,i)=>html+=`<div class="view" data-v="${v[0]}" ${i?'hidden':''}>${renderCats(v[2],v[0])}</div>`);
+document.getElementById('m').innerHTML=html;
+document.querySelectorAll('.tog button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tog button').forEach(x=>x.classList.toggle('on',x===b));document.querySelectorAll('.view').forEach(v=>v.hidden=v.dataset.v!==b.dataset.v);try{localStorage.setItem('view:'+FEED,b.dataset.v)}catch(e){}}));
+{const pv=localStorage.getItem('view:'+FEED);const pb=pv&&document.querySelector(`.tog button[data-v="${pv}"]`);if(pb)pb.click();}
+
 document.querySelectorAll('.ch').forEach(e=>e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')}));
 document.querySelectorAll('.mt').forEach(b=>b.addEventListener('click',()=>{const s=b.parentElement;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'less':`…more (${s.querySelectorAll('.more').length})`}));
 const key=(l,i)=>`fb:${FEED}:${DATE}:${l}:${i}`;
 document.querySelectorAll('.v').forEach(v=>{const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
  if(st)v.querySelectorAll(`[data-d="${st}"]`).forEach(b=>b.classList.add('on'));
  v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
-  const was=b.classList.contains('on');v.querySelectorAll('button').forEach(x=>x.classList.remove('on'));
-  const vote=was?'clear':b.dataset.d; if(!was)b.classList.add('on');
+  const was=b.classList.contains('on');const vote=was?'clear':b.dataset.d;
+  document.querySelectorAll(`.v[data-level="${level}"][data-id="${id}"]`).forEach(w=>w.querySelectorAll('button').forEach(x=>x.classList.toggle('on',!was&&x.dataset.d===vote)));
   was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),vote);
   // mirror state on duplicate controls (none currently)
   try{await fetch('feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({feed:FEED,date:DATE,level,id,title,vote})})}catch(e){}
