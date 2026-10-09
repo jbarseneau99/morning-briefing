@@ -5,12 +5,18 @@
    "path": "/2026-10-07/",
    "news": 37,
    "scitech": 82
+  },
+  {
+   "date": "2026-10-08",
+   "path": "/2026-10-08/",
+   "news": 35,
+   "scitech": 82
   }
  ],
  "current": {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "path": "/",
-  "news": 35,
-  "scitech": 82
+  "news": 23,
+  "scitech": 64
  }
 }
