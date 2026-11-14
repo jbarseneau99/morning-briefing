@@ -1,0 +1,39 @@
+{
+  "name": "Morning Briefing",
+  "short_name": "Briefing",
+  "description": "Daily morning briefing for J. Brant Arseneau",
+  "start_url": "/morning-briefing/",
+  "scope": "/morning-briefing/",
+  "id": "/morning-briefing/",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "en",
+  "theme_color": "#f4f1eb",
+  "background_color": "#f4f1eb",
+  "icons": [
+    {
+      "src": "/morning-briefing/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/morning-briefing/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/morning-briefing/img/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/morning-briefing/img/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
