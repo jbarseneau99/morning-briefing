@@ -1,5 +1,5 @@
 /* Morning Briefing shell worker: network-first for HTML so daily editions update; cache the app shell for fast standalone launch. */
-const VERSION = 'briefing-shell-v4';
+const VERSION = 'briefing-shell-v5';
 const SHELL = [
   '/morning-briefing/',
   '/morning-briefing/news/',
