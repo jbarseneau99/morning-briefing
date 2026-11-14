@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "updated_at": "2026-11-14T14:21:30-0500",
+ "updated_at": "2026-11-14T15:16:18-0500",
  "built_at": "2026-11-14T11:23:49-0500",
  "stories": [
   {
@@ -775,6 +775,20 @@
   },
   {
    "n": 56,
+   "title": "Pentagon eyes smaller troop cuts across Europe in reversal",
+   "desc": "The US is expected to cut about 5,000 US troops, well below the 25,000 previously feared as it looked favourably on increased NATO defence spending.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/europe/pentagon-eyes-smaller-troop-cuts-across-europe-in-reversal",
+   "dt": "Nov 14",
+   "img": "f149ca265b.jpg",
+   "id": "uf149ca265b",
+   "added_at": "2026-11-14T15:16:18-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Government contracts"
+  },
+  {
+   "n": 57,
    "title": "ESA's Euclid releases its first major map, covering more than 900 million galaxies",
    "desc": "DR1-Foundation spans 1,900 square degrees, about 13 months of observations.",
    "src": "ESA",
@@ -788,7 +802,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 57,
+   "n": 58,
    "title": "These 'ghostly' galaxies appear to have lost their dark matter",
    "desc": "New observations of diffuse systems challenge standard halo models.",
    "src": "WIRED",
@@ -802,7 +816,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "A likely supermassive neutron star may help close the mass gap with black holes",
    "desc": "The candidate sits in a range where theory has been thin.",
    "src": "Phys.org",
@@ -816,7 +830,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 59,
+   "n": 60,
    "title": "Astronomers confirm a tiny new moon is orbiting Earth — at least through the holidays",
    "desc": "A temporary mini-moon will linger for weeks.",
    "src": "Live Science",
@@ -830,7 +844,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 60,
+   "n": 61,
    "title": "Astronomers trace mystery radio signals to a white dwarf and a sun-like star",
    "desc": "An odd couple appears to be the source of repeating bursts.",
    "src": "Space.com",
@@ -844,7 +858,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 61,
+   "n": 62,
    "title": "We beat screwworm once. Here’s how we’re trying to do it again",
    "desc": "Screwworm, which can devastate livestock, was eliminated from the U.S. in 1966. Now they’re back and the same old technique won’t be enough to get rid of them",
    "src": "Scientific American",
@@ -858,7 +872,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 62,
+   "n": 63,
    "title": "Checking your connection",
    "desc": "SpaceX's Starship spacecraft was \"healthy\" as it orbited the Earth and on track to return Saturday to its Texas launch site, where Elon Musk's company was planning to \"catch\" the vehicle for the first time.",
    "src": "Phys.org",
@@ -872,7 +886,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 63,
+   "n": 64,
    "title": "Why the brain’s ability to picture images may influence decision making",
    "desc": "Some people are excellent at visualizing scenes and images in their head, while others can’t do it at all",
    "src": "Scientific American",
@@ -886,7 +900,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 64,
+   "n": 65,
    "title": "Bluetongue virus confirmed on County Down farm",
    "desc": "Officials from the Department of Agriculture, Environment and Rural Affairs said the virus had been detected in three sheep.",
    "src": "BBC",
@@ -900,7 +914,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 65,
+   "n": 66,
    "title": "'Flames soon engulfed us': Artemis II astronaut Jeremy Hansen describes what splashdown felt like from inside the Orion capsule | Live Scien",
    "desc": "After nine days in space, the Artemis II crewmembers faced their final and riskiest challenge: splashdown. In this excerpt from the book \"Earthrise: Inside Artemis II, the Groundbreaking Human Mission into Deep Space,\" astronaut Jeremy Hansen describes the moment from his chair.",
    "src": "Live Science",
@@ -914,7 +928,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 66,
+   "n": 67,
    "title": "UCLA boosts a healthy gene copy to offset autism-linked mutations in lab models",
    "desc": "Enhancer-targeted CRISPR-A restored more typical activity in organoids; it is not a treatment yet.",
    "src": "UCLA Health",
@@ -928,7 +942,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 67,
+   "n": 68,
    "title": "A gene flaw from a bottlenecked reintroduction is killing Swiss lynx",
    "desc": "A Nature paper pins lethal organ mineralization on a recessive FGF23 defect.",
    "src": "Nature Ecology & Evolution",
@@ -942,7 +956,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 68,
+   "n": 69,
    "title": "WHO authorities say measles is back in the United States",
    "desc": "The loss of elimination status follows a sustained outbreak.",
    "src": "Live Science",
@@ -956,7 +970,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 69,
+   "n": 70,
    "title": "A fruit-fly sleep protein yields peptides that inhibit drug-resistant bacteria in lab tests",
    "desc": "An unexpected antimicrobial lead from a circadian protein.",
    "src": "Phys.org",
@@ -970,7 +984,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 70,
+   "n": 71,
    "title": "A brain-implant startup pauses its trials",
    "desc": "STAT reports a clinical halt in a closely watched neurotech program.",
    "src": "STAT",
@@ -984,7 +998,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 71,
+   "n": 72,
    "title": "Scientists describe two new howler monkey species in the Amazon — already endangered",
    "desc": "The split adds urgency to habitat protection.",
    "src": "Live Science",
@@ -998,7 +1012,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 72,
+   "n": 73,
    "title": "Araceli raises $4.5M for drug discovery tools aimed at reducing animal testing",
    "desc": "Oregon-based Araceli Biosciences raised $4.5 million to commercialize cell-imaging tools that help researchers test potential drugs using human cells, with the aim of reducing reliance on animal studies while producing more relevant results. Read More",
    "src": "GeekWire",
@@ -1012,7 +1026,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 73,
+   "n": 74,
    "title": "Pharmalittle: We're reading about Lilly conflict questions, a DEA OK for a narcolepsy pill, and more",
    "desc": "A deal for smart-ring maker Oura to acquire a telehealth company is raising conflict-of-interest questions for Eli Lilly",
    "src": "STAT",
@@ -1026,7 +1040,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 74,
+   "n": 75,
    "title": "COVID-era Wuhan party boss under investigation, says China's anti-graft watchdog",
    "desc": "BEIJING, Nov 13 - Wang Zhonglin, the former party chief of the central Chinese province of Hubei and its capital, Wuhan, is under investigation for \\\"suspected serious violations of discipline and law\\\" - a common euphemism for corruption - China's anti-graft watchdog said in a statement on Friday.",
    "src": "The Straits Times",
@@ -1040,7 +1054,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 75,
+   "n": 76,
    "title": "Senators introduce bill to curb conflicts of interest on preventive care panel",
    "desc": "Some of the panel's members could benefit financially from the decisions they make, STAT's reporting showed.",
    "src": "STAT",
@@ -1054,7 +1068,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 76,
+   "n": 77,
    "title": "Ocean carbon uptake has risen while land uptake has stalled, 30 years of data show",
    "desc": "The sea is doing more of the work of absorbing fossil-fuel CO2.",
    "src": "Phys.org",
@@ -1068,7 +1082,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 77,
+   "n": 78,
    "title": "California steels for storms that could trigger massive waves and flooding",
    "desc": "A Pacific system is expected to hammer the coast.",
    "src": "Phys.org",
@@ -1082,7 +1096,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 78,
+   "n": 79,
    "title": "Alaska laments the decline of its prized salmon populations",
    "desc": "Returns have slumped in rivers that once defined the fishery.",
    "src": "Phys.org",
@@ -1096,7 +1110,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 79,
+   "n": 80,
    "title": "Mountain growth spurts may have sparked complex life on Earth",
    "desc": "A new study links uplift pulses to bursts of biological complexity.",
    "src": "Phys.org",
@@ -1110,7 +1124,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 80,
+   "n": 81,
    "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
    "desc": "People around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe After the world’s hottest summer since records began in 1850, the death toll from extreme weather in 2026 is already in the high tens of thousands. That is a conservativ",
    "src": "The Guardian",
@@ -1124,7 +1138,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 81,
+   "n": 82,
    "title": "UN climate chief urges speed as COP31 confronts fossil fuel divide",
    "desc": "ANTALYA, Turkey, Nov 14 - The UN's top climate official urged negotiators at the COP31 conference in Turkey on Saturday to move swiftly towards a deal and \\\"avoid tactical delays\\\" as the summit heads into its second and final week.",
    "src": "The Straits Times",
@@ -1138,7 +1152,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 82,
+   "n": 83,
    "title": "S’pore authorises first carbon credit project in Rwanda",
    "desc": "Singapore and Bangladesh also inked a pact at COP31 to explore carbon trading in the future.",
    "src": "The Straits Times",
@@ -1152,7 +1166,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 83,
+   "n": 84,
    "title": "Ecuador wants to monetize its biodiversity — while still drilling for oil",
    "desc": "Ecuador is planning to channel funds into its biodiversity, but faces a key challenge: its reliance on oil.",
    "src": "CNBC",
@@ -1166,7 +1180,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 84,
+   "n": 85,
    "title": "'Climate action is alive': Triumphant Democrats attend COP31 summit shunned by Trump",
    "desc": "A delegation of 18 Democratic lawmakers arrived at the COP31 climate summit in Turkey on Saturday to reaffirm the US commitment to tackling global warming following their sweeping midterm election victory.",
    "src": "France 24",
@@ -1180,7 +1194,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 85,
+   "n": 86,
    "title": "Divers explore recently scuttled SS United States in new video",
    "desc": "The ship was intentionally sunk off the coast of Florida in order to create the world's largest artificial ocean reef.",
    "src": "BBC",
@@ -1194,7 +1208,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 86,
+   "n": 87,
    "title": "A water-activated polymer forms solid shapes underwater and bonds glass fragments",
    "desc": "The material sets in wet conditions, a rare trick for adhesives.",
    "src": "Phys.org",
@@ -1208,7 +1222,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 87,
+   "n": 88,
    "title": "Combining five metals in one oxide improves ethanol gas sensing",
    "desc": "A high-entropy oxide outperforms simpler sensor chemistries.",
    "src": "Phys.org",
@@ -1222,7 +1236,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 88,
+   "n": 89,
    "title": "Ancient rocks reveal a dramatic journey from deep inside Earth",
    "desc": "Samples record a path from the mantle toward the surface.",
    "src": "Phys.org",
@@ -1236,7 +1250,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 89,
+   "n": 90,
    "title": "A genetic atlas traces 10,000 years of sheep breeding",
    "desc": "Genomes map how humans shaped the species.",
    "src": "Phys.org",
@@ -1250,7 +1264,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 90,
+   "n": 91,
    "title": "SpaceX's Starship reaches orbit, but the booster catch is aborted into the Gulf",
    "desc": "Flight 15's Super Heavy diverted after a guidance issue and was destroyed before splashdown.",
    "src": "SpaceNews",
@@ -1264,7 +1278,7 @@
    "sub": "Space"
   },
   {
-   "n": 91,
+   "n": 92,
    "title": "Ukraine and Russia race to build military satellite networks",
    "desc": "Both sides are pushing indigenous space links as terrestrial systems are struck.",
    "src": "Al Jazeera",
@@ -1278,7 +1292,7 @@
    "sub": "Space"
   },
   {
-   "n": 92,
+   "n": 93,
    "title": "Rocket Lab notches its 100th launch, sending an Earth-observing satellite to orbit",
    "desc": "A milestone for the small-launch company.",
    "src": "Space.com",
@@ -1292,7 +1306,7 @@
    "sub": "Space"
   },
   {
-   "n": 93,
+   "n": 94,
    "title": "California's new Air & Space Center, home of shuttle Endeavour, opens",
    "desc": "The long-delayed museum finally welcomes the public.",
    "src": "Space.com",
@@ -1306,7 +1320,7 @@
    "sub": "Space"
   },
   {
-   "n": 94,
+   "n": 95,
    "title": "Canadian lunar rovers are cleared for the next phase — and an earlier launch",
    "desc": "A Canadian program is pulled forward on the lunar timeline.",
    "src": "Payload",
@@ -1320,7 +1334,7 @@
    "sub": "Space"
   },
   {
-   "n": 95,
+   "n": 96,
    "title": "Watch SpaceX will attempt its 1st-ever",
    "desc": "SpaceX plans to catch the upper stage of its Starship megarocket at the launch pad today (Nov. 14), and you can watch the unprecedented action live.",
    "src": "Space.com",
@@ -1334,7 +1348,7 @@
    "sub": "Space"
   },
   {
-   "n": 96,
+   "n": 97,
    "title": "See Jupiter and Mars make a spectacular close approach overnight Nov. 15-16",
    "desc": "The red planet Mars will shine a little over 1 degree from Jupiter on the night of Nov. 15-16.",
    "src": "Space.com",
@@ -1348,7 +1362,7 @@
    "sub": "Space"
   },
   {
-   "n": 97,
+   "n": 98,
    "title": "SpaceX's Starship encounters problems during 15th test flight",
    "desc": "Elon Musk’s SpaceX successfully launched its Starship, the world's largest spaceship, into orbit where it should release 15 satellites for its Starlink network. A few minutes after lift off however, the rocket's booster which was meant to return to the pad splashed down in the Gulf of Mexico. Detail",
    "src": "France 24",
@@ -1362,7 +1376,7 @@
    "sub": "Space"
   },
   {
-   "n": 98,
+   "n": 99,
    "title": "SpaceX hopes to catch top of Starship rocket for first time",
    "desc": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
    "src": "BBC",
@@ -1376,7 +1390,7 @@
    "sub": "Space"
   },
   {
-   "n": 99,
+   "n": 100,
    "title": "Nearly 20 years after launch, ancient AMD Radeon HD 2000 and 3000 GPUs finally get a Linux fix for corrupted video playback — AI helps squas",
    "desc": "A new kernel contributor used AI to develop a patch for the drivers powering his nearly-20-year-old Radeon GPU.",
    "src": "Tomshardware",
@@ -1390,7 +1404,7 @@
    "sub": "Space"
   },
   {
-   "n": 100,
+   "n": 101,
    "title": "India pins hopes on an AI start-up to avoid becoming a 'digital colony'",
    "desc": "New Delhi is backing a domestic champion as a sovereignty play.",
    "src": "Financial Times",
@@ -1404,7 +1418,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 101,
+   "n": 102,
    "title": "OpenAI folds robotics into its main research org as general models start running robots",
    "desc": "The stand-alone team is dissolved; applied staff move under Brockman.",
    "src": "Fortune",
@@ -1418,7 +1432,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 102,
+   "n": 103,
    "title": "The AI boom may survive Huang, but a $500 billion funding hole remains",
    "desc": "Axios on the financing gap Nvidia's balance sheet had been backstopping.",
    "src": "Axios",
@@ -1432,7 +1446,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 103,
+   "n": 104,
    "title": "ElevenLabs launches an app that combines meeting notes and team dictation",
    "desc": "The voice lab is pushing deeper into workplace audio.",
    "src": "TechCrunch",
@@ -1446,7 +1460,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 104,
+   "n": 105,
    "title": "Pope Leo is on a lonely crusade to inspire AI to work for the good of humanity",
    "desc": "Industry has little time to consider the consequences of its actions, analysts say",
    "src": "The Globe and Mail",
@@ -1460,7 +1474,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 105,
+   "n": 106,
    "title": "Security Verification",
    "desc": "Opportunities in China lie as much in the picks and shovels of the AI supply chain",
    "src": "Financial Times",
@@ -1474,7 +1488,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 106,
+   "n": 107,
    "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
    "desc": "Normally, aviation is slow to embrace new technology—but AI has come for the skies.",
    "src": "WIRED",
@@ -1488,7 +1502,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 107,
+   "n": 108,
    "title": "This week in Tom's Hardware Premium: November 14, 2026 — Mac Studio versus DGX Spark, AMD's MEXT cuts DRAM requirements in half, and the Hua",
    "desc": "Catch up with everything we've published this week on our subscription service, Tom's Hardware Premium, including exclusive interviews, local AI deep dives, and much more.",
    "src": "Tomshardware",
@@ -1502,7 +1516,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 108,
+   "n": 109,
    "title": "Tech Now - Landslides: Can Tech Save Lives?",
    "desc": "Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.",
    "src": "BBC",
@@ -1516,7 +1530,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 109,
+   "n": 110,
    "title": "U.S. Treasury Secretary questions whether Nvidia knowingly sold AI GPUs to shell companies, says company itself is responsible — ‘I think it",
    "desc": "Scott Bessent wonders whether Nvidia's management knew about selling restricted hardware to shell companies, but does not directly blame Jensen Huang of anything.",
    "src": "Tomshardware",
@@ -1530,7 +1544,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 110,
+   "n": 111,
    "title": "Centrus and Oklo lock in fuel for an Ohio advanced-reactor deployment",
    "desc": "A HALEU supply deal for a first commercial site.",
    "src": "World Nuclear News",
@@ -1544,7 +1558,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 111,
+   "n": 112,
    "title": "SoftBank's failed bet on gas turbines for AI drove a $3.7 billion charge",
    "desc": "The FT says a power-hardware wager for data centres went wrong.",
    "src": "Financial Times",
@@ -1558,7 +1572,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 112,
+   "n": 113,
    "title": "The nuclear industry urges recognition in COP31's 35-by-35 pledge",
    "desc": "Vendors want new nuclear counted in the 2035 target.",
    "src": "World Nuclear News",
@@ -1572,7 +1586,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 113,
+   "n": 114,
    "title": "Strength and leak tests are completed for Akkuyu 1's containment",
    "desc": "Türkiye's first nuclear plant passes a key construction milestone.",
    "src": "World Nuclear News",
@@ -1586,7 +1600,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 114,
+   "n": 115,
    "title": "BWXT finishes a manufacturing-facility expansion",
    "desc": "The nuclear-components maker adds capacity.",
    "src": "World Nuclear News",
@@ -1600,7 +1614,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 115,
+   "n": 116,
    "title": "Tracking the 5,000-kilometre journey between democracy and authoritarianism",
    "desc": "A road trip along the frontier between democracy and authoritarianism took us from a nuclear bunker in Finland to a dying city in Ukraine",
    "src": "The Globe and Mail",
@@ -1614,7 +1628,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 116,
+   "n": 117,
    "title": "Tesla Cybercab orders open at $29,990 + $299/mo, only in Robotaxi zones",
    "desc": "Tesla is now inviting “select customers” to buy a Cybercab for personal use at $29,990, but the car won’t move unless you also pay $299 a month for an “Autonomy Subscription.” And it only works inside Tesla’s Robotaxi service areas in Texas and Florida, the same geofences that have turned out to be ",
    "src": "Electrek",
@@ -1628,7 +1642,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 117,
+   "n": 118,
    "title": "Meet NIVA: The nuclear industry’s own AI tool",
    "desc": "Built on decades of technical, regulatory, and operational experience, the Nuclear Industry Virtual Assistant (NIVA) is out of beta testing and in use at nuclear power plants across North America. NIVA debuted in August, featuring plain-language generative AI functions that would be familiar to peop",
    "src": "Ans",
@@ -1642,7 +1656,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 118,
+   "n": 119,
    "title": "Rinnai’s new heat pump water heaters get smarter – and easier to install",
    "desc": "Rinnai has launched a new lineup of electric heat pump water heaters that adds wifi controls and more installation options to an appliance that can cut the energy needed for hot showers. more…",
    "src": "Electrek",
@@ -1656,7 +1670,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 119,
+   "n": 120,
    "title": "Gov. Ferguson seeks $10M to help develop Eastern Wash. clean-energy hub",
    "desc": "Washington Gov. Bob Ferguson wants to spend $10 million on roads and utilities at a Richland industrial park where fertilizer, solar and potentially nuclear-fuel projects could take shape. The proposal is the latest step in a yearslong effort to bring clean-energy businesses to former Hanford land. ",
    "src": "GeekWire",
@@ -1670,7 +1684,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 120,
+   "n": 121,
    "title": "Osaka links domestic superconducting processors to the OCTOPUS supercomputer",
    "desc": "The SEAFOOD platform is a new hybrid quantum-classical hookup in Japan.",
    "src": "Quantum Computing Report",
@@ -1684,7 +1698,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 121,
+   "n": 122,
    "title": "Qblox and AMD report microsecond-scale quantum-feedback tests",
    "desc": "A control-stack demo aimed at tighter real-time loops.",
    "src": "Quantum.world",
@@ -1698,7 +1712,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 122,
+   "n": 123,
    "title": "QuiX Quantum wins PhotonDelta funding for photonic machines",
    "desc": "A European photonic-qubit company adds capital.",
    "src": "HPCwire",
@@ -1712,7 +1726,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 123,
+   "n": 124,
    "title": "BSC at SC26: From RISC-V to Quantum Computing - HPCwire",
    "desc": "High-profile presence of BSC at the International Conference for High Performance Computing, Networking, Storage, and Analysis Nov. 13, 2026 — The Barcelona Supercomputing Center – Centro Nacional de Supercomputación (BSC-CNS) returns to SC, the world’s leading conference on high-performance computi",
    "src": "HPCwire",
@@ -1726,7 +1740,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 124,
+   "n": 125,
    "title": "Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Award",
    "desc": "Insider Brief PRESS RELEASE — Atom Computing, a leader in scalable neutral-atom quantum computing, today announced it has signed an agreement for up to $100 million with the U.S. Department of Commerce to accelerate research and development of fault-tolerant, utility-scale quantum computers. The awa",
    "src": "Thequantuminsider",
@@ -1740,7 +1754,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 125,
+   "n": 126,
    "title": "U.S. Quantum Ambitions Face a Supply Chain Test, Policy Analysts Warn",
    "desc": "Insider Brief U.S. quantum ambitions could outpace the supply chains needed to turn laboratory advances into a commercial industry, four policy analysts warn. In a policy piece published by the Foundation for American Innovation, Joshua Levine, Prineha Narang, Jacqueline Tame and Alexandra Seymour G",
    "src": "Thequantuminsider",
@@ -1754,7 +1768,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 126,
+   "n": 127,
    "title": "Quantum Systems drones back in the air after malware scare",
    "desc": "Germany's Bundeswehr lifted precautionary grounding after malicious update reportedly reached military servers",
    "src": "The Register",
@@ -1768,7 +1782,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 127,
+   "n": 128,
    "title": "China's SMIC sees an AI computing crunch until 2028 as Nvidia curbs tighten",
    "desc": "The foundry says domestic supply cannot quickly replace restricted GPUs.",
    "src": "South China Morning Post",
@@ -1782,7 +1796,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 128,
+   "n": 129,
    "title": "Nvidia said chip geotracking to fight smuggling is feasible, a lawmaker says",
    "desc": "The comment comes as Congress eyes the Chip Security Act.",
    "src": "MIT Technology Review",
@@ -1796,7 +1810,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 129,
+   "n": 130,
    "title": "CXMT targets higher-value DRAM with AI-server memory and LPDDR6",
    "desc": "China's memory champion is climbing the stack.",
    "src": "DigiTimes",
@@ -1810,7 +1824,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 130,
+   "n": 131,
    "title": "Cambridge, UK-based Tendrils, which is designing a CPU architecture with thousands of cores operating in parallel, raised $30M led by Benchm",
    "desc": "John Reynolds / Tech.eu : Cambridge, UK-based Tendrils, which is designing a CPU architecture with thousands of cores operating in parallel, raised $30M led by Benchmark — Tendrils Compute is one of several UK chip startups which investors are backing. — A UK startup developing a radically different",
    "src": "Techmeme",
@@ -1824,7 +1838,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 131,
+   "n": 132,
    "title": "How Microcredentials Help Engineers Build Trustworthy AI",
    "desc": "Engineering teams are moving at breakneck speed to integrate artificial intelligence, but they are running into a formidable new barrier: compliance issues. Translating high-level AI ethics , governance , and auditing into daily operational workflows has become one of the industry’s toughest challen",
    "src": "IEEE Spectrum",
@@ -1838,7 +1852,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 132,
+   "n": 133,
    "title": "Marvell Scales Connectivity to Address AI Infrastructure",
    "desc": "As AI Workloads Outgrow Single-rack Memory and Bandwidth, Marvell Demonstrates Interconnect and Memory Technologies Engineered to Scale Together SANTA CLARA, Calif., Nov. 13, 2026 — Marvell Technology, Inc., a leader in data infrastructure semiconductor solutions, today announced its participation i",
    "src": "HPCwire",
@@ -1852,7 +1866,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 133,
+   "n": 134,
    "title": "Will Jensen Huang’s downfall dent China’s AI ambitions?",
    "desc": "His departure from Nvidia comes as US lawmakers are pressing for stricter chip export controls to China.",
    "src": "The Straits Times",
@@ -1866,7 +1880,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 134,
+   "n": 135,
    "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
    "desc": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
    "src": "CNBC",
@@ -1880,7 +1894,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 135,
+   "n": 136,
    "title": "Staera Semiconductor Emerges from Stealth with $4.6M to Break AI",
    "desc": "Formerly New Silicon Corporation (NSC), Staera builds LED optical links inside silicon chips, so AI systems can move data faster and scale further without adding power or heat SAN FRANCISCO, Nov. 13, 2026 — Staera Semiconductor (Staera) has emerged from stealth with a technology that builds optical ",
    "src": "HPCwire",
@@ -1894,7 +1908,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 136,
+   "n": 137,
    "title": "Security Verification",
    "desc": "Chip group lacks full insurance coverage for damages stemming from the conduct of executives",
    "src": "Financial Times",
@@ -1908,7 +1922,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 137,
+   "n": 138,
    "title": "JWST Rocky Worlds DDT Observations of LTT 1445 A b and c in Secondary Eclipse Using MIRI/F1500W",
    "desc": "",
    "src": "arXiv",
@@ -1922,7 +1936,7 @@
    "sub": "Space & Astronomy"
   },
   {
-   "n": 138,
+   "n": 139,
    "title": "Probing Ultralight Higher-spin Dark Matter using Stellar Kinematics of Dwarf Galaxies",
    "desc": "",
    "src": "arXiv",
@@ -1936,7 +1950,7 @@
    "sub": "Space & Astronomy"
   },
   {
-   "n": 139,
+   "n": 140,
    "title": "Double Blandford: Resistive GRMHD simulations of accreting black holes simultaneously launch winds and jets",
    "desc": "",
    "src": "arXiv",
@@ -1950,7 +1964,7 @@
    "sub": "Space & Astronomy"
   },
   {
-   "n": 140,
+   "n": 141,
    "title": "Resolving Radiogenic Heterogeneity in the Earth's Mantle with Multi-Site Geo-neutrino Measurements",
    "desc": "",
    "src": "arXiv",
@@ -1964,7 +1978,7 @@
    "sub": "Space & Astronomy"
   },
   {
-   "n": 141,
+   "n": 142,
    "title": "Euclid: Data Release 1 (DR1) - First NISP emission-line maps: Methodology, validation, and applications to galaxy evolution",
    "desc": "",
    "src": "arXiv",
@@ -1978,7 +1992,7 @@
    "sub": "Space & Astronomy"
   },
   {
-   "n": 142,
+   "n": 143,
    "title": "Euclid Data Release 1 (DR1). Persistence in NISP detectors",
    "desc": "",
    "src": "arXiv",
@@ -1992,7 +2006,7 @@
    "sub": "Space & Astronomy"
   },
   {
-   "n": 143,
+   "n": 144,
    "title": "Effects of Lensing by Sgr A* on Semicoherent Searches for Continuous Gravitational Waves. I. Signal Model and Mismatch Studies",
    "desc": "Continuous gravitational waves (CWs) from neutron stars beyond the Galactic Center can be lensed by the supermassive black hole in Sgr A$^*$. Since the signal lasts far longer than the lensing time delay, the two geometric-optics images overlap and interfere. ",
    "src": "arXiv",
@@ -2006,7 +2020,7 @@
    "sub": "Space & Astronomy"
   },
   {
-   "n": 144,
+   "n": 145,
    "title": "Bidimensional Exploration of the warm-Temperature Ionised gaS (BETIS) III. The impact of eDIG on strong-line abundance determinations in galactic halos",
    "desc": "The extraplanar diffuse ionised gas (eDIG) is a key tracer of the feedback processes that connect galactic discs and halos. We present the first study of spatially resolved gas-phase chemical abundances in the eDIG of edge-on galaxies, based on integral field ",
    "src": "arXiv",
@@ -2020,7 +2034,7 @@
    "sub": "Space & Astronomy"
   },
   {
-   "n": 145,
+   "n": 146,
    "title": "The astrometric precision of incoherent pulsar timing arrays",
    "desc": "We address the astrometric precision with which a pulsar timing array (PTA) can localize a single astrophysical gravitational-wave source, in the regime where pulsar distances are poorly constrained compared to the gravitational wavelength. Using simple matche",
    "src": "arXiv",
@@ -2034,7 +2048,7 @@
    "sub": "Space & Astronomy"
   },
   {
-   "n": 146,
+   "n": 147,
    "title": "Auditing AI peer reviewers: a benchmark on real scientific papers",
    "desc": "LLM-based peer review is now used at production scale, but its evaluation remains limited. We introduce a benchmark that injects objective, localisable errors of four types (general issues, mathematics, numerics, citations) at three severity levels into real p",
    "src": "arXiv",
@@ -2048,7 +2062,7 @@
    "sub": "Space & Astronomy"
   },
   {
-   "n": 147,
+   "n": 148,
    "title": "HEIR: Harness Egocentric Intent for Human-Robot Interactions",
    "desc": "",
    "src": "arXiv",
@@ -2062,7 +2076,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 148,
+   "n": 149,
    "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
    "desc": "",
    "src": "arXiv",
@@ -2076,7 +2090,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 149,
+   "n": 150,
    "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
    "desc": "",
    "src": "arXiv",
@@ -2090,7 +2104,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 150,
+   "n": 151,
    "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
    "desc": "",
    "src": "arXiv",
@@ -2104,7 +2118,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 151,
+   "n": 152,
    "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
    "desc": "",
    "src": "arXiv",
@@ -2118,7 +2132,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 152,
+   "n": 153,
    "title": "SunLightBots: Turning sunlight into self-sustained, high-power motion in soft robots",
    "desc": "",
    "src": "arXiv",
@@ -2132,7 +2146,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 153,
+   "n": 154,
    "title": "FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification",
    "desc": "Local Binary Patterns (LBP) remain among the most widely used texture descriptors, from industrial inspection to medical imaging. Yet their radius, sampling angles, color transform and thresholds are fixed by hand for each dataset. We present FLEX-LBP, which l",
    "src": "arXiv",
@@ -2146,7 +2160,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 154,
+   "n": 155,
    "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
    "desc": "Interactive video-to-video applications require real-time generation while maintaining long-range temporal consistency. However, recent methods achieve speed by restricting attention to a fixed-length causal window. This limits long-range consistency whenever ",
    "src": "arXiv",
@@ -2160,7 +2174,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 155,
+   "n": 156,
    "title": "Goal Encoding in LLMs",
    "desc": "We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allo",
    "src": "arXiv",
@@ -2174,7 +2188,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 156,
+   "n": 157,
    "title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
    "desc": "Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only",
    "src": "arXiv",
@@ -2188,7 +2202,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 157,
+   "n": 158,
    "title": "Impact of edge-localized resonant magnetic perturbation on L-H transition in the KSTAR tokamak",
    "desc": "",
    "src": "arXiv",
@@ -2202,7 +2216,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 158,
+   "n": 159,
    "title": "Development of Sapphire-Based Solid-State Neutron Detectors for Fusion Environments",
    "desc": "",
    "src": "arXiv",
@@ -2216,7 +2230,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 159,
+   "n": 160,
    "title": "Observation of the $\\Lambda(1520)$ suppression in Pb-Pb collisions at $\\sqrt{s_{\\rm NN}} = 5.02$ TeV",
    "desc": "",
    "src": "arXiv",
@@ -2230,7 +2244,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 160,
+   "n": 161,
    "title": "The Gator low-background spectrometer: readout upgrade and photomultiplier tube radioassay for XLZD",
    "desc": "",
    "src": "arXiv",
@@ -2244,7 +2258,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 161,
+   "n": 162,
    "title": "Self-consistent thermal-runaway electron equilibria",
    "desc": "",
    "src": "arXiv",
@@ -2258,7 +2272,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 162,
+   "n": 163,
    "title": "On stimulated scattering including harmonic generation in an unmagnetized pair plasma for arbitrary pump strengths",
    "desc": "",
    "src": "arXiv",
@@ -2272,7 +2286,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 163,
+   "n": 164,
    "title": "Subwavelength registration of skull-compensating acoustic holograms via nonlinear parametric array feedback",
    "desc": "Realizing the potential of optimized acoustic holograms for applications like transcranial ultrasound requires sub-wavelength alignment accuracy (less than 1.5 mm at 1 MHz), which is difficult to achieve with current non-MRI optical neuro-navigation methods. T",
    "src": "arXiv",
@@ -2286,7 +2300,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 164,
+   "n": 165,
    "title": "Development of millikelvin scintillation photodetectors with CUPID",
    "desc": "CUPID is a next-generation tonne-scale cryogenic experiment that will search for the neutrinoless double beta decay $(0νββ)$ of $^{100}$Mo. It will be located at the Gran Sasso National Laboratory (Italy) and will employ the cryogenic calorimetric technique to",
    "src": "arXiv",
@@ -2300,7 +2314,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 165,
+   "n": 166,
    "title": "AI4Plasma II: Geometry-Aware Surrogate Modeling for Variable Electrode Gap GEC Plasmas",
    "desc": "Industrial plasma process development requires broad exploration of operating and geometric parameters. Geometric parameters, particularly electrode spacing, affect discharge structure and processing uniformity. Exploring these parameter spaces through repeate",
    "src": "arXiv",
@@ -2314,7 +2328,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 166,
+   "n": 167,
    "title": "SFQED Cascade Saturation and Laser Depletion Dynamics In CP Rotating Laser Standing Waves",
    "desc": "Multi-petawatt laser facilities are approaching the regime where colliding laser pulses can spontaneously ignite self-sustained QED cascades, converting laser energy into dense electron-positron plasmas. Using 1D PIC-QED simulations of a circularly polarized s",
    "src": "arXiv",
@@ -2328,7 +2342,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 167,
+   "n": 168,
    "title": "Observation of Genuine Multi-Time Quantum Memory",
    "desc": "",
    "src": "arXiv",
@@ -2342,7 +2356,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 168,
+   "n": 169,
    "title": "Persistent-mediator architecture for universal fault-tolerant quantum computation with color codes",
    "desc": "",
    "src": "arXiv",
@@ -2356,7 +2370,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 169,
+   "n": 170,
    "title": "Non-Convex Optimization via Quantum Tunneling Search on a Photonic Chip",
    "desc": "",
    "src": "arXiv",
@@ -2370,7 +2384,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 170,
+   "n": 171,
    "title": "Noise-Protected Superconducting Qudits from Higher-Harmonic Josephson Junctions",
    "desc": "",
    "src": "arXiv",
@@ -2384,7 +2398,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 171,
+   "n": 172,
    "title": "The landscape of quantum technology companies in 2026",
    "desc": "",
    "src": "arXiv",
@@ -2398,7 +2412,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 172,
+   "n": 173,
    "title": "Quantum Metrology and Quantum Battery in a Hyperfine-Coupled Spin System",
    "desc": "",
    "src": "arXiv",
@@ -2412,7 +2426,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 173,
+   "n": 174,
    "title": "Non-interferometric tests of gravitational decoherence models with mechanical oscillators",
    "desc": "Phenomenological models of quantum-gravity-induced decoherence can leave observable effects even in experiments that do not rely on interferometric measurements. We study three such models, based respectively on deformed relativistic symmetries, stochastic met",
    "src": "arXiv",
@@ -2426,7 +2440,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 174,
+   "n": 175,
    "title": "Implementation of a 1D Gaussian-modulated CV-QKD under finite-size parameter estimation",
    "desc": "Continuous-variable quantum key distribution (CV-QKD) is a promising technology for quantum-secure communications, offering high secret-key rates and straightforward integration with coherent optical communication systems. Conventional Gaussian-modulated CV-QK",
    "src": "arXiv",
@@ -2440,7 +2454,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 175,
+   "n": 176,
    "title": "Quantum Boltzmann Equation for Static Correlation with Cumulant Kernel Closure",
    "desc": "We present a Quantum Boltzmann Equation for static correlation by mapping the Bogoliubov-Born-Green-Kirkwood-Yvon hierarchy to discrete atomic-orbital matrix mechanics via the Wigner-Weyl isomorphism to evaluate scattering of the correlated two-body cumulant. ",
    "src": "arXiv",
@@ -2454,7 +2468,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 176,
+   "n": 177,
    "title": "Explicit Absolutely Maximally Entangled states in dimensions twice a prime power",
    "desc": "Absolutely maximally entangled (AME) states are pure multipartite states with maximally mixed reductions on every set of at most half the parties. We construct explicit families in local dimension $2q$, twice an odd prime power $q$, using an established coupli",
    "src": "arXiv",
@@ -2468,7 +2482,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 177,
+   "n": 178,
    "title": "A superconducting quantum point contact in Ge",
    "desc": "",
    "src": "arXiv",
@@ -2482,7 +2496,7 @@
    "sub": "Semiconductors & Materials"
   },
   {
-   "n": 178,
+   "n": 179,
    "title": "SiC-BN composites with extreme thermal and environmental stability",
    "desc": "",
    "src": "arXiv",
@@ -2496,7 +2510,7 @@
    "sub": "Semiconductors & Materials"
   },
   {
-   "n": 179,
+   "n": 180,
    "title": "TARANG: an open-source, cost-controlled design workflow for silicon nitride microcomb chips",
    "desc": "",
    "src": "arXiv",
@@ -2510,7 +2524,7 @@
    "sub": "Semiconductors & Materials"
   },
   {
-   "n": 180,
+   "n": 181,
    "title": "Bright and Uniform Silicon Carbide Nanophotonic Arrays for Scalable Nanoscale Quantum Sensing",
    "desc": "",
    "src": "arXiv",
@@ -2524,7 +2538,7 @@
    "sub": "Semiconductors & Materials"
   },
   {
-   "n": 181,
+   "n": 182,
    "title": "Integrated optical isolators enabled by 2D semiconductors via spin-momentum locking",
    "desc": "",
    "src": "arXiv",
@@ -2538,7 +2552,7 @@
    "sub": "Semiconductors & Materials"
   },
   {
-   "n": 182,
+   "n": 183,
    "title": "Inverse Design of an On-chip Phase-Change Switch Composed of Sparse Heterogeneous Metasurfaces",
    "desc": "",
    "src": "arXiv",
@@ -2552,7 +2566,7 @@
    "sub": "Semiconductors & Materials"
   },
   {
-   "n": 183,
+   "n": 184,
    "title": "UV and deep-UV ultrafast harmonic generation enhanced by resonant gold nano-pillar metasurface",
    "desc": "We report experimental observations and full-vector numerical simulations of second and third-harmonic generation from a two-dimensional periodic gold nano-pillar metasurface, for efficient ultrafast light conversion from near-infrared to the UV and deep-UV sp",
    "src": "arXiv",
@@ -2566,7 +2580,7 @@
    "sub": "Semiconductors & Materials"
   },
   {
-   "n": 184,
+   "n": 185,
    "title": "Reflection Zeros Set the Scattering Invariant of Finite Majorana Wires",
    "desc": "Majorana modes, zero-energy excitations of superconducting wires that are their own antiparticles, could store quantum information protected from local noise. In transport experiments, however, ordinary bound states mimic their signature, a conductance peak at",
    "src": "arXiv",
@@ -2580,7 +2594,7 @@
    "sub": "Semiconductors & Materials"
   },
   {
-   "n": 185,
+   "n": 186,
    "title": "Monolayer MoSe2 as an Attenuator of Spintronic Terahertz Emission",
    "desc": "Understanding ultrafast spin-to-charge conversion at ferromagnetic/2D interfaces is critical for developing THz-frequency spintronic devices such as ultrafast memories, sensors, and compact THz sources. We investigate this by studying spintronic THz emission (",
    "src": "arXiv",
@@ -2594,7 +2608,7 @@
    "sub": "Semiconductors & Materials"
   },
   {
-   "n": 186,
+   "n": 187,
    "title": "Thulium- and Holmium-Doped Silica Fibres for 2 μm High-Power and Highly-Efficient Lasers",
    "desc": "Silica optical fibres, originally developed as a low-loss transmission medium for telecommunications, have evolved into a versatile platform for compact and efficient high-power lasers. This review discusses recent progress in thulium- and holmium-doped active",
    "src": "arXiv",
@@ -2608,7 +2622,7 @@
    "sub": "Semiconductors & Materials"
   },
   {
-   "n": 187,
+   "n": 188,
    "title": "A risk-aware individualized blood pressure target to avoid hypotension in surgery",
    "desc": "",
    "src": "arXiv",
@@ -2622,7 +2636,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 188,
+   "n": 189,
    "title": "Protein Language Models Fail To Capture Contact Predictions Under Invariant Relabeling",
    "desc": "",
    "src": "arXiv",
@@ -2636,7 +2650,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 189,
+   "n": 190,
    "title": "Using an energy pixels approach to estimate the size a 2nd Generation DEL must be to train a high-resolution binding model",
    "desc": "",
    "src": "arXiv",
@@ -2650,7 +2664,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 190,
+   "n": 191,
    "title": "Structure-Preserving Leaky Integrate-and-Fire Dynamics on Arbitrary Time Scales",
    "desc": "",
    "src": "arXiv",
@@ -2664,7 +2678,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 191,
+   "n": 192,
    "title": "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems",
    "desc": "",
    "src": "arXiv",
@@ -2678,7 +2692,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 192,
+   "n": 193,
    "title": "Silscore: modelling siRNA potency with positional thermodynamics and data-selected nucleotide-identity terms",
    "desc": "Small interfering RNAs (siRNAs) enable programmable gene silencing, but candidates targeting the same transcript can differ markedly in potency. Existing predictors range from interpretable empirical rules with limited accuracy to high-capacity models that can",
    "src": "arXiv",
@@ -2692,7 +2706,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 193,
+   "n": 194,
    "title": "Robot-Induced Bias in Movement Smoothness Metrics for Rehabilitation: Quantification and Correction in Simulation",
    "desc": "Robot mechanics can bias kinematic measures of recovery and limit comparisons across rehabilitation devices. We developed a closed-loop human-robot simulation calibrated to published healthy and stroke group kinematics. Paired runs held motor-control parameter",
    "src": "arXiv",
@@ -2706,7 +2720,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 194,
+   "n": 195,
    "title": "Optogenetic Modulation Fraction: A Robust Opsin-Presence Effect and an Unresolved Cell-Type Question, by Censoring-Aware Survival Analysis of Public Neuropixels Data",
    "desc": "Expressing channelrhodopsin-2 (ChR2) in an interneuron population substantially raises the fraction of locally recorded units whose spike timing is altered by light, relative to no-opsin controls, under every method tried. Establishing that result rigorously, ",
    "src": "arXiv",
@@ -2720,7 +2734,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 195,
+   "n": 196,
    "title": "Analysis choices decide whether untrained networks beat trained ones at V1: a multiverse analysis of model-brain RSA",
    "desc": "Untrained convolutional networks have been reported to rival trained networks as models of visual cortex, and we had reported an untrained-network advantage over backpropagation at V1 in THINGS fMRI, together with a dependence on evaluation resolution. Under a",
    "src": "arXiv",
@@ -2734,7 +2748,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 196,
+   "n": 197,
    "title": "Alignment De-Identifies Without Aligning: A Congruence-Invariant Relational Gap in Cross-Subject Neural Representations",
    "desc": "In brain-computer interfaces, inter-subject variability remains a major challenge that limits decoding performance across users. Subject-wise alignment is widely used to improve cross-subject transfer of neural decoders, yet it is typically evaluated only thro",
    "src": "arXiv",
