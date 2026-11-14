@@ -5,7 +5,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
-  --pin-h:148px;
+  --pin-h:160px;
   --bg:#f4f1eb;--paper:#fffcf7;--ink:#141311;--mut:#5c5a55;--line:#ddd8ce;--rule:#141311;
   --acc:#9b2c1a;--wash:#eeeae2;--up:#1f6b3a;--dn:#9b2c1a;--ne:#6a6862;
   --serif:"Newsreader",Georgia,"Times New Roman",serif;
@@ -15,22 +15,45 @@
 html{color-scheme:light}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 a{color:var(--acc)}
- .pin{position:-webkit-sticky;position:sticky;top:0;z-index:80;background:var(--bg);border-bottom:1px solid var(--line);box-shadow:0 8px 18px -12px rgba(20,19,17,.2)}
-header{max-width:900px;margin:0 auto;padding:22px 20px 0}
-.mast{border-top:3px solid var(--rule);padding:14px 0 16px}
-#togslot{max-width:900px;margin:0 auto;padding:0 20px}
-#togslot .tog{margin:0 0 -1px;width:100%}
-#togslot:empty{display:none}
+.pin{position:-webkit-sticky;position:sticky;top:0;z-index:80;background:var(--bg);border-bottom:1px solid var(--line);box-shadow:0 8px 18px -12px rgba(20,19,17,.2)}
+header{max-width:900px;margin:0 auto;padding:16px 20px 0}
+.mast{border-top:3px solid var(--rule);padding:10px 0 10px}
+.nav{max-width:900px;margin:0 auto;padding:0 20px;display:grid;grid-template-columns:1fr auto;grid-template-areas:"util util" "crumb crumb" "secs cut";align-items:end;column-gap:12px}
+.nav:not(:has(.nav-cut:not([hidden]))){grid-template-areas:"util util" "crumb crumb" "secs secs"}
+.nav-util{grid-area:util;display:flex;gap:0;border-bottom:1px solid var(--line)}
+.nav-util a{font:600 11.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;padding:8px 0 7px;margin-right:16px;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px}
+.nav-util a:hover{color:var(--ink)}
+.nav-util a.on,.nav-util a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink)}
+.nav-crumb{font-size:12.5px;color:var(--mut);padding:7px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.3}
+.nav-crumb a{color:var(--mut);text-decoration:none}
+.nav-crumb a:hover{color:var(--acc)}
+.nav-crumb .here{color:var(--ink)}
+.nav-crumb .sep{margin:0 .15em;color:var(--mut)}
+.nav-secs{grid-area:secs;display:flex;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;flex-wrap:nowrap;scrollbar-width:none;gap:0;-webkit-overflow-scrolling:touch;border-bottom:1px solid var(--line)}
+.nav-secs::-webkit-scrollbar{display:none}
+.nav-secs button{flex:0 0 auto;font:600 15px/1 var(--sans);padding:10px 2px 8px;margin-right:16px;border:0;background:none;cursor:pointer;color:var(--mut);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;border-radius:0}
+.nav-secs button:hover{color:var(--ink)}
+.nav-secs button.on{color:var(--ink);border-bottom-color:var(--acc)}
+.nav-secs button.spy{color:var(--ink)}
+.nav-cut{grid-area:cut;display:flex;align-items:center;padding:0 0 8px;border-bottom:1px solid var(--line)}
+.nav-crumb[hidden],.nav-cut[hidden]{display:none!important}
+.nav-cut button{font:600 11px/1 var(--sans);letter-spacing:.03em;padding:5px 9px;border:1px solid var(--line);background:transparent;color:var(--mut);cursor:pointer;margin:0 0 0 -1px}
+.nav-cut button:first-child{margin-left:0;border-radius:3px 0 0 3px}
+.nav-cut button:last-child{border-radius:0 3px 3px 0}
+.nav-cut button.on{background:var(--ink);color:var(--paper);border-color:var(--ink);position:relative;z-index:1}
+.nav-cut[hidden]{display:none}
 section,.row,.sub,.ch{scroll-margin-top:calc(var(--pin-h) + 12px)}
-.kicker{display:inline-block;margin:0 0 8px;font:600 11px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+.kicker{display:inline-block;margin:0 0 6px;font:600 11px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--ink);text-decoration:none}
 .kicker:hover{color:var(--acc)}
-.mast-row{display:flex;align-items:flex-end;justify-content:space-between;gap:16px}
-header h1{margin:0;font:650 2.15rem/1.1 var(--serif);letter-spacing:-.02em}
-.ed{margin:6px 0 0;color:var(--mut);font-size:14.5px;letter-spacing:.01em}
-#send{flex:0 0 auto;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:0;padding:8px 14px;cursor:pointer;font:600 11.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.mast-row{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:nowrap}
+.mast-row>div{min-width:0;flex:1}
+header h1{margin:0;font:650 2.05rem/1.1 var(--serif);letter-spacing:-.02em}
+.ed{margin:5px 0 0;color:var(--mut);font-size:14px;letter-spacing:.01em}
+#send{flex:0 0 auto;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:0;padding:7px 12px;cursor:pointer;font:600 11.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase}
 #send:hover{background:var(--ink);color:var(--paper)}
-main{max-width:900px;margin:0 auto;padding:18px 20px 72px}
-section{background:transparent;border:0;border-radius:0;margin:2.1rem 0 0;overflow:visible}
+main{max-width:900px;margin:0 auto;padding:16px 20px 72px}
+section{background:transparent;border:0;border-radius:0;margin:1.8rem 0 0;overflow:visible}
+.view>section:first-child{margin-top:.4rem}
 .ch{display:flex;align-items:baseline;gap:10px;padding:0 0 10px;cursor:pointer;user-select:none;border-bottom:2px solid var(--rule)}
 .ch h2{margin:0;font:650 1.45rem/1.15 var(--serif);flex:1;letter-spacing:-.015em}
 .car{transition:transform .2s;color:var(--mut);font-size:13px;line-height:1}
@@ -67,26 +90,31 @@ section.closed .ch{border-bottom-width:1px;border-bottom-color:var(--line)}
 .v button.on.dn{background:#f6e8e4;color:var(--dn)}
 .v button.on.ne{background:var(--wash);color:var(--ne)}
 .ch .v button{font-size:12px;padding:2px 5px}
-.tog{display:inline-flex;gap:0;border:0;border-bottom:1px solid var(--line);margin:4px 0 8px;background:transparent;border-radius:0}
-.tog button{border:0;background:transparent;padding:8px 2px;margin-right:18px;cursor:pointer;font:600 14px/1 var(--sans);color:var(--mut);letter-spacing:.02em;border-bottom:2px solid transparent;margin-bottom:-1px;border-radius:0}
-.tog button.on{background:transparent;color:var(--ink);border-bottom-color:var(--acc)}
-.tog button:hover{color:var(--ink)}
 @media(max-width:560px){
-  header,main,#togslot{padding-left:16px;padding-right:16px}
-  header h1{font-size:1.7rem}
-  .mast-row{flex-wrap:wrap}
+  header,main,.nav{padding-left:16px;padding-right:16px}
+  header{padding-top:10px}
+  header h1{font-size:1.55rem}
+  .nav{grid-template-areas:"util cut" "crumb crumb" "secs secs";column-gap:8px}
+  .nav:not(:has(.nav-cut:not([hidden]))){grid-template-areas:"util util" "crumb crumb" "secs secs"}
+  .nav-util a{margin-right:14px;padding:7px 0 6px}
+  .nav-secs button{padding:8px 2px 7px;margin-right:14px;font-size:14px}
+  .nav-cut{justify-content:flex-end;padding:0 0 6px}
   .pin.scrolled .kicker,.pin.scrolled .ed{display:none}
-  .pin.scrolled header{padding-top:8px}
-  .pin.scrolled .mast{padding:6px 0 8px}
-  .pin.scrolled header h1{font-size:1.2rem}
-  .pin.scrolled #send{padding:5px 9px}
-  .pin.scrolled .mast-row{flex-wrap:nowrap;align-items:center}
+  .pin.scrolled header{padding-top:6px}
+  .pin.scrolled .mast{padding:4px 0 6px}
+  .pin.scrolled header h1{font-size:1.15rem}
+  .pin.scrolled #send{padding:4px 8px}
+  .pin.scrolled .mast-row{align-items:center}
+  .pin.scrolled .nav-util a{padding:6px 0 5px}
+  .pin.scrolled .nav-crumb{padding-top:5px;font-size:12px}
+  .pin.scrolled .nav-secs button{padding:7px 2px 6px}
+  .pin.scrolled .nav-cut{padding-top:4px}
   .th,.ph{flex:0 0 84px;flex-shrink:0;align-self:flex-start;width:84px;aspect-ratio:3/2;height:auto;object-fit:cover}
   .tx b{font-size:1.02rem}
   .tx p{font-size:14px}
   .row{gap:12px;padding:12px 0}
   .v button{padding:2px 3px}
-  #send{padding:7px 11px}
+  #send{padding:6px 10px}
 }
 @media(prefers-color-scheme:dark){
   :root{--bg:#1c1b19;--paper:#24221f;--ink:#f3efe6;--mut:#a8a49a;--line:#3a3732;--rule:#f3efe6;--acc:#e06a4f;--wash:#2c2a26;--up:#7dcea0;--dn:#e06a4f;--ne:#b0aca3}
@@ -96,44 +124,52 @@ section.closed .ch{border-bottom-width:1px;border-bottom-color:var(--line)}
   .tx p{color:#d7d2c8}
   .ph{color:#7a756c}
   #send:hover{background:var(--ink);color:var(--bg)}
+  .nav-cut button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
   .v button.on.up{background:#1d3a2a;color:var(--up)}
   .v button.on.dn{background:#3a221e;color:var(--dn)}
   .v button.on.ne{background:var(--wash);color:var(--ne)}
 }
 </style></head><body>
-<div class="pin" id="pin"><header><div class="mast"><a class="kicker" href="../">Morning Briefing</a><div class="mast-row"><div><h1>Science & Technology</h1><p class="ed">Saturday, November 14, 2026 · Toronto edition</p></div><button id="send">Send feedback</button></div></div></header><div id="togslot"></div></div><main id="m"></main>
+<div class="pin" id="pin">
+<header><div class="mast"><a class="kicker" href="../">Morning Briefing</a><div class="mast-row"><div><h1>Science & Technology</h1><p class="ed">Saturday, November 14, 2026 · Toronto edition</p></div><button id="send">Send feedback</button></div></div></header>
+<div class="nav">
+  <nav class="nav-util" aria-label="Edition"><a href="../#today" class="on" aria-current="page">Today</a><a href="../#history">History</a><a href="../#likes">Likes</a></nav>
+  <div class="nav-cut" id="cutslot" hidden></div>
+  <nav class="nav-crumb" id="crumb" aria-label="Breadcrumb" hidden></nav>
+  <nav class="nav-secs" id="secs" aria-label="Sections"></nav>
+</div>
+</div>
+<main id="m"></main>
 <script>
 const DATA=[{"cat": "Technology business news", "subs": [{"sub": "Big Tech", "items": [[1, "Microsoft says services are fully restored after a day-long global outage", "The company blamed a network-capacity upgrade; traders in Asia fell back on phones and fax.", "BBC", "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o", "Nov 13", "a87af2f6d3.jpg", "ua87af2f6d3"], [2, "ChatGPT Wallet lets AI agents shop and check out for users", "OpenAI's new 'dots' can pay on a user's behalf.", "TechCrunch", "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you", "Nov 13", "4e379f6cb9.jpg", "u4e379f6cb9"], [3, "Arm boss Rene Haas was approached in the Nvidia CEO search", "The FT says Nvidia sounded out the Arm chief after Huang's exit.", "Financial Times", "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926", "Nov 13", "", "ubbccf64c97"], [4, "Amazon memo sketches a plan to own the world's product data", "The Verge: a 'World Product Graph' would index items Amazon does not even sell.", "The Verge", "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search", "Nov 13", "04367a7d0b.jpg", "u04367a7d0b"], [5, "Meta tests a prediction-market app, Takes, with employees", "Workers wager virtual 'cred' points, not cash, the WSJ reports.", "CNA", "https://www.channelnewsasia.com/business/meta-employees-test-prediction-market-app-wsj-reports-6550526", "Nov 13", "a478d3e70b.jpg", "ua478d3e70b"], [6, "Tesla invites select customers to buy the Cybercab robotaxi for personal use", "An unexpected retail path for a vehicle billed as a robotaxi.", "The Straits Times", "https://www.straitstimes.com/business/tesla-invites-select-customers-to-buy-cybercab-robotaxi-for-personal-use", "Nov 14", "94dd41dd97.jpg", "u94dd41dd97"], [7, "Uber confirms hackers stole thousands of drivers' licence records", "The company is notifying affected drivers after a data breach.", "TechCrunch", "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach", "Nov 13", "8b1c9ace4a.jpg", "u8b1c9ace4a"], [8, "Nvidia stock suffers its longest weekly losing streak since 2012", "About $1.7 trillion of market value has been wiped out in the Huang fallout.", "CNBC", "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html", "Nov 13", "00ccf51f4f.jpg", "u00ccf51f4f"]]}, {"sub": "Enterprise & software", "items": [[9, "The Microsoft outage hit courts, police, the NHS and governments worldwide", "From the Met Police to Danish municipalities, public services went analog.", "BBC", "https://www.bbc.co.uk/news/articles/cqp9d58eldlro", "Nov 13", "369f0e985a.jpg", "u369f0e985a"], [10, "Microsoft's outage renews Europe's push to detox from US tech", "Macron and EU lawmakers used a Dublin AI summit to argue for digital sovereignty.", "POLITICO Europe", "https://www.politico.eu/article/microsoft-outage-renews-european-calls-to-detox-from-us-tech/", "Nov 13", "d6b1c383ee.jpg", "ud6b1c383ee"], [11, "Von der Leyen says Europe needs €500 billion for AI", "The Commission president, after the Dublin leaders' meeting, called for a huge sovereignty push.", "Anadolu Agency", "https://www.anews.com.tr/world/2026/11/13/eu-needs-ai-investments-worth-500bn-von-der-leyen-says", "Nov 13", "4e4d0209a7.jpg", "u4e4d0209a7"], [12, "Cohere buys AI code-review startup Cubic as its acquisition spree continues", "The Canadian model lab keeps buying around the coding workflow.", "BetaKit", "https://betakit.com/cohere-buys-ai-code-review-startup-cubic-as-acquisition-spree-continues", "Nov 13", "3fd56d4b14.jpg", "u3fd56d4b14"], [13, "Amazon revives a deal with a troubled data-centre venture backed by Rick Perry", "The FT says the cloud giant is back in with the former energy secretary's project.", "Financial Times", "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb", "Nov 13", "", "uc293157962"], [14, "Doctors want a liability shield from AI mistakes", "A push for legal cover as clinical tools spread.", "Axios", "https://www.axios.com/2026/11/13/doctors-ai-mistakes-liability-shield", "Nov 13", "", "u4ec49f82bf"]]}, {"sub": "Semis & hardware business", "items": [[15, "Documents tie banned Nvidia chips at a Shanghai data centre to Alice Huang", "Bloomberg: servers with H800, H100 and H200 chips were logged at a firm she founded.", "Bloomberg", "https://news.bloomberglaw.com/international-trade/company-founded-by-alice-huang-got-banned-nvidia-chips-in-china", "Nov 13", "5fc2a7f1fd.jpg", "u5fc2a7f1fd"], [16, "Huang's exit and US scrutiny imperil $3 billion in Chinese AI projects on Nvidia chips", "A Reuters review finds planned and operating sites still specifying H100, H200 and H800.", "Reuters", "https://www.reuters.com/5f374b32b07b/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/", "Nov 13", "bfac7e1c15.jpg", "ubfac7e1c15"], [17, "Export-banned Nvidia chips are turning up behind China's most powerful AI models", "Technical traces of Blackwell-class hardware have been reported in several Chinese models.", "TechCrunch", "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen", "Nov 13", "f17748102e.jpg", "uf17748102e"], [18, "Samsung is in talks to buy data-centre cooling firm Modine, a report says", "A deal would deepen Samsung's AI-infrastructure hardware bet.", "Data Center Dynamics", "https://www.datacenterdynamics.com/en/news/samsung-in-talks-to-acquire-data-center-cooling-company-modine-manufacturing-report", "Nov 13", "87c1fbbb27.jpg", "u87c1fbbb27"], [19, "Samsung reportedly wins more AI chip orders from US cloud firms", "The foundry is booking additional 2nm-class AI work into 2028.", "DigiTimes", "https://www.digitimes.com/news/a20261113VL229/samsung-ai-chip-manufacturing-2028-2nm.html", "Nov 13", "0ff012da4e.jpg", "u0ff012da4e"], [20, "SK Hynix and Intel explore shared memory to ease AI bottlenecks", "A CXL-style memory pool is under discussion.", "DigiTimes", "https://www.digitimes.com/news/a20261113PD229/sk-hynix-intel-data-capacity-cxl.html", "Nov 13", "9009f2384e.jpg", "u9009f2384e"], [21, "Intel forms a 23-company Korean AI alliance and pitches an HBM-free inference GPU", "The D-Series is Intel's attempt to sidestep the HBM shortage.", "DigiTimes", "https://www.digitimes.com/news/a20261113VL226/intel-gpu-alliance-president-design.html", "Nov 13", "2c9c575143.jpg", "u2c9c575143"]]}]}, {"cat": "Investments and deals", "subs": [{"sub": "Venture rounds", "items": [[22, "LangChain raises $300 million at a $3 billion valuation", "CapitalG leads the Series C for the AI-agent tooling company.", "TechCrunch", "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation", "Nov 13", "38741df50e.jpg", "u38741df50e"], [23, "Huang's departure blasts a hole in AI startup funding, VCs and founders say", "Startups that counted on Nvidia's balance sheet are bracing for less cash.", "TechCrunch", "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say", "Nov 13", "ad639fbc65.jpg", "uad639fbc65"], [24, "What's ahead for AI financing after Nvidia's CEO departs", "Huang's exit puts a spotlight on circular AI deals and a large funding gap.", "CNBC", "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html", "Nov 13", "85baa2d47e.jpg", "u85baa2d47e"], [25, "Gama raises €15 million seed to boost Europe's solar-array supply chain", "The space-hardware startup is expanding array manufacturing.", "Payload", "https://payloadspace.com/gama-raises-e15m-seed-to-boost-europes-solar-array-supply-chain/", "Nov 13", "9d750deadd.jpg", "u9d750deadd"], [26, "A startup wants to power floating data centres with ocean heat — and has backers", "Investors are already in on an ocean-thermal compute idea.", "TechCrunch", "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board", "Nov 13", "9b3aa77d2c.jpg", "u9b3aa77d2c"]]}, {"sub": "Public markets & IPOs", "items": [[27, "Anthropic's IPO is said to be about six times oversubscribed", "Existing holders are likely to get priority; Chinese and Hong Kong orders have been barred.", "Bloomberg", "https://news.bloomberglaw.com/artificial-intelligence/anthropics-ipo-is-said-to-be-about-six-times-oversubscribed", "Nov 12", "d76c05d0e7.jpg", "ud76c05d0e7"], [28, "Anthropic's Amodei is 'not super fussed' about market turmoil ahead of the IPO", "The CEO downplays Nvidia-driven jitters as the offering is built.", "Financial Times", "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82", "Nov 13", "", "ucf7c3af419"], [29, "Chinese AI stocks sell off on fears of tougher Nvidia chip restrictions", "The Huang scandal is being read in Shanghai and Hong Kong as a controls risk.", "Financial Times", "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8", "Nov 13", "", "u8b75496112"], [30, "The Supreme Court agrees to hear Robinhood's challenge to an IPO-omission lawsuit", "A case that could reshape what issuers must disclose at listing.", "CNBC", "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html", "Nov 13", "4242ca1a2f.jpg", "u4242ca1a2f"], [31, "Quantum names post a mixed Q3 as newly public Pasqal reports", "D-Wave, IonQ, IQM, Quantinuum, Rigetti and Xanadu issued results together.", "Data Center Dynamics", "https://www.datacenterdynamics.com/en/news/quantum-earnings-q3-2026-d-wave-ionq-iqm-quantinuum-rigetti-and-xanadu-publish-third-quarter-results-alongside-newly-public-pasqal", "Nov 13", "e9df9e7360.jpg", "ue9df9e7360"]]}, {"sub": "Government contracts", "items": [[32, "Commerce finalizes a CHIPS R&D award of up to $100 million for Atom Computing", "The grant backs the firm's neutral-atom quantum systems.", "NIST", "https://www.nist.gov/news-events/news/2026/11/department-commerce-announces-finalization-chips-rd-award-atom-computing", "Nov 13", "ed8b299e23.jpg", "ued8b299e23"], [33, "The UK Ministry of Defence delays a decision on a £2 billion military satellite contest", "A long-running UK space procurement is pushed back again.", "Financial Times", "https://www.ft.com/content/dfc3d313-1e32-4e56-ab1d-fcb7ea51a386", "Nov 13", "", "u7c48195699"]]}]}, {"cat": "Sciences", "subs": [{"sub": "Physics & Astronomy", "items": [[34, "ESA's Euclid releases its first major map, covering more than 900 million galaxies", "DR1-Foundation spans 1,900 square degrees, about 13 months of observations.", "ESA", "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-lays-the-foundation-for-its-best-ever-3d-map-of-the-universe", "Nov 12", "d4feb0cae0.jpg", "ud4feb0cae0"], [35, "These 'ghostly' galaxies appear to have lost their dark matter", "New observations of diffuse systems challenge standard halo models.", "WIRED", "https://www.wired.com/story/these-ghostly-galaxies-have-lost-their-dark-matter", "Nov 14", "7909cda916.jpg", "u7909cda916"], [36, "A likely supermassive neutron star may help close the mass gap with black holes", "The candidate sits in a range where theory has been thin.", "Phys.org", "https://phys.org/news/2026-11-supermassive-neutron-star-mass-gap.html", "Nov 13", "", "u4e43010109"], [37, "Astronomers confirm a tiny new moon is orbiting Earth — at least through the holidays", "A temporary mini-moon will linger for weeks.", "Live Science", "https://www.livescience.com/space/meteoroids/astronomers-confirm-a-tiny-new-moon-is-orbiting-earth-and-itll-stick-around-for-the-holidays", "Nov 13", "c2071360ff.jpg", "uc2071360ff"], [38, "Astronomers trace mystery radio signals to a white dwarf and a sun-like star", "An odd couple appears to be the source of repeating bursts.", "Space.com", "https://www.space.com/astronomy/stars/astronomers-trace-mystery-radio-signals-back-to-cosmic-odd-couple-of-white-dwarf-and-sun-like-star", "Nov 13", "fcdeed85b9.jpg", "ufcdeed85b9"]]}, {"sub": "Biology & Medicine", "items": [[39, "UCLA boosts a healthy gene copy to offset autism-linked mutations in lab models", "Enhancer-targeted CRISPR-A restored more typical activity in organoids; it is not a treatment yet.", "UCLA Health", "https://www.uclahealth.org/news/release/ucla-researchers-discover-new-approach-treating-autism-and", "Nov 13", "b18ae6a163.jpg", "ub18ae6a163"], [40, "A gene flaw from a bottlenecked reintroduction is killing Swiss lynx", "A Nature paper pins lethal organ mineralization on a recessive FGF23 defect.", "Nature Ecology & Evolution", "https://www.nature.com/articles/s41559-026-03204-0", "Nov 12", "64d91f4eb3.jpg", "u64d91f4eb3"], [41, "WHO authorities say measles is back in the United States", "The loss of elimination status follows a sustained outbreak.", "Live Science", "https://www.livescience.com/health/viruses-infections-disease/measles-is-back-in-the-united-states-who-authorities-say", "Nov 13", "f1ed80b60b.jpg", "uf1ed80b60b"], [42, "A fruit-fly sleep protein yields peptides that inhibit drug-resistant bacteria in lab tests", "An unexpected antimicrobial lead from a circadian protein.", "Phys.org", "https://phys.org/news/2026-11-fruit-fly-protein-yields-peptides.html", "Nov 13", "", "u4f5b20368e"], [43, "A brain-implant startup pauses its trials", "STAT reports a clinical halt in a closely watched neurotech program.", "STAT", "https://www.statnews.com/2026/11/13/health-news-brain-implant-startup-pauses-trials", "Nov 13", "cb841d705c.jpg", "ucb841d705c"], [44, "Scientists describe two new howler monkey species in the Amazon — already endangered", "The split adds urgency to habitat protection.", "Live Science", "https://www.livescience.com/animals/primates/scientists-discover-two-adorable-species-of-howler-monkey-in-the-amazon-and-theyre-already-endangered", "Nov 13", "6809637e3a.jpg", "u6809637e3a"]]}, {"sub": "Earth & Climate", "items": [[45, "Ocean carbon uptake has risen while land uptake has stalled, 30 years of data show", "The sea is doing more of the work of absorbing fossil-fuel CO2.", "Phys.org", "https://phys.org/news/2026-11-ocean-absorbs-fossil-fuel-carbon.html", "Nov 13", "", "u8ca7e703c3"], [46, "California steels for storms that could trigger massive waves and flooding", "A Pacific system is expected to hammer the coast.", "Phys.org", "https://phys.org/news/2026-11-california-steels-storms-trigger-massive.html", "Nov 14", "", "u27fb26f08d"], [47, "Alaska laments the decline of its prized salmon populations", "Returns have slumped in rivers that once defined the fishery.", "Phys.org", "https://phys.org/news/2026-11-alaska-laments-decline-prized-salmon.html", "Nov 14", "", "u47395265f7"], [48, "Mountain growth spurts may have sparked complex life on Earth", "A new study links uplift pulses to bursts of biological complexity.", "Phys.org", "https://phys.org/news/2026-11-mountain-growth-spurts-complex-life.html", "Nov 13", "", "u5eeb3360fd"]]}, {"sub": "Materials & Chemistry", "items": [[49, "A water-activated polymer forms solid shapes underwater and bonds glass fragments", "The material sets in wet conditions, a rare trick for adhesives.", "Phys.org", "https://phys.org/news/2026-11-polymer-solid-underwater-bonds-glass.html", "Nov 13", "", "ue6d8607120"], [50, "Combining five metals in one oxide improves ethanol gas sensing", "A high-entropy oxide outperforms simpler sensor chemistries.", "Phys.org", "https://phys.org/news/2026-11-combining-metals-oxide-ethanol-gas.html", "Nov 13", "", "ucc9c923079"], [51, "Ancient rocks reveal a dramatic journey from deep inside Earth", "Samples record a path from the mantle toward the surface.", "Phys.org", "https://phys.org/news/2026-11-ancient-reveal-journey-deep-earth.html", "Nov 13", "", "u84487642ab"], [52, "A genetic atlas traces 10,000 years of sheep breeding", "Genomes map how humans shaped the species.", "Phys.org", "https://phys.org/news/2026-11-genetic-atlas-reveals-years-sheep.html", "Nov 13", "", "ue7a6097edc"]]}]}, {"cat": "Technology & Engineering", "subs": [{"sub": "Space", "items": [[53, "SpaceX's Starship reaches orbit, but the booster catch is aborted into the Gulf", "Flight 15's Super Heavy diverted after a guidance issue and was destroyed before splashdown.", "SpaceNews", "https://spacenews.com/starship-launches-on-15th-test-calls-off-booster-catch/", "Nov 13", "ebcdd0e18d.jpg", "uebcdd0e18d"], [54, "Ukraine and Russia race to build military satellite networks", "Both sides are pushing indigenous space links as terrestrial systems are struck.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/14/ukraine-russia-race-to-build-military-satellite-networks-as-war-rages-on", "Nov 14", "2f47833402.jpg", "u2f47833402"], [55, "Rocket Lab notches its 100th launch, sending an Earth-observing satellite to orbit", "A milestone for the small-launch company.", "Space.com", "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite", "Nov 13", "5d9054d11a.jpg", "u5d9054d11a"], [56, "California's new Air & Space Center, home of shuttle Endeavour, opens", "The long-delayed museum finally welcomes the public.", "Space.com", "https://www.space.com/space-exploration/californias-brand-new-air-and-space-center-home-of-the-space-shuttle-endeavour-opens-today", "Nov 13", "de5bc3dfeb.jpg", "ude5bc3dfeb"], [57, "Canadian lunar rovers are cleared for the next phase — and an earlier launch", "A Canadian program is pulled forward on the lunar timeline.", "Payload", "https://payloadspace.com/canadian-lunar-rovers-ready-for-next-phase-and-an-earlier-launch/", "Nov 13", "81153e5e12.jpg", "u81153e5e12"]]}, {"sub": "AI & Robotics", "items": [[58, "India pins hopes on an AI start-up to avoid becoming a 'digital colony'", "New Delhi is backing a domestic champion as a sovereignty play.", "Financial Times", "https://www.ft.com/content/599cd9ab-dbd0-4c0d-818a-f6270871cd97", "Nov 13", "", "ueb3b9225aa"], [59, "OpenAI folds robotics into its main research org as general models start running robots", "The stand-alone team is dissolved; applied staff move under Brockman.", "Fortune", "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/", "Nov 13", "d6f57ed8e4.jpg", "ud6f57ed8e4"], [60, "The AI boom may survive Huang, but a $500 billion funding hole remains", "Axios on the financing gap Nvidia's balance sheet had been backstopping.", "Axios", "https://www.axios.com/2026/11/13/ai-boom-without-jensen-huang-nvidia", "Nov 13", "", "u9a73df5bc7"], [61, "ElevenLabs launches an app that combines meeting notes and team dictation", "The voice lab is pushing deeper into workplace audio.", "TechCrunch", "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams", "Nov 13", "025a6c711b.jpg", "u025a6c711b"]]}, {"sub": "Energy & Nuclear", "items": [[62, "Centrus and Oklo lock in fuel for an Ohio advanced-reactor deployment", "A HALEU supply deal for a first commercial site.", "World Nuclear News", "https://www.world-nuclear-news.org/articles/centrus-oklo-deal-secures-fuel-for-ohio-reactor-deployment", "Nov 13", "1b079ec311.jpg", "u1b079ec311"], [63, "SoftBank's failed bet on gas turbines for AI drove a $3.7 billion charge", "The FT says a power-hardware wager for data centres went wrong.", "Financial Times", "https://www.ft.com/content/a343d340-cdab-4c70-966e-795efd99bdbb", "Nov 13", "", "u06b8c7b14b"], [64, "The nuclear industry urges recognition in COP31's 35-by-35 pledge", "Vendors want new nuclear counted in the 2035 target.", "World Nuclear News", "https://www.world-nuclear-news.org/articles/industry-urges-nuclear-recognition-in-cop31s-35-by-35-pledge", "Nov 13", "deec500f2b.jpg", "udeec500f2b"], [65, "Strength and leak tests are completed for Akkuyu 1's containment", "Türkiye's first nuclear plant passes a key construction milestone.", "World Nuclear News", "https://www.world-nuclear-news.org/articles/strength-and-leak-tests-completed-for-akkuyu-1-containment", "Nov 13", "2194666f79.jpg", "u2194666f79"], [66, "BWXT finishes a manufacturing-facility expansion", "The nuclear-components maker adds capacity.", "World Nuclear News", "https://www.world-nuclear-news.org/articles/bwxt-manufacturing-facility-expansion-complete", "Nov 13", "93d7805804.jpg", "u93d7805804"]]}, {"sub": "Quantum", "items": [[67, "Osaka links domestic superconducting processors to the OCTOPUS supercomputer", "The SEAFOOD platform is a new hybrid quantum-classical hookup in Japan.", "Quantum Computing Report", "https://quantumcomputingreport.com/university-of-osaka-integrates-domestic-superconducting-quantum-processors-with-octopus-supercomputer-via-seafood-platform/", "Nov 13", "ed90b89de6.jpg", "ued90b89de6"], [68, "Qblox and AMD report microsecond-scale quantum-feedback tests", "A control-stack demo aimed at tighter real-time loops.", "Quantum.world", "https://quantum.world/news/qblox-amd-quantum-feedback-tests", "Nov 13", "c455d2c0c7.jpg", "uc455d2c0c7"], [69, "QuiX Quantum wins PhotonDelta funding for photonic machines", "A European photonic-qubit company adds capital.", "HPCwire", "https://www.hpcwire.com/off-the-wire/quix-quantum-secures-photondelta-funding-for-photonic-quantum-computing", "Nov 13", "8f205b86b4.jpg", "u8f205b86b4"]]}, {"sub": "Semiconductors", "items": [[70, "China's SMIC sees an AI computing crunch until 2028 as Nvidia curbs tighten", "The foundry says domestic supply cannot quickly replace restricted GPUs.", "South China Morning Post", "https://www.scmp.com/tech/big-tech/article/3374305/chinas-smic-sees-ai-computing-crunch-until-2028-nvidia-heat-risks-tighter-chip-curbs", "Nov 13", "", "u294c246e7e"], [71, "Nvidia said chip geotracking to fight smuggling is feasible, a lawmaker says", "The comment comes as Congress eyes the Chip Security Act.", "MIT Technology Review", "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/", "Nov 13", "f1dbc25a64.jpg", "uf1dbc25a64"], [72, "CXMT targets higher-value DRAM with AI-server memory and LPDDR6", "China's memory champion is climbing the stack.", "DigiTimes", "https://www.digitimes.com/news/a20261113VL228/dram-cxmt-market-ai-server-automotive.html", "Nov 13", "2b2ea01558.jpg", "u2b2ea01558"]]}]}, {"cat": "Scientific papers", "subs": [{"sub": "Space & Astronomy", "items": [[73, "JWST Rocky Worlds DDT Observations of LTT 1445 A b and c in Secondary Eclipse Using MIRI/F1500W", "", "arXiv", "https://arxiv.org/abs/2611.17300", "Nov 12", "", "ue6a9826b22"], [74, "Probing Ultralight Higher-spin Dark Matter using Stellar Kinematics of Dwarf Galaxies", "", "arXiv", "https://arxiv.org/abs/2611.17204", "Nov 12", "", "u105527f8b4"], [75, "Double Blandford: Resistive GRMHD simulations of accreting black holes simultaneously launch winds and jets", "", "arXiv", "https://arxiv.org/abs/2611.16641", "Nov 12", "", "u3ce7323206"], [76, "Resolving Radiogenic Heterogeneity in the Earth's Mantle with Multi-Site Geo-neutrino Measurements", "", "arXiv", "https://arxiv.org/abs/2611.16715", "Nov 12", "", "ub8260bbe1d"], [77, "Euclid: Data Release 1 (DR1) - First NISP emission-line maps: Methodology, validation, and applications to galaxy evolution", "", "arXiv", "https://arxiv.org/abs/2611.16504", "Nov 12", "", "u6cbfe0ec6c"], [78, "Euclid Data Release 1 (DR1). Persistence in NISP detectors", "", "arXiv", "https://arxiv.org/abs/2611.16766", "Nov 12", "", "uf2f9961633"]]}, {"sub": "AI & Robotics", "items": [[79, "HEIR: Harness Egocentric Intent for Human-Robot Interactions", "", "arXiv", "https://arxiv.org/abs/2611.17238", "Nov 12", "", "u43fa42e166"], [80, "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds", "", "arXiv", "https://arxiv.org/abs/2611.17267", "Nov 12", "", "u8cf28cb8fb"], [81, "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon", "", "arXiv", "https://arxiv.org/abs/2611.17294", "Nov 12", "", "u7bb9a69c31"], [82, "AgentSSL: Can MLE Agents Leverage Unlabeled Data?", "", "arXiv", "https://arxiv.org/abs/2611.17323", "Nov 12", "", "uebb4066459"], [83, "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents", "", "arXiv", "https://arxiv.org/abs/2611.17167", "Nov 12", "", "u2190decebe"], [84, "SunLightBots: Turning sunlight into self-sustained, high-power motion in soft robots", "", "arXiv", "https://arxiv.org/abs/2611.14729", "Nov 10", "", "uae16282a48"]]}, {"sub": "Energy & Nuclear", "items": [[85, "Impact of edge-localized resonant magnetic perturbation on L-H transition in the KSTAR tokamak", "", "arXiv", "https://arxiv.org/abs/2611.16846", "Nov 12", "", "ubf6d73d29a"], [86, "Development of Sapphire-Based Solid-State Neutron Detectors for Fusion Environments", "", "arXiv", "https://arxiv.org/abs/2611.14745", "Nov 10", "", "u142b355135"], [87, "Observation of the $\\Lambda(1520)$ suppression in Pb-Pb collisions at $\\sqrt{s_{\\rm NN}} = 5.02$ TeV", "", "arXiv", "https://arxiv.org/abs/2611.17010", "Nov 12", "", "u034ddc7b5d"], [88, "The Gator low-background spectrometer: readout upgrade and photomultiplier tube radioassay for XLZD", "", "arXiv", "https://arxiv.org/abs/2611.17187", "Nov 12", "", "ub568547ed8"], [89, "Self-consistent thermal-runaway electron equilibria", "", "arXiv", "https://arxiv.org/abs/2611.16885", "Nov 12", "", "u7bf2f34778"], [90, "On stimulated scattering including harmonic generation in an unmagnetized pair plasma for arbitrary pump strengths", "", "arXiv", "https://arxiv.org/abs/2611.17279", "Nov 12", "", "u5183e3320d"]]}, {"sub": "Quantum", "items": [[91, "Observation of Genuine Multi-Time Quantum Memory", "", "arXiv", "https://arxiv.org/abs/2611.17268", "Nov 12", "", "uf94b674c19"], [92, "Persistent-mediator architecture for universal fault-tolerant quantum computation with color codes", "", "arXiv", "https://arxiv.org/abs/2611.16691", "Nov 12", "", "u1c02f990a7"], [93, "Non-Convex Optimization via Quantum Tunneling Search on a Photonic Chip", "", "arXiv", "https://arxiv.org/abs/2611.16791", "Nov 12", "", "u104929e7c9"], [94, "Noise-Protected Superconducting Qudits from Higher-Harmonic Josephson Junctions", "", "arXiv", "https://arxiv.org/abs/2611.16563", "Nov 12", "", "ua82f331af8"], [95, "The landscape of quantum technology companies in 2026", "", "arXiv", "https://arxiv.org/abs/2611.16838", "Nov 12", "", "ua4ba57b334"], [96, "Quantum Metrology and Quantum Battery in a Hyperfine-Coupled Spin System", "", "arXiv", "https://arxiv.org/abs/2611.17310", "Nov 12", "", "u5f2d61f620"]]}, {"sub": "Semiconductors & Materials", "items": [[97, "A superconducting quantum point contact in Ge", "", "arXiv", "https://arxiv.org/abs/2611.16705", "Nov 12", "", "ub846d5fb00"], [98, "SiC-BN composites with extreme thermal and environmental stability", "", "arXiv", "https://arxiv.org/abs/2611.17283", "Nov 12", "", "u0f9b7b333a"], [99, "TARANG: an open-source, cost-controlled design workflow for silicon nitride microcomb chips", "", "arXiv", "https://arxiv.org/abs/2611.16469", "Nov 12", "", "u411c5fe698"], [100, "Bright and Uniform Silicon Carbide Nanophotonic Arrays for Scalable Nanoscale Quantum Sensing", "", "arXiv", "https://arxiv.org/abs/2611.16252", "Nov 11", "", "u70f2278fb3"], [101, "Integrated optical isolators enabled by 2D semiconductors via spin-momentum locking", "", "arXiv", "https://arxiv.org/abs/2611.16125", "Nov 11", "", "ua2c8511c23"], [102, "Inverse Design of an On-chip Phase-Change Switch Composed of Sparse Heterogeneous Metasurfaces", "", "arXiv", "https://arxiv.org/abs/2611.16863", "Nov 12", "", "u0351ea68a9"]]}, {"sub": "Biology & Medicine", "items": [[103, "A risk-aware individualized blood pressure target to avoid hypotension in surgery", "", "arXiv", "https://arxiv.org/abs/2611.16757", "Nov 12", "", "u267bdaef4f"], [104, "Protein Language Models Fail To Capture Contact Predictions Under Invariant Relabeling", "", "arXiv", "https://arxiv.org/abs/2611.16881", "Nov 12", "", "u25ce1e5259"], [105, "Using an energy pixels approach to estimate the size a 2nd Generation DEL must be to train a high-resolution binding model", "", "arXiv", "https://arxiv.org/abs/2611.17121", "Nov 12", "", "u156e84f175"], [106, "Structure-Preserving Leaky Integrate-and-Fire Dynamics on Arbitrary Time Scales", "", "arXiv", "https://arxiv.org/abs/2611.17219", "Nov 12", "", "uf5431f00b9"], [107, "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems", "", "arXiv", "https://arxiv.org/abs/2611.17015", "Nov 12", "", "ud05ea07ed5"]]}]}], DATE='2026-11-14', REPO='jbarseneau99/morning-briefing', FEED='scitech', FEEDNAME='Science & Technology';
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const slug=s=>s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const SHORT={'Technology business news':'Tech business','Investments and deals':'Investments & deals'};
+const label=s=>SHORT[s]||s;
 const votes=(level,id,title,x='')=>`<span class="v" data-level="${level}" data-id="${id}" data-title="${esc(title)}"${x}><button class="up" data-d="up" title="More like this">👍</button><button class="ne" data-d="neutral" title="Neutral">●</button><button class="dn" data-d="down" title="Less like this">👎</button></span>`;
 const row=(it,cls='',V='all',cat='')=>{const [n,t,s,src,url,dt,img,id]=it;
  const x=` data-url="${esc(url)}" data-img="${esc(img?'img/'+img:'')}" data-desc="${esc(s)}" data-src="${esc(src)}" data-dt="${esc(dt)}" data-cat="${esc(cat)}"`;
  return `<div class="row ${cls}" id="${V}-s${id}">${img?`<img class="th" src="../img/${img}" alt="" loading="lazy">`:`<div class="ph">no image</div>`}<div class="tx"><b><span class="n">${n}.</span>${esc(t)}</b><p>${esc(s)}</p><a href="${url}" target="_blank" rel="noopener">${esc(src)}</a> <span class="dt">· ${dt}</span></div>${votes('story',id,t,x)}</div>`};
 function renderCats(DATA,V){let h='';
 for(const c of DATA){const cid=slug(c.cat);
- // group top 5: round-robin of each subgroup's ranked items
  const top=[];for(let r=0;top.length<5&&r<10;r++)for(const s of c.subs){if(s.items[r]&&top.length<5)top.push(s.items[r])}
  h+=`<section id="${V}-${cid}"><div class="ch"><span class="car">▾</span><h2>${esc(c.cat)}</h2>${votes('category',cid,c.cat)}</div><div class="body">`;
  if(!(c.subs.length===1&&!c.subs[0].sub))h+=`<div class="top"><h4>Top 5</h4><ol>${top.map(it=>`<li><a href="#${V}-s${it[7]}">${esc(it[1])}</a></li>`).join('')}</ol></div>`;
  for(const s of c.subs){if(!s.items.length)continue;const sid=cid+'/'+slug(s.sub);
-  h+=`<div class="sub">`+(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',sid,c.cat+' › '+s.sub)}</div>`:'');
+  h+=`<div class="sub"${s.sub?` id="${V}-${cid}-${slug(s.sub)}"`:''}>`+(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',sid,c.cat+' › '+s.sub)}</div>`:'');
   s.items.slice(0,10).forEach((it,i)=>h+=row(it,i>=5?'more':'',V,c.cat+(s.sub?' › '+s.sub:'')));
   if(s.items.length>5)h+=`<button class="mt">…more (${Math.min(10,s.items.length)-5})</button>`;
   h+=`</div>`;}
  h+=`</div></section>`;}
 return h}
 let VIEWS=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
-let html='';if(VIEWS.length>1)document.getElementById('togslot').innerHTML=`<div class="tog">${VIEWS.map((v,i)=>`<button data-v="${v[0]}" class="${i?'':'on'}">${esc(v[1])}</button>`).join('')}</div>`;
+let html='';
 VIEWS.forEach((v,i)=>html+=`<div class="view" data-v="${v[0]}" ${i?'hidden':''}>${renderCats(v[2],v[0])}</div>`);
 document.getElementById('m').innerHTML=html;
-document.querySelectorAll('.tog button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tog button').forEach(x=>x.classList.toggle('on',x===b));document.querySelectorAll('.view').forEach(v=>v.hidden=v.dataset.v!==b.dataset.v);try{localStorage.setItem('view:'+FEED,b.dataset.v)}catch(e){}}));
-{const pv=localStorage.getItem('view:'+FEED);const pb=pv&&document.querySelector(`.tog button[data-v="${pv}"]`);if(pb)pb.click();}
 
 document.querySelectorAll('.ch').forEach(e=>e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')}));
 document.querySelectorAll('.mt').forEach(b=>b.addEventListener('click',()=>{const s=b.parentElement;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'less':`…more (${s.querySelectorAll('.more').length})`}));
 const key=(l,i)=>`fb:${FEED}:${DATE}:${l}:${i}`;
-// shared cross-day like store (same origin): likes:v1 = {id:{...story, ts}}; likes:unliked = {id:ts}
 const LK='likes:v1',UK='likes:unliked',lget=k=>{try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return {}}},lset=(k,o)=>localStorage.setItem(k,JSON.stringify(o));
 function likeSync(v,on){if(v.dataset.level!=='story')return;const L=lget(LK),U=lget(UK),d=v.dataset,id=d.id;
  if(on){if(!L[id])L[id]={id,title:d.title,url:d.url,img:d.img,desc:d.desc,source:d.src,date:DATE,dt:d.dt,feed:FEED,feedname:FEEDNAME,cat:d.cat,ts:Date.now()};delete U[id]}
@@ -141,13 +177,12 @@ function likeSync(v,on){if(v.dataset.level!=='story')return;const L=lget(LK),U=l
  lset(LK,L);lset(UK,U)}
 document.querySelectorAll('.v').forEach(v=>{const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
  if(st)v.querySelectorAll(`[data-d="${st}"]`).forEach(b=>b.classList.add('on'));
- if(st==='up'&&level==='story'&&!lget(LK)[id])likeSync(v,true); // backfill likes made before the store existed
+ if(st==='up'&&level==='story'&&!lget(LK)[id])likeSync(v,true);
  v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
   const was=b.classList.contains('on');const vote=was?'clear':b.dataset.d;
   document.querySelectorAll(`.v[data-level="${level}"][data-id="${id}"]`).forEach(w=>w.querySelectorAll('button').forEach(x=>x.classList.toggle('on',!was&&x.dataset.d===vote)));
   was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),vote);
   if(level==='story')likeSync(v,vote==='up');
-  // mirror state on duplicate controls (none currently)
   try{await fetch('feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({feed:FEED,date:DATE,level,id,title,vote})})}catch(e){}
  }))});
 const icon={up:'👍',neutral:'●',down:'👎'};
@@ -157,5 +192,131 @@ document.getElementById('send').addEventListener('click',()=>{const lines=[],see
  const body=`feed: ${FEEDNAME}\ndate: ${DATE}\n\n`+lines.join('\n');
  if(!REPO||REPO.startsWith('__')){navigator.clipboard&&navigator.clipboard.writeText(body);alert('Feedback copied to clipboard:\n\n'+body);return}
  window.open(`https://github.com/${REPO}/issues/new?title=${encodeURIComponent((FEED==='news'?'Global News':'SciTech')+' feedback '+DATE)}&body=${encodeURIComponent(body)}`,'_blank');});
-(function(){const pin=document.getElementById('pin');const set=()=>document.documentElement.style.setProperty('--pin-h',(pin?pin.offsetHeight:0)+'px');const on=()=>{if(pin)pin.classList.toggle('scrolled',scrollY>16);set()};addEventListener('scroll',on,{passive:true});addEventListener('resize',set);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(on);on()})();
+
+/* ---- two-level pinned nav ---- */
+const defaultCut=VIEWS[0][0];
+let cut=defaultCut,sec='',sub='';
+let lastSpy='';
+const cats=()=>(VIEWS.find(v=>v[0]===cut)||VIEWS[0])[2];
+const catBySlug=s=>cats().find(c=>slug(c.cat)===s);
+const namedSubs=c=>(c?c.subs:[]).filter(s=>s.sub&&s.items.length);
+function setPinH(){const pin=document.getElementById('pin');if(pin)document.documentElement.style.setProperty('--pin-h',pin.offsetHeight+'px')}
+function parseHash(){
+  const h=location.hash.slice(1);
+  if(!h)return {cut:null,sec:'',sub:'',el:''};
+  if(/^(cut|sec|sub|view)=/.test(h)){const p=new URLSearchParams(h);return {cut:p.get('cut')||p.get('view')||null,sec:p.get('sec')||'',sub:p.get('sub')||'',el:''}}
+  return {cut:null,sec:'',sub:'',el:h};
+}
+function writeHash(push){
+  const p=new URLSearchParams();
+  if(cut!==defaultCut)p.set('cut',cut);
+  if(sec)p.set('sec',sec);
+  if(sub)p.set('sub',sub);
+  const next=p.toString()?('#'+p.toString()):(location.pathname+location.search);
+  const cur=location.hash|| (location.pathname+location.search);
+  if(cur===next)return;
+  (push?history.pushState:history.replaceState).call(history,null,'',next);
+}
+function revealRow(el){if(!el)return;if(el.classList.contains('more')){const s=el.closest('.sub');if(s){s.classList.add('open');const b=s.querySelector('.mt');if(b)b.textContent='less'}}}
+function scrollToId(id,smooth){const el=document.getElementById(id);if(!el)return false;revealRow(el);el.scrollIntoView({block:'start',behavior:smooth?'smooth':'auto'});return true}
+function inSubMode(){return !!(sec&&namedSubs(catBySlug(sec)).length)}
+function renderNav(){
+  const cutslot=document.getElementById('cutslot');
+  if(VIEWS.length>1){
+    cutslot.hidden=false;
+    cutslot.innerHTML=VIEWS.map(v=>`<button type="button" data-cut="${esc(v[0])}" class="${v[0]===cut?'on':''}">${esc(v[1])}</button>`).join('');
+    cutslot.querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.cut===cut)return;cut=b.dataset.cut;sec='';sub='';apply(true,true);scrollTo(0,0)});
+  }else cutslot.hidden=true;
+  const crumb=document.getElementById('crumb');
+  const parts=[`<a href="../">Morning Briefing</a>`];
+  parts.push(sec?`<a href="#" data-back="feed">${esc(FEEDNAME)}</a>`:`<span class="here">${esc(FEEDNAME)}</span>`);
+  if(sec){const c=catBySlug(sec);parts.push(`<span class="here">${esc(c?c.cat:sec)}</span>`)}
+  crumb.innerHTML=parts.join('<span class="sep"> › </span>');
+  crumb.hidden=!sec;
+  const back=crumb.querySelector('[data-back=feed]');
+  if(back)back.onclick=e=>{e.preventDefault();sec='';sub='';apply(true,true);scrollTo(0,0)};
+  const secs=document.getElementById('secs');
+  const mode=inSubMode()?'sub':'sec';
+  const tabs=mode==='sub'
+    ?[{id:'',name:'All'},...namedSubs(catBySlug(sec)).map(s=>({id:slug(s.sub),name:s.sub}))]
+    :[{id:'',name:'All'},...cats().map(x=>({id:slug(x.cat),name:label(x.cat)}))];
+  const cur=mode==='sub'?sub:sec;
+  secs.innerHTML=tabs.map(t=>`<button type="button" data-mode="${mode}" data-id="${esc(t.id)}" class="${t.id===cur?'on':''}">${esc(t.name)}</button>`).join('');
+  secs.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+    const id=b.dataset.id;
+    if(mode==='sub'){
+      sub=id;writeHash(true);renderNav();
+      id?scrollToId(cut+'-'+sec+'-'+id,true):document.querySelector(`.view[data-v="${cut}"] section:not([hidden])`)?.scrollIntoView({block:'start',behavior:'smooth'});
+    }else{
+      sec=id;sub='';apply(true,true);scrollTo(0,0);
+    }
+  });
+  lastSpy=cur;
+  setPinH();
+  requestAnimationFrame(scrollActiveTab);
+}
+function scrollActiveTab(){
+  const el=document.querySelector('#secs .on')||document.querySelector('#secs .spy');
+  if(el)el.scrollIntoView({inline:'center',block:'nearest'});
+}
+function apply(doHash,push){
+  document.querySelectorAll('.view').forEach(v=>v.hidden=v.dataset.v!==cut);
+  const root=document.querySelector(`.view[data-v="${cut}"]`);
+  if(root)root.querySelectorAll(':scope > section').forEach(s=>{
+    const cid=s.id.slice(cut.length+1);
+    const on=!sec||cid===sec;
+    s.hidden=!on;
+    if(on)s.classList.remove('closed');
+  });
+  try{localStorage.setItem('view:'+FEED,cut)}catch(e){}
+  renderNav();
+  if(doHash!==false)writeHash(!!push);
+  setPinH();
+}
+function applyFromHash(){
+  const st=parseHash();
+  if(st.cut&&VIEWS.some(v=>v[0]===st.cut))cut=st.cut;
+  else{try{const pv=localStorage.getItem('view:'+FEED);if(pv&&VIEWS.some(v=>v[0]===pv))cut=pv}catch(e){}}
+  sec=st.sec&&catBySlug(st.sec)?st.sec:'';
+  sub=sec&&st.sub&&namedSubs(catBySlug(sec)).some(s=>slug(s.sub)===st.sub)?st.sub:'';
+  apply(false);
+  if(st.el)requestAnimationFrame(()=>scrollToId(st.el,false));
+  else if(sub)requestAnimationFrame(()=>scrollToId(cut+'-'+sec+'-'+sub,false));
+}
+document.querySelectorAll('.top a').forEach(a=>a.addEventListener('click',e=>{
+  const id=(a.getAttribute('href')||'').slice(1);const el=document.getElementById(id);if(!el)return;
+  e.preventDefault();
+  const section=el.closest('section');
+  if(sec&&section&&section.hidden){sec='';sub='';apply(true,true)}
+  scrollToId(id,true);
+}));
+function spy(){
+  if(sec&&!inSubMode())return;
+  const mode=inSubMode()?'sub':'sec';
+  const pinH=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--pin-h'))||0;
+  const y=pinH+20;
+  let nodes;
+  if(mode==='sec'){
+    const root=document.querySelector(`.view[data-v="${cut}"]`);if(!root)return;
+    nodes=[...root.querySelectorAll(':scope > section')].filter(s=>!s.hidden).map(s=>({id:s.id.slice(cut.length+1),el:s}));
+  }else{
+    nodes=namedSubs(catBySlug(sec)).map(s=>({id:slug(s.sub),el:document.getElementById(cut+'-'+sec+'-'+slug(s.sub))}));
+  }
+  let active='';
+  for(const n of nodes){if(!n.el)continue;if(n.el.getBoundingClientRect().top<=y)active=n.id}
+  document.querySelectorAll('#secs button').forEach(b=>{
+    if(b.dataset.mode!==mode)return;
+    b.classList.toggle('on',b.dataset.id===active);
+  });
+  if(active!==lastSpy){lastSpy=active;scrollActiveTab()}
+}
+const pin=document.getElementById('pin');
+const onScroll=()=>{if(pin)pin.classList.toggle('scrolled',scrollY>16);setPinH();spy()};
+addEventListener('scroll',onScroll,{passive:true});
+addEventListener('resize',()=>{setPinH();scrollActiveTab()});
+addEventListener('hashchange',applyFromHash);
+addEventListener('popstate',applyFromHash);
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{setPinH();spy()});
+applyFromHash();
+onScroll();
 </script></body></html>
