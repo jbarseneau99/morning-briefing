@@ -1,5 +1,5 @@
 /* Morning Briefing shell worker: network-first for HTML so daily editions update; cache the app shell for fast standalone launch. */
-const VERSION = 'briefing-shell-v3';
+const VERSION = 'briefing-shell-v4';
 const SHELL = [
   '/morning-briefing/',
   '/morning-briefing/news/',
@@ -43,6 +43,12 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
   if (!url.pathname.startsWith('/morning-briefing/')) return;
+
+  // Intraday endpoints must always hit the network so refresh sees new stories.
+  if (url.pathname.endsWith('/latest.json') || url.pathname.endsWith('latest.json')) {
+    event.respondWith(fetch(request).catch(() => caches.match(request)));
+    return;
+  }
 
   if (isHtml(request, url)) {
     event.respondWith(
