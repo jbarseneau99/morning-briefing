@@ -1,12 +1,12 @@
 /* Morning Briefing shell worker: network-first for HTML so daily editions update; cache the app shell for fast standalone launch. */
-const VERSION = 'briefing-shell-v1';
+const VERSION = 'briefing-shell-v3';
 const SHELL = [
   '/morning-briefing/',
   '/morning-briefing/news/',
   '/morning-briefing/scitech/',
   '/morning-briefing/manifest.webmanifest',
-  '/morning-briefing/img/mach33-wordmark-black.svg',
-  '/morning-briefing/img/mach33-wordmark-white.svg',
+  '/morning-briefing/img/mach33-wordmark-black.svg?v=3',
+  '/morning-briefing/img/mach33-wordmark-white.svg?v=3',
   '/morning-briefing/img/icon-192.png',
   '/morning-briefing/img/icon-512.png',
   '/morning-briefing/img/apple-touch-icon.png'
@@ -24,6 +24,10 @@ self.addEventListener('activate', (event) => {
       Promise.all(keys.filter((k) => k !== VERSION).map((k) => caches.delete(k)))
     ).then(() => self.clients.claim())
   );
+});
+
+self.addEventListener('message', (event) => {
+  if (event.data === 'skipWaiting') self.skipWaiting();
 });
 
 function isHtml(request, url) {
@@ -55,17 +59,19 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  if (SHELL.includes(url.pathname)) {
+  const pathWithQuery = url.pathname + url.search;
+  if (SHELL.includes(url.pathname) || SHELL.includes(pathWithQuery)) {
     event.respondWith(
       caches.match(request).then((cached) => {
-        if (cached) return cached;
-        return fetch(request).then((res) => {
+        const net = fetch(request).then((res) => {
           if (res && res.ok) {
             const copy = res.clone();
             caches.open(VERSION).then((cache) => cache.put(request, copy));
           }
           return res;
         });
+        // prefer network for versioned assets too if cache miss; stale-while-revalidate when cached
+        return cached || net;
       })
     );
   }
