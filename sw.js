@@ -1,5 +1,5 @@
 /* Morning Briefing shell worker: network-first for HTML so editions and the reader JS always update. */
-const VERSION = 'briefing-shell-20261115-0831';
+const VERSION = 'briefing-shell-20261115-0921';
 const SHELL_ASSETS = [
   '/morning-briefing/manifest.webmanifest',
   '/morning-briefing/img/mach33-wordmark-black.svg?v=3',
@@ -11,7 +11,8 @@ const SHELL_ASSETS = [
 const SHELL_HTML = [
   '/morning-briefing/',
   '/morning-briefing/news/',
-  '/morning-briefing/scitech/'
+  '/morning-briefing/scitech/',
+  '/morning-briefing/papers/'
 ];
 
 self.addEventListener('install', (event) => {
@@ -40,7 +41,7 @@ function isHtml(request, url) {
   if (p.endsWith('.html') || p.endsWith('/')) return true;
   const last = (p.split('/').pop() || '');
   if (last && !/\.[a-zA-Z0-9]{1,8}$/.test(last)) return true;
-  return /\/morning-briefing\/(news\/|scitech\/)?$/.test(p);
+  return /\/morning-briefing\/(news\/|scitech\/|papers\/)?$/.test(p);
 }
 
 self.addEventListener('fetch', (event) => {
