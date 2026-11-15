@@ -5,20 +5,6 @@
  "stories": [
   {
    "n": 1,
-   "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
-   "desc": "The Singapore-based cloud computing company has faced heightened scrutiny since reports linked Nvidia's Jensen Huang to former Megaspeed executive Alice Huang.",
-   "src": "CNBC",
-   "url": "https://www.cnbc.com/amp/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
-   "dt": "Nov 15",
-   "img": "2673cc8976.jpg",
-   "id": "u2673cc8976",
-   "added_at": "2026-11-15T05:27:19-0500",
-   "new": false,
-   "cat": "Technology business news",
-   "sub": "Big Tech"
-  },
-  {
-   "n": 2,
    "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
    "desc": "Jensen Huang’s affair with a suspected spy is Silicon Valley’s worst nightmare come true The resignation this week of Nvidia’s founder and CEO Jensen Huang is one of the most…",
    "src": "The Guardian",
@@ -32,7 +18,7 @@
    "sub": "Big Tech"
   },
   {
-   "n": 3,
+   "n": 2,
    "title": "Jensen Huang’s Downfall Brings Disbelief in Taiwan",
    "desc": "The Nvidia chief executive’s resignation shocked people in his birthplace, where he is called “the people’s dad.”",
    "src": "The New York Times",
@@ -46,7 +32,7 @@
    "sub": "Big Tech"
   },
   {
-   "n": 4,
+   "n": 3,
    "title": "Italy hits Meta with €805m fine over privacy law violation",
    "desc": "It is the largest fine ever issued by Italy’s data protection regulator.",
    "src": "POLITICO Europe",
@@ -60,7 +46,7 @@
    "sub": "Big Tech"
   },
   {
-   "n": 5,
+   "n": 4,
    "title": "When Tech ‘Upgrades’ Go Awry",
    "desc": "Incidents involving Microsoft’s Outlook and the Federal Aviation Administration this past week demonstrated our dependence on fragile technology.",
    "src": "The New York Times",
@@ -74,7 +60,7 @@
    "sub": "Big Tech"
   },
   {
-   "n": 6,
+   "n": 5,
    "title": "Ten years, thousands of staff and a billion dollars: the exclusive inside story of Grand Theft Auto VI",
    "desc": "The latest instalment of the epic crime saga is finally here. We visit Rockstar Games for a hands-on encounter with the cultural event of the decade – and can confirm it more than lives up to the hype It still comes as a surprise for many to learn that Grand Theft Auto, the brazenly American crime s",
    "src": "The Guardian",
@@ -88,7 +74,7 @@
    "sub": "Big Tech"
   },
   {
-   "n": 7,
+   "n": 6,
    "title": "The Logitech Yeti 2 Is a Worthy Successor to the Most Iconic USB Mic of All Time",
    "desc": "The follow-up to the iconic Yeti microphone is here, and its upgrades make it worthy of the legacy.",
    "src": "WIRED",
@@ -102,7 +88,7 @@
    "sub": "Big Tech"
   },
   {
-   "n": 8,
+   "n": 7,
    "title": "The Evercade Nexus Opens a Portal to a New World of Retro Gaming",
    "desc": "Evercade’s best handheld yet is a major level-up for the retro specialist.",
    "src": "WIRED",
@@ -116,7 +102,7 @@
    "sub": "Big Tech"
   },
   {
-   "n": 9,
+   "n": 8,
    "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
    "desc": "The Singapore-based cloud computing company has faced heightened scrutiny since reports linked Nvidia's Jensen Huang to former Megaspeed executive Alice Huang.",
    "src": "CNBC",
@@ -130,7 +116,7 @@
    "sub": "Big Tech"
   },
   {
-   "n": 10,
+   "n": 9,
    "title": "An overview of Jensen Huang’s messy days",
    "desc": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepb",
    "src": "The Verge",
@@ -144,7 +130,7 @@
    "sub": "Big Tech"
   },
   {
-   "n": 11,
+   "n": 10,
    "title": "US flights resume after \"telecommunications outage\" causes nationwide ground stop, new tech rollout blamed",
    "desc": "Routers \"overloaded with data\"",
    "src": "Data Center Dynamics",
@@ -158,7 +144,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 12,
+   "n": 11,
    "title": "Repair of old copper wiring caused US flight disruption: Trump administration",
    "desc": "The communication outage was said to be caused by maintenance work to upgrade an old copper wire to a high-speed fibre cable.",
    "src": "The Straits Times",
@@ -172,7 +158,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 13,
+   "n": 12,
    "title": "Dev hacks Coway air purifier to cut it off from the cloud, now runs locally in Home Assistant — fan downloads the certificate over plain HTT",
    "desc": "A developer reverse-engineered his Coway Airmega IconS air purifier to run it locally in Home Assistant, without Coway’s cloud.",
    "src": "Tomshardware",
@@ -186,7 +172,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 14,
+   "n": 13,
    "title": "Synopsys sees AI accelerating EDA as chip-specific models divide work",
    "desc": "Synopsys chief product development officer Shankar Krishnamoorthy said AI will accelerate the electronic design automation (EDA) industry as the company works with OpenAI to…",
    "src": "DigiTimes",
@@ -200,7 +186,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 15,
+   "n": 14,
    "title": "Lite-On sees AI server orders through 2028 as 800V DC reshapes power market",
    "desc": "Lite-On expects AI-related revenue to account for 40%–50% of total revenue by 2027, driven by strong growth in high-end AI power systems.",
    "src": "DigiTimes",
@@ -214,7 +200,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 16,
+   "n": 15,
    "title": "Foxconn targets automotive chiplets with 5μm fan-out RDL packaging",
    "desc": "As AI applications expand from cloud model training to end devices, Foxconn is using fan-out redistribution layer (RDL) technology to enter the advanced packaging market.",
    "src": "DigiTimes",
@@ -228,7 +214,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 17,
+   "n": 16,
    "title": "Hoya reportedly unable to meet Samsung",
    "desc": "Japan's Hoya has reportedly told Samsung Electronics it would struggle to meet the chipmaker's request for additional extreme ultraviolet (EUV) mask blanks in 2027.",
    "src": "DigiTimes",
@@ -242,7 +228,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 18,
+   "n": 17,
    "title": "Lite-On targets LEO satellites and enterprise AI servers for edge computing growth",
    "desc": "As AI computing moves from the cloud to edge devices, Lite-On Technology has reorganized its IT business segments, launching its Edge Computing and Energy Solutions (ECES)…",
    "src": "DigiTimes",
@@ -256,7 +242,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 19,
+   "n": 18,
    "title": "Why a North Dakota town backed AI data center development",
    "desc": "On November 3, 2026, US voters cast ballots in local referendums on a total of 47 measures regarding AI data centers alongside the midterm elections. Unofficial figures compiled by Redbud Consulting and updated through November 10 show that 45 measures had been counted, with 44 of them in favor of r",
    "src": "DigiTimes",
@@ -270,7 +256,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 20,
+   "n": 19,
    "title": "AUO Mobility Solutions to showcase next-gen smart cockpit at CES 2027",
    "desc": "AUO Mobility Solutions Corporation, a subsidiary of AU Optronics (AUO) focused on smart cockpit and mobility solutions, will showcase its latest advances at CES 2027 in Las Vegas under the theme \"Intelligence in Motion,\" highlighting the shift from visual experiences to intelligent interaction.",
    "src": "DigiTimes",
@@ -284,7 +270,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 21,
+   "n": 20,
    "title": "Gemtek returns to profitability on direct-supply expansion, eyes AI infrastructure and optical module growth in 2027",
    "desc": "Taiwan-based networking equipment maker Gemtek Technology is gaining momentum in its business recovery following a challenging business-model transition, returning to operating profitability in the third quarter of 2026 as margins improved and direct-supply sales expanded. The company expects fourth",
    "src": "DigiTimes",
@@ -298,7 +284,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 22,
+   "n": 21,
    "title": "Neousys Technology posts record quarter as defense, AGV/AMR demand accelerates",
    "desc": "Industrial PC maker Neousys Technology posted record operating performance in 3Q26, driven by project customer shipments and peak shipments to the North American market. The company expects growth from defense, edge AI, and applications involving automated guided vehicles (AGVs) and autonomous mobil",
    "src": "DigiTimes",
@@ -312,7 +298,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 23,
+   "n": 22,
    "title": "Etron plans strategic stake in Powerchip Innovation Investment",
    "desc": "Memory IC designer Etron Technology reported strong Q3 2026 results on robust memory demand and rising product prices, with revenue reaching NT$6.792 billion (US$206.6 million), up 38.6% quarter-over-quarter and 535% year-over-year. Net income attributable to the parent company came to NT$2.493 bill",
    "src": "DigiTimes",
@@ -326,7 +312,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 24,
+   "n": 23,
    "title": "TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying “we also want to support th",
    "desc": "Cheng Ting-Fang / Nikkei Asia : TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying “we also want to support the…",
    "src": "Techmeme",
@@ -340,7 +326,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 25,
+   "n": 24,
    "title": "MetaX-UBTech robot chip venture Xilect raises CNY500 million to take on Nvidia Thor",
    "desc": "Xilect, a robot-chip venture set up by Chinese GPU designer MetaX and humanoid robot maker UBTech Robotics, has completed a CNY500 million (US$74.76 million) angel round to…",
    "src": "DigiTimes",
@@ -354,7 +340,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 26,
+   "n": 25,
    "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
    "desc": "Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang’s resignation.",
    "src": "CNBC",
@@ -368,21 +354,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 27,
-   "title": "A Human Reads the Anthropic I.P.O. Filing",
-   "desc": "The prospectus is unparalleled in its willingness to discuss existential risk.",
-   "src": "The New York Times",
-   "url": "https://www.nytimes.com/2026/11/15/business/a-human-reads-the-anthropic-ipo-filing.html",
-   "dt": "Nov 15",
-   "img": "b6ce1d1fc7.jpg",
-   "id": "ub6ce1d1fc7",
-   "added_at": "2026-11-15T05:27:19-0500",
-   "new": false,
-   "cat": "Investments and deals",
-   "sub": "Public markets & IPOs"
-  },
-  {
-   "n": 28,
+   "n": 26,
    "title": "Jensen Huang’s ousting sends tech stocks tumbling; Singtel CEO sells shares: Markets this week",
    "desc": "Singtel Group CEO Yuen Kuan Moon on Nov 13 sold 2 million shares in the company at $4.07 per share, or $8.14 million in total.",
    "src": "The Straits Times",
@@ -396,7 +368,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 29,
+   "n": 27,
    "title": "The 21 Best REI Holiday Sale Outdoor Deals",
    "desc": "Stock up on outdoor gear and gifts for friends at REI’s annual holiday sale.",
    "src": "WIRED",
@@ -410,7 +382,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 30,
+   "n": 28,
    "title": "Nvidia board director cashed out $1 billion in stock before Jensen Huang scandal — Mark Stevens sold 4.2 million shares without a trading pl",
    "desc": "Nvidia Board Director sold around 4.2 million shares beginning August 31 and ending September 18, with the sale making him somewhere around $947 million.",
    "src": "Tomshardware",
@@ -424,7 +396,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 31,
+   "n": 29,
    "title": "Physicists use laser light to unlock a crystal's hidden electrical powers",
    "desc": "Scientists have discovered how to use flashes of laser light to organize tiny electrical regions inside a crystal, solving a decades-old mystery about how the material behaves.",
    "src": "ScienceDaily",
@@ -438,7 +410,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 32,
+   "n": 30,
    "title": "November planetary parade: How and when to spot it in the pre-dawn sky",
    "desc": "The planets of Mercury, Venus, Mars and Jupiter will align in pre-dawn sky throughout November.",
    "src": "BBC",
@@ -452,7 +424,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 33,
+   "n": 31,
    "title": "Scientists might have discovered what makes AI so effective at chess",
    "desc": "AI’s comfort with complexity could be key to its chess-playing prowess",
    "src": "Scientific American",
@@ -466,21 +438,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 34,
-   "title": "SpaceX catches part of its Starship rocket on return to Earth",
-   "desc": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
-   "src": "BBC",
-   "url": "https://www.bbc.co.uk/news/videos/cw23j8pkk421o?at_medium=RSS&at_campaign=rss",
-   "dt": "Nov 14",
-   "img": "4443d0813e.jpg",
-   "id": "u4443d0813e",
-   "added_at": "2026-11-15T07:21:28-0500",
-   "new": true,
-   "cat": "Sciences",
-   "sub": "Physics & Astronomy"
-  },
-  {
-   "n": 35,
+   "n": 32,
    "title": "NASA's Voyager 1 mission forever changed our view of Jupiter",
    "desc": "As NASA's Voyager 1 probe reaches one light-day from Earth, we look back at its legendary photos of Jupiter that changed our view of the solar system.",
    "src": "Live Science",
@@ -494,7 +452,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 36,
+   "n": 33,
    "title": "How did Cleopatra really die?",
    "desc": "Ancient writers couldn't agree on how Egypt's last queen took her own life, and the famous snakebite story may owe more to her enemies than to the facts.",
    "src": "Live Science",
@@ -508,7 +466,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 37,
+   "n": 34,
    "title": "Checking your connection",
    "desc": "On April 10, 2019, the Event Horizon Telescope (EHT) Collaboration revealed the first picture of a black hole. The object is at the center of a galaxy known as M87, about 55 million light-years away.",
    "src": "Phys.org",
@@ -522,7 +480,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 38,
+   "n": 35,
    "title": "Checking your connection",
    "desc": "The advance of urbanization in the São Paulo Metropolitan Area in Brazil is causing the collapse of food webs in local streams. A study published in August in the journal Nature Cities reveals that the impact of the metropolis goes far beyond a simple reduction in species. Degradation selectively el",
    "src": "Phys.org",
@@ -536,7 +494,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 39,
+   "n": 36,
    "title": "Checking your connection",
    "desc": "Since 2022, astronomers have been puzzling over a new kind of cosmic object called long-period radio transients. These are objects that emit bright flashes of radio waves into space every few minutes to every few hours. Some have been traced back to binary systems consisting of a small, dim, cool st",
    "src": "Phys.org",
@@ -550,7 +508,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 40,
+   "n": 37,
    "title": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
    "desc": "ESA’s Euclid space telescope has discovered 31 ancient quasars, including two record-breaking objects that shone with the brightness of a trillion Suns when the Universe was just 670 million years old. Powered by supermassive black holes, these extraordinary cosmic beacons reveal a time when the fir",
    "src": "ScienceDaily",
@@ -564,7 +522,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 41,
+   "n": 38,
    "title": "Brain Implants Give A.L.S. Patients the Voice to Speak and Sing",
    "desc": "In one demonstration, a former singer sang a musical scale.",
    "src": "The New York Times",
@@ -578,7 +536,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 42,
+   "n": 39,
    "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
    "desc": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins.",
    "src": "ScienceDaily",
@@ -592,7 +550,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 43,
+   "n": 40,
    "title": "Scientists discover a bizarre paradox among endangered penguins",
    "desc": "A groundbreaking drone survey has revealed a startling split in the fate of New Zealand's endangered Erect-crested penguins.",
    "src": "ScienceDaily",
@@ -606,7 +564,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 44,
+   "n": 41,
    "title": "Dinosaurs may have been eating seaweed 100 million years ago",
    "desc": "Dinosaurs may have been snacking on seaweed and other ocean foods more than 100 million years ago, according to surprising new evidence hidden in their fossilized teeth.",
    "src": "ScienceDaily",
@@ -620,7 +578,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 45,
+   "n": 42,
    "title": "New Species of Giant Fungus Discovered in China Grows up to 20 Inches Tall",
    "desc": "Dubbed Dianjunus rex, the huge fungus emerged shortly after the mass extinction that wiped out the dinosaurs.",
    "src": "WIRED",
@@ -634,7 +592,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 46,
+   "n": 43,
    "title": "Trump administration planning to reimburse doctors treating vaccine ‘injury’",
    "desc": "Experts warn that sweeping changes elevate health secretary RFK Jr’s anti-vaccine agenda and personal profit The Trump administration is finalizing a rule to reimburse doctors who diagnose, treat and counsel patients with side effects from vaccines in what experts believe is an attempt to undermine ",
    "src": "The Guardian",
@@ -648,7 +606,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 47,
+   "n": 44,
    "title": "How the world’s fires changed while humanity hit pause",
    "desc": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
    "src": "Ars Technica",
@@ -662,7 +620,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 48,
+   "n": 45,
    "title": "Pope laments poverty-stricken Inca communities as locals leave Peru",
    "desc": "Pope Leo XIV on Sunday will traverse the length of Peru in what marks the penultimate day of his Latin American tour. The leader of the Catholic church – who underwent cancer surgery just a month ago – warned that Peru's remote Inca communities are under threat as poverty continues to drive locals o",
    "src": "France 24",
@@ -676,21 +634,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 49,
-   "title": "Brain implants give ALS patients the voice to speak and sing",
-   "desc": "Brain-computer interface research is crossing into everyday usefulness.",
-   "src": "The Straits Times",
-   "url": "https://www.straitstimes.com/world/united-states/brain-implants-give-als-patients-the-voice-to-speak-and-sing",
-   "dt": "Nov 14",
-   "img": "3a6d675c13.jpg",
-   "id": "u3a6d675c13",
-   "added_at": "2026-11-15T07:21:28-0500",
-   "new": true,
-   "cat": "Sciences",
-   "sub": "Biology & Medicine"
-  },
-  {
-   "n": 50,
+   "n": 46,
    "title": "Britain’s Prince William to be joined by wife Kate for visit to India",
    "desc": "The trip marks Kate's most high-profile overseas visit since she having treatment for cancer in 2024.",
    "src": "The Straits Times",
@@ -704,7 +648,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 51,
+   "n": 47,
    "title": "Nations grapple with loss of 1.5 deg C target at UN climate summit",
    "desc": "The UN declared in September that crossing 1.5 deg C was imminent and unavoidable.",
    "src": "The Straits Times",
@@ -718,7 +662,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 52,
+   "n": 48,
    "title": "COP31: Protesters, UN urge swift climate deal",
    "desc": "The UN climate chief has warned that \"tactical delays\" at the COP31 climate talks in Turkey could prevent a deal to slow global warming.",
    "src": "DW",
@@ -732,7 +676,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 53,
+   "n": 49,
    "title": "It’s Getting Too Dry for Even Cactuses to Survive",
    "desc": "As droughts worsen due to climate change, new research shows that hundreds of cactus species could lose the majority of their habitats by 2100.",
    "src": "WIRED",
@@ -746,7 +690,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 54,
+   "n": 50,
    "title": "Anthony Albanese apologises for hot-mic gaffe after Coalition criticises ‘locker-room talk’",
    "desc": "Prime minister says he and Chris Bowen were having ‘light-hearted banter’ when they were caught discussing where they keep their phones Get our daily political email , free app or daily news podcast Anthony Albanese has apologised for a hot-mic gaffe at the UN climate talks in Turkey, saying he regr",
    "src": "The Guardian",
@@ -760,7 +704,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 55,
+   "n": 51,
    "title": "Growing freshwater challenges threaten Canada’s long-term security, federal memo warns",
    "desc": "Climate change, pollution and growing demand are putting pressure on water resources, raising concerns about supply",
    "src": "The Globe and Mail",
@@ -774,7 +718,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 56,
+   "n": 52,
    "title": "Modified Ender 3 becomes a $450 bioprinter for 3D printing engineered living materials — slashes hardware costs from $100,000, uses custom s",
    "desc": "Microbiologists at the University of Rochester have modified an Ender 3 FDM printer into a 3D bioprinter for $450 and outperforming 3D bioprinters costing more than $100,000.",
    "src": "Tomshardware",
@@ -788,21 +732,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 57,
-   "title": "SpaceX catches upper stage of Starship rocket in historic first",
-   "desc": "Starship Test Flight 15 marked the first time Elon Musk's company tried to catch both the booster and upper stage of the rocket.",
-   "src": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
-   "dt": "Nov 14",
-   "img": "daadbbb0bd.jpg",
-   "id": "udaadbbb0bd",
-   "added_at": "2026-11-15T05:27:19-0500",
-   "new": false,
-   "cat": "Technology & Engineering",
-   "sub": "Space"
-  },
-  {
-   "n": 58,
+   "n": 53,
    "title": "With Starship catch, SpaceX still shows it can dazzle the world",
    "desc": "It felt like stepping into the future.",
    "src": "Ars Technica",
@@ -816,21 +746,7 @@
    "sub": "Space"
   },
   {
-   "n": 59,
-   "title": "SpaceX Successfully Catches Starship Upper Stage",
-   "desc": "SpaceX made history on Saturday, recovering a Starship upper stage from orbit for the first time.",
-   "src": "Payload",
-   "url": "https://payloadspace.com/spacex-successfully-catches-starship-upper-stage/",
-   "dt": "Nov 14",
-   "img": "5cf87f68b5.jpg",
-   "id": "u5cf87f68b5",
-   "added_at": "2026-11-15T05:27:19-0500",
-   "new": false,
-   "cat": "Technology & Engineering",
-   "sub": "Space"
-  },
-  {
-   "n": 60,
+   "n": 54,
    "title": "What's next for SpaceX's Starship after epic Flight 15 chopsticks catch?",
    "desc": "SpaceX just made spaceflight history, catching the upper stage of its Starship megarocket when it returned to Earth. But Starship still has some pretty big boxes left to check.",
    "src": "Space.com",
@@ -844,7 +760,7 @@
    "sub": "Space"
   },
   {
-   "n": 61,
+   "n": 55,
    "title": "SpaceX makes rocketry history by recapturing massive reusable rocketship",
    "desc": "After failing to catch a booster yesterday, SpaceX managed to recapture its massive reusable rocketship, \"Starship\" for the first time. Smaller previous models have successfully relanded but they require heavy legs and aren't fully reusable. Story by Daniel Quinlan.",
    "src": "France 24",
@@ -858,7 +774,7 @@
    "sub": "Space"
   },
   {
-   "n": 62,
+   "n": 56,
    "title": "Security Verification",
    "desc": "Successful landing of upper stage is key to founder’s aim of sending reusable manned rockets to Mars",
    "src": "Financial Times",
@@ -872,21 +788,7 @@
    "sub": "Space"
   },
   {
-   "n": 63,
-   "title": "Watch: SpaceX catches part of its Starship rocket on return to Earth",
-   "desc": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
-   "src": "BBC",
-   "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
-   "dt": "Nov 14",
-   "img": "06a1e4f465.jpg",
-   "id": "u06a1e4f465",
-   "added_at": "2026-11-15T07:21:28-0500",
-   "new": true,
-   "cat": "Technology & Engineering",
-   "sub": "Space"
-  },
-  {
-   "n": 64,
+   "n": 57,
    "title": "SpaceX Makes History With Successful Rocket Catch in Texas",
    "desc": "The Starship spacecraft returned from orbit to the same spot where it lifted off, marking a key milestone in SpaceX’s vision of building fully reusable rockets.",
    "src": "The New York Times",
@@ -900,7 +802,7 @@
    "sub": "Space"
   },
   {
-   "n": 65,
+   "n": 58,
    "title": "The Lustre Collective Names Do IT Now Launch Partner Ahead of SC26 - HPCwire",
    "desc": "ARVADA, Colo., Nov. 15, 2026 — The Lustre Collective (TLC), the engineering company founded by veteran Lustre developers to advance Lustre upstream and in the open, has announced a strategic partnership with Do IT Now, the European HPC and AI infrastructure integrator. Together, the two companies wi",
    "src": "HPCwire",
@@ -914,7 +816,7 @@
    "sub": "Space"
   },
   {
-   "n": 66,
+   "n": 59,
    "title": "SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger",
    "desc": "Just months after SpaceX was denied a swift entry into the S&P 500 Index, Elon Musk may have found a backdoor: Merging with Tesla Inc., one of the stock-market benchmark’s biggest members.",
    "src": "Ca",
@@ -928,7 +830,7 @@
    "sub": "Space"
   },
   {
-   "n": 67,
+   "n": 60,
    "title": "Cursor confirms security breach led to malicious Claude Code extension",
    "desc": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI…",
    "src": "Bleepingcomputer",
@@ -942,7 +844,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 68,
+   "n": 61,
    "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
    "desc": "Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea’s national…",
    "src": "The Guardian",
@@ -956,7 +858,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 69,
+   "n": 62,
    "title": "‘Prove you are not a robot’: how the Captcha scam captures your computer",
    "desc": "Unlike familiar Captcha tests, this con asks you to press a series of keys.",
    "src": "The Guardian",
@@ -970,7 +872,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 70,
+   "n": 63,
    "title": "Dead as a prank? Young South Koreans turn to AI for fake funeral portraits",
    "desc": "The practice has recently gained popularity among teenagers and people in their 20s.",
    "src": "The Straits Times",
@@ -984,7 +886,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 71,
+   "n": 64,
    "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
    "desc": "Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and is desperate for some positive momentum.",
    "src": "CNBC",
@@ -998,7 +900,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 72,
+   "n": 65,
    "title": "A Human Reads the Anthropic I.P.O. Filing",
    "desc": "The prospectus is unparalleled in its willingness to discuss existential risk. But does honesty bring comfort?",
    "src": "The New York Times",
@@ -1012,7 +914,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 73,
+   "n": 66,
    "title": "In a Sloppified A.I. World, Only Humans Can Build ‘Ecosystems’",
    "desc": "The people ushering in the artificial intelligence revolution are also doubling down on in-person relationships in their own industry.",
    "src": "The New York Times",
@@ -1026,7 +928,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 74,
+   "n": 67,
    "title": "AI DJs Completely Kill My Groove",
    "desc": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
    "src": "WIRED",
@@ -1040,7 +942,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 75,
+   "n": 68,
    "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
    "desc": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
    "src": "WIRED",
@@ -1054,7 +956,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 76,
+   "n": 69,
    "title": "Security Verification",
    "desc": "South Korean conglomerate hopes to replicate success with semiconductors across its sprawling portfolio of businesses",
    "src": "Financial Times",
@@ -1068,7 +970,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 77,
+   "n": 70,
    "title": "Huawei set to challenge Tesla Powerwall with new, 20 kW home battery",
    "desc": "This high-tech Huawei home battery pack hopes to hold back Tesla’s latest Powerwall with silicon carbide technology, AI-powered energy management baked in , and enough modular…",
    "src": "Electrek",
@@ -1082,7 +984,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 78,
+   "n": 71,
    "title": "Hengs, Unitech launch 5.04MW/10.03MWh energy storage project",
    "desc": "Sustainable energy company Hengs Technology has partnered with printed circuit board (PCB) maker Unitech Printed Circuit Board to launch a large behind-the-meter energy storage…",
    "src": "DigiTimes",
@@ -1096,7 +998,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 79,
+   "n": 72,
    "title": "Tesla Cybercab's autonomy agreement is insane: $299/mo or it doesn't move",
    "desc": "Tesla has posted the agreement that comes with its $29,990 Cybercab, and it’s even worse than the order page suggested.",
    "src": "Electrek",
@@ -1110,7 +1012,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 80,
+   "n": 73,
    "title": "$20K Nissan NX7 PHEV goes on sale with nearly 200 miles of electric range",
    "desc": "Dongfeng Nissan officially opened the early order book on its new NX7 hybrid yesterday, promising up to 320 km (~198 miles) of all-electric range from a 40 kWh lithium iron…",
    "src": "Electrek",
@@ -1124,7 +1026,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 81,
+   "n": 74,
    "title": "Trident nuclear submarine concludes record underwater deployment",
    "desc": "HMS Vengeance’s 217-day tour raises questions about slow pace of maintenance of ageing fleet and impact on crew A Trident nuclear submarine has concluded a record seven-month deployment, returning to the Faslane naval base in Scotland, where its crew are expected to be greeted by senior members of t",
    "src": "The Guardian",
@@ -1138,7 +1040,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 82,
+   "n": 75,
    "title": "Security Verification",
    "desc": "Rise of so-called hybrid warfare brings greater focus to grid and refinery protection",
    "src": "Financial Times",
@@ -1152,7 +1054,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 83,
+   "n": 76,
    "title": "This built-in Windows tool can diagnose your PC",
    "desc": "If your laptop doesn't seem to hold a charge as well as it used to, start by checking the diagnostics this tool can report. We'll show you how to use it.",
    "src": "Engadget",
@@ -1166,7 +1068,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 84,
+   "n": 77,
    "title": "Check your ego at the door: Stellantis' new electric dolly turns ANY car into a tow rig",
    "desc": "We all know the type: grizzled stubble, wraparound PitVipers, a MAGA hat quietly retired after last week’s deep-blue shellacking , and a pristine, polished pickup parked in the driveway that they “need for towing.” With Stellantis’ new patent for an AI-powered electric tow dolly that turns just abou",
    "src": "Electrek",
@@ -1180,7 +1082,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 85,
+   "n": 78,
    "title": "I finally got a USB-C charging e-bike, and it costs 75% less than Rivian’s bike",
    "desc": "I’ve been waiting years for electric bikes to finally embrace USB-C charging. We’ve already standardized much of our lives around the convenient little connector, from phones and laptops to tablets and countless other gadgets. But for some reason, electric bikes have largely missed the memo. Now, th",
    "src": "Electrek",
@@ -1194,7 +1096,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 86,
+   "n": 79,
    "title": "Malaysia probing alleged Nvidia AI chip diversion since April 2025: Home Minister",
    "desc": "This follows allegations of illicit procurement and diversion of AI chips through Malaysia.",
    "src": "The Straits Times",
@@ -1208,7 +1110,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 87,
+   "n": 80,
    "title": "Malaysia plans new law using data center power consumption to catch AI GPU smugglers — but real-world TDP variance and lack of physical audi",
    "desc": "Malaysia plans to track AI GPU imports and data center power consumption to combat chip smuggling.",
    "src": "Tomshardware",
@@ -1222,7 +1124,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 88,
+   "n": 81,
    "title": "A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US",
    "desc": "A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy — The chip company…",
    "src": "Techmeme",
@@ -1236,7 +1138,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 89,
+   "n": 82,
    "title": "Who should run Nvidia? Our picks for Jensen Huang’s successor, whether the board likes it or not",
    "desc": "Nvidia's board says it hasn't formally engaged any candidates to succeed Jensen Huang, but GeekWire's picks include Arm CEO Rene Haas, whom the board reportedly approached,…",
    "src": "GeekWire",
@@ -1250,7 +1152,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 90,
+   "n": 83,
    "title": "Security Verification",
    "desc": "The chip company has only itself to blame for a long list of adversaries",
    "src": "Financial Times",
@@ -1264,7 +1166,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 91,
+   "n": 84,
    "title": "Dr. Lisa Su graces the opening of Micro Center",
    "desc": "AMD gave away 300 swag bags to lucky shoppers, plus raffled off AMD gear, including a Radeon RX 9070 XT that Dr. Lisa Su autographed.",
    "src": "Tomshardware",
@@ -1278,7 +1180,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 92,
+   "n": 85,
    "title": "The original Xbox was released 25 years ago today — Microsoft’s Pentium III and Nvidia GPU-powered console did surprisingly well in a PS2-do",
    "desc": "Microsoft’s first games console hit North America 25 years ago today powered by a Pentium III CPU and Nvidia GPU.",
    "src": "Tomshardware",
@@ -1292,7 +1194,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 93,
+   "n": 86,
    "title": "Which NVIDIA GPU is closest to the PS5? The answer isn",
    "desc": "One of the biggest questions when it comes to purchasing a gaming rig is whether to go console or PC. This NVIDIA GPU gives the closest results to a PS5.",
    "src": "Engadget",
@@ -1306,7 +1208,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 94,
+   "n": 87,
    "title": "One cable mistake could be killing your desktop PC",
    "desc": "Plugging your monitor into the motherboard instead of your dedicated GPU can ruin gaming performance. Here's how to check your ports and get your frames back.",
    "src": "Engadget",
@@ -1320,7 +1222,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 95,
+   "n": 88,
    "title": "Lawyer upgrades eight-V100 private AI server to run 80% of DeepSeek V4.1 Flash at 4-bit NVFP4 precision — adds 1TB of RAM, an Nvidia RTX 309",
    "desc": "A lawyer’s eight-GPU Nvidia V100 server now runs DeepSeek V4.1 Flash’s most-used experts at NVFP4 precision instead of 2-bit.",
    "src": "Tomshardware",
