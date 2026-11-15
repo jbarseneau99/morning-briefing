@@ -467,8 +467,8 @@
   },
   {
    "n": 34,
-   "title": "Checking your connection",
-   "desc": "On April 10, 2019, the Event Horizon Telescope (EHT) Collaboration revealed the first picture of a black hole. The object is at the center of a galaxy known as M87, about 55 million light-years away.",
+   "title": "Is this iconic black hole image accurate? New study delivers an independent result",
+   "desc": "On April 10, 2019, the Event Horizon Telescope Collaboration revealed the first picture of a black hole at the center of galaxy M87, about 55 million light-years away. A new independent Nature study validates the iconic ring as a genuine astrophysical feature, not an imaging artifact.",
    "src": "Phys.org",
    "url": "https://phys.org/news/2026-11-iconic-black-hole-image-accurate.html",
    "dt": "Nov 14",
@@ -481,22 +481,8 @@
   },
   {
    "n": 35,
-   "title": "Checking your connection",
-   "desc": "The advance of urbanization in the São Paulo Metropolitan Area in Brazil is causing the collapse of food webs in local streams. A study published in August in the journal Nature Cities reveals that the impact of the metropolis goes far beyond a simple reduction in species. Degradation selectively el",
-   "src": "Phys.org",
-   "url": "https://phys.org/news/2026-11-urban-expansion-ecological-collapse-streams.html",
-   "dt": "Nov 14",
-   "img": "",
-   "id": "u1d9c84f2da",
-   "added_at": "2026-11-15T07:21:28-0500",
-   "new": true,
-   "cat": "Sciences",
-   "sub": "Physics & Astronomy"
-  },
-  {
-   "n": 36,
-   "title": "Checking your connection",
-   "desc": "Since 2022, astronomers have been puzzling over a new kind of cosmic object called long-period radio transients. These are objects that emit bright flashes of radio waves into space every few minutes to every few hours. Some have been traced back to binary systems consisting of a small, dim, cool st",
+   "title": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
+   "desc": "Astronomers have identified a long-period radio transient that flashes every 7.9 minutes from a white dwarf orbiting a sun-like G-type star. It is the first such system found with a sun-like companion rather than a red dwarf, according to research in Nature Astronomy.",
    "src": "Phys.org",
    "url": "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html",
    "dt": "Nov 14",
@@ -508,7 +494,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 37,
+   "n": 36,
    "title": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
    "desc": "ESA’s Euclid space telescope has discovered 31 ancient quasars, including two record-breaking objects that shone with the brightness of a trillion Suns when the Universe was just 670 million years old. Powered by supermassive black holes, these extraordinary cosmic beacons reveal a time when the fir",
    "src": "ScienceDaily",
@@ -522,7 +508,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 38,
+   "n": 37,
    "title": "Brain Implants Give A.L.S. Patients the Voice to Speak and Sing",
    "desc": "In one demonstration, a former singer sang a musical scale.",
    "src": "The New York Times",
@@ -536,7 +522,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 39,
+   "n": 38,
    "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
    "desc": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins.",
    "src": "ScienceDaily",
@@ -550,7 +536,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 40,
+   "n": 39,
    "title": "Scientists discover a bizarre paradox among endangered penguins",
    "desc": "A groundbreaking drone survey has revealed a startling split in the fate of New Zealand's endangered Erect-crested penguins.",
    "src": "ScienceDaily",
@@ -564,7 +550,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 41,
+   "n": 40,
    "title": "Dinosaurs may have been eating seaweed 100 million years ago",
    "desc": "Dinosaurs may have been snacking on seaweed and other ocean foods more than 100 million years ago, according to surprising new evidence hidden in their fossilized teeth.",
    "src": "ScienceDaily",
@@ -578,7 +564,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 42,
+   "n": 41,
    "title": "New Species of Giant Fungus Discovered in China Grows up to 20 Inches Tall",
    "desc": "Dubbed Dianjunus rex, the huge fungus emerged shortly after the mass extinction that wiped out the dinosaurs.",
    "src": "WIRED",
@@ -592,7 +578,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 43,
+   "n": 42,
    "title": "Trump administration planning to reimburse doctors treating vaccine ‘injury’",
    "desc": "Experts warn that sweeping changes elevate health secretary RFK Jr’s anti-vaccine agenda and personal profit The Trump administration is finalizing a rule to reimburse doctors who diagnose, treat and counsel patients with side effects from vaccines in what experts believe is an attempt to undermine ",
    "src": "The Guardian",
@@ -606,7 +592,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 44,
+   "n": 43,
    "title": "How the world’s fires changed while humanity hit pause",
    "desc": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
    "src": "Ars Technica",
@@ -620,7 +606,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 45,
+   "n": 44,
    "title": "Pope laments poverty-stricken Inca communities as locals leave Peru",
    "desc": "Pope Leo XIV on Sunday will traverse the length of Peru in what marks the penultimate day of his Latin American tour. The leader of the Catholic church – who underwent cancer surgery just a month ago – warned that Peru's remote Inca communities are under threat as poverty continues to drive locals o",
    "src": "France 24",
@@ -634,7 +620,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 46,
+   "n": 45,
    "title": "Britain’s Prince William to be joined by wife Kate for visit to India",
    "desc": "The trip marks Kate's most high-profile overseas visit since she having treatment for cancer in 2024.",
    "src": "The Straits Times",
@@ -648,7 +634,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 47,
+   "n": 46,
    "title": "Nations grapple with loss of 1.5 deg C target at UN climate summit",
    "desc": "The UN declared in September that crossing 1.5 deg C was imminent and unavoidable.",
    "src": "The Straits Times",
@@ -662,7 +648,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 48,
+   "n": 47,
    "title": "COP31: Protesters, UN urge swift climate deal",
    "desc": "The UN climate chief has warned that \"tactical delays\" at the COP31 climate talks in Turkey could prevent a deal to slow global warming.",
    "src": "DW",
@@ -676,7 +662,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 49,
+   "n": 48,
    "title": "It’s Getting Too Dry for Even Cactuses to Survive",
    "desc": "As droughts worsen due to climate change, new research shows that hundreds of cactus species could lose the majority of their habitats by 2100.",
    "src": "WIRED",
@@ -690,7 +676,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 50,
+   "n": 49,
    "title": "Anthony Albanese apologises for hot-mic gaffe after Coalition criticises ‘locker-room talk’",
    "desc": "Prime minister says he and Chris Bowen were having ‘light-hearted banter’ when they were caught discussing where they keep their phones Get our daily political email , free app or daily news podcast Anthony Albanese has apologised for a hot-mic gaffe at the UN climate talks in Turkey, saying he regr",
    "src": "The Guardian",
@@ -704,7 +690,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 51,
+   "n": 50,
    "title": "Growing freshwater challenges threaten Canada’s long-term security, federal memo warns",
    "desc": "Climate change, pollution and growing demand are putting pressure on water resources, raising concerns about supply",
    "src": "The Globe and Mail",
@@ -713,6 +699,20 @@
    "img": "c02ec13509.jpg",
    "id": "uc02ec13509",
    "added_at": "2026-11-15T08:32:06-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Earth & Climate"
+  },
+  {
+   "n": 51,
+   "title": "Urban expansion causes ecological collapse in streams in the São Paulo Metropolitan Area",
+   "desc": "Urbanization in the São Paulo Metropolitan Area is collapsing food webs in local streams, a Nature Cities study finds. Networks of about 190 ecological links fall to as few as three, and energy flow drops 1,446-fold, weakening the streams’ ability to process pollutants for more than 22 million residents.",
+   "src": "Phys.org",
+   "url": "https://phys.org/news/2026-11-urban-expansion-ecological-collapse-streams.html",
+   "dt": "Nov 14",
+   "img": "",
+   "id": "u1d9c84f2da",
+   "added_at": "2026-11-15T07:21:28-0500",
    "new": true,
    "cat": "Sciences",
    "sub": "Earth & Climate"
@@ -775,20 +775,6 @@
   },
   {
    "n": 56,
-   "title": "Security Verification",
-   "desc": "Successful landing of upper stage is key to founder’s aim of sending reusable manned rockets to Mars",
-   "src": "Financial Times",
-   "url": "https://www.ft.com/content/ce7c8ab1-8337-4c32-8494-5142ec1697dd?syn-25a6b1a6=1",
-   "dt": "Nov 14",
-   "img": "",
-   "id": "u71df0d0e04",
-   "added_at": "2026-11-15T07:21:28-0500",
-   "new": true,
-   "cat": "Technology & Engineering",
-   "sub": "Space"
-  },
-  {
-   "n": 57,
    "title": "SpaceX Makes History With Successful Rocket Catch in Texas",
    "desc": "The Starship spacecraft returned from orbit to the same spot where it lifted off, marking a key milestone in SpaceX’s vision of building fully reusable rockets.",
    "src": "The New York Times",
@@ -802,7 +788,7 @@
    "sub": "Space"
   },
   {
-   "n": 58,
+   "n": 57,
    "title": "The Lustre Collective Names Do IT Now Launch Partner Ahead of SC26 - HPCwire",
    "desc": "ARVADA, Colo., Nov. 15, 2026 — The Lustre Collective (TLC), the engineering company founded by veteran Lustre developers to advance Lustre upstream and in the open, has announced a strategic partnership with Do IT Now, the European HPC and AI infrastructure integrator. Together, the two companies wi",
    "src": "HPCwire",
@@ -816,7 +802,7 @@
    "sub": "Space"
   },
   {
-   "n": 59,
+   "n": 58,
    "title": "SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger",
    "desc": "Just months after SpaceX was denied a swift entry into the S&P 500 Index, Elon Musk may have found a backdoor: Merging with Tesla Inc., one of the stock-market benchmark’s biggest members.",
    "src": "Ca",
@@ -830,7 +816,7 @@
    "sub": "Space"
   },
   {
-   "n": 60,
+   "n": 59,
    "title": "Cursor confirms security breach led to malicious Claude Code extension",
    "desc": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI…",
    "src": "Bleepingcomputer",
@@ -844,7 +830,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 61,
+   "n": 60,
    "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
    "desc": "Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea’s national…",
    "src": "The Guardian",
@@ -858,7 +844,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 62,
+   "n": 61,
    "title": "‘Prove you are not a robot’: how the Captcha scam captures your computer",
    "desc": "Unlike familiar Captcha tests, this con asks you to press a series of keys.",
    "src": "The Guardian",
@@ -872,7 +858,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 63,
+   "n": 62,
    "title": "Dead as a prank? Young South Koreans turn to AI for fake funeral portraits",
    "desc": "The practice has recently gained popularity among teenagers and people in their 20s.",
    "src": "The Straits Times",
@@ -886,7 +872,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 64,
+   "n": 63,
    "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
    "desc": "Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and is desperate for some positive momentum.",
    "src": "CNBC",
@@ -900,7 +886,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 65,
+   "n": 64,
    "title": "A Human Reads the Anthropic I.P.O. Filing",
    "desc": "The prospectus is unparalleled in its willingness to discuss existential risk. But does honesty bring comfort?",
    "src": "The New York Times",
@@ -914,7 +900,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 66,
+   "n": 65,
    "title": "In a Sloppified A.I. World, Only Humans Can Build ‘Ecosystems’",
    "desc": "The people ushering in the artificial intelligence revolution are also doubling down on in-person relationships in their own industry.",
    "src": "The New York Times",
@@ -928,7 +914,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 67,
+   "n": 66,
    "title": "AI DJs Completely Kill My Groove",
    "desc": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
    "src": "WIRED",
@@ -942,7 +928,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 68,
+   "n": 67,
    "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
    "desc": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
    "src": "WIRED",
@@ -956,8 +942,8 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 69,
-   "title": "Security Verification",
+   "n": 68,
+   "title": "Samsung conquered AI chips. Now it wants to build data centres",
    "desc": "South Korean conglomerate hopes to replicate success with semiconductors across its sprawling portfolio of businesses",
    "src": "Financial Times",
    "url": "https://www.ft.com/content/ee5b23b3-89b3-41f7-9158-56c1586759c2?syn-25a6b1a6=1",
@@ -970,7 +956,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 70,
+   "n": 69,
    "title": "Huawei set to challenge Tesla Powerwall with new, 20 kW home battery",
    "desc": "This high-tech Huawei home battery pack hopes to hold back Tesla’s latest Powerwall with silicon carbide technology, AI-powered energy management baked in , and enough modular…",
    "src": "Electrek",
@@ -984,7 +970,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 71,
+   "n": 70,
    "title": "Hengs, Unitech launch 5.04MW/10.03MWh energy storage project",
    "desc": "Sustainable energy company Hengs Technology has partnered with printed circuit board (PCB) maker Unitech Printed Circuit Board to launch a large behind-the-meter energy storage…",
    "src": "DigiTimes",
@@ -998,7 +984,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 72,
+   "n": 71,
    "title": "Tesla Cybercab's autonomy agreement is insane: $299/mo or it doesn't move",
    "desc": "Tesla has posted the agreement that comes with its $29,990 Cybercab, and it’s even worse than the order page suggested.",
    "src": "Electrek",
@@ -1012,7 +998,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 73,
+   "n": 72,
    "title": "$20K Nissan NX7 PHEV goes on sale with nearly 200 miles of electric range",
    "desc": "Dongfeng Nissan officially opened the early order book on its new NX7 hybrid yesterday, promising up to 320 km (~198 miles) of all-electric range from a 40 kWh lithium iron…",
    "src": "Electrek",
@@ -1026,7 +1012,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 74,
+   "n": 73,
    "title": "Trident nuclear submarine concludes record underwater deployment",
    "desc": "HMS Vengeance’s 217-day tour raises questions about slow pace of maintenance of ageing fleet and impact on crew A Trident nuclear submarine has concluded a record seven-month deployment, returning to the Faslane naval base in Scotland, where its crew are expected to be greeted by senior members of t",
    "src": "The Guardian",
@@ -1040,8 +1026,8 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 75,
-   "title": "Security Verification",
+   "n": 74,
+   "title": "European energy groups hire security experts after wave of sabotage",
    "desc": "Rise of so-called hybrid warfare brings greater focus to grid and refinery protection",
    "src": "Financial Times",
    "url": "https://www.ft.com/content/77630912-9e8c-42ab-a7d5-937f3704cc74?syn-25a6b1a6=1",
@@ -1054,7 +1040,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 76,
+   "n": 75,
    "title": "This built-in Windows tool can diagnose your PC",
    "desc": "If your laptop doesn't seem to hold a charge as well as it used to, start by checking the diagnostics this tool can report. We'll show you how to use it.",
    "src": "Engadget",
@@ -1068,7 +1054,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 77,
+   "n": 76,
    "title": "Check your ego at the door: Stellantis' new electric dolly turns ANY car into a tow rig",
    "desc": "We all know the type: grizzled stubble, wraparound PitVipers, a MAGA hat quietly retired after last week’s deep-blue shellacking , and a pristine, polished pickup parked in the driveway that they “need for towing.” With Stellantis’ new patent for an AI-powered electric tow dolly that turns just abou",
    "src": "Electrek",
@@ -1082,7 +1068,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 78,
+   "n": 77,
    "title": "I finally got a USB-C charging e-bike, and it costs 75% less than Rivian’s bike",
    "desc": "I’ve been waiting years for electric bikes to finally embrace USB-C charging. We’ve already standardized much of our lives around the convenient little connector, from phones and laptops to tablets and countless other gadgets. But for some reason, electric bikes have largely missed the memo. Now, th",
    "src": "Electrek",
@@ -1096,7 +1082,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 79,
+   "n": 78,
    "title": "Malaysia probing alleged Nvidia AI chip diversion since April 2025: Home Minister",
    "desc": "This follows allegations of illicit procurement and diversion of AI chips through Malaysia.",
    "src": "The Straits Times",
@@ -1110,7 +1096,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 80,
+   "n": 79,
    "title": "Malaysia plans new law using data center power consumption to catch AI GPU smugglers — but real-world TDP variance and lack of physical audi",
    "desc": "Malaysia plans to track AI GPU imports and data center power consumption to combat chip smuggling.",
    "src": "Tomshardware",
@@ -1124,21 +1110,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 81,
-   "title": "A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US",
-   "desc": "A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy — The chip company…",
-   "src": "Techmeme",
-   "url": "https://www.techmeme.com/261115/p6#a261115p6",
-   "dt": "Nov 15",
-   "img": "a7394673f2.jpg",
-   "id": "ua7394673f2",
-   "added_at": "2026-11-15T05:27:19-0500",
-   "new": false,
-   "cat": "Technology & Engineering",
-   "sub": "Semiconductors"
-  },
-  {
-   "n": 82,
+   "n": 80,
    "title": "Who should run Nvidia? Our picks for Jensen Huang’s successor, whether the board likes it or not",
    "desc": "Nvidia's board says it hasn't formally engaged any candidates to succeed Jensen Huang, but GeekWire's picks include Arm CEO Rene Haas, whom the board reportedly approached,…",
    "src": "GeekWire",
@@ -1152,8 +1124,8 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 83,
-   "title": "Security Verification",
+   "n": 81,
+   "title": "What will Nvidia’s post-Huang era look like?",
    "desc": "The chip company has only itself to blame for a long list of adversaries",
    "src": "Financial Times",
    "url": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
@@ -1166,7 +1138,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 84,
+   "n": 82,
    "title": "Dr. Lisa Su graces the opening of Micro Center",
    "desc": "AMD gave away 300 swag bags to lucky shoppers, plus raffled off AMD gear, including a Radeon RX 9070 XT that Dr. Lisa Su autographed.",
    "src": "Tomshardware",
@@ -1180,7 +1152,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 85,
+   "n": 83,
    "title": "The original Xbox was released 25 years ago today — Microsoft’s Pentium III and Nvidia GPU-powered console did surprisingly well in a PS2-do",
    "desc": "Microsoft’s first games console hit North America 25 years ago today powered by a Pentium III CPU and Nvidia GPU.",
    "src": "Tomshardware",
@@ -1194,7 +1166,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 86,
+   "n": 84,
    "title": "Which NVIDIA GPU is closest to the PS5? The answer isn",
    "desc": "One of the biggest questions when it comes to purchasing a gaming rig is whether to go console or PC. This NVIDIA GPU gives the closest results to a PS5.",
    "src": "Engadget",
@@ -1208,7 +1180,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 87,
+   "n": 85,
    "title": "One cable mistake could be killing your desktop PC",
    "desc": "Plugging your monitor into the motherboard instead of your dedicated GPU can ruin gaming performance. Here's how to check your ports and get your frames back.",
    "src": "Engadget",
@@ -1222,7 +1194,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 88,
+   "n": 86,
    "title": "Lawyer upgrades eight-V100 private AI server to run 80% of DeepSeek V4.1 Flash at 4-bit NVFP4 precision — adds 1TB of RAM, an Nvidia RTX 309",
    "desc": "A lawyer’s eight-GPU Nvidia V100 server now runs DeepSeek V4.1 Flash’s most-used experts at NVFP4 precision instead of 2-bit.",
    "src": "Tomshardware",
