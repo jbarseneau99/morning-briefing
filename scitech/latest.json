@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "updated_at": "2026-11-16T05:30:18-0500",
+ "updated_at": "2026-11-16T07:16:50-0500",
  "built_at": "2026-11-16T05:32:00-0500",
  "stories": [
   {
@@ -89,6 +89,20 @@
   },
   {
    "n": 7,
+   "title": "Jensen Huang allies campaign to reinstate the former Nvidia boss",
+   "desc": "Tech leaders, including Elon Musk, are among those backing a campaign to \"Bring Jensen Back\".",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 16",
+   "img": "349134aed1.jpg",
+   "id": "u349134aed1",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology business news",
+   "sub": "Big Tech"
+  },
+  {
+   "n": 8,
    "title": "US flight cancellations top 17,000 in worst tech-related outage",
    "desc": "Airlines and passengers are still reeling from the days of disruption.",
    "src": "The Straits Times",
@@ -102,7 +116,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 8,
+   "n": 9,
    "title": "AWS breaks ground on $7bn data center in Indiana",
    "desc": "Also purchases land in Chantilly, Virginia, for data center",
    "src": "Data Center Dynamics",
@@ -116,7 +130,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 9,
+   "n": 10,
    "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
    "desc": "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more",
    "src": "The Register",
@@ -130,7 +144,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 10,
+   "n": 11,
    "title": "Developer creates a 100% valid ZIP file that doubles as a BIOS-bootable operating system — hiding BIOS boot flags inside uncompressed files ",
    "desc": "Crafty techie concocts ZIP that's simultaneously a valid archive, BIOS-bootable, and a Multiboot image",
    "src": "Tomshardware",
@@ -144,7 +158,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 11,
+   "n": 12,
    "title": "Rapidus sets 2nm chip mass production for late 2027",
    "desc": "Rapidus President Atsuyoshi Koike said on November 13 that the Japanese semiconductor venture plans to begin mass production of 2nm chips in late 2027 or early 2028. The timeline provides a more specific target after reports raised concerns about delays in developing key SRAM technology.",
    "src": "DigiTimes",
@@ -158,7 +172,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 12,
+   "n": 13,
    "title": "Samsung reportedly to make Starlink chips at Austin fab, deepening space push",
    "desc": "Samsung will reportedly begin making Starlink chips at its Austin, Texas, fab. The chipmaker plans to use its Texas facilities to pursue a two-track semiconductor strategy, set up production near target markets, and push into the satellite sector.",
    "src": "DigiTimes",
@@ -172,7 +186,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 13,
+   "n": 14,
    "title": "SK Hynix's Trinity Fab aims to shorten suppliers' path to chip production",
    "desc": "A new open test facility inside SK Hynix's Yongin semiconductor cluster is designed to address a costly bottleneck for domestic suppliers: proving that materials, components, and equipment can perform reliably under mass-production conditions before entering a chipmaker's production line.",
    "src": "DigiTimes",
@@ -186,7 +200,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 14,
+   "n": 15,
    "title": "Intel sued by investors after PC sales slump hits share price",
    "desc": "A proposed class action claims the firm hid the impact of slowing PC sales from shareholders.",
    "src": "BBC",
@@ -200,7 +214,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 15,
+   "n": 16,
    "title": "Daikin unveils 60MW liquid-cooling reference design for Nvidia AI data centers",
    "desc": "Daikin Applied Americas, the US subsidiary of Daikin Industries, unveiled the D60-W cooling reference architecture on November 11 for AI factories built around Nvidia's next-generation Vera Rubin NVL72 AI supercomputer. The design supports up to 60MW of IT load and is intended to help data-center op",
    "src": "DigiTimes",
@@ -214,7 +228,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 16,
+   "n": 17,
    "title": "DeepSeek reportedly curbs AI chat access as computing capacity struggles to keep pace",
    "desc": "Chinese AI startup DeepSeek has imposed usage limits on its app and web services, with users reporting restrictions attributed to insufficient computing capacity. Long conversations inactive for more than seven days are no longer supported, while the maximum text input per request has been reduced t",
    "src": "DigiTimes",
@@ -228,7 +242,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 17,
+   "n": 18,
    "title": "Memory costs top half of budget smartphone BOM in 3Q26",
    "desc": "Memory components accounted for 54% of the bill of materials (BOM) for budget smartphones in the third quarter of 2026, according to Counterpoint Technology Market Research data reported by South Korean publications Herald Business and Digital Daily . The increase was driven by stronger demand from ",
    "src": "DigiTimes",
@@ -242,7 +256,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 18,
+   "n": 19,
    "title": "India touts homegrown 2-micron 5-axis CNC machines as it seeks local semiconductor equipment",
    "desc": "India's electronics and IT minister Ashwini Vaishnaw said on November 14 that the country has developed indigenous five-axis precision CNC machines with 2-micron accuracy, and called for India to build its own machinery and high-precision components for semiconductor manufacturing to reduce reliance",
    "src": "DigiTimes",
@@ -256,7 +270,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 19,
+   "n": 20,
    "title": "Qisda affiliate Ace Pillar deepens semiconductor and AI automation push, expanding into wafer regeneration and SiPh",
    "desc": "Taiwan-based industrial automation and smart manufacturing solutions provider Ace Pillar, an affiliate of Qisda Group, reported strong third-quarter 2026 results as its semiconductor, AI automation and green-energy businesses gained traction. Chairman Joshua Tzeng said the company will anchor its me",
    "src": "DigiTimes",
@@ -270,7 +284,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 20,
+   "n": 21,
    "title": "Electronica 2026: AI and robotics showcase Europe",
    "desc": "The biennial electronica 2026 exhibition in Munich concluded alongside SEMICON Europa, attracting approximately 3,500 exhibitors and filling all 18 halls at Messe München. About 75% of exhibitors came from outside Germany, including more than 900 Chinese companies, a figure roughly matching Germany'",
    "src": "DigiTimes",
@@ -284,7 +298,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 21,
+   "n": 22,
    "title": "VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’",
    "desc": "London-based startup investor Plural, with a portfolio mix of energy, compute, defense, robotics, health and software, says it has closed on its largest fund to date — just over $1.1 billion, or 1 billion euros — to lead early-stage investments across Europe.",
    "src": "Crunchbase News",
@@ -298,7 +312,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 22,
+   "n": 23,
    "title": "Versant, Lilly put $100 million behind new startup aimed at solving one of gene therapy’s thorniest issues",
    "desc": "Versant Ventures, Eli Lilly, and a handful of other investors will pour $100 million into a new startup devoted to solving a thorny gene therapy challenge.",
    "src": "STAT",
@@ -312,7 +326,77 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 23,
+   "n": 24,
+   "title": "Minister says Canada’s national AI literacy training will go live next month | BetaKit",
+   "desc": "National rollout will scale programming to just 90 minutes and will be available to all Canadians. The post Minister says Canada’s national AI literacy training will go live next month first appeared on BetaKit .",
+   "src": "BetaKit",
+   "url": "https://betakit.com/minister-says-canadas-national-ai-literacy-training-will-go-live-next-month/",
+   "dt": "Nov 16",
+   "img": "3395e53afb.jpg",
+   "id": "u3395e53afb",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 25,
+   "title": "IRCC can’t confirm if Start-Up Visa replacement program details will come this year",
+   "desc": "Feds had previously said they would share details on new pilot program in 2026. The post IRCC can’t confirm if Start-Up Visa replacement program details will come this year first appeared on BetaKit .",
+   "src": "BetaKit",
+   "url": "https://betakit.com/ircc-cant-confirm-if-start-up-visa-replacement-program-details-will-come-this-year/",
+   "dt": "Nov 16",
+   "img": "12a692f879.jpg",
+   "id": "u12a692f879",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 26,
+   "title": "Verafin alum-led Verlo nabs $4.5 million to build AI operating system for wealth managers",
+   "desc": "Staircase Ventures led the St. John’s startup’s round, with backing from Pelorus and Verafin leaders. The post Verafin alum-led Verlo nabs $4.5 million to build AI operating system for wealth managers first appeared on BetaKit .",
+   "src": "BetaKit",
+   "url": "https://betakit.com/verafin-alum-led-verlo-nabs-4-5-million-to-build-ai-operating-system-for-wealth-managers/",
+   "dt": "Nov 16",
+   "img": "d0cff6e200.jpg",
+   "id": "ud0cff6e200",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 27,
+   "title": "In The AI Era, Keep Hiring New College Grads — And Make Them Managers From Day One",
+   "desc": "As AI takes over entry-level knowledge work, guest authors Bob Morse of Strattam Capital and Michael Quoia of KSE Leadership argue that these workers should begin their careers managing AI agents, developing skills in delegation, oversight and judgment traditionally learned later.",
+   "src": "News",
+   "url": "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse/",
+   "dt": "Nov 16",
+   "img": "3b781d29e3.jpg",
+   "id": "u3b781d29e3",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 28,
+   "title": "London-based Plural raised a €1B fund to back European startups, one of only a handful of European VCs that raised €1B+ in one go, planning ",
+   "desc": "Financial Times : London-based Plural raised a €1B fund to back European startups, one of only a handful of European VCs that raised €1B+ in one go, planning to back 30+ startups — London-headquartered group announces one of region's biggest-ever venture capital fundings",
+   "src": "Techmeme",
+   "url": "https://www.techmeme.com/261116/p14#a261116p14",
+   "dt": "Nov 16",
+   "img": "9fa4888a15.jpg",
+   "id": "u9fa4888a15",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 29,
    "title": "Nvidia stock falls again as investors price in fallout from Jensen Huang's resignation",
    "desc": "The company was 1.9% down in premarket trading on Monday.",
    "src": "CNBC",
@@ -326,7 +410,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 24,
+   "n": 30,
    "title": "Jensen Huang leaves Nvidia with a $135 billion stake — here’s when he can sell",
    "desc": "Most of Huang",
    "src": "Yahoo Finance",
@@ -340,7 +424,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 25,
+   "n": 31,
    "title": "‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits $1 trillion",
    "desc": "Kristalina Georgieva says circular financing among AI companies has grown to just over $1 trillion, two-thirds of it debt, as investor enthusiasm cools",
    "src": "CNBC",
@@ -354,7 +438,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 26,
+   "n": 32,
    "title": "CNMC Goldmine shares plunge as gold falls below US$4,000",
    "desc": "Spot gold fell 0.24% to US$3,872 an ounce on Nov 16.",
    "src": "The Straits Times",
@@ -368,7 +452,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 27,
+   "n": 33,
    "title": "Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil",
    "desc": "Ulf Lindahl says a storm is brewing for investors in the U.S. stock market, who will also be facing $500 oil in a few years. Here is where he’d shelter.",
    "src": "Marketwatch",
@@ -382,7 +466,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 28,
+   "n": 34,
    "title": "DBS, JPMorgan launch US-Singapore tokenised deposit service for institutions",
    "desc": "Financial enterprises are seeking faster liquidity management tools to support digital industries 24/7.",
    "src": "The Straits Times",
@@ -396,7 +480,21 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 29,
+   "n": 35,
+   "title": "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter",
+   "desc": "Following the donations, the chairman emeritus of Berkshire still owns 182,140 Class A shares -- roughly $162 billion.",
+   "src": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html",
+   "dt": "Nov 16",
+   "img": "2464beb2d2.jpg",
+   "id": "u2464beb2d2",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Public markets & IPOs"
+  },
+  {
+   "n": 36,
    "title": "Canadian ‘gauntlets’ to turn drone procurement into live competitions",
    "desc": "Ottawa’s Defence Drone Initiative aims to establish marketplace of suppliers, provide opportunities for them to test their hardware",
    "src": "The Globe and Mail",
@@ -410,7 +508,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 30,
+   "n": 37,
    "title": "APOD: 2026 November 16 - NGC 7129: Star Formation with Jets from Webb - NASA Science",
    "desc": "APOD Science APOD APOD: 2026 November 16 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation w",
    "src": "NASA",
@@ -424,7 +522,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 31,
+   "n": 38,
    "title": "Starwatch: Fleeting brilliance of Leonid meteor shower to hit peak",
    "desc": "Annual display appears to radiate from constellation of Leo in eastern sky as Earth passes through comet debris stream The annual Leonid meteor shower reaches its peak this week, offering a chance to count meteors. The shower is expected to be at its most active during the night of 17–18 November. U",
    "src": "The Guardian",
@@ -438,7 +536,105 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 32,
+   "n": 39,
+   "title": "Jersey pupils fascinated by space get astronomy lesson",
+   "desc": "Pupils at First Tower School get a visit from a University of Cambridge astronomer.",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c67428w9vvkqo?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 16",
+   "img": "024393aa4d.jpg",
+   "id": "u024393aa4d",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 40,
+   "title": "UK weather: Met Office warnings for snow as temperatures plummet",
+   "desc": "A spell of colder, wintry weather will grip some northern parts of the UK, bringing a threat of ice and hill snow at times.",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/weather/articles/c6y97j2xq531o?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 16",
+   "img": "7d2449804f.jpg",
+   "id": "u7d2449804f",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 41,
+   "title": "Experts explore returning beavers to River Waveney",
+   "desc": "A trust says the river-dwelling mammals could improve the health of the waterway.",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cm3rglzqjl90o?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 16",
+   "img": "7203d1366b.jpg",
+   "id": "u7203d1366b",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 42,
+   "title": "Can the Amazon survive the largest El Niño in living memory?",
+   "desc": "As the strongest El Niño on record drives drought and fire, researchers warn the Amazon rainforest may be approaching a point of no return",
+   "src": "Scientific American",
+   "url": "https://www.scientificamerican.com/article/can-the-amazon-rainforest-survive-the-largest-el-nino-in-living-memory/",
+   "dt": "Nov 16",
+   "img": "001f22b360.jpg",
+   "id": "u001f22b360",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 43,
+   "title": "The symmetry of the universe may have broken in the first seconds of time",
+   "desc": "Some rules of physics might have been different just after the big bang, scientists have found",
+   "src": "Scientific American",
+   "url": "https://www.scientificamerican.com/article/the-symmetry-of-the-universe-may-have-broken-in-the-first-seconds-of-time/",
+   "dt": "Nov 16",
+   "img": "c805aeb60c.jpg",
+   "id": "uc805aeb60c",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 44,
+   "title": "Hormone therapy may improve cognition after menopause",
+   "desc": "But how much depends on your genetics and the type of hormone therapy your doctor prescribes",
+   "src": "Scientific American",
+   "url": "https://www.scientificamerican.com/article/hormone-therapy-may-improve-cognition-after-menopause/",
+   "dt": "Nov 16",
+   "img": "e45219faa1.jpg",
+   "id": "ue45219faa1",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 45,
+   "title": "A Roman-era frog whodunit and other fascinating science tidbits",
+   "desc": "How archaeologists solved a Roman-era frog whodunnit, what SciAm was covering back in the day, and why fossil fuel emissions are dropping this year",
+   "src": "Scientific American",
+   "url": "https://www.scientificamerican.com/podcast/episode/ancient-frog-murder-mystery-sciam-history-highlights-and-surprising-climate-news/",
+   "dt": "Nov 16",
+   "img": "5c1f520e92.jpg",
+   "id": "u5c1f520e92",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 46,
    "title": "F.D.A. Rejects Closely Watched Lung Cancer Drug From China",
    "desc": "The treatment, called ivonescimab, has become a symbol of China’s rise in drug development.",
    "src": "The New York Times",
@@ -452,7 +648,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 33,
+   "n": 47,
    "title": "BeOne, Hengrui top list of China’s most powerful drugmakers",
    "desc": "A new STAT-WireScreen index ranks China's most valuable publicly traded biotech companies. See which one topped the list.",
    "src": "STAT",
@@ -466,7 +662,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 34,
+   "n": 48,
    "title": "With Stephen Miller as chief of staff, Kennedy's MAHA agenda is reinvigorated",
    "desc": "The appointment of Stephen Miller as White House chief of staff has health secretary RFK Jr. invigorated. A top deputy is telling people it's go time for MAHA.",
    "src": "STAT",
@@ -480,7 +676,105 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 35,
+   "n": 49,
+   "title": "Venture capitalist John Doerr says AI company, named for his late brother, could help fix primary care",
+   "desc": "Venture capitalist John Doerr on Tom Health, a new AI tool for primary care: \"I think this is one of the best possible uses of AI.\"",
+   "src": "STAT",
+   "url": "https://www.statnews.com/2026/11/16/ai-company-tom-health-fix-primary-care-new-tool/?utm_campaign=rss",
+   "dt": "Nov 16",
+   "img": "8adbc9699a.jpg",
+   "id": "u8adbc9699a",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 50,
+   "title": "Medical school should start after students take the Step 1 exam",
+   "desc": "“It’s time for a radical reimagining of medical education,” write Rachel Fabi and Amy Caruso Brown.",
+   "src": "STAT",
+   "url": "https://www.statnews.com/2026/11/16/medical-school-step-1-exam-redesign-proposal/?utm_campaign=rss",
+   "dt": "Nov 16",
+   "img": "e3f6e67577.jpg",
+   "id": "ue3f6e67577",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 51,
+   "title": "Candles and long baths can’t fix burned-out physicians",
+   "desc": "The language around self-care for doctors puts the onus on them to fix themselves. But the system is to blame, writes Frances Mei Hardin.",
+   "src": "STAT",
+   "url": "https://www.statnews.com/2026/11/16/doctors-self-care-limits-literature-systems/?utm_campaign=rss",
+   "dt": "Nov 16",
+   "img": "bcf9233024.jpg",
+   "id": "ubcf9233024",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 52,
+   "title": "After difficult two years, medical school group’s leadership isn’t letting its guard down post midterms",
+   "desc": "After a tumultuous two years entangled in many consequential health and science policy debates, AAMCs isn’t ready to let its guard down.",
+   "src": "STAT",
+   "url": "https://www.statnews.com/2026/11/16/aamc-ceo-david-skorton-qa-challenges-academic-medicine/?utm_campaign=rss",
+   "dt": "Nov 16",
+   "img": "d5d98c8124.jpg",
+   "id": "ud5d98c8124",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 53,
+   "title": "Brain-computer interfaces: A new voice for people with paralysis",
+   "desc": "Recent advancements in brain-computer interfaces are helping restore communication in clinical trial participants who have lost the ability to speak or make voluntary movements. New findings will be presented at Neuroscience 2026, the annual meeting of the Society for Neuroscience and the world&rsqu",
+   "src": "Eurekalert",
+   "url": "https://www.eurekalert.org/news-releases/1149828",
+   "dt": "Nov 13",
+   "img": "",
+   "id": "uc8a04c0ad8",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 54,
+   "title": "Community comes together to say farewell to Bailey, a dog with cancer",
+   "desc": "Dozens of neighbours met at a Dartmouth park to comfort the 12-year-old pet during one last outing. The CBC's Guiliana Grillo was there.",
+   "src": "CBC",
+   "url": "https://www.cbc.ca/player/play/9.7423030?cmp=rss",
+   "dt": "Nov 15",
+   "img": "78185e4c12.jpg",
+   "id": "u78185e4c12",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 55,
+   "title": "Mexico's Guadalajara cartel founder dies in hospital aged 80",
+   "desc": "MEXICO CITY/GUADALAJARA, Nov 15 - Miguel Angel Felix Gallardo, founder of one of Mexico's first major drug cartels whose conviction for the 1985 killing of a US drug-enforcement agent made him one of the country's most notorious traffickers, died in hospital on Sunday at age 80.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/mexicos-guadalajara-cartel-founder-dies-in-hospital-aged-80",
+   "dt": "Nov 15",
+   "img": "3f35a0a8a0.jpg",
+   "id": "u3f35a0a8a0",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 56,
    "title": "Canada presented itself as a global leader in methane reductions at COP31. But is Alberta holding it back? | CBC",
    "desc": "Canada took centre stage at COP31 last week to showcase its track record on cutting methane emissions. But some experts say the country can't be a global leader on reducing methane until Alberta, Canada's largest oil and gas producer, updates its equivalent regulations.",
    "src": "CBC",
@@ -494,7 +788,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 36,
+   "n": 57,
    "title": "Absent officially, unofficially 'America is all in' at COP31",
    "desc": "ANTALYA, Turkey, Nov 16 - The United States officially is absent from COP31. On the ground at the climate talks on the Turkish Mediterranean coast, its presence is hard to miss.",
    "src": "The Straits Times",
@@ -508,7 +802,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 37,
+   "n": 58,
    "title": "S’pore seals carbon credit deal with Kenya, its third African partner, at COP31",
    "desc": "Singapore and Columbia also renewed an agreement to explore carbon trading in the future.",
    "src": "The Straits Times",
@@ -522,7 +816,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 38,
+   "n": 59,
    "title": "Can a 'coalition of the willing' create momentum for a fossil fuel phaseout?",
    "desc": "In April, about 60 countries held an unprecedented meeting in Colombia to work out a plan to slowly quit oil, coal and gas. How influential is this coalition at the COP31 climate summit?",
    "src": "DW",
@@ -536,7 +830,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 39,
+   "n": 60,
    "title": "Sadiq Khan: Global North must take responsibility for climate change",
    "desc": "At COP31, Sadiq Khan urges wealthy nations to support the Global South, which bears the brunt of climate change.",
    "src": "Al Jazeera",
@@ -550,7 +844,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 40,
+   "n": 61,
    "title": "The Last Ice on Puncak Jaya - NASA Science",
    "desc": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
    "src": "NASA",
@@ -564,7 +858,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 41,
+   "n": 62,
    "title": "Japan to launch network to improve weather disaster warnings in Asia, says govt source",
    "desc": "The framework will reportedly be unveiled by Environment Minister Hiroyoshi Sasagawa at the COP31 in Antalya, Turkey.",
    "src": "The Straits Times",
@@ -578,7 +872,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 42,
+   "n": 63,
    "title": "UK exposed to polycrisis of threats amid government ‘complacency’",
    "desc": "Lords report calls for urgent new approach to resilience planning in face of cyber-attacks, sabotage and climate crisis Ministers are complacent in the face of fast-changing and increasingly interconnected threats to the UK, and must act quickly to increase national resilience to possibly very major",
    "src": "The Guardian",
@@ -592,7 +886,35 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 43,
+   "n": 64,
+   "title": "‘When the sun came out it felt like it opened a scar’ – This is climate breakdown",
+   "desc": "When the floods hit Pakistan he went out to help. Then the water reached his own family. This is Imran Lodhi’s story Location: Dera Ghazi Khan, Pakistan Disaster: Pakistan intense monsoon rainfall Imran Lodhi is a university lecturer with a doctorate in climate change and sustainable development . T",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown",
+   "dt": "Nov 16",
+   "img": "03fcd0fdf5.jpg",
+   "id": "u03fcd0fdf5",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Earth & Climate"
+  },
+  {
+   "n": 65,
+   "title": "Proposed emergency earthquake fund will help prepare for catastrophe, insurance industry says",
+   "desc": "Experts have long warned a devastating quake could cause unprecedented damage to homes, businesses and infrastructure",
+   "src": "The Globe and Mail",
+   "url": "https://www.theglobeandmail.com/business/article-proposed-emergency-earthquake-fund-prepare-catastrophe-insurance/",
+   "dt": "Nov 16",
+   "img": "57f8b95e9b.jpg",
+   "id": "u57f8b95e9b",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Earth & Climate"
+  },
+  {
+   "n": 66,
    "title": "LineShine Supports Gordon Bell Finalist Work on Silicon and Battery Materials - HPCwire",
    "desc": "Nov. 15, 2026 — Following the domestically developed LineShine supercomputer’s top rankings on both the June 2026 TOP500 and HPCG lists, Shenzhen’s independent innovation in supercomputing has once again gained international recognition. Earlier this year, the XLSDFT computing software independently",
    "src": "HPCwire",
@@ -606,7 +928,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 44,
+   "n": 67,
    "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
    "desc": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
    "src": "BBC",
@@ -620,7 +942,7 @@
    "sub": "Space"
   },
   {
-   "n": 45,
+   "n": 68,
    "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
    "desc": "This was the first total mission failure in United Launch Alliance's 20-year history.",
    "src": "Ars Technica",
@@ -634,7 +956,7 @@
    "sub": "Space"
   },
   {
-   "n": 46,
+   "n": 69,
    "title": "Connecting Constellations: The Shift to Real-Time Space Operations",
    "desc": "After years of development and demonstrations, optical communications are reshaping how the space industry approaches mission architectures. Kepler’s optical space data relay constellation gives government and commercial customers opportunities to connect previously isolated systems, strengthen resi",
    "src": "Payload",
@@ -648,7 +970,7 @@
    "sub": "Space"
   },
   {
-   "n": 47,
+   "n": 70,
    "title": "NASA Announces Technical Demonstrations and Presentations at SC26 - HPCwire",
    "desc": "NASA will highlight its work in high performance computing at SC26, Booth #4038 Nov. 15, 2026 — Join NASA at SC26 for presentations exploring the computing technologies supporting its research and missions. From spaceflight computing and water availability modeling to programming tools and HPC facil",
    "src": "HPCwire",
@@ -662,7 +984,91 @@
    "sub": "Space"
   },
   {
-   "n": 48,
+   "n": 71,
+   "title": "NASA's interstellar Voyager 1 probe is about to reach 1 light-day from Earth after nearly 50 years in space",
+   "desc": "Voyager 1 is celebrating a big milestone as it approaches its 50th birthday: reaching one light-day away from Earth.",
+   "src": "Space.com",
+   "url": "https://www.space.com/space-exploration/voyager/nasas-interstellar-voyager-1-probe-is-about-to-reach-1-light-day-from-earth-after-nearly-50-years-in-space",
+   "dt": "Nov 16",
+   "img": "08cb1bd512.jpg",
+   "id": "u08cb1bd512",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Space"
+  },
+  {
+   "n": 72,
+   "title": "AST SpaceMobile to build its own 20-ton “Blacklift” rockets with Firefly Aerospace engines",
+   "desc": "Commits $1.3bn to engines for new proprietary rocket, reckons it’ll be good to go in two years",
+   "src": "Data Center Dynamics",
+   "url": "https://www.datacenterdynamics.com/en/news/ast-spacemobile-to-build-its-own-20-ton-blacklift-rockets-with-firefly-aerospace-engines/",
+   "dt": "Nov 16",
+   "img": "6b2c9a6ce1.jpg",
+   "id": "u6b2c9a6ce1",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Space"
+  },
+  {
+   "n": 73,
+   "title": "Miami evokes Vice City ahead of Grand Theft Auto 6 launch",
+   "desc": "Miami landmarks are lighting up with its alter ego, Vice City, in the run-up to the launch.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/united-states/miami-evokes-vice-city-ahead-of-grand-theft-auto-6-launch",
+   "dt": "Nov 15",
+   "img": "8ebe249807.jpg",
+   "id": "u8ebe249807",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Space"
+  },
+  {
+   "n": 74,
+   "title": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
+   "desc": "The rocket failed roughly 10 minutes after lift-off.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/united-states/rocket-from-boeing-lockheed-firm-fails-mid-flight-destroys-payload-of-amazon-satellites",
+   "dt": "Nov 15",
+   "img": "b2ab74f8cc.jpg",
+   "id": "ub2ab74f8cc",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Space"
+  },
+  {
+   "n": 75,
+   "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+   "desc": "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor to SpaceX's Starlink, but it has struggled to get off the ground so far, putting only a small portion of the nec",
+   "src": "The Verge",
+   "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+   "dt": "Nov 15",
+   "img": "c8f9f37dbd.jpg",
+   "id": "uc8f9f37dbd",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Space"
+  },
+  {
+   "n": 76,
+   "title": "'Be on the right side of history': Zelenskyy urges Musk's SpaceX, U.S. to lift satellite restriction | CBC News",
+   "desc": "Ukrainian President Volodymyr Zelenskyy warned that limitations on the Starshield satellite system, operated by Elon Musk's SpaceX, could weaken defences around Ukraine's energy infrastructure ahead of the winter months, when Moscow has repeatedly targeted the power grid.",
+   "src": "CBC",
+   "url": "https://www.cbc.ca/news/world/ukraine-russia-energy-winter-zelenskyy-musk-spacex-starshield-9.7422871?cmp=rss",
+   "dt": "Nov 15",
+   "img": "c614f28621.jpg",
+   "id": "uc614f28621",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Space"
+  },
+  {
+   "n": 77,
    "title": "Alibaba says it filtered Qwen4-Max",
    "desc": "Ann Cao / South China Morning Post : Alibaba says it filtered Qwen4-Max's training data to remove offensive cyber capabilities and mitigate chemical, biological, radiological, and nuclear risks — Alibaba Group Holding has launched its most advanced artificial intelligence model to date, Qwen4-Max, w",
    "src": "Techmeme",
@@ -676,7 +1082,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 49,
+   "n": 78,
    "title": "How Sam Bankman-Fried Lost Out on a $35 Billion Jackpot From Anthropic",
    "desc": "The founder of the collapsed FTX crypto exchange, who is serving prison time for fraud, would have made a windfall from a $500 million investment in Anthropic.",
    "src": "The New York Times",
@@ -690,7 +1096,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 50,
+   "n": 79,
    "title": "Billions in Insurance Money Is Being Bet on AI Debt, and Analyst Are Nervous",
    "desc": "Insurance companies are investing billions of their customers’ money into A.I. deals as analysts warn of mounting risks.",
    "src": "The New York Times",
@@ -704,7 +1110,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 51,
+   "n": 80,
    "title": "Trump’s Plan for A.I. Supremacy Fuels Resistance in the Philippines",
    "desc": "A planned American-led artificial intelligence hub in the Philippines has sparked fierce opposition over concerns about displacement, resources and threats to national sovereignty.",
    "src": "The New York Times",
@@ -718,7 +1124,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 52,
+   "n": 81,
    "title": "AI is reshaping banking jobs – but its ability to drive profits remains unclear",
    "desc": "Europe's banks are using AI to cut routine work, redeploy staff and hire more technical talent.",
    "src": "CNBC",
@@ -732,7 +1138,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 53,
+   "n": 82,
    "title": "Why Skydio Built a Lopsided Drone",
    "desc": "Skydio’s drones have always been magical. From MIT research and early prototypes to what I would argue is still the most advanced consumer drone ever made , this is a company that makes very cool stuff. Sadly, Skydio no longer makes cool stuff for consumers , instead focusing on drone platforms for ",
    "src": "IEEE Spectrum",
@@ -746,7 +1152,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 54,
+   "n": 83,
    "title": "Gas starts flowing from Jackdaw after government green light",
    "desc": "Ministers last month announced the Jackdaw gas field, which lies 150 miles east of Aberdeen, had been approved after years of uncertainty.",
    "src": "BBC",
@@ -760,7 +1166,133 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 55,
+   "n": 84,
+   "title": "Great Britain’s oldest renewables projects could rake in nearly £9bn next year",
+   "desc": "Subsidy scheme, which is paid via taxes and energy bills, must be reformed, ECU analysis finds Business live – latest updates Great Britain’s oldest renewable energy projects are likely to rake in an almost £9bn windfall next year because of soaring market prices, according to independent analysis. ",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/16/great-britain-renewable-energy-subsidies-wind-solar",
+   "dt": "Nov 16",
+   "img": "6b8a3d787c.jpg",
+   "id": "u6b8a3d787c",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 85,
+   "title": "Risk of nuclear accident in Ukraine increasing this winter, atomic safety regulators say",
+   "desc": "OSLO, Nov 16 - The risk of a nuclear accident in Ukraine is increasing this winter, nuclear safety regulators representing 38 countries said on Monday, urging Russia to stop its attacks on the country's power infrastructure.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/europe/risk-of-nuclear-accident-in-ukraine-increasing-this-winter-atomic-safety-regulators-say",
+   "dt": "Nov 16",
+   "img": "5acfb07e37.jpg",
+   "id": "u5acfb07e37",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 86,
+   "title": "Trump heads to Asia with focus on economic deals, rare nuclear summit with Xi and Putin",
+   "desc": "Controversy over Nvidia is certain to hang over his visit to China, despite efforts by administration officials to downplay the president’s close ties to Jensen Huang",
+   "src": "The Globe and Mail",
+   "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-asia-trip-china-manila/",
+   "dt": "Nov 16",
+   "img": "52689e6ecd.jpg",
+   "id": "u52689e6ecd",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 87,
+   "title": "Engie could supply power to planned Google data center in Châteauroux, France",
+   "desc": "Firms agree potential power deal that would include renewable energy investment",
+   "src": "Data Center Dynamics",
+   "url": "https://www.datacenterdynamics.com/en/news/engie-could-supply-power-to-planned-google-data-center-in-ch%C3%A2teauroux-france/",
+   "dt": "Nov 16",
+   "img": "768f151833.jpg",
+   "id": "u768f151833",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 88,
+   "title": "Box2Bit transfers 150MW grid connection to Blackstone and exits Épila",
+   "desc": "Grid power in Spain now treated as transferrable asset",
+   "src": "Data Center Dynamics",
+   "url": "https://www.datacenterdynamics.com/en/news/box2bit-sells-150-mw-to-blackstone-and-lets-epila-take-the-lead-in-aragon/",
+   "dt": "Nov 16",
+   "img": "ea92120149.jpg",
+   "id": "uea92120149",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 89,
+   "title": "electronica 2026 Breaks Records as Electronics Industry Gathers in Munich",
+   "desc": "Four days, thousands of innovations, and countless conversations. electronica 2026 closed its doors in Munich on November 13 after welcoming more than 86,000 visitors and 3,512 exhibitors, setting new records for the international electronics trade fair. But beyond the numbers, the event was about t",
+   "src": "Eenewseurope",
+   "url": "https://www.eenewseurope.com/en/electronica-2026/",
+   "dt": "Nov 16",
+   "img": "76374e04fd.jpg",
+   "id": "u76374e04fd",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 90,
+   "title": "Fast Forward Awards 2026: HCP Sense, DeepGate, Myvox and LIOM",
+   "desc": "HCP Sense, DeepGate, Myvox, and LIOM have won the Fast Forward Awards 2026, presented at electronica in Munich on 13 November. The four startups were recognised for technologies covering industrial condition monitoring, embedded AI, MEMS cooling and non-invasive health monitoring. The awards conclud",
+   "src": "Eenewseurope",
+   "url": "https://www.eenewseurope.com/en/fast-forward-awards-2026-hcp-sense-deepgate-myvox-liom/",
+   "dt": "Nov 15",
+   "img": "92ed65a6c5.jpg",
+   "id": "u92ed65a6c5",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 91,
+   "title": "What causes a sudden drop in phone battery percentage? - Engadget",
+   "desc": "Tired of watching your phone's battery jump from green to red? It's time to start troubleshooting what's causing your battery percentage to suddenly drop.",
+   "src": "Engadget",
+   "url": "https://www.engadget.com/2313940/phone-battery-percentage-suddenly-drops/",
+   "dt": "Nov 15",
+   "img": "66aaed3882.jpg",
+   "id": "u66aaed3882",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 92,
+   "title": "Here's what actually happens if your laptop battery is completely drained",
+   "desc": "While letting your laptop run out of battery may seem harmless, it might be doing more long-term damage to your device than you ever expected.",
+   "src": "Engadget",
+   "url": "https://www.engadget.com/2313936/what-happens-drained-laptop-battery/",
+   "dt": "Nov 15",
+   "img": "385952083e.jpg",
+   "id": "u385952083e",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 93,
    "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
    "desc": "Massive data centers in Southeast Asia provided crucial computing power for Chinese companies and a cover for alleged chip smuggling.",
    "src": "The Wall Street Journal",
@@ -774,7 +1306,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 56,
+   "n": 94,
    "title": "Cantwell urges Lutnick to stop AI chip sales to China ahead of Xi meeting",
    "desc": "Commerce Secretary Howard Lutnick has drawn fire for his close relationship with Nvidia CEO Jensen Huang and the department's treatment of the company.",
    "src": "CNBC",
@@ -788,7 +1320,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 57,
+   "n": 95,
    "title": "Tighter AI chip export rules are gaining bipartisan support in Congress, including a bill to block Chinese companies from accessing chips ov",
    "desc": "Financial Times : Tighter AI chip export rules are gaining bipartisan support in Congress, including a bill to block Chinese companies from accessing chips overseas — Jensen Huang's alleged affair with Chinese spy ‘increases momentum’ to crack down on US hardware reaching China",
    "src": "Techmeme",
@@ -802,7 +1334,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 58,
+   "n": 96,
    "title": "Delhi-based Bharat Semi, which is developing programmable image sensors combining capture, processing, and AI capabilities on a single chip,",
    "desc": "Jagmeet Singh / TechCrunch : Delhi-based Bharat Semi, which is developing programmable image sensors combining capture, processing, and AI capabilities on a single chip, raised a $24M seed — Bharat Semi, an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled im",
    "src": "Techmeme",
@@ -816,7 +1348,77 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 59,
+   "n": 97,
+   "title": "SIA logs 3.5% rise in October passenger traffic; sees ‘healthy’ demand for semiconductor shipments",
+   "desc": "Cloud-computing shipments contribute to a 10.1% rise in cargo loads.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/business/sia-logs-3-5-rise-in-october-passenger-traffic-sees-healthy-demand-for-semiconductor-shipments",
+   "dt": "Nov 16",
+   "img": "9ff4b0e6ed.jpg",
+   "id": "u9ff4b0e6ed",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 98,
+   "title": "AI Finds 28 Zero-Day Flaws In Physical Robotics Software",
+   "desc": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among other",
+   "src": "IEEE Spectrum",
+   "url": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
+   "dt": "Nov 16",
+   "img": "1dea03b235.jpg",
+   "id": "u1dea03b235",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 99,
+   "title": "Grab a DDR5 gaming PC with a 10GB GPU for only $949 — iBuypower’s Slate Gaming rig features an Intel B570 graphics card and 16GB of RAM",
+   "desc": "Save $250 on a brand-new iBuypower Slate gaming PC in this Best Buy deal.",
+   "src": "Tomshardware",
+   "url": "https://www.tomshardware.com/desktops/gaming-pcs/grab-a-ddr5-gaming-pc-with-a-10gb-gpu-for-only-usd949-ibuypowers-slate-gaming-rig-features-an-intel-b570-graphics-card-and-16gb-of-ram",
+   "dt": "Nov 16",
+   "img": "4b25c29524.jpg",
+   "id": "u4b25c29524",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 100,
+   "title": "Jensen Huang's resignation causes dismay and disbelief in Taiwan, his birthplace and where he is \"the people's dad\"; an official expects lit",
+   "desc": "Li Yuan / New York Times : Jensen Huang's resignation causes dismay and disbelief in Taiwan, his birthplace and where he is “the people's dad”; an official expects little impact on TSMC — The Nvidia chief executive's resignation shocked people in his birthplace, where he is called “the people's dad.",
+   "src": "Techmeme",
+   "url": "https://www.techmeme.com/261116/p13#a261116p13",
+   "dt": "Nov 16",
+   "img": "1ebe074b36.jpg",
+   "id": "u1ebe074b36",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 101,
+   "title": "Hacker gets Doom running on a USB flash drive",
+   "desc": "Aaron Christophel ported Doom to the LCD on a MOVESPEED MSSU10 flash drive and controls it with file transfers.",
+   "src": "Tomshardware",
+   "url": "https://www.tomshardware.com/video-games/retro-gaming/hacker-gets-doom-running-on-a-usb-flash-drives-built-in-lcd-played-by-copying-files-hacker-dumps-firmware-from-chip-with-scrubbed-markings-through-an-open-debug-port-then-gets-the-game-running-with-ai-help",
+   "dt": "Nov 16",
+   "img": "824dbd735c.jpg",
+   "id": "u824dbd735c",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 102,
    "title": "JIJ and Mitsubishi Electric Selected for JHPC-quantum Program to Evaluate Hybrid Computing",
    "desc": "Insider Brief PRESS RELEASE — JIJ Inc. today announced that a joint proposal with Mitsubishi Electric Corporation, titled “Performance Evaluation of a Quantum-Classical Hybrid Linear Solver for Thermal-Fluid Analysis,” has been selected for the JHPC-quantum Test User Program. Mitsubishi Electric wil",
    "src": "Thequantuminsider",
@@ -830,7 +1432,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 60,
+   "n": 103,
    "title": "IonQ Appoints Gary Merrill as CFO and Thomas Austin as Chief Accounting Officer",
    "desc": "Insider Brief PRESS RELEASE — IonQ (NYSE: IONQ), the world’s leading full-stack quantum platform and foundry, today announced executive leadership changes to position the company for continued growth and advance its path to profitability: In connection with these appointments, Inder M. Singh is step",
    "src": "Thequantuminsider",
@@ -844,7 +1446,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 61,
+   "n": 104,
    "title": "Qatar's MCIT Partners with SignQuantum on Post-Quantum Cybersecurity",
    "desc": "Insider Brief PRESS RELEASE — The Ministry of Communications and Information Technology of the State of Qatar (MCIT Qatar) signed a collaboration agreement with SignQuantum to strengthen cybersecurity readiness for quantum computing risks. The announcement was made at MWC26 Doha on November 10, 2026",
    "src": "Thequantuminsider",
@@ -858,7 +1460,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 62,
+   "n": 105,
    "title": "From Cat Pictures to DNA, Moth Quantum Reports Progress on Getting Everyday Data Into Quantum Computers",
    "desc": "Insider Brief Moth Quantum says it has used an entire IBM quantum processor to load and recover data equivalent to two small grayscale images. That may not sound like much, but the company says the method, called Tessa, addresses getting conventional data onto the machines without adding excessive e",
    "src": "Thequantuminsider",
@@ -872,7 +1474,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 63,
+   "n": 106,
    "title": "Qatar, France Sign Technology Cooperation Letter, Highlight Shared Quantum Ambitions",
    "desc": "Insider Brief PRESS RELEASE — The Ministry of Communications and Information Technology (MCIT) of the State of Qatar and the French Ministry of the Economy, Finance and Industrial, Energy and Digital Sovereignty signed a Letter of Intent to strengthen bilateral cooperation in the communications and ",
    "src": "Thequantuminsider",
@@ -881,6 +1483,48 @@
    "img": "4d67dc510a.jpg",
    "id": "u4d67dc510a",
    "added_at": "2026-11-16T05:30:18-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Quantum"
+  },
+  {
+   "n": 107,
+   "title": "Quantum Computing’s Next Scaling Challenge Isn’t Just Qubits. It’s Power.",
+   "desc": "As I prepare to attend my 28th SC conference, I’m reminded of a lesson the high-performance computing (HPC) community has learned repeatedly: scientific breakthroughs must operate within the constraints of the infrastructure available to support them. From massively parallel supercomputers to GPU-ac",
+   "src": "HPCwire",
+   "url": "https://www.hpcwire.com/2026/11/16/quantum-computings-next-scaling-challenge-isnt-just-qubits-its-power/",
+   "dt": "Nov 16",
+   "img": "ca1c9df5eb.jpg",
+   "id": "uca1c9df5eb",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Quantum"
+  },
+  {
+   "n": 108,
+   "title": "15 Finalists Named in Global Quantum + AI Challenge",
+   "desc": "Insider Brief Fifteen teams have been named finalists in the Global Quantum + AI Challenge, advancing to develop working proofs of concept for industry problems ranging from drug discovery to credit card fraud detection. The competition offers $200,000 in prizes across five challenges, with $40,000 ",
+   "src": "Thequantuminsider",
+   "url": "https://thequantuminsider.com/2026/11/16/15-finalists-named-in-global-quantum-ai-challenge/",
+   "dt": "Nov 16",
+   "img": "742e29aeba.jpg",
+   "id": "u742e29aeba",
+   "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Quantum"
+  },
+  {
+   "n": 109,
+   "title": "Quantum Physics Meet The Great Books at St. John's College",
+   "desc": "Insider Brief PRESS RELEASE — In late July, while most of their classmates were on summer vacation, Henry Haggard (A27) and Albert Shapiro (A27) were in a hotel room in Hamilton, New York, studying physics. Alongside Eddie Schodowski (AGI28), director of the St. John’s College Laboratory Program in ",
+   "src": "Thequantuminsider",
+   "url": "https://thequantuminsider.com/2026/11/16/quantum-physics-meet-the-great-books-at-st-johns-college/",
+   "dt": "Nov 16",
+   "img": "0e1dc5a75a.jpg",
+   "id": "u0e1dc5a75a",
+   "added_at": "2026-11-16T07:16:50-0500",
    "new": true,
    "cat": "Technology & Engineering",
    "sub": "Quantum"
