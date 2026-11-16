@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "updated_at": "2026-11-16T08:21:50-0500",
+ "updated_at": "2026-11-16T09:19:21-0500",
  "built_at": "2026-11-16T05:32:00-0500",
  "stories": [
   {
@@ -1021,6 +1021,22 @@
    "img": "",
    "id": "u48b9509c21",
    "added_at": "2026-11-16T08:21:50-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Society & justice",
+   "cat": "Africa",
+   "sub": ""
+  },
+  {
+   "n": 65,
+   "title": "Beyond the Horizon: Searching for Kenya’s elusive black leopard",
+   "desc": "Maasai photographer Latei Moses searches Kenya for the rare wild cat, telling his own story through his lens.",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/witness/2026/11/16/beyond-the-horizon-searching-for-kenyas-elusive-black-leopard?traffic_source=rss",
+   "dt": "Nov 16",
+   "img": "a0804d89a7.jpg",
+   "id": "ua0804d89a7",
+   "added_at": "2026-11-16T09:19:21-0500",
    "new": true,
    "region": "Africa",
    "topic": "Society & justice",
