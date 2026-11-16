@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "updated_at": "2026-11-16T09:19:21-0500",
+ "updated_at": "2026-11-16T10:21:38-0500",
  "built_at": "2026-11-16T05:32:00-0500",
  "stories": [
   {
@@ -1251,6 +1251,34 @@
   },
   {
    "n": 90,
+   "title": "U.N. Starts Uncertain Effort to Regulate Lethal Autonomous Weapons",
+   "desc": "Delegates met in Geneva to discuss guardrails for such systems even as their development grows. Russia and the United States have resisted the efforts.",
+   "src": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/16/world/europe/un-killer-robots-autonomous-weapons.html",
+   "dt": "Nov 16",
+   "img": "7f8a80f31c.jpg",
+   "id": "u7f8a80f31c",
+   "added_at": "2026-11-16T10:21:38-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 91,
+   "title": "Anthropic IPO guide: Everything you need to know",
+   "desc": "Anthropic is set to start trading this week on the Nasdaq under the ticker symbol ANT.",
+   "src": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
+   "dt": "Nov 16",
+   "img": "4ad82c3981.jpg",
+   "id": "u4ad82c3981",
+   "added_at": "2026-11-16T10:21:38-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 92,
    "title": "Gas starts flowing from Jackdaw after government green light",
    "desc": "Ministers last month announced the Jackdaw gas field, which lies 150 miles east of Aberdeen, had been approved after years of uncertainty.",
    "src": "BBC",
@@ -1264,7 +1292,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 91,
+   "n": 93,
    "title": "Great Britain’s oldest renewables projects could rake in nearly £9bn next year",
    "desc": "Subsidy scheme, which is paid via taxes and energy bills, must be reformed, ECU analysis finds Business live – latest updates Great Britain’s oldest renewable energy projects are likely to rake in an almost £9bn windfall next year because of soaring market prices, according to independent analysis. ",
    "src": "The Guardian",
@@ -1278,7 +1306,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 92,
+   "n": 94,
    "title": "Risk of nuclear accident in Ukraine increasing this winter, atomic safety regulators say",
    "desc": "OSLO, Nov 16 - The risk of a nuclear accident in Ukraine is increasing this winter, nuclear safety regulators representing 38 countries said on Monday, urging Russia to stop its attacks on the country's power infrastructure.",
    "src": "The Straits Times",
@@ -1292,7 +1320,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 93,
+   "n": 95,
    "title": "Trump heads to Asia with focus on economic deals, rare nuclear summit with Xi and Putin",
    "desc": "Controversy over Nvidia is certain to hang over his visit to China, despite efforts by administration officials to downplay the president’s close ties to Jensen Huang",
    "src": "The Globe and Mail",
@@ -1306,7 +1334,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 94,
+   "n": 96,
    "title": "Engie could supply power to planned Google data center in Châteauroux, France",
    "desc": "Firms agree potential power deal that would include renewable energy investment",
    "src": "Data Center Dynamics",
@@ -1320,7 +1348,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 95,
+   "n": 97,
    "title": "Box2Bit transfers 150MW grid connection to Blackstone and exits Épila",
    "desc": "Grid power in Spain now treated as transferrable asset",
    "src": "Data Center Dynamics",
@@ -1334,7 +1362,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 96,
+   "n": 98,
    "title": "electronica 2026 Breaks Records as Electronics Industry Gathers in Munich",
    "desc": "Four days, thousands of innovations, and countless conversations. electronica 2026 closed its doors in Munich on November 13 after welcoming more than 86,000 visitors and 3,512 exhibitors, setting new records for the international electronics trade fair. But beyond the numbers, the event was about t",
    "src": "Eenewseurope",
@@ -1348,7 +1376,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 97,
+   "n": 99,
    "title": "Fast Forward Awards 2026: HCP Sense, DeepGate, Myvox and LIOM",
    "desc": "HCP Sense, DeepGate, Myvox, and LIOM have won the Fast Forward Awards 2026, presented at electronica in Munich on 13 November. The four startups were recognised for technologies covering industrial condition monitoring, embedded AI, MEMS cooling and non-invasive health monitoring. The awards conclud",
    "src": "Eenewseurope",
@@ -1362,7 +1390,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 98,
+   "n": 100,
    "title": "What causes a sudden drop in phone battery percentage? - Engadget",
    "desc": "Tired of watching your phone's battery jump from green to red? It's time to start troubleshooting what's causing your battery percentage to suddenly drop.",
    "src": "Engadget",
@@ -1376,7 +1404,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 99,
+   "n": 101,
    "title": "Here's what actually happens if your laptop battery is completely drained",
    "desc": "While letting your laptop run out of battery may seem harmless, it might be doing more long-term damage to your device than you ever expected.",
    "src": "Engadget",
@@ -1390,7 +1418,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 100,
+   "n": 102,
    "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
    "desc": "Massive data centers in Southeast Asia provided crucial computing power for Chinese companies and a cover for alleged chip smuggling.",
    "src": "The Wall Street Journal",
@@ -1404,7 +1432,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 101,
+   "n": 103,
    "title": "Cantwell urges Lutnick to stop AI chip sales to China ahead of Xi meeting",
    "desc": "Commerce Secretary Howard Lutnick has drawn fire for his close relationship with Nvidia CEO Jensen Huang and the department's treatment of the company.",
    "src": "CNBC",
@@ -1418,7 +1446,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 102,
+   "n": 104,
    "title": "Tighter AI chip export rules are gaining bipartisan support in Congress, including a bill to block Chinese companies from accessing chips ov",
    "desc": "Financial Times : Tighter AI chip export rules are gaining bipartisan support in Congress, including a bill to block Chinese companies from accessing chips overseas — Jensen Huang's alleged affair with Chinese spy ‘increases momentum’ to crack down on US hardware reaching China",
    "src": "Techmeme",
@@ -1432,7 +1460,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 103,
+   "n": 105,
    "title": "Delhi-based Bharat Semi, which is developing programmable image sensors combining capture, processing, and AI capabilities on a single chip,",
    "desc": "Jagmeet Singh / TechCrunch : Delhi-based Bharat Semi, which is developing programmable image sensors combining capture, processing, and AI capabilities on a single chip, raised a $24M seed — Bharat Semi, an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled im",
    "src": "Techmeme",
@@ -1446,7 +1474,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 104,
+   "n": 106,
    "title": "SIA logs 3.5% rise in October passenger traffic; sees ‘healthy’ demand for semiconductor shipments",
    "desc": "Cloud-computing shipments contribute to a 10.1% rise in cargo loads.",
    "src": "The Straits Times",
@@ -1460,7 +1488,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 105,
+   "n": 107,
    "title": "AI Finds 28 Zero-Day Flaws In Physical Robotics Software",
    "desc": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among other",
    "src": "IEEE Spectrum",
@@ -1474,7 +1502,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 106,
+   "n": 108,
    "title": "Grab a DDR5 gaming PC with a 10GB GPU for only $949 — iBuypower’s Slate Gaming rig features an Intel B570 graphics card and 16GB of RAM",
    "desc": "Save $250 on a brand-new iBuypower Slate gaming PC in this Best Buy deal.",
    "src": "Tomshardware",
@@ -1488,7 +1516,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 107,
+   "n": 109,
    "title": "Jensen Huang's resignation causes dismay and disbelief in Taiwan, his birthplace and where he is \"the people's dad\"; an official expects lit",
    "desc": "Li Yuan / New York Times : Jensen Huang's resignation causes dismay and disbelief in Taiwan, his birthplace and where he is “the people's dad”; an official expects little impact on TSMC — The Nvidia chief executive's resignation shocked people in his birthplace, where he is called “the people's dad.",
    "src": "Techmeme",
@@ -1502,7 +1530,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 108,
+   "n": 110,
    "title": "Hacker gets Doom running on a USB flash drive",
    "desc": "Aaron Christophel ported Doom to the LCD on a MOVESPEED MSSU10 flash drive and controls it with file transfers.",
    "src": "Tomshardware",
@@ -1516,7 +1544,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 109,
+   "n": 111,
    "title": "Jailbroken PS4 runs 9-billion-parameter AI model at up to 43 tokens per second — open-source Garlic LLM bypasses drivers to talk directly to",
    "desc": "Garlic LLM runs Alibaba’s Qwen3.5-9B on a jailbroken PlayStation 4’s GPU, fully offline, at 31 to 39 tokens per second.",
    "src": "Tomshardware",
@@ -1530,7 +1558,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 110,
+   "n": 112,
    "title": "JIJ and Mitsubishi Electric Selected for JHPC-quantum Program to Evaluate Hybrid Computing",
    "desc": "Insider Brief PRESS RELEASE — JIJ Inc. today announced that a joint proposal with Mitsubishi Electric Corporation, titled “Performance Evaluation of a Quantum-Classical Hybrid Linear Solver for Thermal-Fluid Analysis,” has been selected for the JHPC-quantum Test User Program. Mitsubishi Electric wil",
    "src": "Thequantuminsider",
@@ -1544,7 +1572,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 111,
+   "n": 113,
    "title": "IonQ Appoints Gary Merrill as CFO and Thomas Austin as Chief Accounting Officer",
    "desc": "Insider Brief PRESS RELEASE — IonQ (NYSE: IONQ), the world’s leading full-stack quantum platform and foundry, today announced executive leadership changes to position the company for continued growth and advance its path to profitability: In connection with these appointments, Inder M. Singh is step",
    "src": "Thequantuminsider",
@@ -1558,7 +1586,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 112,
+   "n": 114,
    "title": "Qatar's MCIT Partners with SignQuantum on Post-Quantum Cybersecurity",
    "desc": "Insider Brief PRESS RELEASE — The Ministry of Communications and Information Technology of the State of Qatar (MCIT Qatar) signed a collaboration agreement with SignQuantum to strengthen cybersecurity readiness for quantum computing risks. The announcement was made at MWC26 Doha on November 10, 2026",
    "src": "Thequantuminsider",
@@ -1572,7 +1600,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 113,
+   "n": 115,
    "title": "From Cat Pictures to DNA, Moth Quantum Reports Progress on Getting Everyday Data Into Quantum Computers",
    "desc": "Insider Brief Moth Quantum says it has used an entire IBM quantum processor to load and recover data equivalent to two small grayscale images. That may not sound like much, but the company says the method, called Tessa, addresses getting conventional data onto the machines without adding excessive e",
    "src": "Thequantuminsider",
@@ -1586,7 +1614,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 114,
+   "n": 116,
    "title": "Qatar, France Sign Technology Cooperation Letter, Highlight Shared Quantum Ambitions",
    "desc": "Insider Brief PRESS RELEASE — The Ministry of Communications and Information Technology (MCIT) of the State of Qatar and the French Ministry of the Economy, Finance and Industrial, Energy and Digital Sovereignty signed a Letter of Intent to strengthen bilateral cooperation in the communications and ",
    "src": "Thequantuminsider",
@@ -1600,7 +1628,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 115,
+   "n": 117,
    "title": "Quantum Computing’s Next Scaling Challenge Isn’t Just Qubits. It’s Power.",
    "desc": "As I prepare to attend my 28th SC conference, I’m reminded of a lesson the high-performance computing (HPC) community has learned repeatedly: scientific breakthroughs must operate within the constraints of the infrastructure available to support them. From massively parallel supercomputers to GPU-ac",
    "src": "HPCwire",
@@ -1614,7 +1642,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 116,
+   "n": 118,
    "title": "15 Finalists Named in Global Quantum + AI Challenge",
    "desc": "Insider Brief Fifteen teams have been named finalists in the Global Quantum + AI Challenge, advancing to develop working proofs of concept for industry problems ranging from drug discovery to credit card fraud detection. The competition offers $200,000 in prizes across five challenges, with $40,000 ",
    "src": "Thequantuminsider",
@@ -1628,7 +1656,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 117,
+   "n": 119,
    "title": "Quantum Physics Meet The Great Books at St. John's College",
    "desc": "Insider Brief PRESS RELEASE — In late July, while most of their classmates were on summer vacation, Henry Haggard (A27) and Albert Shapiro (A27) were in a hotel room in Hamilton, New York, studying physics. Alongside Eddie Schodowski (AGI28), director of the St. John’s College Laboratory Program in ",
    "src": "Thequantuminsider",
@@ -1642,7 +1670,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 118,
+   "n": 120,
    "title": "Liquid C2 and Graphiant Partner on Quantum-Secure Networking in Africa",
    "desc": "Insider Brief PRESS RELEASE — Liquid C2, a business of Cassava Technologies, a global technology leader, and Graphiant (https://www.Graphiant.com/), a US-based provider of networking infrastructure built for AI, partnered to strengthen network security offerings through a new Quantum Secure Network-",
    "src": "Thequantuminsider",
@@ -1656,7 +1684,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 119,
+   "n": 121,
    "title": "Classiq and Ventum Consulting Partner on Enterprise Quantum Computing in Germany",
    "desc": "Insider Brief PRESS RELEASE — Classiq, a leading quantum computing software company, and Ventum Consulting, a digital transformation consultancy, today announced a partnership to help enterprises in Germany build quantum computing expertise, establish strategies and develop applications aligned with",
    "src": "Thequantuminsider",
