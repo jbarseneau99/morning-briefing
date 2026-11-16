@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "updated_at": "2026-11-16T07:16:50-0500",
+ "updated_at": "2026-11-16T08:21:50-0500",
  "built_at": "2026-11-16T05:32:00-0500",
  "stories": [
   {
@@ -1005,6 +1005,22 @@
    "img": "984e073a41.jpg",
    "id": "u984e073a41",
    "added_at": "2026-11-16T07:16:50-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Society & justice",
+   "cat": "Africa",
+   "sub": ""
+  },
+  {
+   "n": 64,
+   "title": "Canaries urge government action after 2,200 migrants reach the islands in 48h",
+   "desc": "Spain says nearly 2,200 migrants have arrived by boat to the Canary Islands this weekend. The Spanish islands are one of the main entry points into Europe for migrants from Africa. The Spanish Interior Ministry says more than 13,000 arrived there between January and the end of last month. Details an",
+   "src": "France 24",
+   "url": "https://www.france24.com/en/video/20261115-canaries-urge-government-action-after-2-200-migrants-reach-the-islands-in-48h-1",
+   "dt": "Nov 15",
+   "img": "",
+   "id": "u48b9509c21",
+   "added_at": "2026-11-16T08:21:50-0500",
    "new": true,
    "region": "Africa",
    "topic": "Society & justice",
