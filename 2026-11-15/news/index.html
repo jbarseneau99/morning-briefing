@@ -1,0 +1,737 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Global News · Morning Briefing · Nov 15, 2026</title>
+<link rel="manifest" href="/morning-briefing/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/morning-briefing/img/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Briefing">
+<meta name="theme-color" content="#f4f1eb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pin-h:96px;
+  --bg:#f4f1eb;--paper:#fffcf7;--ink:#141311;--mut:#5c5a55;--line:#ddd8ce;--rule:#141311;
+  --acc:#9b2c1a;--wash:#eeeae2;--up:#1f6b3a;--dn:#9b2c1a;--ne:#6a6862;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{color-scheme:light;overscroll-behavior-y:none}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;padding-top:var(--pin-h);padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:var(--acc)}
+.frame{display:block}
+.stick{position:fixed;top:0;left:0;right:0;width:100%;z-index:80;background:var(--bg);border-top:2px solid var(--rule);border-bottom:1px solid var(--line);box-shadow:0 8px 18px -12px rgba(20,19,17,.2);padding-top:env(safe-area-inset-top,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+.pin{display:flex;align-items:center;min-height:48px;box-sizing:border-box;position:relative}
+header{max-width:none;margin:0;padding:0 12px;display:flex;align-items:center;min-height:48px;box-sizing:border-box}
+.mast{display:flex;align-items:center;gap:8px;min-width:0;flex:1;border-top:0;padding:0;min-height:48px;box-sizing:border-box}
+.nav-util{max-width:none;margin:0 0 0 auto;padding:0 8px 0 0;display:flex;align-items:center;gap:0;border-bottom:0;min-width:0;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch;min-height:48px;box-sizing:border-box}
+.side{max-width:900px;margin:0 auto;padding:0 20px;display:grid;grid-template-columns:1fr auto;grid-template-areas:"crumb crumb" "secs cut";align-items:end;column-gap:12px}
+.side:not(:has(.nav-cut:not([hidden]))){grid-template-areas:"crumb crumb" "secs secs"}
+.nav-util::-webkit-scrollbar{display:none}
+.nav-util a{font:600 11.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;padding:0;margin-right:16px;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px;display:inline-flex;align-items:center;min-height:44px;min-width:44px;flex:0 0 auto;white-space:nowrap;box-sizing:border-box}
+.nav-util a:hover{color:var(--ink)}
+.nav-util a.on,.nav-util a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink)}
+.nav-crumb{grid-area:crumb;font-size:12.5px;color:var(--mut);padding:7px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.3}
+.nav-crumb a{color:var(--mut);text-decoration:none}
+.nav-crumb a:hover{color:var(--acc)}
+.nav-crumb .here{color:var(--ink)}
+.nav-crumb .sep{margin:0 .15em;color:var(--mut)}
+.nav-secs{grid-area:secs;display:flex;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;flex-wrap:nowrap;scrollbar-width:none;gap:0;-webkit-overflow-scrolling:touch;border-bottom:1px solid var(--line)}
+.nav-secs::-webkit-scrollbar{display:none}
+.nav-secs button{flex:0 0 auto;font:600 15px/1 var(--sans);padding:0 8px;margin-right:8px;border:0;background:none;cursor:pointer;color:var(--mut);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;border-radius:0;display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;box-sizing:border-box}
+.nav-secs button:hover{color:var(--ink)}
+.nav-secs button.on{color:var(--ink);border-bottom-color:var(--acc)}
+.nav-secs button.spy{color:var(--ink)}
+.nav-cut{grid-area:cut;display:flex;align-items:center;padding:0 0 8px;border-bottom:1px solid var(--line)}
+.nav-crumb[hidden],.nav-cut[hidden]{display:none!important}
+.nav-cut button{font:600 11px/1 var(--sans);letter-spacing:.03em;padding:0 10px;border:1px solid var(--line);background:transparent;color:var(--mut);cursor:pointer;margin:0 0 0 -1px;min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+.nav-cut button:first-child{margin-left:0;border-radius:3px 0 0 3px}
+.nav-cut button:last-child{border-radius:0 3px 3px 0}
+.nav-cut button.on{background:var(--ink);color:var(--paper);border-color:var(--ink);position:relative;z-index:1}
+.nav-cut[hidden]{display:none}
+section,.row,.sub,.ch{scroll-margin-top:calc(var(--pin-h) + 12px)}
+.kicker{display:none}
+.logo-link{display:inline-flex;align-items:center;gap:8px;flex:0 0 auto;min-width:44px;min-height:44px;color:var(--ink);text-decoration:none}
+.logo-mark{width:24px;height:24px;display:block;flex:0 0 auto;color:var(--ink)}
+.logo-word{height:22px;width:auto;aspect-ratio:1000/258.41;display:block;flex:0 0 auto}
+.logo-dark{display:none}
+.byline{margin:0;color:var(--mut);font:500 10px/1.2 var(--sans);letter-spacing:.08em;font-variant-caps:all-small-caps;text-transform:lowercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.byline .sep{font-variant-caps:normal;letter-spacing:0;margin:0 .35em}
+.byline .ed{font-variant-caps:normal;letter-spacing:.01em;font-weight:400;text-transform:none;color:var(--mut)}
+header h1{margin:0;font:650 15px/1.1 var(--serif);letter-spacing:-.02em;white-space:nowrap;min-width:0}
+header h1 a{color:inherit;text-decoration:none}
+.ed{margin:0;color:var(--mut);font-size:10px;letter-spacing:.01em}
+#send{display:none;flex:0 0 auto;margin-left:auto;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:0;padding:0 8px;cursor:pointer;font:600 10px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;min-height:32px;align-items:center;justify-content:center}
+#send:hover{background:var(--ink);color:var(--paper)}
+main{max-width:900px;margin:0 auto;padding:16px 20px max(72px,calc(72px + env(safe-area-inset-bottom,0px)))}
+section{background:transparent;border:0;border-radius:0;margin:1.8rem 0 0;overflow:visible}
+.view>section:first-child{margin-top:.4rem}
+.ch{display:flex;align-items:baseline;gap:10px;padding:0 0 10px;cursor:pointer;user-select:none;border-bottom:2px solid var(--rule)}
+.ch h2{margin:0;font:650 1.45rem/1.15 var(--serif);flex:1;letter-spacing:-.015em}
+.car{transition:transform .2s;color:var(--mut);font-size:13px;line-height:1}
+section.closed .car{transform:rotate(-90deg)}
+section.closed .body{display:none}
+section.closed .ch{border-bottom-width:1px;border-bottom-color:var(--line)}
+.top{padding:14px 0 4px}
+.top h4{margin:0 0 8px;font:600 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+.top ol{margin:0;padding-left:1.15rem;font-size:15px}
+.top li{min-height:44px;padding:8px 0;box-sizing:border-box}
+.top a{color:var(--ink);text-decoration:none;font-family:var(--serif);font-weight:550}
+.top a:hover{color:var(--acc)}
+.sh{display:flex;align-items:center;gap:8px;padding:18px 0 2px}
+.sh span.t{flex:1;font:600 11.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--acc)}
+.row{display:flex;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.sh+.row{border-top:0;padding-top:10px}
+.th,.ph{flex:0 0 120px;flex-shrink:0;align-self:flex-start;width:120px;aspect-ratio:3/2;height:auto;border-radius:2px;object-fit:cover;background:var(--wash)}
+.ph{display:flex;align-items:center;justify-content:center;color:#9a968e;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
+.tx{flex:1;min-width:0}
+.tx b{display:block;font:600 1.12rem/1.28 var(--serif);letter-spacing:-.01em}
+.tx .n{color:var(--mut);font-weight:500;margin-right:.4em;font-variant-numeric:tabular-nums;font-family:var(--sans);font-size:.86em}
+.tx p{margin:4px 0 0;color:#3a3834;font-size:15px;line-height:1.45}
+.tx a{color:var(--acc);font-size:13px;font-weight:600;letter-spacing:.02em;text-decoration:none}
+.tx a:hover{text-decoration:underline}
+.dt{color:var(--mut);font-size:13px}
+.more{display:none}
+.sub.open .more{display:flex}
+.mt{margin:2px 0 8px;border:0;background:none;color:var(--mut);cursor:pointer;font:600 13px/1.4 var(--sans);padding:0;letter-spacing:.02em;min-height:44px;display:inline-flex;align-items:center}
+.mt:hover{color:var(--acc)}
+.v{display:flex;flex-direction:column;gap:0;align-items:center;flex:0 0 auto;margin-left:4px}
+.v button{border:0;background:transparent;border-radius:3px;cursor:pointer;font-size:14px;padding:0;opacity:.4;line-height:1;color:var(--ink);min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+.v button:hover{opacity:1;background:var(--wash)}
+.v button.on{opacity:1}
+.v button.on.up{background:#e7f1ea;color:var(--up)}
+.v button.on.dn{background:#f6e8e4;color:var(--dn)}
+.v button.on.ne{background:var(--wash);color:var(--ne)}
+.ch .v,.sh .v{flex-direction:row;align-items:center}
+.ch .v button{font-size:14px}
+@media(max-width:599px){
+  .pin,.side{display:contents}
+  .stick{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"header util" "feeds feeds" "crumb crumb" "secs cut";column-gap:4px;align-items:center}
+  .stick:not(:has(.nav-cut:not([hidden]))){grid-template-areas:"header util" "feeds feeds" "crumb crumb" "secs secs"}
+  header{grid-area:header;max-width:none;padding:0 0 0 12px;min-height:48px}
+  .nav-util{grid-area:util;max-width:none;padding:0 12px 0 4px;min-height:48px}
+  .nav-cut{grid-area:cut;justify-content:flex-end;padding:0 12px 0 0;border-bottom:0}
+  .nav-crumb{padding-left:12px;padding-right:12px}
+  .nav-secs{padding:0 12px}
+  main{padding-left:14px;padding-right:14px}
+  header h1{font-size:14px}
+  .logo-word,.byline,#send{display:none!important}
+  .nav-util a{margin-right:8px}
+  .nav-secs button{margin-right:12px;font-size:14px}
+  .pin.scrolled .nav-crumb{padding-top:2px;font-size:12px}
+  .th,.ph{flex:0 0 76px;flex-shrink:0;align-self:flex-start;width:76px;aspect-ratio:3/2;height:auto;object-fit:cover}
+  .tx b{font-size:1.02rem}
+  .tx p{font-size:14px}
+  .row{gap:10px;padding:10px 0}
+}
+@media(max-width:430px){
+  header{padding-left:10px}
+  .nav-util{padding-right:10px}
+  .nav-cut{padding-right:10px}
+  .nav-crumb,.nav-secs,main{padding-left:12px;padding-right:12px}
+  header h1{font-size:13.5px}
+  .tx b{font-size:1rem}
+  .tx p{font-size:13.5px;line-height:1.4}
+  .row{gap:8px;padding:8px 0}
+  .th,.ph{flex:0 0 72px;width:72px}
+}
+@media(max-height:420px) and (min-aspect-ratio:5/4){
+  .byline,.logo-word,#send{display:none!important}
+  header h1{font-size:13.5px}
+}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  body{padding-top:0}.frame{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,3fr);grid-template-rows:var(--pin-h) 1fr;grid-template-areas:"pin pin" "side main";align-items:start;width:100%;max-width:1400px;margin:0 auto}
+  .stick{display:contents;position:static;padding:0;border:0;box-shadow:none;background:transparent}
+  .pin{grid-area:pin;position:fixed;top:0;left:0;right:0;width:auto;z-index:80;min-height:0;background:var(--bg);border-top:2px solid var(--rule);border-bottom:1px solid var(--line);box-shadow:0 8px 18px -12px rgba(20,19,17,.2);padding-top:env(safe-area-inset-top,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+  .pin{display:flex;align-items:center;min-height:0;box-sizing:border-box}
+  header,.nav-util{max-width:none;margin:0}
+  header{flex:1;min-width:0;padding:0 12px 0 16px;min-height:52px}
+  .mast{min-height:52px}
+  .nav-util{flex:0 0 auto;padding:0 16px 0 8px;min-height:52px;border-bottom:0}
+  #send{display:inline-flex}
+  .side{grid-area:side;display:block;position:-webkit-sticky;position:sticky;top:var(--pin-h);z-index:40;align-self:start;box-sizing:border-box;width:100%;max-width:none;margin:0;height:calc(100dvh - var(--pin-h) - env(safe-area-inset-bottom,0px));overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:var(--bg);border-right:1px solid var(--line);padding:16px 16px max(24px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+  .nav-crumb{display:block;white-space:normal;overflow:visible;text-overflow:unset;padding:0 0 12px;line-height:1.4}
+  .nav-cut{display:flex;justify-content:flex-start;border-bottom:0;padding:0 0 14px;margin:0}
+  .nav-secs{display:flex;flex-direction:column;align-items:stretch;overflow:visible;flex-wrap:nowrap;border-bottom:0;margin:0;padding:0;gap:0}
+  .nav-secs button{width:100%;margin:0;padding:0 12px;justify-content:flex-start;text-align:left;white-space:normal;border-bottom:0;border-left:2px solid transparent;border-radius:0;min-height:44px;min-width:44px}
+  .nav-secs button.on,.nav-secs button.spy{border-left-color:var(--acc);background:var(--wash);color:var(--ink)}
+  main{grid-area:main;max-width:none;margin:0;padding:16px 20px max(72px,calc(32px + env(safe-area-inset-bottom,0px))) 24px;container-type:inline-size;container-name:stories}
+  .row{padding:12px 0}
+  .th,.ph{flex:0 0 100px;width:100px}
+}
+@container stories (min-width:520px){
+  .sub{display:grid;grid-template-columns:1fr 1fr;column-gap:20px;align-items:start}
+  .sub>.sh,.sub>.mt{grid-column:1/-1}
+  .th,.ph{flex:0 0 72px;width:72px}
+  .tx b{font-size:1.05rem}
+  .tx p{font-size:14px}
+}
+@media(horizontal-viewport-segments:2){
+  .frame{grid-template-columns:env(viewport-segment-width 0 0,1fr) env(viewport-segment-width 1 0,3fr)}
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#1c1b19;--paper:#24221f;--ink:#f3efe6;--mut:#a8a49a;--line:#3a3732;--rule:#f3efe6;--acc:#e06a4f;--wash:#2c2a26;--up:#7dcea0;--dn:#e06a4f;--ne:#b0aca3}
+  html{color-scheme:dark}
+  body{background:var(--bg);color:var(--ink)}
+  .stick,.pin,.side{box-shadow:none}
+  .stick,.pin{box-shadow:0 8px 18px -12px rgba(0,0,0,.55)}
+  .tx p{color:#d7d2c8}
+  .ph{color:#7a756c}
+  #send:hover{background:var(--ink);color:var(--bg)}
+  .nav-cut button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .v button.on.up{background:#1d3a2a;color:var(--up)}
+  .v button.on.dn{background:#3a221e;color:var(--dn)}
+  .v button.on.ne{background:var(--wash);color:var(--ne)}
+  .logo-word.logo-light{display:none}
+  .logo-word.logo-dark{display:block}
+  .logo-mark{color:var(--ink)}
+}
+@media (display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui){
+  .stick,.pin{padding-top:env(safe-area-inset-top,0px)}
+}
+
+#refresh{flex:0 0 auto;width:44px;height:44px;margin:0;padding:0;border:0;background:transparent;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;border-radius:0}
+#refresh:hover{color:var(--acc)}
+#refresh svg{width:20px;height:20px;display:block}
+#refresh.busy svg{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.updated{flex:0 0 auto;color:var(--mut);font:500 10px/1 var(--sans);letter-spacing:.04em;white-space:nowrap;margin:0 4px 0 0}
+#refresh-bar{position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--acc);transform-origin:left;transform:scaleX(0);pointer-events:none;z-index:90}
+#refresh-bar.on{display:block;animation:loadbar 1s ease-in-out infinite}
+@keyframes loadbar{0%{transform:scaleX(0);opacity:.3}50%{transform:scaleX(1);opacity:1}100%{transform:scaleX(0);opacity:.3}}
+.tag-new{display:inline-block;margin:0 6px 0 0;padding:1px 5px;border:1px solid var(--acc);color:var(--acc);font:650 9px/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase;vertical-align:middle}
+.row.fresh{animation:freshfade 2.8s ease}
+@keyframes freshfade{0%{background:color-mix(in srgb,var(--acc) 16%,transparent)}100%{background:transparent}}
+#toast{position:fixed;left:50%;bottom:max(24px,calc(16px + env(safe-area-inset-bottom,0px)));transform:translateX(-50%);background:var(--ink);color:var(--paper);font:600 13px/1.3 var(--sans);letter-spacing:.02em;padding:10px 16px;border-radius:2px;z-index:200;box-shadow:0 8px 24px rgba(20,19,17,.25);opacity:0;pointer-events:none;transition:opacity .2s}
+#toast.show{opacity:1}
+
+/* in-app reader */
+.row .th,.row .ph,.row .tx b,.row .rlink{cursor:pointer}
+a.rlink{display:flex;gap:inherit;align-items:flex-start;flex:1;min-width:0;color:inherit;text-decoration:none;-webkit-tap-highlight-color:rgba(155,44,26,.12)}
+a.rlink:hover b{color:var(--acc)}
+.row .rs{color:var(--acc);font:600 13px/1.4 var(--sans)}
+.buildstamp{margin:24px 0 8px;padding:0 4px;color:var(--mut);font:500 10px/1.2 var(--sans);letter-spacing:.06em;opacity:.7}
+#reader{display:none;background:var(--bg);min-width:0;box-sizing:border-box}
+body.reading{overflow:hidden;overscroll-behavior:none;height:100vh;height:-webkit-fill-available;height:100dvh}
+body.reading .buildstamp{display:none!important}
+body.reading #m{display:none!important}
+body.reading #reader{
+  display:flex;flex-direction:column;
+  position:fixed;z-index:50;
+  top:var(--pin-h);left:0;right:0;bottom:0;
+  width:auto;
+  height:calc(100vh - var(--pin-h));
+  height:calc(100dvh - var(--pin-h));
+  min-height:calc(100vh - var(--pin-h));
+  min-height:calc(100dvh - var(--pin-h));
+  padding:0 16px env(safe-area-inset-bottom,0px);
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  overflow:hidden;
+  background:var(--bg);
+}
+.rbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;position:relative;top:auto;z-index:5;flex:0 0 auto;background:var(--bg);border-bottom:1px solid var(--line);padding:4px 0 8px;margin:0 0 12px}
+#rback{flex:0 0 auto;width:44px;height:44px;margin:0;padding:0;border:0;background:transparent;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+#rback:hover{color:var(--acc)}
+#rback svg{display:block}
+.rsrc{font:650 11.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mut);min-width:0}
+.rorig{margin-left:auto;font:600 12px/1 var(--sans);letter-spacing:.04em;color:var(--acc);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;padding:0 4px;white-space:nowrap}
+.rorig:hover{text-decoration:underline}
+#rvotes{flex:0 0 auto}
+#rbody{max-width:720px;flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch}
+#rbody.loading{display:flex;align-items:center;justify-content:center;min-height:0;flex:1 1 auto;color:var(--mut)}
+#rbody .rspinner{width:28px;height:28px;border:2px solid var(--line);border-top-color:var(--acc);border-radius:50%;animation:spin .8s linear infinite}
+#rbody h1{font:600 1.7rem/1.25 var(--serif);margin:0 0 8px;color:var(--ink)}
+#rbody .rby{margin:0 0 16px;color:var(--mut);font:500 14px/1.4 var(--sans)}
+#rbody .rby .rdate{font-weight:400}
+#rbody .rhero{display:block;width:100%;max-height:360px;object-fit:cover;border-radius:2px;margin:0 0 20px;background:var(--wash)}
+#rbody .rhtml{font:400 1.05rem/1.65 var(--serif);color:var(--ink)}
+#rbody .rhtml p,#rbody .rhtml li{margin:0 0 1em}
+#rbody .rhtml h2,#rbody .rhtml h3,#rbody .rhtml h4{font-family:var(--serif);font-weight:600;line-height:1.3;margin:1.4em 0 .5em}
+#rbody .rhtml img{max-width:100%;height:auto;border-radius:2px;margin:.4em 0}
+#rbody .rhtml a{color:var(--acc)}
+#rbody .rhtml blockquote{margin:0 0 1em;padding:0 0 0 14px;border-left:2px solid var(--line);color:var(--mut)}
+#rbody .rhtml .trimmed{color:var(--mut);letter-spacing:.2em}
+#rbody .rnote{background:var(--wash);border:1px solid var(--line);padding:14px 16px;margin:0 0 16px;font:400 15px/1.5 var(--sans);color:var(--ink)}
+#rbody .rnote a{color:var(--acc)}
+#rbody .rsum{font:400 1.05rem/1.6 var(--serif);margin:0 0 1em}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  body.reading .frame{height:100vh;height:100dvh;overflow:hidden;align-items:stretch}
+  #reader{grid-area:main;max-width:none;margin:0;display:none;flex-direction:column}
+  body.reading #reader{
+    display:flex;flex-direction:column;
+    position:relative;z-index:auto;
+    top:auto;left:auto;right:auto;bottom:auto;
+    width:auto;max-width:none;margin:0;
+    height:calc(100vh - var(--pin-h));
+    height:calc(100dvh - var(--pin-h));
+    min-height:calc(100vh - var(--pin-h));
+    min-height:calc(100dvh - var(--pin-h));
+    padding:0 20px env(safe-area-inset-bottom,0px) 24px;
+    overflow:hidden;
+    background:var(--bg);
+  }
+  .rbar{top:auto;flex:0 0 auto}
+  #rbody{flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch}
+}
+@media(max-width:599px){.updated,#send{display:none!important}}
+
+.nav-feeds{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;gap:0}
+.nav-feeds::-webkit-scrollbar{display:none}
+.nav-feeds a{flex:0 0 auto;font:600 13.5px/1 var(--sans);padding:0 8px;margin-right:8px;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;min-height:36px;display:inline-flex;align-items:center}
+.nav-feeds a:hover{color:var(--ink)}
+.nav-feeds a.on,.nav-feeds a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink)}
+@media(max-width:599px){
+  .nav-feeds{grid-area:feeds;padding:0 12px}
+}
+@media(max-height:420px) and (min-aspect-ratio:5/4){
+  .nav-feeds{display:none}
+}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  .nav-feeds{display:flex;flex-direction:column;align-items:stretch;overflow:visible;flex-wrap:nowrap;border-bottom:1px solid var(--line);margin:0 0 12px;padding:0 0 8px}
+  .nav-feeds a{width:100%;margin:0;padding:0 12px;justify-content:flex-start;text-align:left;white-space:normal;border-bottom:0;border-left:2px solid transparent;min-height:40px}
+  .nav-feeds a.on,.nav-feeds a[aria-current=page]{border-bottom:0;border-left-color:var(--ink);background:var(--wash);color:var(--ink)}
+  .nav-feeds a:hover,.nav-feeds a:focus{color:var(--ink);background:var(--wash)}
+}
+</style></head><body>
+<div class="frame">
+<div class="stick" id="stick">
+<div class="pin" id="pin">
+<header><div class="mast"><a class="logo-link" href="https://www.33fg.com/" target="_blank" rel="noopener" aria-label="Mach33"><svg class="logo-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M500,68.71C261.8,68.71,68.71,261.81,68.71,500c0,238.2,193.09,431.29,431.29,431.29c238.19,0,431.29-193.09,431.29-431.29
+	C931.29,261.81,738.19,68.71,500,68.71z M246.22,740.08l-8.24-19.42c81.2-14.71,181.82-62.96,181.82-145.34
+	c0-69.43-73.55-90.03-113.56-90.03l-5.3-15.89c68.26-49.42,95.33-79.43,95.33-122.39c0-39.42-22.95-44.72-37.66-44.72
+	c-24.72,0-54.14,14.13-81.21,32.37l-11.76-17.07l81.79-57.66c38.83,0,135.92,13.53,135.92,90.03c0,62.96-60.61,97.67-89.44,104.15
+	c27.07,0,117.1,13.53,117.1,100.03C511.01,669.47,325.66,728.9,246.22,740.08z M487.47,740.08l-8.24-19.42
+	c81.21-14.71,181.82-62.96,181.82-145.34c0-69.43-73.55-90.03-113.56-90.03l-5.3-15.89c68.26-49.42,95.33-79.43,95.33-122.39
+	c0-39.42-22.95-44.72-37.66-44.72c-24.71,0-54.14,14.13-81.2,32.37l-11.77-17.07l81.79-57.66c38.83,0,135.92,13.53,135.92,90.03
+	c0,62.96-60.6,97.67-89.44,104.15c27.07,0,117.1,13.53,117.1,100.03C752.26,669.47,566.91,728.9,487.47,740.08z"/></svg><img class="logo-word logo-light" src="/morning-briefing/img/mach33-wordmark-black.svg?v=3" alt="" width="85" height="22"><img class="logo-word logo-dark" src="/morning-briefing/img/mach33-wordmark-white.svg?v=3" alt="" width="85" height="22"></a><h1><a href="../">Morning Briefing</a></h1><p class="byline">for J. Brant Arseneau<span class="sep"> · </span><span class="ed">Sunday, November 15, 2026</span></p><button type="button" id="refresh" aria-label="Refresh news" title="Refresh news"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></button><span id="updated" class="updated" hidden></span><div id="refresh-bar" hidden></div><button id="send">Feedback</button></div></header>
+<nav class="nav-util" aria-label="Edition"><a href="../#today" class="on" aria-current="page">Today</a><a href="../#history">History</a><a href="../#likes">Likes</a></nav>
+</div>
+<aside class="side" id="side">
+  <nav class="nav-feeds" aria-label="Feeds"><a href="../news/" data-feed="news">Global News</a><a href="../scitech/" data-feed="scitech">Science &amp; Technology</a><a href="../papers/" data-feed="papers">Research Papers</a></nav>
+  <nav class="nav-crumb" id="crumb" aria-label="Breadcrumb" hidden></nav>
+  <div class="nav-cut" id="cutslot" hidden></div>
+  <nav class="nav-secs" id="secs" aria-label="Sections"></nav>
+</aside>
+</div>
+<main id="m"></main>
+<article id="reader" hidden>
+  <div class="rbar">
+    <button type="button" id="rback" aria-label="Back to stories" title="Back">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <span id="rsrc" class="rsrc"></span>
+    <a id="rorig" class="rorig" target="_blank" rel="noopener">Open original</a>
+    <span id="rvotes"></span>
+  </div>
+  <div id="rbody"></div>
+</article>
+</div>
+<p class="buildstamp">v20261115-2319</p>
+<script>
+const DATA={"views": [["region", "By region", [{"cat": "North America", "subs": [{"sub": "", "items": [[1, "What forced the US to ground all planes? A router switch, we now know", "US officials say a routine upgrade that went awry caused the mass disruption of air travel.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/what-forced-the-us-to-ground-all-planes-a-router-switch-we-now-know?traffic_source=rss", "Nov 15", "d9c779d3d7.jpg", "ud9c779d3d7", "2026-11-15T05:27:19-0500", false], [2, "Fifth Canadian soldier dies from injuries caused by large fire at military base", "Pte William Douglas Dal Bianco died from his injuries on Friday, a month after a fire that tore through CFB Wainwright.", "BBC", "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss", "Nov 15", "840edfb811.jpg", "u840edfb811", "2026-11-15T05:27:19-0500", false], [3, "Secret votes and vetoes: How will the next UN chief be picked?", "With no frontrunner for the job, eight candidates are vying for the UN Security Council's recommendation.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/secret-votes-and-vetoes-how-will-the-next-un-chief-be-picked?traffic_source=rss", "Nov 15", "86496b651c.jpg", "u86496b651c", "2026-11-15T05:27:19-0500", false], [4, "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says", "With household budgets already squeezed by persistent inflation, some residents are seeking emergency help with heating oil bills before winter begins.", "CNBC", "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html", "Nov 14", "cafdcfb9c1.jpg", "ucafdcfb9c1", "2026-11-15T05:27:19-0500", false], [5, "New York Democratic Socialists urge Ocasio-Cortez to run for US president", "Delegates at NYC-DSA convention pass resolution formally calling on Congresswoman AOC to run in 2028 presidential race.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/new-york-democratic-socialists-urge-ocasio-cortez-to-run-for-us-president?traffic_source=rss", "Nov 14", "d8af2c1b6e.jpg", "ud8af2c1b6e", "2026-11-15T05:27:19-0500", false], [6, "Judge temporarily blocks Trump from closing Washington DC golf course for renovation", "It is the latest development in a months-long challenge to the US president's plans for East Potomac Golf Links.", "BBC", "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss", "Nov 14", "76222d4d31.jpg", "u76222d4d31", "2026-11-15T05:27:19-0500", false], [7, "They Want to Be Doctors. Student Loan Caps Are Complicating Their Dreams.", "This year, the first class of medical students will begin their journey to becoming physicians under new rules limiting how much they can borrow for school.", "The New York Times", "https://www.nytimes.com/2026/11/15/business/medical-school-student-loan-caps.html", "Nov 15", "7070cd9ef7.jpg", "u7070cd9ef7", "2026-11-15T05:27:19-0500", false], [8, "$180 million Van Gogh tests the art market and collector confidence", "The art auctions in New York next week could top $2 billion, as a treasure trove of masterpieces comes to the market for the first time in decades.", "CNBC", "https://www.cnbc.com/2026/11/14/180-million-van-gogh-tests-the-art-market-and-collector-confidence-.html", "Nov 14", "7cd4b72a2e.jpg", "u7cd4b72a2e", "2026-11-15T05:27:19-0500", false], [9, "Iran Attacks Bahrain for the Second Time in Days", "The resumption of attacks after a two-month lull comes as peace talks between the U.S. and Iran appear to have stalled.", "The New York Times", "https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html", "Nov 15", "5bd2fc39ca.jpg", "u5bd2fc39ca", "2026-11-15T07:21:28-0500", true], [10, "Behind the All-American Ralph Lauren Brand Is a French C.E.O.", "Patrice Louvet on working with Ralph Lauren, the man, winning over Generation Z and striking a balance between magic and logic.", "The New York Times", "https://www.nytimes.com/2026/11/15/business/ralph-lauren-patrice-louvet.html", "Nov 15", "100f8f8495.jpg", "u100f8f8495", "2026-11-15T07:21:28-0500", true]]}]}, {"cat": "Latin America", "subs": [{"sub": "", "items": [[11, "Guatemala decrees state of emergency in two departments after lawmaker killed in attack", "GUATEMALA CITY, Nov 14 - Guatemalan authorities on Saturday decreed a state of emergency in the eastern departments of Zacapa and Izabal, banning gatherings and boosting powers…", "The Straits Times", "https://www.straitstimes.com/world/guatemala-decrees-state-of-emergency-in-two-departments-after-lawmaker-killed-in-attack", "Nov 15", "6dfd61b422.jpg", "u6dfd61b422", "2026-11-15T05:27:19-0500", false], [12, "Pope Leo to cross Peru for visits to Inca city, Amazon gateway", "CHICLAYO, Peru, Nov 15 - Pope Leo will traverse the length of Peru on Sunday, the penultimate day of his South America tour, visiting a southern Andes Mountains city that was…", "The Straits Times", "https://www.straitstimes.com/world/europe/pope-leo-to-cross-peru-for-visits-to-inca-city-amazon-gateway", "Nov 15", "d8e4522223.jpg", "ud8e4522223", "2026-11-15T05:27:19-0500", false], [13, "A Mexican Artist Sang Some of His Hits. Authorities Stopped the Show, Then Arrested Him.", "A concert by the singer Gabito Ballesteros was suspended after he sang songs that supposedly glorify cartel culture.", "The New York Times", "https://www.nytimes.com/2026/11/14/world/americas/mexico-gabito-ballesteros-arrested-narocorridos.html", "Nov 14", "8f87bf380e.jpg", "u8f87bf380e", "2026-11-15T05:27:19-0500", false], [14, "Japan stun Brazil 3-2 in friendly as Ancelotti, Raphinha shown red cards", "Substitute Tatsuhiro Sakamoto’s late goal helps Japan avenge their defeat by Brazil in the World Cup round of 32.", "Al Jazeera", "https://www.aljazeera.com/sports/2026/11/15/japan-stun-brazil-3-2-in-stoppage-time-as-ancelotti-raphinha-sent-off?traffic_source=rss", "Nov 15", "e88e910f90.jpg", "ue88e910f90", "2026-11-15T07:21:28-0500", true], [15, "Morocco becomes first Arab, second African nation in FIFA’s top five", "Morocco moved past former Euro champions Portugal and record World Cup winners Brazil to achieve its best FIFA ranking.", "Al Jazeera", "https://www.aljazeera.com/sports/2026/11/15/morocco-becomes-first-arab-nation-in-fifas-top-five-mens-rankings?traffic_source=rss", "Nov 15", "06f65017dc.jpg", "u06f65017dc", "2026-11-15T13:19:38-0500", true], [16, "Pope Leo speaks on community 'suffering' on visit to remote Andes", "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.", "BBC", "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss", "Nov 14", "9f25a7bec4.jpg", "u9f25a7bec4", "2026-11-15T15:18:30-0500", true], [17, "Brawl erupts in Brazil’s Women’s League final", "A fist fight erupted between opposing players during the final of Brazil's under-20 Women’s League.", "Al Jazeera", "https://www.aljazeera.com/video/newsfeed/2026/11/15/brawl-erupts-in-brazils-womens-league-final?traffic_source=rss", "Nov 15", "90b1001e82.jpg", "u90b1001e82", "2026-11-15T19:15:40-0500", true]]}]}, {"cat": "Europe", "subs": [{"sub": "", "items": [[18, "In the ‘kill zone’, Ukraine bets on flying evacuation drones", "Called Stargate and developed by manufacturer Skyfall, it has been used in three missions.", "The Straits Times", "https://www.straitstimes.com/world/europe/in-the-kill-zone-ukraine-bets-on-flying-evacuation-drones", "Nov 14", "3f6419ed8a.jpg", "u3f6419ed8a", "2026-11-15T05:27:19-0500", false], [19, "In Europe, an Emboldened Iran Contributes to a Sense of Anxiety", "Prosecutors and government officials believe Iran or its proxies are behind a series of security breaches and threats in Britain and Europe, unsettling the region.", "The New York Times", "https://www.nytimes.com/2026/11/15/world/europe/in-europe-an-emboldened-iran-contributes-to-a-sense-of-anxiety.html", "Nov 15", "c80aa92081.jpg", "uc80aa92081", "2026-11-15T05:27:19-0500", false], [20, "Nearly 1,500 migrants arrive in Canary Islands in one day", "MADRID, Nov 15 - Almost 1,500 migrants arrived in Spain's Canary Islands on Saturday, the highest number in a single day since 2020, the EFE news agency reported on Sunday,…", "The Straits Times", "https://www.straitstimes.com/world/europe/nearly-1500-migrants-arrive-in-canary-islands-in-one-day", "Nov 15", "32dc16ee93.jpg", "u32dc16ee93", "2026-11-15T05:27:19-0500", false], [21, "Thousands rally against COP31 as climate talks hit midpoint", "The show of dissent comes as negotiators approach the final week of global climate talks in Antalya.", "The Straits Times", "https://www.straitstimes.com/world/middle-east/thousands-rally-against-cop31-as-climate-talks-hit-midpoint", "Nov 14", "eac9654b60.jpg", "ueac9654b60", "2026-11-15T05:27:19-0500", false], [22, "Thousands in Portugal protest against surging rental prices", "Thousands of people across Portugal are angry about rising rental prices, demanding action to end the housing crisis.", "Al Jazeera", "https://www.aljazeera.com/video/newsfeed/2026/11/15/thousands-in-portugal-protest-against-surging-rental-prices?traffic_source=rss", "Nov 15", "f2e03cae65.jpg", "uf2e03cae65", "2026-11-15T05:27:19-0500", false], [23, "French protesters chant against inflation and police", "The EU’s second-largest economy has been gripped by demonstrations for more than a month.", "The Straits Times", "https://www.straitstimes.com/world/europe/french-protesters-chant-against-inflation-and-police", "Nov 14", "98d9f800df.jpg", "u98d9f800df", "2026-11-15T05:27:19-0500", false], [24, "Troubled Scottish steel supplier raises questions over Royal Navy contracts", "Liberty Steel Dalzell plant in Motherwell with order for 34,000 tonnes of metal plate to build three warships has struggled to pay bills The Royal Navy is facing questions over…", "The Guardian", "https://www.theguardian.com/business/2026/nov/15/liberty-steel-dalzell-scotland-royal-navy-contracts-warships", "Nov 15", "a0812d7475.jpg", "ua0812d7475", "2026-11-15T05:27:19-0500", false], [25, "Russell Brand accuser waives anonymity to call for consent law change", "Mia Latter says she was in an abusive relationship with the convicted rapist when he was 30 and she was 16 A woman who alleges she was raped by Russell Brand when she was 16…", "The Guardian", "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand", "Nov 15", "5430714d67.jpg", "u5430714d67", "2026-11-15T05:27:19-0500", false], [26, "Digital finance products used to abuse almost 20% of young women and girls, UK report finds", "Survey respondents describe current or former partners controlling bank accounts and taking out credit online without full consent Almost one in five young women and girls in…", "The Guardian", "https://www.theguardian.com/society/2026/nov/15/digital-finance-products-abuse-against-young-women-and-girls-report", "Nov 15", "42f70818f6.jpg", "u42f70818f6", "2026-11-15T05:27:19-0500", false], [27, "Is Italy the Model for Europe’s Future?", "Over more than a quarter-century, I’ve watched Europe’s politics become more like Italy’s, with all the resulting instability, as the far right came in from the cold.", "The New York Times", "https://www.nytimes.com/2026/11/15/world/europe/italy-italianization-europe-horowitz.html", "Nov 15", "968b5fb8f2.jpg", "u968b5fb8f2", "2026-11-15T05:27:19-0500", false], [28, "Obama portrait artist draws Burnham for Big Issue cover to highlight rough sleeping vow", "Exclusive: Shepard Fairey says image will hold PM accountable over promise to get people off the streets The “Hope” portrait of Barack Obama by the US street artist Shepard Fairey came to symbolise a historic 2008 presidential campaign, became one of the most ubiquitous and reproduced political port", "The Guardian", "https://www.theguardian.com/society/2026/nov/15/obama-portrait-artist-draws-burnham-big-issue-rough-sleeping-vow-shepard-fairey", "Nov 15", "fe5d1f46e9.jpg", "ufe5d1f46e9", "2026-11-15T07:21:28-0500", true], [29, "Black voters helped Democrats win in Georgia. Now they expect to be heard", "Activists have been shouting about economic issues for years – in January they will expect lawmakers to respond Stonecrest is resolutely middle class. About six out of 10 of its voters cast ballots in the 2026 election and about 90% of them voted for Democrats, according to election figures. And the", "The Guardian", "https://www.theguardian.com/us-news/2026/nov/15/georgia-midterm-elections-black-voters", "Nov 15", "d0987560f0.jpg", "ud0987560f0", "2026-11-15T07:21:28-0500", true], [30, "Illegal mining threatens French Guiana forests and Indigenous communities", "In French Guiana, the fight against illegal gold mining is rapidly being lost and creating an environmental and health disaster, according to the World Wildlife Fund. During an aerial survey in early August, park rangers counted 239 illegal sites within the protected area in record.", "France 24", "https://www.france24.com/en/illegal-mining-threatens-french-guiana-forests-and-indigenous-communities", "Nov 15", "", "u729949d3df", "2026-11-15T07:21:28-0500", true]]}]}, {"cat": "Middle East", "subs": [{"sub": "", "items": [[31, "Iran targets Bahrain airbase as strikes resume in Gulf", "Bahrain lies directly across Persian Gulf from Iran and is home to US Navy Fifth Fleet After two months of calm, the explosions have started again for Bahrain citizens.", "The Guardian", "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis", "Nov 15", "12b449161b.jpg", "u12b449161b", "2026-11-15T05:27:19-0500", false], [32, "Iran says it targets US radar in Bahrain. What do we know?", "Bahrain Defence Force says its air defence systems thwart several Iranian 'aerial attacks'.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know?traffic_source=rss", "Nov 15", "3313d19f4c.jpg", "u3313d19f4c", "2026-11-15T05:27:19-0500", false], [33, "Israel kills Hamas commander in strike on Gaza camp, officials say", "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.", "BBC", "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss", "Nov 15", "96e3b3873f.jpg", "u96e3b3873f", "2026-11-15T05:27:19-0500", false], [34, "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control", "Yemeni forces fighting for the internationally recognised Saudi-backed government said on Sunday that they were withdrawing from an area overlooking the strategic Bab el-Mandeb…", "The Straits Times", "https://www.straitstimes.com/world/middle-east/yemen-government-forces-withdraw-from-area-near-bab-el-mandeb-strait-houthis-in-control", "Nov 15", "c2fe0b97e5.jpg", "uc2fe0b97e5", "2026-11-15T05:27:19-0500", false], [35, "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province", "The Saudi-led coalition fighting Yemen's Iran-aligned Houthis said on Sunday it had intercepted two Houthi ballistic missiles launched towards the Saudi capital Riyadh and…", "The Straits Times", "https://www.straitstimes.com/world/middle-east/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-in-eastern-province", "Nov 14", "48c43d5a65.jpg", "u48c43d5a65", "2026-11-15T05:27:19-0500", false], [36, "Iraq PM sacks nine officials over oil smuggling in pro-Iran stronghold", "Dismissals follow probe that uncovered illegal oil refineries and smuggling in a region run by Kataib Hezbollah.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/iraq-pm-sacks-nine-officials-over-oil-smuggling-in-pro-iran-stronghold?traffic_source=rss", "Nov 14", "1da17fe41f.jpg", "u1da17fe41f", "2026-11-15T05:27:19-0500", false], [37, "Jordan sentences three men to death by hanging after deadly church attack", "Three men have been convicted of carrying out an attack on a church in the Karak governorate that killed nine people.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss", "Nov 15", "0eca7d7612.jpg", "u0eca7d7612", "2026-11-15T05:27:19-0500", false], [38, "After Decades of Blood and Mistrust, Doubts Over Who’s to Blame for an Israeli Hostage", "Israeli spies kidnapped and killed Iranians.", "The New York Times", "https://www.nytimes.com/2026/11/15/world/europe/ron-arad-missing-israel-iran-asgari-hunt.html", "Nov 15", "a864855dad.jpg", "ua864855dad", "2026-11-15T05:27:19-0500", false], [39, "Israel takes measures to crush Palestinian business in occupied West Bank", "Israel takes measures to crush Palestinian business in the occupied West Bank.", "Al Jazeera", "https://www.aljazeera.com/economy/2026/11/15/siege-on-hebrons-beit-ula-industrial-zone-threatens-palestinian-economy?traffic_source=rss", "Nov 15", "884b96312c.jpg", "u884b96312c", "2026-11-15T07:21:28-0500", true], [40, "Israel coalition talks put Arab party leader under pressure over Hamas", "Mansour Abbas faces mounting pressure from Israel’s change bloc to denounce Hamas as a prerequisite for coalition role.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/israel-coalition-talks-put-arab-party-leader-under-pressure-over-hamas?traffic_source=rss", "Nov 15", "dedd224b91.jpg", "udedd224b91", "2026-11-15T07:21:28-0500", true]]}]}, {"cat": "Asia-Pacific", "subs": [{"sub": "", "items": [[41, "Moscow confirms Trump, Xi, Putin meeting in China", "The Nov 19 meeting was previously announced by Washington.", "The Straits Times", "https://www.straitstimes.com/world/europe/moscow-confirms-trump-xi-putin-meeting-in-china", "Nov 15", "2a3661adcd.jpg", "u2a3661adcd", "2026-11-15T05:27:19-0500", false], [42, "Anthony Albanese welcomes Trump-Xi-Putin summit – even as European leaders express reservations", "‘We think dialogue is a good thing,’ Australian PM says after German chancellor urges the US to work with Europe for peace in Ukraine Australia has endorsed this week’s…", "The Guardian", "https://www.theguardian.com/australia-news/2026/nov/15/anthony-albanese-welcomes-trump-xi-putin-summit-even-as-european-leaders-express-reservations", "Nov 15", "36c0278529.jpg", "u36c0278529", "2026-11-15T05:27:19-0500", false], [43, "ASEAN, China reach provisional agreement on 80% of South China Sea code", "ASEAN and China reach provisional agreement on 80% of South China Sea code of conduct talks, as key issues remain unresolved.", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/asean-china-reach-provisional-agreement-on-80-of-south-china-sea-code", "Nov 15", "5d70009887.jpg", "u5d70009887", "2026-11-15T05:27:19-0500", false], [44, "Rift deepens between the Philippines, China over South China Sea", "Relations between Manila and Beijing have soured under Philippine President Ferdinand Marcos Jr, with Manila pivoting back towards the United States, which supports the…", "The Straits Times", "https://www.straitstimes.com/asia/rift-deepens-between-the-philippines-china-over-south-china-sea1", "Nov 15", "a69aac816a.jpg", "ua69aac816a", "2026-11-15T05:27:19-0500", false], [45, "Philippines, Australia sign defence pact with eye on China", "The Philippines has been broadening its network of security ties.", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/philippines-australia-sign-defence-pact-with-eye-on-china", "Nov 14", "2c7c1ff361.jpg", "u2c7c1ff361", "2026-11-15T05:27:19-0500", false], [46, "World’s top court to rule if Myanmar committed genocide against Rohingya", "International court of justice has never before found a state guilty of genocide, and ruling will have implications for case against Israel The world’s top court will deliver a…", "The Guardian", "https://www.theguardian.com/world/2026/nov/15/myanmar-rohingya-genocide-icj", "Nov 15", "600d195ed7.jpg", "u600d195ed7", "2026-11-15T05:27:19-0500", false], [47, "Protesters condemn US policies as ASEAN summit begins in Manila", "Southeast Asian leaders arriving in the Philippines for the ASEAN summit have been met with protests.", "Al Jazeera", "https://www.aljazeera.com/video/newsfeed/2026/11/15/protesters-condemn-us-policies-as-asean-summit-begins-in-manila?traffic_source=rss", "Nov 15", "bcbfb7dfd5.jpg", "ubcbfb7dfd5", "2026-11-15T05:27:19-0500", false], [48, "ASEAN summit: Who’s attending and what’s at stake?", "Energy disruptions as a result of the US-Israel war on Iran is a key issue for the import-dependent bloc.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/asean-summit-whos-attending-and-whats-at-stake?traffic_source=rss", "Nov 15", "b862561d8b.jpg", "ub862561d8b", "2026-11-15T05:27:19-0500", false], [49, "World leaders head to Asia for back-to-back diplomatic summits", "Tussle for influence as trade, tech and regional security to take centre stage in China, Philippines and Cambodia meetings The global political centre of gravity will be firmly…", "The Guardian", "https://www.theguardian.com/world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean", "Nov 14", "e6ff120e40.jpg", "ue6ff120e40", "2026-11-15T05:27:19-0500", false], [50, "Cambodian PM Hun Manet calls for Francophone mediation network amid border tensions", "Francophonie summit set to adopt key declarations on conflict prevention and heritage on Nov 16.", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/cambodian-pm-hun-manet-calls-for-francophone-mediation-network-amid-border-tensions", "Nov 15", "94c05cf529.jpg", "u94c05cf529", "2026-11-15T05:27:19-0500", false], [51, "Tata heir questions big bets as US$185 billion group feud deepens", "Noel Tata has questioned whether some of its biggest investments are being executed with enough discipline.", "The Straits Times", "https://www.straitstimes.com/business/tata-heir-questions-big-bets-as-us185-billion-group-feud-deepens", "Nov 15", "784f0d680c.jpg", "u784f0d680c", "2026-11-15T05:27:19-0500", false], [52, "India pulled 500m people out of poverty. Many of them still barely survive", "World Bank says India pulled a record number of citizens out of poverty, but millions of them still live on the edge.", "Al Jazeera", "https://www.aljazeera.com/features/2026/11/15/india-pulled-500m-people-out-of-poverty-since-2011-why-doesnt-it-feel-so?traffic_source=rss", "Nov 15", "cff3a2dd49.jpg", "ucff3a2dd49", "2026-11-15T05:27:19-0500", false], [53, "Drone ownership ban comes into force in Beijing over security concerns", "The ban applies to both urbanised and rural areas in the municipality of around 16,400 sq km.", "The Straits Times", "https://www.straitstimes.com/asia/east-asia/drone-ownership-ban-comes-into-force-in-beijing-over-security-concerns", "Nov 15", "cf880e8b72.jpg", "ucf880e8b72", "2026-11-15T05:27:19-0500", false], [54, "Helping elephants keep to their lanes: Can palm oil millions save Borneo’s forest and wildlife?", "Conservationists say that planting trees and funding isolated projects will not undo decades of environmental damage.", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/helping-elephants-keep-to-their-lanes-can-palm-oil-millions-save-borneos-forest-and-wildlife", "Nov 14", "c62464a8b8.jpg", "uc62464a8b8", "2026-11-15T05:27:19-0500", false], [55, "David Jones’ future looks grim. Is Myer next?", "With Myer’s profitability battered and share price languishing near all-time lows, DJs’ slide into administration raises an uncomfortable question Get our breaking news email ,…", "The Guardian", "https://www.theguardian.com/business/2026/nov/15/myer-david-jones-stores-closures-administration", "Nov 14", "9b9ac114cd.jpg", "u9b9ac114cd", "2026-11-15T05:27:19-0500", false], [56, "How a small oil-sharing project in ASEAN offers hope beyond energy security", "Small-scale projects can help ASEAN move quickly, as shown by inking of nascent oil-sharing pilot", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/how-a-small-oil-sharing-project-in-asean-offers-hope-beyond-energy-security", "Nov 15", "bab765e67b.jpg", "ubab765e67b", "2026-11-15T07:21:28-0500", true], [57, "Pact on South China Sea code of conduct unlikely, as ASEAN leaders gather", "Finishing negotiations for disputed South China Sea agreement will be a 'tall order', analysts say.", "Al Jazeera", "https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather?traffic_source=rss", "Nov 15", "cd64ba12f3.jpg", "ucd64ba12f3", "2026-11-15T07:21:28-0500", true], [58, "Iran's navy says three tankers on fire after hitting mines in Hormuz", "Nov 14 - Iran's navy said three oil tankers caught fire on Saturday after hitting naval mines in the Strait of Hormuz, Iranian state media reported.", "The Straits Times", "https://www.straitstimes.com/world/middle-east/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz", "Nov 14", "f942f87587.jpg", "uf942f87587", "2026-11-15T07:21:28-0500", true]]}]}, {"cat": "Africa", "subs": [{"sub": "", "items": [[59, "Drone attacks on power stations plunge Sudan’s cities into darkness", "Sudan's power stations are being targeted in waves of drone attacks, resulting in power outages.", "Al Jazeera", "https://www.aljazeera.com/features/2026/11/15/drone-strikes-on-power-stations-plunges-sudans-cities-into-darkness?traffic_source=rss", "Nov 15", "02a379bb7c.jpg", "u02a379bb7c", "2026-11-15T05:27:19-0500", false], [60, "Terror from the skies: drones are redefining warfare in Sudan, and massacring its civilians", "Strikes with huge death tolls are an increasing occurrence as UAVs ‘bring the war to places that were once safe’ The first drone struck the busy transport hub near a market in…", "The Guardian", "https://www.theguardian.com/world/2026/nov/14/drones-redefining-warfare-sudan-massacring-civilians", "Nov 14", "7a5a73a77c.jpg", "u7a5a73a77c", "2026-11-15T05:27:19-0500", false], [61, "Polls open in Cape Verde in race with first female presidential candidate", "Joana Rosa and four other opposition candidates face off against President Jose Maria Neves, who wants a second term.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/polls-open-in-cape-verde-in-race-with-first-female-presidential-candidate?traffic_source=rss", "Nov 15", "92aa9f8eaf.jpg", "u92aa9f8eaf", "2026-11-15T05:27:19-0500", false], [62, "Francophone summit opens in Cambodia amid Rwanda-DR Congo rift", "Democratic Republic of the Congo and Rwanda clash over who should lead the organisation of French-speaking nations.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift?traffic_source=rss", "Nov 15", "6b6054b17b.jpg", "u6b6054b17b", "2026-11-15T05:27:19-0500", false], [63, "Ethiopia firm takes aim at menstruation taboos", "Han's With Care can produce up to 1,000 reusable pads a day.", "The Straits Times", "https://www.straitstimes.com/world/ethiopia-firm-takes-aim-at-menstruation-taboos", "Nov 15", "a0004e38d6.jpg", "ua0004e38d6", "2026-11-15T05:27:19-0500", false], [64, "‘Like many men of his generation, he tends to push his feelings down from his heart to his toes’: Meera Sodha on her father’s homecoming", "After a childhood of grief, hardship and hunger, the Guardian food writer’s father Raj always resisted going back to Uganda. What happened when he finally agreed to accompany her on a bittersweet journey into the past? The moment I step off the plane and on to the soil of Entebbe it hits me. Uganda ", "The Guardian", "https://www.theguardian.com/lifeandstyle/2026/nov/15/meera-sodha-father-homecoming-uganda", "Nov 15", "99b4476520.jpg", "u99b4476520", "2026-11-15T07:21:28-0500", true], [65, "Macron urges unity as Francophonie summit opens in Cambodia", "Leaders of French-speaking nations gathered in Phnom Penh as a row over who should lead the Francophonie and Congo’s threat to quit put pressure on Macron to broker consensus.", "DW", "https://www.dw.com/en/macron-urges-unity-as-francophonie-summit-opens-in-cambodia/a-79951201?maca=en-rss-en-africa-8291-rdf", "Nov 15", "", "u03245a03fc", "2026-11-15T07:21:28-0500", true], [66, "South Sudan pushes back elections amid violent flare-ups", "South Sudan has been independent from Sudan since 2011, and has not yet held national elections. Since then, the country faces cycles of violence after a civil war led to a tenuous peace deal.", "DW", "https://www.dw.com/en/south-sudan-pushes-back-elections-amid-violent-flare-ups/a-79949622?maca=en-rss-en-africa-8291-rdf", "Nov 14", "", "u985d54fabd", "2026-11-15T07:21:28-0500", true], [67, "DR Congo, Rwanda clash over Francophonie leadership as Macron seeks compromise", "DR Congo and Rwanda clashed Saturday over the leadership of the Francophonie, as tensions between the neighbouring countries spilled into the race to head the 53-member organisation. French President Emmanuel Macron urged Rwanda to withdraw its candidate in favour of a compromise choice ahead of Mon", "France 24", "https://www.france24.com/en/africa/20261114-dr-congo-rwanda-clash-over-francophonie-leadership-as-macron-seeks-compromise", "Nov 14", "", "uca17cea0f8", "2026-11-15T07:21:28-0500", true], [68, "Inside Ethiopia's war: Rare access to a hospital treating victims of renewed fighting", "Ethiopia's renewed conflict is taking an increasing toll on civilians, with humanitarian organisations reporting a rise in casualties. In the Amhara region, FRANCE 24’s correspondent Tom Canetti was granted rare access to a civilian hospital where surgeons are struggling to treat the influx of wound", "France 24", "https://www.france24.com/en/inside-ethiopia-s-war-rare-access-to-a-hospital-treating-victims-of-renewed-fighting", "Nov 14", "", "u064f73616b", "2026-11-15T07:21:28-0500", true], [69, "Town destroyed by flood rebuilt by Libya's strongman Khalifa Haftar - but questions remain", "The remarkable reconstruction of Derna is being used as a showcase for the rest of Libya by Khalifa Haftar and his sons.", "BBC", "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss", "Nov 15", "11f33a4cdf.jpg", "u11f33a4cdf", "2026-11-15T20:17:37-0500", true]]}]}]], ["topic", "By topic", [{"cat": "Geopolitics & conflict", "subs": [{"sub": "", "items": [[31, "Iran targets Bahrain airbase as strikes resume in Gulf", "Bahrain lies directly across Persian Gulf from Iran and is home to US Navy Fifth Fleet After two months of calm, the explosions have started again for Bahrain citizens.", "The Guardian", "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis", "Nov 15", "12b449161b.jpg", "u12b449161b", "2026-11-15T05:27:19-0500", false], [32, "Iran says it targets US radar in Bahrain. What do we know?", "Bahrain Defence Force says its air defence systems thwart several Iranian 'aerial attacks'.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know?traffic_source=rss", "Nov 15", "3313d19f4c.jpg", "u3313d19f4c", "2026-11-15T05:27:19-0500", false], [33, "Israel kills Hamas commander in strike on Gaza camp, officials say", "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.", "BBC", "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss", "Nov 15", "96e3b3873f.jpg", "u96e3b3873f", "2026-11-15T05:27:19-0500", false], [34, "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control", "Yemeni forces fighting for the internationally recognised Saudi-backed government said on Sunday that they were withdrawing from an area overlooking the strategic Bab el-Mandeb…", "The Straits Times", "https://www.straitstimes.com/world/middle-east/yemen-government-forces-withdraw-from-area-near-bab-el-mandeb-strait-houthis-in-control", "Nov 15", "c2fe0b97e5.jpg", "uc2fe0b97e5", "2026-11-15T05:27:19-0500", false], [35, "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province", "The Saudi-led coalition fighting Yemen's Iran-aligned Houthis said on Sunday it had intercepted two Houthi ballistic missiles launched towards the Saudi capital Riyadh and…", "The Straits Times", "https://www.straitstimes.com/world/middle-east/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-in-eastern-province", "Nov 14", "48c43d5a65.jpg", "u48c43d5a65", "2026-11-15T05:27:19-0500", false], [41, "Moscow confirms Trump, Xi, Putin meeting in China", "The Nov 19 meeting was previously announced by Washington.", "The Straits Times", "https://www.straitstimes.com/world/europe/moscow-confirms-trump-xi-putin-meeting-in-china", "Nov 15", "2a3661adcd.jpg", "u2a3661adcd", "2026-11-15T05:27:19-0500", false], [42, "Anthony Albanese welcomes Trump-Xi-Putin summit – even as European leaders express reservations", "‘We think dialogue is a good thing,’ Australian PM says after German chancellor urges the US to work with Europe for peace in Ukraine Australia has endorsed this week’s…", "The Guardian", "https://www.theguardian.com/australia-news/2026/nov/15/anthony-albanese-welcomes-trump-xi-putin-summit-even-as-european-leaders-express-reservations", "Nov 15", "36c0278529.jpg", "u36c0278529", "2026-11-15T05:27:19-0500", false], [43, "ASEAN, China reach provisional agreement on 80% of South China Sea code", "ASEAN and China reach provisional agreement on 80% of South China Sea code of conduct talks, as key issues remain unresolved.", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/asean-china-reach-provisional-agreement-on-80-of-south-china-sea-code", "Nov 15", "5d70009887.jpg", "u5d70009887", "2026-11-15T05:27:19-0500", false], [44, "Rift deepens between the Philippines, China over South China Sea", "Relations between Manila and Beijing have soured under Philippine President Ferdinand Marcos Jr, with Manila pivoting back towards the United States, which supports the…", "The Straits Times", "https://www.straitstimes.com/asia/rift-deepens-between-the-philippines-china-over-south-china-sea1", "Nov 15", "a69aac816a.jpg", "ua69aac816a", "2026-11-15T05:27:19-0500", false], [45, "Philippines, Australia sign defence pact with eye on China", "The Philippines has been broadening its network of security ties.", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/philippines-australia-sign-defence-pact-with-eye-on-china", "Nov 14", "2c7c1ff361.jpg", "u2c7c1ff361", "2026-11-15T05:27:19-0500", false], [49, "World leaders head to Asia for back-to-back diplomatic summits", "Tussle for influence as trade, tech and regional security to take centre stage in China, Philippines and Cambodia meetings The global political centre of gravity will be firmly…", "The Guardian", "https://www.theguardian.com/world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean", "Nov 14", "e6ff120e40.jpg", "ue6ff120e40", "2026-11-15T05:27:19-0500", false], [50, "Cambodian PM Hun Manet calls for Francophone mediation network amid border tensions", "Francophonie summit set to adopt key declarations on conflict prevention and heritage on Nov 16.", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/cambodian-pm-hun-manet-calls-for-francophone-mediation-network-amid-border-tensions", "Nov 15", "94c05cf529.jpg", "u94c05cf529", "2026-11-15T05:27:19-0500", false], [18, "In the ‘kill zone’, Ukraine bets on flying evacuation drones", "Called Stargate and developed by manufacturer Skyfall, it has been used in three missions.", "The Straits Times", "https://www.straitstimes.com/world/europe/in-the-kill-zone-ukraine-bets-on-flying-evacuation-drones", "Nov 14", "3f6419ed8a.jpg", "u3f6419ed8a", "2026-11-15T05:27:19-0500", false], [19, "In Europe, an Emboldened Iran Contributes to a Sense of Anxiety", "Prosecutors and government officials believe Iran or its proxies are behind a series of security breaches and threats in Britain and Europe, unsettling the region.", "The New York Times", "https://www.nytimes.com/2026/11/15/world/europe/in-europe-an-emboldened-iran-contributes-to-a-sense-of-anxiety.html", "Nov 15", "c80aa92081.jpg", "uc80aa92081", "2026-11-15T05:27:19-0500", false], [59, "Drone attacks on power stations plunge Sudan’s cities into darkness", "Sudan's power stations are being targeted in waves of drone attacks, resulting in power outages.", "Al Jazeera", "https://www.aljazeera.com/features/2026/11/15/drone-strikes-on-power-stations-plunges-sudans-cities-into-darkness?traffic_source=rss", "Nov 15", "02a379bb7c.jpg", "u02a379bb7c", "2026-11-15T05:27:19-0500", false], [60, "Terror from the skies: drones are redefining warfare in Sudan, and massacring its civilians", "Strikes with huge death tolls are an increasing occurrence as UAVs ‘bring the war to places that were once safe’ The first drone struck the busy transport hub near a market in…", "The Guardian", "https://www.theguardian.com/world/2026/nov/14/drones-redefining-warfare-sudan-massacring-civilians", "Nov 14", "7a5a73a77c.jpg", "u7a5a73a77c", "2026-11-15T05:27:19-0500", false], [62, "Francophone summit opens in Cambodia amid Rwanda-DR Congo rift", "Democratic Republic of the Congo and Rwanda clash over who should lead the organisation of French-speaking nations.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift?traffic_source=rss", "Nov 15", "6b6054b17b.jpg", "u6b6054b17b", "2026-11-15T05:27:19-0500", false], [9, "Iran Attacks Bahrain for the Second Time in Days", "The resumption of attacks after a two-month lull comes as peace talks between the U.S. and Iran appear to have stalled.", "The New York Times", "https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html", "Nov 15", "5bd2fc39ca.jpg", "u5bd2fc39ca", "2026-11-15T07:21:28-0500", true], [39, "Israel takes measures to crush Palestinian business in occupied West Bank", "Israel takes measures to crush Palestinian business in the occupied West Bank.", "Al Jazeera", "https://www.aljazeera.com/economy/2026/11/15/siege-on-hebrons-beit-ula-industrial-zone-threatens-palestinian-economy?traffic_source=rss", "Nov 15", "884b96312c.jpg", "u884b96312c", "2026-11-15T07:21:28-0500", true], [40, "Israel coalition talks put Arab party leader under pressure over Hamas", "Mansour Abbas faces mounting pressure from Israel’s change bloc to denounce Hamas as a prerequisite for coalition role.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/israel-coalition-talks-put-arab-party-leader-under-pressure-over-hamas?traffic_source=rss", "Nov 15", "dedd224b91.jpg", "udedd224b91", "2026-11-15T07:21:28-0500", true], [66, "South Sudan pushes back elections amid violent flare-ups", "South Sudan has been independent from Sudan since 2011, and has not yet held national elections. Since then, the country faces cycles of violence after a civil war led to a tenuous peace deal.", "DW", "https://www.dw.com/en/south-sudan-pushes-back-elections-amid-violent-flare-ups/a-79949622?maca=en-rss-en-africa-8291-rdf", "Nov 14", "", "u985d54fabd", "2026-11-15T07:21:28-0500", true], [68, "Inside Ethiopia's war: Rare access to a hospital treating victims of renewed fighting", "Ethiopia's renewed conflict is taking an increasing toll on civilians, with humanitarian organisations reporting a rise in casualties. In the Amhara region, FRANCE 24’s correspondent Tom Canetti was granted rare access to a civilian hospital where surgeons are struggling to treat the influx of wound", "France 24", "https://www.france24.com/en/inside-ethiopia-s-war-rare-access-to-a-hospital-treating-victims-of-renewed-fighting", "Nov 14", "", "u064f73616b", "2026-11-15T07:21:28-0500", true]]}]}, {"cat": "Politics & elections", "subs": [{"sub": "", "items": [[36, "Iraq PM sacks nine officials over oil smuggling in pro-Iran stronghold", "Dismissals follow probe that uncovered illegal oil refineries and smuggling in a region run by Kataib Hezbollah.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/iraq-pm-sacks-nine-officials-over-oil-smuggling-in-pro-iran-stronghold?traffic_source=rss", "Nov 14", "1da17fe41f.jpg", "u1da17fe41f", "2026-11-15T05:27:19-0500", false], [47, "Protesters condemn US policies as ASEAN summit begins in Manila", "Southeast Asian leaders arriving in the Philippines for the ASEAN summit have been met with protests.", "Al Jazeera", "https://www.aljazeera.com/video/newsfeed/2026/11/15/protesters-condemn-us-policies-as-asean-summit-begins-in-manila?traffic_source=rss", "Nov 15", "bcbfb7dfd5.jpg", "ubcbfb7dfd5", "2026-11-15T05:27:19-0500", false], [48, "ASEAN summit: Who’s attending and what’s at stake?", "Energy disruptions as a result of the US-Israel war on Iran is a key issue for the import-dependent bloc.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/asean-summit-whos-attending-and-whats-at-stake?traffic_source=rss", "Nov 15", "b862561d8b.jpg", "ub862561d8b", "2026-11-15T05:27:19-0500", false], [27, "Is Italy the Model for Europe’s Future?", "Over more than a quarter-century, I’ve watched Europe’s politics become more like Italy’s, with all the resulting instability, as the far right came in from the cold.", "The New York Times", "https://www.nytimes.com/2026/11/15/world/europe/italy-italianization-europe-horowitz.html", "Nov 15", "968b5fb8f2.jpg", "u968b5fb8f2", "2026-11-15T05:27:19-0500", false], [3, "Secret votes and vetoes: How will the next UN chief be picked?", "With no frontrunner for the job, eight candidates are vying for the UN Security Council's recommendation.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/secret-votes-and-vetoes-how-will-the-next-un-chief-be-picked?traffic_source=rss", "Nov 15", "86496b651c.jpg", "u86496b651c", "2026-11-15T05:27:19-0500", false], [5, "New York Democratic Socialists urge Ocasio-Cortez to run for US president", "Delegates at NYC-DSA convention pass resolution formally calling on Congresswoman AOC to run in 2028 presidential race.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/new-york-democratic-socialists-urge-ocasio-cortez-to-run-for-us-president?traffic_source=rss", "Nov 14", "d8af2c1b6e.jpg", "ud8af2c1b6e", "2026-11-15T05:27:19-0500", false], [6, "Judge temporarily blocks Trump from closing Washington DC golf course for renovation", "It is the latest development in a months-long challenge to the US president's plans for East Potomac Golf Links.", "BBC", "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss", "Nov 14", "76222d4d31.jpg", "u76222d4d31", "2026-11-15T05:27:19-0500", false], [61, "Polls open in Cape Verde in race with first female presidential candidate", "Joana Rosa and four other opposition candidates face off against President Jose Maria Neves, who wants a second term.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/polls-open-in-cape-verde-in-race-with-first-female-presidential-candidate?traffic_source=rss", "Nov 15", "92aa9f8eaf.jpg", "u92aa9f8eaf", "2026-11-15T05:27:19-0500", false], [28, "Obama portrait artist draws Burnham for Big Issue cover to highlight rough sleeping vow", "Exclusive: Shepard Fairey says image will hold PM accountable over promise to get people off the streets The “Hope” portrait of Barack Obama by the US street artist Shepard Fairey came to symbolise a historic 2008 presidential campaign, became one of the most ubiquitous and reproduced political port", "The Guardian", "https://www.theguardian.com/society/2026/nov/15/obama-portrait-artist-draws-burnham-big-issue-rough-sleeping-vow-shepard-fairey", "Nov 15", "fe5d1f46e9.jpg", "ufe5d1f46e9", "2026-11-15T07:21:28-0500", true], [29, "Black voters helped Democrats win in Georgia. Now they expect to be heard", "Activists have been shouting about economic issues for years – in January they will expect lawmakers to respond Stonecrest is resolutely middle class. About six out of 10 of its voters cast ballots in the 2026 election and about 90% of them voted for Democrats, according to election figures. And the", "The Guardian", "https://www.theguardian.com/us-news/2026/nov/15/georgia-midterm-elections-black-voters", "Nov 15", "d0987560f0.jpg", "ud0987560f0", "2026-11-15T07:21:28-0500", true], [67, "DR Congo, Rwanda clash over Francophonie leadership as Macron seeks compromise", "DR Congo and Rwanda clashed Saturday over the leadership of the Francophonie, as tensions between the neighbouring countries spilled into the race to head the 53-member organisation. French President Emmanuel Macron urged Rwanda to withdraw its candidate in favour of a compromise choice ahead of Mon", "France 24", "https://www.france24.com/en/africa/20261114-dr-congo-rwanda-clash-over-francophonie-leadership-as-macron-seeks-compromise", "Nov 14", "", "uca17cea0f8", "2026-11-15T07:21:28-0500", true]]}]}, {"cat": "Economy & markets", "subs": [{"sub": "", "items": [[51, "Tata heir questions big bets as US$185 billion group feud deepens", "Noel Tata has questioned whether some of its biggest investments are being executed with enough discipline.", "The Straits Times", "https://www.straitstimes.com/business/tata-heir-questions-big-bets-as-us185-billion-group-feud-deepens", "Nov 15", "784f0d680c.jpg", "u784f0d680c", "2026-11-15T05:27:19-0500", false], [52, "India pulled 500m people out of poverty. Many of them still barely survive", "World Bank says India pulled a record number of citizens out of poverty, but millions of them still live on the edge.", "Al Jazeera", "https://www.aljazeera.com/features/2026/11/15/india-pulled-500m-people-out-of-poverty-since-2011-why-doesnt-it-feel-so?traffic_source=rss", "Nov 15", "cff3a2dd49.jpg", "ucff3a2dd49", "2026-11-15T05:27:19-0500", false], [55, "David Jones’ future looks grim. Is Myer next?", "With Myer’s profitability battered and share price languishing near all-time lows, DJs’ slide into administration raises an uncomfortable question Get our breaking news email ,…", "The Guardian", "https://www.theguardian.com/business/2026/nov/15/myer-david-jones-stores-closures-administration", "Nov 14", "9b9ac114cd.jpg", "u9b9ac114cd", "2026-11-15T05:27:19-0500", false], [23, "French protesters chant against inflation and police", "The EU’s second-largest economy has been gripped by demonstrations for more than a month.", "The Straits Times", "https://www.straitstimes.com/world/europe/french-protesters-chant-against-inflation-and-police", "Nov 14", "98d9f800df.jpg", "u98d9f800df", "2026-11-15T05:27:19-0500", false], [24, "Troubled Scottish steel supplier raises questions over Royal Navy contracts", "Liberty Steel Dalzell plant in Motherwell with order for 34,000 tonnes of metal plate to build three warships has struggled to pay bills The Royal Navy is facing questions over…", "The Guardian", "https://www.theguardian.com/business/2026/nov/15/liberty-steel-dalzell-scotland-royal-navy-contracts-warships", "Nov 15", "a0812d7475.jpg", "ua0812d7475", "2026-11-15T05:27:19-0500", false], [4, "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says", "With household budgets already squeezed by persistent inflation, some residents are seeking emergency help with heating oil bills before winter begins.", "CNBC", "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html", "Nov 14", "cafdcfb9c1.jpg", "ucafdcfb9c1", "2026-11-15T05:27:19-0500", false], [8, "$180 million Van Gogh tests the art market and collector confidence", "The art auctions in New York next week could top $2 billion, as a treasure trove of masterpieces comes to the market for the first time in decades.", "CNBC", "https://www.cnbc.com/2026/11/14/180-million-van-gogh-tests-the-art-market-and-collector-confidence-.html", "Nov 14", "7cd4b72a2e.jpg", "u7cd4b72a2e", "2026-11-15T05:27:19-0500", false], [56, "How a small oil-sharing project in ASEAN offers hope beyond energy security", "Small-scale projects can help ASEAN move quickly, as shown by inking of nascent oil-sharing pilot", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/how-a-small-oil-sharing-project-in-asean-offers-hope-beyond-energy-security", "Nov 15", "bab765e67b.jpg", "ubab765e67b", "2026-11-15T07:21:28-0500", true], [57, "Pact on South China Sea code of conduct unlikely, as ASEAN leaders gather", "Finishing negotiations for disputed South China Sea agreement will be a 'tall order', analysts say.", "Al Jazeera", "https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather?traffic_source=rss", "Nov 15", "cd64ba12f3.jpg", "ucd64ba12f3", "2026-11-15T07:21:28-0500", true], [58, "Iran's navy says three tankers on fire after hitting mines in Hormuz", "Nov 14 - Iran's navy said three oil tankers caught fire on Saturday after hitting naval mines in the Strait of Hormuz, Iranian state media reported.", "The Straits Times", "https://www.straitstimes.com/world/middle-east/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz", "Nov 14", "f942f87587.jpg", "uf942f87587", "2026-11-15T07:21:28-0500", true]]}]}, {"cat": "Climate & disasters", "subs": [{"sub": "", "items": [[54, "Helping elephants keep to their lanes: Can palm oil millions save Borneo’s forest and wildlife?", "Conservationists say that planting trees and funding isolated projects will not undo decades of environmental damage.", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/helping-elephants-keep-to-their-lanes-can-palm-oil-millions-save-borneos-forest-and-wildlife", "Nov 14", "c62464a8b8.jpg", "uc62464a8b8", "2026-11-15T05:27:19-0500", false], [21, "Thousands rally against COP31 as climate talks hit midpoint", "The show of dissent comes as negotiators approach the final week of global climate talks in Antalya.", "The Straits Times", "https://www.straitstimes.com/world/middle-east/thousands-rally-against-cop31-as-climate-talks-hit-midpoint", "Nov 14", "eac9654b60.jpg", "ueac9654b60", "2026-11-15T05:27:19-0500", false], [30, "Illegal mining threatens French Guiana forests and Indigenous communities", "In French Guiana, the fight against illegal gold mining is rapidly being lost and creating an environmental and health disaster, according to the World Wildlife Fund. During an aerial survey in early August, park rangers counted 239 illegal sites within the protected area in record.", "France 24", "https://www.france24.com/en/illegal-mining-threatens-french-guiana-forests-and-indigenous-communities", "Nov 15", "", "u729949d3df", "2026-11-15T07:21:28-0500", true], [69, "Town destroyed by flood rebuilt by Libya's strongman Khalifa Haftar - but questions remain", "The remarkable reconstruction of Derna is being used as a showcase for the rest of Libya by Khalifa Haftar and his sons.", "BBC", "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss", "Nov 15", "11f33a4cdf.jpg", "u11f33a4cdf", "2026-11-15T20:17:37-0500", true]]}]}, {"cat": "Society & justice", "subs": [{"sub": "", "items": [[37, "Jordan sentences three men to death by hanging after deadly church attack", "Three men have been convicted of carrying out an attack on a church in the Karak governorate that killed nine people.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss", "Nov 15", "0eca7d7612.jpg", "u0eca7d7612", "2026-11-15T05:27:19-0500", false], [38, "After Decades of Blood and Mistrust, Doubts Over Who’s to Blame for an Israeli Hostage", "Israeli spies kidnapped and killed Iranians.", "The New York Times", "https://www.nytimes.com/2026/11/15/world/europe/ron-arad-missing-israel-iran-asgari-hunt.html", "Nov 15", "a864855dad.jpg", "ua864855dad", "2026-11-15T05:27:19-0500", false], [46, "World’s top court to rule if Myanmar committed genocide against Rohingya", "International court of justice has never before found a state guilty of genocide, and ruling will have implications for case against Israel The world’s top court will deliver a…", "The Guardian", "https://www.theguardian.com/world/2026/nov/15/myanmar-rohingya-genocide-icj", "Nov 15", "600d195ed7.jpg", "u600d195ed7", "2026-11-15T05:27:19-0500", false], [53, "Drone ownership ban comes into force in Beijing over security concerns", "The ban applies to both urbanised and rural areas in the municipality of around 16,400 sq km.", "The Straits Times", "https://www.straitstimes.com/asia/east-asia/drone-ownership-ban-comes-into-force-in-beijing-over-security-concerns", "Nov 15", "cf880e8b72.jpg", "ucf880e8b72", "2026-11-15T05:27:19-0500", false], [20, "Nearly 1,500 migrants arrive in Canary Islands in one day", "MADRID, Nov 15 - Almost 1,500 migrants arrived in Spain's Canary Islands on Saturday, the highest number in a single day since 2020, the EFE news agency reported on Sunday,…", "The Straits Times", "https://www.straitstimes.com/world/europe/nearly-1500-migrants-arrive-in-canary-islands-in-one-day", "Nov 15", "32dc16ee93.jpg", "u32dc16ee93", "2026-11-15T05:27:19-0500", false], [22, "Thousands in Portugal protest against surging rental prices", "Thousands of people across Portugal are angry about rising rental prices, demanding action to end the housing crisis.", "Al Jazeera", "https://www.aljazeera.com/video/newsfeed/2026/11/15/thousands-in-portugal-protest-against-surging-rental-prices?traffic_source=rss", "Nov 15", "f2e03cae65.jpg", "uf2e03cae65", "2026-11-15T05:27:19-0500", false], [25, "Russell Brand accuser waives anonymity to call for consent law change", "Mia Latter says she was in an abusive relationship with the convicted rapist when he was 30 and she was 16 A woman who alleges she was raped by Russell Brand when she was 16…", "The Guardian", "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand", "Nov 15", "5430714d67.jpg", "u5430714d67", "2026-11-15T05:27:19-0500", false], [26, "Digital finance products used to abuse almost 20% of young women and girls, UK report finds", "Survey respondents describe current or former partners controlling bank accounts and taking out credit online without full consent Almost one in five young women and girls in…", "The Guardian", "https://www.theguardian.com/society/2026/nov/15/digital-finance-products-abuse-against-young-women-and-girls-report", "Nov 15", "42f70818f6.jpg", "u42f70818f6", "2026-11-15T05:27:19-0500", false], [1, "What forced the US to ground all planes? A router switch, we now know", "US officials say a routine upgrade that went awry caused the mass disruption of air travel.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/15/what-forced-the-us-to-ground-all-planes-a-router-switch-we-now-know?traffic_source=rss", "Nov 15", "d9c779d3d7.jpg", "ud9c779d3d7", "2026-11-15T05:27:19-0500", false], [2, "Fifth Canadian soldier dies from injuries caused by large fire at military base", "Pte William Douglas Dal Bianco died from his injuries on Friday, a month after a fire that tore through CFB Wainwright.", "BBC", "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss", "Nov 15", "840edfb811.jpg", "u840edfb811", "2026-11-15T05:27:19-0500", false], [7, "They Want to Be Doctors. Student Loan Caps Are Complicating Their Dreams.", "This year, the first class of medical students will begin their journey to becoming physicians under new rules limiting how much they can borrow for school.", "The New York Times", "https://www.nytimes.com/2026/11/15/business/medical-school-student-loan-caps.html", "Nov 15", "7070cd9ef7.jpg", "u7070cd9ef7", "2026-11-15T05:27:19-0500", false], [11, "Guatemala decrees state of emergency in two departments after lawmaker killed in attack", "GUATEMALA CITY, Nov 14 - Guatemalan authorities on Saturday decreed a state of emergency in the eastern departments of Zacapa and Izabal, banning gatherings and boosting powers…", "The Straits Times", "https://www.straitstimes.com/world/guatemala-decrees-state-of-emergency-in-two-departments-after-lawmaker-killed-in-attack", "Nov 15", "6dfd61b422.jpg", "u6dfd61b422", "2026-11-15T05:27:19-0500", false], [12, "Pope Leo to cross Peru for visits to Inca city, Amazon gateway", "CHICLAYO, Peru, Nov 15 - Pope Leo will traverse the length of Peru on Sunday, the penultimate day of his South America tour, visiting a southern Andes Mountains city that was…", "The Straits Times", "https://www.straitstimes.com/world/europe/pope-leo-to-cross-peru-for-visits-to-inca-city-amazon-gateway", "Nov 15", "d8e4522223.jpg", "ud8e4522223", "2026-11-15T05:27:19-0500", false], [13, "A Mexican Artist Sang Some of His Hits. Authorities Stopped the Show, Then Arrested Him.", "A concert by the singer Gabito Ballesteros was suspended after he sang songs that supposedly glorify cartel culture.", "The New York Times", "https://www.nytimes.com/2026/11/14/world/americas/mexico-gabito-ballesteros-arrested-narocorridos.html", "Nov 14", "8f87bf380e.jpg", "u8f87bf380e", "2026-11-15T05:27:19-0500", false], [63, "Ethiopia firm takes aim at menstruation taboos", "Han's With Care can produce up to 1,000 reusable pads a day.", "The Straits Times", "https://www.straitstimes.com/world/ethiopia-firm-takes-aim-at-menstruation-taboos", "Nov 15", "a0004e38d6.jpg", "ua0004e38d6", "2026-11-15T05:27:19-0500", false], [10, "Behind the All-American Ralph Lauren Brand Is a French C.E.O.", "Patrice Louvet on working with Ralph Lauren, the man, winning over Generation Z and striking a balance between magic and logic.", "The New York Times", "https://www.nytimes.com/2026/11/15/business/ralph-lauren-patrice-louvet.html", "Nov 15", "100f8f8495.jpg", "u100f8f8495", "2026-11-15T07:21:28-0500", true], [14, "Japan stun Brazil 3-2 in friendly as Ancelotti, Raphinha shown red cards", "Substitute Tatsuhiro Sakamoto’s late goal helps Japan avenge their defeat by Brazil in the World Cup round of 32.", "Al Jazeera", "https://www.aljazeera.com/sports/2026/11/15/japan-stun-brazil-3-2-in-stoppage-time-as-ancelotti-raphinha-sent-off?traffic_source=rss", "Nov 15", "e88e910f90.jpg", "ue88e910f90", "2026-11-15T07:21:28-0500", true], [64, "‘Like many men of his generation, he tends to push his feelings down from his heart to his toes’: Meera Sodha on her father’s homecoming", "After a childhood of grief, hardship and hunger, the Guardian food writer’s father Raj always resisted going back to Uganda. What happened when he finally agreed to accompany her on a bittersweet journey into the past? The moment I step off the plane and on to the soil of Entebbe it hits me. Uganda ", "The Guardian", "https://www.theguardian.com/lifeandstyle/2026/nov/15/meera-sodha-father-homecoming-uganda", "Nov 15", "99b4476520.jpg", "u99b4476520", "2026-11-15T07:21:28-0500", true], [65, "Macron urges unity as Francophonie summit opens in Cambodia", "Leaders of French-speaking nations gathered in Phnom Penh as a row over who should lead the Francophonie and Congo’s threat to quit put pressure on Macron to broker consensus.", "DW", "https://www.dw.com/en/macron-urges-unity-as-francophonie-summit-opens-in-cambodia/a-79951201?maca=en-rss-en-africa-8291-rdf", "Nov 15", "", "u03245a03fc", "2026-11-15T07:21:28-0500", true], [15, "Morocco becomes first Arab, second African nation in FIFA’s top five", "Morocco moved past former Euro champions Portugal and record World Cup winners Brazil to achieve its best FIFA ranking.", "Al Jazeera", "https://www.aljazeera.com/sports/2026/11/15/morocco-becomes-first-arab-nation-in-fifas-top-five-mens-rankings?traffic_source=rss", "Nov 15", "06f65017dc.jpg", "u06f65017dc", "2026-11-15T13:19:38-0500", true], [16, "Pope Leo speaks on community 'suffering' on visit to remote Andes", "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.", "BBC", "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss", "Nov 14", "9f25a7bec4.jpg", "u9f25a7bec4", "2026-11-15T15:18:30-0500", true], [17, "Brawl erupts in Brazil’s Women’s League final", "A fist fight erupted between opposing players during the final of Brazil's under-20 Women’s League.", "Al Jazeera", "https://www.aljazeera.com/video/newsfeed/2026/11/15/brawl-erupts-in-brazils-womens-league-final?traffic_source=rss", "Nov 15", "90b1001e82.jpg", "u90b1001e82", "2026-11-15T19:15:40-0500", true]]}]}]]]}, DATE='2026-11-15', REPO='jbarseneau99/morning-briefing', FEED='news', FEEDNAME='Global News', BUILD='20261115-2319';
+document.querySelectorAll('.nav-feeds a').forEach(a=>{if(a.getAttribute('data-feed')===FEED){a.setAttribute('aria-current','page');a.classList.add('on')}});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const slug=s=>s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const SHORT={'Technology business news':'Tech business','Investments and deals':'Investments & deals'};
+const label=s=>SHORT[s]||s;
+const votes=(level,id,title,x='')=>`<span class="v" data-level="${level}" data-id="${id}" data-title="${esc(title)}"${x}><button class="up" data-d="up" title="More like this">👍</button><button class="ne" data-d="neutral" title="Neutral">●</button><button class="dn" data-d="down" title="Less like this">👎</button></span>`;
+const row=(it,cls='',V='all',cat='')=>{const [n,t,s,src,url,dt,img,id]=it;const isNew=!!it[9];
+ const x=` data-url="${esc(url)}" data-img="${esc(img?'../img/'+img:'')}" data-desc="${esc(s)}" data-src="${esc(src)}" data-dt="${esc(dt)}" data-cat="${esc(cat)}"`;
+ return `<div class="row ${cls}${isNew?' fresh':''}" id="${V}-s${id}" data-id="${id}"><a class="rlink" href="#read=${id}">${img?`<img class="th" src="../img/${img}" alt="" loading="lazy">`:`<div class="ph">no image</div>`}<div class="tx"><b>${isNew?'<span class="tag-new">New</span>':''}<span class="n">${n}.</span>${esc(t)}</b><p>${esc(s)}</p><span class="rs">${esc(src)}</span> <span class="dt">· ${dt}</span></div></a>${votes('story',id,t,x)}</div>`};
+function renderCats(DATA,V){let h='';
+for(const c of DATA){const cid=slug(c.cat);
+ const top=[];for(let r=0;top.length<5&&r<10;r++)for(const s of c.subs){if(s.items[r]&&top.length<5)top.push(s.items[r])}
+ h+=`<section id="${V}-${cid}"><div class="ch"><span class="car">▾</span><h2>${esc(c.cat)}</h2>${votes('category',cid,c.cat)}</div><div class="body">`;
+ if(!(c.subs.length===1&&!c.subs[0].sub))h+=`<div class="top"><h4>Top 5</h4><ol>${top.map(it=>`<li><a class="rlink" href="#read=${it[7]}">${esc(it[1])}</a></li>`).join('')}</ol></div>`;
+ for(const s of c.subs){if(!s.items.length)continue;const sid=cid+'/'+slug(s.sub);
+  h+=`<div class="sub"${s.sub?` id="${V}-${cid}-${slug(s.sub)}"`:''}>`+(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',sid,c.cat+' › '+s.sub)}</div>`:'');
+  s.items.forEach((it,i)=>h+=row(it,i>=5?'more':'',V,c.cat+(s.sub?' › '+s.sub:'')));
+  if(s.items.length>5)h+=`<button class="mt">…more (${s.items.length-5})</button>`;
+  h+=`</div>`;}
+ h+=`</div></section>`;}
+return h}
+let VIEWS=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+let html='';
+VIEWS.forEach((v,i)=>html+=`<div class="view" data-v="${v[0]}" ${i?'hidden':''}>${renderCats(v[2],v[0])}</div>`);
+document.getElementById('m').innerHTML=html;
+
+document.querySelectorAll('.ch').forEach(e=>{e.dataset.bound='1';e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')})});
+document.querySelectorAll('.mt').forEach(b=>{b.dataset.bound='1';b.addEventListener('click',()=>{const s=b.parentElement;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'less':`…more (${s.querySelectorAll('.more').length})`})});
+const key=(l,i)=>`fb:${FEED}:${DATE}:${l}:${i}`;
+const LK='likes:v1',UK='likes:unliked',lget=k=>{try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return {}}},lset=(k,o)=>localStorage.setItem(k,JSON.stringify(o));
+function likeSync(v,on){if(v.dataset.level!=='story')return;const L=lget(LK),U=lget(UK),d=v.dataset,id=d.id;
+ if(on){if(!L[id])L[id]={id,title:d.title,url:d.url,img:d.img,desc:d.desc,source:d.src,date:DATE,dt:d.dt,feed:FEED,feedname:FEEDNAME,cat:d.cat,ts:Date.now()};delete U[id]}
+ else{delete L[id];U[id]=Date.now()}
+ lset(LK,L);lset(UK,U)}
+document.querySelectorAll('.v').forEach(v=>{if(v.dataset.bound)return;v.dataset.bound='1';const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
+ if(st)v.querySelectorAll(`[data-d="${st}"]`).forEach(b=>b.classList.add('on'));
+ if(st==='up'&&level==='story'&&!lget(LK)[id])likeSync(v,true);
+ v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
+  const was=b.classList.contains('on');const vote=was?'clear':b.dataset.d;
+  document.querySelectorAll(`.v[data-level="${level}"][data-id="${id}"]`).forEach(w=>w.querySelectorAll('button').forEach(x=>x.classList.toggle('on',!was&&x.dataset.d===vote)));
+  was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),vote);
+  if(level==='story')likeSync(v,vote==='up');
+  try{await fetch('feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({feed:FEED,date:DATE,level,id,title,vote})})}catch(e){}
+ }))});
+const icon={up:'👍',neutral:'●',down:'👎'};
+document.getElementById('send').addEventListener('click',()=>{const lines=[],seen=new Set();
+ document.querySelectorAll('.v').forEach(v=>{const k=key(v.dataset.level,v.dataset.id);if(seen.has(k))return;seen.add(k);const s=localStorage.getItem(k);if(s)lines.push(`${icon[s]} ${s} | ${v.dataset.level} ${v.dataset.id}: ${v.dataset.title}`)});
+ if(!lines.length){alert('No votes yet.');return}
+ const body=`feed: ${FEEDNAME}\ndate: ${DATE}\n\n`+lines.join('\n');
+ if(!REPO||REPO.startsWith('__')){navigator.clipboard&&navigator.clipboard.writeText(body);alert('Feedback copied to clipboard:\n\n'+body);return}
+ window.open(`https://github.com/${REPO}/issues/new?title=${encodeURIComponent((FEED==='news'?'Global News':FEED==='papers'?'Research Papers':'SciTech')+' feedback '+DATE)}&body=${encodeURIComponent(body)}`,'_blank');});
+
+/* ---- two-level pinned nav ---- */
+const defaultCut=VIEWS[0][0];
+let cut=defaultCut,sec='',sub='';
+let lastSpy='';
+const cats=()=>(VIEWS.find(v=>v[0]===cut)||VIEWS[0])[2];
+const catBySlug=s=>cats().find(c=>slug(c.cat)===s);
+const namedSubs=c=>(c?c.subs:[]).filter(s=>s.sub&&s.items.length);
+const UNFOLD='(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4)';
+function setPinH(){const unfolded=window.matchMedia(UNFOLD).matches;const el=document.getElementById(unfolded?'pin':'stick')||document.getElementById('pin');if(!el)return;const h=Math.round((el.getBoundingClientRect().height||el.offsetHeight||0));document.documentElement.style.setProperty('--pin-h',h+'px')}
+if(window.ResizeObserver){const _pinRO=new ResizeObserver(()=>setPinH());const _p=document.getElementById('pin'),_s=document.getElementById('stick');if(_p)_pinRO.observe(_p);if(_s)_pinRO.observe(_s)}
+function parseHash(){
+  const h=location.hash.slice(1);
+  if(!h)return {cut:null,sec:'',sub:'',el:'',read:''};
+  if(/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);return {cut:p.get('cut')||p.get('view')||null,sec:p.get('sec')||'',sub:p.get('sub')||'',el:'',read:p.get('read')||''}}
+  return {cut:null,sec:'',sub:'',el:h,read:''};
+}
+function writeHash(push){
+  const p=new URLSearchParams();
+  if(cut!==defaultCut)p.set('cut',cut);
+  if(sec)p.set('sec',sec);
+  if(sub)p.set('sub',sub);
+  const next=p.toString()?('#'+p.toString()):(location.pathname+location.search);
+  const cur=location.hash|| (location.pathname+location.search);
+  if(cur===next)return;
+  (push?history.pushState:history.replaceState).call(history,null,'',next);
+}
+function revealRow(el){if(!el)return;if(el.classList.contains('more')){const s=el.closest('.sub');if(s){s.classList.add('open');const b=s.querySelector('.mt');if(b)b.textContent='less'}}}
+function scrollToId(id,smooth){const el=document.getElementById(id);if(!el)return false;revealRow(el);el.scrollIntoView({block:'start',behavior:smooth?'smooth':'auto'});return true}
+function inSubMode(){return !!(sec&&namedSubs(catBySlug(sec)).length)}
+function renderNav(){
+  const cutslot=document.getElementById('cutslot');
+  if(VIEWS.length>1){
+    cutslot.hidden=false;
+    cutslot.innerHTML=VIEWS.map(v=>`<button type="button" data-cut="${esc(v[0])}" class="${v[0]===cut?'on':''}">${esc(v[1])}</button>`).join('');
+    cutslot.querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.cut===cut)return;cut=b.dataset.cut;sec='';sub='';apply(true,true);scrollTo(0,0)});
+  }else cutslot.hidden=true;
+  const crumb=document.getElementById('crumb');
+  const parts=[`<a href="../">Morning Briefing</a>`];
+  parts.push(sec?`<a href="#" data-back="feed">${esc(FEEDNAME)}</a>`:`<span class="here">${esc(FEEDNAME)}</span>`);
+  if(sec){const c=catBySlug(sec);parts.push(`<span class="here">${esc(c?c.cat:sec)}</span>`)}
+  crumb.innerHTML=parts.join('<span class="sep"> › </span>');
+  crumb.hidden=!sec;
+  const back=crumb.querySelector('[data-back=feed]');
+  if(back)back.onclick=e=>{e.preventDefault();sec='';sub='';apply(true,true);scrollTo(0,0)};
+  const secs=document.getElementById('secs');
+  const mode=inSubMode()?'sub':'sec';
+  const tabs=mode==='sub'
+    ?[{id:'',name:'All'},...namedSubs(catBySlug(sec)).map(s=>({id:slug(s.sub),name:s.sub}))]
+    :[{id:'',name:'All'},...cats().map(x=>({id:slug(x.cat),name:label(x.cat)}))];
+  const cur=mode==='sub'?sub:sec;
+  secs.innerHTML=tabs.map(t=>`<button type="button" data-mode="${mode}" data-id="${esc(t.id)}" class="${t.id===cur?'on':''}">${esc(t.name)}</button>`).join('');
+  secs.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+    const id=b.dataset.id;
+    if(mode==='sub'){
+      sub=id;writeHash(true);renderNav();
+      id?scrollToId(cut+'-'+sec+'-'+id,true):document.querySelector(`.view[data-v="${cut}"] section:not([hidden])`)?.scrollIntoView({block:'start',behavior:'smooth'});
+    }else{
+      sec=id;sub='';apply(true,true);scrollTo(0,0);
+    }
+  });
+  lastSpy=cur;
+  setPinH();
+  requestAnimationFrame(scrollActiveTab);
+}
+function scrollActiveTab(){
+  const el=document.querySelector('#secs .on')||document.querySelector('#secs .spy');
+  if(el)el.scrollIntoView({inline:'center',block:'nearest'});
+}
+function apply(doHash,push){
+  document.querySelectorAll('.view').forEach(v=>v.hidden=v.dataset.v!==cut);
+  const root=document.querySelector(`.view[data-v="${cut}"]`);
+  if(root)root.querySelectorAll(':scope > section').forEach(s=>{
+    const cid=s.id.slice(cut.length+1);
+    const on=!sec||cid===sec;
+    s.hidden=!on;
+    if(on)s.classList.remove('closed');
+  });
+  try{localStorage.setItem('view:'+FEED,cut)}catch(e){}
+  renderNav();
+  if(doHash!==false)writeHash(!!push);
+  setPinH();
+}
+function applyFromHash(){
+  const st=parseHash();
+  if(st.cut&&VIEWS.some(v=>v[0]===st.cut))cut=st.cut;
+  else{try{const pv=localStorage.getItem('view:'+FEED);if(pv&&VIEWS.some(v=>v[0]===pv))cut=pv}catch(e){}}
+  sec=st.sec&&catBySlug(st.sec)?st.sec:'';
+  sub=sec&&st.sub&&namedSubs(catBySlug(sec)).some(s=>slug(s.sub)===st.sub)?st.sub:'';
+  apply(false);
+  if(st.read){openReader(st.read,false);return}
+  if(document.body.classList.contains('reading'))closeReader(true);
+  if(st.el)requestAnimationFrame(()=>scrollToId(st.el,false));
+  else if(sub)requestAnimationFrame(()=>scrollToId(cut+'-'+sec+'-'+sub,false));
+}
+document.querySelectorAll('.top a').forEach(a=>a.addEventListener('click',e=>{
+  const href=a.getAttribute('href')||'';
+  if(/read=/.test(href))return;
+  const id=href.slice(1);const el=document.getElementById(id);if(!el)return;
+  e.preventDefault();
+  const section=el.closest('section');
+  if(sec&&section&&section.hidden){sec='';sub='';apply(true,true)}
+  scrollToId(id,true);
+}));
+function spy(){
+  if(sec&&!inSubMode())return;
+  const mode=inSubMode()?'sub':'sec';
+  const pinH=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--pin-h'))||0;
+  const y=pinH+20;
+  let nodes;
+  if(mode==='sec'){
+    const root=document.querySelector(`.view[data-v="${cut}"]`);if(!root)return;
+    nodes=[...root.querySelectorAll(':scope > section')].filter(s=>!s.hidden).map(s=>({id:s.id.slice(cut.length+1),el:s}));
+  }else{
+    nodes=namedSubs(catBySlug(sec)).map(s=>({id:slug(s.sub),el:document.getElementById(cut+'-'+sec+'-'+slug(s.sub))}));
+  }
+  let active='';
+  for(const n of nodes){if(!n.el)continue;if(n.el.getBoundingClientRect().top<=y)active=n.id}
+  document.querySelectorAll('#secs button').forEach(b=>{
+    if(b.dataset.mode!==mode)return;
+    b.classList.toggle('on',b.dataset.id===active);
+  });
+  if(active!==lastSpy){lastSpy=active;scrollActiveTab()}
+}
+const pin=document.getElementById('pin');
+const onScroll=()=>{if(pin)pin.classList.toggle('scrolled',scrollY>16);setPinH();spy()};
+addEventListener('scroll',onScroll,{passive:true});
+addEventListener('resize',()=>{setPinH();scrollActiveTab()});
+addEventListener('hashchange',applyFromHash);
+addEventListener('popstate',applyFromHash);
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{setPinH();spy()});
+
+/* ---- intraday refresh ---- */
+function fmtHM(iso){if(!iso)return '';try{const d=new Date(iso);return d.toLocaleTimeString('en-CA',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Toronto'})}catch(e){return ''}}
+function setUpdated(iso){const el=document.getElementById('updated');if(!el||!iso)return;el.textContent='Updated '+fmtHM(iso);el.hidden=false;el.dateTime=iso}
+function toast(msg){let el=document.getElementById('toast');if(!el){el=document.createElement('div');el.id='toast';document.body.appendChild(el)}el.textContent=msg;el.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(()=>el.classList.remove('show'),2800)}
+function allStoryIds(){const s=new Set();(function walk(x){if(Array.isArray(x)&&typeof x[4]==='string'&&x[4].startsWith('http')&&x[7])s.add(x[7]);else if(Array.isArray(x))x.forEach(walk);else if(x&&typeof x==='object')Object.values(x).forEach(walk)})(typeof DATA!=='undefined'?DATA:[]);return s}
+function bindVotes(root){(root||document).querySelectorAll('.v').forEach(v=>{if(v.dataset.bound)return;v.dataset.bound='1';
+  const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
+  if(st)v.querySelectorAll(`[data-d="${st}"]`).forEach(b=>b.classList.add('on'));
+  if(st==='up'&&level==='story'&&!lget(LK)[id])likeSync(v,true);
+  v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
+    const was=b.classList.contains('on');const vote=was?'clear':b.dataset.d;
+    document.querySelectorAll(`.v[data-level="${level}"][data-id="${id}"]`).forEach(w=>w.querySelectorAll('button').forEach(x=>x.classList.toggle('on',!was&&x.dataset.d===vote)));
+    was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),vote);
+    if(level==='story')likeSync(v,vote==='up');
+    try{await fetch('feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({feed:FEED,date:DATE,level,id,title,vote})})}catch(e){}
+  }));
+});}
+function appendItem(story){
+  const item=[story.n||0,story.title,story.desc||'',story.src||'',story.url,story.dt||'',story.img||'',story.id,story.added_at||'',true];
+  if(item[7])STORY[item[7]]=item;
+  const catName=story.cat||story.region||'';
+  const subName=story.sub||'';
+  const topicName=story.topic||'';
+  function into(list,cName,sName){
+    if(!Array.isArray(list))return false;
+    let c=list.find(x=>x.cat===cName);
+    if(!c){c={cat:cName,subs:[]};list.push(c)}
+    let s=c.subs.find(z=> (z.sub||'')===(sName||''));
+    if(!s){s={sub:sName||'',items:[]};c.subs.push(s)}
+    if(s.items.some(it=>it[7]===item[7]))return false;
+    // next display number
+    const maxN=Math.max(0,...(function collect(o,a){if(Array.isArray(o)&&typeof o[7]==='string')a.push(+o[0]||0);else if(Array.isArray(o))o.forEach(x=>collect(x,a));else if(o&&typeof o==='object')Object.values(o).forEach(x=>collect(x,a));return a})(DATA,[]));
+    item[0]=maxN+1;
+    s.items.push(item);
+    return {c,s,item};
+  }
+  const views=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+  const placed=[];
+  if(!Array.isArray(DATA)){
+    const rv=views.find(v=>v[0]==='region'); if(rv) placed.push(['region',into(rv[2],story.region||catName,'')]);
+    const tv=views.find(v=>v[0]==='topic'); if(tv) placed.push(['topic',into(tv[2],topicName||catName,'')]);
+  }else{
+    placed.push(['all',into(DATA,catName,subName)]);
+  }
+  // paint into any already-rendered matching sub
+  placed.forEach(([V,info])=>{
+    if(!info)return;
+    const {c,s,item}=info;
+    const root=document.querySelector(`.view[data-v="${V}"]`)||document.querySelector('.view');
+    if(!root)return;
+    const sec=root.querySelector(`:scope > section[id="${CSS.escape(V+'-'+slug(c.cat))}"]`);
+    if(!sec){ // new section — rebuild this view
+      const view=VIEWS.find(v=>v[0]===V); if(!view)return;
+      const wrap=document.querySelector(`.view[data-v="${V}"]`);
+      if(wrap){wrap.innerHTML=renderCats(view[2],V);bindCh(wrap);bindVotes(wrap)}
+      return;
+    }
+    const body=sec.querySelector('.body');
+    let subEl=[...sec.querySelectorAll('.sub')].find(el=>{
+      if(!s.sub)return !el.querySelector('.sh');
+      return el.id===`${V}-${slug(c.cat)}-${slug(s.sub)}`;
+    });
+    if(!subEl){
+      subEl=document.createElement('div'); subEl.className='sub';
+      if(s.sub)subEl.id=`${V}-${slug(c.cat)}-${slug(s.sub)}`;
+      subEl.innerHTML=(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',slug(c.cat)+'/'+slug(s.sub),c.cat+' › '+s.sub)}</div>`:'');
+      body.appendChild(subEl);
+    }
+    const html=row(item,s.items.length>5?'more fresh':'fresh',V,c.cat+(s.sub?' › '+s.sub:''));
+    const mt=subEl.querySelector('.mt');
+    if(mt){mt.insertAdjacentHTML('beforebegin',html);const extra=subEl.querySelectorAll('.more').length;mt.textContent=subEl.classList.contains('open')?'less':`…more (${extra})`}
+    else{
+      subEl.insertAdjacentHTML('beforeend',html);
+      if(s.items.length>5){const b=document.createElement('button');b.className='mt';b.textContent=`…more (${s.items.length-5})`;b.addEventListener('click',()=>{subEl.classList.toggle('open');b.textContent=subEl.classList.contains('open')?'less':`…more (${subEl.querySelectorAll('.more').length})`});subEl.appendChild(b)}
+    }
+    bindVotes(subEl);
+  });
+}
+function bindCh(root){(root||document).querySelectorAll('.ch').forEach(e=>{if(e.dataset.bound)return;e.dataset.bound='1';e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')})});
+ (root||document).querySelectorAll('.mt').forEach(b=>{if(b.dataset.bound)return;b.dataset.bound='1';b.addEventListener('click',()=>{const s=b.parentElement;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'less':`…more (${s.querySelectorAll('.more').length})`})})}
+let refreshing=false;
+async function refreshNews(opts){const quiet=opts&&opts.quiet;if(refreshing)return;refreshing=true;
+  const btn=document.getElementById('refresh'), bar=document.getElementById('refresh-bar');
+  if(btn)btn.classList.add('busy'); if(bar){bar.hidden=false;bar.classList.add('on')}
+  try{
+    const j=await fetch('latest.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()});
+    if(j.date&&j.date>DATE){toast('New edition available');location.reload();return}
+    const have=allStoryIds();
+    const fresh=(j.stories||[]).filter(s=>s&&s.id&&!have.has(s.id));
+    fresh.forEach(appendItem);
+    if(fresh.length){renderNav();setPinH()}
+    setUpdated(j.updated_at);
+    if(!quiet||fresh.length)toast(fresh.length?(fresh.length+' new '+(fresh.length===1?'story':'stories')):('Up to date · updated '+fmtHM(j.updated_at)));
+  }catch(e){if(!quiet)toast('Could not refresh')}
+  finally{refreshing=false;if(btn)btn.classList.remove('busy');if(bar){bar.classList.remove('on');bar.hidden=true}}
+}
+const _rb=document.getElementById('refresh'); if(_rb)_rb.addEventListener('click',()=>refreshNews());
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')refreshNews({quiet:true})});
+// pull-to-refresh (standalone PWA has no Safari reload)
+let ptrY=0, ptring=false;
+addEventListener('touchstart',e=>{if(scrollY>2||refreshing)return;const t=e.target;if(t&&t.closest&&t.closest('#pin,#stick,#refresh'))return;ptrY=e.touches[0].clientY;ptring=true},{passive:true});
+addEventListener('touchmove',e=>{if(!ptring)return;const dy=e.touches[0].clientY-ptrY;if(dy>72&&scrollY<2){ptring=false;refreshNews()}},{passive:true});
+addEventListener('touchend',()=>{ptring=false},{passive:true});
+bindCh();
+bindVotes(document);
+// ----- in-app reader -----
+const STORY={};
+(function indexStories(){
+  const views=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+  for(const v of views)for(const c of (v[2]||[]))for(const s of (c.subs||[]))for(const it of (s.items||[]))if(it&&it[7])STORY[it[7]]=it;
+})();
+let readerPushed=false, listScroll=0, readerId='';
+function readerHash(id){
+  const h=location.hash.slice(1);
+  if(h&&/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);p.set('read',id);return '#'+p.toString()}
+  return '#read='+encodeURIComponent(id);
+}
+function stripReadHash(){
+  const st=parseHash();
+  if(!st.read)return location.pathname+location.search+(location.hash||'');
+  const h=location.hash.slice(1);
+  if(/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);p.delete('read');const q=p.toString();return q?('#'+q):(location.pathname+location.search)}
+  return location.pathname+location.search;
+}
+function closeReader(fromPop){
+  if(!document.body.classList.contains('reading')&&!readerId)return;
+  if(!fromPop && readerPushed){history.back();return}
+  document.body.classList.remove('reading');
+  const panel=document.getElementById('reader'); if(panel)panel.hidden=true;
+  readerId=''; readerPushed=false;
+  requestAnimationFrame(()=>{scrollTo(0,listScroll||0)});
+}
+function renderReader(rec, item){
+  const title=rec.title||(item&&item[1])||'';
+  const src=rec.source||(item&&item[3])||'';
+  const url=rec.url||(item&&item[4])||'#';
+  const by=rec.byline||'';
+  const date=rec.date||(item&&item[5])||'';
+  const sum=rec.summary||(item&&item[2])||'';
+  const img=rec.image||(rec.thumb?('../img/'+rec.thumb):'')||(item&&item[6]?('../img/'+item[6]):'');
+  const id=rec.id||(item&&item[7])||'';
+  document.getElementById('rsrc').textContent=src;
+  const orig=document.getElementById('rorig'); orig.href=url; orig.hidden=!url||url==='#';
+  document.getElementById('rvotes').innerHTML=votes('story',id,title,` data-url="${esc(url)}"`);
+  bindVotes(document.getElementById('rvotes'));
+  let body='';
+  if(title)body+=`<h1>${esc(title)}</h1>`;
+  if(by||date)body+=`<p class="rby">${by?esc(by):''}${by&&date?' · ':''}${date?`<span class="rdate">${esc(date)}</span>`:''}</p>`;
+  if(img)body+=`<img class="rhero" src="${esc(img)}" alt="">`;
+  if(rec.status==='full'&&rec.html){
+    body+=`<div class="rhtml">${rec.html}</div>`;
+  }else{
+    const why=rec.reason==='paywall'?'This article looks paywalled or limited at the source.':
+              rec.reason==='blocked'?'The publisher blocked a full-text copy.':
+              'A full-text version was not available.';
+    body+=`<div class="rnote">${why} <a href="${esc(url)}" target="_blank" rel="noopener">Open the original at ${esc(src||'the source')}</a>.</div>`;
+    if(sum)body+=`<p class="rsum">${esc(sum)}</p>`;
+  }
+  const box=document.getElementById('rbody');
+  box.classList.remove('loading');
+  box.innerHTML=body;
+}
+async function openReader(id,push){
+  if(!id)return;
+  if(document.body.classList.contains('reading')&&readerId===id&&!push)return;
+  if(!document.body.classList.contains('reading'))listScroll=scrollY;
+  readerId=id;
+  document.body.classList.add('reading');
+  const panel=document.getElementById('reader'); if(panel)panel.hidden=false;
+  const box=document.getElementById('rbody');
+  box.classList.add('loading'); box.innerHTML='<div class="rspinner" role="status" aria-label="Loading article"></div>';
+  document.getElementById('rsrc').textContent='';
+  document.getElementById('rvotes').innerHTML='';
+  const item=STORY[id];
+  if(item){
+    document.getElementById('rsrc').textContent=item[3]||'';
+    const orig=document.getElementById('rorig'); orig.href=item[4]||'#'; orig.hidden=!item[4];
+    document.getElementById('rvotes').innerHTML=votes('story',id,item[1]||'',` data-url="${esc(item[4]||'')}"`);
+    bindVotes(document.getElementById('rvotes'));
+  }
+  if(push){readerPushed=true;history.pushState({read:id},'',readerHash(id))}
+  else readerPushed=false;
+  try{
+    const rec=await fetch('../articles/'+DATE+'/'+id+'.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()});
+    if(readerId!==id)return;
+    renderReader(rec,item);
+  }catch(e){
+    if(readerId!==id)return;
+    renderReader({id,status:'fallback',reason:'blocked',title:item?item[1]:'',source:item?item[3]:'',url:item?item[4]:'',summary:item?item[2]:'',date:item?item[5]:'',html:'',thumb:item?item[6]:''},item);
+  }
+  const scrollBox=document.getElementById('rbody');
+  if(scrollBox)scrollBox.scrollTop=0;
+  if(!window.matchMedia('(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4)').matches)scrollTo(0,0);
+}
+document.getElementById('rback').addEventListener('click',()=>closeReader(false));
+function storyIdFromEvent(e){
+  if(e.target.closest('.v,.mt,.ch,.unl,#rback,#rorig,.rorig'))return '';
+  const a=e.target.closest('a.rlink');
+  const row=e.target.closest('.row');
+  if(a){
+    const href=a.getAttribute('href')||'';
+    const m=/read=([^&]+)/.exec(href);
+    if(m)return decodeURIComponent(m[1]);
+  }
+  if(row)return row.getAttribute('data-id')||((row.id||'').split('-s')[1]||'');
+  return '';
+}
+function onStoryActivate(e){
+  const id=storyIdFromEvent(e); if(!id)return;
+  e.preventDefault();
+  if(e.stopPropagation)e.stopPropagation();
+  openReader(id,true);
+}
+const _main=document.getElementById('m');
+_main.addEventListener('click',onStoryActivate);
+
+applyFromHash();
+onScroll();
+</script><script>if('serviceWorker' in navigator){navigator.serviceWorker.register('/morning-briefing/sw.js?v=20261115-2319',{scope:'/morning-briefing/'}).then(function(r){r.update();if(r.waiting)r.waiting.postMessage('skipWaiting')}).catch(function(){});navigator.serviceWorker.addEventListener('controllerchange',function(){if(sessionStorage.getItem('sw-rel')===BUILD)return;sessionStorage.setItem('sw-rel',BUILD);location.reload()});}</script></body></html>
