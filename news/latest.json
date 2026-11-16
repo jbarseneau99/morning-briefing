@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "updated_at": "2026-11-15T19:15:40-0500",
+ "updated_at": "2026-11-15T20:17:37-0500",
  "built_at": "2026-11-15T05:27:19-0500",
  "stories": [
   {
@@ -1089,6 +1089,22 @@
    "region": "Latin America",
    "topic": "Society & justice",
    "cat": "Latin America",
+   "sub": ""
+  },
+  {
+   "n": 69,
+   "title": "Town destroyed by flood rebuilt by Libya's strongman Khalifa Haftar - but questions remain",
+   "desc": "The remarkable reconstruction of Derna is being used as a showcase for the rest of Libya by Khalifa Haftar and his sons.",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 15",
+   "img": "11f33a4cdf.jpg",
+   "id": "u11f33a4cdf",
+   "added_at": "2026-11-15T20:17:37-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Climate & disasters",
+   "cat": "Africa",
    "sub": ""
   }
  ]
