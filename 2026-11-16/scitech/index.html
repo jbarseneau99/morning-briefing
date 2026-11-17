@@ -1,0 +1,737 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Science & Technology · Morning Briefing · Nov 16, 2026</title>
+<link rel="manifest" href="/morning-briefing/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/morning-briefing/img/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Briefing">
+<meta name="theme-color" content="#f4f1eb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pin-h:96px;
+  --bg:#f4f1eb;--paper:#fffcf7;--ink:#141311;--mut:#5c5a55;--line:#ddd8ce;--rule:#141311;
+  --acc:#9b2c1a;--wash:#eeeae2;--up:#1f6b3a;--dn:#9b2c1a;--ne:#6a6862;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{color-scheme:light;overscroll-behavior-y:none}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;padding-top:var(--pin-h);padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:var(--acc)}
+.frame{display:block}
+.stick{position:fixed;top:0;left:0;right:0;width:100%;z-index:80;background:var(--bg);border-top:2px solid var(--rule);border-bottom:1px solid var(--line);box-shadow:0 8px 18px -12px rgba(20,19,17,.2);padding-top:env(safe-area-inset-top,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+.pin{display:flex;align-items:center;min-height:48px;box-sizing:border-box;position:relative}
+header{max-width:none;margin:0;padding:0 12px;display:flex;align-items:center;min-height:48px;box-sizing:border-box}
+.mast{display:flex;align-items:center;gap:8px;min-width:0;flex:1;border-top:0;padding:0;min-height:48px;box-sizing:border-box}
+.nav-util{max-width:none;margin:0 0 0 auto;padding:0 8px 0 0;display:flex;align-items:center;gap:0;border-bottom:0;min-width:0;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch;min-height:48px;box-sizing:border-box}
+.side{max-width:900px;margin:0 auto;padding:0 20px;display:grid;grid-template-columns:1fr auto;grid-template-areas:"crumb crumb" "secs cut";align-items:end;column-gap:12px}
+.side:not(:has(.nav-cut:not([hidden]))){grid-template-areas:"crumb crumb" "secs secs"}
+.nav-util::-webkit-scrollbar{display:none}
+.nav-util a{font:600 11.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;padding:0;margin-right:16px;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px;display:inline-flex;align-items:center;min-height:44px;min-width:44px;flex:0 0 auto;white-space:nowrap;box-sizing:border-box}
+.nav-util a:hover{color:var(--ink)}
+.nav-util a.on,.nav-util a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink)}
+.nav-crumb{grid-area:crumb;font-size:12.5px;color:var(--mut);padding:7px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.3}
+.nav-crumb a{color:var(--mut);text-decoration:none}
+.nav-crumb a:hover{color:var(--acc)}
+.nav-crumb .here{color:var(--ink)}
+.nav-crumb .sep{margin:0 .15em;color:var(--mut)}
+.nav-secs{grid-area:secs;display:flex;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;flex-wrap:nowrap;scrollbar-width:none;gap:0;-webkit-overflow-scrolling:touch;border-bottom:1px solid var(--line)}
+.nav-secs::-webkit-scrollbar{display:none}
+.nav-secs button{flex:0 0 auto;font:600 15px/1 var(--sans);padding:0 8px;margin-right:8px;border:0;background:none;cursor:pointer;color:var(--mut);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;border-radius:0;display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;box-sizing:border-box}
+.nav-secs button:hover{color:var(--ink)}
+.nav-secs button.on{color:var(--ink);border-bottom-color:var(--acc)}
+.nav-secs button.spy{color:var(--ink)}
+.nav-cut{grid-area:cut;display:flex;align-items:center;padding:0 0 8px;border-bottom:1px solid var(--line)}
+.nav-crumb[hidden],.nav-cut[hidden]{display:none!important}
+.nav-cut button{font:600 11px/1 var(--sans);letter-spacing:.03em;padding:0 10px;border:1px solid var(--line);background:transparent;color:var(--mut);cursor:pointer;margin:0 0 0 -1px;min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+.nav-cut button:first-child{margin-left:0;border-radius:3px 0 0 3px}
+.nav-cut button:last-child{border-radius:0 3px 3px 0}
+.nav-cut button.on{background:var(--ink);color:var(--paper);border-color:var(--ink);position:relative;z-index:1}
+.nav-cut[hidden]{display:none}
+section,.row,.sub,.ch{scroll-margin-top:calc(var(--pin-h) + 12px)}
+.kicker{display:none}
+.logo-link{display:inline-flex;align-items:center;gap:8px;flex:0 0 auto;min-width:44px;min-height:44px;color:var(--ink);text-decoration:none}
+.logo-mark{width:24px;height:24px;display:block;flex:0 0 auto;color:var(--ink)}
+.logo-word{height:22px;width:auto;aspect-ratio:1000/258.41;display:block;flex:0 0 auto}
+.logo-dark{display:none}
+.byline{margin:0;color:var(--mut);font:500 10px/1.2 var(--sans);letter-spacing:.08em;font-variant-caps:all-small-caps;text-transform:lowercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.byline .sep{font-variant-caps:normal;letter-spacing:0;margin:0 .35em}
+.byline .ed{font-variant-caps:normal;letter-spacing:.01em;font-weight:400;text-transform:none;color:var(--mut)}
+header h1{margin:0;font:650 15px/1.1 var(--serif);letter-spacing:-.02em;white-space:nowrap;min-width:0}
+header h1 a{color:inherit;text-decoration:none}
+.ed{margin:0;color:var(--mut);font-size:10px;letter-spacing:.01em}
+#send{display:none;flex:0 0 auto;margin-left:auto;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:0;padding:0 8px;cursor:pointer;font:600 10px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;min-height:32px;align-items:center;justify-content:center}
+#send:hover{background:var(--ink);color:var(--paper)}
+main{max-width:900px;margin:0 auto;padding:16px 20px max(72px,calc(72px + env(safe-area-inset-bottom,0px)))}
+section{background:transparent;border:0;border-radius:0;margin:1.8rem 0 0;overflow:visible}
+.view>section:first-child{margin-top:.4rem}
+.ch{display:flex;align-items:baseline;gap:10px;padding:0 0 10px;cursor:pointer;user-select:none;border-bottom:2px solid var(--rule)}
+.ch h2{margin:0;font:650 1.45rem/1.15 var(--serif);flex:1;letter-spacing:-.015em}
+.car{transition:transform .2s;color:var(--mut);font-size:13px;line-height:1}
+section.closed .car{transform:rotate(-90deg)}
+section.closed .body{display:none}
+section.closed .ch{border-bottom-width:1px;border-bottom-color:var(--line)}
+.top{padding:14px 0 4px}
+.top h4{margin:0 0 8px;font:600 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+.top ol{margin:0;padding-left:1.15rem;font-size:15px}
+.top li{min-height:44px;padding:8px 0;box-sizing:border-box}
+.top a{color:var(--ink);text-decoration:none;font-family:var(--serif);font-weight:550}
+.top a:hover{color:var(--acc)}
+.sh{display:flex;align-items:center;gap:8px;padding:18px 0 2px}
+.sh span.t{flex:1;font:600 11.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--acc)}
+.row{display:flex;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.sh+.row{border-top:0;padding-top:10px}
+.th,.ph{flex:0 0 120px;flex-shrink:0;align-self:flex-start;width:120px;aspect-ratio:3/2;height:auto;border-radius:2px;object-fit:cover;background:var(--wash)}
+.ph{display:flex;align-items:center;justify-content:center;color:#9a968e;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
+.tx{flex:1;min-width:0}
+.tx b{display:block;font:600 1.12rem/1.28 var(--serif);letter-spacing:-.01em}
+.tx .n{color:var(--mut);font-weight:500;margin-right:.4em;font-variant-numeric:tabular-nums;font-family:var(--sans);font-size:.86em}
+.tx p{margin:4px 0 0;color:#3a3834;font-size:15px;line-height:1.45}
+.tx a{color:var(--acc);font-size:13px;font-weight:600;letter-spacing:.02em;text-decoration:none}
+.tx a:hover{text-decoration:underline}
+.dt{color:var(--mut);font-size:13px}
+.more{display:none}
+.sub.open .more{display:flex}
+.mt{margin:2px 0 8px;border:0;background:none;color:var(--mut);cursor:pointer;font:600 13px/1.4 var(--sans);padding:0;letter-spacing:.02em;min-height:44px;display:inline-flex;align-items:center}
+.mt:hover{color:var(--acc)}
+.v{display:flex;flex-direction:column;gap:0;align-items:center;flex:0 0 auto;margin-left:4px}
+.v button{border:0;background:transparent;border-radius:3px;cursor:pointer;font-size:14px;padding:0;opacity:.4;line-height:1;color:var(--ink);min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+.v button:hover{opacity:1;background:var(--wash)}
+.v button.on{opacity:1}
+.v button.on.up{background:#e7f1ea;color:var(--up)}
+.v button.on.dn{background:#f6e8e4;color:var(--dn)}
+.v button.on.ne{background:var(--wash);color:var(--ne)}
+.ch .v,.sh .v{flex-direction:row;align-items:center}
+.ch .v button{font-size:14px}
+@media(max-width:599px){
+  .pin,.side{display:contents}
+  .stick{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"header util" "feeds feeds" "crumb crumb" "secs cut";column-gap:4px;align-items:center}
+  .stick:not(:has(.nav-cut:not([hidden]))){grid-template-areas:"header util" "feeds feeds" "crumb crumb" "secs secs"}
+  header{grid-area:header;max-width:none;padding:0 0 0 12px;min-height:48px}
+  .nav-util{grid-area:util;max-width:none;padding:0 12px 0 4px;min-height:48px}
+  .nav-cut{grid-area:cut;justify-content:flex-end;padding:0 12px 0 0;border-bottom:0}
+  .nav-crumb{padding-left:12px;padding-right:12px}
+  .nav-secs{padding:0 12px}
+  main{padding-left:14px;padding-right:14px}
+  header h1{font-size:14px}
+  .logo-word,.byline,#send{display:none!important}
+  .nav-util a{margin-right:8px}
+  .nav-secs button{margin-right:12px;font-size:14px}
+  .pin.scrolled .nav-crumb{padding-top:2px;font-size:12px}
+  .th,.ph{flex:0 0 76px;flex-shrink:0;align-self:flex-start;width:76px;aspect-ratio:3/2;height:auto;object-fit:cover}
+  .tx b{font-size:1.02rem}
+  .tx p{font-size:14px}
+  .row{gap:10px;padding:10px 0}
+}
+@media(max-width:430px){
+  header{padding-left:10px}
+  .nav-util{padding-right:10px}
+  .nav-cut{padding-right:10px}
+  .nav-crumb,.nav-secs,main{padding-left:12px;padding-right:12px}
+  header h1{font-size:13.5px}
+  .tx b{font-size:1rem}
+  .tx p{font-size:13.5px;line-height:1.4}
+  .row{gap:8px;padding:8px 0}
+  .th,.ph{flex:0 0 72px;width:72px}
+}
+@media(max-height:420px) and (min-aspect-ratio:5/4){
+  .byline,.logo-word,#send{display:none!important}
+  header h1{font-size:13.5px}
+}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  body{padding-top:0}.frame{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,3fr);grid-template-rows:var(--pin-h) 1fr;grid-template-areas:"pin pin" "side main";align-items:start;width:100%;max-width:1400px;margin:0 auto}
+  .stick{display:contents;position:static;padding:0;border:0;box-shadow:none;background:transparent}
+  .pin{grid-area:pin;position:fixed;top:0;left:0;right:0;width:auto;z-index:80;min-height:0;background:var(--bg);border-top:2px solid var(--rule);border-bottom:1px solid var(--line);box-shadow:0 8px 18px -12px rgba(20,19,17,.2);padding-top:env(safe-area-inset-top,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+  .pin{display:flex;align-items:center;min-height:0;box-sizing:border-box}
+  header,.nav-util{max-width:none;margin:0}
+  header{flex:1;min-width:0;padding:0 12px 0 16px;min-height:52px}
+  .mast{min-height:52px}
+  .nav-util{flex:0 0 auto;padding:0 16px 0 8px;min-height:52px;border-bottom:0}
+  #send{display:inline-flex}
+  .side{grid-area:side;display:block;position:-webkit-sticky;position:sticky;top:var(--pin-h);z-index:40;align-self:start;box-sizing:border-box;width:100%;max-width:none;margin:0;height:calc(100dvh - var(--pin-h) - env(safe-area-inset-bottom,0px));overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:var(--bg);border-right:1px solid var(--line);padding:16px 16px max(24px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+  .nav-crumb{display:block;white-space:normal;overflow:visible;text-overflow:unset;padding:0 0 12px;line-height:1.4}
+  .nav-cut{display:flex;justify-content:flex-start;border-bottom:0;padding:0 0 14px;margin:0}
+  .nav-secs{display:flex;flex-direction:column;align-items:stretch;overflow:visible;flex-wrap:nowrap;border-bottom:0;margin:0;padding:0;gap:0}
+  .nav-secs button{width:100%;margin:0;padding:0 12px;justify-content:flex-start;text-align:left;white-space:normal;border-bottom:0;border-left:2px solid transparent;border-radius:0;min-height:44px;min-width:44px}
+  .nav-secs button.on,.nav-secs button.spy{border-left-color:var(--acc);background:var(--wash);color:var(--ink)}
+  main{grid-area:main;max-width:none;margin:0;padding:16px 20px max(72px,calc(32px + env(safe-area-inset-bottom,0px))) 24px;container-type:inline-size;container-name:stories}
+  .row{padding:12px 0}
+  .th,.ph{flex:0 0 100px;width:100px}
+}
+@container stories (min-width:520px){
+  .sub{display:grid;grid-template-columns:1fr 1fr;column-gap:20px;align-items:start}
+  .sub>.sh,.sub>.mt{grid-column:1/-1}
+  .th,.ph{flex:0 0 72px;width:72px}
+  .tx b{font-size:1.05rem}
+  .tx p{font-size:14px}
+}
+@media(horizontal-viewport-segments:2){
+  .frame{grid-template-columns:env(viewport-segment-width 0 0,1fr) env(viewport-segment-width 1 0,3fr)}
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#1c1b19;--paper:#24221f;--ink:#f3efe6;--mut:#a8a49a;--line:#3a3732;--rule:#f3efe6;--acc:#e06a4f;--wash:#2c2a26;--up:#7dcea0;--dn:#e06a4f;--ne:#b0aca3}
+  html{color-scheme:dark}
+  body{background:var(--bg);color:var(--ink)}
+  .stick,.pin,.side{box-shadow:none}
+  .stick,.pin{box-shadow:0 8px 18px -12px rgba(0,0,0,.55)}
+  .tx p{color:#d7d2c8}
+  .ph{color:#7a756c}
+  #send:hover{background:var(--ink);color:var(--bg)}
+  .nav-cut button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .v button.on.up{background:#1d3a2a;color:var(--up)}
+  .v button.on.dn{background:#3a221e;color:var(--dn)}
+  .v button.on.ne{background:var(--wash);color:var(--ne)}
+  .logo-word.logo-light{display:none}
+  .logo-word.logo-dark{display:block}
+  .logo-mark{color:var(--ink)}
+}
+@media (display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui){
+  .stick,.pin{padding-top:env(safe-area-inset-top,0px)}
+}
+
+#refresh{flex:0 0 auto;width:44px;height:44px;margin:0;padding:0;border:0;background:transparent;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;border-radius:0}
+#refresh:hover{color:var(--acc)}
+#refresh svg{width:20px;height:20px;display:block}
+#refresh.busy svg{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.updated{flex:0 0 auto;color:var(--mut);font:500 10px/1 var(--sans);letter-spacing:.04em;white-space:nowrap;margin:0 4px 0 0}
+#refresh-bar{position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--acc);transform-origin:left;transform:scaleX(0);pointer-events:none;z-index:90}
+#refresh-bar.on{display:block;animation:loadbar 1s ease-in-out infinite}
+@keyframes loadbar{0%{transform:scaleX(0);opacity:.3}50%{transform:scaleX(1);opacity:1}100%{transform:scaleX(0);opacity:.3}}
+.tag-new{display:inline-block;margin:0 6px 0 0;padding:1px 5px;border:1px solid var(--acc);color:var(--acc);font:650 9px/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase;vertical-align:middle}
+.row.fresh{animation:freshfade 2.8s ease}
+@keyframes freshfade{0%{background:color-mix(in srgb,var(--acc) 16%,transparent)}100%{background:transparent}}
+#toast{position:fixed;left:50%;bottom:max(24px,calc(16px + env(safe-area-inset-bottom,0px)));transform:translateX(-50%);background:var(--ink);color:var(--paper);font:600 13px/1.3 var(--sans);letter-spacing:.02em;padding:10px 16px;border-radius:2px;z-index:200;box-shadow:0 8px 24px rgba(20,19,17,.25);opacity:0;pointer-events:none;transition:opacity .2s}
+#toast.show{opacity:1}
+
+/* in-app reader */
+.row .th,.row .ph,.row .tx b,.row .rlink{cursor:pointer}
+a.rlink{display:flex;gap:inherit;align-items:flex-start;flex:1;min-width:0;color:inherit;text-decoration:none;-webkit-tap-highlight-color:rgba(155,44,26,.12)}
+a.rlink:hover b{color:var(--acc)}
+.row .rs{color:var(--acc);font:600 13px/1.4 var(--sans)}
+.buildstamp{margin:24px 0 8px;padding:0 4px;color:var(--mut);font:500 10px/1.2 var(--sans);letter-spacing:.06em;opacity:.7}
+#reader{display:none;background:var(--bg);min-width:0;box-sizing:border-box}
+body.reading{overflow:hidden;overscroll-behavior:none;height:100vh;height:-webkit-fill-available;height:100dvh}
+body.reading .buildstamp{display:none!important}
+body.reading #m{display:none!important}
+body.reading #reader{
+  display:flex;flex-direction:column;
+  position:fixed;z-index:50;
+  top:var(--pin-h);left:0;right:0;bottom:0;
+  width:auto;
+  height:calc(100vh - var(--pin-h));
+  height:calc(100dvh - var(--pin-h));
+  min-height:calc(100vh - var(--pin-h));
+  min-height:calc(100dvh - var(--pin-h));
+  padding:0 16px env(safe-area-inset-bottom,0px);
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  overflow:hidden;
+  background:var(--bg);
+}
+.rbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;position:relative;top:auto;z-index:5;flex:0 0 auto;background:var(--bg);border-bottom:1px solid var(--line);padding:4px 0 8px;margin:0 0 12px}
+#rback{flex:0 0 auto;width:44px;height:44px;margin:0;padding:0;border:0;background:transparent;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+#rback:hover{color:var(--acc)}
+#rback svg{display:block}
+.rsrc{font:650 11.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mut);min-width:0}
+.rorig{margin-left:auto;font:600 12px/1 var(--sans);letter-spacing:.04em;color:var(--acc);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;padding:0 4px;white-space:nowrap}
+.rorig:hover{text-decoration:underline}
+#rvotes{flex:0 0 auto}
+#rbody{max-width:720px;flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch}
+#rbody.loading{display:flex;align-items:center;justify-content:center;min-height:0;flex:1 1 auto;color:var(--mut)}
+#rbody .rspinner{width:28px;height:28px;border:2px solid var(--line);border-top-color:var(--acc);border-radius:50%;animation:spin .8s linear infinite}
+#rbody h1{font:600 1.7rem/1.25 var(--serif);margin:0 0 8px;color:var(--ink)}
+#rbody .rby{margin:0 0 16px;color:var(--mut);font:500 14px/1.4 var(--sans)}
+#rbody .rby .rdate{font-weight:400}
+#rbody .rhero{display:block;width:100%;max-height:360px;object-fit:cover;border-radius:2px;margin:0 0 20px;background:var(--wash)}
+#rbody .rhtml{font:400 1.05rem/1.65 var(--serif);color:var(--ink)}
+#rbody .rhtml p,#rbody .rhtml li{margin:0 0 1em}
+#rbody .rhtml h2,#rbody .rhtml h3,#rbody .rhtml h4{font-family:var(--serif);font-weight:600;line-height:1.3;margin:1.4em 0 .5em}
+#rbody .rhtml img{max-width:100%;height:auto;border-radius:2px;margin:.4em 0}
+#rbody .rhtml a{color:var(--acc)}
+#rbody .rhtml blockquote{margin:0 0 1em;padding:0 0 0 14px;border-left:2px solid var(--line);color:var(--mut)}
+#rbody .rhtml .trimmed{color:var(--mut);letter-spacing:.2em}
+#rbody .rnote{background:var(--wash);border:1px solid var(--line);padding:14px 16px;margin:0 0 16px;font:400 15px/1.5 var(--sans);color:var(--ink)}
+#rbody .rnote a{color:var(--acc)}
+#rbody .rsum{font:400 1.05rem/1.6 var(--serif);margin:0 0 1em}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  body.reading .frame{height:100vh;height:100dvh;overflow:hidden;align-items:stretch}
+  #reader{grid-area:main;max-width:none;margin:0;display:none;flex-direction:column}
+  body.reading #reader{
+    display:flex;flex-direction:column;
+    position:relative;z-index:auto;
+    top:auto;left:auto;right:auto;bottom:auto;
+    width:auto;max-width:none;margin:0;
+    height:calc(100vh - var(--pin-h));
+    height:calc(100dvh - var(--pin-h));
+    min-height:calc(100vh - var(--pin-h));
+    min-height:calc(100dvh - var(--pin-h));
+    padding:0 20px env(safe-area-inset-bottom,0px) 24px;
+    overflow:hidden;
+    background:var(--bg);
+  }
+  .rbar{top:auto;flex:0 0 auto}
+  #rbody{flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch}
+}
+@media(max-width:599px){.updated,#send{display:none!important}}
+
+.nav-feeds{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;gap:0}
+.nav-feeds::-webkit-scrollbar{display:none}
+.nav-feeds a{flex:0 0 auto;font:600 13.5px/1 var(--sans);padding:0 8px;margin-right:8px;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;min-height:36px;display:inline-flex;align-items:center}
+.nav-feeds a:hover{color:var(--ink)}
+.nav-feeds a.on,.nav-feeds a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink)}
+@media(max-width:599px){
+  .nav-feeds{grid-area:feeds;padding:0 12px}
+}
+@media(max-height:420px) and (min-aspect-ratio:5/4){
+  .nav-feeds{display:none}
+}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  .nav-feeds{display:flex;flex-direction:column;align-items:stretch;overflow:visible;flex-wrap:nowrap;border-bottom:1px solid var(--line);margin:0 0 12px;padding:0 0 8px}
+  .nav-feeds a{width:100%;margin:0;padding:0 12px;justify-content:flex-start;text-align:left;white-space:normal;border-bottom:0;border-left:2px solid transparent;min-height:40px}
+  .nav-feeds a.on,.nav-feeds a[aria-current=page]{border-bottom:0;border-left-color:var(--ink);background:var(--wash);color:var(--ink)}
+  .nav-feeds a:hover,.nav-feeds a:focus{color:var(--ink);background:var(--wash)}
+}
+</style></head><body>
+<div class="frame">
+<div class="stick" id="stick">
+<div class="pin" id="pin">
+<header><div class="mast"><a class="logo-link" href="https://www.33fg.com/" target="_blank" rel="noopener" aria-label="Mach33"><svg class="logo-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M500,68.71C261.8,68.71,68.71,261.81,68.71,500c0,238.2,193.09,431.29,431.29,431.29c238.19,0,431.29-193.09,431.29-431.29
+	C931.29,261.81,738.19,68.71,500,68.71z M246.22,740.08l-8.24-19.42c81.2-14.71,181.82-62.96,181.82-145.34
+	c0-69.43-73.55-90.03-113.56-90.03l-5.3-15.89c68.26-49.42,95.33-79.43,95.33-122.39c0-39.42-22.95-44.72-37.66-44.72
+	c-24.72,0-54.14,14.13-81.21,32.37l-11.76-17.07l81.79-57.66c38.83,0,135.92,13.53,135.92,90.03c0,62.96-60.61,97.67-89.44,104.15
+	c27.07,0,117.1,13.53,117.1,100.03C511.01,669.47,325.66,728.9,246.22,740.08z M487.47,740.08l-8.24-19.42
+	c81.21-14.71,181.82-62.96,181.82-145.34c0-69.43-73.55-90.03-113.56-90.03l-5.3-15.89c68.26-49.42,95.33-79.43,95.33-122.39
+	c0-39.42-22.95-44.72-37.66-44.72c-24.71,0-54.14,14.13-81.2,32.37l-11.77-17.07l81.79-57.66c38.83,0,135.92,13.53,135.92,90.03
+	c0,62.96-60.6,97.67-89.44,104.15c27.07,0,117.1,13.53,117.1,100.03C752.26,669.47,566.91,728.9,487.47,740.08z"/></svg><img class="logo-word logo-light" src="/morning-briefing/img/mach33-wordmark-black.svg?v=3" alt="" width="85" height="22"><img class="logo-word logo-dark" src="/morning-briefing/img/mach33-wordmark-white.svg?v=3" alt="" width="85" height="22"></a><h1><a href="../">Morning Briefing</a></h1><p class="byline">for J. Brant Arseneau<span class="sep"> · </span><span class="ed">Monday, November 16, 2026</span></p><button type="button" id="refresh" aria-label="Refresh news" title="Refresh news"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></button><span id="updated" class="updated" hidden></span><div id="refresh-bar" hidden></div><button id="send">Feedback</button></div></header>
+<nav class="nav-util" aria-label="Edition"><a href="../#today" class="on" aria-current="page">Today</a><a href="../#history">History</a><a href="../#likes">Likes</a></nav>
+</div>
+<aside class="side" id="side">
+  <nav class="nav-feeds" aria-label="Feeds"><a href="../news/" data-feed="news">Global News</a><a href="../scitech/" data-feed="scitech">Science &amp; Technology</a><a href="../papers/" data-feed="papers">Research Papers</a></nav>
+  <nav class="nav-crumb" id="crumb" aria-label="Breadcrumb" hidden></nav>
+  <div class="nav-cut" id="cutslot" hidden></div>
+  <nav class="nav-secs" id="secs" aria-label="Sections"></nav>
+</aside>
+</div>
+<main id="m"></main>
+<article id="reader" hidden>
+  <div class="rbar">
+    <button type="button" id="rback" aria-label="Back to stories" title="Back">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <span id="rsrc" class="rsrc"></span>
+    <a id="rorig" class="rorig" target="_blank" rel="noopener">Open original</a>
+    <span id="rvotes"></span>
+  </div>
+  <div id="rbody"></div>
+</article>
+</div>
+<p class="buildstamp">v20261117-0203</p>
+<script>
+const DATA=[{"cat": "Technology business news", "subs": [{"sub": "Big Tech", "items": [[1, "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO", "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.", "CNBC", "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html", "Nov 15", "818dc1b648.jpg", "u818dc1b648", "2026-11-16T05:32:00-0500", true], [2, "Former Nvidia CEO Jensen Huang Agrees to Private House Testimony", "House China committee Chairman John Moolenaar said no date has been set. A separately requested Dec. 1 briefing date is not confirmed for Huang’s appearance.", "Tokenpost", "https://www.tokenpost.com/news/regulation/57885", "Nov 15", "d651f5871f.jpg", "ud651f5871f", "2026-11-16T05:32:00-0500", true], [3, "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter", "CEO ousted after affair with suspected Chinese spy reportedly plans comeback, as US treasury secretary urges ‘dramatic shake-up’ Megaspeed says it’s a ‘legitimate and lawful business’ Business live – latest updates Elon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatemen", "The Guardian", "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo", "Nov 16", "97a84867df.jpg", "u97a84867df", "2026-11-16T05:30:18-0500", true], [4, "The tech world's calls for Jensen Huang to return to Nvidia are growing", "Calls for Jensen Huang's return as Nvidia CEO are growing, with tech executives and major shareholders backing a potential comeback following his resignation.", "CNBC", "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html", "Nov 15", "a25cede273.jpg", "ua25cede273", "2026-11-16T05:30:18-0500", true], [5, "Apple Was Late to Video Podcasts. Now It’s Trying to Catch Up.", "They will soon be free to all Apple TV users and will appear on more than 1 billion devices that have the app, including Rokus and smart TVs.", "The New York Times", "https://www.nytimes.com/2026/11/16/business/media/apple-tv-podcasts-youtube.html", "Nov 16", "ec462ae821.jpg", "uec462ae821", "2026-11-16T05:30:18-0500", true], [6, "Apple MacBook Pro M6 review: probably the last of its generation", "Spec bump adds power to exceptionally long battery life in base-model Pro laptop, but is overshadowed by a new design Apple’s base-model MacBook Pro gets a solid speed bump, offering most of the features from its top-level siblings but in a design that has just been superseded and may soon be phased", "The Guardian", "https://www.theguardian.com/technology/2026/nov/16/apple-macbook-pro-m6-review-battery-laptop", "Nov 16", "b24ba7ef81.jpg", "ub24ba7ef81", "2026-11-16T05:30:18-0500", true], [7, "Jensen Huang allies campaign to reinstate the former Nvidia boss", "Tech leaders, including Elon Musk, are among those backing a campaign to \"Bring Jensen Back\".", "BBC", "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss", "Nov 16", "349134aed1.jpg", "u349134aed1", "2026-11-16T07:16:50-0500", true], [8, "Exclusive: Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings | TechCrunch", "Geothermal heat pumps could free up significant space on the grid. Bedrock Energy raised $24 million to bring its AI-guided drill rigs to more markets.", "TechCrunch", "https://techcrunch.com/2026/11/16/bedrock-energy-raises-24m-to-build-more-ai-enabled-geothermal-drill-rigs-for-enterprise-buildings/", "Nov 16", "e468305f12.jpg", "ue468305f12", "2026-11-16T08:21:50-0500", true], [9, "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM | TechCrunch", "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.", "TechCrunch", "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/", "Nov 16", "8cd345b9ca.jpg", "u8cd345b9ca", "2026-11-16T08:21:50-0500", true]]}, {"sub": "Enterprise & software", "items": [[10, "US flight cancellations top 17,000 in worst tech-related outage", "Airlines and passengers are still reeling from the days of disruption.", "The Straits Times", "https://www.straitstimes.com/world/united-states/us-flight-cancellations-top-17000-in-worst-tech-related-outage", "Nov 16", "e830e53959.jpg", "ue830e53959", "2026-11-16T05:30:18-0500", true], [11, "AWS breaks ground on $7bn data center in Indiana", "Also purchases land in Chantilly, Virginia, for data center", "Data Center Dynamics", "https://www.datacenterdynamics.com/en/news/aws-breaks-ground-on-7bn-data-center-in-indiana/", "Nov 16", "aa6ce228d0.jpg", "uaa6ce228d0", "2026-11-16T05:30:18-0500", true], [12, "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China", "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more", "The Register", "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993", "Nov 15", "1960f2aa7b.jpg", "u1960f2aa7b", "2026-11-16T05:30:18-0500", true], [13, "Developer creates a 100% valid ZIP file that doubles as a BIOS-bootable operating system — hiding BIOS boot flags inside uncompressed files ", "Crafty techie concocts ZIP that's simultaneously a valid archive, BIOS-bootable, and a Multiboot image", "Tomshardware", "https://www.tomshardware.com/software/operating-systems/developer-creates-a-100-percent-valid-zip-file-that-doubles-as-a-bios-bootable-operating-system-hiding-bios-boot-flags-inside-uncompressed-files-and-turning-file-headers-into-cpu-instructions", "Nov 16", "c7fb6aaee0.jpg", "uc7fb6aaee0", "2026-11-16T05:30:18-0500", true], [14, "Leaked Credentials Are an Enterprise Problem: GitGuardian Extends Its Good Samaritan Program to Security Teams – NextBigFuture.com", "New York, USA, 16th November 2026, CyberNewswire", "Nextbigfuture", "https://www.nextbigfuture.com/2026/11/leaked-credentials-are-an-enterprise-problem-gitguardian-extends-its-good-samaritan-program-to-security-teams.html", "Nov 16", "", "u1ffe4b00b0", "2026-11-16T08:21:50-0500", true], [15, "Customers report difficulty accessing online services at major US banks", "Bank of America, Chase, US Bank, Wells Fargo and Truist were listed by users who have been experiencing issues Customers reported service outages and difficulty accessing their online accounts at several major US banks and the money transfer service Zelle on Monday after a technical issue at JPMorga", "The Guardian", "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo", "Nov 16", "59e6ae9bc1.jpg", "u59e6ae9bc1", "2026-11-16T17:17:23-0500", true], [16, "JPMorgan Chase says temporary software bug is affecting consumer banking", "CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.", "CNBC", "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html", "Nov 16", "c656102856.jpg", "uc656102856", "2026-11-16T17:17:23-0500", true], [17, "The Bank Outage May Have Nothing to Do With Your Bank", "Amid hundreds of reports of US banks experiencing outages, JPMorganChase says a “technical issue” with its “on-premise hardware systems” may be causing “slowness” with transactions at outside banks.", "WIRED", "https://www.wired.com/story/jpmorganchase-bank-outage-oh-come-on/", "Nov 16", "54c0ac053b.jpg", "u54c0ac053b", "2026-11-16T17:17:23-0500", true], [18, "Chase says ‘software bug’ could be causing disruptions at major U.S. banks", "Some customers are saying they can’t access their accounts or their unable to withdraw funds.", "Marketwatch", "https://www.marketwatch.com/story/customers-of-chase-bank-of-america-and-other-u-s-banks-report-service-outages-18fe23b8?mod=mw_rss_topstories", "Nov 16", "d3bc19bb93.jpg", "ud3bc19bb93", "2026-11-16T17:17:23-0500", true], [19, "Customers report outages at Chase, Bank of America and Wells Fargo", "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".", "BBC", "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss", "Nov 16", "66cb3d97bd.jpg", "u66cb3d97bd", "2026-11-16T18:23:22-0500", true]]}, {"sub": "Semis & hardware business", "items": [[20, "Rapidus sets 2nm chip mass production for late 2027", "Rapidus President Atsuyoshi Koike said on November 13 that the Japanese semiconductor venture plans to begin mass production of 2nm chips in late 2027 or early 2028. The timeline provides a more specific target after reports raised concerns about delays in developing key SRAM technology.", "DigiTimes", "https://www.digitimes.com/news/a20261116PD216/rapidus-2nm-production-2027-chips.html", "Nov 15", "cb374ecd92.jpg", "ucb374ecd92", "2026-11-16T05:30:18-0500", true], [21, "Samsung reportedly to make Starlink chips at Austin fab, deepening space push", "Samsung will reportedly begin making Starlink chips at its Austin, Texas, fab. The chipmaker plans to use its Texas facilities to pursue a two-track semiconductor strategy, set up production near target markets, and push into the satellite sector.", "DigiTimes", "https://www.digitimes.com/news/a20261116VL215/samsung-austin-chips-starlink-plant.html", "Nov 15", "4134c8361c.jpg", "u4134c8361c", "2026-11-16T05:30:18-0500", true], [22, "SK Hynix's Trinity Fab aims to shorten suppliers' path to chip production", "A new open test facility inside SK Hynix's Yongin semiconductor cluster is designed to address a costly bottleneck for domestic suppliers: proving that materials, components, and equipment can perform reliably under mass-production conditions before entering a chipmaker's production line.", "DigiTimes", "https://www.digitimes.com/news/a20261116VL216/sk-hynix-production-trinity-equipment-cleanroom.html", "Nov 16", "30785ea2a8.jpg", "u30785ea2a8", "2026-11-16T05:30:18-0500", true], [23, "Intel sued by investors after PC sales slump hits share price", "A proposed class action claims the firm hid the impact of slowing PC sales from shareholders.", "BBC", "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss", "Nov 15", "501905f9bb.jpg", "u501905f9bb", "2026-11-16T05:30:18-0500", true], [24, "Daikin unveils 60MW liquid-cooling reference design for Nvidia AI data centers", "Daikin Applied Americas, the US subsidiary of Daikin Industries, unveiled the D60-W cooling reference architecture on November 11 for AI factories built around Nvidia's next-generation Vera Rubin NVL72 AI supercomputer. The design supports up to 60MW of IT load and is intended to help data-center op", "DigiTimes", "https://www.digitimes.com/news/a20261116PD234/cooling-design-nvidia-americas-subsidiary.html", "Nov 16", "175090bb18.jpg", "u175090bb18", "2026-11-16T05:30:18-0500", true], [25, "DeepSeek reportedly curbs AI chat access as computing capacity struggles to keep pace", "Chinese AI startup DeepSeek has imposed usage limits on its app and web services, with users reporting restrictions attributed to insufficient computing capacity. Long conversations inactive for more than seven days are no longer supported, while the maximum text input per request has been reduced t", "DigiTimes", "https://www.digitimes.com/news/a20261116PD225/deepseek-capacity-demand.html", "Nov 16", "cbf1f360b3.jpg", "ucbf1f360b3", "2026-11-16T05:30:18-0500", true], [26, "Memory costs top half of budget smartphone BOM in 3Q26", "Memory components accounted for 54% of the bill of materials (BOM) for budget smartphones in the third quarter of 2026, according to Counterpoint Technology Market Research data reported by South Korean publications Herald Business and Digital Daily . The increase was driven by stronger demand from ", "DigiTimes", "https://www.digitimes.com/news/a20261116PD232/budget-bom-materials-demand-data.html", "Nov 16", "286259ab45.jpg", "u286259ab45", "2026-11-16T05:30:18-0500", true], [27, "India touts homegrown 2-micron 5-axis CNC machines as it seeks local semiconductor equipment", "India's electronics and IT minister Ashwini Vaishnaw said on November 14 that the country has developed indigenous five-axis precision CNC machines with 2-micron accuracy, and called for India to build its own machinery and high-precision components for semiconductor manufacturing to reduce reliance", "DigiTimes", "https://www.digitimes.com/news/a20261116VL209/india-cnc-equipment-electronics-manufacturing.html", "Nov 16", "9690275c05.jpg", "u9690275c05", "2026-11-16T05:30:18-0500", true], [28, "Qisda affiliate Ace Pillar deepens semiconductor and AI automation push, expanding into wafer regeneration and SiPh", "Taiwan-based industrial automation and smart manufacturing solutions provider Ace Pillar, an affiliate of Qisda Group, reported strong third-quarter 2026 results as its semiconductor, AI automation and green-energy businesses gained traction. Chairman Joshua Tzeng said the company will anchor its me", "DigiTimes", "https://www.digitimes.com/news/a20261116PD219/qisda-ace-pillar-automation-siph-cpo.html", "Nov 16", "765d00584e.jpg", "u765d00584e", "2026-11-16T05:30:18-0500", true], [29, "Electronica 2026: AI and robotics showcase Europe", "The biennial electronica 2026 exhibition in Munich concluded alongside SEMICON Europa, attracting approximately 3,500 exhibitors and filling all 18 halls at Messe München. About 75% of exhibitors came from outside Germany, including more than 900 Chinese companies, a figure roughly matching Germany'", "DigiTimes", "https://www.digitimes.com/news/a20261116PD222/2026-europe-industrial-data-germany.html", "Nov 16", "c1e2fb18e5.jpg", "uc1e2fb18e5", "2026-11-16T05:30:18-0500", true]]}]}, {"cat": "Investments and deals", "subs": [{"sub": "Venture rounds", "items": [[30, "VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For ‘GDP-Level Impact’", "London-based startup investor Plural, with a portfolio mix of energy, compute, defense, robotics, health and software, says it has closed on its largest fund to date — just over $1.1 billion, or 1 billion euros — to lead early-stage investments across Europe.", "Crunchbase News", "https://news.crunchbase.com/venture/plural-closes-billion-euro-fund-european-ai-robotics-defense-startup-investment/", "Nov 16", "3d00d2b70e.jpg", "u3d00d2b70e", "2026-11-16T05:30:18-0500", true], [31, "Versant, Lilly put $100 million behind new startup aimed at solving one of gene therapy’s thorniest issues", "Versant Ventures, Eli Lilly, and a handful of other investors will pour $100 million into a new startup devoted to solving a thorny gene therapy challenge.", "STAT", "https://www.statnews.com/2026/11/16/versant-lilly-put-100-million-behind-new-startup-aimed-at-solving-one-of-gene-therapys-thorniest-issues/?utm_campaign=rss", "Nov 16", "1e4054651a.jpg", "u1e4054651a", "2026-11-16T05:30:18-0500", true], [32, "Minister says Canada’s national AI literacy training will go live next month | BetaKit", "National rollout will scale programming to just 90 minutes and will be available to all Canadians. The post Minister says Canada’s national AI literacy training will go live next month first appeared on BetaKit .", "BetaKit", "https://betakit.com/minister-says-canadas-national-ai-literacy-training-will-go-live-next-month/", "Nov 16", "3395e53afb.jpg", "u3395e53afb", "2026-11-16T07:16:50-0500", true], [33, "IRCC can’t confirm if Start-Up Visa replacement program details will come this year", "Feds had previously said they would share details on new pilot program in 2026. The post IRCC can’t confirm if Start-Up Visa replacement program details will come this year first appeared on BetaKit .", "BetaKit", "https://betakit.com/ircc-cant-confirm-if-start-up-visa-replacement-program-details-will-come-this-year/", "Nov 16", "12a692f879.jpg", "u12a692f879", "2026-11-16T07:16:50-0500", true], [34, "Verafin alum-led Verlo nabs $4.5 million to build AI operating system for wealth managers", "Staircase Ventures led the St. John’s startup’s round, with backing from Pelorus and Verafin leaders. The post Verafin alum-led Verlo nabs $4.5 million to build AI operating system for wealth managers first appeared on BetaKit .", "BetaKit", "https://betakit.com/verafin-alum-led-verlo-nabs-4-5-million-to-build-ai-operating-system-for-wealth-managers/", "Nov 16", "d0cff6e200.jpg", "ud0cff6e200", "2026-11-16T07:16:50-0500", true], [35, "In The AI Era, Keep Hiring New College Grads — And Make Them Managers From Day One", "As AI takes over entry-level knowledge work, guest authors Bob Morse of Strattam Capital and Michael Quoia of KSE Leadership argue that these workers should begin their careers managing AI agents, developing skills in delegation, oversight and judgment traditionally learned later.", "News", "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse/", "Nov 16", "3b781d29e3.jpg", "u3b781d29e3", "2026-11-16T07:16:50-0500", true], [36, "London-based Plural raised a €1B fund to back European startups, one of only a handful of European VCs that raised €1B+ in one go, planning ", "Financial Times : London-based Plural raised a €1B fund to back European startups, one of only a handful of European VCs that raised €1B+ in one go, planning to back 30+ startups — London-headquartered group announces one of region's biggest-ever venture capital fundings", "Techmeme", "https://www.techmeme.com/261116/p14#a261116p14", "Nov 16", "9fa4888a15.jpg", "u9fa4888a15", "2026-11-16T07:16:50-0500", true], [37, "Did Canada lose its AI chip champions?", "Plus: Real-time rail’s first phase is finally here. The post Did Canada lose its AI chip champions? first appeared on BetaKit .", "BetaKit", "https://betakit.com/how-canada-lost-its-ai-chip-champions/", "Nov 16", "5cfc009c27.jpg", "u5cfc009c27", "2026-11-16T09:19:21-0500", true], [38, "Blackstone Digital Infrastructure Trust acquires majority stake in AWS joint venture for $5bn", "The publicly traded REIT’s inaugural deal covers 13 newly constructed powered shells", "Data Center Dynamics", "https://www.datacenterdynamics.com/en/news/blackstone-digital-infrastructure-trust-acquires-majority-stake-in-aws-joint-venture-for-5bn/", "Nov 16", "942b25be9c.jpg", "u942b25be9c", "2026-11-16T12:20:05-0500", true], [39, "BDC leads investment in Saskatoon company modernizing railway logistics | BetaKit", "Standard Rail’s SIDINGS platform brings railway shipping, booking, and pricing together into a B2B marketplace. The post BDC leads investment in Saskatoon company modernizing railway logistics first appeared on BetaKit .", "BetaKit", "https://betakit.com/bdc-leads-investment-in-saskatoon-company-modernizing-railway-logistics/", "Nov 16", "358715ea5c.jpg", "u358715ea5c", "2026-11-16T12:20:05-0500", true]]}, {"sub": "Public markets & IPOs", "items": [[40, "Nvidia stock falls again as investors price in fallout from Jensen Huang's resignation", "The company was 1.9% down in premarket trading on Monday.", "CNBC", "https://www.cnbc.com/2026/11/16/nvidia-stock-price-jensen-huang.html", "Nov 16", "86306f7ca1.jpg", "u86306f7ca1", "2026-11-16T05:30:18-0500", true], [41, "Jensen Huang leaves Nvidia with a $135 billion stake — here’s when he can sell", "Most of Huang", "Yahoo Finance", "https://finance.yahoo.com/markets/article/jensen-huang-leaves-nvidia-with-a-132-billion-stake--heres-when-he-can-sell-and-why-investors-may-not-know-when-he-does-chart-of-the-day-130732443.html", "Nov 15", "6c6ce724d1.jpg", "u6c6ce724d1", "2026-11-16T05:32:00-0500", true], [42, "‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits $1 trillion", "Kristalina Georgieva says circular financing among AI companies has grown to just over $1 trillion, two-thirds of it debt, as investor enthusiasm cools", "CNBC", "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html", "Nov 16", "af833fbb82.jpg", "uaf833fbb82", "2026-11-16T05:30:18-0500", true], [43, "CNMC Goldmine shares plunge as gold falls below US$4,000", "Spot gold fell 0.24% to US$3,872 an ounce on Nov 16.", "The Straits Times", "https://www.straitstimes.com/business/companies-markets/cnmc-goldmine-shares-plunge-as-gold-falls-below-us4000", "Nov 16", "af697d8113.jpg", "uaf697d8113", "2026-11-16T05:30:18-0500", true], [44, "Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil", "Ulf Lindahl says a storm is brewing for investors in the U.S. stock market, who will also be facing $500 oil in a few years. Here is where he’d shelter.", "Marketwatch", "https://www.marketwatch.com/story/why-this-40-year-market-veteran-is-making-a-lonely-bet-on-a-40-stock-market-crash-and-500-oil-c62aefdb?mod=mw_rss_topstories", "Nov 16", "9c68e8f487.jpg", "u9c68e8f487", "2026-11-16T05:30:18-0500", true], [45, "DBS, JPMorgan launch US-Singapore tokenised deposit service for institutions", "Financial enterprises are seeking faster liquidity management tools to support digital industries 24/7.", "The Straits Times", "https://www.straitstimes.com/business/dbs-jpmorgan-launch-us-singapore-tokenised-deposit-service-for-institutions", "Nov 15", "94ac6922ba.jpg", "u94ac6922ba", "2026-11-16T05:30:18-0500", true], [46, "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter", "Following the donations, the chairman emeritus of Berkshire still owns 182,140 Class A shares -- roughly $162 billion.", "CNBC", "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html", "Nov 16", "2464beb2d2.jpg", "u2464beb2d2", "2026-11-16T07:16:50-0500", true], [47, "Intel sued by shareholders for misleading investors after stock plunges 29% — class action claims the company downplayed the severity of PC ", "The Southfield Fire and Police Retirement System pension fund accuses Intel of withholding important information about its business performance.", "Tomshardware", "https://www.tomshardware.com/pc-components/cpus/intel-sued-by-shareholders-for-misleading-investors-after-stock-plunges-29-percent-class-action-claims-the-company-downplayed-the-severity-of-pc-market-headwinds", "Nov 16", "e98eac5295.jpg", "ue98eac5295", "2026-11-16T08:21:50-0500", true], [48, "Nvidia’s stock extends declines following harsh words from the U.S. government", "The Commerce Department announced a new rule aimed at restricting China’s remote access to advanced chips.", "Marketwatch", "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories", "Nov 16", "7a1df2698c.jpg", "u7a1df2698c", "2026-11-16T11:21:53-0500", true], [49, "Barclays lowers 2027 S&P 500 target as tighter financial conditions weigh", "Expects S&P 500 earnings per share of US$377 in 2026 and US$434 in 2027", "The Globe and Mail", "https://www.theglobeandmail.com/world/article-barclays-lowers-2027-sp-500-target-as-tighter-financial-conditions/", "Nov 16", "0b18e8aca9.jpg", "u0b18e8aca9", "2026-11-16T12:20:05-0500", true]]}, {"sub": "Government contracts", "items": [[50, "Canadian ‘gauntlets’ to turn drone procurement into live competitions", "Ottawa’s Defence Drone Initiative aims to establish marketplace of suppliers, provide opportunities for them to test their hardware", "The Globe and Mail", "https://www.theglobeandmail.com/business/economy/article-canadian-gauntlets-to-turn-drone-procurement-into-live-competitions/", "Nov 16", "fb8913f83d.jpg", "ufb8913f83d", "2026-11-16T05:30:18-0500", true], [51, "Ministers to end Palantir’s contract with NHS in England in 2029", "DHSC to extend US tech firm’s contract for two more years to allow time to line up British companies to replace it Ministers will end the NHS’s contract with the controversial tech firm Palantir – but not until 2029, to allow time to line up British companies to replace it. The Department of Health ", "The Guardian", "https://www.theguardian.com/society/2026/nov/16/ministers-to-end-palantir-contract-nhs-england-2029", "Nov 16", "6ed8ff198f.jpg", "u6ed8ff198f", "2026-11-16T15:18:48-0500", true], [52, "Pentagon fails 9th audit, asserts path towards clean books in 2028 - Breaking Defense", "“While we have made progress… [with] the most important development is our change in audit strategy,” the department’s comptroller Jules Hurst told reporters last week.", "Breakingdefense", "https://breakingdefense.com/2026/11/pentagon-fails-9th-audit-asserts-path-towards-clean-books-in-2028/", "Nov 16", "d8693c4b52.jpg", "ud8693c4b52", "2026-11-16T17:17:23-0500", true], [53, "Pentagon fails ninth straight audit despite progress in organising finances", "The Pentagon has ​failed to pass annual audits since 2018 because of its ⁠system and accounting problems.", "The Straits Times", "https://www.straitstimes.com/world/pentagon-fails-ninth-straight-audit-despite-progress-in-organising-finances", "Nov 16", "36d6a15e71.jpg", "u36d6a15e71", "2026-11-16T18:23:22-0500", true], [54, "US Pentagon rejects allegations linking deputy to a Goldman Sachs banker", "Pentagon defends Steve Feinberg, amid claims in Bloomberg he encouraged defence contractors to use a specific banker.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/16/us-pentagon-rejects-allegations-linking-deputy-to-a-goldman-sachs-banker?traffic_source=rss", "Nov 16", "c95ec2cf0f.jpg", "uc95ec2cf0f", "2026-11-16T18:23:22-0500", true], [55, "Appeals Court Weighs Pentagon’s Media Restrictions", "A three-judge panel considered the requirement that journalists be accompanied by an escort when visiting the Pentagon. The New York Times sued to block the restriction.", "The New York Times", "https://www.nytimes.com/2026/11/16/business/media/pentagon-media-restrictions-court-hearing.html", "Nov 16", "54d33b9b0c.jpg", "u54d33b9b0c", "2026-11-16T19:18:24-0500", true], [56, "Senate appropriators unveil $1.1T Pentagon spending bill, folding in reconciliation priorities - Breaking Defense", "Nearly $69 billion in money sought by the White House through reconciliation will be rolled into the base budget under the Senate appropriator’s plan.", "Breakingdefense", "https://breakingdefense.com/2026/11/senate-appropriators-unveil-1-1t-pentagon-spending-bill-folding-in-reconciliation-priorities/", "Nov 16", "9f98d496eb.jpg", "u9f98d496eb", "2026-11-16T21:19:22-0500", true]]}]}, {"cat": "Sciences", "subs": [{"sub": "Physics & Astronomy", "items": [[57, "APOD: 2026 November 16 - NGC 7129: Star Formation with Jets from Webb - NASA Science", "APOD Science APOD APOD: 2026 November 16 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation w", "NASA", "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/", "Nov 16", "36bf02a2da.jpg", "u36bf02a2da", "2026-11-16T05:30:18-0500", true], [58, "Starwatch: Fleeting brilliance of Leonid meteor shower to hit peak", "Annual display appears to radiate from constellation of Leo in eastern sky as Earth passes through comet debris stream The annual Leonid meteor shower reaches its peak this week, offering a chance to count meteors. The shower is expected to be at its most active during the night of 17–18 November. U", "The Guardian", "https://www.theguardian.com/science/2026/nov/16/starwatch-fleeting-brilliance-of-leonid-meteor-shower-to-hit-peak", "Nov 16", "40dd251760.jpg", "u40dd251760", "2026-11-16T05:30:18-0500", true], [59, "Jersey pupils fascinated by space get astronomy lesson", "Pupils at First Tower School get a visit from a University of Cambridge astronomer.", "BBC", "https://www.bbc.co.uk/news/articles/c67428w9vvkqo?at_medium=RSS&at_campaign=rss", "Nov 16", "024393aa4d.jpg", "u024393aa4d", "2026-11-16T07:16:50-0500", true], [60, "UK weather: Met Office warnings for snow as temperatures plummet", "A spell of colder, wintry weather will grip some northern parts of the UK, bringing a threat of ice and hill snow at times.", "BBC", "https://www.bbc.co.uk/weather/articles/c6y97j2xq531o?at_medium=RSS&at_campaign=rss", "Nov 16", "7d2449804f.jpg", "u7d2449804f", "2026-11-16T07:16:50-0500", true], [61, "Experts explore returning beavers to River Waveney", "A trust says the river-dwelling mammals could improve the health of the waterway.", "BBC", "https://www.bbc.co.uk/news/articles/cm3rglzqjl90o?at_medium=RSS&at_campaign=rss", "Nov 16", "7203d1366b.jpg", "u7203d1366b", "2026-11-16T07:16:50-0500", true], [62, "Can the Amazon survive the largest El Niño in living memory?", "As the strongest El Niño on record drives drought and fire, researchers warn the Amazon rainforest may be approaching a point of no return", "Scientific American", "https://www.scientificamerican.com/article/can-the-amazon-rainforest-survive-the-largest-el-nino-in-living-memory/", "Nov 16", "001f22b360.jpg", "u001f22b360", "2026-11-16T07:16:50-0500", true], [63, "The symmetry of the universe may have broken in the first seconds of time", "Some rules of physics might have been different just after the big bang, scientists have found", "Scientific American", "https://www.scientificamerican.com/article/the-symmetry-of-the-universe-may-have-broken-in-the-first-seconds-of-time/", "Nov 16", "c805aeb60c.jpg", "uc805aeb60c", "2026-11-16T07:16:50-0500", true], [64, "Hormone therapy may improve cognition after menopause", "But how much depends on your genetics and the type of hormone therapy your doctor prescribes", "Scientific American", "https://www.scientificamerican.com/article/hormone-therapy-may-improve-cognition-after-menopause/", "Nov 16", "e45219faa1.jpg", "ue45219faa1", "2026-11-16T07:16:50-0500", true], [65, "A Roman-era frog whodunit and other fascinating science tidbits", "How archaeologists solved a Roman-era frog whodunnit, what SciAm was covering back in the day, and why fossil fuel emissions are dropping this year", "Scientific American", "https://www.scientificamerican.com/podcast/episode/ancient-frog-murder-mystery-sciam-history-highlights-and-surprising-climate-news/", "Nov 16", "5c1f520e92.jpg", "u5c1f520e92", "2026-11-16T07:16:50-0500", true], [66, "AI has put young mathematicians in an impossible situation", "A survey of 268 graduate students and postdocs reveals researchers are unsure of their future in mathematics and uneasy about using AI—the very technology they fear", "Scientific American", "https://www.scientificamerican.com/article/math-students-fear-ai-will-take-their-jobs-theyre-using-it-anyway/", "Nov 16", "", "u4dd0522aa9", "2026-11-16T09:19:21-0500", true]]}, {"sub": "Biology & Medicine", "items": [[67, "F.D.A. Rejects Closely Watched Lung Cancer Drug From China", "The treatment, called ivonescimab, has become a symbol of China’s rise in drug development.", "The New York Times", "https://www.nytimes.com/2026/11/15/business/fda-lung-cancer-drug-china.html", "Nov 15", "b2fa6b9467.jpg", "ub2fa6b9467", "2026-11-16T05:30:18-0500", true], [68, "BeOne, Hengrui top list of China’s most powerful drugmakers", "A new STAT-WireScreen index ranks China's most valuable publicly traded biotech companies. See which one topped the list.", "STAT", "https://www.statnews.com/2026/11/16/beone-hengrui-top-list-of-chinas-most-powerful-drugmakers/?utm_campaign=rss", "Nov 16", "2ff97a63e7.jpg", "u2ff97a63e7", "2026-11-16T05:30:18-0500", true], [69, "With Stephen Miller as chief of staff, Kennedy's MAHA agenda is reinvigorated", "The appointment of Stephen Miller as White House chief of staff has health secretary RFK Jr. invigorated. A top deputy is telling people it's go time for MAHA.", "STAT", "https://www.statnews.com/2026/11/16/stephen-miller-chief-of-staff-boosts-power-of-kennedy-maha/?utm_campaign=rss", "Nov 16", "cb4d947bb8.jpg", "ucb4d947bb8", "2026-11-16T05:30:18-0500", true], [70, "Venture capitalist John Doerr says AI company, named for his late brother, could help fix primary care", "Venture capitalist John Doerr on Tom Health, a new AI tool for primary care: \"I think this is one of the best possible uses of AI.\"", "STAT", "https://www.statnews.com/2026/11/16/ai-company-tom-health-fix-primary-care-new-tool/?utm_campaign=rss", "Nov 16", "8adbc9699a.jpg", "u8adbc9699a", "2026-11-16T07:16:50-0500", true], [71, "Medical school should start after students take the Step 1 exam", "“It’s time for a radical reimagining of medical education,” write Rachel Fabi and Amy Caruso Brown.", "STAT", "https://www.statnews.com/2026/11/16/medical-school-step-1-exam-redesign-proposal/?utm_campaign=rss", "Nov 16", "e3f6e67577.jpg", "ue3f6e67577", "2026-11-16T07:16:50-0500", true], [72, "Candles and long baths can’t fix burned-out physicians", "The language around self-care for doctors puts the onus on them to fix themselves. But the system is to blame, writes Frances Mei Hardin.", "STAT", "https://www.statnews.com/2026/11/16/doctors-self-care-limits-literature-systems/?utm_campaign=rss", "Nov 16", "bcf9233024.jpg", "ubcf9233024", "2026-11-16T07:16:50-0500", true], [73, "After difficult two years, medical school group’s leadership isn’t letting its guard down post midterms", "After a tumultuous two years entangled in many consequential health and science policy debates, AAMCs isn’t ready to let its guard down.", "STAT", "https://www.statnews.com/2026/11/16/aamc-ceo-david-skorton-qa-challenges-academic-medicine/?utm_campaign=rss", "Nov 16", "d5d98c8124.jpg", "ud5d98c8124", "2026-11-16T07:16:50-0500", true], [74, "Brain-computer interfaces: A new voice for people with paralysis", "Recent advancements in brain-computer interfaces are helping restore communication in clinical trial participants who have lost the ability to speak or make voluntary movements. New findings will be presented at Neuroscience 2026, the annual meeting of the Society for Neuroscience and the world&rsqu", "Eurekalert", "https://www.eurekalert.org/news-releases/1149828", "Nov 13", "", "uc8a04c0ad8", "2026-11-16T07:16:50-0500", true], [75, "Community comes together to say farewell to Bailey, a dog with cancer", "Dozens of neighbours met at a Dartmouth park to comfort the 12-year-old pet during one last outing. The CBC's Guiliana Grillo was there.", "CBC", "https://www.cbc.ca/player/play/9.7423030?cmp=rss", "Nov 15", "78185e4c12.jpg", "u78185e4c12", "2026-11-16T07:16:50-0500", true], [76, "Mexico's Guadalajara cartel founder dies in hospital aged 80", "MEXICO CITY/GUADALAJARA, Nov 15 - Miguel Angel Felix Gallardo, founder of one of Mexico's first major drug cartels whose conviction for the 1985 killing of a US drug-enforcement agent made him one of the country's most notorious traffickers, died in hospital on Sunday at age 80.", "The Straits Times", "https://www.straitstimes.com/world/mexicos-guadalajara-cartel-founder-dies-in-hospital-aged-80", "Nov 15", "3f35a0a8a0.jpg", "u3f35a0a8a0", "2026-11-16T07:16:50-0500", true]]}, {"sub": "Earth & Climate", "items": [[77, "Canada presented itself as a global leader in methane reductions at COP31. But is Alberta holding it back? | CBC", "Canada took centre stage at COP31 last week to showcase its track record on cutting methane emissions. But some experts say the country can't be a global leader on reducing methane until Alberta, Canada's largest oil and gas producer, updates its equivalent regulations.", "CBC", "https://www.cbc.ca/news/climate/canada-alberta-methane-emissions-cop31-9.7419482?cmp=rss", "Nov 16", "8b5b319f43.jpg", "u8b5b319f43", "2026-11-16T05:30:18-0500", true], [78, "Absent officially, unofficially 'America is all in' at COP31", "ANTALYA, Turkey, Nov 16 - The United States officially is absent from COP31. On the ground at the climate talks on the Turkish Mediterranean coast, its presence is hard to miss.", "The Straits Times", "https://www.straitstimes.com/world/europe/absent-officially-unofficially-america-is-all-in-at-cop31", "Nov 16", "567223721b.jpg", "u567223721b", "2026-11-16T05:30:18-0500", true], [79, "S’pore seals carbon credit deal with Kenya, its third African partner, at COP31", "Singapore and Columbia also renewed an agreement to explore carbon trading in the future.", "The Straits Times", "https://www.straitstimes.com/world/spore-seals-carbon-credit-deal-with-kenya-its-third-african-partner-at-cop31", "Nov 16", "f225cd36f0.jpg", "uf225cd36f0", "2026-11-16T05:30:18-0500", true], [80, "Can a 'coalition of the willing' create momentum for a fossil fuel phaseout?", "In April, about 60 countries held an unprecedented meeting in Colombia to work out a plan to slowly quit oil, coal and gas. How influential is this coalition at the COP31 climate summit?", "DW", "https://www.dw.com/en/can-a-coalition-of-the-willing-create-momentum-for-a-fossil-fuel-phaseout/a-79926748?maca=en-rss-en-all-1573-rdf", "Nov 16", "", "u627e9be55a", "2026-11-16T05:30:18-0500", true], [81, "Sadiq Khan: Global North must take responsibility for climate change", "At COP31, Sadiq Khan urges wealthy nations to support the Global South, which bears the brunt of climate change.", "Al Jazeera", "https://www.aljazeera.com/video/newsfeed/2026/11/16/sadiq-khan-global-north-must-take-responsibility-for-climate-change?traffic_source=rss", "Nov 16", "6dfca468fb.jpg", "u6dfca468fb", "2026-11-16T05:30:18-0500", true], [82, "The Last Ice on Puncak Jaya - NASA Science", "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.", "NASA", "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/", "Nov 16", "89f4b6682c.jpg", "u89f4b6682c", "2026-11-16T05:30:18-0500", true], [83, "Japan to launch network to improve weather disaster warnings in Asia, says govt source", "The framework will reportedly be unveiled by Environment Minister Hiroyoshi Sasagawa at the COP31 in Antalya, Turkey.", "The Straits Times", "https://www.straitstimes.com/asia/japan-to-launch-network-to-improve-weather-disaster-warnings-in-asia-says-govt-source", "Nov 15", "98ffbbff69.jpg", "u98ffbbff69", "2026-11-16T05:30:18-0500", true], [84, "UK exposed to polycrisis of threats amid government ‘complacency’", "Lords report calls for urgent new approach to resilience planning in face of cyber-attacks, sabotage and climate crisis Ministers are complacent in the face of fast-changing and increasingly interconnected threats to the UK, and must act quickly to increase national resilience to possibly very major", "The Guardian", "https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency", "Nov 16", "022551b4aa.jpg", "u022551b4aa", "2026-11-16T05:30:18-0500", true], [85, "‘When the sun came out it felt like it opened a scar’ – This is climate breakdown", "When the floods hit Pakistan he went out to help. Then the water reached his own family. This is Imran Lodhi’s story Location: Dera Ghazi Khan, Pakistan Disaster: Pakistan intense monsoon rainfall Imran Lodhi is a university lecturer with a doctorate in climate change and sustainable development . T", "The Guardian", "https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown", "Nov 16", "03fcd0fdf5.jpg", "u03fcd0fdf5", "2026-11-16T07:16:50-0500", true], [86, "Proposed emergency earthquake fund will help prepare for catastrophe, insurance industry says", "Experts have long warned a devastating quake could cause unprecedented damage to homes, businesses and infrastructure", "The Globe and Mail", "https://www.theglobeandmail.com/business/article-proposed-emergency-earthquake-fund-prepare-catastrophe-insurance/", "Nov 16", "57f8b95e9b.jpg", "u57f8b95e9b", "2026-11-16T07:16:50-0500", true]]}, {"sub": "Materials & Chemistry", "items": [[87, "LineShine Supports Gordon Bell Finalist Work on Silicon and Battery Materials - HPCwire", "Nov. 15, 2026 — Following the domestically developed LineShine supercomputer’s top rankings on both the June 2026 TOP500 and HPCG lists, Shenzhen’s independent innovation in supercomputing has once again gained international recognition. Earlier this year, the XLSDFT computing software independently", "HPCwire", "https://www.hpcwire.com/off-the-wire/lineshine-supports-gordon-bell-finalist-work-on-silicon-and-battery-materials/", "Nov 15", "6fbe7577fd.jpg", "u6fbe7577fd", "2026-11-16T05:30:18-0500", true], [88, "NVIDIA Introduces Nemotron for Science to Accelerate Discoveries with Agents - HPCwire", "New Open Dataset and Post-Training Recipes Help Researchers Adapt Nemotron 3.5 Super VL for Life Sciences and Chemistry Nov. 16, 2026 — NVIDIA today introduced NVIDIA Nemotron for Science, bringing together scientific applications of its NVIDIA Nemotron 3.5 Super VL open model, a new open chemistry ", "HPCwire", "https://www.hpcwire.com/off-the-wire/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents/", "Nov 16", "ad3950e513.jpg", "uad3950e513", "2026-11-16T12:20:05-0500", true], [89, "Le Pen says France will keep giving Ukraine aid if she is elected", "PARIS, Nov 16 - French far-right leader Marine Le Pen said on Monday that France would continue to give Ukraine material and humanitarian assistance if she is elected president next spring.", "The Straits Times", "https://www.straitstimes.com/world/europe/le-pen-says-france-will-keep-giving-ukraine-aid-if-she-is-elected", "Nov 16", "d8ddeeb2bc.jpg", "ud8ddeeb2bc", "2026-11-16T13:21:37-0500", true], [90, "Rare-earth stocks sinks deeper into the red. Here’s the latest catalyst.", "Shares of Trump-backed USA Rare Earth slides 10% as analysts push out their sales estimates.", "Marketwatch", "https://www.marketwatch.com/story/rare-earth-stocks-sinks-deeper-into-the-red-heres-the-latest-catalyst-3033c8d0?mod=mw_rss_topstories", "Nov 16", "ae442e7216.jpg", "uae442e7216", "2026-11-16T15:18:48-0500", true], [91, "A US judge clears two brothers accused of stealing $25M in crypto, saying prosecutors failed to prove material misrepresentations in exploit", "Nate Raymond / Reuters : A US judge clears two brothers accused of stealing $25M in crypto, saying prosecutors failed to prove material misrepresentations in exploiting a software bug — A federal judge on Monday ordered the acquittal of two Massachusetts Institute of Technology-educated brothers on ", "Techmeme", "https://www.techmeme.com/261116/p44#a261116p44", "Nov 16", "f9e167684f.jpg", "uf9e167684f", "2026-11-16T17:17:23-0500", true]]}]}, {"cat": "Technology & Engineering", "subs": [{"sub": "Space", "items": [[92, "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'", "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.", "BBC", "https://www.bbc.co.uk/news/articles/c6m25zg88k45o", "Nov 15", "542b5ebf64.jpg", "u542b5ebf64", "2026-11-16T05:32:00-0500", true], [93, "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors", "This was the first total mission failure in United Launch Alliance's 20-year history.", "Ars Technica", "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/", "Nov 15", "2eef4a5b12.jpg", "u2eef4a5b12", "2026-11-16T05:30:18-0500", true], [94, "Connecting Constellations: The Shift to Real-Time Space Operations", "After years of development and demonstrations, optical communications are reshaping how the space industry approaches mission architectures. Kepler’s optical space data relay constellation gives government and commercial customers opportunities to connect previously isolated systems, strengthen resi", "Payload", "https://payloadspace.com/connecting-constellations-the-shift-to-real-time-space-operations/", "Nov 16", "a4e563bb1a.jpg", "ua4e563bb1a", "2026-11-16T05:30:18-0500", true], [95, "NASA Announces Technical Demonstrations and Presentations at SC26 - HPCwire", "NASA will highlight its work in high performance computing at SC26, Booth #4038 Nov. 15, 2026 — Join NASA at SC26 for presentations exploring the computing technologies supporting its research and missions. From spaceflight computing and water availability modeling to programming tools and HPC facil", "HPCwire", "https://www.hpcwire.com/off-the-wire/nasa-announces-technical-demonstrations-and-presentations-at-sc26/", "Nov 15", "9e46969b4c.jpg", "u9e46969b4c", "2026-11-16T05:30:18-0500", true], [96, "NASA's interstellar Voyager 1 probe is about to reach 1 light-day from Earth after nearly 50 years in space", "Voyager 1 is celebrating a big milestone as it approaches its 50th birthday: reaching one light-day away from Earth.", "Space.com", "https://www.space.com/space-exploration/voyager/nasas-interstellar-voyager-1-probe-is-about-to-reach-1-light-day-from-earth-after-nearly-50-years-in-space", "Nov 16", "08cb1bd512.jpg", "u08cb1bd512", "2026-11-16T07:16:50-0500", true], [97, "AST SpaceMobile to build its own 20-ton “Blacklift” rockets with Firefly Aerospace engines", "Commits $1.3bn to engines for new proprietary rocket, reckons it’ll be good to go in two years", "Data Center Dynamics", "https://www.datacenterdynamics.com/en/news/ast-spacemobile-to-build-its-own-20-ton-blacklift-rockets-with-firefly-aerospace-engines/", "Nov 16", "6b2c9a6ce1.jpg", "u6b2c9a6ce1", "2026-11-16T07:16:50-0500", true], [98, "Miami evokes Vice City ahead of Grand Theft Auto 6 launch", "Miami landmarks are lighting up with its alter ego, Vice City, in the run-up to the launch.", "The Straits Times", "https://www.straitstimes.com/world/united-states/miami-evokes-vice-city-ahead-of-grand-theft-auto-6-launch", "Nov 15", "8ebe249807.jpg", "u8ebe249807", "2026-11-16T07:16:50-0500", true], [99, "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites", "The rocket failed roughly 10 minutes after lift-off.", "The Straits Times", "https://www.straitstimes.com/world/united-states/rocket-from-boeing-lockheed-firm-fails-mid-flight-destroys-payload-of-amazon-satellites", "Nov 15", "b2ab74f8cc.jpg", "ub2ab74f8cc", "2026-11-16T07:16:50-0500", true], [100, "Vulcan rocket fails, destroying 40 Amazon Leo satellites", "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor to SpaceX's Starlink, but it has struggled to get off the ground so far, putting only a small portion of the nec", "The Verge", "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites", "Nov 15", "c8f9f37dbd.jpg", "uc8f9f37dbd", "2026-11-16T07:16:50-0500", true], [101, "'Be on the right side of history': Zelenskyy urges Musk's SpaceX, U.S. to lift satellite restriction | CBC News", "Ukrainian President Volodymyr Zelenskyy warned that limitations on the Starshield satellite system, operated by Elon Musk's SpaceX, could weaken defences around Ukraine's energy infrastructure ahead of the winter months, when Moscow has repeatedly targeted the power grid.", "CBC", "https://www.cbc.ca/news/world/ukraine-russia-energy-winter-zelenskyy-musk-spacex-starshield-9.7422871?cmp=rss", "Nov 15", "c614f28621.jpg", "uc614f28621", "2026-11-16T07:16:50-0500", true]]}, {"sub": "AI & Robotics", "items": [[102, "Alibaba says it filtered Qwen4-Max", "Ann Cao / South China Morning Post : Alibaba says it filtered Qwen4-Max's training data to remove offensive cyber capabilities and mitigate chemical, biological, radiological, and nuclear risks — Alibaba Group Holding has launched its most advanced artificial intelligence model to date, Qwen4-Max, w", "Techmeme", "https://www.techmeme.com/261116/p1#a261116p1", "Nov 16", "", "ud3b8367b4a", "2026-11-16T05:30:18-0500", true], [103, "How Sam Bankman-Fried Lost Out on a $35 Billion Jackpot From Anthropic", "The founder of the collapsed FTX crypto exchange, who is serving prison time for fraud, would have made a windfall from a $500 million investment in Anthropic.", "The New York Times", "https://www.nytimes.com/2026/11/16/technology/sam-bankman-fried-anthropic.html", "Nov 16", "db685c563e.jpg", "udb685c563e", "2026-11-16T05:30:18-0500", true], [104, "Billions in Insurance Money Is Being Bet on AI Debt, and Analyst Are Nervous", "Insurance companies are investing billions of their customers’ money into A.I. deals as analysts warn of mounting risks.", "The New York Times", "https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html", "Nov 16", "fc9e3949e7.jpg", "ufc9e3949e7", "2026-11-16T05:30:18-0500", true], [105, "Trump’s Plan for A.I. Supremacy Fuels Resistance in the Philippines", "A planned American-led artificial intelligence hub in the Philippines has sparked fierce opposition over concerns about displacement, resources and threats to national sovereignty.", "The New York Times", "https://www.nytimes.com/2026/11/16/business/trump-paxsilica-philippines-ai.html", "Nov 16", "09105bfdf4.jpg", "u09105bfdf4", "2026-11-16T05:30:18-0500", true], [106, "AI is reshaping banking jobs – but its ability to drive profits remains unclear", "Europe's banks are using AI to cut routine work, redeploy staff and hire more technical talent.", "CNBC", "https://www.cnbc.com/2026/11/16/how-ai-is-changing-banking-jobs-hiring-and-revenue.html", "Nov 16", "9e42e9292b.jpg", "u9e42e9292b", "2026-11-16T05:30:18-0500", true], [107, "Why Skydio Built a Lopsided Drone", "Skydio’s drones have always been magical. From MIT research and early prototypes to what I would argue is still the most advanced consumer drone ever made , this is a company that makes very cool stuff. Sadly, Skydio no longer makes cool stuff for consumers , instead focusing on drone platforms for ", "IEEE Spectrum", "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone", "Nov 15", "2bfebb9afa.jpg", "u2bfebb9afa", "2026-11-16T05:30:18-0500", true], [108, "Jim Cramer's top 10 things to watch in the stock market Monday", "Nvidia is leading the Nasdaq and other AI stocks lower this morning.", "CNBC", "https://www.cnbc.com/investingclub/2026/11/16/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html", "Nov 16", "4d7ed3aaf0.jpg", "u4d7ed3aaf0", "2026-11-16T09:19:21-0500", true], [109, "U.N. Starts Uncertain Effort to Regulate Lethal Autonomous Weapons", "Delegates met in Geneva to discuss guardrails for such systems even as their development grows. Russia and the United States have resisted the efforts.", "The New York Times", "https://www.nytimes.com/2026/11/16/world/europe/un-killer-robots-autonomous-weapons.html", "Nov 16", "7f8a80f31c.jpg", "u7f8a80f31c", "2026-11-16T10:21:38-0500", true], [110, "Anthropic IPO guide: Everything you need to know", "Anthropic is set to start trading this week on the Nasdaq under the ticker symbol ANT.", "CNBC", "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html", "Nov 16", "4ad82c3981.jpg", "u4ad82c3981", "2026-11-16T10:21:38-0500", true], [111, "Anthropic’s Wall Street whisperer: Meet CFO Krishna Rao", "Anthropic's upcoming IPO is putting finance chief Krishna Rao into the limelight.", "CNBC", "https://www.cnbc.com/2026/11/16/anthropic-cfo-krishna-rao-ipo.html", "Nov 16", "dbc77ae1b6.jpg", "udbc77ae1b6", "2026-11-16T11:21:53-0500", true]]}, {"sub": "Energy & Nuclear", "items": [[112, "Gas starts flowing from Jackdaw after government green light", "Ministers last month announced the Jackdaw gas field, which lies 150 miles east of Aberdeen, had been approved after years of uncertainty.", "BBC", "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss", "Nov 16", "8fb768b7b8.jpg", "u8fb768b7b8", "2026-11-16T05:30:18-0500", true], [113, "Great Britain’s oldest renewables projects could rake in nearly £9bn next year", "Subsidy scheme, which is paid via taxes and energy bills, must be reformed, ECU analysis finds Business live – latest updates Great Britain’s oldest renewable energy projects are likely to rake in an almost £9bn windfall next year because of soaring market prices, according to independent analysis. ", "The Guardian", "https://www.theguardian.com/business/2026/nov/16/great-britain-renewable-energy-subsidies-wind-solar", "Nov 16", "6b8a3d787c.jpg", "u6b8a3d787c", "2026-11-16T07:16:50-0500", true], [114, "Risk of nuclear accident in Ukraine increasing this winter, atomic safety regulators say", "OSLO, Nov 16 - The risk of a nuclear accident in Ukraine is increasing this winter, nuclear safety regulators representing 38 countries said on Monday, urging Russia to stop its attacks on the country's power infrastructure.", "The Straits Times", "https://www.straitstimes.com/world/europe/risk-of-nuclear-accident-in-ukraine-increasing-this-winter-atomic-safety-regulators-say", "Nov 16", "5acfb07e37.jpg", "u5acfb07e37", "2026-11-16T07:16:50-0500", true], [115, "Trump heads to Asia with focus on economic deals, rare nuclear summit with Xi and Putin", "Controversy over Nvidia is certain to hang over his visit to China, despite efforts by administration officials to downplay the president’s close ties to Jensen Huang", "The Globe and Mail", "https://www.theglobeandmail.com/world/us-politics/article-trump-asia-trip-china-manila/", "Nov 16", "52689e6ecd.jpg", "u52689e6ecd", "2026-11-16T07:16:50-0500", true], [116, "Engie could supply power to planned Google data center in Châteauroux, France", "Firms agree potential power deal that would include renewable energy investment", "Data Center Dynamics", "https://www.datacenterdynamics.com/en/news/engie-could-supply-power-to-planned-google-data-center-in-ch%C3%A2teauroux-france/", "Nov 16", "768f151833.jpg", "u768f151833", "2026-11-16T07:16:50-0500", true], [117, "Box2Bit transfers 150MW grid connection to Blackstone and exits Épila", "Grid power in Spain now treated as transferrable asset", "Data Center Dynamics", "https://www.datacenterdynamics.com/en/news/box2bit-sells-150-mw-to-blackstone-and-lets-epila-take-the-lead-in-aragon/", "Nov 16", "ea92120149.jpg", "uea92120149", "2026-11-16T07:16:50-0500", true], [118, "electronica 2026 Breaks Records as Electronics Industry Gathers in Munich", "Four days, thousands of innovations, and countless conversations. electronica 2026 closed its doors in Munich on November 13 after welcoming more than 86,000 visitors and 3,512 exhibitors, setting new records for the international electronics trade fair. But beyond the numbers, the event was about t", "Eenewseurope", "https://www.eenewseurope.com/en/electronica-2026/", "Nov 16", "76374e04fd.jpg", "u76374e04fd", "2026-11-16T07:16:50-0500", true], [119, "Fast Forward Awards 2026: HCP Sense, DeepGate, Myvox and LIOM", "HCP Sense, DeepGate, Myvox, and LIOM have won the Fast Forward Awards 2026, presented at electronica in Munich on 13 November. The four startups were recognised for technologies covering industrial condition monitoring, embedded AI, MEMS cooling and non-invasive health monitoring. The awards conclud", "Eenewseurope", "https://www.eenewseurope.com/en/fast-forward-awards-2026-hcp-sense-deepgate-myvox-liom/", "Nov 15", "92ed65a6c5.jpg", "u92ed65a6c5", "2026-11-16T07:16:50-0500", true], [120, "What causes a sudden drop in phone battery percentage? - Engadget", "Tired of watching your phone's battery jump from green to red? It's time to start troubleshooting what's causing your battery percentage to suddenly drop.", "Engadget", "https://www.engadget.com/2313940/phone-battery-percentage-suddenly-drops/", "Nov 15", "66aaed3882.jpg", "u66aaed3882", "2026-11-16T07:16:50-0500", true], [121, "Here's what actually happens if your laptop battery is completely drained", "While letting your laptop run out of battery may seem harmless, it might be doing more long-term damage to your device than you ever expected.", "Engadget", "https://www.engadget.com/2313936/what-happens-drained-laptop-battery/", "Nov 15", "385952083e.jpg", "u385952083e", "2026-11-16T07:16:50-0500", true]]}, {"sub": "Semiconductors", "items": [[122, "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race", "Massive data centers in Southeast Asia provided crucial computing power for Chinese companies and a cover for alleged chip smuggling.", "The Wall Street Journal", "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d", "Nov 14", "c387917494.jpg", "uc387917494", "2026-11-16T05:30:18-0500", true], [123, "Cantwell urges Lutnick to stop AI chip sales to China ahead of Xi meeting", "Commerce Secretary Howard Lutnick has drawn fire for his close relationship with Nvidia CEO Jensen Huang and the department's treatment of the company.", "CNBC", "https://www.cnbc.com/2026/11/16/cantwell-lutnick-ai-chip-china.html", "Nov 16", "b987f5a2c4.jpg", "ub987f5a2c4", "2026-11-16T05:30:18-0500", true], [124, "Tighter AI chip export rules are gaining bipartisan support in Congress, including a bill to block Chinese companies from accessing chips ov", "Financial Times : Tighter AI chip export rules are gaining bipartisan support in Congress, including a bill to block Chinese companies from accessing chips overseas — Jensen Huang's alleged affair with Chinese spy ‘increases momentum’ to crack down on US hardware reaching China", "Techmeme", "https://www.techmeme.com/261116/p2#a261116p2", "Nov 16", "c3d26a6105.jpg", "uc3d26a6105", "2026-11-16T05:30:18-0500", true], [125, "Delhi-based Bharat Semi, which is developing programmable image sensors combining capture, processing, and AI capabilities on a single chip,", "Jagmeet Singh / TechCrunch : Delhi-based Bharat Semi, which is developing programmable image sensors combining capture, processing, and AI capabilities on a single chip, raised a $24M seed — Bharat Semi, an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled im", "Techmeme", "https://www.techmeme.com/261116/p6#a261116p6", "Nov 16", "f07171729c.jpg", "uf07171729c", "2026-11-16T05:30:18-0500", true], [126, "SIA logs 3.5% rise in October passenger traffic; sees ‘healthy’ demand for semiconductor shipments", "Cloud-computing shipments contribute to a 10.1% rise in cargo loads.", "The Straits Times", "https://www.straitstimes.com/business/sia-logs-3-5-rise-in-october-passenger-traffic-sees-healthy-demand-for-semiconductor-shipments", "Nov 16", "9ff4b0e6ed.jpg", "u9ff4b0e6ed", "2026-11-16T07:16:50-0500", true], [127, "AI Finds 28 Zero-Day Flaws In Physical Robotics Software", "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among other", "IEEE Spectrum", "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security", "Nov 16", "1dea03b235.jpg", "u1dea03b235", "2026-11-16T07:16:50-0500", true], [128, "Grab a DDR5 gaming PC with a 10GB GPU for only $949 — iBuypower’s Slate Gaming rig features an Intel B570 graphics card and 16GB of RAM", "Save $250 on a brand-new iBuypower Slate gaming PC in this Best Buy deal.", "Tomshardware", "https://www.tomshardware.com/desktops/gaming-pcs/grab-a-ddr5-gaming-pc-with-a-10gb-gpu-for-only-usd949-ibuypowers-slate-gaming-rig-features-an-intel-b570-graphics-card-and-16gb-of-ram", "Nov 16", "4b25c29524.jpg", "u4b25c29524", "2026-11-16T07:16:50-0500", true], [129, "Jensen Huang's resignation causes dismay and disbelief in Taiwan, his birthplace and where he is \"the people's dad\"; an official expects lit", "Li Yuan / New York Times : Jensen Huang's resignation causes dismay and disbelief in Taiwan, his birthplace and where he is “the people's dad”; an official expects little impact on TSMC — The Nvidia chief executive's resignation shocked people in his birthplace, where he is called “the people's dad.", "Techmeme", "https://www.techmeme.com/261116/p13#a261116p13", "Nov 16", "1ebe074b36.jpg", "u1ebe074b36", "2026-11-16T07:16:50-0500", true], [130, "Hacker gets Doom running on a USB flash drive", "Aaron Christophel ported Doom to the LCD on a MOVESPEED MSSU10 flash drive and controls it with file transfers.", "Tomshardware", "https://www.tomshardware.com/video-games/retro-gaming/hacker-gets-doom-running-on-a-usb-flash-drives-built-in-lcd-played-by-copying-files-hacker-dumps-firmware-from-chip-with-scrubbed-markings-through-an-open-debug-port-then-gets-the-game-running-with-ai-help", "Nov 16", "824dbd735c.jpg", "u824dbd735c", "2026-11-16T07:16:50-0500", true], [131, "Jailbroken PS4 runs 9-billion-parameter AI model at up to 43 tokens per second — open-source Garlic LLM bypasses drivers to talk directly to", "Garlic LLM runs Alibaba’s Qwen3.5-9B on a jailbroken PlayStation 4’s GPU, fully offline, at 31 to 39 tokens per second.", "Tomshardware", "https://www.tomshardware.com/video-games/playstation/jailbroken-ps4-runs-9-billion-parameter-ai-model-at-up-to-43-tokens-per-second-open-source-garlic-llm-bypasses-drivers-to-talk-directly-to-the-2013-era-gpu", "Nov 16", "cec39e8a1f.jpg", "ucec39e8a1f", "2026-11-16T08:21:50-0500", true]]}, {"sub": "Quantum", "items": [[132, "JIJ and Mitsubishi Electric Selected for JHPC-quantum Program to Evaluate Hybrid Computing", "Insider Brief PRESS RELEASE — JIJ Inc. today announced that a joint proposal with Mitsubishi Electric Corporation, titled “Performance Evaluation of a Quantum-Classical Hybrid Linear Solver for Thermal-Fluid Analysis,” has been selected for the JHPC-quantum Test User Program. Mitsubishi Electric wil", "Thequantuminsider", "https://thequantuminsider.com/2026/11/16/jij-mitsubishi-electric-jhpc-quantum-thermal-fluid-analysis/", "Nov 16", "30c48d5dde.jpg", "u30c48d5dde", "2026-11-16T05:30:18-0500", true], [133, "IonQ Appoints Gary Merrill as CFO and Thomas Austin as Chief Accounting Officer", "Insider Brief PRESS RELEASE — IonQ (NYSE: IONQ), the world’s leading full-stack quantum platform and foundry, today announced executive leadership changes to position the company for continued growth and advance its path to profitability: In connection with these appointments, Inder M. Singh is step", "Thequantuminsider", "https://thequantuminsider.com/2026/11/16/ionq-announces-executive-leadership-evolution/", "Nov 16", "1bf2381d5b.jpg", "u1bf2381d5b", "2026-11-16T05:30:18-0500", true], [134, "Qatar's MCIT Partners with SignQuantum on Post-Quantum Cybersecurity", "Insider Brief PRESS RELEASE — The Ministry of Communications and Information Technology of the State of Qatar (MCIT Qatar) signed a collaboration agreement with SignQuantum to strengthen cybersecurity readiness for quantum computing risks. The announcement was made at MWC26 Doha on November 10, 2026", "Thequantuminsider", "https://thequantuminsider.com/2026/11/16/qatar-mcit-signquantum-post-quantum-cybersecurity/", "Nov 16", "40281e599b.jpg", "u40281e599b", "2026-11-16T05:30:18-0500", true], [135, "From Cat Pictures to DNA, Moth Quantum Reports Progress on Getting Everyday Data Into Quantum Computers", "Insider Brief Moth Quantum says it has used an entire IBM quantum processor to load and recover data equivalent to two small grayscale images. That may not sound like much, but the company says the method, called Tessa, addresses getting conventional data onto the machines without adding excessive e", "Thequantuminsider", "https://thequantuminsider.com/2026/11/16/from-cat-pictures-to-dna-moth-quantum-reports-progress-on-getting-everyday-data-into-quantum-computers/", "Nov 16", "5d4ac44ba1.jpg", "u5d4ac44ba1", "2026-11-16T05:30:18-0500", true], [136, "Qatar, France Sign Technology Cooperation Letter, Highlight Shared Quantum Ambitions", "Insider Brief PRESS RELEASE — The Ministry of Communications and Information Technology (MCIT) of the State of Qatar and the French Ministry of the Economy, Finance and Industrial, Energy and Digital Sovereignty signed a Letter of Intent to strengthen bilateral cooperation in the communications and ", "Thequantuminsider", "https://thequantuminsider.com/2026/11/16/qatar-france-sign-technology-cooperation-letter-highlight-shared-quantum-ambitions/", "Nov 16", "4d67dc510a.jpg", "u4d67dc510a", "2026-11-16T05:30:18-0500", true], [137, "Quantum Computing’s Next Scaling Challenge Isn’t Just Qubits. It’s Power.", "As I prepare to attend my 28th SC conference, I’m reminded of a lesson the high-performance computing (HPC) community has learned repeatedly: scientific breakthroughs must operate within the constraints of the infrastructure available to support them. From massively parallel supercomputers to GPU-ac", "HPCwire", "https://www.hpcwire.com/2026/11/16/quantum-computings-next-scaling-challenge-isnt-just-qubits-its-power/", "Nov 16", "ca1c9df5eb.jpg", "uca1c9df5eb", "2026-11-16T07:16:50-0500", true], [138, "15 Finalists Named in Global Quantum + AI Challenge", "Insider Brief Fifteen teams have been named finalists in the Global Quantum + AI Challenge, advancing to develop working proofs of concept for industry problems ranging from drug discovery to credit card fraud detection. The competition offers $200,000 in prizes across five challenges, with $40,000 ", "Thequantuminsider", "https://thequantuminsider.com/2026/11/16/15-finalists-named-in-global-quantum-ai-challenge/", "Nov 16", "742e29aeba.jpg", "u742e29aeba", "2026-11-16T07:16:50-0500", true], [139, "Quantum Physics Meet The Great Books at St. John's College", "Insider Brief PRESS RELEASE — In late July, while most of their classmates were on summer vacation, Henry Haggard (A27) and Albert Shapiro (A27) were in a hotel room in Hamilton, New York, studying physics. Alongside Eddie Schodowski (AGI28), director of the St. John’s College Laboratory Program in ", "Thequantuminsider", "https://thequantuminsider.com/2026/11/16/quantum-physics-meet-the-great-books-at-st-johns-college/", "Nov 16", "0e1dc5a75a.jpg", "u0e1dc5a75a", "2026-11-16T07:16:50-0500", true], [140, "Liquid C2 and Graphiant Partner on Quantum-Secure Networking in Africa", "Insider Brief PRESS RELEASE — Liquid C2, a business of Cassava Technologies, a global technology leader, and Graphiant (https://www.Graphiant.com/), a US-based provider of networking infrastructure built for AI, partnered to strengthen network security offerings through a new Quantum Secure Network-", "Thequantuminsider", "https://thequantuminsider.com/2026/11/16/liquid-c2-graphiant-quantum-secure-networking-africa/", "Nov 16", "79d55510e8.jpg", "u79d55510e8", "2026-11-16T08:21:50-0500", true], [141, "Classiq and Ventum Consulting Partner on Enterprise Quantum Computing in Germany", "Insider Brief PRESS RELEASE — Classiq, a leading quantum computing software company, and Ventum Consulting, a digital transformation consultancy, today announced a partnership to help enterprises in Germany build quantum computing expertise, establish strategies and develop applications aligned with", "Thequantuminsider", "https://thequantuminsider.com/2026/11/16/classiq-ventum-consulting-enterprise-quantum-computing-germany/", "Nov 16", "da2eeecb05.jpg", "uda2eeecb05", "2026-11-16T08:21:50-0500", true]]}]}], DATE='2026-11-16', REPO='jbarseneau99/morning-briefing', FEED='scitech', FEEDNAME='Science & Technology', BUILD='20261117-0203';
+document.querySelectorAll('.nav-feeds a').forEach(a=>{if(a.getAttribute('data-feed')===FEED){a.setAttribute('aria-current','page');a.classList.add('on')}});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const slug=s=>s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const SHORT={'Technology business news':'Tech business','Investments and deals':'Investments & deals'};
+const label=s=>SHORT[s]||s;
+const votes=(level,id,title,x='')=>`<span class="v" data-level="${level}" data-id="${id}" data-title="${esc(title)}"${x}><button class="up" data-d="up" title="More like this">👍</button><button class="ne" data-d="neutral" title="Neutral">●</button><button class="dn" data-d="down" title="Less like this">👎</button></span>`;
+const row=(it,cls='',V='all',cat='')=>{const [n,t,s,src,url,dt,img,id]=it;const isNew=!!it[9];
+ const x=` data-url="${esc(url)}" data-img="${esc(img?'../img/'+img:'')}" data-desc="${esc(s)}" data-src="${esc(src)}" data-dt="${esc(dt)}" data-cat="${esc(cat)}"`;
+ return `<div class="row ${cls}${isNew?' fresh':''}" id="${V}-s${id}" data-id="${id}"><a class="rlink" href="#read=${id}">${img?`<img class="th" src="../img/${img}" alt="" loading="lazy">`:`<div class="ph">no image</div>`}<div class="tx"><b>${isNew?'<span class="tag-new">New</span>':''}<span class="n">${n}.</span>${esc(t)}</b><p>${esc(s)}</p><span class="rs">${esc(src)}</span> <span class="dt">· ${dt}</span></div></a>${votes('story',id,t,x)}</div>`};
+function renderCats(DATA,V){let h='';
+for(const c of DATA){const cid=slug(c.cat);
+ const top=[];for(let r=0;top.length<5&&r<10;r++)for(const s of c.subs){if(s.items[r]&&top.length<5)top.push(s.items[r])}
+ h+=`<section id="${V}-${cid}"><div class="ch"><span class="car">▾</span><h2>${esc(c.cat)}</h2>${votes('category',cid,c.cat)}</div><div class="body">`;
+ if(!(c.subs.length===1&&!c.subs[0].sub))h+=`<div class="top"><h4>Top 5</h4><ol>${top.map(it=>`<li><a class="rlink" href="#read=${it[7]}">${esc(it[1])}</a></li>`).join('')}</ol></div>`;
+ for(const s of c.subs){if(!s.items.length)continue;const sid=cid+'/'+slug(s.sub);
+  h+=`<div class="sub"${s.sub?` id="${V}-${cid}-${slug(s.sub)}"`:''}>`+(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',sid,c.cat+' › '+s.sub)}</div>`:'');
+  s.items.forEach((it,i)=>h+=row(it,i>=5?'more':'',V,c.cat+(s.sub?' › '+s.sub:'')));
+  if(s.items.length>5)h+=`<button class="mt">…more (${s.items.length-5})</button>`;
+  h+=`</div>`;}
+ h+=`</div></section>`;}
+return h}
+let VIEWS=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+let html='';
+VIEWS.forEach((v,i)=>html+=`<div class="view" data-v="${v[0]}" ${i?'hidden':''}>${renderCats(v[2],v[0])}</div>`);
+document.getElementById('m').innerHTML=html;
+
+document.querySelectorAll('.ch').forEach(e=>{e.dataset.bound='1';e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')})});
+document.querySelectorAll('.mt').forEach(b=>{b.dataset.bound='1';b.addEventListener('click',()=>{const s=b.parentElement;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'less':`…more (${s.querySelectorAll('.more').length})`})});
+const key=(l,i)=>`fb:${FEED}:${DATE}:${l}:${i}`;
+const LK='likes:v1',UK='likes:unliked',lget=k=>{try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return {}}},lset=(k,o)=>localStorage.setItem(k,JSON.stringify(o));
+function likeSync(v,on){if(v.dataset.level!=='story')return;const L=lget(LK),U=lget(UK),d=v.dataset,id=d.id;
+ if(on){if(!L[id])L[id]={id,title:d.title,url:d.url,img:d.img,desc:d.desc,source:d.src,date:DATE,dt:d.dt,feed:FEED,feedname:FEEDNAME,cat:d.cat,ts:Date.now()};delete U[id]}
+ else{delete L[id];U[id]=Date.now()}
+ lset(LK,L);lset(UK,U)}
+document.querySelectorAll('.v').forEach(v=>{if(v.dataset.bound)return;v.dataset.bound='1';const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
+ if(st)v.querySelectorAll(`[data-d="${st}"]`).forEach(b=>b.classList.add('on'));
+ if(st==='up'&&level==='story'&&!lget(LK)[id])likeSync(v,true);
+ v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
+  const was=b.classList.contains('on');const vote=was?'clear':b.dataset.d;
+  document.querySelectorAll(`.v[data-level="${level}"][data-id="${id}"]`).forEach(w=>w.querySelectorAll('button').forEach(x=>x.classList.toggle('on',!was&&x.dataset.d===vote)));
+  was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),vote);
+  if(level==='story')likeSync(v,vote==='up');
+  try{await fetch('feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({feed:FEED,date:DATE,level,id,title,vote})})}catch(e){}
+ }))});
+const icon={up:'👍',neutral:'●',down:'👎'};
+document.getElementById('send').addEventListener('click',()=>{const lines=[],seen=new Set();
+ document.querySelectorAll('.v').forEach(v=>{const k=key(v.dataset.level,v.dataset.id);if(seen.has(k))return;seen.add(k);const s=localStorage.getItem(k);if(s)lines.push(`${icon[s]} ${s} | ${v.dataset.level} ${v.dataset.id}: ${v.dataset.title}`)});
+ if(!lines.length){alert('No votes yet.');return}
+ const body=`feed: ${FEEDNAME}\ndate: ${DATE}\n\n`+lines.join('\n');
+ if(!REPO||REPO.startsWith('__')){navigator.clipboard&&navigator.clipboard.writeText(body);alert('Feedback copied to clipboard:\n\n'+body);return}
+ window.open(`https://github.com/${REPO}/issues/new?title=${encodeURIComponent((FEED==='news'?'Global News':FEED==='papers'?'Research Papers':'SciTech')+' feedback '+DATE)}&body=${encodeURIComponent(body)}`,'_blank');});
+
+/* ---- two-level pinned nav ---- */
+const defaultCut=VIEWS[0][0];
+let cut=defaultCut,sec='',sub='';
+let lastSpy='';
+const cats=()=>(VIEWS.find(v=>v[0]===cut)||VIEWS[0])[2];
+const catBySlug=s=>cats().find(c=>slug(c.cat)===s);
+const namedSubs=c=>(c?c.subs:[]).filter(s=>s.sub&&s.items.length);
+const UNFOLD='(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4)';
+function setPinH(){const unfolded=window.matchMedia(UNFOLD).matches;const el=document.getElementById(unfolded?'pin':'stick')||document.getElementById('pin');if(!el)return;const h=Math.round((el.getBoundingClientRect().height||el.offsetHeight||0));document.documentElement.style.setProperty('--pin-h',h+'px')}
+if(window.ResizeObserver){const _pinRO=new ResizeObserver(()=>setPinH());const _p=document.getElementById('pin'),_s=document.getElementById('stick');if(_p)_pinRO.observe(_p);if(_s)_pinRO.observe(_s)}
+function parseHash(){
+  const h=location.hash.slice(1);
+  if(!h)return {cut:null,sec:'',sub:'',el:'',read:''};
+  if(/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);return {cut:p.get('cut')||p.get('view')||null,sec:p.get('sec')||'',sub:p.get('sub')||'',el:'',read:p.get('read')||''}}
+  return {cut:null,sec:'',sub:'',el:h,read:''};
+}
+function writeHash(push){
+  const p=new URLSearchParams();
+  if(cut!==defaultCut)p.set('cut',cut);
+  if(sec)p.set('sec',sec);
+  if(sub)p.set('sub',sub);
+  const next=p.toString()?('#'+p.toString()):(location.pathname+location.search);
+  const cur=location.hash|| (location.pathname+location.search);
+  if(cur===next)return;
+  (push?history.pushState:history.replaceState).call(history,null,'',next);
+}
+function revealRow(el){if(!el)return;if(el.classList.contains('more')){const s=el.closest('.sub');if(s){s.classList.add('open');const b=s.querySelector('.mt');if(b)b.textContent='less'}}}
+function scrollToId(id,smooth){const el=document.getElementById(id);if(!el)return false;revealRow(el);el.scrollIntoView({block:'start',behavior:smooth?'smooth':'auto'});return true}
+function inSubMode(){return !!(sec&&namedSubs(catBySlug(sec)).length)}
+function renderNav(){
+  const cutslot=document.getElementById('cutslot');
+  if(VIEWS.length>1){
+    cutslot.hidden=false;
+    cutslot.innerHTML=VIEWS.map(v=>`<button type="button" data-cut="${esc(v[0])}" class="${v[0]===cut?'on':''}">${esc(v[1])}</button>`).join('');
+    cutslot.querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.cut===cut)return;cut=b.dataset.cut;sec='';sub='';apply(true,true);scrollTo(0,0)});
+  }else cutslot.hidden=true;
+  const crumb=document.getElementById('crumb');
+  const parts=[`<a href="../">Morning Briefing</a>`];
+  parts.push(sec?`<a href="#" data-back="feed">${esc(FEEDNAME)}</a>`:`<span class="here">${esc(FEEDNAME)}</span>`);
+  if(sec){const c=catBySlug(sec);parts.push(`<span class="here">${esc(c?c.cat:sec)}</span>`)}
+  crumb.innerHTML=parts.join('<span class="sep"> › </span>');
+  crumb.hidden=!sec;
+  const back=crumb.querySelector('[data-back=feed]');
+  if(back)back.onclick=e=>{e.preventDefault();sec='';sub='';apply(true,true);scrollTo(0,0)};
+  const secs=document.getElementById('secs');
+  const mode=inSubMode()?'sub':'sec';
+  const tabs=mode==='sub'
+    ?[{id:'',name:'All'},...namedSubs(catBySlug(sec)).map(s=>({id:slug(s.sub),name:s.sub}))]
+    :[{id:'',name:'All'},...cats().map(x=>({id:slug(x.cat),name:label(x.cat)}))];
+  const cur=mode==='sub'?sub:sec;
+  secs.innerHTML=tabs.map(t=>`<button type="button" data-mode="${mode}" data-id="${esc(t.id)}" class="${t.id===cur?'on':''}">${esc(t.name)}</button>`).join('');
+  secs.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+    const id=b.dataset.id;
+    if(mode==='sub'){
+      sub=id;writeHash(true);renderNav();
+      id?scrollToId(cut+'-'+sec+'-'+id,true):document.querySelector(`.view[data-v="${cut}"] section:not([hidden])`)?.scrollIntoView({block:'start',behavior:'smooth'});
+    }else{
+      sec=id;sub='';apply(true,true);scrollTo(0,0);
+    }
+  });
+  lastSpy=cur;
+  setPinH();
+  requestAnimationFrame(scrollActiveTab);
+}
+function scrollActiveTab(){
+  const el=document.querySelector('#secs .on')||document.querySelector('#secs .spy');
+  if(el)el.scrollIntoView({inline:'center',block:'nearest'});
+}
+function apply(doHash,push){
+  document.querySelectorAll('.view').forEach(v=>v.hidden=v.dataset.v!==cut);
+  const root=document.querySelector(`.view[data-v="${cut}"]`);
+  if(root)root.querySelectorAll(':scope > section').forEach(s=>{
+    const cid=s.id.slice(cut.length+1);
+    const on=!sec||cid===sec;
+    s.hidden=!on;
+    if(on)s.classList.remove('closed');
+  });
+  try{localStorage.setItem('view:'+FEED,cut)}catch(e){}
+  renderNav();
+  if(doHash!==false)writeHash(!!push);
+  setPinH();
+}
+function applyFromHash(){
+  const st=parseHash();
+  if(st.cut&&VIEWS.some(v=>v[0]===st.cut))cut=st.cut;
+  else{try{const pv=localStorage.getItem('view:'+FEED);if(pv&&VIEWS.some(v=>v[0]===pv))cut=pv}catch(e){}}
+  sec=st.sec&&catBySlug(st.sec)?st.sec:'';
+  sub=sec&&st.sub&&namedSubs(catBySlug(sec)).some(s=>slug(s.sub)===st.sub)?st.sub:'';
+  apply(false);
+  if(st.read){openReader(st.read,false);return}
+  if(document.body.classList.contains('reading'))closeReader(true);
+  if(st.el)requestAnimationFrame(()=>scrollToId(st.el,false));
+  else if(sub)requestAnimationFrame(()=>scrollToId(cut+'-'+sec+'-'+sub,false));
+}
+document.querySelectorAll('.top a').forEach(a=>a.addEventListener('click',e=>{
+  const href=a.getAttribute('href')||'';
+  if(/read=/.test(href))return;
+  const id=href.slice(1);const el=document.getElementById(id);if(!el)return;
+  e.preventDefault();
+  const section=el.closest('section');
+  if(sec&&section&&section.hidden){sec='';sub='';apply(true,true)}
+  scrollToId(id,true);
+}));
+function spy(){
+  if(sec&&!inSubMode())return;
+  const mode=inSubMode()?'sub':'sec';
+  const pinH=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--pin-h'))||0;
+  const y=pinH+20;
+  let nodes;
+  if(mode==='sec'){
+    const root=document.querySelector(`.view[data-v="${cut}"]`);if(!root)return;
+    nodes=[...root.querySelectorAll(':scope > section')].filter(s=>!s.hidden).map(s=>({id:s.id.slice(cut.length+1),el:s}));
+  }else{
+    nodes=namedSubs(catBySlug(sec)).map(s=>({id:slug(s.sub),el:document.getElementById(cut+'-'+sec+'-'+slug(s.sub))}));
+  }
+  let active='';
+  for(const n of nodes){if(!n.el)continue;if(n.el.getBoundingClientRect().top<=y)active=n.id}
+  document.querySelectorAll('#secs button').forEach(b=>{
+    if(b.dataset.mode!==mode)return;
+    b.classList.toggle('on',b.dataset.id===active);
+  });
+  if(active!==lastSpy){lastSpy=active;scrollActiveTab()}
+}
+const pin=document.getElementById('pin');
+const onScroll=()=>{if(pin)pin.classList.toggle('scrolled',scrollY>16);setPinH();spy()};
+addEventListener('scroll',onScroll,{passive:true});
+addEventListener('resize',()=>{setPinH();scrollActiveTab()});
+addEventListener('hashchange',applyFromHash);
+addEventListener('popstate',applyFromHash);
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{setPinH();spy()});
+
+/* ---- intraday refresh ---- */
+function fmtHM(iso){if(!iso)return '';try{const d=new Date(iso);return d.toLocaleTimeString('en-CA',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Toronto'})}catch(e){return ''}}
+function setUpdated(iso){const el=document.getElementById('updated');if(!el||!iso)return;el.textContent='Updated '+fmtHM(iso);el.hidden=false;el.dateTime=iso}
+function toast(msg){let el=document.getElementById('toast');if(!el){el=document.createElement('div');el.id='toast';document.body.appendChild(el)}el.textContent=msg;el.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(()=>el.classList.remove('show'),2800)}
+function allStoryIds(){const s=new Set();(function walk(x){if(Array.isArray(x)&&typeof x[4]==='string'&&x[4].startsWith('http')&&x[7])s.add(x[7]);else if(Array.isArray(x))x.forEach(walk);else if(x&&typeof x==='object')Object.values(x).forEach(walk)})(typeof DATA!=='undefined'?DATA:[]);return s}
+function bindVotes(root){(root||document).querySelectorAll('.v').forEach(v=>{if(v.dataset.bound)return;v.dataset.bound='1';
+  const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
+  if(st)v.querySelectorAll(`[data-d="${st}"]`).forEach(b=>b.classList.add('on'));
+  if(st==='up'&&level==='story'&&!lget(LK)[id])likeSync(v,true);
+  v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
+    const was=b.classList.contains('on');const vote=was?'clear':b.dataset.d;
+    document.querySelectorAll(`.v[data-level="${level}"][data-id="${id}"]`).forEach(w=>w.querySelectorAll('button').forEach(x=>x.classList.toggle('on',!was&&x.dataset.d===vote)));
+    was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),vote);
+    if(level==='story')likeSync(v,vote==='up');
+    try{await fetch('feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({feed:FEED,date:DATE,level,id,title,vote})})}catch(e){}
+  }));
+});}
+function appendItem(story){
+  const item=[story.n||0,story.title,story.desc||'',story.src||'',story.url,story.dt||'',story.img||'',story.id,story.added_at||'',true];
+  if(item[7])STORY[item[7]]=item;
+  const catName=story.cat||story.region||'';
+  const subName=story.sub||'';
+  const topicName=story.topic||'';
+  function into(list,cName,sName){
+    if(!Array.isArray(list))return false;
+    let c=list.find(x=>x.cat===cName);
+    if(!c){c={cat:cName,subs:[]};list.push(c)}
+    let s=c.subs.find(z=> (z.sub||'')===(sName||''));
+    if(!s){s={sub:sName||'',items:[]};c.subs.push(s)}
+    if(s.items.some(it=>it[7]===item[7]))return false;
+    // next display number
+    const maxN=Math.max(0,...(function collect(o,a){if(Array.isArray(o)&&typeof o[7]==='string')a.push(+o[0]||0);else if(Array.isArray(o))o.forEach(x=>collect(x,a));else if(o&&typeof o==='object')Object.values(o).forEach(x=>collect(x,a));return a})(DATA,[]));
+    item[0]=maxN+1;
+    s.items.push(item);
+    return {c,s,item};
+  }
+  const views=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+  const placed=[];
+  if(!Array.isArray(DATA)){
+    const rv=views.find(v=>v[0]==='region'); if(rv) placed.push(['region',into(rv[2],story.region||catName,'')]);
+    const tv=views.find(v=>v[0]==='topic'); if(tv) placed.push(['topic',into(tv[2],topicName||catName,'')]);
+  }else{
+    placed.push(['all',into(DATA,catName,subName)]);
+  }
+  // paint into any already-rendered matching sub
+  placed.forEach(([V,info])=>{
+    if(!info)return;
+    const {c,s,item}=info;
+    const root=document.querySelector(`.view[data-v="${V}"]`)||document.querySelector('.view');
+    if(!root)return;
+    const sec=root.querySelector(`:scope > section[id="${CSS.escape(V+'-'+slug(c.cat))}"]`);
+    if(!sec){ // new section — rebuild this view
+      const view=VIEWS.find(v=>v[0]===V); if(!view)return;
+      const wrap=document.querySelector(`.view[data-v="${V}"]`);
+      if(wrap){wrap.innerHTML=renderCats(view[2],V);bindCh(wrap);bindVotes(wrap)}
+      return;
+    }
+    const body=sec.querySelector('.body');
+    let subEl=[...sec.querySelectorAll('.sub')].find(el=>{
+      if(!s.sub)return !el.querySelector('.sh');
+      return el.id===`${V}-${slug(c.cat)}-${slug(s.sub)}`;
+    });
+    if(!subEl){
+      subEl=document.createElement('div'); subEl.className='sub';
+      if(s.sub)subEl.id=`${V}-${slug(c.cat)}-${slug(s.sub)}`;
+      subEl.innerHTML=(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',slug(c.cat)+'/'+slug(s.sub),c.cat+' › '+s.sub)}</div>`:'');
+      body.appendChild(subEl);
+    }
+    const html=row(item,s.items.length>5?'more fresh':'fresh',V,c.cat+(s.sub?' › '+s.sub:''));
+    const mt=subEl.querySelector('.mt');
+    if(mt){mt.insertAdjacentHTML('beforebegin',html);const extra=subEl.querySelectorAll('.more').length;mt.textContent=subEl.classList.contains('open')?'less':`…more (${extra})`}
+    else{
+      subEl.insertAdjacentHTML('beforeend',html);
+      if(s.items.length>5){const b=document.createElement('button');b.className='mt';b.textContent=`…more (${s.items.length-5})`;b.addEventListener('click',()=>{subEl.classList.toggle('open');b.textContent=subEl.classList.contains('open')?'less':`…more (${subEl.querySelectorAll('.more').length})`});subEl.appendChild(b)}
+    }
+    bindVotes(subEl);
+  });
+}
+function bindCh(root){(root||document).querySelectorAll('.ch').forEach(e=>{if(e.dataset.bound)return;e.dataset.bound='1';e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')})});
+ (root||document).querySelectorAll('.mt').forEach(b=>{if(b.dataset.bound)return;b.dataset.bound='1';b.addEventListener('click',()=>{const s=b.parentElement;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'less':`…more (${s.querySelectorAll('.more').length})`})})}
+let refreshing=false;
+async function refreshNews(opts){const quiet=opts&&opts.quiet;if(refreshing)return;refreshing=true;
+  const btn=document.getElementById('refresh'), bar=document.getElementById('refresh-bar');
+  if(btn)btn.classList.add('busy'); if(bar){bar.hidden=false;bar.classList.add('on')}
+  try{
+    const j=await fetch('latest.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()});
+    if(j.date&&j.date>DATE){toast('New edition available');location.reload();return}
+    const have=allStoryIds();
+    const fresh=(j.stories||[]).filter(s=>s&&s.id&&!have.has(s.id));
+    fresh.forEach(appendItem);
+    if(fresh.length){renderNav();setPinH()}
+    setUpdated(j.updated_at);
+    if(!quiet||fresh.length)toast(fresh.length?(fresh.length+' new '+(fresh.length===1?'story':'stories')):('Up to date · updated '+fmtHM(j.updated_at)));
+  }catch(e){if(!quiet)toast('Could not refresh')}
+  finally{refreshing=false;if(btn)btn.classList.remove('busy');if(bar){bar.classList.remove('on');bar.hidden=true}}
+}
+const _rb=document.getElementById('refresh'); if(_rb)_rb.addEventListener('click',()=>refreshNews());
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')refreshNews({quiet:true})});
+// pull-to-refresh (standalone PWA has no Safari reload)
+let ptrY=0, ptring=false;
+addEventListener('touchstart',e=>{if(scrollY>2||refreshing)return;const t=e.target;if(t&&t.closest&&t.closest('#pin,#stick,#refresh'))return;ptrY=e.touches[0].clientY;ptring=true},{passive:true});
+addEventListener('touchmove',e=>{if(!ptring)return;const dy=e.touches[0].clientY-ptrY;if(dy>72&&scrollY<2){ptring=false;refreshNews()}},{passive:true});
+addEventListener('touchend',()=>{ptring=false},{passive:true});
+bindCh();
+bindVotes(document);
+// ----- in-app reader -----
+const STORY={};
+(function indexStories(){
+  const views=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+  for(const v of views)for(const c of (v[2]||[]))for(const s of (c.subs||[]))for(const it of (s.items||[]))if(it&&it[7])STORY[it[7]]=it;
+})();
+let readerPushed=false, listScroll=0, readerId='';
+function readerHash(id){
+  const h=location.hash.slice(1);
+  if(h&&/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);p.set('read',id);return '#'+p.toString()}
+  return '#read='+encodeURIComponent(id);
+}
+function stripReadHash(){
+  const st=parseHash();
+  if(!st.read)return location.pathname+location.search+(location.hash||'');
+  const h=location.hash.slice(1);
+  if(/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);p.delete('read');const q=p.toString();return q?('#'+q):(location.pathname+location.search)}
+  return location.pathname+location.search;
+}
+function closeReader(fromPop){
+  if(!document.body.classList.contains('reading')&&!readerId)return;
+  if(!fromPop && readerPushed){history.back();return}
+  document.body.classList.remove('reading');
+  const panel=document.getElementById('reader'); if(panel)panel.hidden=true;
+  readerId=''; readerPushed=false;
+  requestAnimationFrame(()=>{scrollTo(0,listScroll||0)});
+}
+function renderReader(rec, item){
+  const title=rec.title||(item&&item[1])||'';
+  const src=rec.source||(item&&item[3])||'';
+  const url=rec.url||(item&&item[4])||'#';
+  const by=rec.byline||'';
+  const date=rec.date||(item&&item[5])||'';
+  const sum=rec.summary||(item&&item[2])||'';
+  const img=rec.image||(rec.thumb?('../img/'+rec.thumb):'')||(item&&item[6]?('../img/'+item[6]):'');
+  const id=rec.id||(item&&item[7])||'';
+  document.getElementById('rsrc').textContent=src;
+  const orig=document.getElementById('rorig'); orig.href=url; orig.hidden=!url||url==='#';
+  document.getElementById('rvotes').innerHTML=votes('story',id,title,` data-url="${esc(url)}"`);
+  bindVotes(document.getElementById('rvotes'));
+  let body='';
+  if(title)body+=`<h1>${esc(title)}</h1>`;
+  if(by||date)body+=`<p class="rby">${by?esc(by):''}${by&&date?' · ':''}${date?`<span class="rdate">${esc(date)}</span>`:''}</p>`;
+  if(img)body+=`<img class="rhero" src="${esc(img)}" alt="">`;
+  if(rec.status==='full'&&rec.html){
+    body+=`<div class="rhtml">${rec.html}</div>`;
+  }else{
+    const why=rec.reason==='paywall'?'This article looks paywalled or limited at the source.':
+              rec.reason==='blocked'?'The publisher blocked a full-text copy.':
+              'A full-text version was not available.';
+    body+=`<div class="rnote">${why} <a href="${esc(url)}" target="_blank" rel="noopener">Open the original at ${esc(src||'the source')}</a>.</div>`;
+    if(sum)body+=`<p class="rsum">${esc(sum)}</p>`;
+  }
+  const box=document.getElementById('rbody');
+  box.classList.remove('loading');
+  box.innerHTML=body;
+}
+async function openReader(id,push){
+  if(!id)return;
+  if(document.body.classList.contains('reading')&&readerId===id&&!push)return;
+  if(!document.body.classList.contains('reading'))listScroll=scrollY;
+  readerId=id;
+  document.body.classList.add('reading');
+  const panel=document.getElementById('reader'); if(panel)panel.hidden=false;
+  const box=document.getElementById('rbody');
+  box.classList.add('loading'); box.innerHTML='<div class="rspinner" role="status" aria-label="Loading article"></div>';
+  document.getElementById('rsrc').textContent='';
+  document.getElementById('rvotes').innerHTML='';
+  const item=STORY[id];
+  if(item){
+    document.getElementById('rsrc').textContent=item[3]||'';
+    const orig=document.getElementById('rorig'); orig.href=item[4]||'#'; orig.hidden=!item[4];
+    document.getElementById('rvotes').innerHTML=votes('story',id,item[1]||'',` data-url="${esc(item[4]||'')}"`);
+    bindVotes(document.getElementById('rvotes'));
+  }
+  if(push){readerPushed=true;history.pushState({read:id},'',readerHash(id))}
+  else readerPushed=false;
+  try{
+    const rec=await fetch('../articles/'+DATE+'/'+id+'.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()});
+    if(readerId!==id)return;
+    renderReader(rec,item);
+  }catch(e){
+    if(readerId!==id)return;
+    renderReader({id,status:'fallback',reason:'blocked',title:item?item[1]:'',source:item?item[3]:'',url:item?item[4]:'',summary:item?item[2]:'',date:item?item[5]:'',html:'',thumb:item?item[6]:''},item);
+  }
+  const scrollBox=document.getElementById('rbody');
+  if(scrollBox)scrollBox.scrollTop=0;
+  if(!window.matchMedia('(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4)').matches)scrollTo(0,0);
+}
+document.getElementById('rback').addEventListener('click',()=>closeReader(false));
+function storyIdFromEvent(e){
+  if(e.target.closest('.v,.mt,.ch,.unl,#rback,#rorig,.rorig'))return '';
+  const a=e.target.closest('a.rlink');
+  const row=e.target.closest('.row');
+  if(a){
+    const href=a.getAttribute('href')||'';
+    const m=/read=([^&]+)/.exec(href);
+    if(m)return decodeURIComponent(m[1]);
+  }
+  if(row)return row.getAttribute('data-id')||((row.id||'').split('-s')[1]||'');
+  return '';
+}
+function onStoryActivate(e){
+  const id=storyIdFromEvent(e); if(!id)return;
+  e.preventDefault();
+  if(e.stopPropagation)e.stopPropagation();
+  openReader(id,true);
+}
+const _main=document.getElementById('m');
+_main.addEventListener('click',onStoryActivate);
+
+applyFromHash();
+onScroll();
+</script><script>if('serviceWorker' in navigator){navigator.serviceWorker.register('/morning-briefing/sw.js?v=20261117-0203',{scope:'/morning-briefing/'}).then(function(r){r.update();if(r.waiting)r.waiting.postMessage('skipWaiting')}).catch(function(){});navigator.serviceWorker.addEventListener('controllerchange',function(){if(sessionStorage.getItem('sw-rel')===BUILD)return;sessionStorage.setItem('sw-rel',BUILD);location.reload()});}</script></body></html>
