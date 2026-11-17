@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "updated_at": "2026-11-17T09:24:13-0500",
+ "updated_at": "2026-11-17T10:19:13-0500",
  "built_at": "2026-11-17T05:25:00-0500",
  "stories": [
   {
@@ -1153,6 +1153,48 @@
   },
   {
    "n": 83,
+   "title": "Prince William Brings Climate Prize to India, in an Electric Rickshaw",
+   "desc": "The three-wheeler that the heir to the British throne used was made by one of 15 finalists honored for creative environmental projects.",
+   "src": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/17/world/asia/prince-william-climate-prize-india-rickshaw.html",
+   "dt": "Nov 17",
+   "img": "8c0cbab6b8.jpg",
+   "id": "u8c0cbab6b8",
+   "added_at": "2026-11-17T10:19:13-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Earth & Climate"
+  },
+  {
+   "n": 84,
+   "title": "Russian lawmakers look to boost penalties for war-related offences",
+   "desc": "Nov 17 - Russian lawmakers voted on Tuesday in favour of a bill that would increase fines for a slew of war-related and other minor offences, including \\\"discrediting\\\" the armed forces and distributing material the Kremlin deems extremist.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/europe/russian-lawmakers-look-to-boost-penalties-for-war-related-offences",
+   "dt": "Nov 17",
+   "img": "8e7ae4ff3b.jpg",
+   "id": "u8e7ae4ff3b",
+   "added_at": "2026-11-17T10:19:13-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Materials & Chemistry"
+  },
+  {
+   "n": 85,
+   "title": "Video: Teen boy thought he was talking with Ava. She was a Nigerian man",
+   "desc": "WARNING: This video contains sensitive material that could be disturbing to the viewer. Most sextortion cases are never solved. But as reports of sexual blackmail of minors surge, the AP and FRONTLINE connected a young scammer in Nigeria with his teen victim in Canada.",
+   "src": "The Globe and Mail",
+   "url": "https://www.theglobeandmail.com/world/video-teen-boy-thought-he-was-talking-with-ava-she-was-a-nigerian-man/",
+   "dt": "Nov 17",
+   "img": "d183421249.jpg",
+   "id": "ud183421249",
+   "added_at": "2026-11-17T10:19:13-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Materials & Chemistry"
+  },
+  {
+   "n": 86,
    "title": "Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.",
    "desc": "For years, engineers have shuffled between Tesla and SpaceX, and the companies have worked on major projects together.",
    "src": "The New York Times",
@@ -1166,7 +1208,7 @@
    "sub": "Space"
   },
   {
-   "n": 84,
+   "n": 87,
    "title": "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit in 2027",
    "desc": "Daejeon, Republic of Korea – October 14, 2026: South Korean space electric propulsion startup Cosmo Bee plans to conduct an in-orbit flight test of its 10 mN-class Honeybee Hall thruster […] The post Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit in 2027 appeared first on SpaceNews .",
    "src": "SpaceNews",
@@ -1180,7 +1222,7 @@
    "sub": "Space"
   },
   {
-   "n": 85,
+   "n": 88,
    "title": "SEOPS Signs Rideshare Deal With Stoke",
    "desc": "The agreement is expected to give those looking for a ride to space another option, as SpaceX prepares to sunset its Falcon 9 rideshare programs around 2029. The post SEOPS Signs Rideshare Deal With Stoke appeared first on Payload .",
    "src": "Payload",
@@ -1194,7 +1236,7 @@
    "sub": "Space"
   },
   {
-   "n": 86,
+   "n": 89,
    "title": "Japan to launch natural disaster warning network across Asia",
    "desc": "The network will share knowledge in the operation of the early warning systems.",
    "src": "The Straits Times",
@@ -1208,7 +1250,7 @@
    "sub": "Space"
   },
   {
-   "n": 87,
+   "n": 90,
    "title": "Wildlife whereabouts lost as Russian researchers cut off from satellite tracking",
    "desc": "REPINO, Russia, Nov 17 - You could follow Kroshik the rescue seal with little dots on a map. There he was: hunting for fish on the dangerous southern shore of Lake Ladoga, then swimming back to safer waters. Then suddenly, he was gone.",
    "src": "The Straits Times",
@@ -1222,7 +1264,7 @@
    "sub": "Space"
   },
   {
-   "n": 88,
+   "n": 91,
    "title": "Elon Musk’s Texas GOP Allies, Who Gave Him $1.7 Billion, Have Been Voted Out. What Now?",
    "desc": "SpaceX and Tesla are more embedded across Texas than they ever were in California, which Mr. Musk left in 2020 to escape Democratic policies.",
    "src": "The New York Times",
@@ -1236,7 +1278,7 @@
    "sub": "Space"
   },
   {
-   "n": 89,
+   "n": 92,
    "title": "Tossing Fireworks from Cloud to Cloud - NASA Science",
    "desc": "For many astronauts, the spectacular sight of lightning stands out when looking back at Earth from the International Space Station.",
    "src": "NASA",
@@ -1250,7 +1292,7 @@
    "sub": "Space"
   },
   {
-   "n": 90,
+   "n": 93,
    "title": "Kalshi plans to launch stock trading soon",
    "desc": "Kalshi's interest in offering stock trading shows the platform's push into traditional financial markets.",
    "src": "CNBC",
@@ -1264,7 +1306,7 @@
    "sub": "Space"
   },
   {
-   "n": 91,
+   "n": 94,
    "title": "Ontario Teachers’ Pension Plan sold 40% of its SpaceX stake after August lockup lifted",
    "desc": "Fund secured billions of dollars in gains from a modest early investment that has paid off handsomely",
    "src": "The Globe and Mail",
@@ -1278,7 +1320,7 @@
    "sub": "Space"
   },
   {
-   "n": 92,
+   "n": 95,
    "title": "Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy",
    "desc": "The history of the sprawling corporate combinations is rich, colorful and mostly disappointing. Could a SpaceX-Tesla merger be a success story?",
    "src": "The New York Times",
@@ -1292,7 +1334,7 @@
    "sub": "Space"
   },
   {
-   "n": 93,
+   "n": 96,
    "title": "As Trump Goes to China, A.I. Tensions Surge Amid Spying and Safety Fears",
    "desc": "The espionage concerns that led to Jensen Huang’s ouster at Nvidia highlight a core challenge to diplomacy between Washington and Beijing on A.I. advancement.",
    "src": "The New York Times",
@@ -1306,7 +1348,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 94,
+   "n": 97,
    "title": "China taps US AI models to train home-grown rivals as chip curbs bite",
    "desc": "The practice – known as distillation – has expanded into mainstream industrial use in China.",
    "src": "The Straits Times",
@@ -1320,7 +1362,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 95,
+   "n": 98,
    "title": "Tobacco group Imperial Brands to axe up to 4,600 jobs as it uses more AI",
    "desc": "Owner of JPS cigarettes, Golden Virginia tobacco, Blu vapes and Rizla has launched huge cost-cutting drive Business live – latest updates Imperial Brands, the owner of Davidoff cigarettes and Blu vapes, is cutting up to 4,600 jobs in a huge cost-saving drive as it uses more AI and other technologies",
    "src": "The Guardian",
@@ -1334,7 +1376,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 96,
+   "n": 99,
    "title": "Actors in UK to get more rights over their ‘digital replicas’ in deal on AI protections",
    "desc": "Agreement secured by Equity union gives actors rights over payment and consent when digital replicas are used Actors in the UK are to be given more rights over their “digital replicas” as part of a new agreement on AI protections with TV and film producers, secured after a growing on-set backlash. U",
    "src": "The Guardian",
@@ -1348,7 +1390,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 97,
+   "n": 100,
    "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
    "desc": "Organisers say up to 10,000 people could join next round of demonstrations as US president arrives for Asean summit Asean and Apec summits – live updates Hundreds of people have been arrested in heated demonstrations against Donald Trump in Manila, as the US president arrived in the city for a leade",
    "src": "The Guardian",
@@ -1362,7 +1404,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 98,
+   "n": 101,
    "title": "'Big Short' investor Steve Eisman to discuss Nvidia, Anthropic and AI bull on CNBC",
    "desc": "Steve Eisman is appearing on \"Squawk Box\" on Tuesday.",
    "src": "CNBC",
@@ -1376,7 +1418,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 99,
+   "n": 102,
    "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
    "desc": "",
    "src": "CNBC",
@@ -1390,7 +1432,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 100,
+   "n": 103,
    "title": "Paul Kelly pleads for Albanese to ‘show some backbone’ over AI as creatives campaign for copyright protections",
    "desc": "Music legend is joined by Jimmy Barnes and Peter Garrett in backing Not AI’s To Take campaign ahead of Aria awards Get our breaking news email , free app or daily news podcast Australia’s creative community has launched a major campaign pleading with the Albanese government not to water down copyrig",
    "src": "The Guardian",
@@ -1404,7 +1446,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 101,
+   "n": 104,
    "title": "Demis Hassabis’ AI company raises $5 billion, months after he left as Google DeepMind CEO",
    "desc": "Isomorphic Labs is looking to develop new medicines using AI.",
    "src": "CNBC",
@@ -1418,7 +1460,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 102,
+   "n": 105,
    "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
    "desc": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addr",
    "src": "The Verge",
@@ -1432,7 +1474,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 103,
+   "n": 106,
    "title": "Just 400 US Data Centers Use More Electricity Than Michigan",
    "desc": "New Harvard research shows that data-center power demand is outstripping states—and that doesn’t even include facilities with off-grid gas plants.",
    "src": "WIRED",
@@ -1446,7 +1488,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 104,
+   "n": 107,
    "title": "There’s a New Push at COP31 in Turkey: Electrification",
    "desc": "With war squeezing global oil and gas supplies, leaders at COP31 are backing a plan that would mirror China’s rapid grid expansion.",
    "src": "The New York Times",
@@ -1460,7 +1502,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 105,
+   "n": 108,
    "title": "China engineers behind J-35 fighter jet pioneer 3D-printed load-bearing structures in military aircraft — behemoth 16.4-foot part uses segme",
    "desc": "China's first aircraft research institute and developer of the J-35 fighter jets 3D-printed a primary load-bearing component over 16.4 feet in length, minimizing the need for bolts and speeding up research progress.",
    "src": "Tomshardware",
@@ -1474,7 +1516,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 106,
+   "n": 109,
    "title": "Powering towns on pig manure: How Denmark has transformed energy generation",
    "desc": "Pigs are big business in Denmark. Now their waste is being turned into biogas, which powers the national grid.",
    "src": "Al Jazeera",
@@ -1488,7 +1530,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 107,
+   "n": 110,
    "title": "REO returns to challenge Slate and Fathom in a cheap truck showdown",
    "desc": "On today’s surprisingly affordable edition of Quick Charge , we check out all the new cheap tricks trucks coming for your hard-earned money in 2027, and challenge the seemingly popular idea that low tech automatically begets low costs. more…",
    "src": "Electrek",
@@ -1502,7 +1544,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 108,
+   "n": 111,
    "title": "Trump lands in Manila with trade deals in sight and nuclear talks ahead",
    "desc": "President Trump’s brief meeting with Quad leaders is unlikely to go beyond pleasantries, an analyst says.",
    "src": "The Straits Times",
@@ -1516,7 +1558,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 109,
+   "n": 112,
    "title": "Trump in Asia for historic nuclear talks with China and Russia",
    "desc": "US President Donald Trump landed in Asia on Monday for economic talks and a planned trilateral meeting with Chinese President Xi Jinping and Russian President Vladimir Putin on nuclear issues and the war in Ukraine. Trump also raised the possibility of meeting North Korean leader Kim Jong Un during ",
    "src": "France 24",
@@ -1530,7 +1572,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 110,
+   "n": 113,
    "title": "Planned Xi-Trump-Putin meeting prompts worries they may divide the world in three",
    "desc": "The leaders of the world’s three biggest nuclear powers will meet Thursday after the APEC summit in China",
    "src": "The Globe and Mail",
@@ -1544,7 +1586,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 111,
+   "n": 114,
    "title": "Going critical in Phoenix: ANS Winter Conference opens with a call for durability",
    "desc": "A week that brought down the country’s email and grounded its airplanes could not stop the nuclear community from getting together in Phoenix. The 2026 ANS Winter Conference & Expo opened this morning in the Copper State, days after Microsoft’s global email service outage on Thursday and an FAA grou",
    "src": "Ans",
@@ -1558,7 +1600,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 112,
+   "n": 115,
    "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
    "desc": "The U.S. Commerce Department is making moves to tighten export controls.",
    "src": "CNBC",
@@ -1572,7 +1614,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 113,
+   "n": 116,
    "title": "Data centre REITs, related stocks slide as US imposes new rule on AI chip exports",
    "desc": "Analysts say data centre operators here should still benefit from underlying demand for AI and cloud computing services.",
    "src": "The Straits Times",
@@ -1586,7 +1628,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 114,
+   "n": 117,
    "title": "Chinese envoy says chip equipment export curbs threaten EU-China trade thaw",
    "desc": "MADRID, Nov 17 - Longstanding Dutch limits on exporting chipmaking equipment to China have caused friction that is casting a shadow over EU-China industrial policy talks, a Chinese diplomat told Reuters, warning that China could also limit sharing of its technology.",
    "src": "The Straits Times",
@@ -1600,7 +1642,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 115,
+   "n": 118,
    "title": "Facing Criticism, Trump Administration Says It’s Investigating Megaspeed",
    "desc": "The announcement appeared to be a response to recent criticism that the Commerce Department has moved too slowly on the alleged chip smuggling case.",
    "src": "The New York Times",
@@ -1614,7 +1656,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 116,
+   "n": 119,
    "title": "How Trump's chip restrictions on South East Asia will hit China",
    "desc": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
    "src": "BBC",
@@ -1628,7 +1670,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 117,
+   "n": 120,
    "title": "US government confirms investigation into tech firm Megaspeed",
    "desc": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
    "src": "BBC",
@@ -1642,7 +1684,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 118,
+   "n": 121,
    "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
    "desc": "New U.S. restrictions could jeopardize billions in investment and force countries in the region to strike an increasingly difficult balance between Washington and Beijing.",
    "src": "The New York Times",
@@ -1656,7 +1698,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 119,
+   "n": 122,
    "title": "Video: Why Trump's new AI chip crackdown matters before Xi talks",
    "desc": "A new U.S. crackdown on advanced AI chips is casting a shadow over this week's Trump-Xi meeting. Reuters South China correspondent David Kirton explains what Washington is trying to achieve, and how Beijing could respond.",
    "src": "The Globe and Mail",
@@ -1670,7 +1712,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 120,
+   "n": 123,
    "title": "Nvidia’s Earnings Call Is a High-Stakes Moment",
    "desc": "Wall Street is bracing for the chip maker’s latest earnings call, as analysts seek clues about the artificial intelligence giant’s future.",
    "src": "The New York Times",
@@ -1684,7 +1726,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 121,
+   "n": 124,
    "title": "NEC and IBM Japan Demonstrate Integrated QKD and PQC Communications",
    "desc": "Insider Brief PRESS RELEASE — NEC Corporation (“NEC“) and IBM Japan, Ltd. (“IBM Japan”) announced that they successfully completed Japan’s first demonstration of a hybrid quantum-safe communication technology combining quantum key distribution (QKD) and post-quantum cryptography (PQC). Specifically,",
    "src": "Thequantuminsider",
@@ -1698,7 +1740,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 122,
+   "n": 125,
    "title": "DOE Seeks Input on Cryogenic and Quantum Supercomputing Testbeds",
    "desc": "Insider Brief Building a useful quantum computer will likely mean building systems around it — systems that rely on classical computing resources that help it operate and the connections that allow them to work together. The U.S. Department of Energy gets it. The department is seeking industry and r",
    "src": "Thequantuminsider",
@@ -1712,7 +1754,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 123,
+   "n": 126,
    "title": "GenQ Emerges From Stealth to Commercialize Quantum Measurement Technology",
    "desc": "Insider Brief PRESS RELEASE — — For decades, practical, scalable applications of quantum technology have been purely aspirational. Now, Generation Quantum (“GenQ”) is taking a different approach to create quantum capabilities that work today. “GenQ completely changed the way I think about quantum co",
    "src": "Thequantuminsider",
@@ -1726,7 +1768,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 124,
+   "n": 127,
    "title": "AQSolotl Reports 6.94-Microsecond Latency in NVIDIA NVQLink Integration Test",
    "desc": "Insider Brief PRESS RELEASE — AQSolotl, a developer of quantum control systems, today announced initial results from integrating NVIDIA NVQLink into its Chronos-Q platform. Tests connecting Chronos-Q with NVIDIA DGX Spark recorded a minimum round-trip latency of 6.94 microseconds across 1,000 reques",
    "src": "Thequantuminsider",
@@ -1740,7 +1782,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 125,
+   "n": 128,
    "title": "Falcon Systems Launches Falcon 5000 Series for Quantum Secure Networks",
    "desc": "Insider Brief PRESS RELEASE — Falcon Systems, the Netherlands-based leader building the infrastructure for Quantum Secure Networks (QSN), announces the launch of the Falcon® 5000 Series, the next generation of its proven Measurement-Device-Independent Quantum Key Distribution (MDI-QKD) portfolio. Th",
    "src": "Thequantuminsider",
@@ -1754,7 +1796,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 126,
+   "n": 129,
    "title": "BlueQubit Selects Eight Teams for Quantum Flywheel Grant Programme",
    "desc": "Insider Brief PRESS RELASE — BlueQubit today announced the research teams selected for its Quantum Flywheel grant program, a $150,000 initiative created with support from IBM, Amazon Web Services (AWS), and NVIDIA Accelerated Computing. Awardees receive three months of credits for AI tokens and clas",
    "src": "Thequantuminsider",
@@ -1768,7 +1810,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 127,
+   "n": 130,
    "title": "Quantum X and Everest Cloud Partner on Quantum and AI Services in South Asia",
    "desc": "Insider Brief PRESS RELEASE — Quantum X, Inc. (OTC: QUTX) (“Quantum X” or the “Company”) today announced a channel partnership with Everest Cloud, the Kathmandu-based cloud services brand of Digital Network Solutions Pvt. Ltd. (“Everest Cloud”), under a Memorandum of Understanding (“MOU”) signed on ",
    "src": "Thequantuminsider",
@@ -1782,7 +1824,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 128,
+   "n": 131,
    "title": "NIELIT Hyderabad and QClairvoyance Train Over 200 Students in Quantum Technology",
    "desc": "Insider Brief PRESS RELEASE — More than 200 students from nine educational institutions participated in a three-day workshop on emerging trends in quantum communications and applications in quantum technology, organised by NIELIT Hyderabad under the Ministry of Electronics and Information Technology",
    "src": "Thequantuminsider",
@@ -1796,7 +1838,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 129,
+   "n": 132,
    "title": "Quantum computing, greener data centres: How innovation is helping Singapore and Japan turn shared challenges into opportunities",
    "desc": "Fujitsu shows how its drawing on its Japanese expertise to support Singapore’s digital transformation and sustainable growth. Read more at straitstimes.com.",
    "src": "The Straits Times",
@@ -1810,7 +1852,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 130,
+   "n": 133,
    "title": "From First-Timers to PhDs: 1,000+ Builders Take on Quantum at the Qollab × IonQ Hackathon",
    "desc": "Insider Brief Last month, more than 1,000 students, researchers and professionals in 37 countries spent a weekend writing quantum software, competing at 22 university sites from Finland to Argentina. Some of the best work came from people who had never written a line of quantum code. An avionics eng",
    "src": "Thequantuminsider",
