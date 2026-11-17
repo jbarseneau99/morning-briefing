@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "updated_at": "2026-11-17T08:18:10-0500",
+ "updated_at": "2026-11-17T09:24:13-0500",
  "built_at": "2026-11-17T05:25:00-0500",
  "stories": [
   {
@@ -551,6 +551,20 @@
   },
   {
    "n": 40,
+   "title": "Genesis AI Raises $500M At $3.5B Valuation To Bring Its Robots To Factories And Warehouses",
+   "desc": "Genesis AI, a startup teaching robots to perform physical tasks by learning from human movements, announced Tuesday it has raised $500 million in Series A funding at a $3.5 billion valuation.",
+   "src": "News",
+   "url": "https://news.crunchbase.com/venture/robot-factory-workers-genesis-ai-fundraise/",
+   "dt": "Nov 17",
+   "img": "bc2e9c453e.jpg",
+   "id": "ubc2e9c453e",
+   "added_at": "2026-11-17T09:24:13-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 41,
    "title": "Anthropic Prices Its IPO Wednesday. Here’s What Investors Need To Know",
    "desc": "Anthropic is expected to price its IPO Wednesday and start trading Thursday as ANT. Here’s the expected price range for the shares.",
    "src": "Investopedia",
@@ -564,7 +578,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 41,
+   "n": 42,
    "title": "Deutsche Bank shares sink as whistleblowers reveal Epstein payments, Trump tax leak, Russia bets",
    "desc": "A 15-million-file leak details alleged control failures at Deutsche Bank, including Epstein-linked payments and a Trump tax blunder.",
    "src": "CNBC",
@@ -578,7 +592,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 42,
+   "n": 43,
    "title": "China AI Stocks Sink as US Chip Curbs Hit Labs and Hyperscalers",
    "desc": "Chinese artificial-intelligence stocks tumbled Tuesday after the US moved to further restrict access to advanced chips, with the country’s biggest hyperscalers and AI model developers among the hardest hit.",
    "src": "Ca",
@@ -592,7 +606,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 43,
+   "n": 44,
    "title": "Nvidia shares down slightly after days of decline ahead of earnings",
    "desc": "Investors have been weighing the fallout from former CEO Jensen Huang's resignation.",
    "src": "CNBC",
@@ -606,7 +620,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 44,
+   "n": 45,
    "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
    "desc": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.",
    "src": "CNBC",
@@ -620,7 +634,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 45,
+   "n": 46,
    "title": "Anthropic has an unusual plan to keep its employees from insider trading",
    "desc": "Post-IPO, Anthropic employees will need to create what's known as a 10b5-1 plan, a written agreement that fixes stock sales to block insider trading.",
    "src": "Businessinsider",
@@ -634,7 +648,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 46,
+   "n": 47,
    "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
    "desc": "Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.",
    "src": "CNBC",
@@ -648,7 +662,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 47,
+   "n": 48,
    "title": "Deutsche Bank shares drop after reports on mass data leak",
    "desc": "Shares in Deutsche Bank plunged on Tuesday after international media outlets published reports based on millions of leaked emails and other documents that shine a light on questionable past business practices at the German banking giant.",
    "src": "France 24",
@@ -662,7 +676,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 48,
+   "n": 49,
    "title": "Here’s how much of Deutsche Bank’s market cap has been wiped away after reports on 15 million leaked documents",
    "desc": "Deutsche Bank saw as much as €3.8 billion ($4.2 billion) of its market cap wiped away after a team of media organizations wrote about a trove of 15 million leaked documents.",
    "src": "Marketwatch",
@@ -676,7 +690,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 49,
+   "n": 50,
    "title": "The battle for Trump's 'Trash Island' golf course | About That",
    "desc": "Andrew Chang explains the fight over what U.S. President Donald Trump calls 'Trash Island' — and why a federal judge blocked the Trump administration from closing Washington's historic East Potomac Park. Images provided by The Canadian Press, Reuters, Adobe Stock and Getty Images",
    "src": "CBC",
@@ -690,7 +704,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 50,
+   "n": 51,
    "title": "MPs ask what the break clause was for as Palantir wins two more years in the NHS",
    "desc": "Ministers promise fresh procurement, but critics warn extension gives US supplier more time to dig in",
    "src": "The Register",
@@ -704,7 +718,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 51,
+   "n": 52,
    "title": "Amazon workers near Vancouver secure historic first union contract",
    "desc": "The 800-odd workers now have seat at the table to challenge company on safety issues, Unifor regional director says",
    "src": "The Globe and Mail",
@@ -718,7 +732,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 52,
+   "n": 53,
    "title": "NHS data contract to stay with controversial US tech giant Palantir until 2029",
    "desc": "Despite calls from some Labour MPs to end the arrangement with Palantir, ministers say a new contract will not be awarded until 2029.",
    "src": "BBC",
@@ -732,7 +746,21 @@
    "sub": "Government contracts"
   },
   {
-   "n": 53,
+   "n": 54,
+   "title": "The UK's NHS plans to keep its £330M Palantir contract until 2029, rather than triggering an early release clause in 2027; the deal was due ",
+   "desc": "Hugh Pym / BBC : The UK's NHS plans to keep its £330M Palantir contract until 2029, rather than triggering an early release clause in 2027; the deal was due to run until 2031 — The government says it will continue a key NHS data contract in England with the controversial US tech giant Palantir until",
+   "src": "Techmeme",
+   "url": "https://www.techmeme.com/261117/p24#a261117p24",
+   "dt": "Nov 17",
+   "img": "2399bcd0dd.jpg",
+   "id": "u2399bcd0dd",
+   "added_at": "2026-11-17T09:24:13-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Government contracts"
+  },
+  {
+   "n": 55,
    "title": "Galaxy Outflows Likely Regulate Star Formation At ‘Cosmic Noon’ NASA’s Webb Reveals",
    "desc": "A galaxy’s ultimate habitability is likely linked to massive gaseous outflows that regulate star formation.",
    "src": "Universetoday",
@@ -746,7 +774,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 54,
+   "n": 56,
    "title": "Leonid meteor shower 2026: How and when to see the peak",
    "desc": "The Leonid meteor shower, known for its bright and fast meteors, is set to peak on Tuesday night.",
    "src": "BBC",
@@ -760,7 +788,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 55,
+   "n": 57,
    "title": "APOD: 2026 November 17 - Milky Way versus Aurora - NASA Science",
    "desc": "APOD Science APOD APOD: 2026 November 17 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation writt",
    "src": "NASA",
@@ -774,7 +802,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 56,
+   "n": 58,
    "title": "Giant cloud of fish sperm glows green along Canadian island",
    "desc": "A recent satellite photo captured an underwater cloud of fish sperm, or milt, appearing to glow green during a Pacific herring spawning event at a reproductive \"sweet spot\" along the coast of Canada's Vancouver Island.",
    "src": "Live Science",
@@ -788,7 +816,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 57,
+   "n": 59,
    "title": "Nasa’s Voyager 1 probe in sight of an incredible milestone – podcast",
    "desc": "Nasa sent the Voyager 1 and 2 probes into space almost 50 years ago to explore the outer reaches of our solar system. Now Voyager 1, the farthest human-made object from Earth, is about to reach a distance of one light-day away from our planet. To find out more about its astonishing journey, Madelein",
    "src": "The Guardian",
@@ -802,7 +830,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 58,
+   "n": 60,
    "title": "Mobuoy: Dump clean-up could cost £161m over 30 years, says environment minister",
    "desc": "Environment Minister Andrew Muir has described what happened at Mobuoy, near Derry, as an \"absolute scandal\" which could take a generation to fix.",
    "src": "BBC",
@@ -816,7 +844,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 59,
+   "n": 61,
    "title": "Would more hands-on dads create a more peaceful world? This pioneering scientist thinks so",
    "desc": "Sarah Blaffer Hrdy unpicked Darwinian sexism to rewrite the story of evolution. Now, she’s turned her attention to the nature of fatherhood ‘Spit here, dear,” Sarah Blaffer Hrdy said to her husband, Dan, handing him a vial when he arrived in New York after the birth of the couple’s first grandchild.",
    "src": "The Guardian",
@@ -830,7 +858,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 60,
+   "n": 62,
    "title": "UK weather: Met Office yellow warning in force as snow may disrupt travel",
    "desc": "Snow could bring some transport disruption to the hills of northern England and southern Scotland, as Chris Fawkes explains.",
    "src": "BBC",
@@ -844,7 +872,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 61,
+   "n": 63,
    "title": "Illuminated Moon sculpture wows visitors in Jersey",
    "desc": "People can see the 6m-wide sculpture in St Helier until 29 November.",
    "src": "BBC",
@@ -858,7 +886,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 62,
+   "n": 64,
    "title": "Nvidia already sells most AI chips. Now it’s rewiring the networks between them with light",
    "desc": "By moving optics right next to the chips that run those networks, Nvidia aims to ease one of AI’s central data bottlenecks—and make itself even harder for the industry to do without",
    "src": "Scientific American",
@@ -872,7 +900,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 63,
+   "n": 65,
    "title": "After death in gene therapy trial for a brain disease, progress is reported",
    "desc": "An unexpected patient death rattled researchers who sought to pierce the blood-brain barrier. Now some think they have a better way of mitigating risks.",
    "src": "STAT",
@@ -886,7 +914,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 64,
+   "n": 66,
    "title": "Fearing Chinese Rivals, U.S. Biotech Adopts a New Norm: Share Nothing",
    "desc": "Concerns that well-funded Chinese companies will swoop in to grab new ideas for their own drug development are shaping an industry unaccustomed to such secrecy.",
    "src": "The New York Times",
@@ -900,7 +928,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 65,
+   "n": 67,
    "title": "Congo Ebola Outbreak: How Fear and Mistrust Drive Community Spread",
    "desc": "As the Ebola virus spreads in eastern Congo, health teams struggle to curb fatal delays in seeking medical care and the widespread desire to treat sick relatives at home.",
    "src": "The New York Times",
@@ -914,7 +942,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 66,
+   "n": 68,
    "title": "Does This Man Have a Right to the Data From His Own Brain?",
    "desc": "J. Galen Buckwalter cheerfully agreed to provide his neural data for a research study. But when he asked for a copy, things got complicated.",
    "src": "The New York Times",
@@ -928,7 +956,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 67,
+   "n": 69,
    "title": "Flavored nicotine tablets, the tobacco industry’s latest product, worry public health advocates",
    "desc": "The latest product from the tobacco industry is a flavorful nicotine tablet that melts in your mouth, allowing users to get a buzz as discreetly as popping a mint",
    "src": "STAT",
@@ -942,7 +970,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 68,
+   "n": 70,
    "title": "After South America tour, Pope Leo jokes reporters are more tired than him",
    "desc": "ABOARD THE PAPAL FLIGHT, Nov 17 - Pope Leo on Tuesday laughed off concerns that his 12-day South America tour could have been too physically taxing after undergoing lung cancer surgery last month, saying God had granted him good stamina.",
    "src": "The Straits Times",
@@ -956,7 +984,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 69,
+   "n": 71,
    "title": "Britain’s William and Kate ride e-rickshaw to meet climate prize finalists in Mumbai",
    "desc": "It is the Princess of Wales’ most high-profile overseas visit since undergoing treatment for cancer in 2024.",
    "src": "The Straits Times",
@@ -970,7 +998,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 70,
+   "n": 72,
    "title": "The problem with ‘zero tolerance for bad behavior’ signs at hospitals",
    "desc": "“Hospitals do not have to choose between protecting hospital staff and preserving patient/family trust in the institution.”",
    "src": "STAT",
@@ -984,7 +1012,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 71,
+   "n": 73,
    "title": "Faith-based addiction recovery groups don’t often get federal funding. RFK Jr. wants to change that",
    "desc": "As RFK Jr. pushes federal support for faith-based recovery groups, medical experts express concern over access to addiction medications.",
    "src": "STAT",
@@ -998,7 +1026,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 72,
+   "n": 74,
    "title": "Costa Rican journalist shot dead in first such killing in 25 years",
    "desc": "SAN JOSE (Reuters) Nov 16 - Costa Rican journalist Camilo Rodriguez, who gained prominence for publishing allegations against suspected drug traffickers and politicians, was shot dead on Monday, authorities said.",
    "src": "The Straits Times",
@@ -1012,7 +1040,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 73,
+   "n": 75,
    "title": "First draft of COP31 deal urges shift away from fossil fuels, signals tough negotiations to come",
    "desc": "Talks seek consensus on issues including funding for developing nations and how to respond to scientific warnings about rising global temperatures",
    "src": "The Globe and Mail",
@@ -1026,7 +1054,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 74,
+   "n": 76,
    "title": "The Death of ‘Keep 1.5 Alive’",
    "desc": "Negotiators at COP31 are confronting a new reality as the world blows past a key warming target.",
    "src": "The New York Times",
@@ -1040,7 +1068,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 75,
+   "n": 77,
    "title": "Study: 403 U.S. hyperscale data centers rival Denmark’s emissions; Oregon ranked No. 2 in power use",
    "desc": "A Harvard-led study estimates that 403 U.S. hyperscale data centers have a combined carbon footprint roughly comparable to Denmark’s. Oregon ranked second in electricity use among the facilities studied, adding context to the region’s growing debate over data center development. Read More",
    "src": "GeekWire",
@@ -1054,7 +1082,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 76,
+   "n": 78,
    "title": "Scientists, firms deny support for South Pacific deep-sea mining project",
    "desc": "American Deep Sea Minerals is among a growing number of firms jostling to mine the Pacific Ocean.",
    "src": "The Straits Times",
@@ -1068,7 +1096,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 77,
+   "n": 79,
    "title": "S’pore to carefully manage its green transition while staying competitive: Grace Fu at COP31",
    "desc": "She also reiterated the need for international cooperation as the world tackles climate change.",
    "src": "The Straits Times",
@@ -1082,7 +1110,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 78,
+   "n": 80,
    "title": "Band of baby sea turtles swims into ocean after historic California nesting",
    "desc": "Hatchlings emerge after discovery in September of first sea turtle nests ever to have been recorded on US west coast Two months after the discovery of the first sea turtle nests ever to have been recorded on the US west coast, the eggs have hatched – and California’s first group of 75 native-born ol",
    "src": "The Guardian",
@@ -1096,7 +1124,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 79,
+   "n": 81,
    "title": "COP31: Corporate interests gain access to govt delegations participating in climate negotiations",
    "desc": "Eve Irvine is pleased to welcome Siphesihle Mvundla, South African Climate and Energy Justice Campaigner at groundWork, a non-profit environmental justice organization. At COP31 in Turkey, representatives of major polluting industries have gained access to climate negotiations through government del",
    "src": "France 24",
@@ -1110,7 +1138,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 80,
+   "n": 82,
    "title": "US flexes its COP muscle despite Trump no-show",
    "desc": "The US government is snubbing UN climate talks in Turkey. That's prompted a delegation of American lawmakers, mayors and governors to make the trip instead, aiming to show climate action in the US is alive and well.",
    "src": "DW",
@@ -1124,7 +1152,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 81,
+   "n": 83,
    "title": "Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.",
    "desc": "For years, engineers have shuffled between Tesla and SpaceX, and the companies have worked on major projects together.",
    "src": "The New York Times",
@@ -1138,7 +1166,7 @@
    "sub": "Space"
   },
   {
-   "n": 82,
+   "n": 84,
    "title": "Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit in 2027",
    "desc": "Daejeon, Republic of Korea – October 14, 2026: South Korean space electric propulsion startup Cosmo Bee plans to conduct an in-orbit flight test of its 10 mN-class Honeybee Hall thruster […] The post Cosmo Bee to flight-test Honeybee Hall thruster with D-Orbit in 2027 appeared first on SpaceNews .",
    "src": "SpaceNews",
@@ -1152,7 +1180,7 @@
    "sub": "Space"
   },
   {
-   "n": 83,
+   "n": 85,
    "title": "SEOPS Signs Rideshare Deal With Stoke",
    "desc": "The agreement is expected to give those looking for a ride to space another option, as SpaceX prepares to sunset its Falcon 9 rideshare programs around 2029. The post SEOPS Signs Rideshare Deal With Stoke appeared first on Payload .",
    "src": "Payload",
@@ -1166,7 +1194,7 @@
    "sub": "Space"
   },
   {
-   "n": 84,
+   "n": 86,
    "title": "Japan to launch natural disaster warning network across Asia",
    "desc": "The network will share knowledge in the operation of the early warning systems.",
    "src": "The Straits Times",
@@ -1180,7 +1208,7 @@
    "sub": "Space"
   },
   {
-   "n": 85,
+   "n": 87,
    "title": "Wildlife whereabouts lost as Russian researchers cut off from satellite tracking",
    "desc": "REPINO, Russia, Nov 17 - You could follow Kroshik the rescue seal with little dots on a map. There he was: hunting for fish on the dangerous southern shore of Lake Ladoga, then swimming back to safer waters. Then suddenly, he was gone.",
    "src": "The Straits Times",
@@ -1194,7 +1222,7 @@
    "sub": "Space"
   },
   {
-   "n": 86,
+   "n": 88,
    "title": "Elon Musk’s Texas GOP Allies, Who Gave Him $1.7 Billion, Have Been Voted Out. What Now?",
    "desc": "SpaceX and Tesla are more embedded across Texas than they ever were in California, which Mr. Musk left in 2020 to escape Democratic policies.",
    "src": "The New York Times",
@@ -1208,7 +1236,7 @@
    "sub": "Space"
   },
   {
-   "n": 87,
+   "n": 89,
    "title": "Tossing Fireworks from Cloud to Cloud - NASA Science",
    "desc": "For many astronauts, the spectacular sight of lightning stands out when looking back at Earth from the International Space Station.",
    "src": "NASA",
@@ -1222,7 +1250,7 @@
    "sub": "Space"
   },
   {
-   "n": 88,
+   "n": 90,
    "title": "Kalshi plans to launch stock trading soon",
    "desc": "Kalshi's interest in offering stock trading shows the platform's push into traditional financial markets.",
    "src": "CNBC",
@@ -1236,7 +1264,7 @@
    "sub": "Space"
   },
   {
-   "n": 89,
+   "n": 91,
    "title": "Ontario Teachers’ Pension Plan sold 40% of its SpaceX stake after August lockup lifted",
    "desc": "Fund secured billions of dollars in gains from a modest early investment that has paid off handsomely",
    "src": "The Globe and Mail",
@@ -1250,7 +1278,7 @@
    "sub": "Space"
   },
   {
-   "n": 90,
+   "n": 92,
    "title": "Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy",
    "desc": "The history of the sprawling corporate combinations is rich, colorful and mostly disappointing. Could a SpaceX-Tesla merger be a success story?",
    "src": "The New York Times",
@@ -1264,7 +1292,7 @@
    "sub": "Space"
   },
   {
-   "n": 91,
+   "n": 93,
    "title": "As Trump Goes to China, A.I. Tensions Surge Amid Spying and Safety Fears",
    "desc": "The espionage concerns that led to Jensen Huang’s ouster at Nvidia highlight a core challenge to diplomacy between Washington and Beijing on A.I. advancement.",
    "src": "The New York Times",
@@ -1278,7 +1306,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 92,
+   "n": 94,
    "title": "China taps US AI models to train home-grown rivals as chip curbs bite",
    "desc": "The practice – known as distillation – has expanded into mainstream industrial use in China.",
    "src": "The Straits Times",
@@ -1292,7 +1320,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 93,
+   "n": 95,
    "title": "Tobacco group Imperial Brands to axe up to 4,600 jobs as it uses more AI",
    "desc": "Owner of JPS cigarettes, Golden Virginia tobacco, Blu vapes and Rizla has launched huge cost-cutting drive Business live – latest updates Imperial Brands, the owner of Davidoff cigarettes and Blu vapes, is cutting up to 4,600 jobs in a huge cost-saving drive as it uses more AI and other technologies",
    "src": "The Guardian",
@@ -1306,7 +1334,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 94,
+   "n": 96,
    "title": "Actors in UK to get more rights over their ‘digital replicas’ in deal on AI protections",
    "desc": "Agreement secured by Equity union gives actors rights over payment and consent when digital replicas are used Actors in the UK are to be given more rights over their “digital replicas” as part of a new agreement on AI protections with TV and film producers, secured after a growing on-set backlash. U",
    "src": "The Guardian",
@@ -1320,7 +1348,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 95,
+   "n": 97,
    "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact",
    "desc": "Organisers say up to 10,000 people could join next round of demonstrations as US president arrives for Asean summit Asean and Apec summits – live updates Hundreds of people have been arrested in heated demonstrations against Donald Trump in Manila, as the US president arrived in the city for a leade",
    "src": "The Guardian",
@@ -1334,7 +1362,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 96,
+   "n": 98,
    "title": "'Big Short' investor Steve Eisman to discuss Nvidia, Anthropic and AI bull on CNBC",
    "desc": "Steve Eisman is appearing on \"Squawk Box\" on Tuesday.",
    "src": "CNBC",
@@ -1348,7 +1376,49 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 97,
+   "n": 99,
+   "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+   "desc": "",
+   "src": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+   "dt": "Nov 17",
+   "img": "72b4f42223.jpg",
+   "id": "u72b4f42223",
+   "added_at": "2026-11-17T09:24:13-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 100,
+   "title": "Paul Kelly pleads for Albanese to ‘show some backbone’ over AI as creatives campaign for copyright protections",
+   "desc": "Music legend is joined by Jimmy Barnes and Peter Garrett in backing Not AI’s To Take campaign ahead of Aria awards Get our breaking news email , free app or daily news podcast Australia’s creative community has launched a major campaign pleading with the Albanese government not to water down copyrig",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/technology/2026/nov/18/paul-kelly-albanese-ai-copyright-protections-creatives-campaign",
+   "dt": "Nov 17",
+   "img": "059a57273e.jpg",
+   "id": "u059a57273e",
+   "added_at": "2026-11-17T09:24:13-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 101,
+   "title": "Demis Hassabis’ AI company raises $5 billion, months after he left as Google DeepMind CEO",
+   "desc": "Isomorphic Labs is looking to develop new medicines using AI.",
+   "src": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html",
+   "dt": "Nov 17",
+   "img": "347b6a04b1.jpg",
+   "id": "u347b6a04b1",
+   "added_at": "2026-11-17T09:24:13-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 102,
    "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
    "desc": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addr",
    "src": "The Verge",
@@ -1362,7 +1432,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 98,
+   "n": 103,
    "title": "Just 400 US Data Centers Use More Electricity Than Michigan",
    "desc": "New Harvard research shows that data-center power demand is outstripping states—and that doesn’t even include facilities with off-grid gas plants.",
    "src": "WIRED",
@@ -1376,7 +1446,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 99,
+   "n": 104,
    "title": "There’s a New Push at COP31 in Turkey: Electrification",
    "desc": "With war squeezing global oil and gas supplies, leaders at COP31 are backing a plan that would mirror China’s rapid grid expansion.",
    "src": "The New York Times",
@@ -1390,7 +1460,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 100,
+   "n": 105,
    "title": "China engineers behind J-35 fighter jet pioneer 3D-printed load-bearing structures in military aircraft — behemoth 16.4-foot part uses segme",
    "desc": "China's first aircraft research institute and developer of the J-35 fighter jets 3D-printed a primary load-bearing component over 16.4 feet in length, minimizing the need for bolts and speeding up research progress.",
    "src": "Tomshardware",
@@ -1404,7 +1474,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 101,
+   "n": 106,
    "title": "Powering towns on pig manure: How Denmark has transformed energy generation",
    "desc": "Pigs are big business in Denmark. Now their waste is being turned into biogas, which powers the national grid.",
    "src": "Al Jazeera",
@@ -1418,7 +1488,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 102,
+   "n": 107,
    "title": "REO returns to challenge Slate and Fathom in a cheap truck showdown",
    "desc": "On today’s surprisingly affordable edition of Quick Charge , we check out all the new cheap tricks trucks coming for your hard-earned money in 2027, and challenge the seemingly popular idea that low tech automatically begets low costs. more…",
    "src": "Electrek",
@@ -1432,7 +1502,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 103,
+   "n": 108,
    "title": "Trump lands in Manila with trade deals in sight and nuclear talks ahead",
    "desc": "President Trump’s brief meeting with Quad leaders is unlikely to go beyond pleasantries, an analyst says.",
    "src": "The Straits Times",
@@ -1446,7 +1516,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 104,
+   "n": 109,
    "title": "Trump in Asia for historic nuclear talks with China and Russia",
    "desc": "US President Donald Trump landed in Asia on Monday for economic talks and a planned trilateral meeting with Chinese President Xi Jinping and Russian President Vladimir Putin on nuclear issues and the war in Ukraine. Trump also raised the possibility of meeting North Korean leader Kim Jong Un during ",
    "src": "France 24",
@@ -1460,7 +1530,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 105,
+   "n": 110,
    "title": "Planned Xi-Trump-Putin meeting prompts worries they may divide the world in three",
    "desc": "The leaders of the world’s three biggest nuclear powers will meet Thursday after the APEC summit in China",
    "src": "The Globe and Mail",
@@ -1474,7 +1544,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 106,
+   "n": 111,
    "title": "Going critical in Phoenix: ANS Winter Conference opens with a call for durability",
    "desc": "A week that brought down the country’s email and grounded its airplanes could not stop the nuclear community from getting together in Phoenix. The 2026 ANS Winter Conference & Expo opened this morning in the Copper State, days after Microsoft’s global email service outage on Thursday and an FAA grou",
    "src": "Ans",
@@ -1488,7 +1558,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 107,
+   "n": 112,
    "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
    "desc": "The U.S. Commerce Department is making moves to tighten export controls.",
    "src": "CNBC",
@@ -1502,7 +1572,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 108,
+   "n": 113,
    "title": "Data centre REITs, related stocks slide as US imposes new rule on AI chip exports",
    "desc": "Analysts say data centre operators here should still benefit from underlying demand for AI and cloud computing services.",
    "src": "The Straits Times",
@@ -1516,7 +1586,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 109,
+   "n": 114,
    "title": "Chinese envoy says chip equipment export curbs threaten EU-China trade thaw",
    "desc": "MADRID, Nov 17 - Longstanding Dutch limits on exporting chipmaking equipment to China have caused friction that is casting a shadow over EU-China industrial policy talks, a Chinese diplomat told Reuters, warning that China could also limit sharing of its technology.",
    "src": "The Straits Times",
@@ -1530,7 +1600,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 110,
+   "n": 115,
    "title": "Facing Criticism, Trump Administration Says It’s Investigating Megaspeed",
    "desc": "The announcement appeared to be a response to recent criticism that the Commerce Department has moved too slowly on the alleged chip smuggling case.",
    "src": "The New York Times",
@@ -1544,7 +1614,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 111,
+   "n": 116,
    "title": "How Trump's chip restrictions on South East Asia will hit China",
    "desc": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
    "src": "BBC",
@@ -1558,7 +1628,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 112,
+   "n": 117,
    "title": "US government confirms investigation into tech firm Megaspeed",
    "desc": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
    "src": "BBC",
@@ -1572,7 +1642,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 113,
+   "n": 118,
    "title": "Trump’s New A.I. Chip Rules Rattle Southeast Asia",
    "desc": "New U.S. restrictions could jeopardize billions in investment and force countries in the region to strike an increasingly difficult balance between Washington and Beijing.",
    "src": "The New York Times",
@@ -1586,7 +1656,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 114,
+   "n": 119,
    "title": "Video: Why Trump's new AI chip crackdown matters before Xi talks",
    "desc": "A new U.S. crackdown on advanced AI chips is casting a shadow over this week's Trump-Xi meeting. Reuters South China correspondent David Kirton explains what Washington is trying to achieve, and how Beijing could respond.",
    "src": "The Globe and Mail",
@@ -1600,7 +1670,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 115,
+   "n": 120,
    "title": "Nvidia’s Earnings Call Is a High-Stakes Moment",
    "desc": "Wall Street is bracing for the chip maker’s latest earnings call, as analysts seek clues about the artificial intelligence giant’s future.",
    "src": "The New York Times",
@@ -1614,7 +1684,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 116,
+   "n": 121,
    "title": "NEC and IBM Japan Demonstrate Integrated QKD and PQC Communications",
    "desc": "Insider Brief PRESS RELEASE — NEC Corporation (“NEC“) and IBM Japan, Ltd. (“IBM Japan”) announced that they successfully completed Japan’s first demonstration of a hybrid quantum-safe communication technology combining quantum key distribution (QKD) and post-quantum cryptography (PQC). Specifically,",
    "src": "Thequantuminsider",
@@ -1628,7 +1698,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 117,
+   "n": 122,
    "title": "DOE Seeks Input on Cryogenic and Quantum Supercomputing Testbeds",
    "desc": "Insider Brief Building a useful quantum computer will likely mean building systems around it — systems that rely on classical computing resources that help it operate and the connections that allow them to work together. The U.S. Department of Energy gets it. The department is seeking industry and r",
    "src": "Thequantuminsider",
@@ -1642,7 +1712,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 118,
+   "n": 123,
    "title": "GenQ Emerges From Stealth to Commercialize Quantum Measurement Technology",
    "desc": "Insider Brief PRESS RELEASE — — For decades, practical, scalable applications of quantum technology have been purely aspirational. Now, Generation Quantum (“GenQ”) is taking a different approach to create quantum capabilities that work today. “GenQ completely changed the way I think about quantum co",
    "src": "Thequantuminsider",
@@ -1656,7 +1726,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 119,
+   "n": 124,
    "title": "AQSolotl Reports 6.94-Microsecond Latency in NVIDIA NVQLink Integration Test",
    "desc": "Insider Brief PRESS RELEASE — AQSolotl, a developer of quantum control systems, today announced initial results from integrating NVIDIA NVQLink into its Chronos-Q platform. Tests connecting Chronos-Q with NVIDIA DGX Spark recorded a minimum round-trip latency of 6.94 microseconds across 1,000 reques",
    "src": "Thequantuminsider",
@@ -1670,7 +1740,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 120,
+   "n": 125,
    "title": "Falcon Systems Launches Falcon 5000 Series for Quantum Secure Networks",
    "desc": "Insider Brief PRESS RELEASE — Falcon Systems, the Netherlands-based leader building the infrastructure for Quantum Secure Networks (QSN), announces the launch of the Falcon® 5000 Series, the next generation of its proven Measurement-Device-Independent Quantum Key Distribution (MDI-QKD) portfolio. Th",
    "src": "Thequantuminsider",
@@ -1684,7 +1754,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 121,
+   "n": 126,
    "title": "BlueQubit Selects Eight Teams for Quantum Flywheel Grant Programme",
    "desc": "Insider Brief PRESS RELASE — BlueQubit today announced the research teams selected for its Quantum Flywheel grant program, a $150,000 initiative created with support from IBM, Amazon Web Services (AWS), and NVIDIA Accelerated Computing. Awardees receive three months of credits for AI tokens and clas",
    "src": "Thequantuminsider",
@@ -1698,7 +1768,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 122,
+   "n": 127,
    "title": "Quantum X and Everest Cloud Partner on Quantum and AI Services in South Asia",
    "desc": "Insider Brief PRESS RELEASE — Quantum X, Inc. (OTC: QUTX) (“Quantum X” or the “Company”) today announced a channel partnership with Everest Cloud, the Kathmandu-based cloud services brand of Digital Network Solutions Pvt. Ltd. (“Everest Cloud”), under a Memorandum of Understanding (“MOU”) signed on ",
    "src": "Thequantuminsider",
@@ -1712,7 +1782,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 123,
+   "n": 128,
    "title": "NIELIT Hyderabad and QClairvoyance Train Over 200 Students in Quantum Technology",
    "desc": "Insider Brief PRESS RELEASE — More than 200 students from nine educational institutions participated in a three-day workshop on emerging trends in quantum communications and applications in quantum technology, organised by NIELIT Hyderabad under the Ministry of Electronics and Information Technology",
    "src": "Thequantuminsider",
@@ -1726,7 +1796,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 124,
+   "n": 129,
    "title": "Quantum computing, greener data centres: How innovation is helping Singapore and Japan turn shared challenges into opportunities",
    "desc": "Fujitsu shows how its drawing on its Japanese expertise to support Singapore’s digital transformation and sustainable growth. Read more at straitstimes.com.",
    "src": "The Straits Times",
@@ -1740,7 +1810,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 125,
+   "n": 130,
    "title": "From First-Timers to PhDs: 1,000+ Builders Take on Quantum at the Qollab × IonQ Hackathon",
    "desc": "Insider Brief Last month, more than 1,000 students, researchers and professionals in 37 countries spent a weekend writing quantum software, competing at 22 university sites from Finland to Argentina. Some of the best work came from people who had never written a line of quantum code. An avionics eng",
    "src": "Thequantuminsider",
