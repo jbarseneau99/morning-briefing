@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "updated_at": "2026-11-17T05:23:40-0500",
+ "updated_at": "2026-11-17T05:36:44-0500",
  "built_at": "2026-11-17T05:25:00-0500",
  "stories": [
   {
@@ -805,6 +805,102 @@
   },
   {
    "n": 51,
+   "title": "Video-Action Models for Data-Efficient Industrial Manipulation",
+   "desc": "Industrial manipulation requires precise alignment and controlled handling of rigid, deformable, and flexible components. Yet, the benefits of pretrained visuomotor policies remain underexplored in settings where limited access to specialized hardware, compone",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.15974",
+   "dt": "Nov 11",
+   "img": "",
+   "id": "ue524b08272",
+   "added_at": "2026-11-17T05:36:44-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 52,
+   "title": "Optimization-Based Path Planning for Industrial Manipulators: Experimental Validation in Additive Manufacturing",
+   "desc": "Robotic additive manufacturing requires joint paths that reconcile robot feasibility with process-specific geometry. We develop an offline optimization-based path planner that combines joint-path regularity and self-collision penalties with process costs and c",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.13983",
+   "dt": "Nov 10",
+   "img": "",
+   "id": "u5a3f6f9e6e",
+   "added_at": "2026-11-17T05:36:44-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 53,
+   "title": "Additively manufactured ceramic platforms for miniaturized optical frequency references and robust atomic sensor systems",
+   "desc": "Transferring atomic quantum sensors from laboratory-scale physics packages to compact, alignment-free sensor heads suitable for field and space deployment requires a structural platform that combines mechanical, thermal, and optical functionality within a sing",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.13800",
+   "dt": "Nov 10",
+   "img": "",
+   "id": "ud077aa6dd4",
+   "added_at": "2026-11-17T05:36:44-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 54,
+   "title": "MouldIt: Data Efficiency of Multi-Task Temporal Representation Learning in Injection Moulding",
+   "desc": "Smart industrial solutions that can address multiple tasks require models that understand the underlying processes. We examine representation learning for modeling the injection moulding process as an example of such solutions. We consider its data efficiency ",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.13646",
+   "dt": "Nov 10",
+   "img": "",
+   "id": "u9b59b0e797",
+   "added_at": "2026-11-17T05:36:44-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 55,
+   "title": "Fastener-centric acquisition and AND/OR graph representation of state-dependent disassembly knowledge from CAD-derived virtual assemblies",
+   "desc": "Design-stage disassemblability assessment requires knowledge of product structure and the operations available in each assembly state, but CAD assemblies do not directly specify state-dependent disassembly operations. This paper proposes a fastener-centric vir",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.13379",
+   "dt": "Nov 9",
+   "img": "",
+   "id": "u74dc92d144",
+   "added_at": "2026-11-17T05:36:44-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 56,
+   "title": "Image-Driven Control with Application to Thermoforming",
+   "desc": "This paper proposes Image-Driven Control (IDC), an approach to vision-based feedback that operates directly in the image space. IDC offers a direct end-to-end solution in the behavioral framework. Targeting a limited subset of vision-based feedback problems, i",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.13256",
+   "dt": "Nov 9",
+   "img": "",
+   "id": "u8884ed998d",
+   "added_at": "2026-11-17T05:36:44-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 57,
    "title": "Connectivity from activity in spiking neural networks",
    "desc": "We show that a wide range of recurrent neural network models obey a simple set of equations tying synaptic connectivity and single-cell response properties to neural correlations. Our modeling framework considers networks in a stationary, asynchronous state an",
    "src": "arXiv",
@@ -820,7 +916,7 @@
    "topic": ""
   },
   {
-   "n": 52,
+   "n": 58,
    "title": "Anchoring Motion, Refining Trajectories: Generalizable Continuous Neural Decoding",
    "desc": "Brain activity encodes motor information across multiple temporal scales, enabling continuous neural control beyond discrete action recognition. However, existing methods are typically tailored to specific subjects and tasks, with direct neural-to-kinematic ma",
    "src": "arXiv",
@@ -836,7 +932,7 @@
    "topic": ""
   },
   {
-   "n": 53,
+   "n": 59,
    "title": "Open-fMIND: A Large-Scale Open-Access fMRI Corpus for Pretraining Brain Foundation Models",
    "desc": "Self-supervised pretraining has transformed language and vision, but its application to functional MRI (fMRI) is constrained by data access. The largest standardized fMRI resources are governed by data use agreements and dominated by a small number of acquisit",
    "src": "arXiv",
@@ -852,7 +948,7 @@
    "topic": ""
   },
   {
-   "n": 54,
+   "n": 60,
    "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
    "desc": "Biomolecular foundation models predict the structures of proteins and their complexes accurately, and large language models (LLMs) reason in natural language, but the two remain separate: the abilities of the former are not part of a general-purpose LLM, and t",
    "src": "arXiv",
@@ -868,7 +964,7 @@
    "topic": ""
   },
   {
-   "n": 55,
+   "n": 61,
    "title": "Transcutaneous auricular vagus nerve stimulation modulates auditory-evoked responses and conflict adaptation in humans",
    "desc": "Vagus nerve stimulation (VNS) engages ascending neuromodulatory systems, and animal studies have motivated the hypothesis that it shifts sensory cortical processing toward feedforward (FF) relative to feedback (FB) transmission. Whether transcutaneous auricula",
    "src": "arXiv",
@@ -884,7 +980,7 @@
    "topic": ""
   },
   {
-   "n": 56,
+   "n": 62,
    "title": "From antidepressants to psychedelics: revisiting the pharmacology of so-called serotoninergic treatments",
    "desc": "Recent years have seen a resurgence of interest in serotoninergic psychedelics as potential treatment for diverse psychiatric disorders. Here, we will delve into the molecular mechanisms of drugs used to treat depression and obsessive-compulsive disorder (OCD)",
    "src": "arXiv",
@@ -900,7 +996,7 @@
    "topic": ""
   },
   {
-   "n": 57,
+   "n": 63,
    "title": "Weight-Space Programming Changes How an LLM Uses Python for Computational Biology",
    "desc": "Weight-space programming allows a language model to edit another model's weights without gradient-based training. We used Claude Opus 5.5 to edit Qwen3.5-0.8B and investigated how the edits changed its use of Python on computational biology problems. We compar",
    "src": "arXiv",
@@ -916,7 +1012,7 @@
    "topic": ""
   },
   {
-   "n": 58,
+   "n": 64,
    "title": "multiCAsp: Spatially Informed Canonical Association Analysis of Multi-Omic Data",
    "desc": "Simultaneous profiling of multiple molecular layers at spatially resolved locations creates opportunities to identify shared cross-modal biological variation in its tissue context. We present multiCAsp (multi-omic Canonical Association informed by spatial grap",
    "src": "arXiv",
@@ -932,7 +1028,7 @@
    "topic": ""
   },
   {
-   "n": 59,
+   "n": 65,
    "title": "iEEG Can Help EEG: Improving Clinical Scalp EEG Analysis through Intracranial Priors",
    "desc": "Scalp electroencephalography (EEG) is a cornerstone of clinical brain monitoring, making the quality of its signal fundamental to downstream tasks and models. However, that signal is heavily contaminated by non-neural interference and blurred by volume conduct",
    "src": "arXiv",
@@ -948,7 +1044,7 @@
    "topic": ""
   },
   {
-   "n": 60,
+   "n": 66,
    "title": "Beyond AUC: Do Mammography Risk Models Predict When Cancer Occurs?",
    "desc": "Longitudinal deep learning models for mammography-based breast cancer risk prediction output either per-year cumulative risks or a discrete distribution over the year of diagnosis, from which cumulative risks F1,...,F5 are derived. These models are evaluated a",
    "src": "arXiv",
