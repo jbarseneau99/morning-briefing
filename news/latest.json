@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "updated_at": "2026-11-17T05:36:44-0500",
+ "updated_at": "2026-11-17T07:20:46-0500",
  "built_at": "2026-11-17T05:25:00-0500",
  "stories": [
   {
@@ -861,6 +861,22 @@
    "img": "",
    "id": "uc19f04d21f",
    "added_at": "2026-11-17T05:36:44-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Society & justice",
+   "cat": "Africa",
+   "sub": ""
+  },
+  {
+   "n": 55,
+   "title": "Rwanda to host hub for rejected EU migrants",
+   "desc": "In tonight's edition: Five European countries are negotiating a deal to deport rejected asylum seekers to Rwanda. Also, DR Congo and Rwanda's political animosity spills over at the Francophonie Summit in Cambodia. Plus in Tunisia, young women are increasingly turning towards weightlifting and bodybu",
+   "src": "France 24",
+   "url": "https://www.france24.com/en/rwanda-to-host-hub-for-rejected-eu-migrants",
+   "dt": "Nov 16",
+   "img": "",
+   "id": "uba496bde53",
+   "added_at": "2026-11-17T07:20:46-0500",
    "new": true,
    "region": "Africa",
    "topic": "Society & justice",
