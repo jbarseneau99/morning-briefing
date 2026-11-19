@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "updated_at": "2026-11-19T11:21:33-0500",
+ "updated_at": "2026-11-19T12:23:19-0500",
  "built_at": "2026-11-19T05:25:00-0500",
  "stories": [
   {
@@ -1489,6 +1489,20 @@
   },
   {
    "n": 107,
+   "title": "Don't buy smart glasses, Dutch data watchdog advises",
+   "desc": "Tests of glasses showed some misread medicine instructions or pretended to have called an ambulance",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 19",
+   "img": "e802c02986.jpg",
+   "id": "ue802c02986",
+   "added_at": "2026-11-19T12:23:19-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 108,
    "title": "Data center electricity use could double by 2030, IEA says",
    "desc": "Global electricity use by data centers could double by 2030 as the AI boom adds pressure to power grids across the world, according to the IEA.",
    "src": "CNBC",
@@ -1502,7 +1516,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 108,
+   "n": 109,
    "title": "Industry leaders want Canada to choose whether it builds its own fusion future, or buys it from abroad | BetaKit",
    "desc": "If government doesn’t prioritize fusion now, it risks buying from other countries “for a very long time.” The post Industry leaders want Canada to choose whether it builds its own fusion future, or buys it from abroad first appeared on BetaKit .",
    "src": "BetaKit",
@@ -1516,7 +1530,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 109,
+   "n": 110,
    "title": "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
    "desc": "Ford has started U.S. production and shipments of battery cells for its next-generation EVs using technologies licensed by Chinese battery giant CATL.",
    "src": "CNBC",
@@ -1530,7 +1544,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 110,
+   "n": 111,
    "title": "The world’s biggest oil shock could give EVs and solar a boost",
    "desc": "The longer the Strait of Hormuz crisis drags on, the more incentive countries have to get cars off oil and generate more power at home. That’s one of the big takeaways from the International Energy Agency’s (IEA) new “ World Energy Outlook 2026 ,” which examines how the biggest oil supply shock on r",
    "src": "Electrek",
@@ -1544,7 +1558,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 111,
+   "n": 112,
    "title": "What a billion-dollar deal says about the US battery market",
    "desc": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batter",
    "src": "MIT Technology Review",
@@ -1558,7 +1572,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 112,
+   "n": 113,
    "title": "Trump, Xi and Putin end historic summit with calls for fewer nuclear weapons and world peace",
    "desc": "Despite the rhetoric, officials expect little progress on nuclear arms or the Ukraine and Iran wars.",
    "src": "The Straits Times",
@@ -1572,7 +1586,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 113,
+   "n": 114,
    "title": "Trump calls for nuclear arms reduction at APEC summit",
    "desc": "Trump calls for nuclear arms reduction at APEC summit",
    "src": "Al Jazeera",
@@ -1586,7 +1600,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 114,
+   "n": 115,
    "title": "Xi Jinping, Donald Trump and Vladimir Putin begin unprecedented summit in China",
    "desc": "Xi Jinping, Donald Trump and Vladimir Putin opened their first trilateral talks in Shenzhen on the sidelines of the APEC forum, a meeting analysts expect to offer more symbolism than breakthroughs and that critics fear could carve the world into spheres of influence. Ukraine, the Iran war, nuclear d",
    "src": "France 24",
@@ -1600,7 +1614,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 115,
+   "n": 116,
    "title": "Nuclear arms at the center of the Shenzhen trilateral meeting",
    "desc": "Nuclear weapons are at the top of Donald Trump’s agenda at the trilateral summit in Beijing. The US president wants the United States, Russia and China to reduce their nuclear stockpiles, and FRANCE 24’s Philip Turle expects him to push hard for a three-way agreement on the issue. Iran is also a key",
    "src": "France 24",
@@ -1614,7 +1628,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 116,
+   "n": 117,
    "title": "APEC summit: Trump seeks nuclear arms cuts, but few concrete results expected",
    "desc": "Donald Trump has arrived at the APEC summit for talks with Xi Jinping and Vladimir Putin, but expectations for concrete results are low. Nothing substantial is likely to come out of the meeting, as was the case in his previous encounters with the two leaders, says Fraser Jackson, FRANCE 24’s corresp",
    "src": "France 24",
@@ -1628,7 +1642,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 117,
+   "n": 118,
    "title": "Intel signs first external customer for advanced 18A chips",
    "desc": "Intel CEO Lip-Bu Tan said Wednesday that the company signed its first outside customer for its 18A chips.",
    "src": "CNBC",
@@ -1642,7 +1656,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 118,
+   "n": 119,
    "title": "[News] U.S. Tightens AI Chip Export Rules: What the Changes Mean for TSMC, ASE, and Taiwan’s AI Supply Chain",
    "desc": "The U.S. Bureau of Industry and Security (BIS) has tightened restrictions on AI chips and overseas computing access, raising concerns about potential ...",
    "src": "TrendForce",
@@ -1656,7 +1670,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 119,
+   "n": 120,
    "title": "South Korea’s exports top US$1 trillion for first time on chip boom",
    "desc": "Cumulative exports crossed the mark on Nov 19, 62 years after reaching US$100 million.",
    "src": "The Straits Times",
@@ -1670,7 +1684,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 120,
+   "n": 121,
    "title": "Alibaba’s AI ambitions face steep challenge in US chip controls",
    "desc": "Alibaba’s market value stands at $278.43 billion, less than half its level just over a year ago.",
    "src": "The Straits Times",
@@ -1684,7 +1698,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 121,
+   "n": 122,
    "title": "Tencent says new US chip curbs won’t hurt cloud revenue, may slow model training",
    "desc": "Washington unveiled rules restricting remote access to advanced US AI chips via overseas data centres.",
    "src": "The Straits Times",
@@ -1698,7 +1712,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 122,
+   "n": 123,
    "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
    "desc": "The Trump administration announced plans to clamp down on China’s access to AI chips. Apparently, the cheating scandal of the century was the motivation they were missing.",
    "src": "WIRED",
@@ -1712,7 +1726,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 123,
+   "n": 124,
    "title": "Alibaba reports Q2 revenue up 10% to ~$40.7B, above est., and net profit up 3x to ~$9.68B, above ~$3.6B est., as its AI and e-commerce profi",
    "desc": "Tracy Qu / Wall Street Journal : Alibaba reports Q2 revenue up 10% to ~$40.7B, above est., and net profit up 3x to ~$9.68B, above ~$3.6B est., as its AI and e-commerce profitability improves — The company is preparing a Hong Kong listing for its chip unit, T-Head — Alibaba Group recorded a surge in ",
    "src": "Techmeme",
@@ -1726,7 +1740,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 124,
+   "n": 125,
    "title": "Phononic raises $100m debt facility to fund solid-state cooling system",
    "desc": "Will provide cooling at chip level",
    "src": "Data Center Dynamics",
@@ -1740,7 +1754,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 125,
+   "n": 126,
    "title": "Sandisk’s stock split is almost here. This is what investors need to know.",
    "desc": "Sandisk is due to split its stock after Thursday’s close, and while the move has gotten some buzz, it won’t alter the fundamental picture for shareholders of the memory-chip company.",
    "src": "Marketwatch",
@@ -1754,7 +1768,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 126,
+   "n": 127,
    "title": "South Korea passes $1T in exports in 2026, up from $709B in 2025, becoming the fourth nation globally to reach the milestone after Germany, ",
    "desc": "Reuters : South Korea passes $1T in exports in 2026, up from $709B in 2025, becoming the fourth nation globally to reach the milestone after Germany, the US, and China — South Korea's exports so far for this year have exceeded $1 trillion, driven by a global AI chip boom, making it the fourth countr",
    "src": "Techmeme",
@@ -1768,7 +1782,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 127,
+   "n": 128,
    "title": "QuEra Computing and Berkeley Lab Publish Nature Study of Quantum Dynamics on Up to 180 Qubits",
    "desc": "Insider Brief PRESS RELEASE — The National Energy Research Scientific Computing Center (NERSC) at Lawrence Berkeley National Laboratory and QuEra Computing, the leader in neutral-atom quantum computing, today announced the publication of a new study in Nature. Using Aquila, QuEra’s analog neutral-at",
    "src": "Thequantuminsider",
@@ -1782,7 +1796,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 128,
+   "n": 129,
    "title": "IQM and Turkey's TÜBİTAK sign deal for 54-qubit quantum computer",
    "desc": "System is slated to be integrated in 2027",
    "src": "Data Center Dynamics",
@@ -1796,7 +1810,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 129,
+   "n": 130,
    "title": "SEALSQ Signs Letter of Intent to Acquire QuintessenceLabs",
    "desc": "Insider Brief PRESS RELEASE — SEALSQ Corp (NASDAQ: LAES) (“SEALSQ” or “Company”), a company that focuses on developing and selling Semiconductors, PKI, and Post-Quantum technology hardware and software products, today announced that it has signed a non-binding letter of intent (the “LOI”) with Quint",
    "src": "Thequantuminsider",
@@ -1810,7 +1824,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 130,
+   "n": 131,
    "title": "Quantum Physics Can Verify a Person’s Location, NIST Researchers Show",
    "desc": "Insider Brief PRESS RELEASE — Imagine a corporate treasurer directing her company’s financial network to make a $50 million wire transfer. How can the network be certain the command is coming from a secure terminal in the company’s headquarters, and not a hacker’s laptop across the globe? In a first",
    "src": "Thequantuminsider",
@@ -1824,7 +1838,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 131,
+   "n": 132,
    "title": "Hybrid QKD and PQC Network Connects Chicago and Europe Across 8,000 km",
    "desc": "Insider Brief PRESS RELEASE — A group of International research, network and technology organizations has demonstrated hybrid quantum-safe networking between Chicago and Europe at SC26, the Supercomputing Conference 2026. The infrastructure that spans Bilbao, Amsterdam and Chicago extends across 8,0",
    "src": "Thequantuminsider",
@@ -1838,7 +1852,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 132,
+   "n": 133,
    "title": "Brazil Receives Parts for Two Quantum Computers in Partnership With China",
    "desc": "Insider Brief Brazil received parts for two quantum computers under a deal with Chinese technology company China Electronics Technology Group Corporation, or CETC. The equipment arrived Nov. 16 in João Pessoa, the capital of the northeastern state of Paraíba, Brazil’s Ministry of Science, Technology",
    "src": "Thequantuminsider",
@@ -1852,7 +1866,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 133,
+   "n": 134,
    "title": "Bradesco and evolutionQ Begin Quantum Communication Tests to Assess New Data Protection Models",
    "desc": "Insider Brief PRESS RELEASE — A pioneering initiative in Brazil’s financial sector seeks to study, in a controlled environment, the feasibility of the technology and its potential to strengthen the security of information exchange among companies, financial institutions and startups in the coming ye",
    "src": "Thequantuminsider",
@@ -1866,7 +1880,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 134,
+   "n": 135,
    "title": "AMD Expands Frontier of Scientific Computing at SC26 - HPCwire",
    "desc": "New supercomputing deployments, AI for Science platforms, quantum collaborations, HPC support in networking and open-source software bring heterogeneous computing to the most demanding challenges. Nov. 18, 2026 — At Supercomputing 2026, AMD is demonstrating how open, heterogeneous computing is expan",
    "src": "HPCwire",
@@ -1880,7 +1894,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 135,
+   "n": 136,
    "title": "Bank of Montreal achieves quantum utility amid race to deploy the technology",
    "desc": "It’s the first bank in Canada to use quantum computing for practical applications, BMO says",
    "src": "The Globe and Mail",
@@ -1894,7 +1908,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 136,
+   "n": 137,
    "title": "Quandela and Hermes-Epitek Join Forces to Advance Photonic Quantum Technologies",
    "desc": "Insider Brief PRESS RELEASE — Quandela and Hermes-Epitek Corporation (“Hermes-Epitek “) have signed a memorandum of understanding (MoU) at Hermes-Epitek’s premises in Hsinchu Science Park. The MoU outlines two companies’ intention to develop and industrialize photonic quantum technologies, beginning",
    "src": "Thequantuminsider",
