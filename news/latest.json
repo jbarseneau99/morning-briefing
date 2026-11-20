@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "updated_at": "2026-11-19T21:20:34-0500",
+ "updated_at": "2026-11-19T22:19:51-0500",
  "built_at": "2026-11-19T05:25:00-0500",
  "stories": [
   {
@@ -836,7 +836,7 @@
    "sub": ""
   },
   {
-   "n": 66,
+   "n": 67,
    "title": "Senegal boat disaster: Dozens missing as boat with 100 migrants sinks",
    "desc": "Some local media report that at least four bodies have been recovered.",
    "src": "BBC",
@@ -852,7 +852,7 @@
    "sub": ""
   },
   {
-   "n": 67,
+   "n": 68,
    "title": "'We fear another disaster': Uganda's landslide survivors seek justice at the UN",
    "desc": "Survivors reject relocation plans they say ignore their safety, land rights and livelihoods",
    "src": "BBC",
@@ -868,7 +868,7 @@
    "sub": ""
   },
   {
-   "n": 68,
+   "n": 69,
    "title": "Mentors, colleagues and friends: tributes paid to the ‘Eritrea 16’ who disappeared 25 years ago",
    "desc": "Families of journalists who vanished into state prisons on ‘Black Tuesday’ in 2001 do not know whether they are even still alive When Fisseha Yirgalem stepped on to the podium and began reading from a letter written to a man who may never hear it, the room full of journalists in Nairobi fell quiet. ",
    "src": "The Guardian",
@@ -884,7 +884,7 @@
    "sub": ""
   },
   {
-   "n": 69,
+   "n": 70,
    "title": "Axes and cutlasses: Violence on Nigeria's election campaign trail",
    "desc": "As Nigeria's January 2027 elections approach, political violence and thuggery at campaign rallies and town hall meetings raise concerns about voter safety.",
    "src": "DW",
@@ -900,7 +900,7 @@
    "sub": ""
   },
   {
-   "n": 70,
+   "n": 71,
    "title": "Could state police help Nigeria tackle its security challenges?",
    "desc": "The push for state police comes amid persistent security crises across the country.",
    "src": "BBC",
@@ -916,7 +916,7 @@
    "sub": ""
   },
   {
-   "n": 71,
+   "n": 72,
    "title": "Chinese cars shake up Ivory Coast's auto industry",
    "desc": "In the space of just a few years, more than a dozen Chinese carmakers have established themselves in Ivory Coast and are becoming increasingly visible on the country's streets. How have they managed to win over a growing number of customers? FRANCE 24's Jean Barrère and Eunice Stolz-Masson report.",
    "src": "France 24",
@@ -932,7 +932,7 @@
    "sub": ""
   },
   {
-   "n": 72,
+   "n": 73,
    "title": "Is this ancient Swahili town at risk from Kenya’s energy boom",
    "desc": "East Africa is betting billions on oil infrastructure to strengthen energy security and reduce dependence on imports.",
    "src": "Al Jazeera",
@@ -1060,7 +1060,7 @@
    "sub": ""
   },
   {
-   "n": 73,
+   "n": 74,
    "title": "Peres Jepchirchir: World marathon champion gets three-year doping ban for using EPO",
    "desc": "Reigning world marathon champion Peres Jepchirchir is banned for three years for a doping violation.",
    "src": "BBC",
@@ -1076,7 +1076,7 @@
    "sub": ""
   },
   {
-   "n": 74,
+   "n": 75,
    "title": "Bassirou Diomaye Faye excluded from Senegal's ruling party",
    "desc": "In tonight's edition, the political divorce between Senegal's president and the powerful former prime minister and mentor is official. Also, all of Nigeria's states have shown willingness for a push to create their own police forces. And in parts of the continent, conflict and a drop in funding have",
    "src": "France 24",
@@ -1140,7 +1140,7 @@
    "sub": ""
   },
   {
-   "n": 75,
+   "n": 76,
    "title": "Pakistan’s footballers show India sportsmanship after SAFF final defeat",
    "desc": "Pakistan’s football team formed a guard of honour for India after losing the SAFF Championship final 2-1 in Bangladesh.",
    "src": "Al Jazeera",
@@ -1201,6 +1201,22 @@
    "region": "Latin America",
    "topic": "Geopolitics & conflict",
    "cat": "Latin America",
+   "sub": ""
+  },
+  {
+   "n": 66,
+   "title": "Los Angeles flood threat builds as El Nino storm sweeps south",
+   "desc": "Flooding is not the only threat with residents also on alert for mudslides that threaten to trigger evacuations.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/united-states/los-angeles-flood-threat-builds-as-el-nino-storm-sweeps-south",
+   "dt": "Nov 19",
+   "img": "40919766ea.jpg",
+   "id": "u40919766ea",
+   "added_at": "2026-11-19T22:19:51-0500",
+   "new": true,
+   "region": "Asia-Pacific",
+   "topic": "Climate & disasters",
+   "cat": "Asia-Pacific",
    "sub": ""
   }
  ]
