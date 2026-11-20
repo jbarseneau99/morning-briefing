@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "updated_at": "2026-11-20T11:25:37-0500",
+ "updated_at": "2026-11-20T12:18:41-0500",
  "built_at": "2026-11-20T05:45:00-0500",
  "stories": [
   {
@@ -20,7 +20,7 @@
    "sub": ""
   },
   {
-   "n": 13,
+   "n": 14,
    "title": "Ukraine: Three Kyiv bridges hit during major Russian missile attack",
    "desc": "Five people were killed in a wave of strikes which follow Ukraine's successful targeting of the Crimean Bridge.",
    "src": "BBC",
@@ -36,7 +36,7 @@
    "sub": ""
   },
   {
-   "n": 32,
+   "n": 33,
    "title": "Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks",
    "desc": "A skyscraper in Saudi Arabia's capital Riyadh was damaged on Thursday after the Gulf country reported new attacks by Yemen's Houthis. Witnesses said the city's Public Investment Fund Tower, which showcases Saudi Arabia's economic ambitions, was \"damaged across several floors, with windows blown out\"",
    "src": "France 24",
@@ -52,7 +52,7 @@
    "sub": ""
   },
   {
-   "n": 14,
+   "n": 15,
    "title": "Kushner says Russia 'comfortable' with idea of NATO-like security guarantees for Ukraine",
    "desc": "Kushner said President Donald Trump is open to such a guarantee, but its form and whether Russia and Ukraine would accept it remain unclear.",
    "src": "CNBC",
@@ -68,7 +68,7 @@
    "sub": ""
   },
   {
-   "n": 15,
+   "n": 16,
    "title": "A Summit Gives Putin the Win He Craves: Equal Stature With Superpowers",
    "desc": "Standing alongside the U.S. and Chinese leaders, President Vladimir V. Putin secured a symbolic triumph in his long quest to restore Russia’s place as a global power.",
    "src": "The New York Times",
@@ -84,7 +84,7 @@
    "sub": ""
   },
   {
-   "n": 16,
+   "n": 17,
    "title": "Ukraine strains Russian logistics with Crimean bridge strikes",
    "desc": "KYIV, Nov 20 - Ukraine's partial destruction of Russia's prized bridge to Crimea bolsters a months-long campaign by Kyiv to sever Moscow's supply lines to the battlefields of southern and eastern Ukraine and the occupied Black Sea peninsula.",
    "src": "The Straits Times",
@@ -100,7 +100,7 @@
    "sub": ""
   },
   {
-   "n": 33,
+   "n": 34,
    "title": "Oil prices gain as Houthi attacks on Riyadh raise supply concerns",
    "desc": "But crude benchmarks are set for a third straight weekly drop as expectations of a supply surplus grow.",
    "src": "The Straits Times",
@@ -116,7 +116,7 @@
    "sub": ""
   },
   {
-   "n": 42,
+   "n": 43,
    "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
    "desc": "The core inflation figure — which strips out prices of food — was lower than the 2.3% expected by Reuters-polled economists.",
    "src": "CNBC",
@@ -132,7 +132,7 @@
    "sub": ""
   },
   {
-   "n": 43,
+   "n": 44,
    "title": "Pakistan minister visits India for first time since 2025 war",
    "desc": "Islamabad and New Delhi insist the visit is strictly multilateral, despite hopes it could open a channel for contact.",
    "src": "Al Jazeera",
@@ -148,7 +148,7 @@
    "sub": ""
   },
   {
-   "n": 44,
+   "n": 45,
    "title": "Indonesia’s Prabowo, China’s Xi discuss future South China Sea cooperation",
    "desc": "They also discussed the economy and investment partnerships.",
    "src": "The Straits Times",
@@ -164,7 +164,7 @@
    "sub": ""
   },
   {
-   "n": 45,
+   "n": 46,
    "title": "China says Japan must change ‘attitude’, after Xi snub of Takaichi",
    "desc": "Japan PM Takaichi had suggested in 2025 that Japan might intervene militarily if China attempted to take Taiwan by force.",
    "src": "The Straits Times",
@@ -180,7 +180,7 @@
    "sub": ""
   },
   {
-   "n": 17,
+   "n": 18,
    "title": "EU says Brexit reset deal with UK will not take effect without agreement on tuition fees – live",
    "desc": "EU aims for leverage over UK by making the deals agreed today contingent on future agreement on tuition fees Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed to neutralise the leverage London gets in the next si",
    "src": "The Guardian",
@@ -196,7 +196,7 @@
    "sub": ""
   },
   {
-   "n": 18,
+   "n": 19,
    "title": "EU-UK talks: New deal should reduce 'Irish Sea border' impact",
    "desc": "The agreement is expected to be confirmed when Andy Burnham and Ursula von der Leyen meet in Brussels.",
    "src": "BBC",
@@ -212,7 +212,7 @@
    "sub": ""
   },
   {
-   "n": 19,
+   "n": 20,
    "title": "UK government borrowing rises less than forecast in surprise boost for chancellor John Healey",
    "desc": "UK economy defies City predictions and Iran war fallout, with gap between spending and income about £1bn lower than expected in October, at £17bn The UK government borrowed less than expected in October despite a rise in debt interest costs, in a boost for chancellor John Healey amid the pressure on",
    "src": "The Guardian",
@@ -356,7 +356,7 @@
    "sub": ""
   },
   {
-   "n": 34,
+   "n": 35,
    "title": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
    "desc": "US Maritime Administration acknowledged naval blockade's impact on insurance premiums and cargo capacity, memo shows.",
    "src": "Al Jazeera",
@@ -372,7 +372,7 @@
    "sub": ""
   },
   {
-   "n": 35,
+   "n": 36,
    "title": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
    "desc": "Orla Guerin speaks to seven people trapped in the key city of Taiz, cut off from the outside world for weeks.",
    "src": "BBC",
@@ -388,7 +388,7 @@
    "sub": ""
   },
   {
-   "n": 36,
+   "n": 37,
    "title": "Gaza: Israel launched new offensive on Nuseirat",
    "desc": "Israeli tanks have moved east of the Nuseirat refugee camp in central Gaza, with witnesses reporting heavy shelling, gunfire and airstrikes as the Israeli military says it has launched an operation in a Hamas-controlled area. Strikes killed at least three people on Wednesday, and displaced families ",
    "src": "France 24",
@@ -404,7 +404,7 @@
    "sub": ""
   },
   {
-   "n": 37,
+   "n": 38,
    "title": "Iraqi security forces deploy in Iran-backed militia stronghold, Reuters witness says",
    "desc": "JURF AL-SAKHAR, Iraq, DUBAI, Nov 20 - Iraqi security forces began deploying in Jurf al-Sakhar, a stronghold of the Kataib Hezbollah armed group, on Friday under a compromise deal to try to defuse tension with Iran's most powerful Shi'ite militia ally in the country.",
    "src": "The Straits Times",
@@ -420,7 +420,7 @@
    "sub": ""
   },
   {
-   "n": 38,
+   "n": 39,
    "title": "Gaza Civil Defence struggles to rescue lives as vehicles break down",
    "desc": "More than 85 percent of Gaza Civil Defence vehicles are out of service as crews struggle to reach trapped people.",
    "src": "Al Jazeera",
@@ -436,7 +436,7 @@
    "sub": ""
   },
   {
-   "n": 46,
+   "n": 47,
    "title": "The real-world missile defense lessons from Ukraine and Iran — and how they matter for China - Breaking Defense",
    "desc": "What works in Ukraine may not be the same systems needed for a Pacific conflict, according to Breaking Defense’s video roundtable.",
    "src": "Breakingdefense",
@@ -452,7 +452,7 @@
    "sub": ""
   },
   {
-   "n": 47,
+   "n": 48,
    "title": "Myanmar's Rohingya win landmark genocide ruling, but return home remains distant",
    "desc": "COX'S BAZAR, Bangladesh, Nov 20 - Inside sprawling camps in Bangladesh, thousands of Rohingya refugees celebrated a landmark ruling by the UN's top court on Thursday that Myanmar committed genocide against the mainly Muslim minority during a 2017 military campaign.",
    "src": "The Straits Times",
@@ -468,7 +468,7 @@
    "sub": ""
   },
   {
-   "n": 48,
+   "n": 49,
    "title": "Tackling doubt and distrust: Taiwan cracks down on disinformation ahead of local elections",
    "desc": "Experts say disinformation can erode trust in the democratic system, even if it does not directly influence voter behaviour.",
    "src": "The Straits Times",
@@ -484,7 +484,7 @@
    "sub": ""
   },
   {
-   "n": 49,
+   "n": 50,
    "title": "Nepal PM Balendra Shah to visit India, meet Modi",
    "desc": "KATHMANDU, Nov 20 - Nepal’s rapper-turned-Prime Minister Balendra Shah will meet Indian counterpart Narendra Modi next week on his first bilateral visit since the March election, officials said on Friday.",
    "src": "The Straits Times",
@@ -500,7 +500,7 @@
    "sub": ""
   },
   {
-   "n": 50,
+   "n": 51,
    "title": "From Gig Workers to Tycoons, China Is Reaching Into Every Pocket",
    "desc": "China’s economy is sluggish, and its population is aging. Its people are feeling the sting of new taxes.",
    "src": "The New York Times",
@@ -516,7 +516,7 @@
    "sub": ""
   },
   {
-   "n": 51,
+   "n": 52,
    "title": "With secret schools, salons and sports, Afghan women defy Taliban limits on their lives",
    "desc": "Speaking anonymously, for fear of arrest, Kabul residents share their acts of quiet defiance",
    "src": "The Globe and Mail",
@@ -532,7 +532,7 @@
    "sub": ""
   },
   {
-   "n": 20,
+   "n": 21,
    "title": "U.K.-India trade deal faces a stiff test over Scotch whisky import taxes",
    "desc": "In the global spirits markets, while the U.S., Europe, and China are facing volume contraction, India will add nearly 100 million consumers in the next five years.",
    "src": "CNBC",
@@ -548,7 +548,7 @@
    "sub": ""
   },
   {
-   "n": 21,
+   "n": 22,
    "title": "Lufthansa to eliminate 1,000 jobs at struggling flagship airline",
    "desc": "It also plans to further reduce capacity on short- and medium-haul routes and shrink its fleet of Airbus A320 aircraft.",
    "src": "The Straits Times",
@@ -564,7 +564,7 @@
    "sub": ""
   },
   {
-   "n": 22,
+   "n": 23,
    "title": "Household rush to stockpile emergency supplies sends British retail sales soaring",
    "desc": "Surge fuelled by ‘preppers’ heeding Be Ready campaign’s call for households to have three days of food and water for emergencies Business live – latest updates Retail sales in Great Britain surged last month as the public rushed to buy products including tinned food and long-life milk, after the gov",
    "src": "The Guardian",
@@ -580,7 +580,7 @@
    "sub": ""
   },
   {
-   "n": 23,
+   "n": 24,
    "title": "Senior Tories urge Badenoch to drop Brexit talk in major strategy shift, sources say",
    "desc": "Exclusive: While PM pushes for EU reset, Tory leader is moving away from ‘divisive’ issue that defined party for years UK-EU summit live: latest news updates Kemi Badenoch has been advised by her team to limit the amount of time she spends discussing Brexit and Europe, the Guardian has been told, mo",
    "src": "The Guardian",
@@ -596,7 +596,7 @@
    "sub": ""
   },
   {
-   "n": 24,
+   "n": 25,
    "title": "Czechs protest en masse against 'concentration of power in one hand' and growing control over media",
    "desc": "As large demonstrations in the Czech Republic challenge Prime Minister Andrej Babiš's plans to change the funding model of public broadcasters, Mikuláš Minář, Chair of the Million Moments for Democracy movement, joins François Picard from Prague for Spotlight, warning that his country risks followin",
    "src": "France 24",
@@ -612,7 +612,7 @@
    "sub": ""
   },
   {
-   "n": 25,
+   "n": 26,
    "title": "Thousands protest across Italy in strike over wages, public spending",
    "desc": "ROME, Nov 20 - Thousands of students and workers protested across Italy on Friday as the country's largest trade union, CGIL, staged a general strike against Prime Minister Giorgia Meloni's economic policies, demanding higher wages and more spending on public services.",
    "src": "The Straits Times",
@@ -628,7 +628,7 @@
    "sub": ""
   },
   {
-   "n": 26,
+   "n": 27,
    "title": "Gen Z Is Driving Global Political Change, Aiding Far Left and Far Right",
    "desc": "Protests planned across Europe on Friday are the latest example of global youth anger that has driven demonstrations and election upsets.",
    "src": "The New York Times",
@@ -644,7 +644,7 @@
    "sub": ""
   },
   {
-   "n": 27,
+   "n": 28,
    "title": "The War Is Ravaging Ukraine’s Wildlife, Too",
    "desc": "The war in Ukraine has had untold consequences for dolphins, moose, storks and a huge range of other wildlife whose habitats are now rife with anti-drone netting, minefields or in the direct line of fire.",
    "src": "The New York Times",
@@ -660,7 +660,7 @@
    "sub": ""
   },
   {
-   "n": 28,
+   "n": 29,
    "title": "Victims of Clerical Sexual Abuse Want More From Pope Leo",
    "desc": "As he toured South America this month, Pope Leo XIV met with 11 victims of clerical sexual abuse. Some want him to engage more meaningfully.",
    "src": "The New York Times",
@@ -676,7 +676,7 @@
    "sub": ""
   },
   {
-   "n": 29,
+   "n": 30,
    "title": "Mouldy, infested housing for vulnerable people sold as ethical investments abroad",
    "desc": "The properties are marketed at premium prices with claims of “government-backed” returns, the BBC finds.",
    "src": "BBC",
@@ -692,7 +692,7 @@
    "sub": ""
   },
   {
-   "n": 30,
+   "n": 31,
    "title": "Joanne Young praised for bravery in exposing rape by husband and strangers",
    "desc": "Woman who waived anonymity says she hopes her case will mean other victims of abuse are more likely to come forward A woman who was drugged and raped by her husband and strangers he had invited to their family home has been praised for her bravery in exposing the crimes. The judge in the case and wo",
    "src": "The Guardian",
@@ -724,7 +724,7 @@
    "sub": ""
   },
   {
-   "n": 52,
+   "n": 53,
    "title": "US has 'unbalanced approach' on DR Congo deal, Rwanda's foreign minister says",
    "desc": "In an interview with FRANCE 24, Rwandan Foreign Minister Olivier Nduhungirehe said the Trump administration had \"an unbalanced approach\" in implementing the DR Congo peace deal it brokered. He also said that the recent row over the Organisation Internationale de la Francophonie's top job was \"manufa",
    "src": "France 24",
@@ -740,7 +740,7 @@
    "sub": ""
   },
   {
-   "n": 53,
+   "n": 54,
    "title": "Nigeria: States set to get their own police forces",
    "desc": "Nigeria has moved a step closer to letting its 36 states set up their own police forces. The National Assembly has sent a constitutional amendment bill to the president, as authorities seek state-run police to complement the federal force amid growing insecurity. Many states currently fund vigilante",
    "src": "France 24",
@@ -756,7 +756,7 @@
    "sub": ""
   },
   {
-   "n": 54,
+   "n": 55,
    "title": "Senegal: Pastef removes President Faye from its ranks",
    "desc": "In Senegal, Pastef, the majority party led by National Assembly president Ousmane Sonko, has made official the departure of President Bassirou Diomaye Faye. It is the latest episode in a split with his former Prime minister that was already largely complete, and it comes in the middle of an economic",
    "src": "France 24",
@@ -772,7 +772,7 @@
    "sub": ""
   },
   {
-   "n": 55,
+   "n": 56,
    "title": "Nigeria suicide bill: Bola Tinubu moves to end jail terms for attempted suicide",
    "desc": "Nigeria's proposed reform follows years of calls from psychiatrists and a parallel Senate bill.",
    "src": "BBC",
@@ -804,7 +804,7 @@
    "sub": ""
   },
   {
-   "n": 31,
+   "n": 32,
    "title": "Lahori Zeera, Campa Jeera: Cumin-laced fizzy sodas are giving the cola giants a tough fight in India",
    "desc": "Cumin-laced sodas are capturing a bigger market share in India as demand for homegrown flavours goes up.",
    "src": "BBC",
@@ -836,7 +836,7 @@
    "sub": ""
   },
   {
-   "n": 39,
+   "n": 40,
    "title": "Kataib Hezbollah faces deadline to leave Iraqi stronghold",
    "desc": "Kataib Hezbollah faces deadline to leave Iraqi stronghold",
    "src": "Al Jazeera",
@@ -852,7 +852,7 @@
    "sub": ""
   },
   {
-   "n": 40,
+   "n": 41,
    "title": "‘In our lands the rain is made of bullets’: Palestinian artists look back in anger, melancholy and defiance",
    "desc": "IMMA, Dublin From massacre locations painted on to basalt slabs to photocollages of bulldozed airports, artists from across the Levant address their traumatic history In 2006, Simone Fattal painted on to basalt slabs the names of places indelibly associated with massacres in the Levant since 1948: D",
    "src": "The Guardian",
@@ -868,7 +868,7 @@
    "sub": ""
   },
   {
-   "n": 56,
+   "n": 57,
    "title": "Kenya’s growing doping crisis overshadows legacy as athletics powerhouse",
    "desc": "More than 140 Kenyan athletes suspended by the Athletics Integrity Unit since 2017, most of them distance runners.",
    "src": "Al Jazeera",
@@ -884,7 +884,7 @@
    "sub": ""
   },
   {
-   "n": 57,
+   "n": 58,
    "title": "Islam set to be the largest religion by 2035: Where will most Muslims live?",
    "desc": "Pew Research projects Muslim population in Pakistan will overtake Indonesia by 2070, with India next and Nigeria third.",
    "src": "Al Jazeera",
@@ -900,7 +900,7 @@
    "sub": ""
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "Kenyan marathon champion Peres Jepchirchir banned for doping",
    "desc": "In tonight's edition: Kenyan athletics superstar and reigning marathon world champion Peres Jepchirchir is banned for three years for doping. Also, South African judges leave the courtroom behind and tour a repatriation centre before handing down judgment in 33 emergency asylum applications. Plus Gh",
    "src": "France 24",
@@ -916,7 +916,7 @@
    "sub": ""
   },
   {
-   "n": 41,
+   "n": 42,
    "title": "What does the ICJ’s Rohingya genocide ruling mean for Gaza?",
    "desc": "The case sets a precedent for establishing a state's intent to commit genocide beyond explicitly written orders.",
    "src": "Al Jazeera",
@@ -929,6 +929,38 @@
    "region": "Middle East",
    "topic": "Geopolitics & conflict",
    "cat": "Middle East",
+   "sub": ""
+  },
+  {
+   "n": 60,
+   "title": "Mrima Hill deal: US consortium wins Kenya mining project, beating Chinese rivals",
+   "desc": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 19",
+   "img": "5171e29e13.jpg",
+   "id": "u5171e29e13",
+   "added_at": "2026-11-20T12:18:41-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Society & justice",
+   "cat": "Africa",
+   "sub": ""
+  },
+  {
+   "n": 13,
+   "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+   "desc": "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\".",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 19",
+   "img": "b16facea9b.jpg",
+   "id": "ub16facea9b",
+   "added_at": "2026-11-20T12:18:41-0500",
+   "new": true,
+   "region": "Latin America",
+   "topic": "Geopolitics & conflict",
+   "cat": "Latin America",
    "sub": ""
   }
  ]
