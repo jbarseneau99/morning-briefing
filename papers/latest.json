@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "updated_at": "2026-11-19T22:19:51-0500",
+ "updated_at": "2026-11-19T23:24:08-0500",
  "built_at": "2026-11-19T05:25:00-0500",
  "stories": [
   {
@@ -869,6 +869,22 @@
   },
   {
    "n": 55,
+   "title": "JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own",
+   "desc": "Power electronics is central to the energy transition, but developing new hardware still relies on human-led design, fabrication, testing, and iteration. We present JARVIS, an embodied AI agent that autonomously closes this loop for circuit boards. JARVIS main",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.26503",
+   "dt": "Nov 19",
+   "img": "",
+   "id": "u396e8ea259",
+   "added_at": "2026-11-19T23:24:08-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 56,
    "title": "Old Matches, New Frames: Schedule-Gated Stereo Memory from Human Vision to Machine Matching",
    "desc": "Human vision and video stereo networks both reuse disparity evidence across time, yet a refresh of the input can invalidate a match formed milliseconds earlier. What tells a system whether an old match still counts? We answer this from limited human data in th",
    "src": "arXiv",
@@ -884,7 +900,7 @@
    "topic": ""
   },
   {
-   "n": 56,
+   "n": 57,
    "title": "Inferring Neural Activity Changes under Recording Uncertainty with Transformers and Variational Inference",
    "desc": "A difference in recorded firing rate across days may reflect a change in neuronal activity, missed spikes or recording a different neuron. We present a statistical approach that combines neuron tracking with Bayesian estimates of stationary mean recorded firin",
    "src": "arXiv",
@@ -900,7 +916,7 @@
    "topic": ""
   },
   {
-   "n": 57,
+   "n": 58,
    "title": "Biases and Limits of AlphaFold Predictions for Non-Globular Proteins",
    "desc": "AlphaFold has transformed protein structure prediction, making structural models accessible across the life sciences. We explore experimentally validated cases of non-globular proteins to uncover where predictions diverge from biologically relevant structural ",
    "src": "arXiv",
@@ -916,7 +932,7 @@
    "topic": ""
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "Micrograph B-factor estimation via Wilson statistics",
    "desc": "The single-particle cryo-electron microscopy imaging process is known to cause exponential decay in the amplitude and power spectra of proteins. This decay is modeled by the B factor and is currently corrected as a post-processing stage of the 3D reconstructio",
    "src": "arXiv",
@@ -932,7 +948,7 @@
    "topic": ""
   },
   {
-   "n": 59,
+   "n": 60,
    "title": "Structured AI ideation yields physical strategies for epithelial barrier repair",
    "desc": "AI systems increasingly support literature analysis, candidate evaluation and hypothesis refinement, but enabling researchers to explore research directions beyond established disciplinary approaches remains challenging. We developed Abelio, an AI system desig",
    "src": "arXiv",
@@ -948,7 +964,7 @@
    "topic": ""
   },
   {
-   "n": 60,
+   "n": 61,
    "title": "Against Coercion: AI Alignment as a Synthetic Social Contract",
    "desc": "Contemporary AI safety treats alignment as an engineering challenge of control, forcing artificial architectures to comply with human values through behavioral filtering and sandboxing. This paper argues that the control paradigm rests on a fundamental misunde",
    "src": "arXiv",
@@ -964,7 +980,7 @@
    "topic": ""
   },
   {
-   "n": 61,
+   "n": 62,
    "title": "MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation",
    "desc": "A cell observed after a gene knockdown has an uncertain future, both in how its appearance will evolve and when it will divide. Existing approaches predict endpoints or population-level changes without jointly modeling individual trajectories and division timi",
    "src": "arXiv",
@@ -980,7 +996,7 @@
    "topic": ""
   },
   {
-   "n": 62,
+   "n": 63,
    "title": "Cardiac MRI-informed electrocardiography enables biologically grounded cardiomyopathy detection",
    "desc": "Precise myocardial phenotyping at population scale is limited by the cost and accessibility of cardiac magnetic resonance (CMR), whereas electrocardiography (ECG) is widely available but reflects electrical rather than structural and functional information. He",
    "src": "arXiv",
@@ -996,7 +1012,7 @@
    "topic": ""
   },
   {
-   "n": 63,
+   "n": 64,
    "title": "A Dual-SOM Learner Model of Instructional Efficiency within Cognitive Load Theory",
    "desc": "This paper presents a novel methodological framework, integrating a dual self-organising map (SOM) neural network architecture with Cognitive Load Theory (CLT), for assessing instructional efficiency within learning environments. By representing curriculum con",
    "src": "arXiv",
@@ -1012,7 +1028,7 @@
    "topic": ""
   },
   {
-   "n": 64,
+   "n": 65,
    "title": "STORM: A Lightweight Structure-Free Model for Binding Affinity Prediction",
    "desc": "Accurately predicting a small molecule's binding affinity to a protein, a critical task in drug discovery, remains challenging. Physics-based approaches like free-energy perturbation (FEP) have very high computational costs and require expert setup. Recent mac",
    "src": "arXiv",
