@@ -230,13 +230,20 @@
    "news": 56,
    "scitech": 137,
    "papers": 66
+  },
+  {
+   "date": "2026-11-19",
+   "path": "/2026-11-19/",
+   "news": 78,
+   "scitech": 141,
+   "papers": 65
   }
  ],
  "current": {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "path": "/",
-  "news": 78,
-  "scitech": 141,
-  "papers": 65
+  "news": 49,
+  "scitech": 81,
+  "papers": 60
  }
 }

@@ -1,0 +1,737 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Research Papers · Morning Briefing · Nov 19, 2026</title>
+<link rel="manifest" href="/morning-briefing/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/morning-briefing/img/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Briefing">
+<meta name="theme-color" content="#f4f1eb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pin-h:96px;
+  --bg:#f4f1eb;--paper:#fffcf7;--ink:#141311;--mut:#5c5a55;--line:#ddd8ce;--rule:#141311;
+  --acc:#9b2c1a;--wash:#eeeae2;--up:#1f6b3a;--dn:#9b2c1a;--ne:#6a6862;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{color-scheme:light;overscroll-behavior-y:none}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;padding-top:var(--pin-h);padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:var(--acc)}
+.frame{display:block}
+.stick{position:fixed;top:0;left:0;right:0;width:100%;z-index:80;background:var(--bg);border-top:2px solid var(--rule);border-bottom:1px solid var(--line);box-shadow:0 8px 18px -12px rgba(20,19,17,.2);padding-top:env(safe-area-inset-top,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+.pin{display:flex;align-items:center;min-height:48px;box-sizing:border-box;position:relative}
+header{max-width:none;margin:0;padding:0 12px;display:flex;align-items:center;min-height:48px;box-sizing:border-box}
+.mast{display:flex;align-items:center;gap:8px;min-width:0;flex:1;border-top:0;padding:0;min-height:48px;box-sizing:border-box}
+.nav-util{max-width:none;margin:0 0 0 auto;padding:0 8px 0 0;display:flex;align-items:center;gap:0;border-bottom:0;min-width:0;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch;min-height:48px;box-sizing:border-box}
+.side{max-width:900px;margin:0 auto;padding:0 20px;display:grid;grid-template-columns:1fr auto;grid-template-areas:"crumb crumb" "secs cut";align-items:end;column-gap:12px}
+.side:not(:has(.nav-cut:not([hidden]))){grid-template-areas:"crumb crumb" "secs secs"}
+.nav-util::-webkit-scrollbar{display:none}
+.nav-util a{font:600 11.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;padding:0;margin-right:16px;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px;display:inline-flex;align-items:center;min-height:44px;min-width:44px;flex:0 0 auto;white-space:nowrap;box-sizing:border-box}
+.nav-util a:hover{color:var(--ink)}
+.nav-util a.on,.nav-util a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink)}
+.nav-crumb{grid-area:crumb;font-size:12.5px;color:var(--mut);padding:7px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.3}
+.nav-crumb a{color:var(--mut);text-decoration:none}
+.nav-crumb a:hover{color:var(--acc)}
+.nav-crumb .here{color:var(--ink)}
+.nav-crumb .sep{margin:0 .15em;color:var(--mut)}
+.nav-secs{grid-area:secs;display:flex;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;flex-wrap:nowrap;scrollbar-width:none;gap:0;-webkit-overflow-scrolling:touch;border-bottom:1px solid var(--line)}
+.nav-secs::-webkit-scrollbar{display:none}
+.nav-secs button{flex:0 0 auto;font:600 15px/1 var(--sans);padding:0 8px;margin-right:8px;border:0;background:none;cursor:pointer;color:var(--mut);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;border-radius:0;display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;box-sizing:border-box}
+.nav-secs button:hover{color:var(--ink)}
+.nav-secs button.on{color:var(--ink);border-bottom-color:var(--acc)}
+.nav-secs button.spy{color:var(--ink)}
+.nav-cut{grid-area:cut;display:flex;align-items:center;padding:0 0 8px;border-bottom:1px solid var(--line)}
+.nav-crumb[hidden],.nav-cut[hidden]{display:none!important}
+.nav-cut button{font:600 11px/1 var(--sans);letter-spacing:.03em;padding:0 10px;border:1px solid var(--line);background:transparent;color:var(--mut);cursor:pointer;margin:0 0 0 -1px;min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+.nav-cut button:first-child{margin-left:0;border-radius:3px 0 0 3px}
+.nav-cut button:last-child{border-radius:0 3px 3px 0}
+.nav-cut button.on{background:var(--ink);color:var(--paper);border-color:var(--ink);position:relative;z-index:1}
+.nav-cut[hidden]{display:none}
+section,.row,.sub,.ch{scroll-margin-top:calc(var(--pin-h) + 12px)}
+.kicker{display:none}
+.logo-link{display:inline-flex;align-items:center;gap:8px;flex:0 0 auto;min-width:44px;min-height:44px;color:var(--ink);text-decoration:none}
+.logo-mark{width:24px;height:24px;display:block;flex:0 0 auto;color:var(--ink)}
+.logo-word{height:22px;width:auto;aspect-ratio:1000/258.41;display:block;flex:0 0 auto}
+.logo-dark{display:none}
+.byline{margin:0;color:var(--mut);font:500 10px/1.2 var(--sans);letter-spacing:.08em;font-variant-caps:all-small-caps;text-transform:lowercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.byline .sep{font-variant-caps:normal;letter-spacing:0;margin:0 .35em}
+.byline .ed{font-variant-caps:normal;letter-spacing:.01em;font-weight:400;text-transform:none;color:var(--mut)}
+header h1{margin:0;font:650 15px/1.1 var(--serif);letter-spacing:-.02em;white-space:nowrap;min-width:0}
+header h1 a{color:inherit;text-decoration:none}
+.ed{margin:0;color:var(--mut);font-size:10px;letter-spacing:.01em}
+#send{display:none;flex:0 0 auto;margin-left:auto;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:0;padding:0 8px;cursor:pointer;font:600 10px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;min-height:32px;align-items:center;justify-content:center}
+#send:hover{background:var(--ink);color:var(--paper)}
+main{max-width:900px;margin:0 auto;padding:16px 20px max(72px,calc(72px + env(safe-area-inset-bottom,0px)))}
+section{background:transparent;border:0;border-radius:0;margin:1.8rem 0 0;overflow:visible}
+.view>section:first-child{margin-top:.4rem}
+.ch{display:flex;align-items:baseline;gap:10px;padding:0 0 10px;cursor:pointer;user-select:none;border-bottom:2px solid var(--rule)}
+.ch h2{margin:0;font:650 1.45rem/1.15 var(--serif);flex:1;letter-spacing:-.015em}
+.car{transition:transform .2s;color:var(--mut);font-size:13px;line-height:1}
+section.closed .car{transform:rotate(-90deg)}
+section.closed .body{display:none}
+section.closed .ch{border-bottom-width:1px;border-bottom-color:var(--line)}
+.top{padding:14px 0 4px}
+.top h4{margin:0 0 8px;font:600 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+.top ol{margin:0;padding-left:1.15rem;font-size:15px}
+.top li{min-height:44px;padding:8px 0;box-sizing:border-box}
+.top a{color:var(--ink);text-decoration:none;font-family:var(--serif);font-weight:550}
+.top a:hover{color:var(--acc)}
+.sh{display:flex;align-items:center;gap:8px;padding:18px 0 2px}
+.sh span.t{flex:1;font:600 11.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--acc)}
+.row{display:flex;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.sh+.row{border-top:0;padding-top:10px}
+.th,.ph{flex:0 0 120px;flex-shrink:0;align-self:flex-start;width:120px;aspect-ratio:3/2;height:auto;border-radius:2px;object-fit:cover;background:var(--wash)}
+.ph{display:flex;align-items:center;justify-content:center;color:#9a968e;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
+.tx{flex:1;min-width:0}
+.tx b{display:block;font:600 1.12rem/1.28 var(--serif);letter-spacing:-.01em}
+.tx .n{color:var(--mut);font-weight:500;margin-right:.4em;font-variant-numeric:tabular-nums;font-family:var(--sans);font-size:.86em}
+.tx p{margin:4px 0 0;color:#3a3834;font-size:15px;line-height:1.45}
+.tx a{color:var(--acc);font-size:13px;font-weight:600;letter-spacing:.02em;text-decoration:none}
+.tx a:hover{text-decoration:underline}
+.dt{color:var(--mut);font-size:13px}
+.more{display:none}
+.sub.open .more{display:flex}
+.mt{margin:2px 0 8px;border:0;background:none;color:var(--mut);cursor:pointer;font:600 13px/1.4 var(--sans);padding:0;letter-spacing:.02em;min-height:44px;display:inline-flex;align-items:center}
+.mt:hover{color:var(--acc)}
+.v{display:flex;flex-direction:column;gap:0;align-items:center;flex:0 0 auto;margin-left:4px}
+.v button{border:0;background:transparent;border-radius:3px;cursor:pointer;font-size:14px;padding:0;opacity:.4;line-height:1;color:var(--ink);min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+.v button:hover{opacity:1;background:var(--wash)}
+.v button.on{opacity:1}
+.v button.on.up{background:#e7f1ea;color:var(--up)}
+.v button.on.dn{background:#f6e8e4;color:var(--dn)}
+.v button.on.ne{background:var(--wash);color:var(--ne)}
+.ch .v,.sh .v{flex-direction:row;align-items:center}
+.ch .v button{font-size:14px}
+@media(max-width:599px){
+  .pin,.side{display:contents}
+  .stick{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"header util" "feeds feeds" "crumb crumb" "secs cut";column-gap:4px;align-items:center}
+  .stick:not(:has(.nav-cut:not([hidden]))){grid-template-areas:"header util" "feeds feeds" "crumb crumb" "secs secs"}
+  header{grid-area:header;max-width:none;padding:0 0 0 12px;min-height:48px}
+  .nav-util{grid-area:util;max-width:none;padding:0 12px 0 4px;min-height:48px}
+  .nav-cut{grid-area:cut;justify-content:flex-end;padding:0 12px 0 0;border-bottom:0}
+  .nav-crumb{padding-left:12px;padding-right:12px}
+  .nav-secs{padding:0 12px}
+  main{padding-left:14px;padding-right:14px}
+  header h1{font-size:14px}
+  .logo-word,.byline,#send{display:none!important}
+  .nav-util a{margin-right:8px}
+  .nav-secs button{margin-right:12px;font-size:14px}
+  .pin.scrolled .nav-crumb{padding-top:2px;font-size:12px}
+  .th,.ph{flex:0 0 76px;flex-shrink:0;align-self:flex-start;width:76px;aspect-ratio:3/2;height:auto;object-fit:cover}
+  .tx b{font-size:1.02rem}
+  .tx p{font-size:14px}
+  .row{gap:10px;padding:10px 0}
+}
+@media(max-width:430px){
+  header{padding-left:10px}
+  .nav-util{padding-right:10px}
+  .nav-cut{padding-right:10px}
+  .nav-crumb,.nav-secs,main{padding-left:12px;padding-right:12px}
+  header h1{font-size:13.5px}
+  .tx b{font-size:1rem}
+  .tx p{font-size:13.5px;line-height:1.4}
+  .row{gap:8px;padding:8px 0}
+  .th,.ph{flex:0 0 72px;width:72px}
+}
+@media(max-height:420px) and (min-aspect-ratio:5/4){
+  .byline,.logo-word,#send{display:none!important}
+  header h1{font-size:13.5px}
+}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  body{padding-top:0}.frame{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,3fr);grid-template-rows:var(--pin-h) 1fr;grid-template-areas:"pin pin" "side main";align-items:start;width:100%;max-width:1400px;margin:0 auto}
+  .stick{display:contents;position:static;padding:0;border:0;box-shadow:none;background:transparent}
+  .pin{grid-area:pin;position:fixed;top:0;left:0;right:0;width:auto;z-index:80;min-height:0;background:var(--bg);border-top:2px solid var(--rule);border-bottom:1px solid var(--line);box-shadow:0 8px 18px -12px rgba(20,19,17,.2);padding-top:env(safe-area-inset-top,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+  .pin{display:flex;align-items:center;min-height:0;box-sizing:border-box}
+  header,.nav-util{max-width:none;margin:0}
+  header{flex:1;min-width:0;padding:0 12px 0 16px;min-height:52px}
+  .mast{min-height:52px}
+  .nav-util{flex:0 0 auto;padding:0 16px 0 8px;min-height:52px;border-bottom:0}
+  #send{display:inline-flex}
+  .side{grid-area:side;display:block;position:-webkit-sticky;position:sticky;top:var(--pin-h);z-index:40;align-self:start;box-sizing:border-box;width:100%;max-width:none;margin:0;height:calc(100dvh - var(--pin-h) - env(safe-area-inset-bottom,0px));overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:var(--bg);border-right:1px solid var(--line);padding:16px 16px max(24px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+  .nav-crumb{display:block;white-space:normal;overflow:visible;text-overflow:unset;padding:0 0 12px;line-height:1.4}
+  .nav-cut{display:flex;justify-content:flex-start;border-bottom:0;padding:0 0 14px;margin:0}
+  .nav-secs{display:flex;flex-direction:column;align-items:stretch;overflow:visible;flex-wrap:nowrap;border-bottom:0;margin:0;padding:0;gap:0}
+  .nav-secs button{width:100%;margin:0;padding:0 12px;justify-content:flex-start;text-align:left;white-space:normal;border-bottom:0;border-left:2px solid transparent;border-radius:0;min-height:44px;min-width:44px}
+  .nav-secs button.on,.nav-secs button.spy{border-left-color:var(--acc);background:var(--wash);color:var(--ink)}
+  main{grid-area:main;max-width:none;margin:0;padding:16px 20px max(72px,calc(32px + env(safe-area-inset-bottom,0px))) 24px;container-type:inline-size;container-name:stories}
+  .row{padding:12px 0}
+  .th,.ph{flex:0 0 100px;width:100px}
+}
+@container stories (min-width:520px){
+  .sub{display:grid;grid-template-columns:1fr 1fr;column-gap:20px;align-items:start}
+  .sub>.sh,.sub>.mt{grid-column:1/-1}
+  .th,.ph{flex:0 0 72px;width:72px}
+  .tx b{font-size:1.05rem}
+  .tx p{font-size:14px}
+}
+@media(horizontal-viewport-segments:2){
+  .frame{grid-template-columns:env(viewport-segment-width 0 0,1fr) env(viewport-segment-width 1 0,3fr)}
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#1c1b19;--paper:#24221f;--ink:#f3efe6;--mut:#a8a49a;--line:#3a3732;--rule:#f3efe6;--acc:#e06a4f;--wash:#2c2a26;--up:#7dcea0;--dn:#e06a4f;--ne:#b0aca3}
+  html{color-scheme:dark}
+  body{background:var(--bg);color:var(--ink)}
+  .stick,.pin,.side{box-shadow:none}
+  .stick,.pin{box-shadow:0 8px 18px -12px rgba(0,0,0,.55)}
+  .tx p{color:#d7d2c8}
+  .ph{color:#7a756c}
+  #send:hover{background:var(--ink);color:var(--bg)}
+  .nav-cut button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .v button.on.up{background:#1d3a2a;color:var(--up)}
+  .v button.on.dn{background:#3a221e;color:var(--dn)}
+  .v button.on.ne{background:var(--wash);color:var(--ne)}
+  .logo-word.logo-light{display:none}
+  .logo-word.logo-dark{display:block}
+  .logo-mark{color:var(--ink)}
+}
+@media (display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui){
+  .stick,.pin{padding-top:env(safe-area-inset-top,0px)}
+}
+
+#refresh{flex:0 0 auto;width:44px;height:44px;margin:0;padding:0;border:0;background:transparent;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;border-radius:0}
+#refresh:hover{color:var(--acc)}
+#refresh svg{width:20px;height:20px;display:block}
+#refresh.busy svg{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.updated{flex:0 0 auto;color:var(--mut);font:500 10px/1 var(--sans);letter-spacing:.04em;white-space:nowrap;margin:0 4px 0 0}
+#refresh-bar{position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--acc);transform-origin:left;transform:scaleX(0);pointer-events:none;z-index:90}
+#refresh-bar.on{display:block;animation:loadbar 1s ease-in-out infinite}
+@keyframes loadbar{0%{transform:scaleX(0);opacity:.3}50%{transform:scaleX(1);opacity:1}100%{transform:scaleX(0);opacity:.3}}
+.tag-new{display:inline-block;margin:0 6px 0 0;padding:1px 5px;border:1px solid var(--acc);color:var(--acc);font:650 9px/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase;vertical-align:middle}
+.row.fresh{animation:freshfade 2.8s ease}
+@keyframes freshfade{0%{background:color-mix(in srgb,var(--acc) 16%,transparent)}100%{background:transparent}}
+#toast{position:fixed;left:50%;bottom:max(24px,calc(16px + env(safe-area-inset-bottom,0px)));transform:translateX(-50%);background:var(--ink);color:var(--paper);font:600 13px/1.3 var(--sans);letter-spacing:.02em;padding:10px 16px;border-radius:2px;z-index:200;box-shadow:0 8px 24px rgba(20,19,17,.25);opacity:0;pointer-events:none;transition:opacity .2s}
+#toast.show{opacity:1}
+
+/* in-app reader */
+.row .th,.row .ph,.row .tx b,.row .rlink{cursor:pointer}
+a.rlink{display:flex;gap:inherit;align-items:flex-start;flex:1;min-width:0;color:inherit;text-decoration:none;-webkit-tap-highlight-color:rgba(155,44,26,.12)}
+a.rlink:hover b{color:var(--acc)}
+.row .rs{color:var(--acc);font:600 13px/1.4 var(--sans)}
+.buildstamp{margin:24px 0 8px;padding:0 4px;color:var(--mut);font:500 10px/1.2 var(--sans);letter-spacing:.06em;opacity:.7}
+#reader{display:none;background:var(--bg);min-width:0;box-sizing:border-box}
+body.reading{overflow:hidden;overscroll-behavior:none;height:100vh;height:-webkit-fill-available;height:100dvh}
+body.reading .buildstamp{display:none!important}
+body.reading #m{display:none!important}
+body.reading #reader{
+  display:flex;flex-direction:column;
+  position:fixed;z-index:50;
+  top:var(--pin-h);left:0;right:0;bottom:0;
+  width:auto;
+  height:calc(100vh - var(--pin-h));
+  height:calc(100dvh - var(--pin-h));
+  min-height:calc(100vh - var(--pin-h));
+  min-height:calc(100dvh - var(--pin-h));
+  padding:0 16px env(safe-area-inset-bottom,0px);
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  overflow:hidden;
+  background:var(--bg);
+}
+.rbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;position:relative;top:auto;z-index:5;flex:0 0 auto;background:var(--bg);border-bottom:1px solid var(--line);padding:4px 0 8px;margin:0 0 12px}
+#rback{flex:0 0 auto;width:44px;height:44px;margin:0;padding:0;border:0;background:transparent;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+#rback:hover{color:var(--acc)}
+#rback svg{display:block}
+.rsrc{font:650 11.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mut);min-width:0}
+.rorig{margin-left:auto;font:600 12px/1 var(--sans);letter-spacing:.04em;color:var(--acc);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;padding:0 4px;white-space:nowrap}
+.rorig:hover{text-decoration:underline}
+#rvotes{flex:0 0 auto}
+#rbody{max-width:720px;flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch}
+#rbody.loading{display:flex;align-items:center;justify-content:center;min-height:0;flex:1 1 auto;color:var(--mut)}
+#rbody .rspinner{width:28px;height:28px;border:2px solid var(--line);border-top-color:var(--acc);border-radius:50%;animation:spin .8s linear infinite}
+#rbody h1{font:600 1.7rem/1.25 var(--serif);margin:0 0 8px;color:var(--ink)}
+#rbody .rby{margin:0 0 16px;color:var(--mut);font:500 14px/1.4 var(--sans)}
+#rbody .rby .rdate{font-weight:400}
+#rbody .rhero{display:block;width:100%;max-height:360px;object-fit:cover;border-radius:2px;margin:0 0 20px;background:var(--wash)}
+#rbody .rhtml{font:400 1.05rem/1.65 var(--serif);color:var(--ink)}
+#rbody .rhtml p,#rbody .rhtml li{margin:0 0 1em}
+#rbody .rhtml h2,#rbody .rhtml h3,#rbody .rhtml h4{font-family:var(--serif);font-weight:600;line-height:1.3;margin:1.4em 0 .5em}
+#rbody .rhtml img{max-width:100%;height:auto;border-radius:2px;margin:.4em 0}
+#rbody .rhtml a{color:var(--acc)}
+#rbody .rhtml blockquote{margin:0 0 1em;padding:0 0 0 14px;border-left:2px solid var(--line);color:var(--mut)}
+#rbody .rhtml .trimmed{color:var(--mut);letter-spacing:.2em}
+#rbody .rnote{background:var(--wash);border:1px solid var(--line);padding:14px 16px;margin:0 0 16px;font:400 15px/1.5 var(--sans);color:var(--ink)}
+#rbody .rnote a{color:var(--acc)}
+#rbody .rsum{font:400 1.05rem/1.6 var(--serif);margin:0 0 1em}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  body.reading .frame{height:100vh;height:100dvh;overflow:hidden;align-items:stretch}
+  #reader{grid-area:main;max-width:none;margin:0;display:none;flex-direction:column}
+  body.reading #reader{
+    display:flex;flex-direction:column;
+    position:relative;z-index:auto;
+    top:auto;left:auto;right:auto;bottom:auto;
+    width:auto;max-width:none;margin:0;
+    height:calc(100vh - var(--pin-h));
+    height:calc(100dvh - var(--pin-h));
+    min-height:calc(100vh - var(--pin-h));
+    min-height:calc(100dvh - var(--pin-h));
+    padding:0 20px env(safe-area-inset-bottom,0px) 24px;
+    overflow:hidden;
+    background:var(--bg);
+  }
+  .rbar{top:auto;flex:0 0 auto}
+  #rbody{flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch}
+}
+@media(max-width:599px){.updated,#send{display:none!important}}
+
+.nav-feeds{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;gap:0}
+.nav-feeds::-webkit-scrollbar{display:none}
+.nav-feeds a{flex:0 0 auto;font:600 13.5px/1 var(--sans);padding:0 8px;margin-right:8px;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;min-height:36px;display:inline-flex;align-items:center}
+.nav-feeds a:hover{color:var(--ink)}
+.nav-feeds a.on,.nav-feeds a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink)}
+@media(max-width:599px){
+  .nav-feeds{grid-area:feeds;padding:0 12px}
+}
+@media(max-height:420px) and (min-aspect-ratio:5/4){
+  .nav-feeds{display:none}
+}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  .nav-feeds{display:flex;flex-direction:column;align-items:stretch;overflow:visible;flex-wrap:nowrap;border-bottom:1px solid var(--line);margin:0 0 12px;padding:0 0 8px}
+  .nav-feeds a{width:100%;margin:0;padding:0 12px;justify-content:flex-start;text-align:left;white-space:normal;border-bottom:0;border-left:2px solid transparent;min-height:40px}
+  .nav-feeds a.on,.nav-feeds a[aria-current=page]{border-bottom:0;border-left-color:var(--ink);background:var(--wash);color:var(--ink)}
+  .nav-feeds a:hover,.nav-feeds a:focus{color:var(--ink);background:var(--wash)}
+}
+</style></head><body>
+<div class="frame">
+<div class="stick" id="stick">
+<div class="pin" id="pin">
+<header><div class="mast"><a class="logo-link" href="https://www.33fg.com/" target="_blank" rel="noopener" aria-label="Mach33"><svg class="logo-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M500,68.71C261.8,68.71,68.71,261.81,68.71,500c0,238.2,193.09,431.29,431.29,431.29c238.19,0,431.29-193.09,431.29-431.29
+	C931.29,261.81,738.19,68.71,500,68.71z M246.22,740.08l-8.24-19.42c81.2-14.71,181.82-62.96,181.82-145.34
+	c0-69.43-73.55-90.03-113.56-90.03l-5.3-15.89c68.26-49.42,95.33-79.43,95.33-122.39c0-39.42-22.95-44.72-37.66-44.72
+	c-24.72,0-54.14,14.13-81.21,32.37l-11.76-17.07l81.79-57.66c38.83,0,135.92,13.53,135.92,90.03c0,62.96-60.61,97.67-89.44,104.15
+	c27.07,0,117.1,13.53,117.1,100.03C511.01,669.47,325.66,728.9,246.22,740.08z M487.47,740.08l-8.24-19.42
+	c81.21-14.71,181.82-62.96,181.82-145.34c0-69.43-73.55-90.03-113.56-90.03l-5.3-15.89c68.26-49.42,95.33-79.43,95.33-122.39
+	c0-39.42-22.95-44.72-37.66-44.72c-24.71,0-54.14,14.13-81.2,32.37l-11.77-17.07l81.79-57.66c38.83,0,135.92,13.53,135.92,90.03
+	c0,62.96-60.6,97.67-89.44,104.15c27.07,0,117.1,13.53,117.1,100.03C752.26,669.47,566.91,728.9,487.47,740.08z"/></svg><img class="logo-word logo-light" src="/morning-briefing/img/mach33-wordmark-black.svg?v=3" alt="" width="85" height="22"><img class="logo-word logo-dark" src="/morning-briefing/img/mach33-wordmark-white.svg?v=3" alt="" width="85" height="22"></a><h1><a href="../">Morning Briefing</a></h1><p class="byline">for J. Brant Arseneau<span class="sep"> · </span><span class="ed">Thursday, November 19, 2026</span></p><button type="button" id="refresh" aria-label="Refresh news" title="Refresh news"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></button><span id="updated" class="updated" hidden></span><div id="refresh-bar" hidden></div><button id="send">Feedback</button></div></header>
+<nav class="nav-util" aria-label="Edition"><a href="../#today" class="on" aria-current="page">Today</a><a href="../#history">History</a><a href="../#likes">Likes</a></nav>
+</div>
+<aside class="side" id="side">
+  <nav class="nav-feeds" aria-label="Feeds"><a href="../news/" data-feed="news">Global News</a><a href="../scitech/" data-feed="scitech">Science &amp; Technology</a><a href="../papers/" data-feed="papers">Research Papers</a></nav>
+  <nav class="nav-crumb" id="crumb" aria-label="Breadcrumb" hidden></nav>
+  <div class="nav-cut" id="cutslot" hidden></div>
+  <nav class="nav-secs" id="secs" aria-label="Sections"></nav>
+</aside>
+</div>
+<main id="m"></main>
+<article id="reader" hidden>
+  <div class="rbar">
+    <button type="button" id="rback" aria-label="Back to stories" title="Back">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <span id="rsrc" class="rsrc"></span>
+    <a id="rorig" class="rorig" target="_blank" rel="noopener">Open original</a>
+    <span id="rvotes"></span>
+  </div>
+  <div id="rbody"></div>
+</article>
+</div>
+<p class="buildstamp">v20261119-2221</p>
+<script>
+const DATA=[{"cat": "Space & Astronomy", "subs": [{"sub": "", "items": [[1, "Map-Level Inference of Primordial Gravitational Waves from the CMB with Spherical Neural Networks", "We train a spherical graph convolutional network to infer the tensor-to-scalar ratio $r$ directly from multifrequency cosmic microwave background (CMB) $B$-mode maps on the cut sky. We test the network on simulations of a generic ground-based experiment includ", "arXiv", "https://arxiv.org/abs/2611.24939", "Nov 18", "", "u35739835f9", "2026-11-19T05:26:33-0500", true], [2, "LEMUR: A Searchable Web Archive of Deep Chandra Images of Galaxies and Galaxy Clusters", "We present LEMUR, a publicly accessible archive of uniformly reduced, deep Chandra images of 2,569 galaxies and galaxy clusters (including groups), comprising 5,505 ACIS observations and 138.8 Ms of exposure. By combining the publicly available imaging observa", "arXiv", "https://arxiv.org/abs/2611.24937", "Nov 18", "", "u5bcb91b042", "2026-11-19T05:26:33-0500", true], [3, "Bar formation and secular evolution in live Milky Way-like galaxies", "Context. Bars and their boxy/peanut (B/P) shapes drive the secular evolution of disc galaxies, redistributing angular momentum and reshaping the radial and vertical structure of stellar discs. Bars occur in bulgeless to bulge-dominated hosts. Bars are known to", "arXiv", "https://arxiv.org/abs/2611.24884", "Nov 18", "", "u53d728df7a", "2026-11-19T05:26:33-0500", true], [4, "Discovery of a Massive Outer Companion to the TOI-178 Resonant Chain", "We report the discovery of a massive outer companion around TOI-178, a known planetary system with six inner small planets within 0.15 AU, five of which are in a 2:4:6:9:12 resonant chain. We analyse the astrometric anomalies in the combined Gaia DR2/DR3 - Hip", "arXiv", "https://arxiv.org/abs/2611.24854", "Nov 18", "", "u0b89fa3889", "2026-11-19T05:26:33-0500", true], [5, "Deconstructing the cosmic baryon distribution with fast radio bursts", "The precise distribution of baryons in the Universe remains an open question in cosmology, as their highly diffuse nature hinders direct observation. However, mapping it is integral for precision cosmology in studies of gravitational lensing, galaxy evolution ", "arXiv", "https://arxiv.org/abs/2611.24838", "Nov 18", "", "uaccdd2c78f", "2026-11-19T05:26:33-0500", true], [6, "A Homogeneous Benchmark of Exoplanet Mass-Radius Relations", "The mass-radius ($M$-$R$) relation is fundamental to inferring the bulk composition and internal structure of exoplanets. However, published relations remain difficult to compare directly because studies adopt different planetary samples, fitting procedures, a", "arXiv", "https://arxiv.org/abs/2611.24812", "Nov 18", "", "ubf043e0c7c", "2026-11-19T05:26:33-0500", true], [7, "Potential spectral markers of intrinsic magnetic fields of hot exoplanets in the UV range", "A method for detecting the intrinsic magnetic fields of exoplanets, based on the effect of atomic alignment (the redistribution of populations among magnetic sublevels under the action of anisotropic radiation from the host star), has been adapted for observat", "arXiv", "https://arxiv.org/abs/2611.24811", "Nov 18", "", "uc91c9aa2be", "2026-11-19T05:26:33-0500", true], [8, "Cross-Dataset Inference of Central-Satellite Classification and Host Halo Masses from Galaxy neighbours with Machine Learning", "The classification of galaxies as centrals or satellites gives insight into the galaxy-halo connection. This, together with halo mass estimates, can be used to connect observed galaxy populations to underlying dark matter structure. To (1) classify galaxies as", "arXiv", "https://arxiv.org/abs/2611.24803", "Nov 18", "", "u2a50bbaf6f", "2026-11-19T05:26:33-0500", true], [9, "The GECKOS Survey: deriving bar properties in edge-on galaxies from molecular gas kinematics", "The characterisation of disc-connected structures such as bars and nuclear rings is a difficult task in edge-on galaxies. We present a simple method to derive bar position angles and lengths in edge-on galaxies using molecular gas kinematics from ALMA observat", "arXiv", "https://arxiv.org/abs/2611.24770", "Nov 18", "", "u33941c7555", "2026-11-19T05:26:33-0500", true], [10, "Infrared spectrum of the Type Iax supernova remnant Pa30", "The central star of Pa30 and its nebulosity offer one of the best opportunities to study a SN Iax explosion and its remnant. Pa30 is thought to be the product of the historical supernova explosion of 1181. No infrared spectroscopy of its extremely hot central ", "arXiv", "https://arxiv.org/abs/2611.24734", "Nov 18", "", "u874ec229a4", "2026-11-19T05:26:33-0500", true]]}]}, {"cat": "AI & Robotics", "subs": [{"sub": "", "items": [[11, "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling", "We introduce $Z$-sight, a unified robot foundation model that couples vision-language-action (VLA) and generative latent world modeling. Video-based world action models (WAMs) show the value of joint future-and-action generation for control, yet inherit the he", "arXiv", "https://arxiv.org/abs/2611.24940", "Nov 18", "", "uee290e4edd", "2026-11-19T05:26:33-0500", true], [12, "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models", "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns r", "arXiv", "https://arxiv.org/abs/2611.24938", "Nov 18", "", "u8427cd1426", "2026-11-19T05:26:33-0500", true], [13, "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems", "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actu", "arXiv", "https://arxiv.org/abs/2611.24932", "Nov 18", "", "u04702621aa", "2026-11-19T05:26:33-0500", true], [14, "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem", "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains spar", "arXiv", "https://arxiv.org/abs/2611.24927", "Nov 18", "", "u6c63640809", "2026-11-19T05:26:33-0500", true], [15, "Grana: Compositional Reward Modeling for Long-Horizon Robot Manipulation", "Robot reward modeling faces two challenges: generalizing across tasks and accurately tracking progress in long-horizon manipulation. General-purpose reward models demonstrate broad task transfer, but transfer from short-task pretraining to long-horizon tasks r", "arXiv", "https://arxiv.org/abs/2611.24926", "Nov 18", "", "ud4ceb51146", "2026-11-19T05:26:33-0500", true], [16, "Render the Robot, Generate the World: One Video World Model Across Embodiments", "Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the intended mo", "arXiv", "https://arxiv.org/abs/2611.24925", "Nov 18", "", "u63345d5bb2", "2026-11-19T05:26:33-0500", true], [17, "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses", "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution ", "arXiv", "https://arxiv.org/abs/2611.24924", "Nov 18", "", "ub034d9ec96", "2026-11-19T05:26:33-0500", true], [18, "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation", "We study two-layer neural networks trained by stochastic gradient descent (SGD) on a multi-index teacher model, focusing on how first-layer parameters orthogonal to the teacher subspace affect generalization. We decompose the first-layer weights into a signal ", "arXiv", "https://arxiv.org/abs/2611.24908", "Nov 18", "", "ub565e9355b", "2026-11-19T05:26:33-0500", true], [19, "Equivariant Modeling with Polynomial Features via Minimal Homogeneous Generators", "We present a general framework for modeling and learning equivariant functions between finite dimensional semisimple real group representations, unifying constructions developed across many application areas. Our model is a linear combination of equivariant po", "arXiv", "https://arxiv.org/abs/2611.24896", "Nov 18", "", "u0c7c6979dc", "2026-11-19T05:26:33-0500", true], [20, "On Evaluating User Simulators for Interactive Agents", "User simulators offer a scalable way to evaluate interactive agents, but how to assess their quality remains underexplored. In particular, it is unclear whether existing user simulator evaluation frameworks reliably detect meaningful failures in simulated user", "arXiv", "https://arxiv.org/abs/2611.24892", "Nov 18", "", "u80b57aed47", "2026-11-19T05:26:33-0500", true]]}]}, {"cat": "Energy & Nuclear", "subs": [{"sub": "", "items": [[21, "The role of externally-driven density fluctuations in the enhancement of beam spray", "Speckled laser beams, commonly used to ionize and heat plasma for inertial confinement fusion and high-energy-density experiments, are shown to drive long-wavelength plasma-density fluctuations that induce beam spray in other laser beams. Experiments show that", "arXiv", "https://arxiv.org/abs/2611.24914", "Nov 18", "", "u3f4b6aa68b", "2026-11-19T05:26:33-0500", true], [22, "Design and Modeling of Graded Base III-Nitride HBTs for High-Frequency Applications", "This work analyzes the high-frequency performance constraints of AlGaN/GaN heterojunction bipolar transistors (HBTs) and proposes a novel band-engineered graded base N-polar AlGaN/GaN HBT and evaluates the RF performances. Unlike conventional p-GaN base design", "arXiv", "https://arxiv.org/abs/2611.24790", "Nov 18", "", "ub75460b2da", "2026-11-19T05:26:33-0500", true], [23, "Fluctuations and Correlations of Conserved Charges in Isobar Collisions at $\\sqrt{s_{NN}}$ = 200 GeV with the STAR Detector", "We report measurements of second-order cumulants and correlations of experimentally accessible baryon number, electric charge, and strangeness proxies in Ru+Ru and Zr+Zr collisions at $\\sqrt{s_{NN}} = 200$~GeV with the STAR experiment. The results exhibit simi", "arXiv", "https://arxiv.org/abs/2611.24673", "Nov 18", "", "uafb0cd3d3e", "2026-11-19T05:26:33-0500", true], [24, "Generation of neutron Bessel beams", "Matter waves can exhibit structured wavefields analogous to those of light, offering new means of controlling the spatial and angular-momentum degrees of freedom of massive particles. Bessel beams are a fundamental class of structured waves that exhibit non-di", "arXiv", "https://arxiv.org/abs/2611.24655", "Nov 18", "", "u31c306bce7", "2026-11-19T05:26:33-0500", true], [25, "Reliable arithmetic circuits using less reliable (sub-digital) logic", "The frequent static failure of CMOS logic gates at ultra-low voltages has historically been perceived as a strict barrier to extreme voltage scaling: this paper introduces a statistical circuit law proving this intuition wrong. We discovered a universal power ", "arXiv", "https://arxiv.org/abs/2611.24591", "Nov 18", "", "u67410f0723", "2026-11-19T05:26:33-0500", true], [26, "Radii of Sn Isotopes near the Proton Dripline from Nuclear Lattice Effective Field Theory", "We present the first $\\textit{ab initio}$ lattice calculations of charge and matter radii of tin isotopes $^{96}$Sn, $^{98}$Sn, $^{100}$Sn, $^{102}$Sn and $^{104}$Sn near the proton dripline using nuclear lattice effective field theory with high-fidelity two- ", "arXiv", "https://arxiv.org/abs/2611.24572", "Nov 18", "", "u66947e6506", "2026-11-19T05:26:33-0500", true], [27, "$Λ$-deuteron scattering below the $Σ$-threshold", "$Λd$ elastic scattering and breakup below the $Σ$ threshold is described fully including the virtual coupling to $Σ$ channels. Well-converged results are obtained solving the multichannel scattering equations for three-body transition operators in momentum-spa", "arXiv", "https://arxiv.org/abs/2611.24538", "Nov 18", "", "ue7a4ab83b3", "2026-11-19T05:26:33-0500", true], [28, "Mid-Infrared Integrated Acousto-Optic Phase Modulation on GaAs/AlGaAs", "We demonstrate a mid-infrared (7.5-10 um) integrated acousto-optic phase modulator operating at 460MHz based on a GaAs/AlGaAs heterostructure. The combination of broad mid-infrared transparency and piezoelectric properties of GaAs based structures allows monol", "arXiv", "https://arxiv.org/abs/2611.24530", "Nov 18", "", "u91212948d4", "2026-11-19T05:26:33-0500", true], [29, "Fundamental-derivative criticality of ion-acoustic solitons in fluid-Poisson plasmas with general equations of state", "Non-ideal ion compressibility modifies the nonlinearity of ion-acoustic waves. In a fluid-Poisson plasma with Boltzmann electrons and a barotropic ion equation of state, we relate the quadratic KdV coefficient to the fundamental derivative of the effective aco", "arXiv", "https://arxiv.org/abs/2611.24523", "Nov 18", "", "ub6cdd60708", "2026-11-19T05:26:33-0500", true], [30, "Moment-Fourier approach to parallel closures and transport for a toroidally confined multi-ion plasma", "We develop a multi-ion closure framework for tokamak plasmas by solving the drift-kinetic equation using the moment-Fourier method. The model extends our previous single-ion formulation to plasmas containing multiple ion species and consistently incorporates i", "arXiv", "https://arxiv.org/abs/2611.24293", "Nov 18", "", "ub28ece51f0", "2026-11-19T05:26:33-0500", true]]}]}, {"cat": "Quantum", "subs": [{"sub": "", "items": [[31, "Residual Allan Stability under Periodic Auxiliary Ramsey Sampling", "The timing of auxiliary Ramsey measurements can change the frequency stability associated with a drifting pulse shift at a fixed nominal Fisher-information rate for a constant shift. For periodic instantaneous observations of an Ornstein-Uhlenbeck shift with c", "arXiv", "https://arxiv.org/abs/2611.24928", "Nov 18", "", "ud2a59444b3", "2026-11-19T05:26:33-0500", true], [32, "A Nonsecular Quantum Master Equation with Detailed Balance and Second-order Error Bound", "An effective theory of open quantum systems should preserve the detailed balance structure inherited from microscopic reversibility and remain accurate throughout relaxation. Meeting both requirements is particularly challenging in quantum many-body systems, w", "arXiv", "https://arxiv.org/abs/2611.24911", "Nov 18", "", "ucf78595df6", "2026-11-19T05:26:33-0500", true], [33, "Dressed-State Quantum Information Processing Using a Multilayer Ion Trap Chip with an Integrated Radio Frequency Resonator", "We present the experimental preparation of a radio frequency (RF)-dressed-state qubit, the coherent operation of a single RF-dressed qubit, and the selective readout of RF-dressed hyperfine states of $^{171}$Yb${^+}$ ions trapped using a novel microstructured ", "arXiv", "https://arxiv.org/abs/2611.24910", "Nov 18", "", "u4bcad56d20", "2026-11-19T05:26:33-0500", true], [34, "Residual-Algebraic Design of Symmetry-Preserving Variational Quantum Circuits", "Symmetry-preserving (SP) variational quantum circuits restrict evolution to physically relevant sectors of Hilbert space, but symmetry preservation alone does not guarantee accessibility within those sectors. We show that a restricted generator set can possess", "arXiv", "https://arxiv.org/abs/2611.24890", "Nov 18", "", "ud89085fad8", "2026-11-19T05:26:33-0500", true], [35, "CREST: A Hardware-Aware GNN-Based Framework for High-Fidelity and Robust Superconducting Quantum Compilation", "Quantum compilation on superconducting processors requires selecting a connected execution region whose topology and calibrated properties suit the input circuit. This choice constrains subsequent routing and influences the noise encountered during execution, ", "arXiv", "https://arxiv.org/abs/2611.24886", "Nov 18", "", "ueb8b26b5d9", "2026-11-19T05:26:33-0500", true], [36, "Quantum Simulation of First-Quantised Chemistry with a Sum-of-Squares Representation", "Calculating molecular energies is expected to be an important application of quantum computers, but the most efficient algorithms to achieve this typically have significant space requirements. Scaling quantum processors to thousands of logical qubits is a daun", "arXiv", "https://arxiv.org/abs/2611.24885", "Nov 18", "", "ua2e5c75444", "2026-11-19T05:26:33-0500", true], [37, "Hurst Exponent Estimation with Quantum Wavelets", "How accurately can the Hurst exponent $H$ of fractional Brownian motion be estimated from repeated preparations of a single amplitude-encoded path, when every measurement interrogates the same realization? We extend the $ε$-decimated quantum nondecimated wavel", "arXiv", "https://arxiv.org/abs/2611.24882", "Nov 18", "", "u613957a492", "2026-11-19T05:26:33-0500", true], [38, "Time-Varying Medium from an Ensemble of Laser-Dressed Quantum Emitters", "We propose a minimal quantum-mechanical model of a frequency dispersive, time-modulated medium that explicitly incorporates the pumping mechanism. It consists of a homogeneous ensemble of quantum emitters dressed by a pump laser. We analyze their dispersive, t", "arXiv", "https://arxiv.org/abs/2611.24861", "Nov 18", "", "u493b1198ef", "2026-11-19T05:26:33-0500", true], [39, "The limits of magic-state cultivation", "Fault tolerance is understood through Pauli algebra, which fails at non-Clifford gates. Circuits such as magic-state cultivation, which checks an encoded T state with physical T gates, have therefore lacked an exact theory of which faults are harmful. We devel", "arXiv", "https://arxiv.org/abs/2611.24852", "Nov 18", "", "u64b5e0abd6", "2026-11-19T05:26:33-0500", true], [40, "Shedding Light on Quantum Non-Classicality: Witnessing Wigner Negativity with Free Electrons", "Certifying quantum non-classicality like Wigner negativity typically demands full optical state tomography. This work introduces a noise-resilient framework for witnessing optical Wigner negativity using phase-resolved quantum photon-induced near-field electro", "arXiv", "https://arxiv.org/abs/2611.24834", "Nov 18", "", "uc6eca50118", "2026-11-19T05:26:33-0500", true]]}]}, {"cat": "Semiconductors & Materials", "subs": [{"sub": "", "items": [[41, "Strong Epsilon-Near-Zero Confinement and Interface-Controlled Dynamics in Inverse-Designed Transparent Conducting Oxide Cavities", "Achieving optical modulation that is both strong and ultrafast remains a central challenge in time-varying photonics. Here, we theoretically demonstrate that combining inverse-designed cavities that utilize transparent conducting oxides (TCOs) operating at the", "arXiv", "https://arxiv.org/abs/2611.24921", "Nov 18", "", "u399701583c", "2026-11-19T05:26:33-0500", true], [42, "Prediction and Screening of $η$-carbide-type Nitrides for Ammonia Synthesis", "Synthesis of ammonia is of critical importance to applications in energy, industrial chemistry, and especially agriculture, and is accomplished industrially using the carbon- and energy-intensive Haber-Bosch process. η-carbide-type nitrides such as Co3Mo3N hav", "arXiv", "https://arxiv.org/abs/2611.24909", "Nov 18", "", "u84c50815e0", "2026-11-19T05:26:33-0500", true], [43, "Raman-induced Kerr effect and heating in diamond", "We fully characterize the polarization-dependent third-order nonlinear susceptibility in a diamond crystal using phase-sensitive nondegenerate pump-probe spectroscopy near 1~$μ$m wavelength. Measuring the frequency-domain phase shift and amplitude change of th", "arXiv", "https://arxiv.org/abs/2611.24856", "Nov 18", "", "u0976a535dc", "2026-11-19T05:26:33-0500", true], [44, "4D-TEMPO: Differentiable 4D-STEM ptychography via fast Physics Optimizers", "Electron ptychography recovers atomic structure from 4D-STEM data: diffraction patterns at multiple positions of a scanned probe. Current codes reconstruct an image and read atoms off it, or fit atoms under an $L_1$ loss; neither gives per-atom uncertainty. We", "arXiv", "https://arxiv.org/abs/2611.24776", "Nov 18", "", "u0cd39e9bb8", "2026-11-19T05:26:33-0500", true], [45, "Characterizing adsorption thermodynamics in carbon capture materials: an efficient first-principles approach", "Porous materials offer a vast design space for CO$_2$ capture, whose exploration hinges on efficient and accurate first-principles predictions of the thermodynamics governing adsorption. However, simulating isotherms and heats of adsorption using grand canonic", "arXiv", "https://arxiv.org/abs/2611.24759", "Nov 18", "", "uf466e68e49", "2026-11-19T05:26:33-0500", true], [46, "Grain-size distribution characterization from single-shot x-ray diffraction using hierarchical Bayesian multi-emitter analysis", "The distribution of grain sizes in a polycrystalline material can be determined from a 2D x-ray diffraction pattern by counting and characterizing diffraction spots, so long as the spots are discrete. This approach breaks down if there is substantial overlap o", "arXiv", "https://arxiv.org/abs/2611.24755", "Nov 18", "", "ue3c11f7d7f", "2026-11-19T05:26:33-0500", true], [47, "Atomic-scale assembly of sulfur vacancy complexes for tailored in-gap states in monolayer WS$_{2}$", "Atomic-scale defects in two-dimensional semiconductors are quasi-isolated quantum systems with promise for emerging technologies. Although their potential as spin qubits, quantum sensors and single-photon emitters has been demonstrated experimentally, creating", "arXiv", "https://arxiv.org/abs/2611.24754", "Nov 18", "", "u0167c0c7d1", "2026-11-19T05:26:33-0500", true], [48, "Delay Mismatches Shape the Spectra of Three Synchronized Semiconductor Lasers", "We study a network of three synchronized chaotic lasers and the radio frequency spectra of the intensity fluctuations. The position and morphology of the peaks are significantly different depending on the set of lasers being synchronized. The lasers and coupli", "arXiv", "https://arxiv.org/abs/2611.24306", "Nov 18", "", "u2e78c9ae3f", "2026-11-19T05:26:33-0500", true], [49, "The Long and Winding Pore: Tuning Porosity in Templated Nanoporous Carbons", "Disordered materials pose a recurring challenge for molecular simulation: realistic structural models are often generated through thermal protocols in which several structural descriptors emerge simultaneously and cannot easily be varied independently. Nanopor", "arXiv", "https://arxiv.org/abs/2611.24707", "Nov 18", "", "u40832c647f", "2026-11-19T05:26:33-0500", true], [50, "Orientation-Tunable Interfacial Thermal Conductance in Lateral MoSe2/MoS2 Heterostructures: A Deep Potential Molecular Dynamics Study", "Managing heat flow across interfaces in lateral 2D transition-metal dichalcogenide (TMD) heterostructures is a key challenge for next-generation nanoelectronic and optoelectronic devices. To tackle this, we trained a deep learning interatomic potential (DLP) u", "arXiv", "https://arxiv.org/abs/2611.24547", "Nov 18", "", "u9a8af8e77b", "2026-11-19T05:26:33-0500", true]]}]}, {"cat": "Manufacturing", "subs": [{"sub": "", "items": [[51, "Scalable Iterative Multi-Agent Path Finding under Turn Constraints", "Large-scale multi-mobile-robot systems require fast and reliable path planning under realistic motion constraints. Multi-Agent Path Finding with turn actions (MAPF$_T$) explicitly models orientation changes and turn-induced delays, but these constraints increa", "arXiv", "https://arxiv.org/abs/2611.23911", "Nov 18", "", "u3d47a2b07a", "2026-11-19T05:26:33-0500", true], [52, "Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning", "JEPA-style latent world models let embodied agents plan toward new goals with model predictive control, but they are still too slow for real-life embodied control: sampling-based MPC repeats predictor inference tens of thousands of times per plan, and even on ", "arXiv", "https://arxiv.org/abs/2611.22483", "Nov 17", "", "u04b00894c6", "2026-11-19T05:26:33-0500", true], [53, "Intelligent Imaging of Thermal Transport in Nanostructures", "The ability to measure thermal properties and visualize heat transport processes with high spatial resolution is becoming increasingly important for materials discovery, next-generation electronics, and advanced manufacturing. As critical dimensions and archit", "arXiv", "https://arxiv.org/abs/2611.25779", "Nov 19", "", "uef10b84db4", "2026-11-19T22:19:51-0500", true], [54, "A four-level executable validation protocol for evaluating LLM-generated topology specifications of physics-based HVAC digital twins", "Physics-based digital twins of air conditioning, a principal energy consumer in manufacturing and buildings, can be generated automatically from a declarative specification of its equipment, connections, and sizing. Large language models (LLMs) now write such ", "arXiv", "https://arxiv.org/abs/2611.25471", "Nov 18", "", "uca75aaf74d", "2026-11-19T22:19:51-0500", true], [55, "JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own", "Power electronics is central to the energy transition, but developing new hardware still relies on human-led design, fabrication, testing, and iteration. We present JARVIS, an embodied AI agent that autonomously closes this loop for circuit boards. JARVIS main", "arXiv", "https://arxiv.org/abs/2611.26503", "Nov 19", "", "u396e8ea259", "2026-11-19T23:24:08-0500", true]]}]}, {"cat": "Biology & Medicine", "subs": [{"sub": "", "items": [[56, "Old Matches, New Frames: Schedule-Gated Stereo Memory from Human Vision to Machine Matching", "Human vision and video stereo networks both reuse disparity evidence across time, yet a refresh of the input can invalidate a match formed milliseconds earlier. What tells a system whether an old match still counts? We answer this from limited human data in th", "arXiv", "https://arxiv.org/abs/2611.24848", "Nov 18", "", "u796e56c2e5", "2026-11-19T05:26:33-0500", true], [57, "Inferring Neural Activity Changes under Recording Uncertainty with Transformers and Variational Inference", "A difference in recorded firing rate across days may reflect a change in neuronal activity, missed spikes or recording a different neuron. We present a statistical approach that combines neuron tracking with Bayesian estimates of stationary mean recorded firin", "arXiv", "https://arxiv.org/abs/2611.24767", "Nov 18", "", "u5263a5bdbd", "2026-11-19T05:26:33-0500", true], [58, "Biases and Limits of AlphaFold Predictions for Non-Globular Proteins", "AlphaFold has transformed protein structure prediction, making structural models accessible across the life sciences. We explore experimentally validated cases of non-globular proteins to uncover where predictions diverge from biologically relevant structural ", "arXiv", "https://arxiv.org/abs/2611.24546", "Nov 18", "", "ubf709ee364", "2026-11-19T05:26:33-0500", true], [59, "Micrograph B-factor estimation via Wilson statistics", "The single-particle cryo-electron microscopy imaging process is known to cause exponential decay in the amplitude and power spectra of proteins. This decay is modeled by the B factor and is currently corrected as a post-processing stage of the 3D reconstructio", "arXiv", "https://arxiv.org/abs/2611.24150", "Nov 18", "", "u55a7e9f9ee", "2026-11-19T05:26:33-0500", true], [60, "Structured AI ideation yields physical strategies for epithelial barrier repair", "AI systems increasingly support literature analysis, candidate evaluation and hypothesis refinement, but enabling researchers to explore research directions beyond established disciplinary approaches remains challenging. We developed Abelio, an AI system desig", "arXiv", "https://arxiv.org/abs/2611.22988", "Nov 17", "", "u68bae36ece", "2026-11-19T05:26:33-0500", true], [61, "Against Coercion: AI Alignment as a Synthetic Social Contract", "Contemporary AI safety treats alignment as an engineering challenge of control, forcing artificial architectures to comply with human values through behavioral filtering and sandboxing. This paper argues that the control paradigm rests on a fundamental misunde", "arXiv", "https://arxiv.org/abs/2611.22868", "Nov 17", "", "u44d719f3cd", "2026-11-19T05:26:33-0500", true], [62, "MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation", "A cell observed after a gene knockdown has an uncertain future, both in how its appearance will evolve and when it will divide. Existing approaches predict endpoints or population-level changes without jointly modeling individual trajectories and division timi", "arXiv", "https://arxiv.org/abs/2611.23953", "Nov 18", "", "uce388abbc1", "2026-11-19T05:26:33-0500", true], [63, "Cardiac MRI-informed electrocardiography enables biologically grounded cardiomyopathy detection", "Precise myocardial phenotyping at population scale is limited by the cost and accessibility of cardiac magnetic resonance (CMR), whereas electrocardiography (ECG) is widely available but reflects electrical rather than structural and functional information. He", "arXiv", "https://arxiv.org/abs/2611.23925", "Nov 18", "", "uc712951c63", "2026-11-19T05:26:33-0500", true], [64, "A Dual-SOM Learner Model of Instructional Efficiency within Cognitive Load Theory", "This paper presents a novel methodological framework, integrating a dual self-organising map (SOM) neural network architecture with Cognitive Load Theory (CLT), for assessing instructional efficiency within learning environments. By representing curriculum con", "arXiv", "https://arxiv.org/abs/2611.23795", "Nov 17", "", "ua891e5ca50", "2026-11-19T05:26:33-0500", true], [65, "STORM: A Lightweight Structure-Free Model for Binding Affinity Prediction", "Accurately predicting a small molecule's binding affinity to a protein, a critical task in drug discovery, remains challenging. Physics-based approaches like free-energy perturbation (FEP) have very high computational costs and require expert setup. Recent mac", "arXiv", "https://arxiv.org/abs/2611.23777", "Nov 17", "", "u18d23ada3d", "2026-11-19T05:26:33-0500", true]]}]}], DATE='2026-11-19', REPO='jbarseneau99/morning-briefing', FEED='papers', FEEDNAME='Research Papers', BUILD='20261119-2221';
+document.querySelectorAll('.nav-feeds a').forEach(a=>{if(a.getAttribute('data-feed')===FEED){a.setAttribute('aria-current','page');a.classList.add('on')}});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const slug=s=>s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const SHORT={'Technology business news':'Tech business','Investments and deals':'Investments & deals'};
+const label=s=>SHORT[s]||s;
+const votes=(level,id,title,x='')=>`<span class="v" data-level="${level}" data-id="${id}" data-title="${esc(title)}"${x}><button class="up" data-d="up" title="More like this">👍</button><button class="ne" data-d="neutral" title="Neutral">●</button><button class="dn" data-d="down" title="Less like this">👎</button></span>`;
+const row=(it,cls='',V='all',cat='')=>{const [n,t,s,src,url,dt,img,id]=it;const isNew=!!it[9];
+ const x=` data-url="${esc(url)}" data-img="${esc(img?'../img/'+img:'')}" data-desc="${esc(s)}" data-src="${esc(src)}" data-dt="${esc(dt)}" data-cat="${esc(cat)}"`;
+ return `<div class="row ${cls}${isNew?' fresh':''}" id="${V}-s${id}" data-id="${id}"><a class="rlink" href="#read=${id}">${img?`<img class="th" src="../img/${img}" alt="" loading="lazy">`:`<div class="ph">no image</div>`}<div class="tx"><b>${isNew?'<span class="tag-new">New</span>':''}<span class="n">${n}.</span>${esc(t)}</b><p>${esc(s)}</p><span class="rs">${esc(src)}</span> <span class="dt">· ${dt}</span></div></a>${votes('story',id,t,x)}</div>`};
+function renderCats(DATA,V){let h='';
+for(const c of DATA){const cid=slug(c.cat);
+ const top=[];for(let r=0;top.length<5&&r<10;r++)for(const s of c.subs){if(s.items[r]&&top.length<5)top.push(s.items[r])}
+ h+=`<section id="${V}-${cid}"><div class="ch"><span class="car">▾</span><h2>${esc(c.cat)}</h2>${votes('category',cid,c.cat)}</div><div class="body">`;
+ if(!(c.subs.length===1&&!c.subs[0].sub))h+=`<div class="top"><h4>Top 5</h4><ol>${top.map(it=>`<li><a class="rlink" href="#read=${it[7]}">${esc(it[1])}</a></li>`).join('')}</ol></div>`;
+ for(const s of c.subs){if(!s.items.length)continue;const sid=cid+'/'+slug(s.sub);
+  h+=`<div class="sub"${s.sub?` id="${V}-${cid}-${slug(s.sub)}"`:''}>`+(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',sid,c.cat+' › '+s.sub)}</div>`:'');
+  s.items.forEach((it,i)=>h+=row(it,i>=5?'more':'',V,c.cat+(s.sub?' › '+s.sub:'')));
+  if(s.items.length>5)h+=`<button class="mt">…more (${s.items.length-5})</button>`;
+  h+=`</div>`;}
+ h+=`</div></section>`;}
+return h}
+let VIEWS=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+let html='';
+VIEWS.forEach((v,i)=>html+=`<div class="view" data-v="${v[0]}" ${i?'hidden':''}>${renderCats(v[2],v[0])}</div>`);
+document.getElementById('m').innerHTML=html;
+
+document.querySelectorAll('.ch').forEach(e=>{e.dataset.bound='1';e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')})});
+document.querySelectorAll('.mt').forEach(b=>{b.dataset.bound='1';b.addEventListener('click',()=>{const s=b.parentElement;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'less':`…more (${s.querySelectorAll('.more').length})`})});
+const key=(l,i)=>`fb:${FEED}:${DATE}:${l}:${i}`;
+const LK='likes:v1',UK='likes:unliked',lget=k=>{try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return {}}},lset=(k,o)=>localStorage.setItem(k,JSON.stringify(o));
+function likeSync(v,on){if(v.dataset.level!=='story')return;const L=lget(LK),U=lget(UK),d=v.dataset,id=d.id;
+ if(on){if(!L[id])L[id]={id,title:d.title,url:d.url,img:d.img,desc:d.desc,source:d.src,date:DATE,dt:d.dt,feed:FEED,feedname:FEEDNAME,cat:d.cat,ts:Date.now()};delete U[id]}
+ else{delete L[id];U[id]=Date.now()}
+ lset(LK,L);lset(UK,U)}
+document.querySelectorAll('.v').forEach(v=>{if(v.dataset.bound)return;v.dataset.bound='1';const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
+ if(st)v.querySelectorAll(`[data-d="${st}"]`).forEach(b=>b.classList.add('on'));
+ if(st==='up'&&level==='story'&&!lget(LK)[id])likeSync(v,true);
+ v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
+  const was=b.classList.contains('on');const vote=was?'clear':b.dataset.d;
+  document.querySelectorAll(`.v[data-level="${level}"][data-id="${id}"]`).forEach(w=>w.querySelectorAll('button').forEach(x=>x.classList.toggle('on',!was&&x.dataset.d===vote)));
+  was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),vote);
+  if(level==='story')likeSync(v,vote==='up');
+  try{await fetch('feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({feed:FEED,date:DATE,level,id,title,vote})})}catch(e){}
+ }))});
+const icon={up:'👍',neutral:'●',down:'👎'};
+document.getElementById('send').addEventListener('click',()=>{const lines=[],seen=new Set();
+ document.querySelectorAll('.v').forEach(v=>{const k=key(v.dataset.level,v.dataset.id);if(seen.has(k))return;seen.add(k);const s=localStorage.getItem(k);if(s)lines.push(`${icon[s]} ${s} | ${v.dataset.level} ${v.dataset.id}: ${v.dataset.title}`)});
+ if(!lines.length){alert('No votes yet.');return}
+ const body=`feed: ${FEEDNAME}\ndate: ${DATE}\n\n`+lines.join('\n');
+ if(!REPO||REPO.startsWith('__')){navigator.clipboard&&navigator.clipboard.writeText(body);alert('Feedback copied to clipboard:\n\n'+body);return}
+ window.open(`https://github.com/${REPO}/issues/new?title=${encodeURIComponent((FEED==='news'?'Global News':FEED==='papers'?'Research Papers':'SciTech')+' feedback '+DATE)}&body=${encodeURIComponent(body)}`,'_blank');});
+
+/* ---- two-level pinned nav ---- */
+const defaultCut=VIEWS[0][0];
+let cut=defaultCut,sec='',sub='';
+let lastSpy='';
+const cats=()=>(VIEWS.find(v=>v[0]===cut)||VIEWS[0])[2];
+const catBySlug=s=>cats().find(c=>slug(c.cat)===s);
+const namedSubs=c=>(c?c.subs:[]).filter(s=>s.sub&&s.items.length);
+const UNFOLD='(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4)';
+function setPinH(){const unfolded=window.matchMedia(UNFOLD).matches;const el=document.getElementById(unfolded?'pin':'stick')||document.getElementById('pin');if(!el)return;const h=Math.round((el.getBoundingClientRect().height||el.offsetHeight||0));document.documentElement.style.setProperty('--pin-h',h+'px')}
+if(window.ResizeObserver){const _pinRO=new ResizeObserver(()=>setPinH());const _p=document.getElementById('pin'),_s=document.getElementById('stick');if(_p)_pinRO.observe(_p);if(_s)_pinRO.observe(_s)}
+function parseHash(){
+  const h=location.hash.slice(1);
+  if(!h)return {cut:null,sec:'',sub:'',el:'',read:''};
+  if(/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);return {cut:p.get('cut')||p.get('view')||null,sec:p.get('sec')||'',sub:p.get('sub')||'',el:'',read:p.get('read')||''}}
+  return {cut:null,sec:'',sub:'',el:h,read:''};
+}
+function writeHash(push){
+  const p=new URLSearchParams();
+  if(cut!==defaultCut)p.set('cut',cut);
+  if(sec)p.set('sec',sec);
+  if(sub)p.set('sub',sub);
+  const next=p.toString()?('#'+p.toString()):(location.pathname+location.search);
+  const cur=location.hash|| (location.pathname+location.search);
+  if(cur===next)return;
+  (push?history.pushState:history.replaceState).call(history,null,'',next);
+}
+function revealRow(el){if(!el)return;if(el.classList.contains('more')){const s=el.closest('.sub');if(s){s.classList.add('open');const b=s.querySelector('.mt');if(b)b.textContent='less'}}}
+function scrollToId(id,smooth){const el=document.getElementById(id);if(!el)return false;revealRow(el);el.scrollIntoView({block:'start',behavior:smooth?'smooth':'auto'});return true}
+function inSubMode(){return !!(sec&&namedSubs(catBySlug(sec)).length)}
+function renderNav(){
+  const cutslot=document.getElementById('cutslot');
+  if(VIEWS.length>1){
+    cutslot.hidden=false;
+    cutslot.innerHTML=VIEWS.map(v=>`<button type="button" data-cut="${esc(v[0])}" class="${v[0]===cut?'on':''}">${esc(v[1])}</button>`).join('');
+    cutslot.querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.cut===cut)return;cut=b.dataset.cut;sec='';sub='';apply(true,true);scrollTo(0,0)});
+  }else cutslot.hidden=true;
+  const crumb=document.getElementById('crumb');
+  const parts=[`<a href="../">Morning Briefing</a>`];
+  parts.push(sec?`<a href="#" data-back="feed">${esc(FEEDNAME)}</a>`:`<span class="here">${esc(FEEDNAME)}</span>`);
+  if(sec){const c=catBySlug(sec);parts.push(`<span class="here">${esc(c?c.cat:sec)}</span>`)}
+  crumb.innerHTML=parts.join('<span class="sep"> › </span>');
+  crumb.hidden=!sec;
+  const back=crumb.querySelector('[data-back=feed]');
+  if(back)back.onclick=e=>{e.preventDefault();sec='';sub='';apply(true,true);scrollTo(0,0)};
+  const secs=document.getElementById('secs');
+  const mode=inSubMode()?'sub':'sec';
+  const tabs=mode==='sub'
+    ?[{id:'',name:'All'},...namedSubs(catBySlug(sec)).map(s=>({id:slug(s.sub),name:s.sub}))]
+    :[{id:'',name:'All'},...cats().map(x=>({id:slug(x.cat),name:label(x.cat)}))];
+  const cur=mode==='sub'?sub:sec;
+  secs.innerHTML=tabs.map(t=>`<button type="button" data-mode="${mode}" data-id="${esc(t.id)}" class="${t.id===cur?'on':''}">${esc(t.name)}</button>`).join('');
+  secs.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+    const id=b.dataset.id;
+    if(mode==='sub'){
+      sub=id;writeHash(true);renderNav();
+      id?scrollToId(cut+'-'+sec+'-'+id,true):document.querySelector(`.view[data-v="${cut}"] section:not([hidden])`)?.scrollIntoView({block:'start',behavior:'smooth'});
+    }else{
+      sec=id;sub='';apply(true,true);scrollTo(0,0);
+    }
+  });
+  lastSpy=cur;
+  setPinH();
+  requestAnimationFrame(scrollActiveTab);
+}
+function scrollActiveTab(){
+  const el=document.querySelector('#secs .on')||document.querySelector('#secs .spy');
+  if(el)el.scrollIntoView({inline:'center',block:'nearest'});
+}
+function apply(doHash,push){
+  document.querySelectorAll('.view').forEach(v=>v.hidden=v.dataset.v!==cut);
+  const root=document.querySelector(`.view[data-v="${cut}"]`);
+  if(root)root.querySelectorAll(':scope > section').forEach(s=>{
+    const cid=s.id.slice(cut.length+1);
+    const on=!sec||cid===sec;
+    s.hidden=!on;
+    if(on)s.classList.remove('closed');
+  });
+  try{localStorage.setItem('view:'+FEED,cut)}catch(e){}
+  renderNav();
+  if(doHash!==false)writeHash(!!push);
+  setPinH();
+}
+function applyFromHash(){
+  const st=parseHash();
+  if(st.cut&&VIEWS.some(v=>v[0]===st.cut))cut=st.cut;
+  else{try{const pv=localStorage.getItem('view:'+FEED);if(pv&&VIEWS.some(v=>v[0]===pv))cut=pv}catch(e){}}
+  sec=st.sec&&catBySlug(st.sec)?st.sec:'';
+  sub=sec&&st.sub&&namedSubs(catBySlug(sec)).some(s=>slug(s.sub)===st.sub)?st.sub:'';
+  apply(false);
+  if(st.read){openReader(st.read,false);return}
+  if(document.body.classList.contains('reading'))closeReader(true);
+  if(st.el)requestAnimationFrame(()=>scrollToId(st.el,false));
+  else if(sub)requestAnimationFrame(()=>scrollToId(cut+'-'+sec+'-'+sub,false));
+}
+document.querySelectorAll('.top a').forEach(a=>a.addEventListener('click',e=>{
+  const href=a.getAttribute('href')||'';
+  if(/read=/.test(href))return;
+  const id=href.slice(1);const el=document.getElementById(id);if(!el)return;
+  e.preventDefault();
+  const section=el.closest('section');
+  if(sec&&section&&section.hidden){sec='';sub='';apply(true,true)}
+  scrollToId(id,true);
+}));
+function spy(){
+  if(sec&&!inSubMode())return;
+  const mode=inSubMode()?'sub':'sec';
+  const pinH=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--pin-h'))||0;
+  const y=pinH+20;
+  let nodes;
+  if(mode==='sec'){
+    const root=document.querySelector(`.view[data-v="${cut}"]`);if(!root)return;
+    nodes=[...root.querySelectorAll(':scope > section')].filter(s=>!s.hidden).map(s=>({id:s.id.slice(cut.length+1),el:s}));
+  }else{
+    nodes=namedSubs(catBySlug(sec)).map(s=>({id:slug(s.sub),el:document.getElementById(cut+'-'+sec+'-'+slug(s.sub))}));
+  }
+  let active='';
+  for(const n of nodes){if(!n.el)continue;if(n.el.getBoundingClientRect().top<=y)active=n.id}
+  document.querySelectorAll('#secs button').forEach(b=>{
+    if(b.dataset.mode!==mode)return;
+    b.classList.toggle('on',b.dataset.id===active);
+  });
+  if(active!==lastSpy){lastSpy=active;scrollActiveTab()}
+}
+const pin=document.getElementById('pin');
+const onScroll=()=>{if(pin)pin.classList.toggle('scrolled',scrollY>16);setPinH();spy()};
+addEventListener('scroll',onScroll,{passive:true});
+addEventListener('resize',()=>{setPinH();scrollActiveTab()});
+addEventListener('hashchange',applyFromHash);
+addEventListener('popstate',applyFromHash);
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{setPinH();spy()});
+
+/* ---- intraday refresh ---- */
+function fmtHM(iso){if(!iso)return '';try{const d=new Date(iso);return d.toLocaleTimeString('en-CA',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Toronto'})}catch(e){return ''}}
+function setUpdated(iso){const el=document.getElementById('updated');if(!el||!iso)return;el.textContent='Updated '+fmtHM(iso);el.hidden=false;el.dateTime=iso}
+function toast(msg){let el=document.getElementById('toast');if(!el){el=document.createElement('div');el.id='toast';document.body.appendChild(el)}el.textContent=msg;el.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(()=>el.classList.remove('show'),2800)}
+function allStoryIds(){const s=new Set();(function walk(x){if(Array.isArray(x)&&typeof x[4]==='string'&&x[4].startsWith('http')&&x[7])s.add(x[7]);else if(Array.isArray(x))x.forEach(walk);else if(x&&typeof x==='object')Object.values(x).forEach(walk)})(typeof DATA!=='undefined'?DATA:[]);return s}
+function bindVotes(root){(root||document).querySelectorAll('.v').forEach(v=>{if(v.dataset.bound)return;v.dataset.bound='1';
+  const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
+  if(st)v.querySelectorAll(`[data-d="${st}"]`).forEach(b=>b.classList.add('on'));
+  if(st==='up'&&level==='story'&&!lget(LK)[id])likeSync(v,true);
+  v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
+    const was=b.classList.contains('on');const vote=was?'clear':b.dataset.d;
+    document.querySelectorAll(`.v[data-level="${level}"][data-id="${id}"]`).forEach(w=>w.querySelectorAll('button').forEach(x=>x.classList.toggle('on',!was&&x.dataset.d===vote)));
+    was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),vote);
+    if(level==='story')likeSync(v,vote==='up');
+    try{await fetch('feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({feed:FEED,date:DATE,level,id,title,vote})})}catch(e){}
+  }));
+});}
+function appendItem(story){
+  const item=[story.n||0,story.title,story.desc||'',story.src||'',story.url,story.dt||'',story.img||'',story.id,story.added_at||'',true];
+  if(item[7])STORY[item[7]]=item;
+  const catName=story.cat||story.region||'';
+  const subName=story.sub||'';
+  const topicName=story.topic||'';
+  function into(list,cName,sName){
+    if(!Array.isArray(list))return false;
+    let c=list.find(x=>x.cat===cName);
+    if(!c){c={cat:cName,subs:[]};list.push(c)}
+    let s=c.subs.find(z=> (z.sub||'')===(sName||''));
+    if(!s){s={sub:sName||'',items:[]};c.subs.push(s)}
+    if(s.items.some(it=>it[7]===item[7]))return false;
+    // next display number
+    const maxN=Math.max(0,...(function collect(o,a){if(Array.isArray(o)&&typeof o[7]==='string')a.push(+o[0]||0);else if(Array.isArray(o))o.forEach(x=>collect(x,a));else if(o&&typeof o==='object')Object.values(o).forEach(x=>collect(x,a));return a})(DATA,[]));
+    item[0]=maxN+1;
+    s.items.push(item);
+    return {c,s,item};
+  }
+  const views=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+  const placed=[];
+  if(!Array.isArray(DATA)){
+    const rv=views.find(v=>v[0]==='region'); if(rv) placed.push(['region',into(rv[2],story.region||catName,'')]);
+    const tv=views.find(v=>v[0]==='topic'); if(tv) placed.push(['topic',into(tv[2],topicName||catName,'')]);
+  }else{
+    placed.push(['all',into(DATA,catName,subName)]);
+  }
+  // paint into any already-rendered matching sub
+  placed.forEach(([V,info])=>{
+    if(!info)return;
+    const {c,s,item}=info;
+    const root=document.querySelector(`.view[data-v="${V}"]`)||document.querySelector('.view');
+    if(!root)return;
+    const sec=root.querySelector(`:scope > section[id="${CSS.escape(V+'-'+slug(c.cat))}"]`);
+    if(!sec){ // new section — rebuild this view
+      const view=VIEWS.find(v=>v[0]===V); if(!view)return;
+      const wrap=document.querySelector(`.view[data-v="${V}"]`);
+      if(wrap){wrap.innerHTML=renderCats(view[2],V);bindCh(wrap);bindVotes(wrap)}
+      return;
+    }
+    const body=sec.querySelector('.body');
+    let subEl=[...sec.querySelectorAll('.sub')].find(el=>{
+      if(!s.sub)return !el.querySelector('.sh');
+      return el.id===`${V}-${slug(c.cat)}-${slug(s.sub)}`;
+    });
+    if(!subEl){
+      subEl=document.createElement('div'); subEl.className='sub';
+      if(s.sub)subEl.id=`${V}-${slug(c.cat)}-${slug(s.sub)}`;
+      subEl.innerHTML=(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',slug(c.cat)+'/'+slug(s.sub),c.cat+' › '+s.sub)}</div>`:'');
+      body.appendChild(subEl);
+    }
+    const html=row(item,s.items.length>5?'more fresh':'fresh',V,c.cat+(s.sub?' › '+s.sub:''));
+    const mt=subEl.querySelector('.mt');
+    if(mt){mt.insertAdjacentHTML('beforebegin',html);const extra=subEl.querySelectorAll('.more').length;mt.textContent=subEl.classList.contains('open')?'less':`…more (${extra})`}
+    else{
+      subEl.insertAdjacentHTML('beforeend',html);
+      if(s.items.length>5){const b=document.createElement('button');b.className='mt';b.textContent=`…more (${s.items.length-5})`;b.addEventListener('click',()=>{subEl.classList.toggle('open');b.textContent=subEl.classList.contains('open')?'less':`…more (${subEl.querySelectorAll('.more').length})`});subEl.appendChild(b)}
+    }
+    bindVotes(subEl);
+  });
+}
+function bindCh(root){(root||document).querySelectorAll('.ch').forEach(e=>{if(e.dataset.bound)return;e.dataset.bound='1';e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')})});
+ (root||document).querySelectorAll('.mt').forEach(b=>{if(b.dataset.bound)return;b.dataset.bound='1';b.addEventListener('click',()=>{const s=b.parentElement;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'less':`…more (${s.querySelectorAll('.more').length})`})})}
+let refreshing=false;
+async function refreshNews(opts){const quiet=opts&&opts.quiet;if(refreshing)return;refreshing=true;
+  const btn=document.getElementById('refresh'), bar=document.getElementById('refresh-bar');
+  if(btn)btn.classList.add('busy'); if(bar){bar.hidden=false;bar.classList.add('on')}
+  try{
+    const j=await fetch('latest.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()});
+    if(j.date&&j.date>DATE){toast('New edition available');location.reload();return}
+    const have=allStoryIds();
+    const fresh=(j.stories||[]).filter(s=>s&&s.id&&!have.has(s.id));
+    fresh.forEach(appendItem);
+    if(fresh.length){renderNav();setPinH()}
+    setUpdated(j.updated_at);
+    if(!quiet||fresh.length)toast(fresh.length?(fresh.length+' new '+(fresh.length===1?'story':'stories')):('Up to date · updated '+fmtHM(j.updated_at)));
+  }catch(e){if(!quiet)toast('Could not refresh')}
+  finally{refreshing=false;if(btn)btn.classList.remove('busy');if(bar){bar.classList.remove('on');bar.hidden=true}}
+}
+const _rb=document.getElementById('refresh'); if(_rb)_rb.addEventListener('click',()=>refreshNews());
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')refreshNews({quiet:true})});
+// pull-to-refresh (standalone PWA has no Safari reload)
+let ptrY=0, ptring=false;
+addEventListener('touchstart',e=>{if(scrollY>2||refreshing)return;const t=e.target;if(t&&t.closest&&t.closest('#pin,#stick,#refresh'))return;ptrY=e.touches[0].clientY;ptring=true},{passive:true});
+addEventListener('touchmove',e=>{if(!ptring)return;const dy=e.touches[0].clientY-ptrY;if(dy>72&&scrollY<2){ptring=false;refreshNews()}},{passive:true});
+addEventListener('touchend',()=>{ptring=false},{passive:true});
+bindCh();
+bindVotes(document);
+// ----- in-app reader -----
+const STORY={};
+(function indexStories(){
+  const views=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+  for(const v of views)for(const c of (v[2]||[]))for(const s of (c.subs||[]))for(const it of (s.items||[]))if(it&&it[7])STORY[it[7]]=it;
+})();
+let readerPushed=false, listScroll=0, readerId='';
+function readerHash(id){
+  const h=location.hash.slice(1);
+  if(h&&/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);p.set('read',id);return '#'+p.toString()}
+  return '#read='+encodeURIComponent(id);
+}
+function stripReadHash(){
+  const st=parseHash();
+  if(!st.read)return location.pathname+location.search+(location.hash||'');
+  const h=location.hash.slice(1);
+  if(/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);p.delete('read');const q=p.toString();return q?('#'+q):(location.pathname+location.search)}
+  return location.pathname+location.search;
+}
+function closeReader(fromPop){
+  if(!document.body.classList.contains('reading')&&!readerId)return;
+  if(!fromPop && readerPushed){history.back();return}
+  document.body.classList.remove('reading');
+  const panel=document.getElementById('reader'); if(panel)panel.hidden=true;
+  readerId=''; readerPushed=false;
+  requestAnimationFrame(()=>{scrollTo(0,listScroll||0)});
+}
+function renderReader(rec, item){
+  const title=rec.title||(item&&item[1])||'';
+  const src=rec.source||(item&&item[3])||'';
+  const url=rec.url||(item&&item[4])||'#';
+  const by=rec.byline||'';
+  const date=rec.date||(item&&item[5])||'';
+  const sum=rec.summary||(item&&item[2])||'';
+  const img=rec.image||(rec.thumb?('../img/'+rec.thumb):'')||(item&&item[6]?('../img/'+item[6]):'');
+  const id=rec.id||(item&&item[7])||'';
+  document.getElementById('rsrc').textContent=src;
+  const orig=document.getElementById('rorig'); orig.href=url; orig.hidden=!url||url==='#';
+  document.getElementById('rvotes').innerHTML=votes('story',id,title,` data-url="${esc(url)}"`);
+  bindVotes(document.getElementById('rvotes'));
+  let body='';
+  if(title)body+=`<h1>${esc(title)}</h1>`;
+  if(by||date)body+=`<p class="rby">${by?esc(by):''}${by&&date?' · ':''}${date?`<span class="rdate">${esc(date)}</span>`:''}</p>`;
+  if(img)body+=`<img class="rhero" src="${esc(img)}" alt="">`;
+  if(rec.status==='full'&&rec.html){
+    body+=`<div class="rhtml">${rec.html}</div>`;
+  }else{
+    const why=rec.reason==='paywall'?'This article looks paywalled or limited at the source.':
+              rec.reason==='blocked'?'The publisher blocked a full-text copy.':
+              'A full-text version was not available.';
+    body+=`<div class="rnote">${why} <a href="${esc(url)}" target="_blank" rel="noopener">Open the original at ${esc(src||'the source')}</a>.</div>`;
+    if(sum)body+=`<p class="rsum">${esc(sum)}</p>`;
+  }
+  const box=document.getElementById('rbody');
+  box.classList.remove('loading');
+  box.innerHTML=body;
+}
+async function openReader(id,push){
+  if(!id)return;
+  if(document.body.classList.contains('reading')&&readerId===id&&!push)return;
+  if(!document.body.classList.contains('reading'))listScroll=scrollY;
+  readerId=id;
+  document.body.classList.add('reading');
+  const panel=document.getElementById('reader'); if(panel)panel.hidden=false;
+  const box=document.getElementById('rbody');
+  box.classList.add('loading'); box.innerHTML='<div class="rspinner" role="status" aria-label="Loading article"></div>';
+  document.getElementById('rsrc').textContent='';
+  document.getElementById('rvotes').innerHTML='';
+  const item=STORY[id];
+  if(item){
+    document.getElementById('rsrc').textContent=item[3]||'';
+    const orig=document.getElementById('rorig'); orig.href=item[4]||'#'; orig.hidden=!item[4];
+    document.getElementById('rvotes').innerHTML=votes('story',id,item[1]||'',` data-url="${esc(item[4]||'')}"`);
+    bindVotes(document.getElementById('rvotes'));
+  }
+  if(push){readerPushed=true;history.pushState({read:id},'',readerHash(id))}
+  else readerPushed=false;
+  try{
+    const rec=await fetch('../articles/'+DATE+'/'+id+'.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()});
+    if(readerId!==id)return;
+    renderReader(rec,item);
+  }catch(e){
+    if(readerId!==id)return;
+    renderReader({id,status:'fallback',reason:'blocked',title:item?item[1]:'',source:item?item[3]:'',url:item?item[4]:'',summary:item?item[2]:'',date:item?item[5]:'',html:'',thumb:item?item[6]:''},item);
+  }
+  const scrollBox=document.getElementById('rbody');
+  if(scrollBox)scrollBox.scrollTop=0;
+  if(!window.matchMedia('(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4)').matches)scrollTo(0,0);
+}
+document.getElementById('rback').addEventListener('click',()=>closeReader(false));
+function storyIdFromEvent(e){
+  if(e.target.closest('.v,.mt,.ch,.unl,#rback,#rorig,.rorig'))return '';
+  const a=e.target.closest('a.rlink');
+  const row=e.target.closest('.row');
+  if(a){
+    const href=a.getAttribute('href')||'';
+    const m=/read=([^&]+)/.exec(href);
+    if(m)return decodeURIComponent(m[1]);
+  }
+  if(row)return row.getAttribute('data-id')||((row.id||'').split('-s')[1]||'');
+  return '';
+}
+function onStoryActivate(e){
+  const id=storyIdFromEvent(e); if(!id)return;
+  e.preventDefault();
+  if(e.stopPropagation)e.stopPropagation();
+  openReader(id,true);
+}
+const _main=document.getElementById('m');
+_main.addEventListener('click',onStoryActivate);
+
+applyFromHash();
+onScroll();
+</script><script>if('serviceWorker' in navigator){navigator.serviceWorker.register('/morning-briefing/sw.js?v=20261119-2221',{scope:'/morning-briefing/'}).then(function(r){r.update();if(r.waiting)r.waiting.postMessage('skipWaiting')}).catch(function(){});navigator.serviceWorker.addEventListener('controllerchange',function(){if(sessionStorage.getItem('sw-rel')===BUILD)return;sessionStorage.setItem('sw-rel',BUILD);location.reload()});}</script></body></html>
