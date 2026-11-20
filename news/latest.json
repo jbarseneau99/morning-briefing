@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "updated_at": "2026-11-20T15:21:43-0500",
+ "updated_at": "2026-11-20T16:26:41-0500",
  "built_at": "2026-11-20T05:45:00-0500",
  "stories": [
   {
@@ -1021,6 +1021,22 @@
    "img": "85960515be.jpg",
    "id": "u85960515be",
    "added_at": "2026-11-20T14:19:42-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Society & justice",
+   "cat": "Africa",
+   "sub": ""
+  },
+  {
+   "n": 65,
+   "title": "Javits Frimpong Ghanaian boy killed in US remembered at funeral",
+   "desc": "At the funeral for the 15-year-old who was fatally shot last month, Mamdani spoke alongside the boy's father and civil rights leaders.",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cv8e07825l90o?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 20",
+   "img": "e627d923d7.jpg",
+   "id": "ue627d923d7",
+   "added_at": "2026-11-20T16:26:41-0500",
    "new": true,
    "region": "Africa",
    "topic": "Society & justice",
