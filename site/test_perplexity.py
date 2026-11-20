@@ -12,6 +12,8 @@ B = 'https://www.bbc.com/news/example-story-b'
 C = 'http://www.nytimes.com/2026/11/20/world/example-story-c.html?utm_source=rss'
 # Same story as A after canon (www/scheme/trailing slash).
 A_DUP = 'http://reuters.com/world/example-story-a'
+BLOG = 'https://www.example.com/blog/example-story-d'
+D = 'https://apnews.com/article/example-story-e'
 
 
 class PublisherLinksShapesTest(unittest.TestCase):
@@ -67,16 +69,55 @@ class PublisherLinksShapesTest(unittest.TestCase):
         self.assertEqual(edition.publisher_links([]), [])
 
 
+class PickPublisherUrlTest(unittest.TestCase):
+    def test_best_ranked_source_wins(self):
+        # example.com is unweighted (5); Reuters and BBC are 10; NYT is 9.
+        self.assertEqual(edition.pick_publisher_url([BLOG, A, B, C]), A)
+
+    def test_tied_top_weight_keeps_first_seen(self):
+        # Reuters and BBC both 10; first-seen Reuters wins, not later BBC.
+        self.assertEqual(edition.pick_publisher_url([A, B, C]), A)
+        self.assertEqual(edition.pick_publisher_url([B, A, C]), B)
+
+    def test_first_verified_preferred_over_higher_weight(self):
+        # Verified blog URL is kept even though Reuters ranks higher.
+        self.assertEqual(
+            edition.pick_publisher_url([BLOG, A, B], verified_urls=[BLOG]),
+            BLOG,
+        )
+
+    def test_best_ranked_among_verified(self):
+        # NYT (9) and Reuters (10) are both verified; Reuters wins.
+        self.assertEqual(
+            edition.pick_publisher_url([BLOG, C, A], verified_urls=[C, A]),
+            A,
+        )
+
+    def test_empty(self):
+        self.assertIsNone(edition.pick_publisher_url([]))
+
+
 class PerplexityCandidatesTest(unittest.TestCase):
-    def test_each_list_url_is_a_candidate(self):
-        rows = [{'headline': 'Senate bill', 'summary': 'Passed.', 'publisher_urls': [A, B, C]}]
+    def test_one_candidate_per_row_picks_best_ranked(self):
+        rows = [{'headline': 'Senate bill', 'summary': 'Passed.',
+                 'publisher_urls': [BLOG, A, B, C]}]
         pplx_urls, cands = edition.perplexity_candidates(rows)
-        self.assertEqual([c['url'] for c in cands], [A, B, C])
-        self.assertEqual(len(cands), 3)
-        self.assertTrue(all(c['from_perplexity'] and c['feed'] == 'perplexity' for c in cands))
+        self.assertEqual([c['url'] for c in cands], [A])
+        self.assertEqual(len(cands), 1)
+        self.assertTrue(cands[0]['from_perplexity'] and cands[0]['feed'] == 'perplexity')
         self.assertEqual(cands[0]['title'], 'Senate bill')
         self.assertEqual(cands[0]['desc'], 'Passed.')
-        self.assertEqual(pplx_urls, {edition.canon(A), edition.canon(B), edition.canon(C)})
+        self.assertEqual(cands[0]['pplx_urls'], [BLOG, A, B, C])
+        self.assertEqual(
+            pplx_urls,
+            {edition.canon(BLOG), edition.canon(A), edition.canon(B), edition.canon(C)},
+        )
+
+    def test_first_verified_url_is_emitted(self):
+        rows = [{'headline': 'Verified first', 'publisher_urls': [BLOG, A, B],
+                 'verified_urls': [BLOG]}]
+        _, cands = edition.perplexity_candidates(rows)
+        self.assertEqual([c['url'] for c in cands], [BLOG])
 
     def test_publisher_url_string_is_one_candidate(self):
         rows = [{'headline': 'One', 'publisher_url': A}]
@@ -111,6 +152,44 @@ class PerplexityCandidatesTest(unittest.TestCase):
         pplx_urls, cands = edition.perplexity_candidates(rows)
         self.assertEqual(cands, [])
         self.assertEqual(pplx_urls, set())
+
+    def test_row_already_in_edition_drops_all_siblings(self):
+        rows = [
+            {'headline': 'Already in', 'summary': 'One story.',
+             'publisher_urls': [A, B, C]},
+            {'headline': 'Fresh', 'url': D},
+        ]
+        pplx_urls, cands = edition.perplexity_candidates(
+            rows, used_urls={edition.canon(B)},
+        )
+        # Sibling B is in the edition, so A and C are also dropped.
+        self.assertEqual([c['url'] for c in cands], [D])
+        self.assertEqual(cands[0]['title'], 'Fresh')
+        # Scoring set still includes every URL, including the dropped row.
+        self.assertEqual(
+            pplx_urls,
+            {edition.canon(A), edition.canon(B), edition.canon(C), edition.canon(D)},
+        )
+
+    def test_used_url_matches_canonical_form(self):
+        rows = [{'headline': 'Canon match', 'publisher_urls': [A, B, C]}]
+        _, cands = edition.perplexity_candidates(rows, used_urls={edition.canon(A_DUP)})
+        self.assertEqual(cands, [])
+
+    def test_prior_window_url_drops_row(self):
+        # Last-3-day window is passed in as used_urls the same way as today.
+        rows = [{'headline': 'From yesterday', 'publisher_urls': [BLOG, C]}]
+        _, cands = edition.perplexity_candidates(rows, used_urls={edition.canon(C)})
+        self.assertEqual(cands, [])
+
+    def test_no_used_urls_still_one_per_row(self):
+        rows = [
+            {'headline': 'One', 'publisher_urls': [A, B, C]},
+            {'headline': 'Two', 'publisher_urls': [BLOG, D]},
+        ]
+        _, cands = edition.perplexity_candidates(rows)
+        self.assertEqual([c['title'] for c in cands], ['One', 'Two'])
+        self.assertEqual([c['url'] for c in cands], [A, D])
 
 
 if __name__ == '__main__':

@@ -574,14 +574,41 @@ def publisher_links(row) -> list[str]:
     return out
 
 
-def perplexity_candidates(rows) -> tuple[set, list]:
+def pick_publisher_url(urls: list[str], verified_urls: list[str] | None = None) -> str | None:
+    """Choose one URL for a Perplexity row.
+
+    If any of `verified_urls` overlap the row, those are preferred (first
+    verified, then best-ranked among them). Otherwise the highest
+    SOURCE_WEIGHT wins, with first-seen order as the tie-breaker.
+    """
+    if not urls:
+        return None
+    pool = urls
+    if verified_urls:
+        vcanon = {canon(u) for u in verified_urls if u}
+        preferred = [u for u in urls if canon(u) in vcanon]
+        if preferred:
+            pool = preferred
+    best_u, best_w = pool[0], -1
+    for u in pool:
+        w = SOURCE_WEIGHT.get(source_from_url(u), 5)
+        if w > best_w:
+            best_u, best_w = u, w
+    return best_u
+
+
+def perplexity_candidates(rows, used_urls=None) -> tuple[set, list]:
     """Build the scoring URL set and candidate dicts from snapshot rows.
 
-    Every valid publisher link is added to the scoring set. Each valid link
-    becomes its own candidate (dedup later drops ones already in the edition).
-    Rows with verified=False still contribute to the scoring set but are not
-    emitted as candidates.
+    Every valid publisher link is added to the scoring set so RSS matches
+    still get the Perplexity boost. Each row is one story: if any of its
+    URLs is already in `used_urls` (today's edition plus the last-3-day
+    dedup window), the whole row is dropped. Otherwise at most one
+    candidate is emitted, using the best-ranked or first verified URL.
+    Rows with verified=False still contribute to the scoring set but are
+    not emitted as candidates.
     """
+    used = {canon(u) for u in (used_urls or []) if u}
     pplx_urls: set = set()
     pplx_cands: list = []
     for row in rows or []:
@@ -592,18 +619,29 @@ def perplexity_candidates(rows) -> tuple[set, list]:
             pplx_urls.add(canon(u))
         if not (row.get('verified', True) if isinstance(row, dict) else True):
             continue
+        if any(canon(u) in used for u in urls):
+            continue
         title = (row.get('headline') or row.get('title') or '') if isinstance(row, dict) else ''
         desc = ''
+        verified_urls = []
+        publisher = None
         if isinstance(row, dict):
             desc = row.get('notes') or row.get('desc') or row.get('summary') or ''
-        publisher = row.get('publisher') if isinstance(row, dict) else None
-        for u in urls:
-            pplx_cands.append({
-                'feed': 'perplexity', 'title': title,
-                'url': u, 'desc': desc,
-                'src': publisher or source_from_url(u),
-                'pub': None, 'age_h': 8, 'from_perplexity': True,
+            publisher = row.get('publisher')
+            verified_urls = publisher_links({
+                'publisher_url': row.get('verified_url'),
+                'publisher_urls': row.get('verified_urls'),
             })
+        u = pick_publisher_url(urls, verified_urls=verified_urls)
+        if not u:
+            continue
+        pplx_cands.append({
+            'feed': 'perplexity', 'title': title,
+            'url': u, 'desc': desc,
+            'src': publisher or source_from_url(u),
+            'pub': None, 'age_h': 8, 'from_perplexity': True,
+            'pplx_urls': urls,
+        })
     return pplx_urls, pplx_cands
 
 
@@ -1615,12 +1653,26 @@ def run_update(date: str, dest_root: Path | None = None, dry_run: bool = False) 
     feeds = json.loads(FEEDS_PATH.read_text())
     used_urls, used_ax = load_used_urls(date)
     votes = load_vote_weights()
+    gn0 = json.loads((SITE / 'gn.json').read_text())
+    data0 = json.loads((SITE / 'data.json').read_text())
+    existing = _dedup.stories_from_edition(gn0, data0, date=date)
+    prior = _dedup.load_prior_stories(date, days=3)
+    window_urls = {canon(s.get('url') or '') for s in (existing + prior) if s.get('url')}
     pplx_path, pplx_rows, pplx_note = latest_perplexity()
     print('perplexity:', pplx_note)
-    pplx_urls, pplx_cands = perplexity_candidates(pplx_rows)
+    pplx_urls, pplx_cands = perplexity_candidates(pplx_rows, used_urls=window_urls)
     n_stories = sum(1 for r in pplx_rows if publisher_links(r))
-    print(f'perplexity candidates: {len(pplx_cands)} urls from {n_stories} stories '
-          f'({len(pplx_urls)} unique)')
+    n_dropped = 0
+    sibling_urls = set()
+    for r in pplx_rows:
+        urls = publisher_links(r)
+        if urls and any(canon(u) in window_urls for u in urls):
+            n_dropped += 1
+            sibling_urls.update(canon(u) for u in urls)
+    blocked_urls = used_urls | sibling_urls
+    print(f'perplexity candidates: {len(pplx_cands)} stories '
+          f'({len(pplx_urls)} unique urls; {n_dropped} dropped, '
+          f'already in edition or last 3 days)')
 
     print('rss: fetching', len(feeds), 'feeds…')
     rss = gather_rss(feeds)
@@ -1641,17 +1693,13 @@ def run_update(date: str, dest_root: Path | None = None, dry_run: bool = False) 
         classify(c)
         score(c, votes, pplx_urls)
         raw.append(c)
-    gn0 = json.loads((SITE / 'gn.json').read_text())
-    data0 = json.loads((SITE / 'data.json').read_text())
-    existing = _dedup.stories_from_edition(gn0, data0, date=date)
-    prior = _dedup.load_prior_stories(date, days=3)
     liked = _dedup.load_liked_ids()
     pool, dedup_logs = _dedup.dedup_candidates(
         raw,
         existing=existing,
         prior=prior,
         liked_ids=liked,
-        extra_urls=used_urls,
+        extra_urls=blocked_urls,
         extra_arxiv=used_ax,
         weights=SOURCE_WEIGHT,
         date=date,
@@ -1663,7 +1711,7 @@ def run_update(date: str, dest_root: Path | None = None, dry_run: bool = False) 
     occup = existing_bucket_counts(gn0, data0)
 
     # Pre-select a shortlist with a little slack for verify dropouts, then the same top-10 cap.
-    shortlist = select_picks(pool, used_urls, per_bucket=12, occup=occup)
+    shortlist = select_picks(pool, blocked_urls, per_bucket=12, occup=occup)
     print('shortlist before verify:', len(shortlist))
     verified = []
     with cf.ThreadPoolExecutor(12) as ex:
@@ -1676,7 +1724,7 @@ def run_update(date: str, dest_root: Path | None = None, dry_run: bool = False) 
     # rescore after better titles/dates
     for c in verified:
         score(c, votes, pplx_urls)
-    picks = select_picks(verified, used_urls, per_bucket=10, occup=occup)
+    picks = select_picks(verified, blocked_urls, per_bucket=10, occup=occup)
     print('picks to append:', len(picks))
 
     if dry_run:
