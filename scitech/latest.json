@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "updated_at": "2026-11-20T10:24:39-0500",
+ "updated_at": "2026-11-20T11:25:37-0500",
  "built_at": "2026-11-20T05:45:00-0500",
  "stories": [
   {
@@ -271,6 +271,20 @@
   },
   {
    "n": 20,
+   "title": "US army postpones plan to detonate bomb-making chemical amid outcry",
+   "desc": "Controlled detonation could lead to plume containing lead particles, worrying residents and state officials The US army has delayed its plan to detonate a stash of bomb-making chemicals in south-eastern Iowa after an outpouring of public concern that a cloud of lead dust could cause environmental co",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/19/iowa-lead-bomb-dust",
+   "dt": "Nov 20",
+   "img": "0a9843ba32.jpg",
+   "id": "u0a9843ba32",
+   "added_at": "2026-11-20T11:25:37-0500",
+   "new": true,
+   "cat": "Technology business news",
+   "sub": "Enterprise & software"
+  },
+  {
+   "n": 21,
    "title": "Taiwan market plunges 6.23% as AI suppliers report steady orders after Huang",
    "desc": "Taiwan's benchmark Taiex plunged 2,393.60 points, or 6.23%, on Friday to close at 36,033.29, its third-largest single-day point drop on record. Shares of Taiwan Semiconductor Manufacturing Co. (TSMC) fell as low as NT$1,970(US$59.73) before closing at NT$2,000, down 4.76%. MediaTek and Delta Electro",
    "src": "DigiTimes",
@@ -284,7 +298,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 21,
+   "n": 22,
    "title": "TSMC says it will comply with new US rule that strips Chinese chip designers of a key exemption",
    "desc": "Taiwan Semiconductor Manufacturing Co. (TSMC) said it will comply with new US export rules that remove a route Chinese chip designers had used to get advanced chips made at overseas foundries without a license. The rule reaches beyond AI processors.",
    "src": "DigiTimes",
@@ -298,7 +312,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 22,
+   "n": 23,
    "title": "Huang's exit tests Nvidia's annual chip cadence and Taiwan suppliers' customer mix",
    "desc": "Nvidia's decision not to reinstate Jensen Huang as chief executive has raised concerns about a potential slowdown in AI hardware upgrades, putting Taiwanese suppliers' capacity allocation and order mix across major customers under scrutiny.",
    "src": "DigiTimes",
@@ -312,7 +326,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 23,
+   "n": 24,
    "title": "US AI chip curbs force Alibaba to rethink overseas compute strategy",
    "desc": "Alibaba plans to increase its reliance on domestically developed AI chips as tighter US restrictions on overseas computing services threaten China's access to advanced Nvidia GPUs. CEO Eddie Wu acknowledged that regulatory uncertainty could weigh on cloud growth in 2027, while proprietary T-Head pro",
    "src": "DigiTimes",
@@ -326,7 +340,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 24,
+   "n": 25,
    "title": "DIGITIMES Insight: US AI chip curbs target computing dominance, Megaspeed clouds Nvidia",
    "desc": "The US is extending its AI export restrictions beyond chips to overseas computing services, tightening China's access to advanced GPUs while strengthening American cloud providers' competitive position. In the latest episode of the DIGITIMES podcast Luke's Talk Room, hosted by senior analyst Luke Li",
    "src": "DigiTimes",
@@ -340,7 +354,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 25,
+   "n": 26,
    "title": "South Korea surpasses US$1 trillion in annual exports, powered by AI",
    "desc": "On November 19, South Korea officially surpassed US$1 trillion in annual exports. With this achievement, South Korea becomes only the fourth nation in history to join the US$1 trillion export club, following Germany, the United States, and China.",
    "src": "DigiTimes",
@@ -354,7 +368,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 26,
+   "n": 27,
    "title": "Taiwan chip distributors see supply-chain risks after Huang",
    "desc": "Taiwanese chip distributors expect Jensen Huang's departure as Nvidia CEO to cause short-term uncertainty across the company's supply chain, with potential changes in supplier priorities and mounting pressure from US export controls and national security concerns. They do not expect the disruption t",
    "src": "DigiTimes",
@@ -368,7 +382,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 27,
+   "n": 28,
    "title": "NAND prices tipped to fall as Chinese cloud giants cut SSD orders",
    "desc": "TrendForce sees supply outpacing demand in 2027, though cheaper flash won't fix the DRAM squeeze",
    "src": "The Register",
@@ -382,7 +396,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 28,
+   "n": 29,
    "title": "AI data center construction demand holds firm despite labor shortages as Acter",
    "desc": "Recent reports suggesting a slowdown in AI data center construction, alongside adjustments to investment and project schedules by some companies, have raised concerns that demand for AI infrastructure may be cooling.",
    "src": "DigiTimes",
@@ -396,7 +410,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 29,
+   "n": 30,
    "title": "Taiwan develops energy-efficiency labels for AI compute centers",
    "desc": "Taiwan is developing an energy-efficiency labeling system for AI compute centers to reduce electricity consumption and carbon emissions as demand for GPUs, servers, and cooling systems increases. The Administration for Digital Industries (ADI), under the Ministry of Digital Affairs, is building the ",
    "src": "DigiTimes",
@@ -410,7 +424,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 30,
+   "n": 31,
    "title": "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges",
    "desc": "Payward, the owner of crypto exchange Kraken, is pushing into private markets with its purchase of venture capital and asset management provider Tribe Capital.",
    "src": "CNBC",
@@ -424,7 +438,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 31,
+   "n": 32,
    "title": "Vercel brings on Toronto team behind AI developer platform Traces | BetaKit",
    "desc": "Traces allows developers to save and publish conversations with AI agents. The post Vercel brings on Toronto team behind AI developer platform Traces first appeared on BetaKit .",
    "src": "BetaKit",
@@ -438,7 +452,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 32,
+   "n": 33,
    "title": "Natural Products Canada to open $25-million food systems scale-up fund |",
    "desc": "The non-profit is giving up to $5 million to companies contributing to food system production capacity. The post Natural Products Canada to open $25-million food systems scale-up fund first appeared on BetaKit .",
    "src": "BetaKit",
@@ -452,7 +466,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 33,
+   "n": 34,
    "title": "Tech, defence, and life sciences are driving Edmonton’s economy: report | BetaKit",
    "desc": "Growth is outpacing legacy industries, but city’s tech sector lags broader provincial and national trajectories. The post Tech, defence, and life sciences are driving Edmonton’s economy: report first appeared on BetaKit .",
    "src": "BetaKit",
@@ -466,7 +480,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 34,
+   "n": 35,
    "title": "Meet the St. Michael’s Hospital doctors building an AI tool to save lives in their ICU | BetaKit",
    "desc": "Dr. Bijan Teja and Dr. Michael Sklar think AI Compass will find the subtle signs that doctors sometimes miss. The post Meet the St. Michael’s Hospital doctors building an AI tool to save lives in their ICU first appeared on BetaKit .",
    "src": "BetaKit",
@@ -480,7 +494,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 35,
+   "n": 36,
    "title": "What Canadian startups risk when they rely on a single AI provider | BetaKit",
    "desc": "Zoho Canada’s managing director on the early decisions that can leave startups with fewer options as they grow. The post What Canadian startups risk when they rely on a single AI provider first appeared on BetaKit .",
    "src": "BetaKit",
@@ -494,7 +508,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 36,
+   "n": 37,
    "title": "Q&A: NordSpace, Canada Rocket Company leaders on how Canada can be at the bleeding edge of space",
    "desc": "Rahul Goel and Hugh Kolias spell out different ways Canada can support its entrants in the new space race. The post Q&A: NordSpace, Canada Rocket Company leaders on how Canada can be at the bleeding edge of space first appeared on BetaKit .",
    "src": "BetaKit",
@@ -508,7 +522,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 37,
+   "n": 38,
    "title": "Infantino, Tashima and Diallo officially enter FIFA presidential race",
    "desc": "Three candidates have officially submitted their bids for the FIFA presidency. Gianni Infantino, who has been in office for 11 years, is seeking a fourth consecutive term. Backed by UEFA, French Football Federation president Philippe Diallo wants to offer an alternative to Infantino’s leadership. He",
    "src": "France 24",
@@ -522,7 +536,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 38,
+   "n": 39,
    "title": "5 Interesting Startup Deals You May Have Missed: Reflecting Sunlight From Space, Better Breathing And Smarter Garbage Trucks",
    "desc": "What if solar farms could keep generating electricity after sunset with a little help from mirrors orbiting Earth? Or researchers could send an experiment into space for less than the price of a car? Our latest roundup also includes a company bringing AI to the old-school business of garbage hauling",
    "src": "News",
@@ -536,7 +550,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 39,
+   "n": 40,
    "title": "What The Telecom Bust Taught Me About AI’s Debt Boom",
    "desc": "The AI buildout’s growing reliance on debt echoes the telecom bubble, raising the risk that infrastructure spending will outpace the revenue needed to meet fixed repayment obligations. According to guest author David Spreng of Runway Growth Capital, even if AI fulfills its technological promise, bor",
    "src": "News",
@@ -550,7 +564,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 40,
+   "n": 41,
    "title": "Anthropic debuts on Nasdaq with $1.8 trillion market cap in landmark IPO",
    "desc": "Anthropic’s shares began trading on Nasdaq under ANT, valuing the AI company at about $1.8 trillion in a record debut.",
    "src": "CNBC",
@@ -564,7 +578,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 41,
+   "n": 42,
    "title": "Anthropic shares fall 6% in premarket amid AI selloff as Nvidia, AMD shares drop",
    "desc": "Anthropic soared 17% in its first day of trading on Thursday.",
    "src": "CNBC",
@@ -578,7 +592,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 42,
+   "n": 43,
    "title": "Global stock markets slump as Anthropic IPO fails to stem AI sell-off",
    "desc": "Asian markets on track for their worst week since 2020, with European and US stocks also way down Business live – latest updates Global stock markets have slumped as Anthropic’s record-breaking IPO failed to stem a sell-off in AI-linked companies. Asian stock markets were on track for their worst we",
    "src": "The Guardian",
@@ -592,7 +606,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 43,
+   "n": 44,
    "title": "European bond sales hit record €2 trillion as AI borrowing surges",
    "desc": "Bond sales in Europe have topped €2 trillion ($2.2 trillion) for the first time, as unrelenting government borrowing collides with the vast funding needs of the artificial intelligence boom.",
    "src": "Bloomberg via Yahoo Finance",
@@ -606,7 +620,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 44,
+   "n": 45,
    "title": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
    "desc": "The declines in Asia come after the tech-heavy Nasdaq Composite fell more than 2% overnight following Anthropic's highly anticipated Wall Street debut.",
    "src": "CNBC",
@@ -620,7 +634,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 45,
+   "n": 46,
    "title": "Global stocks hit longest losing run since 2023 as AI rout hits Asia",
    "desc": "(Bloomberg) -- A gauge of global stocks is heading for its longest losing streak in three years as the artificial intelligence trade undergoes a sharp unravelling, putting this year’s broader equity gains at risk and roi",
    "src": "Bloomberg via Swissinfo",
@@ -634,7 +648,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 46,
+   "n": 47,
    "title": "Stocks Often Prosper After an Abrupt C.E.O. Exit. Is Nvidia Different?",
    "desc": "The stock value of a top executive is often less important than it initially seems. But Nvidia’s entanglement in U.S.-Chinese relations poses special problems.",
    "src": "The New York Times",
@@ -648,7 +662,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 47,
+   "n": 48,
    "title": "Lumentum CEO defends Marvell deal after stock plunge: 'We've got work to do' with shareholders",
    "desc": "Lumentum CEO defended the planned Marvell merger despite stock sell-off.",
    "src": "CNBC",
@@ -662,7 +676,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 48,
+   "n": 49,
    "title": "Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says",
    "desc": "The shareholders said Alibaba shares fell 14% over four days last week because of media reports on its ties to Alice Huang and Megaspeed.",
    "src": "The Straits Times",
@@ -676,7 +690,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 49,
+   "n": 50,
    "title": "Trump bought up to US$265,000 of Nvidia stock in September, disclosure shows",
    "desc": "US lawmakers have been asking questions about Trump’s knowledge of Huang’s personal life.",
    "src": "The Straits Times",
@@ -690,7 +704,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 50,
+   "n": 51,
    "title": "Ottawa to purchase credits from carbon-removal startups to offset its emissions",
    "desc": "New program aims to help achieve net zero by 2050 while supporting Canadian technologies, the federal government says",
    "src": "The Globe and Mail",
@@ -704,7 +718,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 51,
+   "n": 52,
    "title": "White House replaces cyber director Sean Cairncross amid widespread tech outages",
    "desc": "Sean Cairncross will be replaced by Pentagon chief information officer Kirsten Davies.",
    "src": "CNBC",
@@ -718,7 +732,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 52,
+   "n": 53,
    "title": "Lionel Messi of Inter Miami tops Major League Soccer salaries",
    "desc": "Argentinian football legend Messi, who joined Miami in 2023, signed a contract extension through 2028 last year.",
    "src": "Al Jazeera",
@@ -732,7 +746,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 53,
+   "n": 54,
    "title": "Ontario Superior Court dismisses lawsuit against Popeyes",
    "desc": "Accusations that franchisees bought unsafe chicken from unauthorized seller was a diversion from contract claim, judge rules",
    "src": "The Globe and Mail",
@@ -746,7 +760,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 54,
+   "n": 55,
    "title": "The Trump administration has replaced its cybersecurity chief - Engadget",
    "desc": "The White House has replaced cybersecurity chief Sean Cairncross with the Pentagon's Kirsten Davies.",
    "src": "Engadget",
@@ -760,7 +774,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 55,
+   "n": 56,
    "title": "German minister sorry for calling Pentagon official's view 'stupid'",
    "desc": "BERLIN, Nov 20 - German Defence Minister Boris Pistorius said on Friday he had apologised for calling Pentagon policy chief Elbridge Colby's opposition to Ukrainian deep strikes into Russia \\\"stupid\\\" but that he would not withdraw his criticism.",
    "src": "The Straits Times",
@@ -774,7 +788,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 56,
+   "n": 57,
    "title": "BepiColombo spacecraft arriving at Mercury after eight years",
    "desc": "The mission is set to give us our best ever view of Mercury - the closest planet to the Sun.",
    "src": "BBC",
@@ -788,7 +802,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 57,
+   "n": 58,
    "title": "APOD: 2026 November 20 – V-G-R - NASA Science",
    "desc": "APOD Science APOD APOD: 2026 November… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by",
    "src": "NASA",
@@ -802,7 +816,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "Measles is officially back in the USA. Will MAHA pay the price? - video",
    "desc": "This week the US lost its measles elimination status, an official recognition that the infectious disease is endemic in the country after being eliminated for 26 years. To find out what this means in practical terms for citizens, Ian Sample hears from the Guardian US health reporter Jessica Glenza. ",
    "src": "The Guardian",
@@ -816,7 +830,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 59,
+   "n": 60,
    "title": "Wildlife conservation cash targets Yorkshire ex-colliery sites",
    "desc": "The project aims to create and restore habitats for amphibians and lizards at sites in Yorkshire.",
    "src": "BBC",
@@ -830,7 +844,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 60,
+   "n": 61,
    "title": "Physicists use quantum entanglement to verify a person",
    "desc": "In a first-of-its-kind experiment, physicists used pairs of entangled photons to verify a person's location. That's a step toward anchoring digital security to the physical world.",
    "src": "Live Science",
@@ -844,7 +858,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 61,
+   "n": 62,
    "title": "Our solar system’s doomsday may come sooner than we thought",
    "desc": "Billions of years from now—still far sooner than astronomers had predicted—our dying sun could kick away its outer planets",
    "src": "Scientific American",
@@ -858,7 +872,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 62,
+   "n": 63,
    "title": "These lemurs sing like sopranos",
    "desc": "After millions of years of evolution turned these lemurs into showstopping singers, scientists are tuning in with conservation in mind",
    "src": "Scientific American",
@@ -872,7 +886,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 63,
+   "n": 64,
    "title": "Two probes are about to arrive at Mercury for an up-close look at this puzzling planet",
    "desc": "Europe and Japan’s BepiColombo mission has reached our solar system’s innermost planet. It might be the last step before we send a lander",
    "src": "Scientific American",
@@ -886,7 +900,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 64,
+   "n": 65,
    "title": "Pill to treat pancreatic cancer hailed as ‘biggest breakthrough in decades’",
    "desc": "Cancer undetectable for one in 12 patients in daraxonrasib trial, while nearly all participants’ tumours stopped growing A pill that can shrink and potentially eliminate pancreas tumours is being hailed as the biggest breakthrough treatment for the cancer in decades. In one in 12 of the patients giv",
    "src": "The Guardian",
@@ -900,7 +914,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 65,
+   "n": 66,
    "title": "Lifting weights reduces muscle loss from obesity drugs",
    "desc": "Resistance exercise could help middle-aged and older individuals to maintain muscle mass and strength during weight-loss treatment.",
    "src": "Nature",
@@ -914,7 +928,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 66,
+   "n": 67,
    "title": "Patients have little say in how brain implant trials are done. Ian Burkhart wants to change that",
    "desc": "Ian Burkhart, founder of a coalition of brain implant trial participants, says device developers should give patients more agency in research.",
    "src": "STAT",
@@ -928,7 +942,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 67,
+   "n": 68,
    "title": "Big drugmakers tell House committee they will halt clinical trials at some hospitals in China",
    "desc": "Big drugmakers tell U.S. House committee they will halt clinical trials at some hospitals in China.",
    "src": "STAT",
@@ -942,7 +956,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 68,
+   "n": 69,
    "title": "FDA's search for a new leader, and China's largest drugmakers",
    "desc": "This week on \"The Readout LOUD\" podcast: the FDA is again searching for a new leader and a closely tracked lung cancer drug suffers an agency rejection.",
    "src": "STAT",
@@ -956,7 +970,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 69,
+   "n": 70,
    "title": "UnitedHealth sues to reverse downgraded Medicare Advantage quality scores",
    "desc": "UnitedHealth Group joined the ranks of insurers that have sued the federal government over lowered Medicare Advantage ratings, with billions at stake.",
    "src": "STAT",
@@ -970,7 +984,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 70,
+   "n": 71,
    "title": "As Sanofi's Pompe drug shortage drags on, some patients struggle to access treatments",
    "desc": "An ongoing shortage of Sanofi’s Pompe disease treatment is forcing some patients to miss critical doses. They worry their health is at risk.",
    "src": "CNBC",
@@ -984,7 +998,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 71,
+   "n": 72,
    "title": "More doctors should prescribe exercise after a concussion",
    "desc": "Nearly everyone caring for me had been trying to keep me safe. My ski instructor expected something hard of me. I needed both.",
    "src": "STAT",
@@ -998,7 +1012,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 72,
+   "n": 73,
    "title": "The U.S. lost measles elimination status. The next Congress should help restore it",
    "desc": "Infectious disease physician and STAT “ID Consult” columnist Krutika Kuppalli offers Congress a must-do list on measles.",
    "src": "STAT",
@@ -1012,7 +1026,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 73,
+   "n": 74,
    "title": "More surgeons in Africa isn’t enough when only 10% are women",
    "desc": "The systems built to grow global surgery are not required to measure the number of women surgeons.",
    "src": "STAT",
@@ -1026,7 +1040,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 74,
+   "n": 75,
    "title": "COP31: UN Climate summit enters final phase with no deal in sight",
    "desc": "After nearly two weeks of negotiations, countries remain divided on how to fight global warming. A new draft declaration doesn't mention the phaseout of fossil fuels, the main drivers of climate change. DW has more.",
    "src": "DW",
@@ -1040,7 +1054,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 75,
+   "n": 76,
    "title": "COP31: More climate money for Africa? Europe says use what's already pledged",
    "desc": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change.",
    "src": "BBC",
@@ -1054,7 +1068,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 76,
+   "n": 77,
    "title": "COP31 delivers deals for host Turkey as climate diplomacy stalls",
    "desc": "ANTALYA, Turkey, Nov 20 - Turkey is set to emerge from COP31 with billions of dollars in investment deals, including on green energy, but the chances of an ambitious outcome to curb the world's carbon emissions looked slim as the talks entered what was meant to be their final day.",
    "src": "The Straits Times",
@@ -1068,7 +1082,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 77,
+   "n": 78,
    "title": "U.S. Auctions 31.5 Million Acres of Pacific Ocean to Deep Sea Mining Company",
    "desc": "The first-ever lease sale took place over the objections of a federal judge. Wetstone U.S. Ventures paid $6 million to lease the seabed for mapping and preparation, not actual mining.",
    "src": "The New York Times",
@@ -1082,7 +1096,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 78,
+   "n": 79,
    "title": "The Stormy Southwest Pacific - NASA Science",
    "desc": "Tropical Cyclone Xavier launched the basin’s storm season with a bang.",
    "src": "NASA",
@@ -1096,7 +1110,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 79,
+   "n": 80,
    "title": "The grass is not greener: Saving Malaysia's seagrass key to reviving marine ecology",
    "desc": "Dwindling seagrass meadows threaten fisheries, dugongs and coastal ecosystems.",
    "src": "The Straits Times",
@@ -1110,7 +1124,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 80,
+   "n": 81,
    "title": "Turkey’s Van Cats Contend With Rising Temperatures",
    "desc": "A feline research center uses air-conditioning and pools to keep residents comfortable as their numbers recover. And yes, they like to swim.",
    "src": "The New York Times",
@@ -1124,7 +1138,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 81,
+   "n": 82,
    "title": "Have we missed our chance to stop climate change?",
    "desc": "From record-breaking heat to devastating floods and wildfires, the warning signs are everywhere. Can rising temperatures still be brought under control?",
    "src": "DW",
@@ -1138,7 +1152,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 82,
+   "n": 83,
    "title": "How the war in Iran turned the Gulf into a climate catastrophe – video explainer",
    "desc": "The war between the US, Israel and Iran has turned the strait of Hormuz, one of the world’s busiest oil shipping routes, into a battlefield, but also the centre of a deepening environmental disaster. Tankers struck by missiles or sea mines are leaking oil into the Gulf, leaving vast slicks visible f",
    "src": "The Guardian",
@@ -1152,7 +1166,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 83,
+   "n": 84,
    "title": "Slowed momentum on climate action will influence how far S’pore can go to decarbonise: Grace Fu",
    "desc": "Fu also said that Singapore cannot commit to meeting COP31 electrification goal with clean energy.",
    "src": "The Straits Times",
@@ -1166,7 +1180,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 84,
+   "n": 85,
    "title": "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
    "desc": "Crypto investors are looking beyond Congress for the next catalyst after the Senate failed to advance the Clarity Act in September.",
    "src": "CNBC",
@@ -1180,7 +1194,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 85,
+   "n": 86,
    "title": "NASA’s new Moon plans have Orion flying in ways it wasn’t designed for",
    "desc": "Under NASA’s revised Artemis plans, Orion would dock with a Starship lander in ways the capsule was not originally designed for.",
    "src": "Ars Technica",
@@ -1194,7 +1208,7 @@
    "sub": "Space"
   },
   {
-   "n": 86,
+   "n": 87,
    "title": "SpaceX scrubs launch of classified payload for the U.S. Space Force, targets Friday",
    "desc": "The mission is the latest in the series of ‘R’ missions tasked by the U.S. Space Force. Liftoff from pad 4 East is scheduled for Friday, Nov. 20, during a window that opens at 6:32 p.m. PST (9:32 p.m. EST / 0232 UTC).",
    "src": "Spaceflightnow",
@@ -1208,7 +1222,7 @@
    "sub": "Space"
   },
   {
-   "n": 87,
+   "n": 88,
    "title": "European Hardware Takes Center Stage at Space Tech Expo",
    "desc": "Europe is a region chock full of builders. At least, that’s the vibe we got this week watching the news wire from Space Tech Expo in Bremen, Germany. The post European Hardware Takes Center Stage at Space Tech Expo appeared first on Payload .",
    "src": "Payload",
@@ -1222,7 +1236,7 @@
    "sub": "Space"
   },
   {
-   "n": 88,
+   "n": 89,
    "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
    "desc": "People stocking up on long-life food drove retail sales higher October, according to official data.",
    "src": "BBC",
@@ -1236,7 +1250,7 @@
    "sub": "Space"
   },
   {
-   "n": 89,
+   "n": 90,
    "title": "Anthropic’s listing draws massive interest from S’pore retail investors, but valuation fears remain",
    "desc": "Anthropic was the most-traded stock on its debut day, surpassing SpaceX's first-day activity.",
    "src": "The Straits Times",
@@ -1250,7 +1264,7 @@
    "sub": "Space"
   },
   {
-   "n": 90,
+   "n": 91,
    "title": "‘More than just a game’: How GTA VI’s blockbuster launch fuels a booming content economy",
    "desc": "GTA VI’s blockbuster launch is creating a wider economy around livestreams, social clips and high-volume content farms as millions tune in to watch others play.",
    "src": "CNBC",
@@ -1264,7 +1278,7 @@
    "sub": "Space"
   },
   {
-   "n": 91,
+   "n": 92,
    "title": "Save up to $583.17 on my handpicked Star Trek Blu-ray Black Friday deals",
    "desc": "From The Original Series through The Next Generation to Starfleet Academy, beam up our favorite Black Friday 2026 Star Trek deals available at Amazon.",
    "src": "Space.com",
@@ -1278,7 +1292,7 @@
    "sub": "Space"
   },
   {
-   "n": 92,
+   "n": 93,
    "title": "Watch SpaceX Dragon cargo capsule head home to Earth from the ISS today",
    "desc": "SpaceX's 35th Dragon cargo mission is scheduled to undock from the International Space Station today (Nov. 20), and you can watch the off-Earth action live.",
    "src": "Space.com",
@@ -1292,7 +1306,7 @@
    "sub": "Space"
   },
   {
-   "n": 93,
+   "n": 94,
    "title": "Einstein was right! Scientists verify 1st image of a black hole ever captured",
    "desc": "An independent team of researchers has validated the first image of a supermassive black hole captured by humanity, and that verifies Einstein's greatest theory.",
    "src": "Space.com",
@@ -1306,7 +1320,7 @@
    "sub": "Space"
   },
   {
-   "n": 94,
+   "n": 95,
    "title": "Singapore, China launch talks on FTA upgrade as PM Wong meets Xi",
    "desc": "The two leaders also called for closer cooperation amid global uncertainty.",
    "src": "The Straits Times",
@@ -1320,7 +1334,7 @@
    "sub": "Space"
   },
   {
-   "n": 95,
+   "n": 96,
    "title": "DeepMind Institute essay maps four routes from AGI to superintelligence",
    "desc": "Essay from Google DeepMind’s new institute sets out four possible paths by which AI could progress from AGI to superintelligence.",
    "src": "Google DeepMind",
@@ -1334,7 +1348,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 96,
+   "n": 97,
    "title": "Tesla opens driverless Cybercab rides to the public in Dallas",
    "desc": "Tesla has opened public rides in its purpose-built Cybercab robotaxi in Dallas, the second U.S. city after Austin to receive the two-seat, steering-wheel-free vehicle. On November 19, the company made it official with a ",
    "src": "Teslarati",
@@ -1348,7 +1362,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 97,
+   "n": 98,
    "title": "China’s A.I. Ambitions Are Running Into a Money Problem",
    "desc": "While Anthropic and other Silicon Valley A.I. giants are raising tens of billions in capital, Chinese rivals are struggling to keep pace financially.",
    "src": "The New York Times",
@@ -1362,7 +1376,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 98,
+   "n": 99,
    "title": "Should AI be judging our credit worthiness?",
    "desc": "Would AI be a good judge of whether you should get a mortgage, car loan or mobile phone contract?",
    "src": "BBC",
@@ -1376,7 +1390,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 99,
+   "n": 100,
    "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
    "desc": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a human liver alive on life support outsid",
    "src": "MIT Technology Review",
@@ -1390,7 +1404,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 100,
+   "n": 101,
    "title": "Anthropic’s Banner Debut Not Enough to Stop Slide in Stock Market",
    "desc": "The S&P 500 and Nasdaq were both on course for their worst weekly performances in over a year, as a broad sell-off in technology shares carried into Friday.",
    "src": "The New York Times",
@@ -1404,7 +1418,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 101,
+   "n": 102,
    "title": "Cathie Wood's ARK Invest was a big buyer of Anthropic during debut",
    "desc": "Wood's firm bought $90.8 million worth of Anthropic in six funds, according to a trade notification from the firm.",
    "src": "CNBC",
@@ -1418,7 +1432,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 102,
+   "n": 103,
    "title": "The Tech Download: Anthropic charmed Wall Street. But one big uncertainty hangs over the business",
    "desc": "Access to the huge quantities of compute the company needs to continue developing and deploying models is a challenge for Anthropic to navigate.",
    "src": "CNBC",
@@ -1432,7 +1446,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 103,
+   "n": 104,
    "title": "Anthropic shares fall a day after blockbuster IPO",
    "desc": "Other tech companies have also taken a hit as share markets broadly slump.",
    "src": "BBC",
@@ -1446,7 +1460,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 104,
+   "n": 105,
    "title": "Energy crisis reinforces comeback of nuclear power, says IEA",
    "desc": "Unprecedented disruption in the energy world - primarily resulting from the war in the Middle East - is set to reinforce the comeback of nuclear power, according to the International Energy Agency's latest World Energy Outlook , which has revised its forecast for nuclear upwards.",
    "src": "World Nuclear News",
@@ -1460,7 +1474,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 105,
+   "n": 106,
    "title": "IEA sees potential for looser oil and LNG markets after Hormuz crisis",
    "desc": "The IEA says oil and gas markets could face abundant supply and lower prices if Middle East disruptions ease, but recovery timing and scale remain uncertain.",
    "src": "Oil & Gas Journal",
@@ -1474,7 +1488,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 106,
+   "n": 107,
    "title": "Unexpected Fallout From the Iran War",
    "desc": "Global oil shocks are accelerating the shift to electric vehicles and renewable energy, a new report finds.",
    "src": "The New York Times",
@@ -1488,7 +1502,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 107,
+   "n": 108,
    "title": "GM’s V2G pilot wants to pay California drivers for power from parked EVs",
    "desc": "GM Energy and WeaveGrid are launching a vehicle-to-grid (V2G) pilot that will let select Southern California Edison (SCE) customers send electricity from their EV batteries back to the grid. Eligible drivers could get more than $16,000 in help with equipment and installation, and earn money when the",
    "src": "Electrek",
@@ -1502,7 +1516,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 108,
+   "n": 109,
    "title": "Alpitronic's new SC plant to build 400 kW and 1 MW fast chargers",
    "desc": "Alpitronic , the company behind IONNA’s fast chargers, is investing nearly $34 million in a new South Carolina factory. It’ll build 400 kW DC fast chargers, plus a 1 megawatt (MW) system that can charge cars and heavy-duty trucks. more…",
    "src": "Electrek",
@@ -1516,7 +1530,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 109,
+   "n": 110,
    "title": "NSSL keeps growing its electric terminal truck fleet, with no plans to stop",
    "desc": "After taking delivery of its first Orange EV e-Triever electric yard tractor in 2024, NSSL saw the electric light. The company has been moving quickly to transition its yard tractor fleet to zero emissions, and its efforts haven’t gone unnoticed: NSSL is now being recognized by the 2026 Canadian Cle",
    "src": "Electrek",
@@ -1530,7 +1544,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 110,
+   "n": 111,
    "title": "I’m a tech expert and new mum. Here’s what I learned testing 17 baby monitors",
    "desc": "Our tech expert and new mum tested 17 monitors for picture quality, battery life and reliability – here’s what she recommends • The best eco-friendly baby products Moving my baby into her own room to sleep felt liberating and stressful. She was ready for her own space – but was I ready to let her ou",
    "src": "The Guardian",
@@ -1544,7 +1558,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 111,
+   "n": 112,
    "title": "Infineon and Megmeet advance 800 VDC power for AI data centers",
    "desc": "Infineon Technologies has teamed up with Shenzhen Megmeet Electrical to develop 800 VDC power architectures for next-generation AI data centers. The collaboration will see Megmeet integrate Infineon’s CoolSiC MOSFET G2 technology into its three-phase AI power shelf to improve energy efficiency, powe",
    "src": "Eenewseurope",
@@ -1558,7 +1572,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 112,
+   "n": 113,
    "title": "Trump Flaunts Camaraderie With Xi and Putin but Has Little to Show for It",
    "desc": "President Trump called Russia’s leader his “friend” and marveled at China’s warm welcome for his first-ever trilateral summit. But there were no breakthroughs on nuclear control, the war in Ukraine or A.I.",
    "src": "The New York Times",
@@ -1572,7 +1586,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 113,
+   "n": 114,
    "title": "Double guns: ultra-class haul truck packs dual-gun MCS charging, 4 MWh battery",
    "desc": "NHL may not be a household name, but its all-new, all-electric NTE240E ultra-class haul track could change that with a 240 ton payload, over 4.1 MWh of battery, advanced regenerative braking, and a world’s first double-gun MCS charging setup. more…",
    "src": "Electrek",
@@ -1586,7 +1600,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 114,
+   "n": 115,
    "title": "California targets Nvidia in China AI chip probe",
    "desc": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
    "src": "BBC",
@@ -1600,7 +1614,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 115,
+   "n": 116,
    "title": "US chip equipment maker KLA opens expanded site in Singapore, with plans for further growth",
    "desc": "In the longer term, its growth plans are expected to support about 1,000 new jobs.",
    "src": "The Straits Times",
@@ -1614,7 +1628,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 116,
+   "n": 117,
    "title": "Xi embraces Trump as China’s best option to contain chip row",
    "desc": "For Beijing, that bonhomie might be its best strategy for stopping a spiralling chip battle with its rival.",
    "src": "The Straits Times",
@@ -1628,7 +1642,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 117,
+   "n": 118,
    "title": "TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say",
    "desc": "Chinese customers will generally be limited to older chipmaking technology.",
    "src": "The Straits Times",
@@ -1642,7 +1656,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 118,
+   "n": 119,
    "title": "Sources: China says it will not approve requests from Chinese companies registered overseas after 2023 to list outside mainland China, impac",
    "desc": "Reuters : Sources: China says it will not approve requests from Chinese companies registered overseas after 2023 to list outside mainland China, impacting tech startups — China's securities watchdog has told some law firms it will not approve plans by red-chip firms to list outside mainland China …",
    "src": "Techmeme",
@@ -1656,7 +1670,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 119,
+   "n": 120,
    "title": "Redditor forced to bring desktop PC in checked luggage on US-to-UK flight with GPU still installed — GPU stayed installed and tempered glass",
    "desc": "A pissed traveler decided to check their desktop CPU after a check-in attendant refused to have it carried in the cabin, despite being historically allowed by the airline.",
    "src": "Tomshardware",
@@ -1670,7 +1684,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 120,
+   "n": 121,
    "title": "OpenAI helped AMD improve its upcoming flagship GPU design by 14% PPA — GPT models also helping Lisa Su",
    "desc": "OpenAI helped AMD improve its upcoming flagship GPU design by 14% PPA — GPT models also helping Lisa Su's outfit boost its new CPUs",
    "src": "Tomshardware",
@@ -1684,7 +1698,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 121,
+   "n": 122,
    "title": "Asian tech stocks plunge as Anthropic",
    "desc": "Financial Times : Asian tech stocks plunge as Anthropic's record IPO fails to stem an AI sell-off; SoftBank falls ~15%, TSMC falls 5%+, and Samsung and SK Hynix fall 6%+ — Blockbuster debut from developer of Claude fails to ease concerns over historic AI capex spending",
    "src": "Techmeme",
@@ -1698,7 +1712,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 122,
+   "n": 123,
    "title": "Lagarde says EU funds should take first losses on chip plants, data centers",
    "desc": "Public funds should absorb early risks in major technology projects, the European Central Bank chief said Friday.",
    "src": "CNBC",
@@ -1712,7 +1726,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 123,
+   "n": 124,
    "title": "I Don’t Trust Visual Recordings Anymore. But One Day I Will Again",
    "desc": "In March of this year, a flurry of emails and text messages from a half dozen reporters around the world disrupted my quiet Saturday morning. An Iranian news agency had aired a week-old video of what appeared to be a U.S.-made Tomahawk missile hitting a school. News reports claimed that the strike k",
    "src": "IEEE Spectrum",
@@ -1726,7 +1740,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 124,
+   "n": 125,
    "title": "Google’s Quantum Chip Beats Classical Limits in Tests of Teamwork",
    "desc": "Insider Brief It turns out teamwork can indeed make the dream work, even when the team isn’t allowed to talk. It helps to have a few entangled qubits, though. In a study, a Google-led team of researchers used a quantum chip to beat the best classical strategies in games that barred players from comm",
    "src": "Thequantuminsider",
@@ -1740,7 +1754,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 125,
+   "n": 126,
    "title": "BMO Uses IBM Quantum Computers to Identify Which Inputs Matter Most to AI Models - HPCwire",
    "desc": "TORONTO, CHICAGO and SAN FRANCISCO, Nov. 19, 2026 — BMO today announced it has demonstrated quantum utility in a machine learning application using IBM quantum computers, meaning the work was performed reliably at a scale beyond what exact traditional computing methods can practically reproduce. The",
    "src": "HPCwire",
@@ -1754,7 +1768,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 126,
+   "n": 127,
    "title": "Chinese Team Wins 2026 ACM Gordon Bell Prize for Exascale Quantum Chemistry - HPCwire",
    "desc": "First Exascale Classical Solution Promises New Insights into One of the Most Consequential Chemical Reactions on Earth CHICAGO, Nov. 19, 2026 – ACM, the Association for Computing Machinery, named a ten-member team drawn from Chinese institutions as the winner of the 2026 ACM Gordon Bell Prize for th",
    "src": "HPCwire",
@@ -1768,7 +1782,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 127,
+   "n": 128,
    "title": "Mastercard Launches Quantum Advisory Practice for Financial Services",
    "desc": "Insider Brief PRESS RELEASE — Quantum computing is not currently a mainstream technology, but cybersecurity experts and the financial services industry need to operate as if it’s here. Quantum computing has transformative potential, from strengthening fraud detection to optimizing financial operatio",
    "src": "Thequantuminsider",
@@ -1782,7 +1796,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 128,
+   "n": 129,
    "title": "SC26: The Biggest Little Quantum Show in the World - HPCwire",
    "desc": "SC26 has broken all kinds of attendance records, with nearly 24,000 attendees piling into the McCormick Center in Chicago for the annual supercomputing extravaganza. AI is the big driver this week, but quantum isn’t far behind. The big question is whether we’ll start seeing the promised benefits bef",
    "src": "HPCwire",
@@ -1796,7 +1810,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 129,
+   "n": 130,
    "title": "CNM and Sandia National Labs Sign MoU to Expand Technical Workforce Training",
    "desc": "Insider Brief PRESS RELEASE — Leaders from Central New Mexico Community College and Sandia National Laboratories have signed a Memorandum of Understanding (MOU) to connect more New Mexicans to technical training and career pathways that address advanced manufacturing workforce needs in New Mexico wh",
    "src": "Thequantuminsider",
@@ -1810,7 +1824,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 130,
+   "n": 131,
    "title": "Guest Post: When Will Quantum Computing Become Useful for Insurance?",
    "desc": "Guest Post Dr. Kris Naudts, Zeynep Koruturk, and Donald Harmitt @ Firgun Ventures. Firgun Ventures is a VC firm investing in Series A/B quantum scale-ups globally. Insurance is, at its core, the business of putting a price on uncertainty, and computationally intensive simulations underpin much of ho",
    "src": "Thequantuminsider",
@@ -1824,7 +1838,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 131,
+   "n": 132,
    "title": "Delta Gold Launches Dedicated Quantum Sensing Program",
    "desc": "With new equipment funding at Penn State and the University of Toronto, Delta Gold Technologies has launched a dedicated quantum sensing program, allowing its gold nanoclusters to get to work on navigation and magnetic sensing while the quantum computing effort continues. Insider Brief For most of u",
    "src": "Thequantuminsider",
@@ -1838,7 +1852,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 132,
+   "n": 133,
    "title": "KT and LG Electronics Demonstrate Quantum Secure Direct Communication",
    "desc": "Insider Brief Image and text data were sent and then recovered at the receiving end using a quantum secure direct communication (QSDC) system that KT developed jointly with LG Electronics, KT said on Thursday, according to Digital Today. Digital Today described QSDC as a next-generation quantum comm",
    "src": "Thequantuminsider",
@@ -1852,7 +1866,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 133,
+   "n": 134,
    "title": "Guest Post: Building the Conditions for a Quantum Breakthrough",
    "desc": "Guest Post by Dr. Juan Bernabé-Moreno and Ivan Houlihan There is a class of problems in materials science that classical computers cannot solve. The math involved grows exponentially more complex as the system being studied gets larger. Add more dimensions to a quantum system or introduce realistic ",
    "src": "Thequantuminsider",
