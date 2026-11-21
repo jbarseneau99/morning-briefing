@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "updated_at": "2026-11-21T05:32:00-0500",
+ "updated_at": "2026-11-21T07:26:14-0500",
  "built_at": "2026-11-21T05:32:00-0500",
  "stories": [
   {
@@ -103,6 +103,48 @@
   },
   {
    "n": 8,
+   "title": "Fair-weather Silicon Valley pivots away from the right after blue wave: ‘I’m not Maga’",
+   "desc": "From Elon Musk to Palantir’s Alex Karp, CEOs are softening hardline stances in expectation of an influx of Democrats A short two years ago, Elon Musk stood before an audience of tens of thousands of people in New York City and proudly told them: “I’m not just Maga. I’m dark, gothic Maga.” On Wednesd",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/21/silicon-valley-pivot-us-midterms",
+   "dt": "Nov 21",
+   "img": "f5022eb101.jpg",
+   "id": "uf5022eb101",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology business news",
+   "sub": "Big Tech"
+  },
+  {
+   "n": 9,
+   "title": "“Race realism” isn’t realistic—and it isn’t good science",
+   "desc": "Modern genetics does not support claims of innate racial differences in intelligence.",
+   "src": "Ars Technica",
+   "url": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
+   "dt": "Nov 21",
+   "img": "8e097765d1.jpg",
+   "id": "u8e097765d1",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology business news",
+   "sub": "Big Tech"
+  },
+  {
+   "n": 10,
+   "title": "Sony’s New Flagship TV Lets You Tweak Its Settings Endlessly",
+   "desc": "The Bravia 9 II comes at a premium cost but offers great, highly customizable features.",
+   "src": "WIRED",
+   "url": "https://www.wired.com/review/sony-bravia-9-ii/",
+   "dt": "Nov 21",
+   "img": "c8ad294e70.jpg",
+   "id": "uc8ad294e70",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology business news",
+   "sub": "Big Tech"
+  },
+  {
+   "n": 11,
    "title": "Bell says enterprise customer data was stolen in ‘agentic’ cybersecurity incident",
    "desc": "Company is notifying affected customers, says no highly-sensitive private information was compromised",
    "src": "The Globe and Mail",
@@ -116,7 +158,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 9,
+   "n": 12,
    "title": "Amazon: China-nexus hackers’ Cairn AI agents found and exploited a zero-day on their own",
    "desc": "Amazon Threat Intelligence is sharing findings from an investigation into a Chinese-nexus threat actor using autonomous AI agents to conduct hacking operations with minimal human involvement. The actor gave the agents a ",
    "src": "Amazon Web Services",
@@ -130,7 +172,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 10,
+   "n": 13,
    "title": "UK competition body probes hyperscaler security and cloud lock-in",
    "desc": "CMA continues digital sovereignty investigation with consultation into IAM and Kubernetes",
    "src": "Data Center Dynamics",
@@ -144,7 +186,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 11,
+   "n": 14,
    "title": "Nissan Shuts Down System Used for Repairs After Hack Attempt",
    "desc": "The outage, which began a week ago, could delay repairs involving vehicle electronics and key fobs.",
    "src": "The New York Times",
@@ -158,7 +200,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 12,
+   "n": 15,
    "title": "Europe's cyber weak spot is the everyday businesses nobody thought to protect",
    "desc": "Known vulnerabilities are leaving everyday businesses increasingly exposed to cyber sabotage, as AI enables cybercriminals to work better and faster.",
    "src": "CNBC",
@@ -172,7 +214,7 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 13,
+   "n": 16,
    "title": "Trump says US flight systems are 'ancient' but 'safe' after ground stop",
    "desc": "Trump backed members of his administration who are asking for $50bn to rebuild air traffic control systems in the wake of last Friday's major outage.",
    "src": "BBC",
@@ -186,7 +228,21 @@
    "sub": "Enterprise & software"
   },
   {
-   "n": 14,
+   "n": 17,
+   "title": "Bell says it's investigating cyberattack that led to potential theft of business customer data | CBC News",
+   "desc": "Bell says it's investigating a cyber incident in which some enterprise client data may have been stolen. A spokesperson confirmed an \"agentic\" threat actor was able to access some of the company's systems, including one used for ordering and supplying telecommunication networks.",
+   "src": "CBC",
+   "url": "https://www.cbc.ca/news/business/bell-agentic-cyber-attack-9.7430468?cmp=rss",
+   "dt": "Nov 20",
+   "img": "d8130b2842.jpg",
+   "id": "ud8130b2842",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology business news",
+   "sub": "Enterprise & software"
+  },
+  {
+   "n": 18,
    "title": "Global PCB shortage deepens as AI demand strains supplies, with relief unlikely before mid-2028",
    "desc": "A global shortage of printed circuit boards (PCBs), essential to nearly all consumer electronics, is causing or threatening delivery delays of weeks to months across the automotive, medical, defence and aerospace industries, according to a new warning from the Global Electronics Association.",
    "src": "DigiTimes",
@@ -200,7 +256,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 15,
+   "n": 19,
    "title": "AMD set to lease planned 5C data center in Pennsylvania",
    "desc": "5C looking to buy site in Mount Carmel from FIT Energy",
    "src": "Data Center Dynamics",
@@ -214,7 +270,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 16,
+   "n": 20,
    "title": "Micron labor dispute in Taiwan heats up as premier calls for worker protection",
    "desc": "Micron Technology's labor dispute in Taiwan has intensified over its incentive-pay system, raising concerns that the standoff could undermine foreign investment confidence as Idaho Governor Brad Little visits the island. Premier Jung-tai Cho called for a settlement that protects workers while ensuri",
    "src": "DigiTimes",
@@ -228,7 +284,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 17,
+   "n": 21,
    "title": "CyrusOne and KEP top out 48MW data center in Osaka, Japan",
    "desc": "First facility under the pair's Japanese joint venture",
    "src": "Data Center Dynamics",
@@ -242,7 +298,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 18,
+   "n": 22,
    "title": "Rayzher, Messer form JV for semiconductor specialty gases",
    "desc": "Rayzher Industrial and German industrial gas supplier Messer signed a joint venture and strategic alliance agreement on November 19 to establish Messer Rayzher Electronic Materials Co. The new business will combine Messer's electronic-grade gas products, manufacturing technology and global supply ch",
    "src": "DigiTimes",
@@ -256,7 +312,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 19,
+   "n": 23,
    "title": "SolidWizard sees AI, semiconductor orders through 2027",
    "desc": "Rising investment in AI, semiconductors, and high-performance computing is driving demand for advanced software, giving 3D digital design and AI solutions provider SolidWizard Technology strong order visibility from AI and semiconductor customers through 2027. SolidWizard reported consolidated reven",
    "src": "DigiTimes",
@@ -270,7 +326,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 20,
+   "n": 24,
    "title": "AAEON targets semiconductors, robotics and defense beyond consumer AI inflation",
    "desc": "Industrial PC maker AAEON Technology reported third-quarter 2026 revenue of NT$2.873 billion (US$87.46 million), up 24.6% year on year, as AI edge computing and embedded products drove core operations, and investment valuation gains boosted non-operating income. Net income attributable to owners of ",
    "src": "DigiTimes",
@@ -284,7 +340,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 21,
+   "n": 25,
    "title": "Axiomtek restructures for physical AI, expands global customer reach",
    "desc": "Industrial PC (IPC) maker Axiomtek sustained growth in Q3 2026, reporting quarterly revenue of NT$2.779 billion (US$84.6 million), up 11.5% quarter-over-quarter and 59.32% year-over-year, while its operating margin rose to 13.09%. The company attributed the growth to demand for edge computing, indus",
    "src": "DigiTimes",
@@ -298,7 +354,35 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 22,
+   "n": 26,
+   "title": "Nextlink launches AI transformation project as revenue reaches record high",
+   "desc": "Sustained demand for enterprise cloud adoption and AI deployment has led to growing revenues for cloud AI solution providers. Nextlink, the cloud business subsidiary of telecom company Far EasTone Telecommunications, returned to operating profitability in the first three quarters of 2026 and posted ",
+   "src": "DigiTimes",
+   "url": "https://www.digitimes.com/news/a20261119PD221/revenue-demand-business-growth-adoption.html",
+   "dt": "Nov 20",
+   "img": "0951094a39.jpg",
+   "id": "u0951094a39",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology business news",
+   "sub": "Semis & hardware business"
+  },
+  {
+   "n": 27,
+   "title": "Staff list shows the scope of Prometheus",
+   "desc": "Details have emerged about the personnel employed at Prometheus, a physical AI company co-run by Amazon founder Jeff Bezos that seeks to create a tool with the capabilities of an \"artificial general engineer.\" The startup is seeking to transform industries as varied as manufacturing and drug discove",
+   "src": "DigiTimes",
+   "url": "https://www.digitimes.com/news/a20261120VL217/personnel-manufacturing-startup-amazon-design.html",
+   "dt": "Nov 20",
+   "img": "a5ce3d9ddb.jpg",
+   "id": "ua5ce3d9ddb",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology business news",
+   "sub": "Semis & hardware business"
+  },
+  {
+   "n": 28,
    "title": "Databricks in early talks to raise funds at a $225 billion valuation",
    "desc": "The new financing would represent a nearly 20% increase from its August valuation.",
    "src": "The Wall Street Journal",
@@ -312,7 +396,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 23,
+   "n": 29,
    "title": "The Week’s 10 Biggest Funding Rounds: $400M For Neurotech Leads, Followed By Big Deals For AI, Fintech, Biotech And More",
    "desc": "U.S. startups continued to secure sizable rounds, led by brain-computer interface company Science securing a fresh $400 million.",
    "src": "News",
@@ -326,7 +410,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 24,
+   "n": 30,
    "title": "Wonder explores a sale of food-delivery business Grubhub",
    "desc": "Marc Lore’s Wonder is exploring a sale of Grubhub, which it bought in 2024, as it focuses on its food-hall business, the WSJ reports.",
    "src": "The Wall Street Journal",
@@ -340,7 +424,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 25,
+   "n": 31,
    "title": "StepSecurity, led by two Microsoft vets, raises $20M to defend developers’ tools from hackers",
    "desc": "StepSecurity, a Seattle-area startup founded by two former Microsoft engineers, raised a $20 million Series A to protect the laptops, code repositories and build systems that developers use from supply chain attacks. Read More",
    "src": "GeekWire",
@@ -354,7 +438,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 26,
+   "n": 32,
    "title": "Rapidtek Technologies raises NT$300 million to expand RF, LEO satellite business",
    "desc": "Rapidtek Technologies has completed an NT$300 million (US$9.13 million) cash capital increase to strengthen its radio-frequency (RF) and low-Earth orbit (LEO) satellite businesses. The company said it will use the funds for capacity expansion, international operations, and working capital.",
    "src": "DigiTimes",
@@ -368,7 +452,77 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 27,
+   "n": 33,
+   "title": "Harbinger is building the unsexy EVs that keep the economy moving",
+   "desc": "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $240 million in a Series D round, capping a banner stretch that includes a $300 million order from FedEx and a new defense contract with the ",
+   "src": "The Verge",
+   "url": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
+   "dt": "Nov 21",
+   "img": "264c5c0712.jpg",
+   "id": "u264c5c0712",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 34,
+   "title": "Gianni Infantino’s FIFA re-election backed by South America’s CONMEBOL",
+   "desc": "Infantino handed huge boost in re-election campaign as FIFA president as CONMEBOL offers unanimous support.",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/sports/2026/11/21/gianni-infantinos-fifa-re-election-backed-by-south-americas-conmebol?traffic_source=rss",
+   "dt": "Nov 21",
+   "img": "ea848382db.jpg",
+   "id": "uea848382db",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 35,
+   "title": "'Accept cookies'? Russia collects data from swaths of unknowing Swedes",
+   "desc": "A Russian tech firm backed by an oligarch close to President Vladimir Putin has secretly been collecting data from hundreds of thousands – possibly millions – of Swedes, a newspaper investigation found. The revelation has rattled the Nordic nation, whose proximity to Russia and unusually open public",
+   "src": "France 24",
+   "url": "https://www.france24.com/en/europe/20261121-accept-cookies-russia-collected-data-swaths-unknowing-swedes",
+   "dt": "Nov 21",
+   "img": "",
+   "id": "u257751a4e9",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 36,
+   "title": "Sources: Databricks is in early talks to raise several billion dollars at a ~$225B valuation, after closing a $5B round at a $190B valuation",
+   "desc": "Wall Street Journal : Sources: Databricks is in early talks to raise several billion dollars at a ~$225B valuation, after closing a $5B round at a $190B valuation in August — The new financing would represent a nearly 20% increase from its August valuation — Databricks is in early talks to raise sev",
+   "src": "Techmeme",
+   "url": "https://www.techmeme.com/261120/p40#a261120p40",
+   "dt": "Nov 20",
+   "img": "cb11d3a4d2.jpg",
+   "id": "ucb11d3a4d2",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 37,
+   "title": "Canada appoints US-based Financial Data Exchange to set technical standards for open banking | BetaKit",
+   "desc": "Feds say FDX was selected as it’s the globally recognized standard, with most widespread support. The post Canada appoints US-based Financial Data Exchange to set technical standards for open banking first appeared on BetaKit .",
+   "src": "BetaKit",
+   "url": "https://betakit.com/canada-to-appoint-us-based-financial-data-exchange-to-set-technical-standards-for-open-banking/",
+   "dt": "Nov 20",
+   "img": "4f63f03902.jpg",
+   "id": "u4f63f03902",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Venture rounds"
+  },
+  {
+   "n": 38,
    "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
    "desc": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
    "src": "CNBC",
@@ -382,7 +536,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 28,
+   "n": 39,
    "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
    "desc": "All 11 S&P 500 sectors finished more than 1% lower this week for the first time since April 2025.",
    "src": "Marketwatch",
@@ -396,7 +550,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 29,
+   "n": 40,
    "title": "The blame game has begun over Anthropic’s turbulent trading debut",
    "desc": "The AI giant’s stock slid in its second day of trading, at one point dropping to just 5 cents above its IPO price.",
    "src": "The Wall Street Journal",
@@ -410,7 +564,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 30,
+   "n": 41,
    "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
    "desc": "A major semiconductor index just posted its worst weekly performance in 25 years.",
    "src": "Marketwatch",
@@ -424,7 +578,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 31,
+   "n": 42,
    "title": "Here’s who’s getting the richest from Anthropic’s $81 billion IPO | Fortune",
    "desc": "Anthropic's debut made its seven co-founders some of the richest people in the world.",
    "src": "Fortune",
@@ -438,7 +592,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 32,
+   "n": 43,
    "title": "These stocks were crushed the most this week as the tech wreck accelerated",
    "desc": "94% of stocks in the S&P 500 declined for the week, 11 of them by at least 20%. But for now, analysts still think you can make a lot of money if you buy them.",
    "src": "Marketwatch",
@@ -452,7 +606,63 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 33,
+   "n": 44,
+   "title": "Indonesia regulator fines and sanctions firms for stock manipulation, disclosure failures",
+   "desc": "The authority ordered the return of 23.77 billion rupiah (S$1.6 million) in illicit gains from three stock manipulation cases.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/asia/se-asia/indonesia-regulator-fines-and-sanctions-firms-for-stock-manipulation-disclosure-failures",
+   "dt": "Nov 21",
+   "img": "30a9095314.jpg",
+   "id": "u30a9095314",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Public markets & IPOs"
+  },
+  {
+   "n": 45,
+   "title": "S&P 500 correction: Five forces behind the market sell-off",
+   "desc": "The S&P 500 and Dow Jones Industrial Average closed in correction territory, off 10% from their records. The Nasdaq Composite lost its gain for the year.",
+   "src": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
+   "dt": "Nov 20",
+   "img": "ef625298ac.jpg",
+   "id": "uef625298ac",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Public markets & IPOs"
+  },
+  {
+   "n": 46,
+   "title": "Hardware hacker builds open-source portable 3.5-inch floppy Wi-Fi NAS — reads and shares old-school floppies wirelessly or through direct co",
+   "desc": "Techie designs a portable Wi-Fi NAS to read and transfer digital camera floppy disks — device does double duty for easy floppy archival",
+   "src": "Tomshardware",
+   "url": "https://www.tomshardware.com/maker-stem/hardware-hacker-builds-open-source-portable-3-5-inch-floppy-wi-fi-nas-reads-and-shares-old-school-floppies-wirelessly-or-through-direct-connection",
+   "dt": "Nov 21",
+   "img": "3d49c5caa1.jpg",
+   "id": "u3d49c5caa1",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Public markets & IPOs"
+  },
+  {
+   "n": 47,
+   "title": "Everyone’s making money off ‘GTA 6’ this week — except investors in Take-Two’s stock",
+   "desc": "‘Grand Theft Auto VI’ might be a blockbuster game, but investors are shrugging it off.",
+   "src": "Marketwatch",
+   "url": "https://www.marketwatch.com/story/everyones-making-money-off-gta-6-this-week-except-investors-in-take-twos-stock-489ee01b?mod=mw_rss_topstories",
+   "dt": "Nov 20",
+   "img": "eaf243185a.jpg",
+   "id": "ueaf243185a",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Public markets & IPOs"
+  },
+  {
+   "n": 48,
    "title": "Dominion Dynamics taps Canadian and NATO partners for autonomous wingman project | BetaKit",
    "desc": "Defence tech startup has also landed a $17-million federal contract to make a drone minehunter. The post Dominion Dynamics taps Canadian and NATO partners for autonomous wingman project first appeared on BetaKit .",
    "src": "BetaKit",
@@ -466,7 +676,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 34,
+   "n": 49,
    "title": "How the Department of Commerce’s Quantum Awards Work and What Companies Give in Return",
    "desc": "Insider Brief The U.S. Department of Commerce’s quantum computing awards combine research funding with government ownership, giving companies access to capital for specific engineering projects in exchange for shares and commitments governing how the work is completed. Agreements disclosed in SEC fi",
    "src": "Thequantuminsider",
@@ -480,7 +690,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 35,
+   "n": 50,
    "title": "The AI Riemann hypothesis proof is almost certainly true, independent mathematicians attest",
    "desc": "Researchers are near to completing their verification of a claimed solution to the most important unsolved problem in math",
    "src": "Scientific American",
@@ -494,7 +704,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 36,
+   "n": 51,
    "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
    "desc": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better than scientists expected. The instrument could soon reveal Mercury's hidden chemical secrets and transform our understand",
    "src": "ScienceDaily",
@@ -508,7 +718,119 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 37,
+   "n": 52,
+   "title": "Endangered red squirrels thriving on British island",
+   "desc": "Conservationists say that, with red squirrels dwindling in the UK, Jersey is an \"important refuge\".",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 21",
+   "img": "31bc486d33.jpg",
+   "id": "u31bc486d33",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 53,
+   "title": "Weirdly accelerating space rock keeps puzzling astronomers",
+   "desc": "The strange “dark comet” 1998 KY26 is moving in a way scientists have yet to fully understand. A Japanese space probe was set to visit in 2031, but engine trouble will prevent that encounter, leaving the mystery unsolved",
+   "src": "Scientific American",
+   "url": "https://www.scientificamerican.com/article/weirdly-accelerating-space-rock-keeps-puzzling-astronomers/",
+   "dt": "Nov 21",
+   "img": "b27ba22f43.jpg",
+   "id": "ub27ba22f43",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 54,
+   "title": "Beating Ebola takes more than medicine – I saw what worked in west Africa a decade ago | Kayode Akintola",
+   "desc": "The outbreak in DR Congo is shaping up to be the worst ever, but the support of local faith leaders – and adequate funding – will be needed to bring it under control Ebola is terrifying: I know, because I lived through the world’s worst outbreak of the disease . That was in west Africa between 2013 ",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/global-development/2026/nov/21/ebola-outbreak-congo-worst-ever",
+   "dt": "Nov 21",
+   "img": "df1655ff07.jpg",
+   "id": "udf1655ff07",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 55,
+   "title": "Scientists revealed how rare disease worked by putting 78,000 letters of human DNA into mouse",
+   "desc": "By inserting human genes into lab mice, scientists were able to study the underlying mechanics of a disease that's been notoriously difficult to research.",
+   "src": "Live Science",
+   "url": "https://www.livescience.com/health/genetics/scientists-put-78-000-letters-of-human-dna-into-a-mouse-and-unraveled-how-a-rare-disease-worked",
+   "dt": "Nov 21",
+   "img": "e563dddb06.jpg",
+   "id": "ue563dddb06",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 56,
+   "title": "'A future where EVs charge simply by parking': New positioning system could make wireless EV charging much more efficient | Live Science",
+   "desc": "A new positioning technology could make autonomous vehicles and robotaxis more reliable at recharging themselves.",
+   "src": "Live Science",
+   "url": "https://www.livescience.com/technology/electric-vehicles/a-future-where-evs-charge-simply-by-parking-new-positioning-system-could-make-wireless-ev-charging-much-more-efficient",
+   "dt": "Nov 21",
+   "img": "5e36d3d8ac.jpg",
+   "id": "u5e36d3d8ac",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 57,
+   "title": "Why do wolves howl?",
+   "desc": "Wolves howl for a variety of reasons. But none of them are triggered by the sight of the moon.",
+   "src": "Live Science",
+   "url": "https://www.livescience.com/animals/why-do-wolves-howl",
+   "dt": "Nov 21",
+   "img": "f6b3ed5d1b.jpg",
+   "id": "uf6b3ed5d1b",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 58,
+   "title": "What do other planets smell like? The answer hides in their chemistry",
+   "desc": "We’ll probably never sniff other planets, but that doesn’t mean we can’t get an idea of what they smell like",
+   "src": "Scientific American",
+   "url": "https://www.scientificamerican.com/article/what-do-other-planets-smell-like-the-answer-hides-in-their-chemistry/",
+   "dt": "Nov 21",
+   "img": "6a8cc5af11.jpg",
+   "id": "u6a8cc5af11",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 59,
+   "title": "Math Puzzle: The longest shuffle",
+   "desc": "Find the most laborious shuffle you can",
+   "src": "Scientific American",
+   "url": "https://www.scientificamerican.com/article/math-puzzle-longest-shuffle/",
+   "dt": "Nov 21",
+   "img": "cbb1999fb1.jpg",
+   "id": "ucbb1999fb1",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 60,
    "title": "FDA rejects Capricor Therapeutics' Duchenne therapy, a decision that was a long time coming",
    "desc": "The FDA said it had rejected a cell therapy intended for patients with Duchenne muscular dystrophy developed by Capricor Therapeutics.",
    "src": "STAT",
@@ -522,7 +844,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 38,
+   "n": 61,
    "title": "ICE detention of Princeton scientist rattles academia",
    "desc": "A graduate student who is a scientific researcher at Princeton was detained by ICE while traveling home after presenting at a neuroscience conference.",
    "src": "STAT",
@@ -536,7 +858,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 39,
+   "n": 62,
    "title": "Medicare pilot will test ‘food is medicine’ and other lifestyle programs to counter chronic diseases",
    "desc": "Medicare does not cover many of the lifestyle interventions that could keep people from getting sick in the first place.",
    "src": "STAT",
@@ -550,7 +872,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 40,
+   "n": 63,
    "title": "‘They’re struggling for oxygen’: children pay the price as countries allow measles to surge again",
    "desc": "The US, Mexico and Bolivia this week joined the unenviable club of nations that have lost their measles-free status Deaths caused by measles are not peaceful. In his hospital in Uganda, Dr Eric Wobudeya treats young infants after the virus has attacked their lungs and airways, or triggered pneumonia",
    "src": "The Guardian",
@@ -564,7 +886,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 41,
+   "n": 64,
    "title": "How Kennedy and MAHA could help stop measles",
    "desc": "Kennedy and MAHA say they aren’t anti-vaccine. They can prove it by promoting the MMR vaccine, writes Brinda Adhikari.",
    "src": "STAT",
@@ -578,7 +900,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 42,
+   "n": 65,
    "title": "Is MAHA’s think tank in the tank? Tax filings show low reserves",
    "desc": "Tax filings show the MAHA Institute spent more than $1 million in 2025, ending its first year with just $171,000 as events and overhead drained its cash.",
    "src": "STAT",
@@ -592,7 +914,63 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 43,
+   "n": 66,
+   "title": "Top Drug Kingpin Is Captured by Mexican Army as Gunfire Erupts",
+   "desc": "The arrest of Fausto Isidro Meza Flores, who is known as El Chapo Isidro and was one of the F.B.I.’s 10 most wanted, was a victory for the Mexican government.",
+   "src": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-captured-drugs.html",
+   "dt": "Nov 21",
+   "img": "",
+   "id": "u4992a5d3af",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 67,
+   "title": "When should medical school start?",
+   "desc": "STAT readers weigh in on shortening medical school, fixing pediatric emergency care, and more.",
+   "src": "STAT",
+   "url": "https://www.statnews.com/2026/11/21/stat-letters-to-editor-medical-school-pediatric-emergency-care/?utm_campaign=rss",
+   "dt": "Nov 21",
+   "img": "5da827f3cf.jpg",
+   "id": "u5da827f3cf",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 68,
+   "title": "Judge Approves $7 Billion Settlement Over Claims That Roundup Caused Cancer",
+   "desc": "The ruling, in a nationwide class-action suit, is expected to end tens of thousands of lawsuits by people claiming that Roundup caused non-Hodgkin lymphoma.",
+   "src": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/20/business/judge-approves-7-billion-settlement-over-claims-that-roundup-caused-cancer.html",
+   "dt": "Nov 20",
+   "img": "",
+   "id": "u43662880de",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 69,
+   "title": "French police officers found guilty of racist assault on black music producer",
+   "desc": "Beating of Michel Zecler in 2020 sparked outrage over police brutality after it was caught on security cameras Three French police officers who beat a black music producer they said was not wearing a face mask during the Covid pandemic have been found guilty of intentional, racist violence. The brut",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer",
+   "dt": "Nov 20",
+   "img": "8ed73d92e1.jpg",
+   "id": "u8ed73d92e1",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Biology & Medicine"
+  },
+  {
+   "n": 70,
    "title": "China commits to low-carbon electrification and help for others to improve",
    "desc": "Exclusive: Countries at Cop31 are being urged to commit to deriving 35% of their energy from electricity by 2035 Cop31 live – latest updates China is pushing for rapid electrification of its economy using low-carbon energy and will help other countries do the same, a senior member of the Chinese del",
    "src": "The Guardian",
@@ -606,7 +984,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 44,
+   "n": 71,
    "title": "At COP31, conflict over climate science slows action on global warming",
    "desc": "Attacks on climate science and disinformation risk delaying key measures at COP31 in Antalya. As the UN climate talks draw to a close, how will that affect efforts to come to an agreement?",
    "src": "DW",
@@ -620,7 +998,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 45,
+   "n": 72,
    "title": "Australian energy officials warned of data centre risk: Report",
    "desc": "Department of Energy, Environment and Climate Action officials briefed the energy minister on their concerns in March.",
    "src": "The Straits Times",
@@ -634,7 +1012,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 46,
+   "n": 73,
    "title": "Why China is unwilling to be the world's next climate leader",
    "desc": "ANTALYA, Turkey, Nov 20 - President Xi Jinping showcased China's diplomatic heft this week at the Asia-Pacific Economic Cooperation forum.",
    "src": "The Straits Times",
@@ -648,7 +1026,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 47,
+   "n": 74,
    "title": "Opinion: Canada’s pension fund whistles past the graveyard as climate risks mount",
    "desc": "The plan continues to sink its money into fossil fuels while waving off climate risk concerns",
    "src": "The Globe and Mail",
@@ -662,7 +1040,77 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 48,
+   "n": 75,
+   "title": "6.7-magnitude earthquake shakes Peru’s Andes, with no damage or casualties immediately reported",
+   "desc": "The quake’s epicenter was in the Andes, 34km north of Junin, at a depth of 108km.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/magnitude-6-9-earthquake-shakes-perus-andes-with-no-damage-or-casualties-immediately-reported",
+   "dt": "Nov 20",
+   "img": "573d5eb68b.jpg",
+   "id": "u573d5eb68b",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Earth & Climate"
+  },
+  {
+   "n": 76,
+   "title": "Burnham broaches Britain rejoining EU at summit, 10 years after Brexit",
+   "desc": "Officials announce series of deals covering youth mobility, carbon emissions, defence co-operation, illegal migration and trade",
+   "src": "The Globe and Mail",
+   "url": "https://www.theglobeandmail.com/world/article-uk-eu-summit-brexit-trade-travel/",
+   "dt": "Nov 20",
+   "img": "8c35738864.jpg",
+   "id": "u8c35738864",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Earth & Climate"
+  },
+  {
+   "n": 77,
+   "title": "UN climate talks in Turkey runs risk of being ‘worst COP ever’ after fossil fuels left out of draft deal",
+   "desc": "Negotiators are still debating how to address global warming and experts warn that only slashing fossil fuels can avert its most catastrophic effects",
+   "src": "The Globe and Mail",
+   "url": "https://www.theglobeandmail.com/world/article-cop31-fossil-fuel-cuts-climate-change/",
+   "dt": "Nov 20",
+   "img": "ba9f70a56c.jpg",
+   "id": "uba9f70a56c",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Earth & Climate"
+  },
+  {
+   "n": 78,
+   "title": "Canadian military will keep firing howitzers to trigger B.C. avalanches, pausing plan to end program | CBC News",
+   "desc": "Parks Canada and the Canadian Armed Forces say that after \"further consideration,\" they no longer have plans to end Operation Palaci, a long-running avalanche control program in Rogers Pass through the Selkirk Mountains in Glacier National Park.",
+   "src": "CBC",
+   "url": "https://www.cbc.ca/news/canada/british-columbia/glacier-national-park-avalanche-control-military-revelstoke-9.7428898?cmp=rss",
+   "dt": "Nov 20",
+   "img": "060cf129dc.jpg",
+   "id": "u060cf129dc",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Earth & Climate"
+  },
+  {
+   "n": 79,
+   "title": "Africa at COP31: Will climate cash finally flow?",
+   "desc": "As the curtains draw to a close on COP31 in Antalya, one question looms large for African countries: Will climate promises finally translate into the funding African communities need to cope with a warming world?",
+   "src": "DW",
+   "url": "https://www.dw.com/en/africa-at-cop31-will-climate-cash-finally-flow/a-80002269?maca=en-rss-en-africa-8291-rdf",
+   "dt": "Nov 20",
+   "img": "",
+   "id": "u1006e17921",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Earth & Climate"
+  },
+  {
+   "n": 80,
    "title": "Quebecor, Telesat exploring partnerships tied to Lightspeed satellite constellation",
    "desc": "Companies had early-stage talks about the technology but no investment proposal has been made",
    "src": "The Globe and Mail",
@@ -676,7 +1124,7 @@
    "sub": "Space"
   },
   {
-   "n": 49,
+   "n": 81,
    "title": "SpaceX launches classified mission for US Space Force from California",
    "desc": "SpaceX launched a classified mission for the U.S. Space Force tonight (Nov. 20), sending a mystery payload to orbit from California's central coast.",
    "src": "Space.com",
@@ -690,7 +1138,7 @@
    "sub": "Space"
   },
   {
-   "n": 50,
+   "n": 82,
    "title": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
    "desc": "\"Explain the changes that were made to the Starshield service in October 2026.\"",
    "src": "Ars Technica",
@@ -704,7 +1152,7 @@
    "sub": "Space"
   },
   {
-   "n": 51,
+   "n": 83,
    "title": "NASA’s new Moon plan is taking shape, but some big questions remain",
    "desc": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\"",
    "src": "Ars Technica",
@@ -718,7 +1166,7 @@
    "sub": "Space"
   },
   {
-   "n": 52,
+   "n": 84,
    "title": "Curiosity Spots Drifting Twilight Clouds - NASA Science",
    "desc": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which ",
    "src": "NASA",
@@ -732,7 +1180,7 @@
    "sub": "Space"
   },
   {
-   "n": 53,
+   "n": 85,
    "title": "APOD: 2026 November 21 – Voyager's Neptune - NASA Science",
    "desc": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation writt",
    "src": "NASA",
@@ -746,7 +1194,63 @@
    "sub": "Space"
   },
   {
-   "n": 54,
+   "n": 86,
+   "title": "A Space Probe Returns to Asteroids Where NASA Tested Planetary Defense Systems",
+   "desc": "Several years ago, NASA tested systems for deterring dangerous space rocks. Now, a probe from the European Space Agency is returning to the scene to investigate.",
+   "src": "WIRED",
+   "url": "https://www.wired.com/story/a-space-probe-returns-to-astroids-where-nasa-tested-planetary-defense-systems/",
+   "dt": "Nov 21",
+   "img": "4a5cc6af4e.jpg",
+   "id": "u4a5cc6af4e",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Space"
+  },
+  {
+   "n": 87,
+   "title": "European-Japanese BepiColombo probe arrives in orbit around Mercury today",
+   "desc": "The BepiColombo spacecraft will finally arrive in orbit around Mercury today (Nov. 21), more than eight years after leaving its home planet.",
+   "src": "Space.com",
+   "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival",
+   "dt": "Nov 21",
+   "img": "41fef234fe.jpg",
+   "id": "u41fef234fe",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Space"
+  },
+  {
+   "n": 88,
+   "title": "Space Entrepreneurs Should Look To 16th Century Spice Trade For Inspiration",
+   "desc": "In the short term, human exploration of the Moon and Mars seems practical, but for the next 50 years at least, robotic exploration may be the most cost-effective and efficient. Human exploration requires an imperative return on capital.",
+   "src": "Universetoday",
+   "url": "https://www.universetoday.com/articles/space-entrepreneurs-should-look-to-16th-century-spice-trade-for-inspiration",
+   "dt": "Nov 21",
+   "img": "24f4e6969b.jpg",
+   "id": "u24f4e6969b",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Space"
+  },
+  {
+   "n": 89,
+   "title": "‘The greatest game ever made’: readers and Guardian staff on Grand Theft Auto VI",
+   "desc": "Rockstar’s newest installment of its hit franchise still has plenty of action, along with a dose of ‘healthy masculinity’ Described as the biggest entertainment launch in history, the new Grand Theft Auto game has prompted avid fans around the world to take the day off work, stock up on snacks and c",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/games/2026/nov/20/grand-theft-auto-vi-players-review",
+   "dt": "Nov 20",
+   "img": "e0006c8114.jpg",
+   "id": "ue0006c8114",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Space"
+  },
+  {
+   "n": 90,
    "title": "Thinking Machines releases Inkling 2 Mini, an open model for local use",
    "desc": "Inkling 2 Mini is an open-weights model small enough to run on your laptop. It loops its middle layers to reason more per token and reach answers in fewer tokens.",
    "src": "Thinking Machines Lab",
@@ -760,7 +1264,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 55,
+   "n": 91,
    "title": "‘The doom of humanity’: will the quest to make robotic hands render us obsolete?",
    "desc": "The one thing stopping AI taking over the world – or at least everyone’s jobs? Dexterity. Human hands are anatomical marvels that engineers have struggled for years to replicate. Experts are racing to change that Just outside Luton, in an Amazon warehouse the size of four football pitches, yellow sh",
    "src": "The Guardian",
@@ -774,7 +1278,63 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 56,
+   "n": 92,
+   "title": "Anthropic’s Debut Shows the Disconnect Between Wall Street and Silicon Valley",
+   "desc": "The A.I. giant broke records with its initial public offering this week before a rocky first full day of trading, as the markets plunged on worries about artificial intelligence spending.",
+   "src": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/21/business/anthropics-debut-shows-the-disconnect-between-wall-street-and-silicon-valley.html",
+   "dt": "Nov 21",
+   "img": "",
+   "id": "ua890647b30",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 93,
+   "title": "How to Plan for an A.I. Emergency, or Any Calamity",
+   "desc": "One person’s attempt to prepare for the unthinkable.",
+   "src": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/21/business/ai-emergency-plan.html",
+   "dt": "Nov 21",
+   "img": "",
+   "id": "u4c68479e97",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 94,
+   "title": "Nations agree to ‘elaborate’ on rules for AI-run ‘killer robots’ by 2028",
+   "desc": "Members of the UN's Convention on Certain Conventional Weapons fail to agree on swift adoption of legally binding rules.",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit?traffic_source=rss",
+   "dt": "Nov 21",
+   "img": "6433155462.jpg",
+   "id": "u6433155462",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 95,
+   "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+   "desc": "Efforts to establish rules for AI-powered killer robots and drones have run aground. U.N.-backed talks in Geneva ended Saturday with an agreement to extend discussions for two more years.",
+   "src": "NPR",
+   "url": "https://www.npr.org/2026/11/21/g-s1-154914/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+   "dt": "Nov 20",
+   "img": "8dbe631aa2.jpg",
+   "id": "u8dbe631aa2",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 96,
    "title": "Pacific Fusion secures key licence for New Mexico campus",
    "desc": "The New Mexico Environment Department has approved the radioactive materials licence for pulsed magnetic fusion system developer Pacific Fusion's Research and Manufacturing Campus in Albuquerque, enabling the company to operate a fusion machine.",
    "src": "World Nuclear News",
@@ -788,7 +1348,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 57,
+   "n": 97,
    "title": "Radiant expands facilities to support microreactor deployment",
    "desc": "The multimillion-dollar expansion of Radiant's US manufacturing footprint includes a new headquarters and manufacturing facility in California, where its first commercial reactors will be assembled, as well as continued development of its campus in Tennessee.",
    "src": "World Nuclear News",
@@ -802,7 +1362,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 58,
+   "n": 98,
    "title": "South Africa moving ahead on new nuclear plans",
    "desc": "Energy Minister Kgosientsho Ramokgopa has said his department is preparing to put the case for an additional 5.2 GW of nuclear capacity in South Africa \"before the public and will consider submissions on their merits\".",
    "src": "World Nuclear News",
@@ -816,7 +1376,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 59,
+   "n": 99,
    "title": "Lloyd's Register approves new rules for nuclear for maritime",
    "desc": "UK-based classification society and professional advisory service Lloyd's Register has approved Rules for the Classification of Ships and Offshore Units Integrated with Nuclear Power, providing a common classification framework to support the assessment of nuclear technologies for maritime use.",
    "src": "World Nuclear News",
@@ -830,7 +1390,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 60,
+   "n": 100,
    "title": "Partners prepare to procure next batch of equipment for Polish plant",
    "desc": "Polskie Elektrownie Jądrowe has signed a letter of intent with the Westinghouse-Bechtel consortium concerning the extension of the scope of the Engineering Development Agreement to cover activities related to the procurement of long lead items for the initial unit of Poland's planned first nuclear p",
    "src": "World Nuclear News",
@@ -844,7 +1404,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 61,
+   "n": 101,
    "title": "This 500 kWh energy storage system runs on retired EV batteries",
    "desc": "A retired EV battery can still have years of use left in it when it’s taken off the road. Moment Energy’s new Nova battery storage system puts those packs to work on commercial sites. And when a pack wears out, it can be swapped without pulling out the whole system. more…",
    "src": "Electrek",
@@ -858,7 +1418,63 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 62,
+   "n": 102,
+   "title": "As e-bike battery fires mount, New York weighs tougher restrictions",
+   "desc": "Fires caused by lithium-ion batteries have surged 70% from a year earlier.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/united-states/as-e-bike-battery-fires-mount-new-york-weighs-tougher-restrictions",
+   "dt": "Nov 21",
+   "img": "74dbe849d6.jpg",
+   "id": "u74dbe849d6",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 103,
+   "title": "Pacific Fusion receives N.M. radioactive materials license",
+   "desc": "The New Mexico Environment Department (NMED) has approved Pacific Fusion’s radioactive materials license, allowing it to fabricate and test deuterium-tritium fusion targets and conduct experiments at a facility that is under construction in Albuquerque, N.M., the company announced. The license autho",
+   "src": "Ans",
+   "url": "https://www.ans.org/news/2026-11-20/article-8599/pacific-fusion-receives-nm-radioactive-materials-license/",
+   "dt": "Nov 20",
+   "img": "",
+   "id": "u362141bc9f",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 104,
+   "title": "BYD offers a first look at its new flagship people mover",
+   "desc": "BYD is preparing to launch a new flagship MPV soon after previewing the large people mover for the first time. more…",
+   "src": "Electrek",
+   "url": "https://electrek.co/2026/11/20/byd-first-look-new-flagship-people-mover/",
+   "dt": "Nov 20",
+   "img": "d11cddcd7d.jpg",
+   "id": "ud11cddcd7d",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 105,
+   "title": "Building nuclear’s next-gen workforce",
+   "desc": "As the nuclear energy industry advances a new generation of more cost-effective, more efficient small reactors, another challenge is coming into sharper focus: Who will build, operate, and maintain them? The Department of Energy projects that the nuclear energy sector will need more than 375,000 ski",
+   "src": "Ans",
+   "url": "https://www.ans.org/news/2026-11-20/article-8538/building-nuclears-nextgen-workforce/",
+   "dt": "Nov 20",
+   "img": "",
+   "id": "u9dbda4106e",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Energy & Nuclear"
+  },
+  {
+   "n": 106,
    "title": "SoftBank’s Son explored a $1 trillion bid for SK hynix before shelving the idea",
    "desc": "SoftBank Group Chairman Son Masayoshi explored financing options with Wall Street institutions for a roughly $1 trillion acquisition of SK hynix, according to a",
    "src": "The Korea Herald",
@@ -872,7 +1488,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 63,
+   "n": 107,
    "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
    "desc": "Bessent said the U.S. does not need new restrictions on sales of older Nvidia chips to China.",
    "src": "CNBC",
@@ -886,7 +1502,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 64,
+   "n": 108,
    "title": "US lawmakers push for tougher AI chip rules amid China export crackdown",
    "desc": "Washington has new rules restricting remote access to advanced US AI chips, but lawmakers want more.",
    "src": "Al Jazeera",
@@ -900,7 +1516,49 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 65,
+   "n": 109,
+   "title": "A massive bearish trade just happened in the chip stocks",
+   "desc": "Options traders place big bets that semiconductor stocks have further to fall",
+   "src": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html",
+   "dt": "Nov 20",
+   "img": "e666e121ee.jpg",
+   "id": "ue666e121ee",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 110,
+   "title": "Sources: Masayoshi Son recently explored a possible $1T buyout of SK Hynix; SoftBank says the deal is “no longer under active consideration”",
+   "desc": "The Information : Sources: Masayoshi Son recently explored a possible $1T buyout of SK Hynix; SoftBank says the deal is “no longer under active consideration” — SoftBank CEO Masayoshi Son recently approached Wall Street institutions about financing a possible trillion-dollar buyout of memory chip gi",
+   "src": "Techmeme",
+   "url": "https://www.techmeme.com/261120/p45#a261120p45",
+   "dt": "Nov 20",
+   "img": "5a2b575fb2.jpg",
+   "id": "u5a2b575fb2",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 111,
+   "title": "California investigates Nvidia over whether chip exports ended up in China",
+   "desc": "State attorney says scandal ‘raises bright red flags’ and aims to find out if company misled investors California has served an investigative subpoena on Nvidia after a scandal that prompted the departure of co-founder and longtime chief executive Jensen Huang. Rob Bonta, the US state’s attorney gen",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+   "dt": "Nov 20",
+   "img": "2c3757b089.jpg",
+   "id": "u2c3757b089",
+   "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 112,
    "title": "Gordon Bell Prize Goes to Chinese Team for Exascale FeMoco Solution - HPCwire",
    "desc": "This year’s prestigious ACM Gordon Bell Prize has gone to a 10 member Chinese team for their outstanding work in quantum chemistry. The winners were announced at SC26. Their project named Closing the FeMo-Cofactor “Quantum-Advantage” Gap with Exascale Supercomputers used traditional supercomputers t",
    "src": "HPCwire",
@@ -914,7 +1572,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 66,
+   "n": 113,
    "title": "How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usa",
    "desc": "Cade Metz / New York Times : How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usable machine — Optical tools in a quantum computer at Harvard University.Lucy Lu for The New York Times — For almost a decade, a Goo",
    "src": "Techmeme",
@@ -928,7 +1586,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 67,
+   "n": 114,
    "title": "Quantus Launches a Quantum-Secure Cold Wallet That Runs on Any Spare Phone",
    "desc": "Insider Brief PRESS RELEASE — Quantus has released the Quantus Cold Wallet, an open-source mobile app that converts any spare smartphone into an entirely air-gapped, offline crypto wallet. The launch aims to eliminate the hidden vulnerabilities of traditional hardware wallets, which frequently expos",
    "src": "Thequantuminsider",
@@ -937,6 +1595,20 @@
    "img": "c54fae08f4.jpg",
    "id": "uc54fae08f4",
    "added_at": "2026-11-21T05:28:21-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Quantum"
+  },
+  {
+   "n": 115,
+   "title": "10-Member Team Drawn from Chinese Institutions Wins 2026 Gordon Bell Prize",
+   "desc": "Insider Brief PRESS RELEASE — ACM, the Association for Computing Machinery, named a ten-member team drawn from Chinese institutions as the winner of the 2026 ACM Gordon Bell Prize for their project “Closing the FeMo-Cofactor ‘Quantum-Advantage’ Gap with Exascale Supercomputers.” The ACM Gordon Bell ",
+   "src": "Thequantuminsider",
+   "url": "https://thequantuminsider.com/2026/11/20/10-member-team-drawn-from-chinese-institutions-wins-2026-gordon-bell-prize/",
+   "dt": "Nov 20",
+   "img": "8efe412d3d.jpg",
+   "id": "u8efe412d3d",
+   "added_at": "2026-11-21T07:26:14-0500",
    "new": true,
    "cat": "Technology & Engineering",
    "sub": "Quantum"
