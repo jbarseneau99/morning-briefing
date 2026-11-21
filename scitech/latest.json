@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "updated_at": "2026-11-21T07:26:14-0500",
+ "updated_at": "2026-11-21T08:20:31-0500",
  "built_at": "2026-11-21T05:32:00-0500",
  "stories": [
   {
@@ -1335,6 +1335,48 @@
   },
   {
    "n": 96,
+   "title": "International talks on controlling use of autonomous weapons collapse",
+   "desc": "Week-long efforts fail to establish negotiating mandate on AI warfare after Russian ‘filibustering’ Week-long efforts to agree a negotiating mandate for a legally binding international treaty to control on the use of autonomous weapons collapsed just before 5am on Saturday morning, after all night t",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+   "dt": "Nov 21",
+   "img": "158994b8ae.jpg",
+   "id": "u158994b8ae",
+   "added_at": "2026-11-21T08:20:31-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 97,
+   "title": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+   "desc": "‘Poster child of AI bubble’ CoreWeave symbolises increasingly risky business model of datacentre buildout The Egyptians had pyramids. The Roman empire had roads. The early 21st-century tech bros have massive buildings full of expensive glass and metal blocks providing the substratum for a powerful i",
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom",
+   "dt": "Nov 21",
+   "img": "8e797836f2.jpg",
+   "id": "u8e797836f2",
+   "added_at": "2026-11-21T08:20:31-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 98,
+   "title": "The Outages Are Just Getting Started",
+   "desc": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
+   "src": "WIRED",
+   "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+   "dt": "Nov 21",
+   "img": "9dd04be51f.jpg",
+   "id": "u9dd04be51f",
+   "added_at": "2026-11-21T08:20:31-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 99,
    "title": "Pacific Fusion secures key licence for New Mexico campus",
    "desc": "The New Mexico Environment Department has approved the radioactive materials licence for pulsed magnetic fusion system developer Pacific Fusion's Research and Manufacturing Campus in Albuquerque, enabling the company to operate a fusion machine.",
    "src": "World Nuclear News",
@@ -1348,7 +1390,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 97,
+   "n": 100,
    "title": "Radiant expands facilities to support microreactor deployment",
    "desc": "The multimillion-dollar expansion of Radiant's US manufacturing footprint includes a new headquarters and manufacturing facility in California, where its first commercial reactors will be assembled, as well as continued development of its campus in Tennessee.",
    "src": "World Nuclear News",
@@ -1362,7 +1404,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 98,
+   "n": 101,
    "title": "South Africa moving ahead on new nuclear plans",
    "desc": "Energy Minister Kgosientsho Ramokgopa has said his department is preparing to put the case for an additional 5.2 GW of nuclear capacity in South Africa \"before the public and will consider submissions on their merits\".",
    "src": "World Nuclear News",
@@ -1376,7 +1418,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 99,
+   "n": 102,
    "title": "Lloyd's Register approves new rules for nuclear for maritime",
    "desc": "UK-based classification society and professional advisory service Lloyd's Register has approved Rules for the Classification of Ships and Offshore Units Integrated with Nuclear Power, providing a common classification framework to support the assessment of nuclear technologies for maritime use.",
    "src": "World Nuclear News",
@@ -1390,7 +1432,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 100,
+   "n": 103,
    "title": "Partners prepare to procure next batch of equipment for Polish plant",
    "desc": "Polskie Elektrownie Jądrowe has signed a letter of intent with the Westinghouse-Bechtel consortium concerning the extension of the scope of the Engineering Development Agreement to cover activities related to the procurement of long lead items for the initial unit of Poland's planned first nuclear p",
    "src": "World Nuclear News",
@@ -1404,7 +1446,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 101,
+   "n": 104,
    "title": "This 500 kWh energy storage system runs on retired EV batteries",
    "desc": "A retired EV battery can still have years of use left in it when it’s taken off the road. Moment Energy’s new Nova battery storage system puts those packs to work on commercial sites. And when a pack wears out, it can be swapped without pulling out the whole system. more…",
    "src": "Electrek",
@@ -1418,7 +1460,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 102,
+   "n": 105,
    "title": "As e-bike battery fires mount, New York weighs tougher restrictions",
    "desc": "Fires caused by lithium-ion batteries have surged 70% from a year earlier.",
    "src": "The Straits Times",
@@ -1432,7 +1474,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 103,
+   "n": 106,
    "title": "Pacific Fusion receives N.M. radioactive materials license",
    "desc": "The New Mexico Environment Department (NMED) has approved Pacific Fusion’s radioactive materials license, allowing it to fabricate and test deuterium-tritium fusion targets and conduct experiments at a facility that is under construction in Albuquerque, N.M., the company announced. The license autho",
    "src": "Ans",
@@ -1446,7 +1488,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 104,
+   "n": 107,
    "title": "BYD offers a first look at its new flagship people mover",
    "desc": "BYD is preparing to launch a new flagship MPV soon after previewing the large people mover for the first time. more…",
    "src": "Electrek",
@@ -1460,7 +1502,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 105,
+   "n": 108,
    "title": "Building nuclear’s next-gen workforce",
    "desc": "As the nuclear energy industry advances a new generation of more cost-effective, more efficient small reactors, another challenge is coming into sharper focus: Who will build, operate, and maintain them? The Department of Energy projects that the nuclear energy sector will need more than 375,000 ski",
    "src": "Ans",
@@ -1474,7 +1516,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 106,
+   "n": 109,
    "title": "SoftBank’s Son explored a $1 trillion bid for SK hynix before shelving the idea",
    "desc": "SoftBank Group Chairman Son Masayoshi explored financing options with Wall Street institutions for a roughly $1 trillion acquisition of SK hynix, according to a",
    "src": "The Korea Herald",
@@ -1488,7 +1530,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 107,
+   "n": 110,
    "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
    "desc": "Bessent said the U.S. does not need new restrictions on sales of older Nvidia chips to China.",
    "src": "CNBC",
@@ -1502,7 +1544,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 108,
+   "n": 111,
    "title": "US lawmakers push for tougher AI chip rules amid China export crackdown",
    "desc": "Washington has new rules restricting remote access to advanced US AI chips, but lawmakers want more.",
    "src": "Al Jazeera",
@@ -1516,7 +1558,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 109,
+   "n": 112,
    "title": "A massive bearish trade just happened in the chip stocks",
    "desc": "Options traders place big bets that semiconductor stocks have further to fall",
    "src": "CNBC",
@@ -1530,7 +1572,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 110,
+   "n": 113,
    "title": "Sources: Masayoshi Son recently explored a possible $1T buyout of SK Hynix; SoftBank says the deal is “no longer under active consideration”",
    "desc": "The Information : Sources: Masayoshi Son recently explored a possible $1T buyout of SK Hynix; SoftBank says the deal is “no longer under active consideration” — SoftBank CEO Masayoshi Son recently approached Wall Street institutions about financing a possible trillion-dollar buyout of memory chip gi",
    "src": "Techmeme",
@@ -1544,7 +1586,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 111,
+   "n": 114,
    "title": "California investigates Nvidia over whether chip exports ended up in China",
    "desc": "State attorney says scandal ‘raises bright red flags’ and aims to find out if company misled investors California has served an investigative subpoena on Nvidia after a scandal that prompted the departure of co-founder and longtime chief executive Jensen Huang. Rob Bonta, the US state’s attorney gen",
    "src": "The Guardian",
@@ -1558,7 +1600,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 112,
+   "n": 115,
    "title": "Gordon Bell Prize Goes to Chinese Team for Exascale FeMoco Solution - HPCwire",
    "desc": "This year’s prestigious ACM Gordon Bell Prize has gone to a 10 member Chinese team for their outstanding work in quantum chemistry. The winners were announced at SC26. Their project named Closing the FeMo-Cofactor “Quantum-Advantage” Gap with Exascale Supercomputers used traditional supercomputers t",
    "src": "HPCwire",
@@ -1572,7 +1614,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 113,
+   "n": 116,
    "title": "How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usa",
    "desc": "Cade Metz / New York Times : How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usable machine — Optical tools in a quantum computer at Harvard University.Lucy Lu for The New York Times — For almost a decade, a Goo",
    "src": "Techmeme",
@@ -1586,7 +1628,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 114,
+   "n": 117,
    "title": "Quantus Launches a Quantum-Secure Cold Wallet That Runs on Any Spare Phone",
    "desc": "Insider Brief PRESS RELEASE — Quantus has released the Quantus Cold Wallet, an open-source mobile app that converts any spare smartphone into an entirely air-gapped, offline crypto wallet. The launch aims to eliminate the hidden vulnerabilities of traditional hardware wallets, which frequently expos",
    "src": "Thequantuminsider",
@@ -1600,7 +1642,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 115,
+   "n": 118,
    "title": "10-Member Team Drawn from Chinese Institutions Wins 2026 Gordon Bell Prize",
    "desc": "Insider Brief PRESS RELEASE — ACM, the Association for Computing Machinery, named a ten-member team drawn from Chinese institutions as the winner of the 2026 ACM Gordon Bell Prize for their project “Closing the FeMo-Cofactor ‘Quantum-Advantage’ Gap with Exascale Supercomputers.” The ACM Gordon Bell ",
    "src": "Thequantuminsider",
