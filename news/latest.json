@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "updated_at": "2026-11-21T11:23:44-0500",
+ "updated_at": "2026-11-21T12:21:37-0500",
  "built_at": "2026-11-21T05:32:00-0500",
  "stories": [
   {
@@ -957,6 +957,22 @@
    "img": "1e0d5628c1.jpg",
    "id": "u1e0d5628c1",
    "added_at": "2026-11-21T11:23:44-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Politics & elections",
+   "cat": "Africa",
+   "sub": ""
+  },
+  {
+   "n": 61,
+   "title": "Guinea bans Burkina Faso broadcaster, escalating diplomatic tensions",
+   "desc": "Tensions rise between Guinea and Burkina Faso after Conakry bans Burkinabe broadcaster RTB, amid a diplomatic dispute over gold miners and a caricature of President Mamadi Doumbouya. Meanwhile, fighting erupts between Congolese forces and the Rwanda-backed FRN group in eastern DR Congo, despite peac",
+   "src": "France 24",
+   "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261120-guinea-bans-burkina-faso-broadcaster-escalating-diplomatic-tensions",
+   "dt": "Nov 20",
+   "img": "",
+   "id": "u03898296a0",
+   "added_at": "2026-11-21T12:21:37-0500",
    "new": true,
    "region": "Africa",
    "topic": "Politics & elections",
