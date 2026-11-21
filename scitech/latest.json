@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "updated_at": "2026-11-21T10:23:46-0500",
+ "updated_at": "2026-11-21T11:23:44-0500",
  "built_at": "2026-11-21T05:32:00-0500",
  "stories": [
   {
@@ -1671,6 +1671,34 @@
   },
   {
    "n": 120,
+   "title": "Where you can find which GPU you have in your Windows PC - Engadget",
+   "desc": "Your laptop may be running two graphics processors without you knowing it. Here are the built-in Windows tools that reveal what is powering your games.",
+   "src": "Engadget",
+   "url": "https://www.engadget.com/2315158/where-find-which-graphics-card-gpu-in-windows-pc/",
+   "dt": "Nov 21",
+   "img": "590de5e8a2.jpg",
+   "id": "u590de5e8a2",
+   "added_at": "2026-11-21T11:23:44-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 121,
+   "title": "Rapidus reportedly struggles to produce working SRAM on its 2nm node, putting 2027 mass production at risk — company faces significant chall",
+   "desc": "Japan's semiconductor startup has demonstrated functioning GAA transistors, but integrating them into working memory cells appears to be a considerably greater challenge.",
+   "src": "Tomshardware",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/rapidus-reportedly-struggles-to-produce-working-sram-on-its-2nm-node-putting-2027-mass-production-at-risk-company-faces-significant-challenges-using-euv-to-develop-gaa-transistors",
+   "dt": "Nov 21",
+   "img": "ca5b927c2a.jpg",
+   "id": "uca5b927c2a",
+   "added_at": "2026-11-21T11:23:44-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 122,
    "title": "Gordon Bell Prize Goes to Chinese Team for Exascale FeMoco Solution - HPCwire",
    "desc": "This year’s prestigious ACM Gordon Bell Prize has gone to a 10 member Chinese team for their outstanding work in quantum chemistry. The winners were announced at SC26. Their project named Closing the FeMo-Cofactor “Quantum-Advantage” Gap with Exascale Supercomputers used traditional supercomputers t",
    "src": "HPCwire",
@@ -1684,7 +1712,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 121,
+   "n": 123,
    "title": "How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usa",
    "desc": "Cade Metz / New York Times : How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usable machine — Optical tools in a quantum computer at Harvard University.Lucy Lu for The New York Times — For almost a decade, a Goo",
    "src": "Techmeme",
@@ -1698,7 +1726,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 122,
+   "n": 124,
    "title": "Quantus Launches a Quantum-Secure Cold Wallet That Runs on Any Spare Phone",
    "desc": "Insider Brief PRESS RELEASE — Quantus has released the Quantus Cold Wallet, an open-source mobile app that converts any spare smartphone into an entirely air-gapped, offline crypto wallet. The launch aims to eliminate the hidden vulnerabilities of traditional hardware wallets, which frequently expos",
    "src": "Thequantuminsider",
@@ -1712,7 +1740,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 123,
+   "n": 125,
    "title": "10-Member Team Drawn from Chinese Institutions Wins 2026 Gordon Bell Prize",
    "desc": "Insider Brief PRESS RELEASE — ACM, the Association for Computing Machinery, named a ten-member team drawn from Chinese institutions as the winner of the 2026 ACM Gordon Bell Prize for their project “Closing the FeMo-Cofactor ‘Quantum-Advantage’ Gap with Exascale Supercomputers.” The ACM Gordon Bell ",
    "src": "Thequantuminsider",

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "updated_at": "2026-11-21T10:23:46-0500",
+ "updated_at": "2026-11-21T11:23:44-0500",
  "built_at": "2026-11-21T05:32:00-0500",
  "stories": [
   {
@@ -945,6 +945,22 @@
    "region": "Europe",
    "topic": "Climate & disasters",
    "cat": "Europe",
+   "sub": ""
+  },
+  {
+   "n": 60,
+   "title": "Diallo present as Africa football boss Motsepe reiterates Infantino support",
+   "desc": "Africa's CAF join South America's CONMEBOL in giving unanimous support of FIFA President Gianni Infantino's re-election.",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/sports/2026/11/21/diallo-present-as-africa-football-boss-motsepe-reiterates-infantino-support?traffic_source=rss",
+   "dt": "Nov 21",
+   "img": "1e0d5628c1.jpg",
+   "id": "u1e0d5628c1",
+   "added_at": "2026-11-21T11:23:44-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Politics & elections",
+   "cat": "Africa",
    "sub": ""
   }
  ]
