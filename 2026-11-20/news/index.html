@@ -1,0 +1,737 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Global News · Morning Briefing · Nov 20, 2026</title>
+<link rel="manifest" href="/morning-briefing/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/morning-briefing/img/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Briefing">
+<meta name="theme-color" content="#f4f1eb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pin-h:96px;
+  --bg:#f4f1eb;--paper:#fffcf7;--ink:#141311;--mut:#5c5a55;--line:#ddd8ce;--rule:#141311;
+  --acc:#9b2c1a;--wash:#eeeae2;--up:#1f6b3a;--dn:#9b2c1a;--ne:#6a6862;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{color-scheme:light;overscroll-behavior-y:none}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;padding-top:var(--pin-h);padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:var(--acc)}
+.frame{display:block}
+.stick{position:fixed;top:0;left:0;right:0;width:100%;z-index:80;background:var(--bg);border-top:2px solid var(--rule);border-bottom:1px solid var(--line);box-shadow:0 8px 18px -12px rgba(20,19,17,.2);padding-top:env(safe-area-inset-top,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+.pin{display:flex;align-items:center;min-height:48px;box-sizing:border-box;position:relative}
+header{max-width:none;margin:0;padding:0 12px;display:flex;align-items:center;min-height:48px;box-sizing:border-box}
+.mast{display:flex;align-items:center;gap:8px;min-width:0;flex:1;border-top:0;padding:0;min-height:48px;box-sizing:border-box}
+.nav-util{max-width:none;margin:0 0 0 auto;padding:0 8px 0 0;display:flex;align-items:center;gap:0;border-bottom:0;min-width:0;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch;min-height:48px;box-sizing:border-box}
+.side{max-width:900px;margin:0 auto;padding:0 20px;display:grid;grid-template-columns:1fr auto;grid-template-areas:"crumb crumb" "secs cut";align-items:end;column-gap:12px}
+.side:not(:has(.nav-cut:not([hidden]))){grid-template-areas:"crumb crumb" "secs secs"}
+.nav-util::-webkit-scrollbar{display:none}
+.nav-util a{font:600 11.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;padding:0;margin-right:16px;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px;display:inline-flex;align-items:center;min-height:44px;min-width:44px;flex:0 0 auto;white-space:nowrap;box-sizing:border-box}
+.nav-util a:hover{color:var(--ink)}
+.nav-util a.on,.nav-util a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink)}
+.nav-crumb{grid-area:crumb;font-size:12.5px;color:var(--mut);padding:7px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.3}
+.nav-crumb a{color:var(--mut);text-decoration:none}
+.nav-crumb a:hover{color:var(--acc)}
+.nav-crumb .here{color:var(--ink)}
+.nav-crumb .sep{margin:0 .15em;color:var(--mut)}
+.nav-secs{grid-area:secs;display:flex;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;flex-wrap:nowrap;scrollbar-width:none;gap:0;-webkit-overflow-scrolling:touch;border-bottom:1px solid var(--line)}
+.nav-secs::-webkit-scrollbar{display:none}
+.nav-secs button{flex:0 0 auto;font:600 15px/1 var(--sans);padding:0 8px;margin-right:8px;border:0;background:none;cursor:pointer;color:var(--mut);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;border-radius:0;display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;box-sizing:border-box}
+.nav-secs button:hover{color:var(--ink)}
+.nav-secs button.on{color:var(--ink);border-bottom-color:var(--acc)}
+.nav-secs button.spy{color:var(--ink)}
+.nav-cut{grid-area:cut;display:flex;align-items:center;padding:0 0 8px;border-bottom:1px solid var(--line)}
+.nav-crumb[hidden],.nav-cut[hidden]{display:none!important}
+.nav-cut button{font:600 11px/1 var(--sans);letter-spacing:.03em;padding:0 10px;border:1px solid var(--line);background:transparent;color:var(--mut);cursor:pointer;margin:0 0 0 -1px;min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+.nav-cut button:first-child{margin-left:0;border-radius:3px 0 0 3px}
+.nav-cut button:last-child{border-radius:0 3px 3px 0}
+.nav-cut button.on{background:var(--ink);color:var(--paper);border-color:var(--ink);position:relative;z-index:1}
+.nav-cut[hidden]{display:none}
+section,.row,.sub,.ch{scroll-margin-top:calc(var(--pin-h) + 12px)}
+.kicker{display:none}
+.logo-link{display:inline-flex;align-items:center;gap:8px;flex:0 0 auto;min-width:44px;min-height:44px;color:var(--ink);text-decoration:none}
+.logo-mark{width:24px;height:24px;display:block;flex:0 0 auto;color:var(--ink)}
+.logo-word{height:22px;width:auto;aspect-ratio:1000/258.41;display:block;flex:0 0 auto}
+.logo-dark{display:none}
+.byline{margin:0;color:var(--mut);font:500 10px/1.2 var(--sans);letter-spacing:.08em;font-variant-caps:all-small-caps;text-transform:lowercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.byline .sep{font-variant-caps:normal;letter-spacing:0;margin:0 .35em}
+.byline .ed{font-variant-caps:normal;letter-spacing:.01em;font-weight:400;text-transform:none;color:var(--mut)}
+header h1{margin:0;font:650 15px/1.1 var(--serif);letter-spacing:-.02em;white-space:nowrap;min-width:0}
+header h1 a{color:inherit;text-decoration:none}
+.ed{margin:0;color:var(--mut);font-size:10px;letter-spacing:.01em}
+#send{display:none;flex:0 0 auto;margin-left:auto;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:0;padding:0 8px;cursor:pointer;font:600 10px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;min-height:32px;align-items:center;justify-content:center}
+#send:hover{background:var(--ink);color:var(--paper)}
+main{max-width:900px;margin:0 auto;padding:16px 20px max(72px,calc(72px + env(safe-area-inset-bottom,0px)))}
+section{background:transparent;border:0;border-radius:0;margin:1.8rem 0 0;overflow:visible}
+.view>section:first-child{margin-top:.4rem}
+.ch{display:flex;align-items:baseline;gap:10px;padding:0 0 10px;cursor:pointer;user-select:none;border-bottom:2px solid var(--rule)}
+.ch h2{margin:0;font:650 1.45rem/1.15 var(--serif);flex:1;letter-spacing:-.015em}
+.car{transition:transform .2s;color:var(--mut);font-size:13px;line-height:1}
+section.closed .car{transform:rotate(-90deg)}
+section.closed .body{display:none}
+section.closed .ch{border-bottom-width:1px;border-bottom-color:var(--line)}
+.top{padding:14px 0 4px}
+.top h4{margin:0 0 8px;font:600 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+.top ol{margin:0;padding-left:1.15rem;font-size:15px}
+.top li{min-height:44px;padding:8px 0;box-sizing:border-box}
+.top a{color:var(--ink);text-decoration:none;font-family:var(--serif);font-weight:550}
+.top a:hover{color:var(--acc)}
+.sh{display:flex;align-items:center;gap:8px;padding:18px 0 2px}
+.sh span.t{flex:1;font:600 11.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--acc)}
+.row{display:flex;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.sh+.row{border-top:0;padding-top:10px}
+.th,.ph{flex:0 0 120px;flex-shrink:0;align-self:flex-start;width:120px;aspect-ratio:3/2;height:auto;border-radius:2px;object-fit:cover;background:var(--wash)}
+.ph{display:flex;align-items:center;justify-content:center;color:#9a968e;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
+.tx{flex:1;min-width:0}
+.tx b{display:block;font:600 1.12rem/1.28 var(--serif);letter-spacing:-.01em}
+.tx .n{color:var(--mut);font-weight:500;margin-right:.4em;font-variant-numeric:tabular-nums;font-family:var(--sans);font-size:.86em}
+.tx p{margin:4px 0 0;color:#3a3834;font-size:15px;line-height:1.45}
+.tx a{color:var(--acc);font-size:13px;font-weight:600;letter-spacing:.02em;text-decoration:none}
+.tx a:hover{text-decoration:underline}
+.dt{color:var(--mut);font-size:13px}
+.more{display:none}
+.sub.open .more{display:flex}
+.mt{margin:2px 0 8px;border:0;background:none;color:var(--mut);cursor:pointer;font:600 13px/1.4 var(--sans);padding:0;letter-spacing:.02em;min-height:44px;display:inline-flex;align-items:center}
+.mt:hover{color:var(--acc)}
+.v{display:flex;flex-direction:column;gap:0;align-items:center;flex:0 0 auto;margin-left:4px}
+.v button{border:0;background:transparent;border-radius:3px;cursor:pointer;font-size:14px;padding:0;opacity:.4;line-height:1;color:var(--ink);min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+.v button:hover{opacity:1;background:var(--wash)}
+.v button.on{opacity:1}
+.v button.on.up{background:#e7f1ea;color:var(--up)}
+.v button.on.dn{background:#f6e8e4;color:var(--dn)}
+.v button.on.ne{background:var(--wash);color:var(--ne)}
+.ch .v,.sh .v{flex-direction:row;align-items:center}
+.ch .v button{font-size:14px}
+@media(max-width:599px){
+  .pin,.side{display:contents}
+  .stick{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"header util" "feeds feeds" "crumb crumb" "secs cut";column-gap:4px;align-items:center}
+  .stick:not(:has(.nav-cut:not([hidden]))){grid-template-areas:"header util" "feeds feeds" "crumb crumb" "secs secs"}
+  header{grid-area:header;max-width:none;padding:0 0 0 12px;min-height:48px}
+  .nav-util{grid-area:util;max-width:none;padding:0 12px 0 4px;min-height:48px}
+  .nav-cut{grid-area:cut;justify-content:flex-end;padding:0 12px 0 0;border-bottom:0}
+  .nav-crumb{padding-left:12px;padding-right:12px}
+  .nav-secs{padding:0 12px}
+  main{padding-left:14px;padding-right:14px}
+  header h1{font-size:14px}
+  .logo-word,.byline,#send{display:none!important}
+  .nav-util a{margin-right:8px}
+  .nav-secs button{margin-right:12px;font-size:14px}
+  .pin.scrolled .nav-crumb{padding-top:2px;font-size:12px}
+  .th,.ph{flex:0 0 76px;flex-shrink:0;align-self:flex-start;width:76px;aspect-ratio:3/2;height:auto;object-fit:cover}
+  .tx b{font-size:1.02rem}
+  .tx p{font-size:14px}
+  .row{gap:10px;padding:10px 0}
+}
+@media(max-width:430px){
+  header{padding-left:10px}
+  .nav-util{padding-right:10px}
+  .nav-cut{padding-right:10px}
+  .nav-crumb,.nav-secs,main{padding-left:12px;padding-right:12px}
+  header h1{font-size:13.5px}
+  .tx b{font-size:1rem}
+  .tx p{font-size:13.5px;line-height:1.4}
+  .row{gap:8px;padding:8px 0}
+  .th,.ph{flex:0 0 72px;width:72px}
+}
+@media(max-height:420px) and (min-aspect-ratio:5/4){
+  .byline,.logo-word,#send{display:none!important}
+  header h1{font-size:13.5px}
+}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  body{padding-top:0}.frame{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,3fr);grid-template-rows:var(--pin-h) 1fr;grid-template-areas:"pin pin" "side main";align-items:start;width:100%;max-width:1400px;margin:0 auto}
+  .stick{display:contents;position:static;padding:0;border:0;box-shadow:none;background:transparent}
+  .pin{grid-area:pin;position:fixed;top:0;left:0;right:0;width:auto;z-index:80;min-height:0;background:var(--bg);border-top:2px solid var(--rule);border-bottom:1px solid var(--line);box-shadow:0 8px 18px -12px rgba(20,19,17,.2);padding-top:env(safe-area-inset-top,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+  .pin{display:flex;align-items:center;min-height:0;box-sizing:border-box}
+  header,.nav-util{max-width:none;margin:0}
+  header{flex:1;min-width:0;padding:0 12px 0 16px;min-height:52px}
+  .mast{min-height:52px}
+  .nav-util{flex:0 0 auto;padding:0 16px 0 8px;min-height:52px;border-bottom:0}
+  #send{display:inline-flex}
+  .side{grid-area:side;display:block;position:-webkit-sticky;position:sticky;top:var(--pin-h);z-index:40;align-self:start;box-sizing:border-box;width:100%;max-width:none;margin:0;height:calc(100dvh - var(--pin-h) - env(safe-area-inset-bottom,0px));overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:var(--bg);border-right:1px solid var(--line);padding:16px 16px max(24px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+  .nav-crumb{display:block;white-space:normal;overflow:visible;text-overflow:unset;padding:0 0 12px;line-height:1.4}
+  .nav-cut{display:flex;justify-content:flex-start;border-bottom:0;padding:0 0 14px;margin:0}
+  .nav-secs{display:flex;flex-direction:column;align-items:stretch;overflow:visible;flex-wrap:nowrap;border-bottom:0;margin:0;padding:0;gap:0}
+  .nav-secs button{width:100%;margin:0;padding:0 12px;justify-content:flex-start;text-align:left;white-space:normal;border-bottom:0;border-left:2px solid transparent;border-radius:0;min-height:44px;min-width:44px}
+  .nav-secs button.on,.nav-secs button.spy{border-left-color:var(--acc);background:var(--wash);color:var(--ink)}
+  main{grid-area:main;max-width:none;margin:0;padding:16px 20px max(72px,calc(32px + env(safe-area-inset-bottom,0px))) 24px;container-type:inline-size;container-name:stories}
+  .row{padding:12px 0}
+  .th,.ph{flex:0 0 100px;width:100px}
+}
+@container stories (min-width:520px){
+  .sub{display:grid;grid-template-columns:1fr 1fr;column-gap:20px;align-items:start}
+  .sub>.sh,.sub>.mt{grid-column:1/-1}
+  .th,.ph{flex:0 0 72px;width:72px}
+  .tx b{font-size:1.05rem}
+  .tx p{font-size:14px}
+}
+@media(horizontal-viewport-segments:2){
+  .frame{grid-template-columns:env(viewport-segment-width 0 0,1fr) env(viewport-segment-width 1 0,3fr)}
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#1c1b19;--paper:#24221f;--ink:#f3efe6;--mut:#a8a49a;--line:#3a3732;--rule:#f3efe6;--acc:#e06a4f;--wash:#2c2a26;--up:#7dcea0;--dn:#e06a4f;--ne:#b0aca3}
+  html{color-scheme:dark}
+  body{background:var(--bg);color:var(--ink)}
+  .stick,.pin,.side{box-shadow:none}
+  .stick,.pin{box-shadow:0 8px 18px -12px rgba(0,0,0,.55)}
+  .tx p{color:#d7d2c8}
+  .ph{color:#7a756c}
+  #send:hover{background:var(--ink);color:var(--bg)}
+  .nav-cut button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .v button.on.up{background:#1d3a2a;color:var(--up)}
+  .v button.on.dn{background:#3a221e;color:var(--dn)}
+  .v button.on.ne{background:var(--wash);color:var(--ne)}
+  .logo-word.logo-light{display:none}
+  .logo-word.logo-dark{display:block}
+  .logo-mark{color:var(--ink)}
+}
+@media (display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui){
+  .stick,.pin{padding-top:env(safe-area-inset-top,0px)}
+}
+
+#refresh{flex:0 0 auto;width:44px;height:44px;margin:0;padding:0;border:0;background:transparent;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;border-radius:0}
+#refresh:hover{color:var(--acc)}
+#refresh svg{width:20px;height:20px;display:block}
+#refresh.busy svg{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.updated{flex:0 0 auto;color:var(--mut);font:500 10px/1 var(--sans);letter-spacing:.04em;white-space:nowrap;margin:0 4px 0 0}
+#refresh-bar{position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--acc);transform-origin:left;transform:scaleX(0);pointer-events:none;z-index:90}
+#refresh-bar.on{display:block;animation:loadbar 1s ease-in-out infinite}
+@keyframes loadbar{0%{transform:scaleX(0);opacity:.3}50%{transform:scaleX(1);opacity:1}100%{transform:scaleX(0);opacity:.3}}
+.tag-new{display:inline-block;margin:0 6px 0 0;padding:1px 5px;border:1px solid var(--acc);color:var(--acc);font:650 9px/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase;vertical-align:middle}
+.row.fresh{animation:freshfade 2.8s ease}
+@keyframes freshfade{0%{background:color-mix(in srgb,var(--acc) 16%,transparent)}100%{background:transparent}}
+#toast{position:fixed;left:50%;bottom:max(24px,calc(16px + env(safe-area-inset-bottom,0px)));transform:translateX(-50%);background:var(--ink);color:var(--paper);font:600 13px/1.3 var(--sans);letter-spacing:.02em;padding:10px 16px;border-radius:2px;z-index:200;box-shadow:0 8px 24px rgba(20,19,17,.25);opacity:0;pointer-events:none;transition:opacity .2s}
+#toast.show{opacity:1}
+
+/* in-app reader */
+.row .th,.row .ph,.row .tx b,.row .rlink{cursor:pointer}
+a.rlink{display:flex;gap:inherit;align-items:flex-start;flex:1;min-width:0;color:inherit;text-decoration:none;-webkit-tap-highlight-color:rgba(155,44,26,.12)}
+a.rlink:hover b{color:var(--acc)}
+.row .rs{color:var(--acc);font:600 13px/1.4 var(--sans)}
+.buildstamp{margin:24px 0 8px;padding:0 4px;color:var(--mut);font:500 10px/1.2 var(--sans);letter-spacing:.06em;opacity:.7}
+#reader{display:none;background:var(--bg);min-width:0;box-sizing:border-box}
+body.reading{overflow:hidden;overscroll-behavior:none;height:100vh;height:-webkit-fill-available;height:100dvh}
+body.reading .buildstamp{display:none!important}
+body.reading #m{display:none!important}
+body.reading #reader{
+  display:flex;flex-direction:column;
+  position:fixed;z-index:50;
+  top:var(--pin-h);left:0;right:0;bottom:0;
+  width:auto;
+  height:calc(100vh - var(--pin-h));
+  height:calc(100dvh - var(--pin-h));
+  min-height:calc(100vh - var(--pin-h));
+  min-height:calc(100dvh - var(--pin-h));
+  padding:0 16px env(safe-area-inset-bottom,0px);
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  overflow:hidden;
+  background:var(--bg);
+}
+.rbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;position:relative;top:auto;z-index:5;flex:0 0 auto;background:var(--bg);border-bottom:1px solid var(--line);padding:4px 0 8px;margin:0 0 12px}
+#rback{flex:0 0 auto;width:44px;height:44px;margin:0;padding:0;border:0;background:transparent;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+#rback:hover{color:var(--acc)}
+#rback svg{display:block}
+.rsrc{font:650 11.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mut);min-width:0}
+.rorig{margin-left:auto;font:600 12px/1 var(--sans);letter-spacing:.04em;color:var(--acc);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;padding:0 4px;white-space:nowrap}
+.rorig:hover{text-decoration:underline}
+#rvotes{flex:0 0 auto}
+#rbody{max-width:720px;flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch}
+#rbody.loading{display:flex;align-items:center;justify-content:center;min-height:0;flex:1 1 auto;color:var(--mut)}
+#rbody .rspinner{width:28px;height:28px;border:2px solid var(--line);border-top-color:var(--acc);border-radius:50%;animation:spin .8s linear infinite}
+#rbody h1{font:600 1.7rem/1.25 var(--serif);margin:0 0 8px;color:var(--ink)}
+#rbody .rby{margin:0 0 16px;color:var(--mut);font:500 14px/1.4 var(--sans)}
+#rbody .rby .rdate{font-weight:400}
+#rbody .rhero{display:block;width:100%;max-height:360px;object-fit:cover;border-radius:2px;margin:0 0 20px;background:var(--wash)}
+#rbody .rhtml{font:400 1.05rem/1.65 var(--serif);color:var(--ink)}
+#rbody .rhtml p,#rbody .rhtml li{margin:0 0 1em}
+#rbody .rhtml h2,#rbody .rhtml h3,#rbody .rhtml h4{font-family:var(--serif);font-weight:600;line-height:1.3;margin:1.4em 0 .5em}
+#rbody .rhtml img{max-width:100%;height:auto;border-radius:2px;margin:.4em 0}
+#rbody .rhtml a{color:var(--acc)}
+#rbody .rhtml blockquote{margin:0 0 1em;padding:0 0 0 14px;border-left:2px solid var(--line);color:var(--mut)}
+#rbody .rhtml .trimmed{color:var(--mut);letter-spacing:.2em}
+#rbody .rnote{background:var(--wash);border:1px solid var(--line);padding:14px 16px;margin:0 0 16px;font:400 15px/1.5 var(--sans);color:var(--ink)}
+#rbody .rnote a{color:var(--acc)}
+#rbody .rsum{font:400 1.05rem/1.6 var(--serif);margin:0 0 1em}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  body.reading .frame{height:100vh;height:100dvh;overflow:hidden;align-items:stretch}
+  #reader{grid-area:main;max-width:none;margin:0;display:none;flex-direction:column}
+  body.reading #reader{
+    display:flex;flex-direction:column;
+    position:relative;z-index:auto;
+    top:auto;left:auto;right:auto;bottom:auto;
+    width:auto;max-width:none;margin:0;
+    height:calc(100vh - var(--pin-h));
+    height:calc(100dvh - var(--pin-h));
+    min-height:calc(100vh - var(--pin-h));
+    min-height:calc(100dvh - var(--pin-h));
+    padding:0 20px env(safe-area-inset-bottom,0px) 24px;
+    overflow:hidden;
+    background:var(--bg);
+  }
+  .rbar{top:auto;flex:0 0 auto}
+  #rbody{flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch}
+}
+@media(max-width:599px){.updated,#send{display:none!important}}
+
+.nav-feeds{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;gap:0}
+.nav-feeds::-webkit-scrollbar{display:none}
+.nav-feeds a{flex:0 0 auto;font:600 13.5px/1 var(--sans);padding:0 8px;margin-right:8px;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap;min-height:36px;display:inline-flex;align-items:center}
+.nav-feeds a:hover{color:var(--ink)}
+.nav-feeds a.on,.nav-feeds a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink)}
+@media(max-width:599px){
+  .nav-feeds{grid-area:feeds;padding:0 12px}
+}
+@media(max-height:420px) and (min-aspect-ratio:5/4){
+  .nav-feeds{display:none}
+}
+@media(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4){
+  .nav-feeds{display:flex;flex-direction:column;align-items:stretch;overflow:visible;flex-wrap:nowrap;border-bottom:1px solid var(--line);margin:0 0 12px;padding:0 0 8px}
+  .nav-feeds a{width:100%;margin:0;padding:0 12px;justify-content:flex-start;text-align:left;white-space:normal;border-bottom:0;border-left:2px solid transparent;min-height:40px}
+  .nav-feeds a.on,.nav-feeds a[aria-current=page]{border-bottom:0;border-left-color:var(--ink);background:var(--wash);color:var(--ink)}
+  .nav-feeds a:hover,.nav-feeds a:focus{color:var(--ink);background:var(--wash)}
+}
+</style></head><body>
+<div class="frame">
+<div class="stick" id="stick">
+<div class="pin" id="pin">
+<header><div class="mast"><a class="logo-link" href="https://www.33fg.com/" target="_blank" rel="noopener" aria-label="Mach33"><svg class="logo-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="24" height="24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M500,68.71C261.8,68.71,68.71,261.81,68.71,500c0,238.2,193.09,431.29,431.29,431.29c238.19,0,431.29-193.09,431.29-431.29
+	C931.29,261.81,738.19,68.71,500,68.71z M246.22,740.08l-8.24-19.42c81.2-14.71,181.82-62.96,181.82-145.34
+	c0-69.43-73.55-90.03-113.56-90.03l-5.3-15.89c68.26-49.42,95.33-79.43,95.33-122.39c0-39.42-22.95-44.72-37.66-44.72
+	c-24.72,0-54.14,14.13-81.21,32.37l-11.76-17.07l81.79-57.66c38.83,0,135.92,13.53,135.92,90.03c0,62.96-60.61,97.67-89.44,104.15
+	c27.07,0,117.1,13.53,117.1,100.03C511.01,669.47,325.66,728.9,246.22,740.08z M487.47,740.08l-8.24-19.42
+	c81.21-14.71,181.82-62.96,181.82-145.34c0-69.43-73.55-90.03-113.56-90.03l-5.3-15.89c68.26-49.42,95.33-79.43,95.33-122.39
+	c0-39.42-22.95-44.72-37.66-44.72c-24.71,0-54.14,14.13-81.2,32.37l-11.77-17.07l81.79-57.66c38.83,0,135.92,13.53,135.92,90.03
+	c0,62.96-60.6,97.67-89.44,104.15c27.07,0,117.1,13.53,117.1,100.03C752.26,669.47,566.91,728.9,487.47,740.08z"/></svg><img class="logo-word logo-light" src="/morning-briefing/img/mach33-wordmark-black.svg?v=3" alt="" width="85" height="22"><img class="logo-word logo-dark" src="/morning-briefing/img/mach33-wordmark-white.svg?v=3" alt="" width="85" height="22"></a><h1><a href="../">Morning Briefing</a></h1><p class="byline">for J. Brant Arseneau<span class="sep"> · </span><span class="ed">Friday, November 20, 2026</span></p><button type="button" id="refresh" aria-label="Refresh news" title="Refresh news"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></button><span id="updated" class="updated" hidden></span><div id="refresh-bar" hidden></div><button id="send">Feedback</button></div></header>
+<nav class="nav-util" aria-label="Edition"><a href="../#today" class="on" aria-current="page">Today</a><a href="../#history">History</a><a href="../#likes">Likes</a></nav>
+</div>
+<aside class="side" id="side">
+  <nav class="nav-feeds" aria-label="Feeds"><a href="../news/" data-feed="news">Global News</a><a href="../scitech/" data-feed="scitech">Science &amp; Technology</a><a href="../papers/" data-feed="papers">Research Papers</a></nav>
+  <nav class="nav-crumb" id="crumb" aria-label="Breadcrumb" hidden></nav>
+  <div class="nav-cut" id="cutslot" hidden></div>
+  <nav class="nav-secs" id="secs" aria-label="Sections"></nav>
+</aside>
+</div>
+<main id="m"></main>
+<article id="reader" hidden>
+  <div class="rbar">
+    <button type="button" id="rback" aria-label="Back to stories" title="Back">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <span id="rsrc" class="rsrc"></span>
+    <a id="rorig" class="rorig" target="_blank" rel="noopener">Open original</a>
+    <span id="rvotes"></span>
+  </div>
+  <div id="rbody"></div>
+</article>
+</div>
+<p class="buildstamp">v20261120-2222</p>
+<script>
+const DATA={"views": [["region", "By region", [{"cat": "North America", "subs": [{"sub": "", "items": [[1, "Senate passes bipartisan permitting reform bill to speed energy projects, sends it to House", "The Senate approved a long-sought bipartisan permitting reform bill on Thursday, following a major breakthrough on legislation that aims to cut costs by ramping up the speed of infrastructure and energy projects.", "CBS News", "https://www.cbsnews.com/news/senate-bipartisan-permitting-reform-bill-energy-baaja-trump/", "Nov 19", "b453628dc5.jpg", "ub453628dc5", "2026-11-20T05:33:04-0500", true], [2, "Trump calls sceptical allies to sell view Putin wants peace", "The US leader urged the Europeans to set up a meeting and do a deal that would allow the killing to stop.", "The Straits Times", "https://www.straitstimes.com/world/united-states/trump-calls-sceptical-allies-to-sell-view-putin-wants-peace", "Nov 20", "37ca7d2641.jpg", "u37ca7d2641", "2026-11-20T05:31:23-0500", true], [3, "Trump responds to Elon Musk’s ‘I’m not MAGA’ comments", "In a phone call with NBC News, the president said that when people “veer” from MAGA, “they don’t do very well.”", "NBC News", "https://www.nbcnews.com/politics/donald-trump/trump-responds-elon-musk-not-maga-comments-rcna610037", "Nov 19", "2b1ef21141.jpg", "u2b1ef21141", "2026-11-20T05:33:04-0500", true], [4, "Trump DoJ moves to drop legal challenge to Mary Peltola’s Alaska Senate win", "President had sought to block results if Democrat won race that featured two candidates named Dan Sullivan In a legal filing on Thursday, the Trump administration asked a federal appeals court to dismiss the lawsuit it filed before the midterm elections seeking to block the certification of the US S", "The Guardian", "https://www.theguardian.com/us-news/2026/nov/19/trump-mary-peltola-alaska-senate", "Nov 19", "feedd56ce8.jpg", "ufeedd56ce8", "2026-11-20T05:31:23-0500", true], [5, "CN derailments into Skeena River raise fresh concerns over shipping hazardous materials through northwest B.C. | CBC News", "The company says a suspected rockslide pushed a locomotive and several cars down an embankment and into the waters of the Skeena River Tuesday, with diesel from the locomotive then leaking more than a kilometre downstream. It's the second such incident this year, following a similar derailment durin", "CBC", "https://www.cbc.ca/news/canada/british-columbia/cn-derailment-diesel-skeena-oil-by-rail-9.7429141?cmp=rss", "Nov 19", "a25a67eb88.jpg", "ua25a67eb88", "2026-11-20T05:31:23-0500", true], [6, "California’s coastal communities on alert as biggest waves in years hit state", "Hazard warnings issued throughout week after powerful swells and waves of more than 9 metres recorded Multiple coastal hazard warnings were issued this week across California as successive areas of low pressure generated powerful swells and large breaking waves for coastal communities. Beaches and p", "The Guardian", "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state", "Nov 20", "34ed9397c7.jpg", "u34ed9397c7", "2026-11-20T05:31:23-0500", true], [7, "Race to be next UN secretary general exposes divisions among world powers", "Debate about dominance of permanent five members could reignite if major powers block Costa Rican frontrunner The race to become the next UN secretary general could reach a decisive moment on Friday when a UN security council vote is likely to reveal whether the Costa Rican frontrunner for the post ", "The Guardian", "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers", "Nov 20", "51ca9e41ea.jpg", "u51ca9e41ea", "2026-11-20T05:31:23-0500", true], [8, "Zohran Mamdani unveils plan to close Rikers Island jail complex", "Mayor plans to close jail by 2032 and relocate its remaining population to smaller facilities across four boroughs Zohran Mamdani, New York City’s mayor, on Friday unveiled a plan to close the Rikers Island jail complex, with a goal to end all incarceration at the current facility and relocate its r", "The Guardian", "https://www.theguardian.com/us-news/2026/nov/20/rikers-island-closure-plan-mamdani", "Nov 20", "3e36496a5c.jpg", "u3e36496a5c", "2026-11-20T05:31:23-0500", true], [9, "‘This is about power and consent’: A digital gadfly brings his Big Tech fight to Canada", "Imran Ahmed, head of the Center for Countering Digital Harm, has spent the better part of a decade advocating for legislation to hold tech companies accountable", "The Globe and Mail", "https://www.theglobeandmail.com/business/article-imran-ahmed-brings-his-big-tech-fight-to-canada/", "Nov 20", "cb7a213403.jpg", "ucb7a213403", "2026-11-20T05:31:23-0500", true], [10, "How a small Toronto radio program is bringing Afghan women's voices to light | CBC News", "A Toronto radio program is providing the opportunity for women living under the Taliban regime to share their stories. Radio Jawan operates like a journalism school, and is run by a former reporter in Afghanistan who settled in the GTA", "CBC", "https://www.cbc.ca/news/canada/toronto/afghan-women-radio-program-9.7428784?cmp=rss", "Nov 20", "ea968aaafd.jpg", "uea968aaafd", "2026-11-20T07:22:17-0500", true], [11, "Gap names new Athleta CEO, lowers full-year guidance", "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.", "CNBC", "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html", "Nov 19", "1eb7507f8c.jpg", "u1eb7507f8c", "2026-11-20T07:22:17-0500", true]]}]}, {"cat": "Latin America", "subs": [{"sub": "", "items": [[12, "El Salvador’s Bukele seeks third term after constitution change", "Critics accuse populist president of engineering a de facto one-party state in El Salvador.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/20/el-salvadors-bukele-seeks-third-term-after-constitution-change?traffic_source=rss", "Nov 20", "c4176800e8.jpg", "uc4176800e8", "2026-11-20T05:31:23-0500", true], [13, "Venezuela signs military deal with US less than a year after Maduro's removal", "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\".", "BBC", "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss", "Nov 19", "b16facea9b.jpg", "ub16facea9b", "2026-11-20T12:18:41-0500", true]]}]}, {"cat": "Europe", "subs": [{"sub": "", "items": [[14, "Ukraine: Three Kyiv bridges hit during major Russian missile attack", "Five people were killed in a wave of strikes which follow Ukraine's successful targeting of the Crimean Bridge.", "BBC", "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss", "Nov 20", "f451b9b779.jpg", "uf451b9b779", "2026-11-20T05:31:23-0500", true], [15, "Kushner says Russia 'comfortable' with idea of NATO-like security guarantees for Ukraine", "Kushner said President Donald Trump is open to such a guarantee, but its form and whether Russia and Ukraine would accept it remain unclear.", "CNBC", "https://www.cnbc.com/2026/11/20/kushner-ukraine-nato-russia-trump-putin.html", "Nov 20", "041165c31a.jpg", "u041165c31a", "2026-11-20T05:31:23-0500", true], [16, "A Summit Gives Putin the Win He Craves: Equal Stature With Superpowers", "Standing alongside the U.S. and Chinese leaders, President Vladimir V. Putin secured a symbolic triumph in his long quest to restore Russia’s place as a global power.", "The New York Times", "https://www.nytimes.com/2026/11/20/world/europe/putin-trump-xi-summit-apec.html", "Nov 20", "", "uc940e829c8", "2026-11-20T05:31:23-0500", true], [17, "Ukraine strains Russian logistics with Crimean bridge strikes", "KYIV, Nov 20 - Ukraine's partial destruction of Russia's prized bridge to Crimea bolsters a months-long campaign by Kyiv to sever Moscow's supply lines to the battlefields of southern and eastern Ukraine and the occupied Black Sea peninsula.", "The Straits Times", "https://www.straitstimes.com/asia/ukraine-strains-russian-logistics-with-crimean-bridge-strikes", "Nov 20", "4e1e6488fa.jpg", "u4e1e6488fa", "2026-11-20T05:31:23-0500", true], [18, "EU says Brexit reset deal with UK will not take effect without agreement on tuition fees – live", "EU aims for leverage over UK by making the deals agreed today contingent on future agreement on tuition fees Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed to neutralise the leverage London gets in the next si", "The Guardian", "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates", "Nov 20", "c8606f7a59.jpg", "uc8606f7a59", "2026-11-20T05:31:23-0500", true], [19, "EU-UK talks: New deal should reduce 'Irish Sea border' impact", "The agreement is expected to be confirmed when Andy Burnham and Ursula von der Leyen meet in Brussels.", "BBC", "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss", "Nov 20", "155b9053f8.jpg", "u155b9053f8", "2026-11-20T05:31:23-0500", true], [20, "UK government borrowing rises less than forecast in surprise boost for chancellor John Healey", "UK economy defies City predictions and Iran war fallout, with gap between spending and income about £1bn lower than expected in October, at £17bn The UK government borrowed less than expected in October despite a rise in debt interest costs, in a boost for chancellor John Healey amid the pressure on", "The Guardian", "https://www.theguardian.com/business/2026/nov/20/uk-government-borrowing-rises-less-than-forecast-in-surprise-boost-for-chancellor-john-healey", "Nov 20", "79fa21ef1d.jpg", "u79fa21ef1d", "2026-11-20T05:31:23-0500", true], [21, "U.K.-India trade deal faces a stiff test over Scotch whisky import taxes", "In the global spirits markets, while the U.S., Europe, and China are facing volume contraction, India will add nearly 100 million consumers in the next five years.", "CNBC", "https://www.cnbc.com/2026/11/20/uk-india-trade-scotch-whisky-tariffs.html", "Nov 20", "76b2436a9f.jpg", "u76b2436a9f", "2026-11-20T05:31:23-0500", true], [22, "Lufthansa to eliminate 1,000 jobs at struggling flagship airline", "It also plans to further reduce capacity on short- and medium-haul routes and shrink its fleet of Airbus A320 aircraft.", "The Straits Times", "https://www.straitstimes.com/business/companies-markets/lufthansa-to-eliminate-1000-jobs-at-struggling-flagship-airline", "Nov 20", "af4014d989.jpg", "uaf4014d989", "2026-11-20T05:31:23-0500", true], [23, "Household rush to stockpile emergency supplies sends British retail sales soaring", "Surge fuelled by ‘preppers’ heeding Be Ready campaign’s call for households to have three days of food and water for emergencies Business live – latest updates Retail sales in Great Britain surged last month as the public rushed to buy products including tinned food and long-life milk, after the gov", "The Guardian", "https://www.theguardian.com/world/2026/nov/20/rush-stockpile-emergency-supplies-sends-british-retail-sales-soaring", "Nov 20", "c8ab7ff78d.jpg", "uc8ab7ff78d", "2026-11-20T05:31:23-0500", true], [24, "Senior Tories urge Badenoch to drop Brexit talk in major strategy shift, sources say", "Exclusive: While PM pushes for EU reset, Tory leader is moving away from ‘divisive’ issue that defined party for years UK-EU summit live: latest news updates Kemi Badenoch has been advised by her team to limit the amount of time she spends discussing Brexit and Europe, the Guardian has been told, mo", "The Guardian", "https://www.theguardian.com/politics/2026/nov/20/kemi-badenoch-brexit-eu-conservatives", "Nov 20", "96258bd38c.jpg", "u96258bd38c", "2026-11-20T05:31:23-0500", true], [25, "Czechs protest en masse against 'concentration of power in one hand' and growing control over media", "As large demonstrations in the Czech Republic challenge Prime Minister Andrej Babiš's plans to change the funding model of public broadcasters, Mikuláš Minář, Chair of the Million Moments for Democracy movement, joins François Picard from Prague for Spotlight, warning that his country risks followin", "France 24", "https://www.france24.com/en/tv-shows/spotlight/20261120-czechs-protest-en-masse-against-concentration-of-power-in-one-hand-and-growing-control-over-media", "Nov 20", "", "ue171d9d7ee", "2026-11-20T05:31:23-0500", true], [26, "Thousands protest across Italy in strike over wages, public spending", "ROME, Nov 20 - Thousands of students and workers protested across Italy on Friday as the country's largest trade union, CGIL, staged a general strike against Prime Minister Giorgia Meloni's economic policies, demanding higher wages and more spending on public services.", "The Straits Times", "https://www.straitstimes.com/world/europe/thousands-protest-across-italy-in-strike-over-wages-public-spending", "Nov 20", "f411331747.jpg", "uf411331747", "2026-11-20T05:31:23-0500", true], [27, "Gen Z Is Driving Global Political Change, Aiding Far Left and Far Right", "Protests planned across Europe on Friday are the latest example of global youth anger that has driven demonstrations and election upsets.", "The New York Times", "https://www.nytimes.com/2026/11/20/world/europe/youth-protests-far-right-left.html", "Nov 20", "", "udac362452d", "2026-11-20T05:31:23-0500", true], [28, "The War Is Ravaging Ukraine’s Wildlife, Too", "The war in Ukraine has had untold consequences for dolphins, moose, storks and a huge range of other wildlife whose habitats are now rife with anti-drone netting, minefields or in the direct line of fire.", "The New York Times", "https://www.nytimes.com/2026/11/20/world/europe/ukraine-wildlife-war.html", "Nov 20", "", "ubb0cfb83ad", "2026-11-20T05:31:23-0500", true], [29, "Victims of Clerical Sexual Abuse Want More From Pope Leo", "As he toured South America this month, Pope Leo XIV met with 11 victims of clerical sexual abuse. Some want him to engage more meaningfully.", "The New York Times", "https://www.nytimes.com/2026/11/20/world/europe/pope-leo-catholic-sexual-abuse.html", "Nov 20", "", "u796ba123a2", "2026-11-20T05:31:23-0500", true], [30, "Mouldy, infested housing for vulnerable people sold as ethical investments abroad", "The properties are marketed at premium prices with claims of “government-backed” returns, the BBC finds.", "BBC", "https://www.bbc.co.uk/news/articles/c6evre8j12vno?at_medium=RSS&at_campaign=rss", "Nov 20", "66d772a846.jpg", "u66d772a846", "2026-11-20T05:31:23-0500", true], [31, "Joanne Young praised for bravery in exposing rape by husband and strangers", "Woman who waived anonymity says she hopes her case will mean other victims of abuse are more likely to come forward A woman who was drugged and raped by her husband and strangers he had invited to their family home has been praised for her bravery in exposing the crimes. The judge in the case and wo", "The Guardian", "https://www.theguardian.com/society/2026/nov/20/joanne-young-drugged-raped-by-husband-praised-bravery-anonymity", "Nov 20", "ed220e25d6.jpg", "ued220e25d6", "2026-11-20T05:31:23-0500", true], [32, "Lahori Zeera, Campa Jeera: Cumin-laced fizzy sodas are giving the cola giants a tough fight in India", "Cumin-laced sodas are capturing a bigger market share in India as demand for homegrown flavours goes up.", "BBC", "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss", "Nov 19", "bac251cd51.jpg", "ubac251cd51", "2026-11-20T07:22:17-0500", true], [33, "Burnham seals trade and youth mobility deals in biggest step towards EU since Brexit", "Agreements reached on food and drink, emissions and to allow young people to move around continent, but may be derailed over student fees Andy Burnham has taken the biggest step towards deeper ties with the EU since Brexit, sealing deals to ease trade and create a mobility scheme for young people as", "The Guardian", "https://www.theguardian.com/politics/2026/nov/20/burnham-trade-youth-mobility-deals-biggest-step-towards-eu-since-brexit", "Nov 20", "1efc3952f0.jpg", "u1efc3952f0", "2026-11-20T13:24:33-0500", true], [34, "Andy Burnham: UK to explore even closer ties with EU after agreeing deal", "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.", "BBC", "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss", "Nov 20", "767c277986.jpg", "u767c277986", "2026-11-20T14:19:42-0500", true], [35, "Man accused of sparking deadly Los Angeles wildfire found guilty", "Verdict in case against former Uber driver Jonathan Rinderknecht comes after first trial ended with hung jury The 30-year-old accused of sparking the deadly Palisades fire in Los Angeles was found guilty of two federal arson charges in a Friday verdict that came months after his first trial conclude", "The Guardian", "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict", "Nov 20", "973aadc167.jpg", "u973aadc167", "2026-11-20T19:27:09-0500", true]]}]}, {"cat": "Middle East", "subs": [{"sub": "", "items": [[36, "Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks", "A skyscraper in Saudi Arabia's capital Riyadh was damaged on Thursday after the Gulf country reported new attacks by Yemen's Houthis. Witnesses said the city's Public Investment Fund Tower, which showcases Saudi Arabia's economic ambitions, was \"damaged across several floors, with windows blown out\"", "France 24", "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks", "Nov 19", "", "udab98dd23c", "2026-11-20T05:31:23-0500", true], [37, "Oil prices gain as Houthi attacks on Riyadh raise supply concerns", "But crude benchmarks are set for a third straight weekly drop as expectations of a supply surplus grow.", "The Straits Times", "https://www.straitstimes.com/business/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns", "Nov 19", "287bf9a2a7.jpg", "u287bf9a2a7", "2026-11-20T05:31:23-0500", true], [38, "US maritime agency warned Iran blockade was adding to rising Gulf premiums", "US Maritime Administration acknowledged naval blockade's impact on insurance premiums and cargo capacity, memo shows.", "Al Jazeera", "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss", "Nov 20", "e780057697.jpg", "ue780057697", "2026-11-20T05:31:23-0500", true], [39, "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis", "Orla Guerin speaks to seven people trapped in the key city of Taiz, cut off from the outside world for weeks.", "BBC", "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss", "Nov 19", "eca3e57c24.jpg", "ueca3e57c24", "2026-11-20T05:31:23-0500", true], [40, "Gaza: Israel launched new offensive on Nuseirat", "Israeli tanks have moved east of the Nuseirat refugee camp in central Gaza, with witnesses reporting heavy shelling, gunfire and airstrikes as the Israeli military says it has launched an operation in a Hamas-controlled area. Strikes killed at least three people on Wednesday, and displaced families ", "France 24", "https://www.france24.com/en/gaza-israel-launched-new-offensive-on-nuseirat", "Nov 19", "", "u1bbf36689e", "2026-11-20T05:31:23-0500", true], [41, "Iraqi security forces deploy in Iran-backed militia stronghold, Reuters witness says", "JURF AL-SAKHAR, Iraq, DUBAI, Nov 20 - Iraqi security forces began deploying in Jurf al-Sakhar, a stronghold of the Kataib Hezbollah armed group, on Friday under a compromise deal to try to defuse tension with Iran's most powerful Shi'ite militia ally in the country.", "The Straits Times", "https://www.straitstimes.com/world/middle-east/iraqi-security-forces-to-deploy-in-iran-backed-militia-stronghold-security-officials-say", "Nov 20", "a332a64268.jpg", "ua332a64268", "2026-11-20T05:31:23-0500", true], [42, "Gaza Civil Defence struggles to rescue lives as vehicles break down", "More than 85 percent of Gaza Civil Defence vehicles are out of service as crews struggle to reach trapped people.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/20/gaza-civil-defence-struggles-to-rescue-lives-as-vehicles-fall-into-disrepair?traffic_source=rss", "Nov 20", "beca203ab8.jpg", "ubeca203ab8", "2026-11-20T05:31:23-0500", true], [43, "Kataib Hezbollah faces deadline to leave Iraqi stronghold", "Kataib Hezbollah faces deadline to leave Iraqi stronghold", "Al Jazeera", "https://www.aljazeera.com/video/newsfeed/2026/11/20/kataib-hezbollah-faces-deadline-to-leave-iraqi-stronghold?traffic_source=rss", "Nov 20", "11cb4e9aad.jpg", "u11cb4e9aad", "2026-11-20T07:22:17-0500", true], [44, "‘In our lands the rain is made of bullets’: Palestinian artists look back in anger, melancholy and defiance", "IMMA, Dublin From massacre locations painted on to basalt slabs to photocollages of bulldozed airports, artists from across the Levant address their traumatic history In 2006, Simone Fattal painted on to basalt slabs the names of places indelibly associated with massacres in the Levant since 1948: D", "The Guardian", "https://www.theguardian.com/artanddesign/2026/nov/19/a-sea-for-borrowed-time-review-palestinian-artists-imma-dublin", "Nov 19", "d6fc6bf6b3.jpg", "ud6fc6bf6b3", "2026-11-20T07:22:17-0500", true], [45, "What does the ICJ’s Rohingya genocide ruling mean for Gaza?", "The case sets a precedent for establishing a state's intent to commit genocide beyond explicitly written orders.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/20/what-does-the-icjs-rohingya-genocide-ruling-mean-for-gaza?traffic_source=rss", "Nov 20", "7745a81f8b.jpg", "u7745a81f8b", "2026-11-20T08:24:48-0500", true]]}]}, {"cat": "Asia-Pacific", "subs": [{"sub": "", "items": [[46, "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices", "The core inflation figure — which strips out prices of food — was lower than the 2.3% expected by Reuters-polled economists.", "CNBC", "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html", "Nov 19", "85e518edc0.jpg", "u85e518edc0", "2026-11-20T05:31:23-0500", true], [47, "Pakistan minister visits India for first time since 2025 war", "Islamabad and New Delhi insist the visit is strictly multilateral, despite hopes it could open a channel for contact.", "Al Jazeera", "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss", "Nov 20", "5142390aaa.jpg", "u5142390aaa", "2026-11-20T05:31:23-0500", true], [48, "Indonesia’s Prabowo, China’s Xi discuss future South China Sea cooperation", "They also discussed the economy and investment partnerships.", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/indonesias-prabowo-chinas-xi-discuss-future-south-china-sea-cooperation", "Nov 20", "5f6a16ab9a.jpg", "u5f6a16ab9a", "2026-11-20T05:31:23-0500", true], [49, "China says Japan must change ‘attitude’, after Xi snub of Takaichi", "Japan PM Takaichi had suggested in 2025 that Japan might intervene militarily if China attempted to take Taiwan by force.", "The Straits Times", "https://www.straitstimes.com/world/china-says-japan-must-change-attitude-after-xi-snub-of-takaichi", "Nov 20", "0caffae9f9.jpg", "u0caffae9f9", "2026-11-20T05:31:23-0500", true], [50, "The real-world missile defense lessons from Ukraine and Iran — and how they matter for China - Breaking Defense", "What works in Ukraine may not be the same systems needed for a Pacific conflict, according to Breaking Defense’s video roundtable.", "Breakingdefense", "https://breakingdefense.com/2026/11/the-real-world-missile-defense-lessons-from-ukraine-and-iran-and-how-they-matter-for-china/", "Nov 19", "845da582d1.jpg", "u845da582d1", "2026-11-20T05:31:23-0500", true], [51, "Myanmar's Rohingya win landmark genocide ruling, but return home remains distant", "COX'S BAZAR, Bangladesh, Nov 20 - Inside sprawling camps in Bangladesh, thousands of Rohingya refugees celebrated a landmark ruling by the UN's top court on Thursday that Myanmar committed genocide against the mainly Muslim minority during a 2017 military campaign.", "The Straits Times", "https://www.straitstimes.com/asia/myanmars-rohingya-win-landmark-genocide-ruling-but-return-home-remains-distant", "Nov 20", "b43b659fc3.jpg", "ub43b659fc3", "2026-11-20T05:31:23-0500", true], [52, "Tackling doubt and distrust: Taiwan cracks down on disinformation ahead of local elections", "Experts say disinformation can erode trust in the democratic system, even if it does not directly influence voter behaviour.", "The Straits Times", "https://www.straitstimes.com/asia/east-asia/tackling-doubt-and-distrust-taiwan-cracks-down-on-disinformation-ahead-of-local-elections", "Nov 20", "87a771a829.jpg", "u87a771a829", "2026-11-20T05:31:23-0500", true], [53, "Nepal PM Balendra Shah to visit India, meet Modi", "KATHMANDU, Nov 20 - Nepal’s rapper-turned-Prime Minister Balendra Shah will meet Indian counterpart Narendra Modi next week on his first bilateral visit since the March election, officials said on Friday.", "The Straits Times", "https://www.straitstimes.com/asia/nepal-pm-balendra-shah-to-visit-india-meet-modi", "Nov 20", "50fdae1bc8.jpg", "u50fdae1bc8", "2026-11-20T05:31:23-0500", true], [54, "From Gig Workers to Tycoons, China Is Reaching Into Every Pocket", "China’s economy is sluggish, and its population is aging. Its people are feeling the sting of new taxes.", "The New York Times", "https://www.nytimes.com/2026/11/20/business/from-gig-workers-to-tycoons-china-is-reaching-into-every-pocket.html", "Nov 20", "", "u544b225595", "2026-11-20T05:31:23-0500", true], [55, "With secret schools, salons and sports, Afghan women defy Taliban limits on their lives", "Speaking anonymously, for fear of arrest, Kabul residents share their acts of quiet defiance", "The Globe and Mail", "https://www.theglobeandmail.com/world/article-with-secret-schools-salons-and-sports-afghan-women-defy-taliban-limits/", "Nov 20", "99d4a7ed8a.jpg", "u99d4a7ed8a", "2026-11-20T05:31:23-0500", true], [56, "European emissions proposal faces Middle East pushback at UN aviation agency", "MONTREAL, Nov 20 - Plans to change the European Union's Emissions Trading System faced pushback at a global aviation gathering that wraps up on Friday, as Middle East countries challenged fresh efforts to curb pollution from airlines outside an existing deal.", "The Straits Times", "https://www.straitstimes.com/world/europe/european-emissions-proposal-faces-middle-east-pushback-at-un-aviation-agency", "Nov 20", "457028a328.jpg", "u457028a328", "2026-11-20T14:19:42-0500", true]]}]}, {"cat": "Africa", "subs": [{"sub": "", "items": [[57, "US has 'unbalanced approach' on DR Congo deal, Rwanda's foreign minister says", "In an interview with FRANCE 24, Rwandan Foreign Minister Olivier Nduhungirehe said the Trump administration had \"an unbalanced approach\" in implementing the DR Congo peace deal it brokered. He also said that the recent row over the Organisation Internationale de la Francophonie's top job was \"manufa", "France 24", "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261119-us-has-unbalanced-approach-on-dr-congo-deal-rwanda-s-foreign-minister-says", "Nov 19", "", "u91ca72513d", "2026-11-20T05:31:23-0500", true], [58, "Nigeria: States set to get their own police forces", "Nigeria has moved a step closer to letting its 36 states set up their own police forces. The National Assembly has sent a constitutional amendment bill to the president, as authorities seek state-run police to complement the federal force amid growing insecurity. Many states currently fund vigilante", "France 24", "https://www.france24.com/en/nigeria-states-set-to-get-their-own-police-forces", "Nov 19", "", "ub961f41e74", "2026-11-20T05:31:23-0500", true], [59, "Senegal: Pastef removes President Faye from its ranks", "In Senegal, Pastef, the majority party led by National Assembly president Ousmane Sonko, has made official the departure of President Bassirou Diomaye Faye. It is the latest episode in a split with his former Prime minister that was already largely complete, and it comes in the middle of an economic", "France 24", "https://www.france24.com/en/senegal-pastef-removes-president-faye-from-its-ranks", "Nov 19", "", "u89ea9e54b5", "2026-11-20T05:31:23-0500", true], [60, "Nigeria suicide bill: Bola Tinubu moves to end jail terms for attempted suicide", "Nigeria's proposed reform follows years of calls from psychiatrists and a parallel Senate bill.", "BBC", "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o?at_medium=RSS&at_campaign=rss", "Nov 20", "7c0ffdc4f1.jpg", "u7c0ffdc4f1", "2026-11-20T05:31:23-0500", true], [61, "Kenya’s growing doping crisis overshadows legacy as athletics powerhouse", "More than 140 Kenyan athletes suspended by the Athletics Integrity Unit since 2017, most of them distance runners.", "Al Jazeera", "https://www.aljazeera.com/sports/2026/11/20/kenyas-growing-doping-crisis-overshadows-legacy-as-athletics-powerhouse?traffic_source=rss", "Nov 20", "04f6eec64c.jpg", "u04f6eec64c", "2026-11-20T07:22:17-0500", true], [62, "Islam set to be the largest religion by 2035: Where will most Muslims live?", "Pew Research projects Muslim population in Pakistan will overtake Indonesia by 2070, with India next and Nigeria third.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/20/islam-set-to-be-the-largest-religion-by-2035-where-will-most-muslims-live?traffic_source=rss", "Nov 20", "14028a62e5.jpg", "u14028a62e5", "2026-11-20T07:22:17-0500", true], [63, "Kenyan marathon champion Peres Jepchirchir banned for doping", "In tonight's edition: Kenyan athletics superstar and reigning marathon world champion Peres Jepchirchir is banned for three years for doping. Also, South African judges leave the courtroom behind and tour a repatriation centre before handing down judgment in 33 emergency asylum applications. Plus Gh", "France 24", "https://www.france24.com/en/tv-shows/eye-on-africa/20261119-kenyan-marathon-champion-banned-for-doping", "Nov 19", "", "ud5c33d2f04", "2026-11-20T07:22:17-0500", true], [64, "Mrima Hill deal: US consortium wins Kenya mining project, beating Chinese rivals", "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).", "BBC", "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss", "Nov 19", "5171e29e13.jpg", "u5171e29e13", "2026-11-20T12:18:41-0500", true], [65, "Ireland v South Africa: Defiant Boks set to front up without banned Rassie Erasmus", "South Africa prepare to face Ireland in a much-anticipated Nations Championship Test in Dublin without banned head coach Rassie Erasmus.", "BBC", "https://www.bbc.co.uk/sport/rugby-union/articles/cm930nj435dvo?at_medium=RSS&at_campaign=rss", "Nov 20", "85960515be.jpg", "u85960515be", "2026-11-20T14:19:42-0500", true], [66, "Javits Frimpong Ghanaian boy killed in US remembered at funeral", "At the funeral for the 15-year-old who was fatally shot last month, Mamdani spoke alongside the boy's father and civil rights leaders.", "BBC", "https://www.bbc.co.uk/news/articles/cv8e07825l90o?at_medium=RSS&at_campaign=rss", "Nov 20", "e627d923d7.jpg", "ue627d923d7", "2026-11-20T16:26:41-0500", true]]}]}]], ["topic", "By topic", [{"cat": "Geopolitics & conflict", "subs": [{"sub": "", "items": [[14, "Ukraine: Three Kyiv bridges hit during major Russian missile attack", "Five people were killed in a wave of strikes which follow Ukraine's successful targeting of the Crimean Bridge.", "BBC", "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss", "Nov 20", "f451b9b779.jpg", "uf451b9b779", "2026-11-20T05:31:23-0500", true], [36, "Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks", "A skyscraper in Saudi Arabia's capital Riyadh was damaged on Thursday after the Gulf country reported new attacks by Yemen's Houthis. Witnesses said the city's Public Investment Fund Tower, which showcases Saudi Arabia's economic ambitions, was \"damaged across several floors, with windows blown out\"", "France 24", "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks", "Nov 19", "", "udab98dd23c", "2026-11-20T05:31:23-0500", true], [15, "Kushner says Russia 'comfortable' with idea of NATO-like security guarantees for Ukraine", "Kushner said President Donald Trump is open to such a guarantee, but its form and whether Russia and Ukraine would accept it remain unclear.", "CNBC", "https://www.cnbc.com/2026/11/20/kushner-ukraine-nato-russia-trump-putin.html", "Nov 20", "041165c31a.jpg", "u041165c31a", "2026-11-20T05:31:23-0500", true], [16, "A Summit Gives Putin the Win He Craves: Equal Stature With Superpowers", "Standing alongside the U.S. and Chinese leaders, President Vladimir V. Putin secured a symbolic triumph in his long quest to restore Russia’s place as a global power.", "The New York Times", "https://www.nytimes.com/2026/11/20/world/europe/putin-trump-xi-summit-apec.html", "Nov 20", "", "uc940e829c8", "2026-11-20T05:31:23-0500", true], [17, "Ukraine strains Russian logistics with Crimean bridge strikes", "KYIV, Nov 20 - Ukraine's partial destruction of Russia's prized bridge to Crimea bolsters a months-long campaign by Kyiv to sever Moscow's supply lines to the battlefields of southern and eastern Ukraine and the occupied Black Sea peninsula.", "The Straits Times", "https://www.straitstimes.com/asia/ukraine-strains-russian-logistics-with-crimean-bridge-strikes", "Nov 20", "4e1e6488fa.jpg", "u4e1e6488fa", "2026-11-20T05:31:23-0500", true], [47, "Pakistan minister visits India for first time since 2025 war", "Islamabad and New Delhi insist the visit is strictly multilateral, despite hopes it could open a channel for contact.", "Al Jazeera", "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss", "Nov 20", "5142390aaa.jpg", "u5142390aaa", "2026-11-20T05:31:23-0500", true], [48, "Indonesia’s Prabowo, China’s Xi discuss future South China Sea cooperation", "They also discussed the economy and investment partnerships.", "The Straits Times", "https://www.straitstimes.com/asia/se-asia/indonesias-prabowo-chinas-xi-discuss-future-south-china-sea-cooperation", "Nov 20", "5f6a16ab9a.jpg", "u5f6a16ab9a", "2026-11-20T05:31:23-0500", true], [49, "China says Japan must change ‘attitude’, after Xi snub of Takaichi", "Japan PM Takaichi had suggested in 2025 that Japan might intervene militarily if China attempted to take Taiwan by force.", "The Straits Times", "https://www.straitstimes.com/world/china-says-japan-must-change-attitude-after-xi-snub-of-takaichi", "Nov 20", "0caffae9f9.jpg", "u0caffae9f9", "2026-11-20T05:31:23-0500", true], [2, "Trump calls sceptical allies to sell view Putin wants peace", "The US leader urged the Europeans to set up a meeting and do a deal that would allow the killing to stop.", "The Straits Times", "https://www.straitstimes.com/world/united-states/trump-calls-sceptical-allies-to-sell-view-putin-wants-peace", "Nov 20", "37ca7d2641.jpg", "u37ca7d2641", "2026-11-20T05:31:23-0500", true], [7, "Race to be next UN secretary general exposes divisions among world powers", "Debate about dominance of permanent five members could reignite if major powers block Costa Rican frontrunner The race to become the next UN secretary general could reach a decisive moment on Friday when a UN security council vote is likely to reveal whether the Costa Rican frontrunner for the post ", "The Guardian", "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers", "Nov 20", "51ca9e41ea.jpg", "u51ca9e41ea", "2026-11-20T05:31:23-0500", true], [39, "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis", "Orla Guerin speaks to seven people trapped in the key city of Taiz, cut off from the outside world for weeks.", "BBC", "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss", "Nov 19", "eca3e57c24.jpg", "ueca3e57c24", "2026-11-20T05:31:23-0500", true], [40, "Gaza: Israel launched new offensive on Nuseirat", "Israeli tanks have moved east of the Nuseirat refugee camp in central Gaza, with witnesses reporting heavy shelling, gunfire and airstrikes as the Israeli military says it has launched an operation in a Hamas-controlled area. Strikes killed at least three people on Wednesday, and displaced families ", "France 24", "https://www.france24.com/en/gaza-israel-launched-new-offensive-on-nuseirat", "Nov 19", "", "u1bbf36689e", "2026-11-20T05:31:23-0500", true], [41, "Iraqi security forces deploy in Iran-backed militia stronghold, Reuters witness says", "JURF AL-SAKHAR, Iraq, DUBAI, Nov 20 - Iraqi security forces began deploying in Jurf al-Sakhar, a stronghold of the Kataib Hezbollah armed group, on Friday under a compromise deal to try to defuse tension with Iran's most powerful Shi'ite militia ally in the country.", "The Straits Times", "https://www.straitstimes.com/world/middle-east/iraqi-security-forces-to-deploy-in-iran-backed-militia-stronghold-security-officials-say", "Nov 20", "a332a64268.jpg", "ua332a64268", "2026-11-20T05:31:23-0500", true], [50, "The real-world missile defense lessons from Ukraine and Iran — and how they matter for China - Breaking Defense", "What works in Ukraine may not be the same systems needed for a Pacific conflict, according to Breaking Defense’s video roundtable.", "Breakingdefense", "https://breakingdefense.com/2026/11/the-real-world-missile-defense-lessons-from-ukraine-and-iran-and-how-they-matter-for-china/", "Nov 19", "845da582d1.jpg", "u845da582d1", "2026-11-20T05:31:23-0500", true], [57, "US has 'unbalanced approach' on DR Congo deal, Rwanda's foreign minister says", "In an interview with FRANCE 24, Rwandan Foreign Minister Olivier Nduhungirehe said the Trump administration had \"an unbalanced approach\" in implementing the DR Congo peace deal it brokered. He also said that the recent row over the Organisation Internationale de la Francophonie's top job was \"manufa", "France 24", "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261119-us-has-unbalanced-approach-on-dr-congo-deal-rwanda-s-foreign-minister-says", "Nov 19", "", "u91ca72513d", "2026-11-20T05:31:23-0500", true], [43, "Kataib Hezbollah faces deadline to leave Iraqi stronghold", "Kataib Hezbollah faces deadline to leave Iraqi stronghold", "Al Jazeera", "https://www.aljazeera.com/video/newsfeed/2026/11/20/kataib-hezbollah-faces-deadline-to-leave-iraqi-stronghold?traffic_source=rss", "Nov 20", "11cb4e9aad.jpg", "u11cb4e9aad", "2026-11-20T07:22:17-0500", true], [45, "What does the ICJ’s Rohingya genocide ruling mean for Gaza?", "The case sets a precedent for establishing a state's intent to commit genocide beyond explicitly written orders.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/20/what-does-the-icjs-rohingya-genocide-ruling-mean-for-gaza?traffic_source=rss", "Nov 20", "7745a81f8b.jpg", "u7745a81f8b", "2026-11-20T08:24:48-0500", true], [13, "Venezuela signs military deal with US less than a year after Maduro's removal", "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\".", "BBC", "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss", "Nov 19", "b16facea9b.jpg", "ub16facea9b", "2026-11-20T12:18:41-0500", true]]}]}, {"cat": "Politics & elections", "subs": [{"sub": "", "items": [[1, "Senate passes bipartisan permitting reform bill to speed energy projects, sends it to House", "The Senate approved a long-sought bipartisan permitting reform bill on Thursday, following a major breakthrough on legislation that aims to cut costs by ramping up the speed of infrastructure and energy projects.", "CBS News", "https://www.cbsnews.com/news/senate-bipartisan-permitting-reform-bill-energy-baaja-trump/", "Nov 19", "b453628dc5.jpg", "ub453628dc5", "2026-11-20T05:33:04-0500", true], [18, "EU says Brexit reset deal with UK will not take effect without agreement on tuition fees – live", "EU aims for leverage over UK by making the deals agreed today contingent on future agreement on tuition fees Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed to neutralise the leverage London gets in the next si", "The Guardian", "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates", "Nov 20", "c8606f7a59.jpg", "uc8606f7a59", "2026-11-20T05:31:23-0500", true], [19, "EU-UK talks: New deal should reduce 'Irish Sea border' impact", "The agreement is expected to be confirmed when Andy Burnham and Ursula von der Leyen meet in Brussels.", "BBC", "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss", "Nov 20", "155b9053f8.jpg", "u155b9053f8", "2026-11-20T05:31:23-0500", true], [3, "Trump responds to Elon Musk’s ‘I’m not MAGA’ comments", "In a phone call with NBC News, the president said that when people “veer” from MAGA, “they don’t do very well.”", "NBC News", "https://www.nbcnews.com/politics/donald-trump/trump-responds-elon-musk-not-maga-comments-rcna610037", "Nov 19", "2b1ef21141.jpg", "u2b1ef21141", "2026-11-20T05:33:04-0500", true], [4, "Trump DoJ moves to drop legal challenge to Mary Peltola’s Alaska Senate win", "President had sought to block results if Democrat won race that featured two candidates named Dan Sullivan In a legal filing on Thursday, the Trump administration asked a federal appeals court to dismiss the lawsuit it filed before the midterm elections seeking to block the certification of the US S", "The Guardian", "https://www.theguardian.com/us-news/2026/nov/19/trump-mary-peltola-alaska-senate", "Nov 19", "feedd56ce8.jpg", "ufeedd56ce8", "2026-11-20T05:31:23-0500", true], [52, "Tackling doubt and distrust: Taiwan cracks down on disinformation ahead of local elections", "Experts say disinformation can erode trust in the democratic system, even if it does not directly influence voter behaviour.", "The Straits Times", "https://www.straitstimes.com/asia/east-asia/tackling-doubt-and-distrust-taiwan-cracks-down-on-disinformation-ahead-of-local-elections", "Nov 20", "87a771a829.jpg", "u87a771a829", "2026-11-20T05:31:23-0500", true], [53, "Nepal PM Balendra Shah to visit India, meet Modi", "KATHMANDU, Nov 20 - Nepal’s rapper-turned-Prime Minister Balendra Shah will meet Indian counterpart Narendra Modi next week on his first bilateral visit since the March election, officials said on Friday.", "The Straits Times", "https://www.straitstimes.com/asia/nepal-pm-balendra-shah-to-visit-india-meet-modi", "Nov 20", "50fdae1bc8.jpg", "u50fdae1bc8", "2026-11-20T05:31:23-0500", true], [24, "Senior Tories urge Badenoch to drop Brexit talk in major strategy shift, sources say", "Exclusive: While PM pushes for EU reset, Tory leader is moving away from ‘divisive’ issue that defined party for years UK-EU summit live: latest news updates Kemi Badenoch has been advised by her team to limit the amount of time she spends discussing Brexit and Europe, the Guardian has been told, mo", "The Guardian", "https://www.theguardian.com/politics/2026/nov/20/kemi-badenoch-brexit-eu-conservatives", "Nov 20", "96258bd38c.jpg", "u96258bd38c", "2026-11-20T05:31:23-0500", true], [25, "Czechs protest en masse against 'concentration of power in one hand' and growing control over media", "As large demonstrations in the Czech Republic challenge Prime Minister Andrej Babiš's plans to change the funding model of public broadcasters, Mikuláš Minář, Chair of the Million Moments for Democracy movement, joins François Picard from Prague for Spotlight, warning that his country risks followin", "France 24", "https://www.france24.com/en/tv-shows/spotlight/20261120-czechs-protest-en-masse-against-concentration-of-power-in-one-hand-and-growing-control-over-media", "Nov 20", "", "ue171d9d7ee", "2026-11-20T05:31:23-0500", true], [26, "Thousands protest across Italy in strike over wages, public spending", "ROME, Nov 20 - Thousands of students and workers protested across Italy on Friday as the country's largest trade union, CGIL, staged a general strike against Prime Minister Giorgia Meloni's economic policies, demanding higher wages and more spending on public services.", "The Straits Times", "https://www.straitstimes.com/world/europe/thousands-protest-across-italy-in-strike-over-wages-public-spending", "Nov 20", "f411331747.jpg", "uf411331747", "2026-11-20T05:31:23-0500", true], [27, "Gen Z Is Driving Global Political Change, Aiding Far Left and Far Right", "Protests planned across Europe on Friday are the latest example of global youth anger that has driven demonstrations and election upsets.", "The New York Times", "https://www.nytimes.com/2026/11/20/world/europe/youth-protests-far-right-left.html", "Nov 20", "", "udac362452d", "2026-11-20T05:31:23-0500", true], [12, "El Salvador’s Bukele seeks third term after constitution change", "Critics accuse populist president of engineering a de facto one-party state in El Salvador.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/20/el-salvadors-bukele-seeks-third-term-after-constitution-change?traffic_source=rss", "Nov 20", "c4176800e8.jpg", "uc4176800e8", "2026-11-20T05:31:23-0500", true], [58, "Nigeria: States set to get their own police forces", "Nigeria has moved a step closer to letting its 36 states set up their own police forces. The National Assembly has sent a constitutional amendment bill to the president, as authorities seek state-run police to complement the federal force amid growing insecurity. Many states currently fund vigilante", "France 24", "https://www.france24.com/en/nigeria-states-set-to-get-their-own-police-forces", "Nov 19", "", "ub961f41e74", "2026-11-20T05:31:23-0500", true], [59, "Senegal: Pastef removes President Faye from its ranks", "In Senegal, Pastef, the majority party led by National Assembly president Ousmane Sonko, has made official the departure of President Bassirou Diomaye Faye. It is the latest episode in a split with his former Prime minister that was already largely complete, and it comes in the middle of an economic", "France 24", "https://www.france24.com/en/senegal-pastef-removes-president-faye-from-its-ranks", "Nov 19", "", "u89ea9e54b5", "2026-11-20T05:31:23-0500", true]]}]}, {"cat": "Economy & markets", "subs": [{"sub": "", "items": [[37, "Oil prices gain as Houthi attacks on Riyadh raise supply concerns", "But crude benchmarks are set for a third straight weekly drop as expectations of a supply surplus grow.", "The Straits Times", "https://www.straitstimes.com/business/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns", "Nov 19", "287bf9a2a7.jpg", "u287bf9a2a7", "2026-11-20T05:31:23-0500", true], [46, "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices", "The core inflation figure — which strips out prices of food — was lower than the 2.3% expected by Reuters-polled economists.", "CNBC", "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html", "Nov 19", "85e518edc0.jpg", "u85e518edc0", "2026-11-20T05:31:23-0500", true], [20, "UK government borrowing rises less than forecast in surprise boost for chancellor John Healey", "UK economy defies City predictions and Iran war fallout, with gap between spending and income about £1bn lower than expected in October, at £17bn The UK government borrowed less than expected in October despite a rise in debt interest costs, in a boost for chancellor John Healey amid the pressure on", "The Guardian", "https://www.theguardian.com/business/2026/nov/20/uk-government-borrowing-rises-less-than-forecast-in-surprise-boost-for-chancellor-john-healey", "Nov 20", "79fa21ef1d.jpg", "u79fa21ef1d", "2026-11-20T05:31:23-0500", true], [38, "US maritime agency warned Iran blockade was adding to rising Gulf premiums", "US Maritime Administration acknowledged naval blockade's impact on insurance premiums and cargo capacity, memo shows.", "Al Jazeera", "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss", "Nov 20", "e780057697.jpg", "ue780057697", "2026-11-20T05:31:23-0500", true], [54, "From Gig Workers to Tycoons, China Is Reaching Into Every Pocket", "China’s economy is sluggish, and its population is aging. Its people are feeling the sting of new taxes.", "The New York Times", "https://www.nytimes.com/2026/11/20/business/from-gig-workers-to-tycoons-china-is-reaching-into-every-pocket.html", "Nov 20", "", "u544b225595", "2026-11-20T05:31:23-0500", true], [21, "U.K.-India trade deal faces a stiff test over Scotch whisky import taxes", "In the global spirits markets, while the U.S., Europe, and China are facing volume contraction, India will add nearly 100 million consumers in the next five years.", "CNBC", "https://www.cnbc.com/2026/11/20/uk-india-trade-scotch-whisky-tariffs.html", "Nov 20", "76b2436a9f.jpg", "u76b2436a9f", "2026-11-20T05:31:23-0500", true], [22, "Lufthansa to eliminate 1,000 jobs at struggling flagship airline", "It also plans to further reduce capacity on short- and medium-haul routes and shrink its fleet of Airbus A320 aircraft.", "The Straits Times", "https://www.straitstimes.com/business/companies-markets/lufthansa-to-eliminate-1000-jobs-at-struggling-flagship-airline", "Nov 20", "af4014d989.jpg", "uaf4014d989", "2026-11-20T05:31:23-0500", true], [23, "Household rush to stockpile emergency supplies sends British retail sales soaring", "Surge fuelled by ‘preppers’ heeding Be Ready campaign’s call for households to have three days of food and water for emergencies Business live – latest updates Retail sales in Great Britain surged last month as the public rushed to buy products including tinned food and long-life milk, after the gov", "The Guardian", "https://www.theguardian.com/world/2026/nov/20/rush-stockpile-emergency-supplies-sends-british-retail-sales-soaring", "Nov 20", "c8ab7ff78d.jpg", "uc8ab7ff78d", "2026-11-20T05:31:23-0500", true], [10, "How a small Toronto radio program is bringing Afghan women's voices to light | CBC News", "A Toronto radio program is providing the opportunity for women living under the Taliban regime to share their stories. Radio Jawan operates like a journalism school, and is run by a former reporter in Afghanistan who settled in the GTA", "CBC", "https://www.cbc.ca/news/canada/toronto/afghan-women-radio-program-9.7428784?cmp=rss", "Nov 20", "ea968aaafd.jpg", "uea968aaafd", "2026-11-20T07:22:17-0500", true], [32, "Lahori Zeera, Campa Jeera: Cumin-laced fizzy sodas are giving the cola giants a tough fight in India", "Cumin-laced sodas are capturing a bigger market share in India as demand for homegrown flavours goes up.", "BBC", "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss", "Nov 19", "bac251cd51.jpg", "ubac251cd51", "2026-11-20T07:22:17-0500", true], [11, "Gap names new Athleta CEO, lowers full-year guidance", "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.", "CNBC", "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html", "Nov 19", "1eb7507f8c.jpg", "u1eb7507f8c", "2026-11-20T07:22:17-0500", true]]}]}, {"cat": "Climate & disasters", "subs": [{"sub": "", "items": [[5, "CN derailments into Skeena River raise fresh concerns over shipping hazardous materials through northwest B.C. | CBC News", "The company says a suspected rockslide pushed a locomotive and several cars down an embankment and into the waters of the Skeena River Tuesday, with diesel from the locomotive then leaking more than a kilometre downstream. It's the second such incident this year, following a similar derailment durin", "CBC", "https://www.cbc.ca/news/canada/british-columbia/cn-derailment-diesel-skeena-oil-by-rail-9.7429141?cmp=rss", "Nov 19", "a25a67eb88.jpg", "ua25a67eb88", "2026-11-20T05:31:23-0500", true], [6, "California’s coastal communities on alert as biggest waves in years hit state", "Hazard warnings issued throughout week after powerful swells and waves of more than 9 metres recorded Multiple coastal hazard warnings were issued this week across California as successive areas of low pressure generated powerful swells and large breaking waves for coastal communities. Beaches and p", "The Guardian", "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state", "Nov 20", "34ed9397c7.jpg", "u34ed9397c7", "2026-11-20T05:31:23-0500", true], [28, "The War Is Ravaging Ukraine’s Wildlife, Too", "The war in Ukraine has had untold consequences for dolphins, moose, storks and a huge range of other wildlife whose habitats are now rife with anti-drone netting, minefields or in the direct line of fire.", "The New York Times", "https://www.nytimes.com/2026/11/20/world/europe/ukraine-wildlife-war.html", "Nov 20", "", "ubb0cfb83ad", "2026-11-20T05:31:23-0500", true], [33, "Burnham seals trade and youth mobility deals in biggest step towards EU since Brexit", "Agreements reached on food and drink, emissions and to allow young people to move around continent, but may be derailed over student fees Andy Burnham has taken the biggest step towards deeper ties with the EU since Brexit, sealing deals to ease trade and create a mobility scheme for young people as", "The Guardian", "https://www.theguardian.com/politics/2026/nov/20/burnham-trade-youth-mobility-deals-biggest-step-towards-eu-since-brexit", "Nov 20", "1efc3952f0.jpg", "u1efc3952f0", "2026-11-20T13:24:33-0500", true], [34, "Andy Burnham: UK to explore even closer ties with EU after agreeing deal", "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.", "BBC", "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss", "Nov 20", "767c277986.jpg", "u767c277986", "2026-11-20T14:19:42-0500", true], [56, "European emissions proposal faces Middle East pushback at UN aviation agency", "MONTREAL, Nov 20 - Plans to change the European Union's Emissions Trading System faced pushback at a global aviation gathering that wraps up on Friday, as Middle East countries challenged fresh efforts to curb pollution from airlines outside an existing deal.", "The Straits Times", "https://www.straitstimes.com/world/europe/european-emissions-proposal-faces-middle-east-pushback-at-un-aviation-agency", "Nov 20", "457028a328.jpg", "u457028a328", "2026-11-20T14:19:42-0500", true], [35, "Man accused of sparking deadly Los Angeles wildfire found guilty", "Verdict in case against former Uber driver Jonathan Rinderknecht comes after first trial ended with hung jury The 30-year-old accused of sparking the deadly Palisades fire in Los Angeles was found guilty of two federal arson charges in a Friday verdict that came months after his first trial conclude", "The Guardian", "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict", "Nov 20", "973aadc167.jpg", "u973aadc167", "2026-11-20T19:27:09-0500", true]]}]}, {"cat": "Society & justice", "subs": [{"sub": "", "items": [[8, "Zohran Mamdani unveils plan to close Rikers Island jail complex", "Mayor plans to close jail by 2032 and relocate its remaining population to smaller facilities across four boroughs Zohran Mamdani, New York City’s mayor, on Friday unveiled a plan to close the Rikers Island jail complex, with a goal to end all incarceration at the current facility and relocate its r", "The Guardian", "https://www.theguardian.com/us-news/2026/nov/20/rikers-island-closure-plan-mamdani", "Nov 20", "3e36496a5c.jpg", "u3e36496a5c", "2026-11-20T05:31:23-0500", true], [9, "‘This is about power and consent’: A digital gadfly brings his Big Tech fight to Canada", "Imran Ahmed, head of the Center for Countering Digital Harm, has spent the better part of a decade advocating for legislation to hold tech companies accountable", "The Globe and Mail", "https://www.theglobeandmail.com/business/article-imran-ahmed-brings-his-big-tech-fight-to-canada/", "Nov 20", "cb7a213403.jpg", "ucb7a213403", "2026-11-20T05:31:23-0500", true], [42, "Gaza Civil Defence struggles to rescue lives as vehicles break down", "More than 85 percent of Gaza Civil Defence vehicles are out of service as crews struggle to reach trapped people.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/20/gaza-civil-defence-struggles-to-rescue-lives-as-vehicles-fall-into-disrepair?traffic_source=rss", "Nov 20", "beca203ab8.jpg", "ubeca203ab8", "2026-11-20T05:31:23-0500", true], [51, "Myanmar's Rohingya win landmark genocide ruling, but return home remains distant", "COX'S BAZAR, Bangladesh, Nov 20 - Inside sprawling camps in Bangladesh, thousands of Rohingya refugees celebrated a landmark ruling by the UN's top court on Thursday that Myanmar committed genocide against the mainly Muslim minority during a 2017 military campaign.", "The Straits Times", "https://www.straitstimes.com/asia/myanmars-rohingya-win-landmark-genocide-ruling-but-return-home-remains-distant", "Nov 20", "b43b659fc3.jpg", "ub43b659fc3", "2026-11-20T05:31:23-0500", true], [55, "With secret schools, salons and sports, Afghan women defy Taliban limits on their lives", "Speaking anonymously, for fear of arrest, Kabul residents share their acts of quiet defiance", "The Globe and Mail", "https://www.theglobeandmail.com/world/article-with-secret-schools-salons-and-sports-afghan-women-defy-taliban-limits/", "Nov 20", "99d4a7ed8a.jpg", "u99d4a7ed8a", "2026-11-20T05:31:23-0500", true], [29, "Victims of Clerical Sexual Abuse Want More From Pope Leo", "As he toured South America this month, Pope Leo XIV met with 11 victims of clerical sexual abuse. Some want him to engage more meaningfully.", "The New York Times", "https://www.nytimes.com/2026/11/20/world/europe/pope-leo-catholic-sexual-abuse.html", "Nov 20", "", "u796ba123a2", "2026-11-20T05:31:23-0500", true], [30, "Mouldy, infested housing for vulnerable people sold as ethical investments abroad", "The properties are marketed at premium prices with claims of “government-backed” returns, the BBC finds.", "BBC", "https://www.bbc.co.uk/news/articles/c6evre8j12vno?at_medium=RSS&at_campaign=rss", "Nov 20", "66d772a846.jpg", "u66d772a846", "2026-11-20T05:31:23-0500", true], [31, "Joanne Young praised for bravery in exposing rape by husband and strangers", "Woman who waived anonymity says she hopes her case will mean other victims of abuse are more likely to come forward A woman who was drugged and raped by her husband and strangers he had invited to their family home has been praised for her bravery in exposing the crimes. The judge in the case and wo", "The Guardian", "https://www.theguardian.com/society/2026/nov/20/joanne-young-drugged-raped-by-husband-praised-bravery-anonymity", "Nov 20", "ed220e25d6.jpg", "ued220e25d6", "2026-11-20T05:31:23-0500", true], [60, "Nigeria suicide bill: Bola Tinubu moves to end jail terms for attempted suicide", "Nigeria's proposed reform follows years of calls from psychiatrists and a parallel Senate bill.", "BBC", "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o?at_medium=RSS&at_campaign=rss", "Nov 20", "7c0ffdc4f1.jpg", "u7c0ffdc4f1", "2026-11-20T05:31:23-0500", true], [44, "‘In our lands the rain is made of bullets’: Palestinian artists look back in anger, melancholy and defiance", "IMMA, Dublin From massacre locations painted on to basalt slabs to photocollages of bulldozed airports, artists from across the Levant address their traumatic history In 2006, Simone Fattal painted on to basalt slabs the names of places indelibly associated with massacres in the Levant since 1948: D", "The Guardian", "https://www.theguardian.com/artanddesign/2026/nov/19/a-sea-for-borrowed-time-review-palestinian-artists-imma-dublin", "Nov 19", "d6fc6bf6b3.jpg", "ud6fc6bf6b3", "2026-11-20T07:22:17-0500", true], [61, "Kenya’s growing doping crisis overshadows legacy as athletics powerhouse", "More than 140 Kenyan athletes suspended by the Athletics Integrity Unit since 2017, most of them distance runners.", "Al Jazeera", "https://www.aljazeera.com/sports/2026/11/20/kenyas-growing-doping-crisis-overshadows-legacy-as-athletics-powerhouse?traffic_source=rss", "Nov 20", "04f6eec64c.jpg", "u04f6eec64c", "2026-11-20T07:22:17-0500", true], [62, "Islam set to be the largest religion by 2035: Where will most Muslims live?", "Pew Research projects Muslim population in Pakistan will overtake Indonesia by 2070, with India next and Nigeria third.", "Al Jazeera", "https://www.aljazeera.com/news/2026/11/20/islam-set-to-be-the-largest-religion-by-2035-where-will-most-muslims-live?traffic_source=rss", "Nov 20", "14028a62e5.jpg", "u14028a62e5", "2026-11-20T07:22:17-0500", true], [63, "Kenyan marathon champion Peres Jepchirchir banned for doping", "In tonight's edition: Kenyan athletics superstar and reigning marathon world champion Peres Jepchirchir is banned for three years for doping. Also, South African judges leave the courtroom behind and tour a repatriation centre before handing down judgment in 33 emergency asylum applications. Plus Gh", "France 24", "https://www.france24.com/en/tv-shows/eye-on-africa/20261119-kenyan-marathon-champion-banned-for-doping", "Nov 19", "", "ud5c33d2f04", "2026-11-20T07:22:17-0500", true], [64, "Mrima Hill deal: US consortium wins Kenya mining project, beating Chinese rivals", "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).", "BBC", "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss", "Nov 19", "5171e29e13.jpg", "u5171e29e13", "2026-11-20T12:18:41-0500", true], [65, "Ireland v South Africa: Defiant Boks set to front up without banned Rassie Erasmus", "South Africa prepare to face Ireland in a much-anticipated Nations Championship Test in Dublin without banned head coach Rassie Erasmus.", "BBC", "https://www.bbc.co.uk/sport/rugby-union/articles/cm930nj435dvo?at_medium=RSS&at_campaign=rss", "Nov 20", "85960515be.jpg", "u85960515be", "2026-11-20T14:19:42-0500", true], [66, "Javits Frimpong Ghanaian boy killed in US remembered at funeral", "At the funeral for the 15-year-old who was fatally shot last month, Mamdani spoke alongside the boy's father and civil rights leaders.", "BBC", "https://www.bbc.co.uk/news/articles/cv8e07825l90o?at_medium=RSS&at_campaign=rss", "Nov 20", "e627d923d7.jpg", "ue627d923d7", "2026-11-20T16:26:41-0500", true]]}]}]]]}, DATE='2026-11-20', REPO='jbarseneau99/morning-briefing', FEED='news', FEEDNAME='Global News', BUILD='20261120-2222';
+document.querySelectorAll('.nav-feeds a').forEach(a=>{if(a.getAttribute('data-feed')===FEED){a.setAttribute('aria-current','page');a.classList.add('on')}});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const slug=s=>s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const SHORT={'Technology business news':'Tech business','Investments and deals':'Investments & deals'};
+const label=s=>SHORT[s]||s;
+const votes=(level,id,title,x='')=>`<span class="v" data-level="${level}" data-id="${id}" data-title="${esc(title)}"${x}><button class="up" data-d="up" title="More like this">👍</button><button class="ne" data-d="neutral" title="Neutral">●</button><button class="dn" data-d="down" title="Less like this">👎</button></span>`;
+const row=(it,cls='',V='all',cat='')=>{const [n,t,s,src,url,dt,img,id]=it;const isNew=!!it[9];
+ const x=` data-url="${esc(url)}" data-img="${esc(img?'../img/'+img:'')}" data-desc="${esc(s)}" data-src="${esc(src)}" data-dt="${esc(dt)}" data-cat="${esc(cat)}"`;
+ return `<div class="row ${cls}${isNew?' fresh':''}" id="${V}-s${id}" data-id="${id}"><a class="rlink" href="#read=${id}">${img?`<img class="th" src="../img/${img}" alt="" loading="lazy">`:`<div class="ph">no image</div>`}<div class="tx"><b>${isNew?'<span class="tag-new">New</span>':''}<span class="n">${n}.</span>${esc(t)}</b><p>${esc(s)}</p><span class="rs">${esc(src)}</span> <span class="dt">· ${dt}</span></div></a>${votes('story',id,t,x)}</div>`};
+function renderCats(DATA,V){let h='';
+for(const c of DATA){const cid=slug(c.cat);
+ const top=[];for(let r=0;top.length<5&&r<10;r++)for(const s of c.subs){if(s.items[r]&&top.length<5)top.push(s.items[r])}
+ h+=`<section id="${V}-${cid}"><div class="ch"><span class="car">▾</span><h2>${esc(c.cat)}</h2>${votes('category',cid,c.cat)}</div><div class="body">`;
+ if(!(c.subs.length===1&&!c.subs[0].sub))h+=`<div class="top"><h4>Top 5</h4><ol>${top.map(it=>`<li><a class="rlink" href="#read=${it[7]}">${esc(it[1])}</a></li>`).join('')}</ol></div>`;
+ for(const s of c.subs){if(!s.items.length)continue;const sid=cid+'/'+slug(s.sub);
+  h+=`<div class="sub"${s.sub?` id="${V}-${cid}-${slug(s.sub)}"`:''}>`+(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',sid,c.cat+' › '+s.sub)}</div>`:'');
+  s.items.forEach((it,i)=>h+=row(it,i>=5?'more':'',V,c.cat+(s.sub?' › '+s.sub:'')));
+  if(s.items.length>5)h+=`<button class="mt">…more (${s.items.length-5})</button>`;
+  h+=`</div>`;}
+ h+=`</div></section>`;}
+return h}
+let VIEWS=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+let html='';
+VIEWS.forEach((v,i)=>html+=`<div class="view" data-v="${v[0]}" ${i?'hidden':''}>${renderCats(v[2],v[0])}</div>`);
+document.getElementById('m').innerHTML=html;
+
+document.querySelectorAll('.ch').forEach(e=>{e.dataset.bound='1';e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')})});
+document.querySelectorAll('.mt').forEach(b=>{b.dataset.bound='1';b.addEventListener('click',()=>{const s=b.parentElement;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'less':`…more (${s.querySelectorAll('.more').length})`})});
+const key=(l,i)=>`fb:${FEED}:${DATE}:${l}:${i}`;
+const LK='likes:v1',UK='likes:unliked',lget=k=>{try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return {}}},lset=(k,o)=>localStorage.setItem(k,JSON.stringify(o));
+function likeSync(v,on){if(v.dataset.level!=='story')return;const L=lget(LK),U=lget(UK),d=v.dataset,id=d.id;
+ if(on){if(!L[id])L[id]={id,title:d.title,url:d.url,img:d.img,desc:d.desc,source:d.src,date:DATE,dt:d.dt,feed:FEED,feedname:FEEDNAME,cat:d.cat,ts:Date.now()};delete U[id]}
+ else{delete L[id];U[id]=Date.now()}
+ lset(LK,L);lset(UK,U)}
+document.querySelectorAll('.v').forEach(v=>{if(v.dataset.bound)return;v.dataset.bound='1';const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
+ if(st)v.querySelectorAll(`[data-d="${st}"]`).forEach(b=>b.classList.add('on'));
+ if(st==='up'&&level==='story'&&!lget(LK)[id])likeSync(v,true);
+ v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
+  const was=b.classList.contains('on');const vote=was?'clear':b.dataset.d;
+  document.querySelectorAll(`.v[data-level="${level}"][data-id="${id}"]`).forEach(w=>w.querySelectorAll('button').forEach(x=>x.classList.toggle('on',!was&&x.dataset.d===vote)));
+  was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),vote);
+  if(level==='story')likeSync(v,vote==='up');
+  try{await fetch('feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({feed:FEED,date:DATE,level,id,title,vote})})}catch(e){}
+ }))});
+const icon={up:'👍',neutral:'●',down:'👎'};
+document.getElementById('send').addEventListener('click',()=>{const lines=[],seen=new Set();
+ document.querySelectorAll('.v').forEach(v=>{const k=key(v.dataset.level,v.dataset.id);if(seen.has(k))return;seen.add(k);const s=localStorage.getItem(k);if(s)lines.push(`${icon[s]} ${s} | ${v.dataset.level} ${v.dataset.id}: ${v.dataset.title}`)});
+ if(!lines.length){alert('No votes yet.');return}
+ const body=`feed: ${FEEDNAME}\ndate: ${DATE}\n\n`+lines.join('\n');
+ if(!REPO||REPO.startsWith('__')){navigator.clipboard&&navigator.clipboard.writeText(body);alert('Feedback copied to clipboard:\n\n'+body);return}
+ window.open(`https://github.com/${REPO}/issues/new?title=${encodeURIComponent((FEED==='news'?'Global News':FEED==='papers'?'Research Papers':'SciTech')+' feedback '+DATE)}&body=${encodeURIComponent(body)}`,'_blank');});
+
+/* ---- two-level pinned nav ---- */
+const defaultCut=VIEWS[0][0];
+let cut=defaultCut,sec='',sub='';
+let lastSpy='';
+const cats=()=>(VIEWS.find(v=>v[0]===cut)||VIEWS[0])[2];
+const catBySlug=s=>cats().find(c=>slug(c.cat)===s);
+const namedSubs=c=>(c?c.subs:[]).filter(s=>s.sub&&s.items.length);
+const UNFOLD='(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4)';
+function setPinH(){const unfolded=window.matchMedia(UNFOLD).matches;const el=document.getElementById(unfolded?'pin':'stick')||document.getElementById('pin');if(!el)return;const h=Math.round((el.getBoundingClientRect().height||el.offsetHeight||0));document.documentElement.style.setProperty('--pin-h',h+'px')}
+if(window.ResizeObserver){const _pinRO=new ResizeObserver(()=>setPinH());const _p=document.getElementById('pin'),_s=document.getElementById('stick');if(_p)_pinRO.observe(_p);if(_s)_pinRO.observe(_s)}
+function parseHash(){
+  const h=location.hash.slice(1);
+  if(!h)return {cut:null,sec:'',sub:'',el:'',read:''};
+  if(/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);return {cut:p.get('cut')||p.get('view')||null,sec:p.get('sec')||'',sub:p.get('sub')||'',el:'',read:p.get('read')||''}}
+  return {cut:null,sec:'',sub:'',el:h,read:''};
+}
+function writeHash(push){
+  const p=new URLSearchParams();
+  if(cut!==defaultCut)p.set('cut',cut);
+  if(sec)p.set('sec',sec);
+  if(sub)p.set('sub',sub);
+  const next=p.toString()?('#'+p.toString()):(location.pathname+location.search);
+  const cur=location.hash|| (location.pathname+location.search);
+  if(cur===next)return;
+  (push?history.pushState:history.replaceState).call(history,null,'',next);
+}
+function revealRow(el){if(!el)return;if(el.classList.contains('more')){const s=el.closest('.sub');if(s){s.classList.add('open');const b=s.querySelector('.mt');if(b)b.textContent='less'}}}
+function scrollToId(id,smooth){const el=document.getElementById(id);if(!el)return false;revealRow(el);el.scrollIntoView({block:'start',behavior:smooth?'smooth':'auto'});return true}
+function inSubMode(){return !!(sec&&namedSubs(catBySlug(sec)).length)}
+function renderNav(){
+  const cutslot=document.getElementById('cutslot');
+  if(VIEWS.length>1){
+    cutslot.hidden=false;
+    cutslot.innerHTML=VIEWS.map(v=>`<button type="button" data-cut="${esc(v[0])}" class="${v[0]===cut?'on':''}">${esc(v[1])}</button>`).join('');
+    cutslot.querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.cut===cut)return;cut=b.dataset.cut;sec='';sub='';apply(true,true);scrollTo(0,0)});
+  }else cutslot.hidden=true;
+  const crumb=document.getElementById('crumb');
+  const parts=[`<a href="../">Morning Briefing</a>`];
+  parts.push(sec?`<a href="#" data-back="feed">${esc(FEEDNAME)}</a>`:`<span class="here">${esc(FEEDNAME)}</span>`);
+  if(sec){const c=catBySlug(sec);parts.push(`<span class="here">${esc(c?c.cat:sec)}</span>`)}
+  crumb.innerHTML=parts.join('<span class="sep"> › </span>');
+  crumb.hidden=!sec;
+  const back=crumb.querySelector('[data-back=feed]');
+  if(back)back.onclick=e=>{e.preventDefault();sec='';sub='';apply(true,true);scrollTo(0,0)};
+  const secs=document.getElementById('secs');
+  const mode=inSubMode()?'sub':'sec';
+  const tabs=mode==='sub'
+    ?[{id:'',name:'All'},...namedSubs(catBySlug(sec)).map(s=>({id:slug(s.sub),name:s.sub}))]
+    :[{id:'',name:'All'},...cats().map(x=>({id:slug(x.cat),name:label(x.cat)}))];
+  const cur=mode==='sub'?sub:sec;
+  secs.innerHTML=tabs.map(t=>`<button type="button" data-mode="${mode}" data-id="${esc(t.id)}" class="${t.id===cur?'on':''}">${esc(t.name)}</button>`).join('');
+  secs.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+    const id=b.dataset.id;
+    if(mode==='sub'){
+      sub=id;writeHash(true);renderNav();
+      id?scrollToId(cut+'-'+sec+'-'+id,true):document.querySelector(`.view[data-v="${cut}"] section:not([hidden])`)?.scrollIntoView({block:'start',behavior:'smooth'});
+    }else{
+      sec=id;sub='';apply(true,true);scrollTo(0,0);
+    }
+  });
+  lastSpy=cur;
+  setPinH();
+  requestAnimationFrame(scrollActiveTab);
+}
+function scrollActiveTab(){
+  const el=document.querySelector('#secs .on')||document.querySelector('#secs .spy');
+  if(el)el.scrollIntoView({inline:'center',block:'nearest'});
+}
+function apply(doHash,push){
+  document.querySelectorAll('.view').forEach(v=>v.hidden=v.dataset.v!==cut);
+  const root=document.querySelector(`.view[data-v="${cut}"]`);
+  if(root)root.querySelectorAll(':scope > section').forEach(s=>{
+    const cid=s.id.slice(cut.length+1);
+    const on=!sec||cid===sec;
+    s.hidden=!on;
+    if(on)s.classList.remove('closed');
+  });
+  try{localStorage.setItem('view:'+FEED,cut)}catch(e){}
+  renderNav();
+  if(doHash!==false)writeHash(!!push);
+  setPinH();
+}
+function applyFromHash(){
+  const st=parseHash();
+  if(st.cut&&VIEWS.some(v=>v[0]===st.cut))cut=st.cut;
+  else{try{const pv=localStorage.getItem('view:'+FEED);if(pv&&VIEWS.some(v=>v[0]===pv))cut=pv}catch(e){}}
+  sec=st.sec&&catBySlug(st.sec)?st.sec:'';
+  sub=sec&&st.sub&&namedSubs(catBySlug(sec)).some(s=>slug(s.sub)===st.sub)?st.sub:'';
+  apply(false);
+  if(st.read){openReader(st.read,false);return}
+  if(document.body.classList.contains('reading'))closeReader(true);
+  if(st.el)requestAnimationFrame(()=>scrollToId(st.el,false));
+  else if(sub)requestAnimationFrame(()=>scrollToId(cut+'-'+sec+'-'+sub,false));
+}
+document.querySelectorAll('.top a').forEach(a=>a.addEventListener('click',e=>{
+  const href=a.getAttribute('href')||'';
+  if(/read=/.test(href))return;
+  const id=href.slice(1);const el=document.getElementById(id);if(!el)return;
+  e.preventDefault();
+  const section=el.closest('section');
+  if(sec&&section&&section.hidden){sec='';sub='';apply(true,true)}
+  scrollToId(id,true);
+}));
+function spy(){
+  if(sec&&!inSubMode())return;
+  const mode=inSubMode()?'sub':'sec';
+  const pinH=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--pin-h'))||0;
+  const y=pinH+20;
+  let nodes;
+  if(mode==='sec'){
+    const root=document.querySelector(`.view[data-v="${cut}"]`);if(!root)return;
+    nodes=[...root.querySelectorAll(':scope > section')].filter(s=>!s.hidden).map(s=>({id:s.id.slice(cut.length+1),el:s}));
+  }else{
+    nodes=namedSubs(catBySlug(sec)).map(s=>({id:slug(s.sub),el:document.getElementById(cut+'-'+sec+'-'+slug(s.sub))}));
+  }
+  let active='';
+  for(const n of nodes){if(!n.el)continue;if(n.el.getBoundingClientRect().top<=y)active=n.id}
+  document.querySelectorAll('#secs button').forEach(b=>{
+    if(b.dataset.mode!==mode)return;
+    b.classList.toggle('on',b.dataset.id===active);
+  });
+  if(active!==lastSpy){lastSpy=active;scrollActiveTab()}
+}
+const pin=document.getElementById('pin');
+const onScroll=()=>{if(pin)pin.classList.toggle('scrolled',scrollY>16);setPinH();spy()};
+addEventListener('scroll',onScroll,{passive:true});
+addEventListener('resize',()=>{setPinH();scrollActiveTab()});
+addEventListener('hashchange',applyFromHash);
+addEventListener('popstate',applyFromHash);
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{setPinH();spy()});
+
+/* ---- intraday refresh ---- */
+function fmtHM(iso){if(!iso)return '';try{const d=new Date(iso);return d.toLocaleTimeString('en-CA',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Toronto'})}catch(e){return ''}}
+function setUpdated(iso){const el=document.getElementById('updated');if(!el||!iso)return;el.textContent='Updated '+fmtHM(iso);el.hidden=false;el.dateTime=iso}
+function toast(msg){let el=document.getElementById('toast');if(!el){el=document.createElement('div');el.id='toast';document.body.appendChild(el)}el.textContent=msg;el.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(()=>el.classList.remove('show'),2800)}
+function allStoryIds(){const s=new Set();(function walk(x){if(Array.isArray(x)&&typeof x[4]==='string'&&x[4].startsWith('http')&&x[7])s.add(x[7]);else if(Array.isArray(x))x.forEach(walk);else if(x&&typeof x==='object')Object.values(x).forEach(walk)})(typeof DATA!=='undefined'?DATA:[]);return s}
+function bindVotes(root){(root||document).querySelectorAll('.v').forEach(v=>{if(v.dataset.bound)return;v.dataset.bound='1';
+  const {level,id,title}=v.dataset;const st=localStorage.getItem(key(level,id));
+  if(st)v.querySelectorAll(`[data-d="${st}"]`).forEach(b=>b.classList.add('on'));
+  if(st==='up'&&level==='story'&&!lget(LK)[id])likeSync(v,true);
+  v.querySelectorAll('button').forEach(b=>b.addEventListener('click',async ev=>{ev.stopPropagation();
+    const was=b.classList.contains('on');const vote=was?'clear':b.dataset.d;
+    document.querySelectorAll(`.v[data-level="${level}"][data-id="${id}"]`).forEach(w=>w.querySelectorAll('button').forEach(x=>x.classList.toggle('on',!was&&x.dataset.d===vote)));
+    was?localStorage.removeItem(key(level,id)):localStorage.setItem(key(level,id),vote);
+    if(level==='story')likeSync(v,vote==='up');
+    try{await fetch('feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({feed:FEED,date:DATE,level,id,title,vote})})}catch(e){}
+  }));
+});}
+function appendItem(story){
+  const item=[story.n||0,story.title,story.desc||'',story.src||'',story.url,story.dt||'',story.img||'',story.id,story.added_at||'',true];
+  if(item[7])STORY[item[7]]=item;
+  const catName=story.cat||story.region||'';
+  const subName=story.sub||'';
+  const topicName=story.topic||'';
+  function into(list,cName,sName){
+    if(!Array.isArray(list))return false;
+    let c=list.find(x=>x.cat===cName);
+    if(!c){c={cat:cName,subs:[]};list.push(c)}
+    let s=c.subs.find(z=> (z.sub||'')===(sName||''));
+    if(!s){s={sub:sName||'',items:[]};c.subs.push(s)}
+    if(s.items.some(it=>it[7]===item[7]))return false;
+    // next display number
+    const maxN=Math.max(0,...(function collect(o,a){if(Array.isArray(o)&&typeof o[7]==='string')a.push(+o[0]||0);else if(Array.isArray(o))o.forEach(x=>collect(x,a));else if(o&&typeof o==='object')Object.values(o).forEach(x=>collect(x,a));return a})(DATA,[]));
+    item[0]=maxN+1;
+    s.items.push(item);
+    return {c,s,item};
+  }
+  const views=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+  const placed=[];
+  if(!Array.isArray(DATA)){
+    const rv=views.find(v=>v[0]==='region'); if(rv) placed.push(['region',into(rv[2],story.region||catName,'')]);
+    const tv=views.find(v=>v[0]==='topic'); if(tv) placed.push(['topic',into(tv[2],topicName||catName,'')]);
+  }else{
+    placed.push(['all',into(DATA,catName,subName)]);
+  }
+  // paint into any already-rendered matching sub
+  placed.forEach(([V,info])=>{
+    if(!info)return;
+    const {c,s,item}=info;
+    const root=document.querySelector(`.view[data-v="${V}"]`)||document.querySelector('.view');
+    if(!root)return;
+    const sec=root.querySelector(`:scope > section[id="${CSS.escape(V+'-'+slug(c.cat))}"]`);
+    if(!sec){ // new section — rebuild this view
+      const view=VIEWS.find(v=>v[0]===V); if(!view)return;
+      const wrap=document.querySelector(`.view[data-v="${V}"]`);
+      if(wrap){wrap.innerHTML=renderCats(view[2],V);bindCh(wrap);bindVotes(wrap)}
+      return;
+    }
+    const body=sec.querySelector('.body');
+    let subEl=[...sec.querySelectorAll('.sub')].find(el=>{
+      if(!s.sub)return !el.querySelector('.sh');
+      return el.id===`${V}-${slug(c.cat)}-${slug(s.sub)}`;
+    });
+    if(!subEl){
+      subEl=document.createElement('div'); subEl.className='sub';
+      if(s.sub)subEl.id=`${V}-${slug(c.cat)}-${slug(s.sub)}`;
+      subEl.innerHTML=(s.sub?`<div class="sh"><span class="t">${esc(s.sub)}</span>${votes('subcategory',slug(c.cat)+'/'+slug(s.sub),c.cat+' › '+s.sub)}</div>`:'');
+      body.appendChild(subEl);
+    }
+    const html=row(item,s.items.length>5?'more fresh':'fresh',V,c.cat+(s.sub?' › '+s.sub:''));
+    const mt=subEl.querySelector('.mt');
+    if(mt){mt.insertAdjacentHTML('beforebegin',html);const extra=subEl.querySelectorAll('.more').length;mt.textContent=subEl.classList.contains('open')?'less':`…more (${extra})`}
+    else{
+      subEl.insertAdjacentHTML('beforeend',html);
+      if(s.items.length>5){const b=document.createElement('button');b.className='mt';b.textContent=`…more (${s.items.length-5})`;b.addEventListener('click',()=>{subEl.classList.toggle('open');b.textContent=subEl.classList.contains('open')?'less':`…more (${subEl.querySelectorAll('.more').length})`});subEl.appendChild(b)}
+    }
+    bindVotes(subEl);
+  });
+}
+function bindCh(root){(root||document).querySelectorAll('.ch').forEach(e=>{if(e.dataset.bound)return;e.dataset.bound='1';e.addEventListener('click',ev=>{if(ev.target.closest('.v'))return;e.parentElement.classList.toggle('closed')})});
+ (root||document).querySelectorAll('.mt').forEach(b=>{if(b.dataset.bound)return;b.dataset.bound='1';b.addEventListener('click',()=>{const s=b.parentElement;s.classList.toggle('open');b.textContent=s.classList.contains('open')?'less':`…more (${s.querySelectorAll('.more').length})`})})}
+let refreshing=false;
+async function refreshNews(opts){const quiet=opts&&opts.quiet;if(refreshing)return;refreshing=true;
+  const btn=document.getElementById('refresh'), bar=document.getElementById('refresh-bar');
+  if(btn)btn.classList.add('busy'); if(bar){bar.hidden=false;bar.classList.add('on')}
+  try{
+    const j=await fetch('latest.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()});
+    if(j.date&&j.date>DATE){toast('New edition available');location.reload();return}
+    const have=allStoryIds();
+    const fresh=(j.stories||[]).filter(s=>s&&s.id&&!have.has(s.id));
+    fresh.forEach(appendItem);
+    if(fresh.length){renderNav();setPinH()}
+    setUpdated(j.updated_at);
+    if(!quiet||fresh.length)toast(fresh.length?(fresh.length+' new '+(fresh.length===1?'story':'stories')):('Up to date · updated '+fmtHM(j.updated_at)));
+  }catch(e){if(!quiet)toast('Could not refresh')}
+  finally{refreshing=false;if(btn)btn.classList.remove('busy');if(bar){bar.classList.remove('on');bar.hidden=true}}
+}
+const _rb=document.getElementById('refresh'); if(_rb)_rb.addEventListener('click',()=>refreshNews());
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')refreshNews({quiet:true})});
+// pull-to-refresh (standalone PWA has no Safari reload)
+let ptrY=0, ptring=false;
+addEventListener('touchstart',e=>{if(scrollY>2||refreshing)return;const t=e.target;if(t&&t.closest&&t.closest('#pin,#stick,#refresh'))return;ptrY=e.touches[0].clientY;ptring=true},{passive:true});
+addEventListener('touchmove',e=>{if(!ptring)return;const dy=e.touches[0].clientY-ptrY;if(dy>72&&scrollY<2){ptring=false;refreshNews()}},{passive:true});
+addEventListener('touchend',()=>{ptring=false},{passive:true});
+bindCh();
+bindVotes(document);
+// ----- in-app reader -----
+const STORY={};
+(function indexStories(){
+  const views=Array.isArray(DATA)?[['all','',DATA]]:DATA.views;
+  for(const v of views)for(const c of (v[2]||[]))for(const s of (c.subs||[]))for(const it of (s.items||[]))if(it&&it[7])STORY[it[7]]=it;
+})();
+let readerPushed=false, listScroll=0, readerId='';
+function readerHash(id){
+  const h=location.hash.slice(1);
+  if(h&&/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);p.set('read',id);return '#'+p.toString()}
+  return '#read='+encodeURIComponent(id);
+}
+function stripReadHash(){
+  const st=parseHash();
+  if(!st.read)return location.pathname+location.search+(location.hash||'');
+  const h=location.hash.slice(1);
+  if(/^(cut|sec|sub|view|read)=/.test(h)){const p=new URLSearchParams(h);p.delete('read');const q=p.toString();return q?('#'+q):(location.pathname+location.search)}
+  return location.pathname+location.search;
+}
+function closeReader(fromPop){
+  if(!document.body.classList.contains('reading')&&!readerId)return;
+  if(!fromPop && readerPushed){history.back();return}
+  document.body.classList.remove('reading');
+  const panel=document.getElementById('reader'); if(panel)panel.hidden=true;
+  readerId=''; readerPushed=false;
+  requestAnimationFrame(()=>{scrollTo(0,listScroll||0)});
+}
+function renderReader(rec, item){
+  const title=rec.title||(item&&item[1])||'';
+  const src=rec.source||(item&&item[3])||'';
+  const url=rec.url||(item&&item[4])||'#';
+  const by=rec.byline||'';
+  const date=rec.date||(item&&item[5])||'';
+  const sum=rec.summary||(item&&item[2])||'';
+  const img=rec.image||(rec.thumb?('../img/'+rec.thumb):'')||(item&&item[6]?('../img/'+item[6]):'');
+  const id=rec.id||(item&&item[7])||'';
+  document.getElementById('rsrc').textContent=src;
+  const orig=document.getElementById('rorig'); orig.href=url; orig.hidden=!url||url==='#';
+  document.getElementById('rvotes').innerHTML=votes('story',id,title,` data-url="${esc(url)}"`);
+  bindVotes(document.getElementById('rvotes'));
+  let body='';
+  if(title)body+=`<h1>${esc(title)}</h1>`;
+  if(by||date)body+=`<p class="rby">${by?esc(by):''}${by&&date?' · ':''}${date?`<span class="rdate">${esc(date)}</span>`:''}</p>`;
+  if(img)body+=`<img class="rhero" src="${esc(img)}" alt="">`;
+  if(rec.status==='full'&&rec.html){
+    body+=`<div class="rhtml">${rec.html}</div>`;
+  }else{
+    const why=rec.reason==='paywall'?'This article looks paywalled or limited at the source.':
+              rec.reason==='blocked'?'The publisher blocked a full-text copy.':
+              'A full-text version was not available.';
+    body+=`<div class="rnote">${why} <a href="${esc(url)}" target="_blank" rel="noopener">Open the original at ${esc(src||'the source')}</a>.</div>`;
+    if(sum)body+=`<p class="rsum">${esc(sum)}</p>`;
+  }
+  const box=document.getElementById('rbody');
+  box.classList.remove('loading');
+  box.innerHTML=body;
+}
+async function openReader(id,push){
+  if(!id)return;
+  if(document.body.classList.contains('reading')&&readerId===id&&!push)return;
+  if(!document.body.classList.contains('reading'))listScroll=scrollY;
+  readerId=id;
+  document.body.classList.add('reading');
+  const panel=document.getElementById('reader'); if(panel)panel.hidden=false;
+  const box=document.getElementById('rbody');
+  box.classList.add('loading'); box.innerHTML='<div class="rspinner" role="status" aria-label="Loading article"></div>';
+  document.getElementById('rsrc').textContent='';
+  document.getElementById('rvotes').innerHTML='';
+  const item=STORY[id];
+  if(item){
+    document.getElementById('rsrc').textContent=item[3]||'';
+    const orig=document.getElementById('rorig'); orig.href=item[4]||'#'; orig.hidden=!item[4];
+    document.getElementById('rvotes').innerHTML=votes('story',id,item[1]||'',` data-url="${esc(item[4]||'')}"`);
+    bindVotes(document.getElementById('rvotes'));
+  }
+  if(push){readerPushed=true;history.pushState({read:id},'',readerHash(id))}
+  else readerPushed=false;
+  try{
+    const rec=await fetch('../articles/'+DATE+'/'+id+'.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()});
+    if(readerId!==id)return;
+    renderReader(rec,item);
+  }catch(e){
+    if(readerId!==id)return;
+    renderReader({id,status:'fallback',reason:'blocked',title:item?item[1]:'',source:item?item[3]:'',url:item?item[4]:'',summary:item?item[2]:'',date:item?item[5]:'',html:'',thumb:item?item[6]:''},item);
+  }
+  const scrollBox=document.getElementById('rbody');
+  if(scrollBox)scrollBox.scrollTop=0;
+  if(!window.matchMedia('(min-width:600px) and (min-height:520px) and (min-aspect-ratio:3/4)').matches)scrollTo(0,0);
+}
+document.getElementById('rback').addEventListener('click',()=>closeReader(false));
+function storyIdFromEvent(e){
+  if(e.target.closest('.v,.mt,.ch,.unl,#rback,#rorig,.rorig'))return '';
+  const a=e.target.closest('a.rlink');
+  const row=e.target.closest('.row');
+  if(a){
+    const href=a.getAttribute('href')||'';
+    const m=/read=([^&]+)/.exec(href);
+    if(m)return decodeURIComponent(m[1]);
+  }
+  if(row)return row.getAttribute('data-id')||((row.id||'').split('-s')[1]||'');
+  return '';
+}
+function onStoryActivate(e){
+  const id=storyIdFromEvent(e); if(!id)return;
+  e.preventDefault();
+  if(e.stopPropagation)e.stopPropagation();
+  openReader(id,true);
+}
+const _main=document.getElementById('m');
+_main.addEventListener('click',onStoryActivate);
+
+applyFromHash();
+onScroll();
+</script><script>if('serviceWorker' in navigator){navigator.serviceWorker.register('/morning-briefing/sw.js?v=20261120-2222',{scope:'/morning-briefing/'}).then(function(r){r.update();if(r.waiting)r.waiting.postMessage('skipWaiting')}).catch(function(){});navigator.serviceWorker.addEventListener('controllerchange',function(){if(sessionStorage.getItem('sw-rel')===BUILD)return;sessionStorage.setItem('sw-rel',BUILD);location.reload()});}</script></body></html>
