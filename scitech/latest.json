@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "updated_at": "2026-11-21T17:24:02-0500",
+ "updated_at": "2026-11-21T18:19:10-0500",
  "built_at": "2026-11-21T05:32:00-0500",
  "stories": [
   {
@@ -1791,6 +1791,20 @@
    "img": "8efe412d3d.jpg",
    "id": "u8efe412d3d",
    "added_at": "2026-11-21T07:26:14-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Quantum"
+  },
+  {
+   "n": 129,
+   "title": "TQI linking test v15 (delete me)",
+   "desc": "IonQ announced a deal with Mastercard today. Analysts said IonQ’s roadmap is ambitious. Mastercard also commented. D-Wave Quantum and D-Wave were mentioned. The city of Chattanooga hosted it. Over a long time horizon, Horizon Europe funds research. Horizon Quantum Computing is different from Horizon",
+   "src": "Thequantuminsider",
+   "url": "https://thequantuminsider.com/2026/11/21/__trashed-5/",
+   "dt": "Nov 21",
+   "img": "a4dfa6ab4b.jpg",
+   "id": "ua4dfa6ab4b",
+   "added_at": "2026-11-21T18:19:10-0500",
    "new": true,
    "cat": "Technology & Engineering",
    "sub": "Quantum"
