@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated_at": "2026-11-22T17:16:10-0500",
+ "updated_at": "2026-11-22T18:24:49-0500",
  "built_at": "2026-11-22T05:31:24-0500",
  "stories": [
   {
@@ -229,6 +229,20 @@
   },
   {
    "n": 17,
+   "title": "We haven’t seen the last of the major tech outages",
+   "desc": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The Americ",
+   "src": "The Verge",
+   "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+   "dt": "Nov 22",
+   "img": "e709020021.jpg",
+   "id": "ue709020021",
+   "added_at": "2026-11-22T18:24:49-0500",
+   "new": true,
+   "cat": "Technology business news",
+   "sub": "Enterprise & software"
+  },
+  {
+   "n": 18,
    "title": "California’s Nvidia probe extends to possible criminal-law violations, Bonta says",
    "desc": "Attorney General Rob Bonta said several California laws, including criminal statutes, may have been broken in the investigation into Nvidia’s China chip sales.",
    "src": "Bloomberg Línea",
@@ -242,7 +256,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 18,
+   "n": 19,
    "title": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices",
    "desc": "Questions around the company’s accounting had surfaced amid revelations about its questionable chip sales in Asia.",
    "src": "The New York Times",
@@ -256,7 +270,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 19,
+   "n": 20,
    "title": "Samsung's Memory Production Reportedly Almost Fully Booked Through 2029, As Customers Seek Supply Deals Until 2031",
    "desc": "Customers have reportedly already contracted most of Samsung Electronics' memory chip production capacity for 2027 through 2029.",
    "src": "Wccftech",
@@ -270,7 +284,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 20,
+   "n": 21,
    "title": "China’s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal",
    "desc": "China’s espionage agency has been running a secret campaign to help the country’s companies acquire advanced A.I. chips and to gather intelligence on the sector, officials say.",
    "src": "The New York Times",
@@ -284,7 +298,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 21,
+   "n": 22,
    "title": "OLED gaming laptop with RTX 5060 and Intel Core Ultra 7 CPU price crashes by $650 in Black Friday offer — Lenovo Legion 5i laptop drops to $",
    "desc": "Getting a gaming laptop this holiday season doesn't have to mean spending thousands of dollars, as this modestly priced Lenovo Legion 5i OLED gaming laptop has dropped to just $1,349 at B&H.",
    "src": "Tomshardware",
@@ -298,7 +312,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 22,
+   "n": 23,
    "title": "Act fast to score Intel",
    "desc": "After months of inconsistent pricing, Intel's Core i7-14700K is down to its lowest price ever at $249.99, with support for LGA 1700 motherboards that come with either DDR4 or DDR5 memory support.",
    "src": "Tomshardware",
@@ -312,7 +326,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 23,
+   "n": 24,
    "title": "Does old computer hardware ever become truly useless? - Engadget",
    "desc": "Find out how long old computer hardware usually lasts, what eventually makes it obsolete and when it's worth reusing or selling your PC parts.",
    "src": "Engadget",
@@ -326,7 +340,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 24,
+   "n": 25,
    "title": "Arm yourself against online threats with 30% off YubiKey 5C NFC bundles at Best Buy — at $37 per key, this deal could save you more than jus",
    "desc": "The YubiKey 5 NFC security key has dropped to an effective $ 37 per key at Best Buy when purchasing a bundle of two. Sporting both Type-A and Type-C flavors, this Black Friday deal could save you more than just money in the long run.",
    "src": "Tomshardware",
@@ -340,7 +354,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 25,
+   "n": 26,
    "title": "6 handy ways you can use your old mini PC - Engadget",
    "desc": "From retro gaming consoles to home media servers, discover six handy ways to repurpose your old mini PC and give the hardware a new lease on life.",
    "src": "Engadget",
@@ -354,7 +368,7 @@
    "sub": "Semis & hardware business"
   },
   {
-   "n": 26,
+   "n": 27,
    "title": "Amazon nears a deal to buy Israeli AI video startup Decart for up to $7.5 billion",
    "desc": "Calcalist reports the deal could be signed within days; analysis of why Decart’s real-time video models matter for Amazon’s Trainium chips.",
    "src": "Techwire Israel",
@@ -368,7 +382,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 27,
+   "n": 28,
    "title": "Canada joins NATO Innovation Fund with contribution of about $100-million",
    "desc": "Membership opens up the $1.7-billion-plus multinational venture capital pool to Canadian companies",
    "src": "The Globe and Mail",
@@ -382,7 +396,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 28,
+   "n": 29,
    "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
    "desc": "Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials.",
    "src": "CNBC",
@@ -396,7 +410,7 @@
    "sub": "Venture rounds"
   },
   {
-   "n": 29,
+   "n": 30,
    "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
    "desc": "Anthropic held its historic Nasdaq debut a day before Nvidia's stock closed out its longest weekly losing streak since 2008.",
    "src": "CNBC",
@@ -410,7 +424,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 30,
+   "n": 31,
    "title": "Your 401(k) is full of AI. How to deal with the volatility | CNN Business",
    "desc": "Wall Street's worst week since the April 2025 tariff shock has put a spotlight on how much of Americans' retirement savings now rides on artificial intelligence.",
    "src": "Cnn",
@@ -424,7 +438,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 31,
+   "n": 32,
    "title": "Bitcoin falls to its lowest since September 2024 as global markets sink",
    "desc": "The cryptocurrency slid with equities as the AI-led selloff spread across risk assets.",
    "src": "The Straits Times",
@@ -438,7 +452,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 32,
+   "n": 33,
    "title": "States, Congress and the CFTC escalate the fight over prediction-market regulation",
    "desc": "States, Congress and the CFTC are escalating the fight over prediction market regulation after the midterms.",
    "src": "CNBC",
@@ -452,7 +466,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 33,
+   "n": 34,
    "title": "Tesla FSD 15 is Rolling OUT. On Time Promise. HUGE – NextBigFuture.com",
    "desc": "YES, FSD 15 finally, unsupervised robotaxi everywhere. Getting to 1+ million will rerate the stock. Getting FSD 15 in Q4, promises made, promises kept. @elonmusk @TeslaSI are on time. Thanks a lot. This is HUGE Tesla FSD 15 is starting a slow rollout. This is path to fully unsupervised Tesla cars. A",
    "src": "Nextbigfuture",
@@ -466,7 +480,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 34,
+   "n": 35,
    "title": "The Nasdaq is in freefall. Here's one stock to look at",
    "desc": "Elevated options premiums are creating an opportunity in Amazon",
    "src": "CNBC",
@@ -480,7 +494,7 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 35,
+   "n": 36,
    "title": "I’ve studied over 200 kids—parents who do 6 things accidentally raise people pleasers: It starts in ‘ordinary, well-intentioned moments’",
    "desc": "Reem Raouda, a conscious parenting coach who's worked with over 200 families, shares six habits worth reconsidering, like treating disagreement as disrespect.",
    "src": "CNBC",
@@ -494,7 +508,21 @@
    "sub": "Public markets & IPOs"
   },
   {
-   "n": 36,
+   "n": 37,
+   "title": "These little-known investments could be among the best bargains in a crash",
+   "desc": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
+   "src": "Marketwatch",
+   "url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+   "dt": "Nov 22",
+   "img": "",
+   "id": "u459286d947",
+   "added_at": "2026-11-22T18:24:49-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Public markets & IPOs"
+  },
+  {
+   "n": 38,
    "title": "Pentagon inspector general opens an audit of contracts awarded to defense tech start-ups",
    "desc": "The watchdog is reviewing awards to defense start-ups after lawmakers raised “improper influence” concerns over firms linked to Trump’s sons.",
    "src": "International Business Times UK",
@@ -508,7 +536,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 37,
+   "n": 39,
    "title": "Senate gears up to investigate Ukraine’s access to SpaceX’s Starshield",
    "desc": "Senators want to know why access was restricted, at what cost, and what it says about US reliability as a partner.",
    "src": "Breaking Defense",
@@ -522,7 +550,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 38,
+   "n": 40,
    "title": "Allies are buying Canadian underwater surveillance drones, but Canada’s navy is “not there yet”",
    "desc": "Canada has a three-ocean coastline — 243,000 kilometres — and only 20 underwater drones to help defend it.",
    "src": "CBC",
@@ -536,7 +564,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 39,
+   "n": 41,
    "title": "Defense firm’s EMP “Dragon” weapon downs 51 jam-resistant drones at once",
    "desc": "A high-power electromagnetic pulse system disabled a swarm of drones designed to resist jamming in a single test.",
    "src": "Tom’s Hardware",
@@ -550,7 +578,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 40,
+   "n": 42,
    "title": "Bayern Munich bosses under fire over Jamal Musiala comments",
    "desc": "Officials have publicly questioned whether Musiala will ever fully recover from a debilitating neurological condition and queried the validity of his contract, prompting criticism from fans, media and the FIFPRO union.",
    "src": "DW",
@@ -564,7 +592,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 41,
+   "n": 43,
    "title": "Bruno Fernandes says contract talks on hold as Man United battle poor start",
    "desc": "The Manchester United captain's current deal expires at the end of the season, though the club has an option to extend.",
    "src": "Al Jazeera",
@@ -578,7 +606,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 42,
+   "n": 44,
    "title": "Trump calling Putin a friend is 'appalling,' says former ambassador to NATO",
    "desc": "Kurt Volker, former U.S. Ambassador to NATO, tells CBC's Rosemary Barton that it’s 'appalling' to hear U.S. President Donald Trump double down on calling Russian President Vladimir Putin his 'friend.' Volker also weighs in on the leaked classified Pentagon memo about restricting defence ties with Ca",
    "src": "CBC",
@@ -592,7 +620,7 @@
    "sub": "Government contracts"
   },
   {
-   "n": 43,
+   "n": 45,
    "title": "Webb captures the aftermath of a star spiralling into a giant companion in Andromeda",
    "desc": "Astronomers have witnessed a spectacular cosmic collision in the Andromeda galaxy, where a small star spiraled into a giant star 18,000 times brighter than the Sun, triggering a violent eruption.",
    "src": "ScienceDaily",
@@ -606,7 +634,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 44,
+   "n": 46,
    "title": "Physicists propose an atomic-clock test for clocks experiencing more than one flow of time",
    "desc": "Time may be far stranger than we realize, and scientists have proposed a way to detect clocks experiencing multiple flows of time simultaneously.",
    "src": "ScienceDaily",
@@ -620,7 +648,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 45,
+   "n": 47,
    "title": "Which came first: black holes or galaxies?",
    "desc": "Astronomers once assumed galaxies were born before black holes, but giant black holes spotted in the early universe are forcing them to rethink their order of events.",
    "src": "Live Science",
@@ -634,7 +662,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 46,
+   "n": 48,
    "title": "Quantum physics can now prove where you really are",
    "desc": "In a first-of-its-kind experiment, researchers used a single photon and some-second timing to verify a location—a potential new defense against digital imposters",
    "src": "Scientific American",
@@ -648,7 +676,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 47,
+   "n": 49,
    "title": "Record-breaking sightings of Fisher's estuarine moth in Essex",
    "desc": "There is now a self-sustaining population of the moth at a nature reserve in Essex, a charity says.",
    "src": "BBC",
@@ -662,7 +690,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 48,
+   "n": 50,
    "title": "It will soon be too late to regulate use of autonomous weapons, warns Red Cross",
    "desc": "Warning about putting ‘genie back in the bottle’ comes as UN conference fails to agree on regulation instrument The International Committee of the Red Cross and rights groups have warned that it will soon be too late to put the “genie back in the bottle” as the development of autonomous weapons appe",
    "src": "The Guardian",
@@ -676,7 +704,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 49,
+   "n": 51,
    "title": "Listen to the sounds of a baby star as it explodes into life",
    "desc": "NASA just released a new album of sounds created from observations of stellar formation",
    "src": "Scientific American",
@@ -690,7 +718,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 50,
+   "n": 52,
    "title": "Black holes can split apart",
    "desc": "Astrophysicists have dared to ask a cosmological question never asked before: Do black holes \"wear pants\"? New research shows how fast-spinning black holes may split apart.",
    "src": "Live Science",
@@ -704,7 +732,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 51,
+   "n": 53,
    "title": "Scientists investigate 2",
    "desc": "A stunning new image from the Gemini North telescope captures two spiral galaxies caught in each other's gravity, helping to trigger the birth of new stars.",
    "src": "Live Science",
@@ -718,7 +746,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 52,
+   "n": 54,
    "title": "Will COP31 end with a new global climate deal?",
    "desc": "BBC Climate editor Justin Rowlatt reports from the COP 31 UN climate summit in Antalya, Turkey.",
    "src": "BBC",
@@ -732,7 +760,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 53,
+   "n": 55,
    "title": "Virginia child dies in the state’s first measles-associated death of 2026",
    "desc": "Death adds to national measles outbreak that recently cost the US its measles elimination status after 26 years",
    "src": "The Guardian",
@@ -746,7 +774,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 54,
+   "n": 56,
    "title": "Monash study argues the human family tree needs a major reclassification",
    "desc": "The human family tree may need a major overhaul. New research from Monash University challenges the traditional classification of our ancient ancestors, arguing that species such as Australopithecus and Paranthropus should be…",
    "src": "ScienceDaily",
@@ -760,7 +788,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 55,
+   "n": 57,
    "title": "Who Is the Mexican Drug Kingpin Known as El Chapo Isidro?",
    "desc": "The kingpin, Fausto Isidro Meza Flores, was captured in a violent operation in Mexico. He was one of the F.B.I.’s 10 most wanted fugitives.",
    "src": "The New York Times",
@@ -774,7 +802,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 56,
+   "n": 58,
    "title": "Princess of Wales opens up about cancer",
    "desc": "A new documentary titled Heal follows Britain’s Princess Catherine as she navigates life since her cancer diagnosis in 2024. The film tracks the 44-year-old as she attempts to climb the highest mountains in Scotland, England and Wales within 24 hours. In the trailer, she reflects on healing as a jou",
    "src": "France 24",
@@ -788,7 +816,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 57,
+   "n": 59,
    "title": "Drones, Texts and Diversions: How Mexico Captured a Most Wanted Man",
    "desc": "U.S. and Mexican authorities shared intelligence for weeks to track Fausto Isidro Meza Flores, a drug cartel leader that a U.S. official called the most dangerous man in Mexico.",
    "src": "The New York Times",
@@ -802,7 +830,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 58,
+   "n": 60,
    "title": "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
    "desc": "Controversial figure frequently took positions against drug use, abortion and homosexuality, but in later years supported legislation expunging homosexual convictions Get our daily political email , free app or daily news podcast The former New South Wales MP and longstanding figurehead of the right",
    "src": "The Guardian",
@@ -816,7 +844,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 59,
+   "n": 61,
    "title": "'El Chapo Isidro': Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
    "desc": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
    "src": "BBC",
@@ -830,7 +858,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 60,
+   "n": 62,
    "title": "Catherine, Princess of Wales, Documents Life With Cancer in BBC Film",
    "desc": "“Cancer does change you,” Catherine, who is in remission, says in a trailer for the film. It will be released this month.",
    "src": "The New York Times",
@@ -844,7 +872,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 61,
+   "n": 63,
    "title": "Mexico captures top drug lord ‘El Chapo Isidro,’ latest in string of arrests",
    "desc": "He was one of the FBI’s 10 most wanted fugitives.",
    "src": "The Straits Times",
@@ -858,7 +886,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 62,
+   "n": 64,
    "title": "Catherine, Britain’s Princess of Wales, to feature in documentary about cancer recovery",
    "desc": "The film, Heal, will premiere on the BBC on Nov 29.",
    "src": "The Straits Times",
@@ -872,7 +900,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 63,
+   "n": 65,
    "title": "COP31: New draft deal aims to avert collapse of talks at climate summit",
    "desc": "The UN COP31 meeting in Turkey enters a second day of overtime as countries struggle to reach an agreement.",
    "src": "BBC",
@@ -886,7 +914,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 64,
+   "n": 66,
    "title": "Climate talks stall as countries mull showdown with Saudi Arabia over fossil fuel phaseout",
    "desc": "New draft text released at Cop31 summit after countries fail to agree on electrification and finance for developing world Climate talks reached a standstill on Saturday night in Turkey as some countries mulled whether to force a showdown with Saudi Arabia and its allies over the global need to phase",
    "src": "The Guardian",
@@ -900,7 +928,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 65,
+   "n": 67,
    "title": "Turkey’s final draft at UN climate talks omits mention of fossil fuels",
    "desc": "Negotiators only have about three hours to make objections or ask for changes before the wording goes before the conference plenary",
    "src": "The Globe and Mail",
@@ -914,7 +942,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 66,
+   "n": 68,
    "title": "Canada’s Boreal Forest Is Reshaped by Logging and Climate Change",
    "desc": "Canada has framed the preservation of its boreal forest as a model for the world, but commercial logging combined with climate change is inflicting severe damage.",
    "src": "The New York Times",
@@ -928,7 +956,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 67,
+   "n": 69,
    "title": "How This Year’s Super El Niño Will Worsen Global Hunger",
    "desc": "While some regions get wetter, others face massive drought. On top of wars and cuts to foreign aid, the weather phenomenon could leave millions of people in vulnerable countries without enough to eat.",
    "src": "WIRED",
@@ -942,7 +970,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 68,
+   "n": 70,
    "title": "‘No time for a culture war’: Victoria’s electricity supply is at risk. Can it avoid power shortages and bill shocks?",
    "desc": "State faces electricity supply gap when Yallourn coal-fired power station closes in 2028 as experts warn neither Labor nor the Coalition has adequate plans Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Victoria’s electricity supply will be at risk when a maj",
    "src": "The Guardian",
@@ -956,7 +984,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 69,
+   "n": 71,
    "title": "COP31 climate talks break down as EU, others reject deal",
    "desc": "Negotiations had been due to end on Nov 20 but stretched deep into the weekend.",
    "src": "The Straits Times",
@@ -970,7 +998,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 70,
+   "n": 72,
    "title": "'Worst Ever' COP Summit?",
    "desc": "Is this the worst COP summit on record? With limited political leadership, no official US delegation and mounting frustration over bureaucratic delays, questions are being raised about the effectiveness of the climate negotiations. Juan Carlos Beldsoe, a former White House climate adviser under Bill",
    "src": "France 24",
@@ -984,7 +1012,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 71,
+   "n": 73,
    "title": "COP31 climate summit risks failure as talks go deep into overtime",
    "desc": "ANTALYA, Turkey, Nov 21 - The COP31 climate summit will either produce a good deal or no deal at all, the European Union's top climate official said on Saturday as talks stretched deep into overtime.",
    "src": "The Straits Times",
@@ -998,7 +1026,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 72,
+   "n": 74,
    "title": "COP31: Deep divisions persist over energy, finance and science",
    "desc": "COP31 climate talks in Turkey have gone into overtime, with deep divisions over fossil fuels, climate finance and global warming targets delaying an agreement. A revised draft dropped all mention of fossil fuels, prompting strong criticism from the EU and a dozen countries demanding a clear commitme",
    "src": "France 24",
@@ -1012,7 +1040,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 73,
+   "n": 75,
    "title": "SpaceX will retire 1st Starship upper stage ever caught by",
    "desc": "The first Starship upper stage that SpaceX ever successfully recovered won't fly again. Rather, it will go on display as a museum piece, according to company founder and CEO Elon Musk.",
    "src": "Space.com",
@@ -1026,7 +1054,7 @@
    "sub": "Space"
   },
   {
-   "n": 74,
+   "n": 76,
    "title": "GomSpace wins €8 million contract to build two satellites for Blue Origin’s lunar prospecting mission",
    "desc": "Denmark’s GomSpace has secured an €8 million contract to develop two satellites for Blue Origin’s lunar resource prospecting mission.",
    "src": "European Spaceflight",
@@ -1040,7 +1068,7 @@
    "sub": "Space"
   },
   {
-   "n": 75,
+   "n": 77,
    "title": "NASA Mars rover and orbiter suffer glitches",
    "desc": "It isn't only systems on Earth suffering technical problems",
    "src": "The Register",
@@ -1054,7 +1082,7 @@
    "sub": "Space"
   },
   {
-   "n": 76,
+   "n": 78,
    "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno - NASA Science",
    "desc": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation writt",
    "src": "NASA",
@@ -1068,7 +1096,7 @@
    "sub": "Space"
   },
   {
-   "n": 77,
+   "n": 79,
    "title": "Cloned number plate victims in England and Wales to get new reporting tool",
    "desc": "Police launch initiative after steep rise in criminals using method to evade detection and avoid paying penalties Sandra Yarwood has a file “about 2in thick” of paperwork relating to the 32 driving fines she received this summer after her car’s number plate was cloned. Yarwood’s black Volkswagen Gol",
    "src": "The Guardian",
@@ -1082,7 +1110,7 @@
    "sub": "Space"
   },
   {
-   "n": 78,
+   "n": 80,
    "title": "10 things that worry me about chasing the 2027 total solar eclipse in Egypt",
    "desc": "The longest total solar eclipse on land this century promises to be the experience of a lifetime, but watching it from Luxor, Egypt, may not be straightforward. What could go wrong? Quite a lot, actually.",
    "src": "Space.com",
@@ -1096,7 +1124,7 @@
    "sub": "Space"
   },
   {
-   "n": 79,
+   "n": 81,
    "title": "Lenders back SpaceX's $43 billion Nvidia GPU deal but worry the collateral could end up in orbit, making them impossible to reclaim if Musk ",
    "desc": "The $43 billion loan is structured as a unique arrangement in which a different company buys the Nvidia chips, while SpaceX makes quarterly payments to use them.",
    "src": "Tomshardware",
@@ -1110,7 +1138,7 @@
    "sub": "Space"
   },
   {
-   "n": 80,
+   "n": 82,
    "title": "Elon Musk on His Politics, a Potential Merger and Ukraine",
    "desc": "The chief executive of Tesla and SpaceX spoke with Andrew Ross Sorkin at the DealBook Summit.",
    "src": "The New York Times",
@@ -1124,7 +1152,7 @@
    "sub": "Space"
   },
   {
-   "n": 81,
+   "n": 83,
    "title": "On this day in space! Nov. 21, 1676: Danish astronomer discovers speed of light — by accident — while observing Jupiter",
    "desc": "On Nov. 21, 1676, the Danish astronomer Ole Rømer discovered the speed of lightwhile observing Jupiter and its moon volcanic moon Io. Here's why it mattered.",
    "src": "Space.com",
@@ -1138,7 +1166,7 @@
    "sub": "Space"
   },
   {
-   "n": 82,
+   "n": 84,
    "title": "This Week In Space podcast: Episode 237 — A Fond Farewell",
    "desc": "On Episode 237 of This Week In Space, Tariq Malik and Rod Pyle sign off — temporarily — with a look at space news, a bushel of space jokes, and a recap of some of our funniest moments.",
    "src": "Space.com",
@@ -1152,7 +1180,7 @@
    "sub": "Space"
   },
   {
-   "n": 83,
+   "n": 85,
    "title": "Lean and Mathlib groups verify the Claude-assisted proof of the Riemann hypothesis",
    "desc": "Two independent teams say they have full confidence in Anthropic mathematician Levent Alpöge’s machine-checked proof, which he says took six weeks with Claude.",
    "src": "The Guardian",
@@ -1166,7 +1194,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 84,
+   "n": 86,
    "title": "UN talks on AI in warfare end without commitment to binding rules",
    "desc": "UN-backed talks this week on regulating AI in warfare ended Saturday with nations agreeing to further discussion, but without a consensus on developing firm rules on how to rein in deadly autonomous weapons.",
    "src": "CBC",
@@ -1180,7 +1208,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 85,
+   "n": 87,
    "title": "House panels say Chinese military sought DeepSeek AI",
    "desc": "China's People's Liberation Army (PLA) wrote DeepSeek into the specifications for a cyber training range.",
    "src": "Homeland",
@@ -1194,7 +1222,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 86,
+   "n": 88,
    "title": "Procter & Gamble to Increase Factory Shifts Without Humans to Cut Costs",
    "desc": "The maker of Pampers and Bounty paper towels operates 15 sites capable of running shifts unattended, with plans to add more in 2027.",
    "src": "The New York Times",
@@ -1208,7 +1236,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 87,
+   "n": 89,
    "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
    "desc": "Tesla has started rolling out “Full Self-Driving” v15, and its list of improvements reads like a list of FSD’s biggest current weaknesses: sign detection, potholes, and speed handling in school zones. Tesla also claims “25x better handling of safety critical cases” and is adding a new live visualiza",
    "src": "Electrek",
@@ -1222,7 +1250,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 88,
+   "n": 90,
    "title": "AI transformer compresses 1 GB of Wikipedia to 105.39 MB, a new lossless record",
    "desc": "Tufa Labs’ tufazip compresses 1GB of Wikipedia to 105.39MB with a 163M-parameter Transformer as its only predictor, on two Nvidia B200s.",
    "src": "Tom’s Hardware",
@@ -1236,7 +1264,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 89,
+   "n": 91,
    "title": "Why have UN efforts to regulate ‘killer robots’ stalled?",
    "desc": "CWC countries agree to 'elaborate' on potential accord regulating autonomous weapons in two years, prompting criticism.",
    "src": "Al Jazeera",
@@ -1250,7 +1278,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 90,
+   "n": 92,
    "title": "Banks Have Had It Up to Here With Your AI Agent",
    "desc": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
    "src": "WIRED",
@@ -1264,7 +1292,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 91,
+   "n": 93,
    "title": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
    "desc": "Kraftwerk Berlin, part of same development as techno club Tresor, transformed into ‘war room’ for arms firm event With their cavernous post-industrial venues, teeth-grinding four-by-four beats and bouncers that look like Blade Runner extras, Berlin’s nightclubs trade on a reputation for bleakness. A",
    "src": "The Guardian",
@@ -1278,7 +1306,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 92,
+   "n": 94,
    "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
    "desc": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
    "src": "CNBC",
@@ -1292,7 +1320,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 93,
+   "n": 95,
    "title": "NRC issues roadmap for licensing reactors already tested under DOE or War Department authority",
    "desc": "The NRC issued interim guidance for commercial applications using DOE or War Department reactor data, after 56 comments on the draft.",
    "src": "Nuclear News Network",
@@ -1306,7 +1334,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 94,
+   "n": 96,
    "title": "Energy companies deploy drones that can recharge by straddling power lines — NOMAD quadcopter drones can monitor the grid without ever retur",
    "desc": "NOMADs are drones that can land on live high-voltage lines, charge from the line itself and relocate ready for their next task.",
    "src": "Tomshardware",
@@ -1320,7 +1348,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 95,
+   "n": 97,
    "title": "Rumor: Hyundai is getting ready to roll out an all-new, all-electric work truck",
    "desc": "The last time Hyundai announced a new work truck was 22 years ago, and the Hyundai Porter has proven itself as a dependable workhorse throughout Korea and Southeast Asia – but only the pyramids and the Chevy Express can last forever. Hyundai is reportedly getting ready to pull the wraps off an all-n",
    "src": "Electrek",
@@ -1334,7 +1362,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 96,
+   "n": 98,
    "title": "Xiaomi's 1,548 hp electric supercar is going global, starting in the UAE",
    "desc": "As a red wave of Chinese-built electric vehicles breaks over Europe and Canada, Xiaomi is selling its electric cars outside of China for the first time ever – and its starting its push for global growth with the UAE in 2027. more…",
    "src": "Electrek",
@@ -1348,7 +1376,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 97,
+   "n": 99,
    "title": "Tech outages are fueling a new doomsday economy",
    "desc": "Recent technology outages have left some worried about AI cyberattacks and the U.S. electricity grid. The doomsday economy is heating up as a result.",
    "src": "CNBC",
@@ -1362,7 +1390,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 98,
+   "n": 100,
    "title": "Here are 7 great reasons rural drivers SHOULD embrace EVs in 2027",
    "desc": "America’s heartland is full of rural communities that are miles away from its major cities, both geographically and culturally – but that doesn’t mean these more sparsely populated regions can’t reap the benefits of electrification. In fact, EVs offer rural drivers even more benefits than they do to",
    "src": "Electrek",
@@ -1376,7 +1404,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 99,
+   "n": 101,
    "title": "How much does charging an EV really cost? This Redditor says $7 per month",
    "desc": "One of the most common questions asked by first-time EV buyers is about the cost of electricity. Whether they plan to charge at home or find charging in the wild, everyone wants to know what to expect when it comes time to top off their batteries. One EV owner did the math after two months of EV own",
    "src": "Electrek",
@@ -1390,7 +1418,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 100,
+   "n": 102,
    "title": "Tesla Cybertruck's already impressive turning radius gets even tighter",
    "desc": "Tesla is rolling out an update that makes the Cybertruck turn even tighter, improving on what was already one of the best turning radiuses you can get in a full-size pickup. But there’s a catch. It only works on 2027 model year Cybertrucks, and Tesla plans to stop building the truck by the end of ne",
    "src": "Electrek",
@@ -1404,7 +1432,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 101,
+   "n": 103,
    "title": "Toyota just built a tiny folding electric bike to fit in your trunk",
    "desc": "Toyota is getting into electric bikes. Well, sort of. The Japanese automotive giant has unveiled the BKE Concept, a tiny folding electric two-wheeler designed to serve as a compact companion vehicle for short trips, outdoor adventures, and last-mile transportation. more…",
    "src": "Electrek",
@@ -1418,7 +1446,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 102,
+   "n": 104,
    "title": "E-quipment highlight: Mantsinen 200 material handler has tank treads",
    "desc": "Are you a port or rail terminal operator looking for a new electric material handler that can move serious cargo without sacrificing maneuverability? Do you wish it had tank treads? If that’s you, the Mantsinen 200 might be just the thing. more…",
    "src": "Electrek",
@@ -1432,7 +1460,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 103,
+   "n": 105,
    "title": "Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southea",
    "desc": "Stu Woo / Wall Street Journal : Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China — Defendant in case involving chip smuggling worked with Jensen Huang's romantic partner — SINGAPORE—Jensen Hua",
    "src": "Techmeme",
@@ -1446,7 +1474,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 104,
+   "n": 106,
    "title": "Moore Threads' next 'Lushan' gaming GPU could pack a record 64GB of VRAM",
    "desc": "Moore Threads teased its Lushan gaming GPU ahead of MDC 2026, with a product manager claiming record VRAM for a consumer graphics card.",
    "src": "Tomshardware",
@@ -1460,7 +1488,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 105,
+   "n": 107,
    "title": "TSMC reportedly pauses shipments to Chinese designers after U.S. export rules flag decade-old 16nm and 14nm nodes — new BIS controls threate",
    "desc": "The BIS's IFR says that chip fabs can no longer assume a design's performance based on the specifications provided by their customer.",
    "src": "Tomshardware",
@@ -1474,7 +1502,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 106,
+   "n": 108,
    "title": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China",
    "desc": "The treasury secretary said on CBS that it was too soon to say if Jensen Huang should return as the company’s chief executive.",
    "src": "The New York Times",
@@ -1488,7 +1516,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 107,
+   "n": 109,
    "title": "A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang",
    "desc": "Alan Rappeport / New York Times : A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers — The treasury secretary said on CBS that it was too soon to say if Jensen Huang should return as the comp",
    "src": "Techmeme",
@@ -1502,7 +1530,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 108,
+   "n": 110,
    "title": "How to safely clean your PC's GPU to avoid damaging it in the process - Engadget",
    "desc": "Removing and cleaning a GPU can be intimidating, but it's actually pretty simple.",
    "src": "Engadget",
@@ -1516,7 +1544,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 109,
+   "n": 111,
    "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
    "desc": "Quantum computing firms are testing energy-grid optimization, solar materials and hydrogen catalysts as they pursue practical uses.",
    "src": "CNBC",
