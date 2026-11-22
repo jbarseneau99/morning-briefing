@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated_at": "2026-11-22T13:22:39-0500",
+ "updated_at": "2026-11-22T14:20:41-0500",
  "built_at": "2026-11-22T05:31:24-0500",
  "stories": [
   {
@@ -1279,6 +1279,20 @@
   },
   {
    "n": 92,
+   "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+   "desc": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+   "src": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+   "dt": "Nov 22",
+   "img": "2e34b19871.jpg",
+   "id": "u2e34b19871",
+   "added_at": "2026-11-22T14:20:41-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 93,
    "title": "NRC issues roadmap for licensing reactors already tested under DOE or War Department authority",
    "desc": "The NRC issued interim guidance for commercial applications using DOE or War Department reactor data, after 56 comments on the draft.",
    "src": "Nuclear News Network",
@@ -1292,7 +1306,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 93,
+   "n": 94,
    "title": "Energy companies deploy drones that can recharge by straddling power lines — NOMAD quadcopter drones can monitor the grid without ever retur",
    "desc": "NOMADs are drones that can land on live high-voltage lines, charge from the line itself and relocate ready for their next task.",
    "src": "Tomshardware",
@@ -1306,7 +1320,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 94,
+   "n": 95,
    "title": "Rumor: Hyundai is getting ready to roll out an all-new, all-electric work truck",
    "desc": "The last time Hyundai announced a new work truck was 22 years ago, and the Hyundai Porter has proven itself as a dependable workhorse throughout Korea and Southeast Asia – but only the pyramids and the Chevy Express can last forever. Hyundai is reportedly getting ready to pull the wraps off an all-n",
    "src": "Electrek",
@@ -1320,7 +1334,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 95,
+   "n": 96,
    "title": "Xiaomi's 1,548 hp electric supercar is going global, starting in the UAE",
    "desc": "As a red wave of Chinese-built electric vehicles breaks over Europe and Canada, Xiaomi is selling its electric cars outside of China for the first time ever – and its starting its push for global growth with the UAE in 2027. more…",
    "src": "Electrek",
@@ -1334,7 +1348,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 96,
+   "n": 97,
    "title": "Tech outages are fueling a new doomsday economy",
    "desc": "Recent technology outages have left some worried about AI cyberattacks and the U.S. electricity grid. The doomsday economy is heating up as a result.",
    "src": "CNBC",
@@ -1348,7 +1362,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 97,
+   "n": 98,
    "title": "Here are 7 great reasons rural drivers SHOULD embrace EVs in 2027",
    "desc": "America’s heartland is full of rural communities that are miles away from its major cities, both geographically and culturally – but that doesn’t mean these more sparsely populated regions can’t reap the benefits of electrification. In fact, EVs offer rural drivers even more benefits than they do to",
    "src": "Electrek",
@@ -1362,7 +1376,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 98,
+   "n": 99,
    "title": "How much does charging an EV really cost? This Redditor says $7 per month",
    "desc": "One of the most common questions asked by first-time EV buyers is about the cost of electricity. Whether they plan to charge at home or find charging in the wild, everyone wants to know what to expect when it comes time to top off their batteries. One EV owner did the math after two months of EV own",
    "src": "Electrek",
@@ -1376,7 +1390,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 99,
+   "n": 100,
    "title": "Tesla Cybertruck's already impressive turning radius gets even tighter",
    "desc": "Tesla is rolling out an update that makes the Cybertruck turn even tighter, improving on what was already one of the best turning radiuses you can get in a full-size pickup. But there’s a catch. It only works on 2027 model year Cybertrucks, and Tesla plans to stop building the truck by the end of ne",
    "src": "Electrek",
@@ -1390,7 +1404,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 100,
+   "n": 101,
    "title": "Toyota just built a tiny folding electric bike to fit in your trunk",
    "desc": "Toyota is getting into electric bikes. Well, sort of. The Japanese automotive giant has unveiled the BKE Concept, a tiny folding electric two-wheeler designed to serve as a compact companion vehicle for short trips, outdoor adventures, and last-mile transportation. more…",
    "src": "Electrek",
@@ -1404,7 +1418,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 101,
+   "n": 102,
    "title": "E-quipment highlight: Mantsinen 200 material handler has tank treads",
    "desc": "Are you a port or rail terminal operator looking for a new electric material handler that can move serious cargo without sacrificing maneuverability? Do you wish it had tank treads? If that’s you, the Mantsinen 200 might be just the thing. more…",
    "src": "Electrek",
@@ -1418,7 +1432,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 102,
+   "n": 103,
    "title": "Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southea",
    "desc": "Stu Woo / Wall Street Journal : Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China — Defendant in case involving chip smuggling worked with Jensen Huang's romantic partner — SINGAPORE—Jensen Hua",
    "src": "Techmeme",
@@ -1432,7 +1446,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 103,
+   "n": 104,
    "title": "Moore Threads' next 'Lushan' gaming GPU could pack a record 64GB of VRAM",
    "desc": "Moore Threads teased its Lushan gaming GPU ahead of MDC 2026, with a product manager claiming record VRAM for a consumer graphics card.",
    "src": "Tomshardware",
@@ -1446,7 +1460,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 104,
+   "n": 105,
    "title": "TSMC reportedly pauses shipments to Chinese designers after U.S. export rules flag decade-old 16nm and 14nm nodes — new BIS controls threate",
    "desc": "The BIS's IFR says that chip fabs can no longer assume a design's performance based on the specifications provided by their customer.",
    "src": "Tomshardware",
@@ -1460,7 +1474,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 105,
+   "n": 106,
    "title": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China",
    "desc": "The treasury secretary said on CBS that it was too soon to say if Jensen Huang should return as the company’s chief executive.",
    "src": "The New York Times",
@@ -1474,7 +1488,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 106,
+   "n": 107,
    "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
    "desc": "Quantum computing firms are testing energy-grid optimization, solar materials and hydrogen catalysts as they pursue practical uses.",
    "src": "CNBC",
