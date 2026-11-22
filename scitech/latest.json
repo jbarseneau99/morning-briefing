@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated_at": "2026-11-22T14:20:41-0500",
+ "updated_at": "2026-11-22T15:18:41-0500",
  "built_at": "2026-11-22T05:31:24-0500",
  "stories": [
   {
@@ -1489,6 +1489,20 @@
   },
   {
    "n": 107,
+   "title": "A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang",
+   "desc": "Alan Rappeport / New York Times : A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers — The treasury secretary said on CBS that it was too soon to say if Jensen Huang should return as the comp",
+   "src": "Techmeme",
+   "url": "https://www.techmeme.com/261122/p10#a261122p10",
+   "dt": "Nov 22",
+   "img": "b962afa02c.jpg",
+   "id": "ub962afa02c",
+   "added_at": "2026-11-22T15:18:41-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 108,
    "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
    "desc": "Quantum computing firms are testing energy-grid optimization, solar materials and hydrogen catalysts as they pursue practical uses.",
    "src": "CNBC",
