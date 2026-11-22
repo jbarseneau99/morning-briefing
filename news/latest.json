@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated_at": "2026-11-22T10:22:46-0500",
+ "updated_at": "2026-11-22T11:22:25-0500",
  "built_at": "2026-11-22T05:31:24-0500",
  "stories": [
   {
@@ -973,6 +973,22 @@
    "img": "250aae444e.jpg",
    "id": "u250aae444e",
    "added_at": "2026-11-22T10:22:46-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Society & justice",
+   "cat": "Africa",
+   "sub": ""
+  },
+  {
+   "n": 62,
+   "title": "Dozens drown as boat capsizes in Nigeria en route to funeral",
+   "desc": "At least 24 people have been killed after a boat carrying mourners to a funeral capsized in Nigeria.",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dozens-drown-as-boat-capsizes-in-nigeria-en-route-to-funeral?traffic_source=rss",
+   "dt": "Nov 22",
+   "img": "ddec652e2c.jpg",
+   "id": "uddec652e2c",
+   "added_at": "2026-11-22T11:22:25-0500",
    "new": true,
    "region": "Africa",
    "topic": "Society & justice",
