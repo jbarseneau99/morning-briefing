@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated_at": "2026-11-22T09:18:00-0500",
+ "updated_at": "2026-11-22T10:22:46-0500",
  "built_at": "2026-11-22T05:31:24-0500",
  "stories": [
   {
@@ -957,6 +957,22 @@
    "img": "2cf5165df7.jpg",
    "id": "u2cf5165df7",
    "added_at": "2026-11-22T09:18:00-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Society & justice",
+   "cat": "Africa",
+   "sub": ""
+  },
+  {
+   "n": 61,
+   "title": "Drone attacks kill four near Sudan’s capital, damage UN building",
+   "desc": "The Rapid Support Forces are blamed as drones reportedly hit UN and government buildings, as well as Khartoum's airport.",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum?traffic_source=rss",
+   "dt": "Nov 22",
+   "img": "250aae444e.jpg",
+   "id": "u250aae444e",
+   "added_at": "2026-11-22T10:22:46-0500",
    "new": true,
    "region": "Africa",
    "topic": "Society & justice",
