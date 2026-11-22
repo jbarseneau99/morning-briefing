@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated_at": "2026-11-22T05:32:37-0500",
+ "updated_at": "2026-11-22T07:18:38-0500",
  "built_at": "2026-11-22T05:31:24-0500",
  "stories": [
   {
@@ -116,7 +116,7 @@
    "sub": ""
   },
   {
-   "n": 35,
+   "n": 37,
    "title": "Deadly Protests Erupt in Bangladesh Over Exiled Former Leader. What to Know.",
    "desc": "Supporters of the deposed prime minister, Sheikh Hasina, who was sentenced to death in absentia, have waged a small-scale insurgency to destabilize the current government.",
    "src": "The New York Times",
@@ -292,7 +292,7 @@
    "sub": ""
   },
   {
-   "n": 36,
+   "n": 38,
    "title": "EU and Indonesia sign trade deal",
    "desc": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
    "src": "DW",
@@ -372,7 +372,7 @@
    "sub": ""
   },
   {
-   "n": 37,
+   "n": 39,
    "title": "South Korea education minister resigns over exam cheating scandal",
    "desc": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
    "src": "BBC",
@@ -388,7 +388,7 @@
    "sub": ""
   },
   {
-   "n": 38,
+   "n": 40,
    "title": "Trump-Kim summit bid failed over North Korean conditions: Wall Street Journal report",
    "desc": "The details of the conditions set by North Korea remain unknown.",
    "src": "The Straits Times",
@@ -436,7 +436,7 @@
    "sub": ""
   },
   {
-   "n": 46,
+   "n": 49,
    "title": "Why Somalia’s president turned against his former ally, the UAE",
    "desc": "Behind Somalia's break with the UAE lies a domestic power struggle with regional leaders close to Abu Dhabi.",
    "src": "Al Jazeera",
@@ -452,7 +452,7 @@
    "sub": ""
   },
   {
-   "n": 39,
+   "n": 41,
    "title": "Three killed and dozens missing after fire at Indonesian factory",
    "desc": "At least three people were killed and 36 are still missing after a fire at a confectionary factory.",
    "src": "BBC",
@@ -468,7 +468,7 @@
    "sub": ""
   },
   {
-   "n": 47,
+   "n": 50,
    "title": "Overturned boat carrying mourners to funeral kills at least 24 in Nigeria",
    "desc": "Police say the boat driver fled and the vessel’s manager was taken into custody.",
    "src": "Al Jazeera",
@@ -484,7 +484,7 @@
    "sub": ""
   },
   {
-   "n": 48,
+   "n": 51,
    "title": "Kenya’s internet metering bill raises privacy and affordability concerns",
    "desc": "Kenya’s proposed internet metering law has prompted concerns over privacy, surveillance and rising connectivity costs.",
    "src": "Al Jazeera",
@@ -500,7 +500,7 @@
    "sub": ""
   },
   {
-   "n": 49,
+   "n": 52,
    "title": "Displaced Darfur families face volatile winter as Sudan aid cuts bite",
    "desc": "Sudan's displacement crisis could worsen with winter approaching.",
    "src": "Al Jazeera",
@@ -516,7 +516,7 @@
    "sub": ""
   },
   {
-   "n": 50,
+   "n": 53,
    "title": "Nigeria election 2027: Why are its politicians so old in a young country?",
    "desc": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
    "src": "BBC",
@@ -628,7 +628,7 @@
    "sub": ""
   },
   {
-   "n": 40,
+   "n": 42,
    "title": "Myanmar’s army-backed government calls ASEAN decision ‘unfair and imbalanced’",
    "desc": "Yangon called Myanmar’s exclusion from ASEAN summits discriminatory.",
    "src": "The Straits Times",
@@ -644,7 +644,7 @@
    "sub": ""
   },
   {
-   "n": 41,
+   "n": 43,
    "title": "No meeting yet between Malaysia PM Anwar, Anthony Loke on latter’s resignation as transport minister",
    "desc": "The Prime Minister said he wanted to discuss the matter with Loke.",
    "src": "The Straits Times",
@@ -660,7 +660,7 @@
    "sub": ""
   },
   {
-   "n": 42,
+   "n": 44,
    "title": "India: Nepal PM Balendra Shah heads to Delhi for first bilateral visit",
    "desc": "Nepal's rapper-turned-prime minister Balendra Shah is in New Delhi for his first foreign bilateral trip since taking office. He is expected to discuss flood recovery, trade and energy in his talks with Modi. DW has more.",
    "src": "DW",
@@ -676,7 +676,7 @@
    "sub": ""
   },
   {
-   "n": 43,
+   "n": 45,
    "title": "S’pore welcomes genuine investments from China that bring real benefits to the economy",
    "desc": "PM Wong is confident Singapore can secure the chips it needs, given its strong US ties.",
    "src": "The Straits Times",
@@ -692,7 +692,7 @@
    "sub": ""
   },
   {
-   "n": 44,
+   "n": 46,
    "title": "Luxury for the elite, hardship for the masses: North Korea’s economic divide",
    "desc": "Analysts say the economy’s growth is mostly driven by military production, state projects and trade with Russia.",
    "src": "The Straits Times",
@@ -788,7 +788,7 @@
    "sub": ""
   },
   {
-   "n": 45,
+   "n": 47,
    "title": "Japan death row terrorist involved in 1970s bombings dies before execution",
    "desc": "Toshiaki Masunaga began receiving treatment for a cerebral infarction in 2010.",
    "src": "The Straits Times",
@@ -801,6 +801,70 @@
    "region": "Asia-Pacific",
    "topic": "Society & justice",
    "cat": "Asia-Pacific",
+   "sub": ""
+  },
+  {
+   "n": 35,
+   "title": "What’s behind Iran’s escalation of attacks in the Gulf?",
+   "desc": "Tehran has ramped up attacks as the US naval blockade and sanctions campaign hurt the country economically.",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf?traffic_source=rss",
+   "dt": "Nov 22",
+   "img": "4153672099.jpg",
+   "id": "u4153672099",
+   "added_at": "2026-11-22T07:18:38-0500",
+   "new": true,
+   "region": "Middle East",
+   "topic": "Geopolitics & conflict",
+   "cat": "Middle East",
+   "sub": ""
+  },
+  {
+   "n": 36,
+   "title": "‘Trump’s exit strategy may depend on quietly lifting Iran blockade’",
+   "desc": "US President Donald Trump will have to ease the naval blockade on Iran if he wants the war to wind down, says analyst.",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss",
+   "dt": "Nov 22",
+   "img": "d440411718.jpg",
+   "id": "ud440411718",
+   "added_at": "2026-11-22T07:18:38-0500",
+   "new": true,
+   "region": "Middle East",
+   "topic": "Geopolitics & conflict",
+   "cat": "Middle East",
+   "sub": ""
+  },
+  {
+   "n": 48,
+   "title": "Ex British PM Theresa May tells successor to ‘move on’ from Brexit",
+   "desc": "Burnham and the EU’s top officials on Nov 20 sealed deals to ease trade and youth mobility.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/europe/ex-british-pm-theresa-may-tells-successor-to-move-on-from-brexit",
+   "dt": "Nov 22",
+   "img": "c704fbda4c.jpg",
+   "id": "uc704fbda4c",
+   "added_at": "2026-11-22T07:18:38-0500",
+   "new": true,
+   "region": "Asia-Pacific",
+   "topic": "Economy & markets",
+   "cat": "Asia-Pacific",
+   "sub": ""
+  },
+  {
+   "n": 54,
+   "title": "Ireland 20-17 South Africa: Irish edge past world champions in Nations Championship thriller",
+   "desc": "Ireland exact revenge on world champions South Africa with a thrilling win in Dublin after England's victory over New Zealand dashes Andy Farrell's side's hopes of reaching next weekend's Nations Championship final.",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqe9k2v4xjeko?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 21",
+   "img": "a54f72a309.jpg",
+   "id": "ua54f72a309",
+   "added_at": "2026-11-22T07:18:38-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Society & justice",
+   "cat": "Africa",
    "sub": ""
   }
  ]
