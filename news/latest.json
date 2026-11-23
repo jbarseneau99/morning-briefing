@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "updated_at": "2026-11-23T16:23:40-0500",
+ "updated_at": "2026-11-23T17:25:39-0500",
  "built_at": "2026-11-23T05:37:28-0500",
  "stories": [
   {
@@ -1040,6 +1040,22 @@
    "new": true,
    "region": "Africa",
    "topic": "Geopolitics & conflict",
+   "cat": "Africa",
+   "sub": ""
+  },
+  {
+   "n": 66,
+   "title": "Fury vs Joshua: Deontay Wilder to fight Martin Bakole on undercard",
+   "desc": "Heavyweight Martin Bakole will face former world champion Deontay Wilder on the undercard of Tyson Fury's fight with Anthony Joshua in Cardiff on 11 December.",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/sport/boxing/articles/cmvg2v0rlzeko?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 23",
+   "img": "261e98f439.jpg",
+   "id": "u261e98f439",
+   "added_at": "2026-11-23T17:25:39-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Society & justice",
    "cat": "Africa",
    "sub": ""
   }
