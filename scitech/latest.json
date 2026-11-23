@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated_at": "2026-11-22T19:19:46-0500",
+ "updated_at": "2026-11-22T20:23:50-0500",
  "built_at": "2026-11-22T05:31:24-0500",
  "stories": [
   {
@@ -1559,6 +1559,20 @@
   },
   {
    "n": 112,
+   "title": "Sources: Alice Huang was in touch with an officer of China",
+   "desc": "New York Times : Sources: Alice Huang was in touch with an officer of China's spy agency MSS from spring 2025 until this fall; her business partner Kang Wei also worked with MSS — U.S. intelligence is said to show that the woman at the heart of the A.I. chip scandal was in touch with China's Ministr",
+   "src": "Techmeme",
+   "url": "https://www.techmeme.com/261122/p13#a261122p13",
+   "dt": "Nov 22",
+   "img": "a6f065b036.jpg",
+   "id": "ua6f065b036",
+   "added_at": "2026-11-22T20:23:50-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 113,
    "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
    "desc": "Quantum computing firms are testing energy-grid optimization, solar materials and hydrogen catalysts as they pursue practical uses.",
    "src": "CNBC",
