@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "updated_at": "2026-11-23T09:22:59-0500",
+ "updated_at": "2026-11-23T10:26:00-0500",
  "built_at": "2026-11-23T05:37:28-0500",
  "stories": [
   {
@@ -977,6 +977,22 @@
    "region": "Latin America",
    "topic": "Society & justice",
    "cat": "Latin America",
+   "sub": ""
+  },
+  {
+   "n": 62,
+   "title": "Uebert Angel: Prominent Zimbabwean preacher arrested on indecent assault allegations",
+   "desc": "Uebert Angel, a British-Zimbabwean national, leads a charismatic church with branches in several countries.",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cxyvdmjr893zo?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 23",
+   "img": "a17d68ab2a.jpg",
+   "id": "ua17d68ab2a",
+   "added_at": "2026-11-23T10:26:00-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Society & justice",
+   "cat": "Africa",
    "sub": ""
   }
  ]
