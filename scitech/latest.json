@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated_at": "2026-11-22T20:23:50-0500",
+ "updated_at": "2026-11-22T21:22:58-0500",
  "built_at": "2026-11-22T05:31:24-0500",
  "stories": [
   {
@@ -1573,6 +1573,20 @@
   },
   {
    "n": 113,
+   "title": "Beijing to bar young ‘red-chip’ firms from listing outside mainland China, sources say",
+   "desc": "A drop-off in listings is likely to hurt Hong Kong, the top IPO destination for Chinese firms.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/business/beijing-to-bar-young-red-chip-firms-from-listing-outside-mainland-china-sources-say",
+   "dt": "Nov 22",
+   "img": "248a89eb9c.jpg",
+   "id": "u248a89eb9c",
+   "added_at": "2026-11-22T21:22:58-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 114,
    "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
    "desc": "Quantum computing firms are testing energy-grid optimization, solar materials and hydrogen catalysts as they pursue practical uses.",
    "src": "CNBC",

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated_at": "2026-11-22T20:23:50-0500",
+ "updated_at": "2026-11-22T21:22:58-0500",
  "built_at": "2026-11-22T05:31:24-0500",
  "stories": [
   {
@@ -437,6 +437,54 @@
   },
   {
    "n": 28,
+   "title": "Measuring and predicting plasma blob influence on downstream transport through paired simulations",
+   "desc": "We use two-dimensional TOKAM2D simulations of flux-driven turbulence to measure how much a single plasma blob affects particle transport farther out in the scrape-off layer. We evolve the same turbulent state twice, weakening the density and potential variatio",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.27039",
+   "dt": "Nov 19",
+   "img": "",
+   "id": "u18cba39542",
+   "added_at": "2026-11-22T21:22:58-0500",
+   "new": true,
+   "cat": "Energy & Nuclear",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 29,
+   "title": "A conservative latent neural ODE for stiff collisional-radiative plasma kinetics",
+   "desc": "Collisional-radiative (CR) models govern the non equilibrium population kinetics of partially ionized plasmas and are a dominant cost in integrated edge and divertor plasma simulations, where a stiff system of dozens to thousands of coupled rate equations must",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.27027",
+   "dt": "Nov 19",
+   "img": "",
+   "id": "u34637cb800",
+   "added_at": "2026-11-22T21:22:58-0500",
+   "new": true,
+   "cat": "Energy & Nuclear",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 30,
+   "title": "Parametric excitation of nano-scale spin waves with controlled phase by an open-resonator-type transducer",
+   "desc": "Parametric excitation is one of the most effective methods for the excitation of nano-scale spin waves (SW) (or magnons) in magnetic films and nano-waveguides, as this method removes restrictions on the excited wave wavelength imposed by a finite width of the ",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.26932",
+   "dt": "Nov 19",
+   "img": "",
+   "id": "u193d8022b4",
+   "added_at": "2026-11-22T21:22:58-0500",
+   "new": true,
+   "cat": "Energy & Nuclear",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 31,
    "title": "Stitching Quantum Codes into Quilts: Universal Logic with no Ancillary Qubits",
    "desc": "Proposals abound for performing fault-tolerant logical Pauli-product measurements between quantum codes beyond the surface code. We introduce a new construction, the code quilt, whereby a target joint logical operator of two or more codeblocks is directly meas",
    "src": "arXiv",
@@ -452,7 +500,7 @@
    "topic": ""
   },
   {
-   "n": 29,
+   "n": 32,
    "title": "Quantum position verification with remote untrusted devices",
    "desc": "A loophole-free Bell-test quantum protocol demonstrates secure, device-independent position verification, achieving up to 4.53-fold smaller localization volumes than classical methods and enabling tamper-resistant…",
    "src": "Nature",
@@ -468,7 +516,7 @@
    "topic": ""
   },
   {
-   "n": 30,
+   "n": 33,
    "title": "Quantum analogue-to-digital converter for phase estimation",
    "desc": "A proof of concept of a quantum analogue-to-digital converter is implemented on an integrated photonic platform, tailored for digital quantum phase estimation in metrology.",
    "src": "Nature Photonics",
@@ -484,7 +532,7 @@
    "topic": ""
   },
   {
-   "n": 31,
+   "n": 34,
    "title": "Quantum Autoencoder on Real Hardware for New Physics Searches at Muon Colliders",
    "desc": "We apply a quantum autoencoder to search for new physics (NP) in the tri-photon process $μ^+μ^-\\toγγγ$ at muon colliders. Using a six-qubit circuit on the Tianyan176 quantum computer, we measure the reconstruction losses for Standard Model (SM) events and anom",
    "src": "arXiv",
@@ -500,7 +548,7 @@
    "topic": ""
   },
   {
-   "n": 32,
+   "n": 35,
    "title": "Observation of tunable superradiant frequency combs",
    "desc": "A transition from continuous to periodic pulsed superradiant emission in coupled spin–resonator systems is demonstrated, revealing connections to time crystals and enabling synchronized microwave and optical frequency…",
    "src": "Nature",
@@ -516,7 +564,7 @@
    "topic": ""
   },
   {
-   "n": 33,
+   "n": 36,
    "title": "All Non-Contextual Pauli Hamiltonians are Free-Fermion in Disguise",
    "desc": "Decomposing Hamiltonians into classically tractable fragments is central to quantum simulation. One such way of doing so is the contextual subspace decomposition, which expresses the Hamiltonian with respect to non-contextual sets of Paulis. The conditions for",
    "src": "arXiv",
@@ -532,7 +580,7 @@
    "topic": ""
   },
   {
-   "n": 34,
+   "n": 37,
    "title": "Analogue simulation of massive relativistic quantum fields in 2 + 1 dimensions",
    "desc": "Analogue simulation of massive relativistic quantum fields in 2 + 1 dimensions (two spatial dimensions and time) is realized using two coherently coupled spin components in a two-dimensional atomic Bose–Einstein…",
    "src": "Nature",
@@ -548,7 +596,7 @@
    "topic": ""
   },
   {
-   "n": 35,
+   "n": 38,
    "title": "Adaptive Hamiltonian Identification via Quantum Reinforcement Learning under Non-Stationary Dynamics",
    "desc": "Accurate identification of the Hamiltonian governing a quantum system is important for quantum-system characterization, device calibration, simulation, and reliable operation of quantum hardware. In practical systems, however, the governing dynamics may vary o",
    "src": "arXiv",
@@ -564,7 +612,7 @@
    "topic": ""
   },
   {
-   "n": 36,
+   "n": 39,
    "title": "Entanglement, records, and quantum recovery in qubit chains",
    "desc": "We investigate entanglement, readable records and quantum recovery using an exactly solvable chain of sequentially interacting qubits. For weak interactions, entanglement reaches a later environment site before that site carries an equally strong local record.",
    "src": "arXiv",
@@ -580,7 +628,7 @@
    "topic": ""
   },
   {
-   "n": 37,
+   "n": 40,
    "title": "A Tensor-Algebraic No-Go Theorem for High-Dimensional Photonic Greenberger--Horne--Zeilinger States Discovered with AlphaProof Nexus",
    "desc": "Photonic GHZ states generated with probabilistic pair sources can be described by edge-coloured, complex-weighted graphs. In this representation, conditioning on an event with one photon in every detector turns the output amplitudes into coherent sums over per",
    "src": "arXiv",
@@ -596,7 +644,7 @@
    "topic": ""
   },
   {
-   "n": 38,
+   "n": 41,
    "title": "Wafer-scale thin-film PZT photonic integrated circuits enabling multi-terabit optical transmission",
    "desc": "Researchers establish an 8-inch thin-film PZT photonic integration platform through scalable, low-loss fabrication and demonstrate an integrated 3.2-Tbps wavelength-division multiplexing transmitter for high-speed…",
    "src": "Nature Communications",
@@ -612,7 +660,7 @@
    "topic": ""
   },
   {
-   "n": 39,
+   "n": 42,
    "title": "Thermal investigation of buffer and transition layers in AlGaN HEMT stacks",
    "desc": "In this work, we investigate thermal transport in a set of thin-film layers used in modern HEMT designs. Our theoretical analysis employs three phonon-transport models of increasing sophistication, ranging from a relatively simple Debye-approximation model to ",
    "src": "arXiv",
@@ -628,7 +676,7 @@
    "topic": ""
   },
   {
-   "n": 40,
+   "n": 43,
    "title": "Fully integrated perovskite active polaritonic circuits",
    "desc": "A fully integrated perovskite polaritonic circuit that brings the functionalities of fully integrated on-chip polaritonic systems simultaneously delivering room-temperature waveguide lasing, controllable optical routing…",
    "src": "Nature",
@@ -644,7 +692,7 @@
    "topic": ""
   },
   {
-   "n": 41,
+   "n": 44,
    "title": "Evidence for p-wave magnetism in electronic band structure of metallic EuSi",
    "desc": "A combination of symmetry analysis, first-principles calculations, neutron scattering and photoemission spectroscopy shows p-wave magnetism in the near-Fermi-level electronic structure of stoichiometric metallic EuSi.",
    "src": "Nature",
@@ -660,7 +708,7 @@
    "topic": ""
   },
   {
-   "n": 42,
+   "n": 45,
    "title": "Helices at Twisted Ferroelectric Interfaces",
    "desc": "We report that twisted interfaces, formed between two ferroelectric lithium niobate single crystals, contain arrays of coherently bonded and elastically deformed nanoscale structural helices, separated from one another by screw dislocations. The helices genera",
    "src": "arXiv",
@@ -676,7 +724,7 @@
    "topic": ""
   },
   {
-   "n": 43,
+   "n": 46,
    "title": "Designing dislocation-driven polar vortex networks in twisted perovskites",
    "desc": "Experimental and theoretical investigation of twisted freestanding SrTiO3 layers using various analytic methods from 4DSTEM to DFT reveal a long-range ordered screw dislocation pattern as well as topological polar…",
    "src": "Nature",
@@ -692,7 +740,7 @@
    "topic": ""
   },
   {
-   "n": 44,
+   "n": 47,
    "title": "Flat-band-induced integer doping and phase transition in monolayer graphene",
    "desc": "An architecture comprising monolayer graphene doubly aligned to bulk and monolayer hBN on either side shows a gate-tunable global structural phase transition between two stacking configurations, accompanied by…",
    "src": "Nature",
@@ -708,7 +756,7 @@
    "topic": ""
   },
   {
-   "n": 45,
+   "n": 48,
    "title": "Observation of room-temperature intrinsic antiferroelectricity in van der Waals NbOCl2",
    "desc": "In recent years, two-dimensional (2D) ferroelectricity has been extensively investigated across a wide range of 2D materials, while intrinsic 2D antiferroelectricity remains exceptionally rare, limiting its implementation in next-generation photonic and electr",
    "src": "arXiv",
@@ -724,7 +772,7 @@
    "topic": ""
   },
   {
-   "n": 46,
+   "n": 49,
    "title": "Alloying effects on the interface cohesion of grain boundaries in the Ni--Fe--Cr system",
    "desc": "Grain boundaries (GBs) in polycrystalline Ni-based alloys strongly influence mechanical strength and fracture behavior, yet the effect of alloying elements such as Fe and Cr on GB cohesion remains difficult to quantify systematically. Using density functional ",
    "src": "arXiv",
@@ -740,7 +788,7 @@
    "topic": ""
   },
   {
-   "n": 47,
+   "n": 50,
    "title": "Sign-Controlled BIC Merging and Flatband Formation in C2-symmetric Photonic Lattices",
    "desc": "Bound states in the continuum (BICs) on flatbands promise long-lived, weakly dispersive photons, yet their interplay remains elusive. Here, we develop a four-mode non-Hermitian Hamiltonian for $C_2$-symmetric photonic-crystal slabs. We show that the sign of th",
    "src": "arXiv",
@@ -756,7 +804,7 @@
    "topic": ""
   },
   {
-   "n": 48,
+   "n": 51,
    "title": "Nanostructures strengthen additively manufactured titanium alloys (News & Views)",
    "desc": "Machine learning guides the design of an additively manufactured titanium alloy containing superfine features at the 10 nm scale through controlled martensitic transformation, which achieves an ultimate tensile strength…",
    "src": "Nature Materials",
@@ -772,7 +820,7 @@
    "topic": ""
   },
   {
-   "n": 49,
+   "n": 52,
    "title": "Impact of elemental segregation on active and transpassive corrosion phenomenology of additively manufactured 316L",
    "desc": "The active and transpassive dissolution behaviors of additively manufactured (AM) laser powder bed fusion (LPBF) and direct energy deposition (DED) 316L stainless steels were evaluated using ASTM standard methods as…",
    "src": "npj Materials Degradation",
@@ -788,7 +836,7 @@
    "topic": ""
   },
   {
-   "n": 50,
+   "n": 53,
    "title": "4D printing of multi-state pH-responsive microstructures",
    "desc": "Deep eutectic systems (DESs) are emerging versatile functional materials for 3D printing.",
    "src": "Nature Communications",
@@ -804,7 +852,7 @@
    "topic": ""
   },
   {
-   "n": 51,
+   "n": 54,
    "title": "Design and additive manufacturing of nonlinear graded joints between austenitic and ferritic-martensitic steels",
    "desc": "Welds between austenitic stainless (SS347H) and ferritic-martensitic (P91) steels are commonly used in power-generation systems.",
    "src": "Scientific Reports",
@@ -820,7 +868,7 @@
    "topic": ""
   },
   {
-   "n": 52,
+   "n": 55,
    "title": "A glucose-powered artificial neuroimmune axis for metabolic control",
    "desc": "NeuroAxis restores glucose tolerance, improves insulin sensitivity and normalizes glycaemic control, with therapeutic effects persisting after treatment cessation in rat models of type 1 and type 2 diabetes.",
    "src": "Nature",
@@ -836,7 +884,7 @@
    "topic": ""
   },
   {
-   "n": 53,
+   "n": 56,
    "title": "Hypothalamic volume and cell-type changes in ageing and Alzheimer’s disease",
    "desc": "HypoAD, an atlas of the human hypothalamus in ageing and Alzheimer’s disease that&nbsp;combines high-resolution magnetic resonance imaging from 458 individuals with single-nucleus RNA sequencing of 614,403 nuclei,…",
    "src": "Nature",
@@ -852,7 +900,7 @@
    "topic": ""
   },
   {
-   "n": 54,
+   "n": 57,
    "title": "Programmable functional RNA design with a virtual scientist",
    "desc": "RhoAgent designs functional RNA molecules by constraining secondary structure, base interactions and functional motifs.",
    "src": "Nature Biotechnology",
@@ -868,7 +916,7 @@
    "topic": ""
   },
   {
-   "n": 55,
+   "n": 58,
    "title": "Multicenter characterization of enterocolitis associated with BCMA-directed CAR T cell therapy",
    "desc": "In a large multicenter case series, only 32% of patients who developed immune effector cell-associated enterocolitis following treatment with BCMA-directed CAR T cells had achieved disease resolution at last follow-up,…",
    "src": "Nature Medicine",
@@ -884,7 +932,7 @@
    "topic": ""
   },
   {
-   "n": 56,
+   "n": 59,
    "title": "Pluripotent stem cell-derived extracellular vesicles for systemic immune modulation in diabetes therapy",
    "desc": "Pluripotent stem cells secrete extracellular vesicles that induce immune tolerance and, when produced at scale in suspension culture and delivered from an injectable hydrogel, protect insulin-producing cells in a mouse…",
    "src": "Nature Nanotechnology",
@@ -900,7 +948,7 @@
    "topic": ""
   },
   {
-   "n": 57,
+   "n": 60,
    "title": "Host–microbe interactions in engineered immunocompetent human gut tissues",
    "desc": "Engineered barrier models of the small intestine and colon that include immune cells and a microbial compartment enable characterizations of the human epithelial response to Salmonella Typhimurium at the single-cell…",
    "src": "Nature",
@@ -916,7 +964,7 @@
    "topic": ""
   },
   {
-   "n": 58,
+   "n": 61,
    "title": "Ferroptosis in cancer cells triggers PGE2 production for tumour immune escape",
    "desc": "Ferroptotic cancer cells activate a molecular program that causes increased levels of PGE2, which in turn impairs type 1 conventional dendritic cell function, compromising antitumour CD8+ T cell immunity.",
    "src": "Nature",
@@ -932,7 +980,7 @@
    "topic": ""
   },
   {
-   "n": 59,
+   "n": 62,
    "title": "Closest relatives of poxviruses prevail in human and animal guts worldwide",
    "desc": "A diversified group of DNA viruses with large linear genomes is discovered, egoviruses, that comprise a putative viral order most closely related to animal-infecting poxviruses, and prevail in the animal digestive…",
    "src": "Nature",
@@ -948,7 +996,7 @@
    "topic": ""
   },
   {
-   "n": 60,
+   "n": 63,
    "title": "Chronically stable, frequency-selective auditory brainstem stimulation via ultra-flexible penetrating electrode arrays",
    "desc": "Surface auditory brainstem implants have poor spatial resolution and limited tonotopic access.",
    "src": "Nature Communications",
@@ -964,7 +1012,7 @@
    "topic": ""
   },
   {
-   "n": 61,
+   "n": 64,
    "title": "Conservation of the tumour microenvironment across organs and species",
    "desc": "A pan-cancer single-cell analysis of the tumour microenvironment across 42 cancer types and across 2&nbsp;species is described.",
    "src": "Nature",
