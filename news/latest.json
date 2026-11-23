@@ -1,10 +1,10 @@
 {
  "date": "2026-11-23",
- "updated_at": "2026-11-23T14:23:21-0500",
+ "updated_at": "2026-11-23T15:21:58-0500",
  "built_at": "2026-11-23T05:37:28-0500",
  "stories": [
   {
-   "n": 16,
+   "n": 17,
    "title": "Zelenskyy praises ‘exemplary’ drone operation that sank Russian warship in a Libyan port",
    "desc": "The incident comes alongside a suspected Ukrainian drone strike on a Russian cargo ship in the Baltic Sea over the weekend.",
    "src": "CNBC",
@@ -20,7 +20,7 @@
    "sub": ""
   },
   {
-   "n": 17,
+   "n": 18,
    "title": "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels",
    "desc": "Governments and campaigners rejected the \"cover decision\" drafted at the U.N.'s climate summit, COP31, on Sunday.",
    "src": "CNBC",
@@ -36,7 +36,7 @@
    "sub": ""
   },
   {
-   "n": 18,
+   "n": 19,
    "title": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks",
    "desc": "At least 15 people are killed in multiple attacks, days after Putin promises a ‘painful’ response to Ukrainian attacks.",
    "src": "Al Jazeera",
@@ -52,7 +52,7 @@
    "sub": ""
   },
   {
-   "n": 19,
+   "n": 20,
    "title": "Trump says the US is working on a “larger-scale” Russia-Ukraine ceasefire",
    "desc": "Donald Trump has said Washington is working to expand earlier localized humanitarian evacuations between Ukraine and Russia into a “larger-scale” ceasefire.",
    "src": "Kyiv Post",
@@ -68,7 +68,7 @@
    "sub": ""
   },
   {
-   "n": 20,
+   "n": 21,
    "title": "Three Russian missiles flew into Poland Friday, prosecutors say",
    "desc": "WARSAW, Nov 22 - All three of the objects that flew into Polish airspace on Friday were Russian Kh-101 missiles, Polish prosecutors said in a statement on Sunday. Read more at straitstimes.com.",
    "src": "The Straits Times",
@@ -84,7 +84,7 @@
    "sub": ""
   },
   {
-   "n": 21,
+   "n": 22,
    "title": "NATO believes Russia is ready to launch nuclear-armed satellite: German media",
    "desc": "Intelligence shows that the satellite was assembled several years ago and is stationed in the Moscow region.",
    "src": "The Straits Times",
@@ -100,7 +100,7 @@
    "sub": ""
   },
   {
-   "n": 22,
+   "n": 23,
    "title": "Belgium’s airports set to shut down due to anti-austerity strike",
    "desc": "Skeyes halts air traffic control services, grounding flights at Belgian airports amid union-led strike.",
    "src": "Al Jazeera",
@@ -116,7 +116,7 @@
    "sub": ""
   },
   {
-   "n": 23,
+   "n": 24,
    "title": "Gas prices in Europe surge as forecast cold snap feeds supply shortage fears",
    "desc": "Jump in price follows slowdown in Qatar supplies and depleted summer stocks due to heatwaves Business live – latest updates European gas prices surged on Monday as a forecast cold snap in the coming weeks fed fears across the…",
    "src": "The Guardian",
@@ -132,7 +132,7 @@
    "sub": ""
   },
   {
-   "n": 24,
+   "n": 25,
    "title": "Catering giant Compass Group to shift stock market listing to US in further blow to UK",
    "desc": "A growing number of firms have been leaving the UK to list shares in the US in recent years.",
    "src": "BBC",
@@ -148,7 +148,7 @@
    "sub": ""
   },
   {
-   "n": 25,
+   "n": 26,
    "title": "Turkey: Thousands protest closure of critical media outlets",
    "desc": "Protesters gathered in Istanbul to show their support for press freedom in Turkey. The protest was called just days after the police raided Sozcu TV and arrested several senior staff members.",
    "src": "DW",
@@ -164,7 +164,7 @@
    "sub": ""
   },
   {
-   "n": 26,
+   "n": 27,
    "title": "Who is Alberto Feijoo, the conservative seeking to become Spain’s new PM?",
    "desc": "The former career civil servant hopes to lead his Popular Party to victory in November 29 elections.",
    "src": "Al Jazeera",
@@ -180,7 +180,7 @@
    "sub": ""
   },
   {
-   "n": 27,
+   "n": 28,
    "title": "Armenia proposes new constitution in step towards peace with Azerbaijan",
    "desc": "TBILISI, Nov 23 - Armenia published a draft proposal of a new constitution on Monday, a major step towards signing a formal peace agreement with its neighbour and long-time foe Azerbaijan.",
    "src": "The Straits Times",
@@ -196,7 +196,7 @@
    "sub": ""
   },
   {
-   "n": 28,
+   "n": 29,
    "title": "German army starts testing kamikaze drones and AI targeting tool in Lithuania",
    "desc": "German army tests kamikaze drones and AI targeting tool during drills in Lithuania. Read more at straitstimes.com.",
    "src": "The Straits Times",
@@ -212,7 +212,7 @@
    "sub": ""
   },
   {
-   "n": 32,
+   "n": 33,
    "title": "Iran says it will use all its tools to confront US naval blockade",
    "desc": "The country called it “military aggression” and said it has the right to defend itself.",
    "src": "The Straits Times",
@@ -228,7 +228,7 @@
    "sub": ""
   },
   {
-   "n": 33,
+   "n": 34,
    "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
    "desc": "Yemen's Iran-aligned Houthis claimed an operation against Saudi Arabia's Rabigh oil refinery, as diplomatic efforts to end the war face long odds.",
    "src": "CNBC",
@@ -244,7 +244,7 @@
    "sub": ""
   },
   {
-   "n": 34,
+   "n": 35,
    "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel government",
    "desc": "Members remains divided over whether to build a coalition through an alliance with ultra‑Orthodox parties or a national unity government with Likud. Read more at straitstimes.com.",
    "src": "The Straits Times",
@@ -260,7 +260,7 @@
    "sub": ""
   },
   {
-   "n": 35,
+   "n": 36,
    "title": "‘Environmental crimes’: Israel blamed for toxic pollution in 99% of Gaza",
    "desc": "A new report by UK-based charity Oxfam shows how Israel’s destruction of Gaza has created a ‘toxic wasteland'.",
    "src": "Al Jazeera",
@@ -276,7 +276,7 @@
    "sub": ""
   },
   {
-   "n": 36,
+   "n": 37,
    "title": "Israeli attacks on medics in occupied West Bank surge by 350%: Rights group",
    "desc": "Physicians for Human Rights Israel says medics face 'dangerous escalation' in violence from soldiers and settlers.",
    "src": "Al Jazeera",
@@ -292,7 +292,7 @@
    "sub": ""
   },
   {
-   "n": 37,
+   "n": 38,
    "title": "As Syria-EU talks progress, diplomats fear focus will be on repatriation",
    "desc": "Syria and the EU are in talks on trade and political ties, but migration will likely be the key issue for discussion.",
    "src": "Al Jazeera",
@@ -308,7 +308,7 @@
    "sub": ""
   },
   {
-   "n": 38,
+   "n": 39,
    "title": "Iran unveils missile launcher as commanders tout capabilities in war with US",
    "desc": "A launcher capable of firing two liquid-propellant missiles simultaneously was unveiled for the first time, Iranian state television reported. Read more at straitstimes.com.",
    "src": "The Straits Times",
@@ -468,7 +468,7 @@
    "sub": ""
   },
   {
-   "n": 56,
+   "n": 57,
    "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
    "desc": "The two leaders committed to upholding sovereignty and \"non-interference in the internal affairs of states\".",
    "src": "BBC",
@@ -484,7 +484,7 @@
    "sub": ""
   },
   {
-   "n": 57,
+   "n": 58,
    "title": "Sudan: Drones hit UN building, residential area in Khartoum",
    "desc": "The drones targeted Khartoum, damaging a UN building in the residential area. The UN agency deemed it unacceptable that humanitarian workers were exposed to such danger.",
    "src": "DW",
@@ -500,7 +500,7 @@
    "sub": ""
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "WHO chief says fighting near Congo Ebola outbreak area disrupts response efforts",
    "desc": "WHO says fighting near Congo Ebola outbreak disrupts response efforts in eastern Democratic Republic of Congo. Read more at straitstimes.com.",
    "src": "The Straits Times",
@@ -516,7 +516,7 @@
    "sub": ""
   },
   {
-   "n": 59,
+   "n": 60,
    "title": "Widowed amid war and displacement: Sudanese mothers struggle to survive",
    "desc": "War widows in Sudan face growing challenges supporting their children as the cost of living increases.",
    "src": "Al Jazeera",
@@ -580,7 +580,7 @@
    "sub": ""
   },
   {
-   "n": 42,
+   "n": 43,
    "title": "Stocks in Asia drop again as local regulators rush to stem rout",
    "desc": "The declines continued from Friday Read more at The Business Times.",
    "src": "The Business Times",
@@ -596,7 +596,7 @@
    "sub": ""
   },
   {
-   "n": 43,
+   "n": 44,
    "title": "Indonesia confirms 24 killed in candy factory fire as search continues",
    "desc": "Rescuers search for 30 people still missing.",
    "src": "Al Jazeera",
@@ -612,7 +612,7 @@
    "sub": ""
   },
   {
-   "n": 44,
+   "n": 45,
    "title": "Bangladesh vows to arrest ousted leader Hasina if she returns from India",
    "desc": "Dhaka has been seeking Sheikh Hasina’s extradition from India, where she has lived since fleeing Bangladesh in 2024.",
    "src": "The Straits Times",
@@ -628,7 +628,7 @@
    "sub": ""
   },
   {
-   "n": 45,
+   "n": 46,
    "title": "South Korean President Lee Jae Myung nominates new foreign minister, spy chief amid US worries",
    "desc": "They would be tasked with shepherding Seoul’s alliance with the US and improving ties with North Korea.",
    "src": "The Straits Times",
@@ -644,7 +644,7 @@
    "sub": ""
   },
   {
-   "n": 46,
+   "n": 47,
    "title": "North Korea’s Kim highlights ‘sovereignty’ in ties after Trump no-show",
    "desc": "He said the world is witnessing an unstable security crisis and political and economic chaos. Read more at straitstimes.com.",
    "src": "The Straits Times",
@@ -660,7 +660,7 @@
    "sub": ""
   },
   {
-   "n": 47,
+   "n": 48,
    "title": "China, ASEAN countries struggle over South China Sea code of conduct",
    "desc": "The Philippines wanted a South China Sea code of conduct in place by 2026. But persistent disagreements between China and ASEAN countries are slowing progress toward a deal.",
    "src": "DW",
@@ -676,7 +676,7 @@
    "sub": ""
   },
   {
-   "n": 48,
+   "n": 49,
    "title": "China sentences official to death for spying for foreign power",
    "desc": "The official was also stripped of political rights for life and ordered to forfeit all personal property.",
    "src": "The Straits Times",
@@ -692,7 +692,7 @@
    "sub": ""
   },
   {
-   "n": 49,
+   "n": 50,
    "title": "COP31 flop triggers backlash in Australia; Pacific nations express despair",
    "desc": "Turkey hosted the latest talks, called COP31, in Antalya but shared leadership with Australia.",
    "src": "The Straits Times",
@@ -708,7 +708,7 @@
    "sub": ""
   },
   {
-   "n": 50,
+   "n": 51,
    "title": "Thailand’s floods cost economy over $1.7b, with farmers facing fresh El Nino threat",
    "desc": "Losses were concentrated in the agriculture, manufacturing and tourism-related services.",
    "src": "The Straits Times",
@@ -724,7 +724,7 @@
    "sub": ""
   },
   {
-   "n": 51,
+   "n": 52,
    "title": "India to give US$1.62 billion economic package to flood-hit Nepal",
    "desc": "The aid aims to speed reconstruction and long-term development after the deadly August flood.",
    "src": "The Straits Times",
@@ -740,7 +740,7 @@
    "sub": ""
   },
   {
-   "n": 52,
+   "n": 53,
    "title": "BHP unveils US$17.4b plan to double South Australian copper output by 2040",
    "desc": "BHP expects global copper demand to grow by 30% by 2040 to more than 45 million tonnes per year.",
    "src": "The Straits Times",
@@ -756,7 +756,7 @@
    "sub": ""
   },
   {
-   "n": 53,
+   "n": 54,
    "title": "Vietnam picks French-Korean group for high-speed rail deal",
    "desc": "When completed, the high-speed rail project is set to have a total length of approximately 1,541km.",
    "src": "The Straits Times",
@@ -772,7 +772,7 @@
    "sub": ""
   },
   {
-   "n": 54,
+   "n": 55,
    "title": "Singapore’s core inflation eases to 1.5% in October",
    "desc": "Services inflation slowed while retail and other goods’ inflation picked up.",
    "src": "The Straits Times",
@@ -788,7 +788,7 @@
    "sub": ""
   },
   {
-   "n": 60,
+   "n": 61,
    "title": "Nigeria boat accident: At least 29 dead after overcrowded boat capsizes in Bayelsa",
    "desc": "The government blames overcrowding, poor maintenance, and missing life jackets for boat accidents.",
    "src": "BBC",
@@ -804,7 +804,7 @@
    "sub": ""
   },
   {
-   "n": 29,
+   "n": 30,
    "title": "Nigeria's Bola Tinubu: Aso Rock also has water and power cuts",
    "desc": "Bola Tinubu says he was shaving last week when the water cut out - an experience familiar to many Nigerians.",
    "src": "BBC",
@@ -820,7 +820,7 @@
    "sub": ""
   },
   {
-   "n": 30,
+   "n": 31,
    "title": "South East Water reports loss after penalties and supply failures",
    "desc": "South East Water records a pre-tax loss of £22.9m in the six months to 30 September.",
    "src": "BBC",
@@ -836,7 +836,7 @@
    "sub": ""
   },
   {
-   "n": 31,
+   "n": 32,
    "title": "Arctic air brings colder temperatures to Europe this week",
    "desc": "After a warmer-than-average November so far globally, a cold snap is on the horizon in parts of Europe While average global temperatures continue to set records through one of the strongest El Niños on record, temperatures across a large swathe of Europe could plunge this week, as Arctic air sweeps ",
    "src": "The Guardian",
@@ -852,7 +852,7 @@
    "sub": ""
   },
   {
-   "n": 61,
+   "n": 62,
    "title": "How a tiny rare frog became an ecological warning sign for Madagascar",
    "desc": "The golden mantella is said to be found wherever gold is, making its habitat a target for illegal mining, which is destroying fragile ecosystems across the country As Albert Rakotoarisoa emerges from the forest into a clearing in Mangabe reserve in the east of Madagascar, he sees dozens of holes dug",
    "src": "The Guardian",
@@ -868,7 +868,7 @@
    "sub": ""
   },
   {
-   "n": 62,
+   "n": 63,
    "title": "CAS decision on Senegal’s AFCON 2025 title appeal on Tuesday",
    "desc": "Senegal are contesting CAF's decision to declare Morocco champions, despite Senegal winning the final 1-0 in January.",
    "src": "Al Jazeera",
@@ -884,7 +884,7 @@
    "sub": ""
   },
   {
-   "n": 39,
+   "n": 40,
    "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
    "desc": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions.",
    "src": "BBC",
@@ -900,7 +900,7 @@
    "sub": ""
   },
   {
-   "n": 40,
+   "n": 41,
    "title": "The ruling against Myanmar makes proving genocide more feasible | Kenneth Roth",
    "desc": "The international court of justice has settled questions over the issue of intent, with powerful implications for Israel The international court of justice (ICJ) decision last Thursday that Myanmar committed genocide against the Rohingya recognizes the plight of one of the world’s most persecuted mi",
    "src": "The Guardian",
@@ -916,7 +916,7 @@
    "sub": ""
   },
   {
-   "n": 41,
+   "n": 42,
    "title": "Lebanese families return to ruins after Israeli attacks in south",
    "desc": "In southern Lebanon’s Nabatieh, displaced families have been returning to ruins and widespread destruction.",
    "src": "Al Jazeera",
@@ -948,7 +948,7 @@
    "sub": ""
   },
   {
-   "n": 55,
+   "n": 56,
    "title": "Months after flood devastated families in Nepal, survivors live in trauma",
    "desc": "Hospital officials say more people are seeking care for mental health conditions like anxiety.",
    "src": "The Straits Times",
@@ -980,7 +980,7 @@
    "sub": ""
   },
   {
-   "n": 63,
+   "n": 64,
    "title": "Uebert Angel: Prominent Zimbabwean preacher arrested on indecent assault allegations",
    "desc": "Uebert Angel, a British-Zimbabwean national, leads a charismatic church with branches in several countries.",
    "src": "BBC",
@@ -1009,6 +1009,38 @@
    "region": "Latin America",
    "topic": "Society & justice",
    "cat": "Latin America",
+   "sub": ""
+  },
+  {
+   "n": 16,
+   "title": "Colombia races for counter-drone tech as militant groups embrace drones as frontline weapons - Breaking Defense",
+   "desc": "“As knowledge of drone tactics proliferates faster than governments can deploy countermeasures, it seems likely we will begin to see them crop up in more countries in the region,” one analyst told Breaking Defense.",
+   "src": "Breakingdefense",
+   "url": "https://breakingdefense.com/2026/11/colombia-races-for-counter-drone-tech-as-militant-groups-embrace-drones-as-frontline-weapons/",
+   "dt": "Nov 23",
+   "img": "8d556656e2.jpg",
+   "id": "u8d556656e2",
+   "added_at": "2026-11-23T15:21:58-0500",
+   "new": true,
+   "region": "Latin America",
+   "topic": "Geopolitics & conflict",
+   "cat": "Latin America",
+   "sub": ""
+  },
+  {
+   "n": 65,
+   "title": "How far will Ukraine war spread? Kyiv targets Russian vessels in Libya",
+   "desc": "Talk about spillover. In the Libyan port of Benghazi, Ukraine claiming responsibility for the sinkings first of a Russian warship and then a cargo vessel. That’s on top of the sanctioned ship struck in the Baltic Sea that’s since strayed into Finland’s waters. Legitimate targets?",
+   "src": "France 24",
+   "url": "https://www.france24.com/en/tv-shows/the-debate/20261123-how-far-will-ukraine-war-spread-kyiv-targets-russian-vessels-in-libya",
+   "dt": "Nov 23",
+   "img": "",
+   "id": "u435658bc0d",
+   "added_at": "2026-11-23T15:21:58-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Geopolitics & conflict",
+   "cat": "Africa",
    "sub": ""
   }
  ]
