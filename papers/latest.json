@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated_at": "2026-11-22T21:22:58-0500",
+ "updated_at": "2026-11-22T22:17:26-0500",
  "built_at": "2026-11-22T05:31:24-0500",
  "stories": [
   {
@@ -869,6 +869,22 @@
   },
   {
    "n": 55,
+   "title": "Adesktop learning factory for smart and resilient manufacturing based on digital twin and AI",
+   "desc": "Learning factories have been increasingly applied in engineering research and education. In this paper, we develop a small-scale, low-cost, fully open-sourced learning factory that leverages AI and digital twins to demonstrate smart and resilient manufacturing",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.27579",
+   "dt": "Nov 20",
+   "img": "",
+   "id": "ue4c848bf33",
+   "added_at": "2026-11-22T22:17:26-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 56,
    "title": "A glucose-powered artificial neuroimmune axis for metabolic control",
    "desc": "NeuroAxis restores glucose tolerance, improves insulin sensitivity and normalizes glycaemic control, with therapeutic effects persisting after treatment cessation in rat models of type 1 and type 2 diabetes.",
    "src": "Nature",
@@ -884,7 +900,7 @@
    "topic": ""
   },
   {
-   "n": 56,
+   "n": 57,
    "title": "Hypothalamic volume and cell-type changes in ageing and Alzheimer’s disease",
    "desc": "HypoAD, an atlas of the human hypothalamus in ageing and Alzheimer’s disease that&nbsp;combines high-resolution magnetic resonance imaging from 458 individuals with single-nucleus RNA sequencing of 614,403 nuclei,…",
    "src": "Nature",
@@ -900,7 +916,7 @@
    "topic": ""
   },
   {
-   "n": 57,
+   "n": 58,
    "title": "Programmable functional RNA design with a virtual scientist",
    "desc": "RhoAgent designs functional RNA molecules by constraining secondary structure, base interactions and functional motifs.",
    "src": "Nature Biotechnology",
@@ -916,7 +932,7 @@
    "topic": ""
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "Multicenter characterization of enterocolitis associated with BCMA-directed CAR T cell therapy",
    "desc": "In a large multicenter case series, only 32% of patients who developed immune effector cell-associated enterocolitis following treatment with BCMA-directed CAR T cells had achieved disease resolution at last follow-up,…",
    "src": "Nature Medicine",
@@ -932,7 +948,7 @@
    "topic": ""
   },
   {
-   "n": 59,
+   "n": 60,
    "title": "Pluripotent stem cell-derived extracellular vesicles for systemic immune modulation in diabetes therapy",
    "desc": "Pluripotent stem cells secrete extracellular vesicles that induce immune tolerance and, when produced at scale in suspension culture and delivered from an injectable hydrogel, protect insulin-producing cells in a mouse…",
    "src": "Nature Nanotechnology",
@@ -948,7 +964,7 @@
    "topic": ""
   },
   {
-   "n": 60,
+   "n": 61,
    "title": "Host–microbe interactions in engineered immunocompetent human gut tissues",
    "desc": "Engineered barrier models of the small intestine and colon that include immune cells and a microbial compartment enable characterizations of the human epithelial response to Salmonella Typhimurium at the single-cell…",
    "src": "Nature",
@@ -964,7 +980,7 @@
    "topic": ""
   },
   {
-   "n": 61,
+   "n": 62,
    "title": "Ferroptosis in cancer cells triggers PGE2 production for tumour immune escape",
    "desc": "Ferroptotic cancer cells activate a molecular program that causes increased levels of PGE2, which in turn impairs type 1 conventional dendritic cell function, compromising antitumour CD8+ T cell immunity.",
    "src": "Nature",
@@ -980,7 +996,7 @@
    "topic": ""
   },
   {
-   "n": 62,
+   "n": 63,
    "title": "Closest relatives of poxviruses prevail in human and animal guts worldwide",
    "desc": "A diversified group of DNA viruses with large linear genomes is discovered, egoviruses, that comprise a putative viral order most closely related to animal-infecting poxviruses, and prevail in the animal digestive…",
    "src": "Nature",
@@ -996,7 +1012,7 @@
    "topic": ""
   },
   {
-   "n": 63,
+   "n": 64,
    "title": "Chronically stable, frequency-selective auditory brainstem stimulation via ultra-flexible penetrating electrode arrays",
    "desc": "Surface auditory brainstem implants have poor spatial resolution and limited tonotopic access.",
    "src": "Nature Communications",
@@ -1012,7 +1028,7 @@
    "topic": ""
   },
   {
-   "n": 64,
+   "n": 65,
    "title": "Conservation of the tumour microenvironment across organs and species",
    "desc": "A pan-cancer single-cell analysis of the tumour microenvironment across 42 cancer types and across 2&nbsp;species is described.",
    "src": "Nature",
