@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "updated_at": "2026-11-23T21:24:10-0500",
+ "updated_at": "2026-11-23T22:16:56-0500",
  "built_at": "2026-11-23T05:37:28-0500",
  "stories": [
   {
@@ -821,6 +821,22 @@
   },
   {
    "n": 52,
+   "title": "Factory-simulator: A process-oriented environment for evaluating manufacturing decisions against optimisation-based references",
+   "desc": "Motivated by discussions with an electronics contract manufacturer about decision support, Factory-simulator provides a deterministic manufacturing environment for controlled research on the business performance of large language model-based multi-agent system",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.29079",
+   "dt": "Nov 21",
+   "img": "",
+   "id": "ufa5f1dd138",
+   "added_at": "2026-11-23T22:16:56-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 53,
    "title": "Expansion and cytotoxicity of mucosal CAR+ T cells in enterocolitis associated with BCMA CAR-T cell therapy",
    "desc": "Multimodal profiling of patients with biopsy-confirmed immune effector cell-associated enterocolitis following ciltacabtagene autoleucel shows that CAR T cell infiltrates are concentrated in the duodenum and have a more…",
    "src": "Nature Medicine",
@@ -836,7 +852,7 @@
    "topic": ""
   },
   {
-   "n": 53,
+   "n": 54,
    "title": "Longitudinal changes in mis-splicing in a cohort of female twins are widespread and highlight mechanisms of ageing",
    "desc": "This study identifies a striking increase in alternative splicing errors in ageing female twins over a six-eight-year timespan, providing insights into the molecular mechanisms of both healthy ageing and age-related…",
    "src": "Nature Communications",
@@ -852,7 +868,7 @@
    "topic": ""
   },
   {
-   "n": 54,
+   "n": 55,
    "title": "Endolysosomal damage promotes intraluminal protein condensate formation that limits cytosolic leakage",
    "desc": "Li et al. show that intraluminal condensates form quickly upon endolysosome damage and that condensates sequester luminal antisense oligonucleotides, suggesting a mechanism preventing the escape of antisense…",
    "src": "Nature Cell Biology",
@@ -868,7 +884,7 @@
    "topic": ""
   },
   {
-   "n": 55,
+   "n": 56,
    "title": "The retention of nanoparticles in solid tumours",
    "desc": "Interactions between nanoparticles and tumour components after entering and before exiting govern retention of the nanoparticles.",
    "src": "Nature Materials",
@@ -884,7 +900,7 @@
    "topic": ""
   },
   {
-   "n": 56,
+   "n": 57,
    "title": "Spatiotemporal brain dynamics of limb ownership perception",
    "desc": "Using magnetoencephalography, the authors generate a time-resolved whole-brain map of neural activity underlying the experience that a hand is one’s own, revealing how distributed cortical and cerebellar networks are…",
    "src": "Nature Communications",
@@ -900,7 +916,7 @@
    "topic": ""
   },
   {
-   "n": 57,
+   "n": 58,
    "title": "Structural Agreement Indicates Prediction Accuracy For Protein-Ligand Co-Folding",
    "desc": "Co-folding models predict the structures of proteins and their bound ligands, but their accuracy varies across targets. Their usefulness therefore depends on knowing which predictions a user can trust.",
    "src": "arXiv",
@@ -916,7 +932,7 @@
    "topic": ""
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "Hierarchical Hybrid-Coordinate Flow Matching for Accurate and Physically Plausible Apo-to-Holo Protein Generation",
    "desc": "Predicting holo-like protein conformations from apo structures is essential in structure-based drug design. Most existing apo-to-holo models operate in Cartesian space and achieve strong global accuracy.",
    "src": "arXiv",
@@ -932,7 +948,7 @@
    "topic": ""
   },
   {
-   "n": 59,
+   "n": 60,
    "title": "Saddle Buckling of a Multicellular Alga Driven by Differential Growth",
    "desc": "During development of many simple multicellular organisms there is a complex interplay between cell growth and generation of an extracellular matrix that confers structure.",
    "src": "arXiv",
@@ -948,7 +964,7 @@
    "topic": ""
   },
   {
-   "n": 60,
+   "n": 61,
    "title": "Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF",
    "desc": "Readouts of the tumor immune microenvironment (TIME), such as CD8+ T-cell density, intra-epithelial infiltration and the Ki67 index, combine tissue architecture from H&E with cell phenotypes from multiplex…",
    "src": "arXiv",
@@ -964,7 +980,7 @@
    "topic": ""
   },
   {
-   "n": 61,
+   "n": 62,
    "title": "Critical slowing down in hive temperature does not provide actionable early warnings of honey bee colony collapse",
    "desc": "Early warning signals (EWS) based on critical slowing down (CSD) have been proposed as model-independent indicators of approaching ecological regime shifts and may help anticipate honeybee colony collapse.",
    "src": "arXiv",
