@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "updated_at": "2026-11-24T07:19:13-0500",
+ "updated_at": "2026-11-24T08:17:06-0500",
  "built_at": "2026-11-24T05:31:15-0500",
  "stories": [
   {
@@ -1041,6 +1041,22 @@
    "region": "North America",
    "topic": "Climate & disasters",
    "cat": "North America",
+   "sub": ""
+  },
+  {
+   "n": 66,
+   "title": "China walks ‘thin line’ in push to stop another Horn of Africa war",
+   "desc": "Beijing has escalated diplomatic efforts to ease tensions involving Egypt, Ethiopia, Eritrea and Djibouti.",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/24/china-walks-thin-line-in-push-to-prevent-another-horn-of-africa-war?traffic_source=rss",
+   "dt": "Nov 24",
+   "img": "09df1e659c.jpg",
+   "id": "u09df1e659c",
+   "added_at": "2026-11-24T08:17:06-0500",
+   "new": true,
+   "region": "Africa",
+   "topic": "Geopolitics & conflict",
+   "cat": "Africa",
    "sub": ""
   }
  ]
