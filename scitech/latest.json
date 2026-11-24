@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "updated_at": "2026-11-24T15:26:31-0500",
+ "updated_at": "2026-11-24T16:19:19-0500",
  "built_at": "2026-11-24T05:31:15-0500",
  "stories": [
   {
@@ -1881,6 +1881,20 @@
   },
   {
    "n": 135,
+   "title": "‘Sudden chill amid a boom’: How US chip curbs may cloud Malaysia’s data centre ambitions",
+   "desc": "Malaysia is betting big on data centres. Will the US chip curbs stall their ambitions?",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/asia/se-asia/sudden-chill-amid-a-boom-how-us-chip-curbs-may-cloud-malaysias-data-centre-ambitions",
+   "dt": "Nov 24",
+   "img": "1da6059cba.jpg",
+   "id": "u1da6059cba",
+   "added_at": "2026-11-24T16:19:19-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 136,
    "title": "Canadian Researchers Piece Together a Million-Qubit Quantum Chip",
    "desc": "Insider Brief PRESS RELEASE — Researchers at the National Research Council (NRC) and the University of Warwick are taking an important step toward building practical quantum computers powerful enough to solve problems beyond the…",
    "src": "The Quantum Insider",
@@ -1894,7 +1908,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 136,
+   "n": 137,
    "title": "Harvard Leads $12M DOE Project on AI-Driven Quantum Error Correction",
    "desc": "Project unites MIT, Cornell, three national labs, tech partners as part of Genesis Mission Nov.",
    "src": "HPCwire",
@@ -1908,7 +1922,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 137,
+   "n": 138,
    "title": "Inside Nvidia’s Plan to Accelerate Quantum Error Correction",
    "desc": "One of the biggest hurdles to building useful quantum computers is fixing the errors that inevitably arise in quantum processing.",
    "src": "HPCwire",
@@ -1922,7 +1936,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 138,
+   "n": 139,
    "title": "CyberRidge Selected for The Lucrative EIC Award For Innovation In Quantum Security",
    "desc": "Insider Brief PRESS RELEASE — CyberRidge has been selected for co-funding by the European Innovation Council (EIC), Europe’s flagship program for breakthrough technologies.",
    "src": "The Quantum Insider",
@@ -1936,7 +1950,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 139,
+   "n": 140,
    "title": "UNM Hosts First Quantum Industry Day in New Mexico",
    "desc": "Insider Brief PRESS RELEASE — The University of New Mexico’s Quantum New Mexico Institute (QNM-I) brought together industry representatives, researchers, national laboratory partners, state leaders and investors for its inaugural…",
    "src": "The Quantum Insider",
@@ -1950,7 +1964,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 140,
+   "n": 141,
    "title": "Qtonic Quantum Appoints Former TRADOC Commander Gary Brito",
    "desc": "Insider Brief PRESS RELEASE — Gen. Gary M. Brito, U.S. Army (Ret.), the 18th and final commanding general of U.S. Army Training and Doctrine Command (TRADOC), has joined Qtonic Quantum to lead the Army Readiness Council and serve as Senior Military Advisor to the Founders. His appointment comes 39 d",
    "src": "Thequantuminsider",
@@ -1964,7 +1978,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 141,
+   "n": 142,
    "title": "QNu Labs and NIELIT Partner on Quantum Technology Training in India",
    "desc": "Insider Brief PRESS RELEASE — QNu Labs (www.qnulabs.com), a global leader in end-to-end hybrid quantum cybersecurity solutions, has signed a Memorandum of Understanding (MoU) with the National Institute of Electronics and Information Technology (NIELIT), an autonomous scientific society under the Mi",
    "src": "Thequantuminsider",
@@ -1978,7 +1992,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 142,
+   "n": 143,
    "title": "Accelerating Computing With Light",
    "desc": "Insider Brief PRESS RELEASE — For decades, computers have steadily grown faster and more powerful. Avik Dutt, an assistant professor of mechanical engineering at the University of Maryland, envisions another dramatic leap forward — one propelled by the quantum properties of light. “With light-based ",
    "src": "Thequantuminsider",
@@ -1992,7 +2006,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 143,
+   "n": 144,
    "title": "QuEra Joins $12 Million DOE Project on AI-Designed Quantum Error Correction",
    "desc": "Insider Brief PRESS RELEASE — QuEra Computing, the leader in fault-tolerant quantum computing, today announced that it is a collaborating partner in ASQC (Application-Aware Error Correction Codesign for Scientific Quantum Computing), a Harvard-led project that received $12 million from the U.S. Depa",
    "src": "Thequantuminsider",
@@ -2006,7 +2020,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 144,
+   "n": 145,
    "title": "Samsung Odyssey G8 G80SH 32-inch 4K OLED gaming monitor review: Color, performance and style",
    "desc": "Samsung’s Odyssey G8 G80SH is a 32-inch Quantum Dot OLED with 4K resolution and 240 Hz. It delivers a huge color gamut along with smooth and responsive gaming and it supports HDR10+ with dynamic tone mapping.",
    "src": "Tomshardware",
