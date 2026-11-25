@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "updated_at": "2026-11-24T19:26:29-0500",
+ "updated_at": "2026-11-24T20:22:15-0500",
  "built_at": "2026-11-24T05:31:15-0500",
  "stories": [
   {
@@ -1377,6 +1377,20 @@
   },
   {
    "n": 99,
+   "title": "Thomas Markle charged in US on second count of possessing child sexual abuse material",
+   "desc": "The elder Markle was originally charged on Nov 5 in a criminal complaint with a single felony count of possessing child sexual abuse images.",
+   "src": "The Straits Times",
+   "url": "https://www.straitstimes.com/world/united-states/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material",
+   "dt": "Nov 24",
+   "img": "2c3200bc29.jpg",
+   "id": "u2c3200bc29",
+   "added_at": "2026-11-24T20:22:15-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Materials & Chemistry"
+  },
+  {
+   "n": 100,
    "title": "NASA seeks industry bids for first Moon nuclear reactor",
    "desc": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing",
    "src": "NASA",
@@ -1390,7 +1404,7 @@
    "sub": "Space"
   },
   {
-   "n": 100,
+   "n": 101,
    "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
    "desc": "A nuclear detonation in space \"could cause rapid and sudden loss or degradation of thousands of satellites.\"",
    "src": "Ars Technica",
@@ -1404,7 +1418,7 @@
    "sub": "Space"
   },
   {
-   "n": 101,
+   "n": 102,
    "title": "China unveils crew for historic space mission with Pakistani astronaut",
    "desc": "The launch would mark the first joint flight involving Chinese and foreign astronauts in the history of the country’s manned space program",
    "src": "The Globe and Mail",
@@ -1418,7 +1432,7 @@
    "sub": "Space"
   },
   {
-   "n": 102,
+   "n": 103,
    "title": "Rocket startup Stoke Space challenges SpaceX with fully reusable rocket technology, targeting 2027 debut",
    "desc": "Competition in the US commercial space launch market is intensifying as Stoke Space, a rocket startup founded just seven years ago, seeks to challenge SpaceX with technology designed to make an entire launch vehicle…",
    "src": "DigiTimes",
@@ -1432,7 +1446,7 @@
    "sub": "Space"
   },
   {
-   "n": 103,
+   "n": 104,
    "title": "Umbra, ICEYE tout higher-resolution radar imaging with new satellites",
    "desc": "Both companies are now offering resolutions significantly lower than the previous industry standard of around 25 centimeters, allowing customers to see smaller ground targets with higher fidelity.",
    "src": "Breaking Defense",
@@ -1446,7 +1460,7 @@
    "sub": "Space"
   },
   {
-   "n": 104,
+   "n": 105,
    "title": "Exclusive: Verde Technologies Will Test Perovskite Solar Cells on the ISS in 2027",
    "desc": "Solar cell manufacturer Verde Technologies signed a contract to send its lightweight, ultra-thin perovskite solar cells to the ISS.",
    "src": "Payload",
@@ -1460,7 +1474,7 @@
    "sub": "Space"
   },
   {
-   "n": 105,
+   "n": 106,
    "title": "Industry Shares Plan for Moon Base Power Tower",
    "desc": "NASA tapped three companies—Redwire, Blue Origin's Honeybee Robotics, and Yank Technologies—to build the pieces of a Mini-Communications and Solar Tower.",
    "src": "Payload",
@@ -1474,7 +1488,7 @@
    "sub": "Space"
   },
   {
-   "n": 106,
+   "n": 107,
    "title": "Progress MS-36 set to launch to ISS from Baikonur",
    "desc": "The fourth and final Progress cargo ship resupply mission to the International Space Station of…",
    "src": "NASASpaceflight",
@@ -1488,7 +1502,7 @@
    "sub": "Space"
   },
   {
-   "n": 107,
+   "n": 108,
    "title": "Northrop books sixth Falcon 9 for Cygnus as Antares 330 waits",
    "desc": "Northrop Grumman has contracted a sixth Falcon 9 launch for its Cygnus resupply spacecraft, extending…",
    "src": "NASASpaceflight",
@@ -1502,7 +1516,7 @@
    "sub": "Space"
   },
   {
-   "n": 108,
+   "n": 109,
    "title": "SWISSto12 Taps DLR for HummingSat Flight Dynamics",
    "desc": "SWISSto12 selects DLR for HummingSat flight dynamics software, supporting precise orbit control and electric propulsion in GEO missions.",
    "src": "eeNews Europe",
@@ -1516,7 +1530,7 @@
    "sub": "Space"
   },
   {
-   "n": 109,
+   "n": 110,
    "title": "Claude claims to prove VP ≠ VNP in Valiant's 47-year-old conjecture",
    "desc": "Anthropic says Claude proved Valiant's 47-year-old conjecture, but mathematicians have yet to independently verify the result.",
    "src": "Interesting Engineering",
@@ -1530,7 +1544,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 110,
+   "n": 111,
    "title": "Google DeepMind Agent Teams Discover Lean-Verified Quantum Algorithms",
    "desc": "Google DeepMind presented research on November 23, 2026 showing that teams of Gemini 4 agents, checked by the Lean theorem prover, produced lower-cost quantum programs for five problems.",
    "src": "Unite.AI",
@@ -1544,7 +1558,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 111,
+   "n": 112,
    "title": "Saudi engineer used OpenAI’s vibe-coding app to more efficiently bug its office, feds say",
    "desc": "Prosecutors say ex-OpenAI engineer Abdulrahman Alfozan used Codex, Dropbox and a hidden recorder to capture confidential meetings.",
    "src": "Business Insider",
@@ -1558,7 +1572,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 112,
+   "n": 113,
    "title": "AI safety can’t depend on an emergency brake. It needs better engineering.",
    "desc": "Most of the practical tools to build trustworthy AI systems already exist, and the industry needs to use them.",
    "src": "Amazon",
@@ -1572,7 +1586,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 113,
+   "n": 114,
    "title": "UN chief calls for world to agree on AI oversight within a year",
    "desc": "Secretary-General Antonio Guterres has become increasingly vocal about AI as end of term nears.",
    "src": "Al Jazeera",
@@ -1586,7 +1600,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 114,
+   "n": 115,
    "title": "Z.ai unveils GLM-5.4, debuting loop transformer architecture, general coding paradigm",
    "desc": "Chinese artificial intelligence firm Z.ai officially released its next-generation flagship model, GLM-5.4, marking the company's first flagship model built on a loop transformer architecture and the starting point of its push…",
    "src": "DigiTimes",
@@ -1600,7 +1614,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 115,
+   "n": 116,
    "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
    "desc": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data.",
    "src": "WIRED",
@@ -1614,7 +1628,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 116,
+   "n": 117,
    "title": "Tesla FSD v15 is AI4’s last shot as Musk reveals how little compute is left",
    "desc": "Musk says Tesla cars will stay on AI4 while FSD v15 already uses most of the chip. AI4.5 got a RAM cut, and AI5 goes to Optimus first.",
    "src": "Electrek",
@@ -1628,7 +1642,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 117,
+   "n": 118,
    "title": "Elon Musk says Starlink integration could expand to other Tesla models by late 2027",
    "desc": "Elon Musk says Tesla hopes to begin offering integrated Starlink connectivity in other models by late 2027, expanding beyond the Cybercab.",
    "src": "Drive Tesla Canada",
@@ -1642,7 +1656,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 118,
+   "n": 119,
    "title": "Stocks Slide as Tech Stocks Partly Reverse Nvidia-Sparked Rally",
    "desc": "Markets have veered wildly for days, pushed and pulled by the drama at Nvidia and the record-breaking trading debut of Anthropic.",
    "src": "The New York Times",
@@ -1656,7 +1670,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 119,
+   "n": 120,
    "title": "New York unveils advanced nuclear master plan",
    "desc": "Governor Kathy Hochul has announced the completion of the Master Plan for Responsible Advanced Nuclear Development in New York, which sets out a roadmap for the state to achieve its target of creating 5 GW of new nuclear power…",
    "src": "World Nuclear News",
@@ -1670,7 +1684,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 120,
+   "n": 121,
    "title": "IEA’s World Energy Outlook 2026 looks at nuclear power’s future amid global turmoil",
    "desc": "The IEA argues in its World Energy Outlook 2026 that a shift toward domestic energy resources amid global crises should ultimately help nuclear power.",
    "src": "American Nuclear Society",
@@ -1684,7 +1698,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 121,
+   "n": 122,
    "title": "Space reactor panel discusses SR-1 Freedom mission and design considerations",
    "desc": "At the 2026 ANS Winter Conference & Expo in Phoenix, Ariz., panelists in the session “Space Reactor Instrumentation and Controls” discussed Space Reactor-1 Freedom, which is aiming to be the first demonstration of nuclear…",
    "src": "American Nuclear Society",
@@ -1698,7 +1712,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 122,
+   "n": 123,
    "title": "Korean, Slovakian partnership for financing nuclear projects",
    "desc": "Korea Trade Insurance Corporation has signed a memorandum of understanding with Export-Import Bank of Slovakia to support power and utility projects - including nuclear power plants - and the strengthening of related supply…",
    "src": "World Nuclear News",
@@ -1712,7 +1726,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 123,
+   "n": 124,
    "title": "One of the world’s biggest zinc mines is getting Alaska’s largest solar farm",
    "desc": "Red Dog Mine in Alaska burns about 40,000 gallons of diesel a day to keep one of the world’s largest zinc mines running, and now, an 8.8-megawatt (MW) solar farm and battery storage will help cut that fuel use. more…",
    "src": "Electrek",
@@ -1726,7 +1740,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 124,
+   "n": 125,
    "title": "INL Computing Facility becomes DOE-NE user facility, launches Arco",
    "desc": "DOE’s Office of Nuclear Energy has made the Idaho National Laboratory Computing Facility an official user facility, the first US high-performance computing facility focused on nuclear energy research.",
    "src": "American Nuclear Society",
@@ -1740,7 +1754,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 125,
+   "n": 126,
    "title": "Pilot-scale testing of equipment planned at Russia’s new reprocessing centre",
    "desc": "The nuclear fuel reprocessing centre in Zheleznogorsk in the Krasnoyarsk region in Russia will soon begin pilot-scale trial operation after completion of the equipment debugging process, Rosatom said. &nbsp;;",
    "src": "World Nuclear News",
@@ -1754,7 +1768,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 126,
+   "n": 127,
    "title": "Electric Powertrain: Vertical Aerospace Expands in Bristol",
    "desc": "As electric aviation moves closer to commercial production, developing reliable batteries and propulsion systems remains one of the industry’s biggest engineering challenges.",
    "src": "eeNews Europe",
@@ -1768,7 +1782,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 127,
+   "n": 128,
    "title": "Opinion: The cost of Ontario’s nuclear plan spirals. When will the province get serious?",
    "desc": "Ontario does have options for its electricity system other than a massive and enormously risky nuclear construction program – it just refuses to consider them",
    "src": "The Globe and Mail",
@@ -1782,7 +1796,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 128,
+   "n": 129,
    "title": "Data centers are getting their own natural gas power plants",
    "desc": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to build their own off-grid, or behind-the-meter, gas power plants to fuel the AI b",
    "src": "MIT Technology Review",
@@ -1796,7 +1810,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 129,
+   "n": 130,
    "title": "Alibaba disputes US blacklisting of Singapore subsidiary over chip rerouting risks",
    "desc": "The Chinese tech giant denied diverting restricted chips and said it will pursue legal action to defend itself.",
    "src": "The Straits Times",
@@ -1810,7 +1824,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 130,
+   "n": 131,
    "title": "Not all data centres need to declare GPUs under new US rule: Malaysian minister",
    "desc": "Malaysia says data centres need only declare GPUs subject to US export controls under new disclosure rules. Read more at straitstimes.com.",
    "src": "The Straits Times",
@@ -1824,7 +1838,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 131,
+   "n": 132,
    "title": "Samsung targets fivefold increase in V9 NAND capacity in China",
    "desc": "Samsung Electronics plans to boost production capacity for its ninth-generation (V9) NAND flash memory fivefold at its second plant in Xi'an, China, by November 2027 to meet demand for enterprise solid-state drives…",
    "src": "DigiTimes",
@@ -1838,7 +1852,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 132,
+   "n": 133,
    "title": "Winbond, NCKU launch chip R&D center focused on AI, advanced packaging",
    "desc": "Taiwanese memory chipmaker Winbond Electronics will invest NT$10 million (approx. US$303,000) a year in a joint research center with National Cheng Kung University (NCKU), focusing on AI-driven chip design, advanced…",
    "src": "DigiTimes",
@@ -1852,7 +1866,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 133,
+   "n": 134,
    "title": "Macronix bets on 3D NAND and NOR as bigger rivals retreat from low-capacity markets",
    "desc": "Macronix International is betting on 3D NAND and 3D NOR flash memory to drive its next phase of growth as major global memory manufacturers withdraw from low- and mid-capacity markets, leaving opportunities in…",
    "src": "DigiTimes",
@@ -1866,7 +1880,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 134,
+   "n": 135,
    "title": "Huawei's HiSilicon challenges automotive chip architecture with AI-powered image sensors",
    "desc": "Shanghai HiSilicon has launched and begun mass production of its 8MP intelligent CMOS image sensor (CIS), the CS6286, targeting dashboard cameras and parking surveillance systems.",
    "src": "DigiTimes",
@@ -1880,7 +1894,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 135,
+   "n": 136,
    "title": "US move to curb Chinese optical gear, potentially benefiting Korean suppliers",
    "desc": "The Trump administration is moving ahead with plans to restrict Chinese optical transceivers used in US data centers, potentially creating opportunities for South Korean suppliers even as major technology companies warn…",
    "src": "DigiTimes",
@@ -1894,7 +1908,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 136,
+   "n": 137,
    "title": "US chip curbs will not impact Malaysia’s China ties: Anwar",
    "desc": "Anwar added that Malaysia was not leaning to either China or the US, though he found it generally easier to deal with Beijing.",
    "src": "The Straits Times",
@@ -1908,7 +1922,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 137,
+   "n": 138,
    "title": "Asian tech stocks recover from ‘collateral damage’ of Jensen Huang’s departure",
    "desc": "Investors piled back into the tech market, following the reinstatement of Nvidia CEO Jensen Huang by its board.",
    "src": "CNBC",
@@ -1922,7 +1936,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 138,
+   "n": 139,
    "title": "‘Sudden chill amid a boom’: How US chip curbs may cloud Malaysia’s data centre ambitions",
    "desc": "Malaysia is betting big on data centres. Will the US chip curbs stall their ambitions?",
    "src": "The Straits Times",
@@ -1936,7 +1950,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 139,
+   "n": 140,
    "title": "Canadian Researchers Piece Together a Million-Qubit Quantum Chip",
    "desc": "Insider Brief PRESS RELEASE — Researchers at the National Research Council (NRC) and the University of Warwick are taking an important step toward building practical quantum computers powerful enough to solve problems beyond the…",
    "src": "The Quantum Insider",
@@ -1950,7 +1964,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 140,
+   "n": 141,
    "title": "Harvard Leads $12M DOE Project on AI-Driven Quantum Error Correction",
    "desc": "Project unites MIT, Cornell, three national labs, tech partners as part of Genesis Mission Nov.",
    "src": "HPCwire",
@@ -1964,7 +1978,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 141,
+   "n": 142,
    "title": "Inside Nvidia’s Plan to Accelerate Quantum Error Correction",
    "desc": "One of the biggest hurdles to building useful quantum computers is fixing the errors that inevitably arise in quantum processing.",
    "src": "HPCwire",
@@ -1978,7 +1992,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 142,
+   "n": 143,
    "title": "CyberRidge Selected for The Lucrative EIC Award For Innovation In Quantum Security",
    "desc": "Insider Brief PRESS RELEASE — CyberRidge has been selected for co-funding by the European Innovation Council (EIC), Europe’s flagship program for breakthrough technologies.",
    "src": "The Quantum Insider",
@@ -1992,7 +2006,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 143,
+   "n": 144,
    "title": "UNM Hosts First Quantum Industry Day in New Mexico",
    "desc": "Insider Brief PRESS RELEASE — The University of New Mexico’s Quantum New Mexico Institute (QNM-I) brought together industry representatives, researchers, national laboratory partners, state leaders and investors for its inaugural…",
    "src": "The Quantum Insider",
@@ -2006,7 +2020,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 144,
+   "n": 145,
    "title": "Qtonic Quantum Appoints Former TRADOC Commander Gary Brito",
    "desc": "Insider Brief PRESS RELEASE — Gen. Gary M. Brito, U.S. Army (Ret.), the 18th and final commanding general of U.S. Army Training and Doctrine Command (TRADOC), has joined Qtonic Quantum to lead the Army Readiness Council and serve as Senior Military Advisor to the Founders. His appointment comes 39 d",
    "src": "Thequantuminsider",
@@ -2020,7 +2034,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 145,
+   "n": 146,
    "title": "QNu Labs and NIELIT Partner on Quantum Technology Training in India",
    "desc": "Insider Brief PRESS RELEASE — QNu Labs (www.qnulabs.com), a global leader in end-to-end hybrid quantum cybersecurity solutions, has signed a Memorandum of Understanding (MoU) with the National Institute of Electronics and Information Technology (NIELIT), an autonomous scientific society under the Mi",
    "src": "Thequantuminsider",
@@ -2034,7 +2048,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 146,
+   "n": 147,
    "title": "Accelerating Computing With Light",
    "desc": "Insider Brief PRESS RELEASE — For decades, computers have steadily grown faster and more powerful. Avik Dutt, an assistant professor of mechanical engineering at the University of Maryland, envisions another dramatic leap forward — one propelled by the quantum properties of light. “With light-based ",
    "src": "Thequantuminsider",
@@ -2048,7 +2062,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 147,
+   "n": 148,
    "title": "QuEra Joins $12 Million DOE Project on AI-Designed Quantum Error Correction",
    "desc": "Insider Brief PRESS RELEASE — QuEra Computing, the leader in fault-tolerant quantum computing, today announced that it is a collaborating partner in ASQC (Application-Aware Error Correction Codesign for Scientific Quantum Computing), a Harvard-led project that received $12 million from the U.S. Depa",
    "src": "Thequantuminsider",
@@ -2062,7 +2076,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 148,
+   "n": 149,
    "title": "Samsung Odyssey G8 G80SH 32-inch 4K OLED gaming monitor review: Color, performance and style",
    "desc": "Samsung’s Odyssey G8 G80SH is a 32-inch Quantum Dot OLED with 4K resolution and 240 Hz. It delivers a huge color gamut along with smooth and responsive gaming and it supports HDR10+ with dynamic tone mapping.",
    "src": "Tomshardware",
