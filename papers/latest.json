@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "updated_at": "2026-11-25T05:27:33-0500",
+ "updated_at": "2026-11-25T07:17:21-0500",
  "built_at": "2026-11-25T05:22:43-0500",
  "stories": [
   {
@@ -309,6 +309,22 @@
   },
   {
    "n": 20,
+   "title": "OmniAct: One Policy, One Million Embodiments",
+   "desc": "A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representa",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.33158",
+   "dt": "Nov 24",
+   "img": "",
+   "id": "u59f4b821b2",
+   "added_at": "2026-11-25T07:17:21-0500",
+   "new": true,
+   "cat": "AI & Robotics",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 21,
    "title": "Toward divertor plasma detachment in pure D-T plasma in fusion reactor with H-mode-like plasma confinement",
    "desc": "The conditions between the separatrix plasma density and the heat flux into the scrape-off layer region allowing reaching an ultimate divertor plasma detachment with H-mode confinement in pure hydrogen (deuterium or the…",
    "src": "arXiv",
@@ -324,7 +340,7 @@
    "topic": ""
   },
   {
-   "n": 21,
+   "n": 22,
    "title": "Global full-f gyrokinetic analysis of energetic-particle-driven Alfvén eigenmodes and their phase-space drive with GYSELA",
    "desc": "We investigate the linear stability of energetic-particle (EP) driven Alfvén eigenmodes and the wave-particle interaction in phase space, using the newly implemented energetic-particle module in the electromagnetic…",
    "src": "arXiv",
@@ -340,7 +356,7 @@
    "topic": ""
   },
   {
-   "n": 22,
+   "n": 23,
    "title": "Exact force-free three-dimensional toroidal equilibria and the sawtooth q(0) problem",
    "desc": "We construct exact, closed-form solutions of curl of B=lambda B with nested toroidal flux surfaces around a closed magnetic axis, finite rotational transform and, in general, no continuous Euclidean symmetry.",
    "src": "arXiv",
@@ -356,7 +372,7 @@
    "topic": ""
   },
   {
-   "n": 23,
+   "n": 24,
    "title": "Proximal single atoms for stable electrocatalysts",
    "desc": "Ru–O–Cr motifs atomically dispersed in proximity on a MnO2 substrate effectively suppress oxidation-induced Ru dissolution with enhanced catalyst durability towards the oxygen evolution reaction in acidic water…",
    "src": "Nature Materials",
@@ -372,7 +388,7 @@
    "topic": ""
   },
   {
-   "n": 24,
+   "n": 25,
    "title": "Damping Ratio and Convergence Rate Analysis for Inverter-Based Power Systems via Root Locus",
    "desc": "As more renewables enter the grid, it becomes insufficient to rely solely on the center of inertia frequency to analyze the transient performance, especially for oscillation behaviors.",
    "src": "arXiv",
@@ -388,7 +404,7 @@
    "topic": ""
   },
   {
-   "n": 25,
+   "n": 26,
    "title": "Adaptive Robust Optimisation for Frequency-Constrained Market Clearing Problem",
    "desc": "This paper formulates the day-ahead market clearing as a two-stage adaptive robust optimisation problem in which the first stage determines unit commitment, energy dispatch, and reserve procurement, while the second…",
    "src": "arXiv",
@@ -404,7 +420,71 @@
    "topic": ""
   },
   {
-   "n": 26,
+   "n": 27,
+   "title": "Whistler instability driven by electron trapping in magnetic dips",
+   "desc": "Using fully kinetic particle-in-cell simulations, we show how free energy released by an ion-scale instability reaches electron scales through its effect on the electron distribution. An initial ion temperature anisotropy drives partly compressional ion cyclot",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.32922",
+   "dt": "Nov 24",
+   "img": "",
+   "id": "uf9e6f03339",
+   "added_at": "2026-11-25T07:17:21-0500",
+   "new": true,
+   "cat": "Energy & Nuclear",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 28,
+   "title": "Modulations of the photoswitching performances of azobenzene-based molecular devices by the π-conjugated spacers",
+   "desc": "The nature of the π-conjugated spacer is a key element to tune the electrical conductance and optical switching properties of metal-spacer-azobenzene-metal molecular devices. We report that the azobenzene-based molecular junctions with a thiophene or a phenylt",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.32611",
+   "dt": "Nov 24",
+   "img": "",
+   "id": "u8cc9e81701",
+   "added_at": "2026-11-25T07:17:21-0500",
+   "new": true,
+   "cat": "Energy & Nuclear",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 29,
+   "title": "Witnessing Gaussian Coexistence and Correlation-Ellipse Tomography",
+   "desc": "Gaussian light is specified by second-order field moments, yet their hidden correlation geometry can demand higher-order intensity measurements. We establish a measurement hierarchy for \"Gaussian coexistence\", i.e., the simultaneous presence of cross covarianc",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.32581",
+   "dt": "Nov 24",
+   "img": "",
+   "id": "u3ca3271610",
+   "added_at": "2026-11-25T07:17:21-0500",
+   "new": true,
+   "cat": "Energy & Nuclear",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 30,
+   "title": "Softer charged-hadron spectra in Ne+Ne than in O+O collisions at the same multiplicity at $\\sqrt{s_{\\rm NN}} = 5.36$ TeV",
+   "desc": "Charged-hadron spectra measured by the ATLAS Collaboration in O+O and Ne+Ne collisions at $\\sqrt{s_{\\rm NN}} = 5.36$ TeV are compared at the same charged-particle multiplicity instead of at the same centrality, to test whether the shape of the transverse-momen",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.32516",
+   "dt": "Nov 24",
+   "img": "",
+   "id": "uc7e9c4a3bf",
+   "added_at": "2026-11-25T07:17:21-0500",
+   "new": true,
+   "cat": "Energy & Nuclear",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 31,
    "title": "Classical sampling of verifiable graph-state quantum advantage experiments",
    "desc": "Quantum computers are expected to outperform classical ones on some tasks, but a convincing demonstration must be both hard to reproduce classically and verifiable.",
    "src": "arXiv",
@@ -420,7 +500,7 @@
    "topic": ""
   },
   {
-   "n": 27,
+   "n": 32,
    "title": "Theory-Informed Quantum Error Mitigation for Shor Order Finding with Fourier Neural Operators",
    "desc": "Quantum noise distorts the distribution of circuit measurement outcomes, often leaving enough information to infer the algorithm's correct result.",
    "src": "arXiv",
@@ -436,7 +516,7 @@
    "topic": ""
   },
   {
-   "n": 28,
+   "n": 33,
    "title": "Robust growth of $α$-tantalum on sapphire at room temperature using atomically thin titanium seed layer",
    "desc": "Tantalum (Ta) based superconducting circuits have attracted attention for their low microwave loss.",
    "src": "arXiv",
@@ -452,7 +532,7 @@
    "topic": ""
   },
   {
-   "n": 29,
+   "n": 34,
    "title": "Quantum optimization beyond qubit count by low-energy subspace sampling",
    "desc": "On current digital quantum devices, standard one-qubit-per-variable encodings restrict quantum optimization algorithms to problem sizes where classical solvers typically excel.",
    "src": "arXiv",
@@ -468,7 +548,7 @@
    "topic": ""
   },
   {
-   "n": 30,
+   "n": 35,
    "title": "Electron spin relaxation and coherence times of silicon vacancies in 4H-SiC",
    "desc": "Color defect centers carrying electron spins in solid crystals like diamond and silicon carbide (SiC) are promising candidates for qubits and quantum sensors, with SiC material being particularly interesting due to its…",
    "src": "arXiv",
@@ -484,7 +564,7 @@
    "topic": ""
   },
   {
-   "n": 31,
+   "n": 36,
    "title": "Classical algorithms for sparse random Hamiltonians via free probability",
    "desc": "The search for quantum advantage in average-case problems is a pressing open question in physics and computer science.",
    "src": "arXiv",
@@ -500,7 +580,7 @@
    "topic": ""
   },
   {
-   "n": 32,
+   "n": 37,
    "title": "Class-resolved sifting for quantum key distribution with photon pairs hyperentangled in polarization and transverse spatial variables",
    "desc": "Photon pairs hyperentangled in polarization and transverse spatial variables can carry two key bits per pair in entanglement-based quantum key distribution.",
    "src": "arXiv",
@@ -516,7 +596,7 @@
    "topic": ""
   },
   {
-   "n": 33,
+   "n": 38,
    "title": "Thermal state preparation with shallow quantum circuits",
    "desc": "Preparing thermal states on noisy quantum hardware requires circuits that remain shallow at low temperatures.",
    "src": "arXiv",
@@ -532,7 +612,7 @@
    "topic": ""
   },
   {
-   "n": 34,
+   "n": 39,
    "title": "When Randomness Hides Quantum Simulation Errors",
    "desc": "Trotter formulas approximate quantum dynamics by discrete steps, but errors in measured observables can be much smaller than worst-case estimates.",
    "src": "arXiv",
@@ -548,7 +628,7 @@
    "topic": ""
   },
   {
-   "n": 35,
+   "n": 40,
    "title": "Iterative Petz Protocols for Quantum State Recovery",
    "desc": "Noise is omnipresent in quantum systems, and thus, approximately reversing this noise is a central challenge towards quantum technologies.",
    "src": "arXiv",
@@ -564,7 +644,7 @@
    "topic": ""
   },
   {
-   "n": 36,
+   "n": 41,
    "title": "N-Polar AlGaN/GaN Heterojunction Bipolar Transistor",
    "desc": "Heterojunction bipolar transistors based on the III-Nitride systems have significantly lower performance than field effect transistors due to challenges associated with p-type doping of the base.",
    "src": "arXiv",
@@ -580,7 +660,7 @@
    "topic": ""
   },
   {
-   "n": 37,
+   "n": 42,
    "title": "Emission regimes and characteristic energy scales in reverse-biased 4H-SiC Schottky barriers: unified field-emission formulas and energy-dependent tunneling effective mass",
    "desc": "Reverse leakage in 4H-SiC Schottky barrier diodes is analyzed using a current integral with Fermi-Dirac supply and WKB transmission.",
    "src": "arXiv",
@@ -596,7 +676,7 @@
    "topic": ""
   },
   {
-   "n": 38,
+   "n": 43,
    "title": "Integrated lasing and dual-band gain in neodymium-implanted silicon nitride",
    "desc": "Lasers at wavelengths near 1 micrometer are used in quantum technologies, precision metrology, and sensing.",
    "src": "arXiv",
@@ -612,7 +692,7 @@
    "topic": ""
   },
   {
-   "n": 39,
+   "n": 44,
    "title": "Compositionally Tunable Synthesis of High-Entropy Transition Metal Dichalcogenides Exhibiting Above-Room-Temperature Magnetism",
    "desc": "As silicon-based electronics approach their physical limits, low-dimensional magnetic materials have attracted increasing attention for next-generation electronic and information technologies.",
    "src": "arXiv",
@@ -628,7 +708,7 @@
    "topic": ""
   },
   {
-   "n": 40,
+   "n": 45,
    "title": "Anharmonic enhancement of thermal conductivity in amorphous Ge$_2$Sb$_2$Te$_5$: A consistent picture from molecular dynamics and Wigner transport",
    "desc": "Anharmonicity limits heat conduction in crystals, but its role in amorphous solids, where heat is carried mainly by tunneling between quasi-degenerate vibrations, remains unsettled.",
    "src": "arXiv",
@@ -644,7 +724,7 @@
    "topic": ""
   },
   {
-   "n": 41,
+   "n": 46,
    "title": "Native vacancy energetics and association in TiN and CrN: chemical potential dependence, clustering, and surface effects",
    "desc": "Native vacancy populations in transition-metal nitride coatings reflect vacancy formation, association, and depth-dependent stability.",
    "src": "arXiv",
@@ -660,7 +740,7 @@
    "topic": ""
   },
   {
-   "n": 42,
+   "n": 47,
    "title": "A macroscopic-atom spectral theory of grain-boundary segregation in multicomponent alloys",
    "desc": "Predicting grain-boundary segregation in multicomponent alloys remains challenging because existing spectral approaches require alloy-specific atomistic calculations to resolve segregation-energy distributions and…",
    "src": "arXiv",
@@ -676,7 +756,7 @@
    "topic": ""
   },
   {
-   "n": 43,
+   "n": 48,
    "title": "Nanoparticles with a BANG: Detonation-Driven Synthesis of Metals and Metal Oxides",
    "desc": "Bristol Accelerated Nanoparticle Generation (BANG) method is a solvent- and capping-agent-free nanoparticle synthesis. Previous work was limited mostly to gold, silver and copper particles.",
    "src": "arXiv",
@@ -692,7 +772,7 @@
    "topic": ""
   },
   {
-   "n": 44,
+   "n": 49,
    "title": "Reconfigurable Chiral Phonons and Their Selection in Asymmetrically Stacked Graphene MoirMoiré Superlattices",
    "desc": "Chiral phonons, lattice vibrations carrying angular momentum, offer a new handle for controlling phonon-mediated phenomena in condensed matter, yet their on-demand generation and deterministic control remain…",
    "src": "arXiv",
@@ -708,7 +788,7 @@
    "topic": ""
   },
   {
-   "n": 45,
+   "n": 50,
    "title": "Encoding information into an embroidery of topological defects in liquid crystals",
    "desc": "A photopatterned alignment layer with a periodic lattice of vortices acts as a substrate for pinned defect lines in a liquid crystal.",
    "src": "Nature Materials",
@@ -724,7 +804,7 @@
    "topic": ""
   },
   {
-   "n": 46,
+   "n": 51,
    "title": "Constrained Allen-Cahn phase-field topology optimization of flexoelectric devices",
    "desc": "Topology optimization provides an effective approach to exploring performance-oriented designs for miniature devices.",
    "src": "arXiv",
@@ -740,7 +820,7 @@
    "topic": ""
   },
   {
-   "n": 47,
+   "n": 52,
    "title": "Comparative Molecular Dynamics Study of Initial Oxide Film Growth on Al, Mg, and Ti Using a Universal Neural Network Potential",
    "desc": "Spontaneous formation of an oxide film, which may be passive, is found in many metals such as Al and Ti.",
    "src": "arXiv",
@@ -756,7 +836,7 @@
    "topic": ""
   },
   {
-   "n": 48,
+   "n": 53,
    "title": "Modular mRNA-encoded helper proteins enhance DNA delivery",
    "desc": "DNA delivery is improved with codelivered helper proteins.",
    "src": "Nature Biotechnology",
@@ -772,7 +852,7 @@
    "topic": ""
   },
   {
-   "n": 49,
+   "n": 54,
    "title": "A multimodal foundation model for tissue proteomics and morphology in cancer",
    "desc": "Cancer diagnosis, prognosis, and treatment decisions increasingly rely on integrating tissue morphology with specific molecular readouts of the tumor and its microenvironment.",
    "src": "arXiv",
@@ -788,7 +868,7 @@
    "topic": ""
   },
   {
-   "n": 50,
+   "n": 55,
    "title": "Evolutionary constraints on protein fold diversity",
    "desc": "Arrangements of secondary structures in proteins yield a wide variety of possible topologies, yet the protein folds observed in nature are limited in their diversity.",
    "src": "arXiv",
@@ -804,7 +884,7 @@
    "topic": ""
   },
   {
-   "n": 51,
+   "n": 56,
    "title": "Beyond Hard Tokens: Predictive Memory for Multimodal Protein Generation",
    "desc": "Multimodal protein language models unify sequence and discrete structural tokens via iterative masked decoding, offering a promising paradigm for joint protein design.",
    "src": "arXiv",
@@ -820,7 +900,7 @@
    "topic": ""
   },
   {
-   "n": 52,
+   "n": 57,
    "title": "Cell and nuclear shapes predict confined motility",
    "desc": "Cancer metastasis relies on an enhanced property of cells to migrate efficiently even through constrictions smaller than their nucleus. Both cell and nuclear morphology may influence this process.",
    "src": "arXiv",
@@ -836,7 +916,7 @@
    "topic": ""
   },
   {
-   "n": 53,
+   "n": 58,
    "title": "EEG-World: Context-Conditioned Dynamics of the Watching Brain",
    "desc": "Brain encoding models predict neural responses from audiovisual input, but typically overlook how ongoing brain activity shapes an individual's response.",
    "src": "arXiv",
@@ -852,7 +932,7 @@
    "topic": ""
   },
   {
-   "n": 54,
+   "n": 59,
    "title": "A Description-Derived Drug-Drug Interaction Benchmark Reveals Split-Dependent Molecular Representation Rankings",
    "desc": "Drug-drug interaction (DDI) prediction is clinically important and poses a distinct challenge for molecular representation learning.",
    "src": "arXiv",
@@ -868,7 +948,7 @@
    "topic": ""
   },
   {
-   "n": 55,
+   "n": 60,
    "title": "Normative and neural network models of multisensory integration",
    "desc": "Animals continuously detect scents, sights and sounds, which their brains combine into diverse multisensory streams.",
    "src": "arXiv",
@@ -877,6 +957,38 @@
    "img": "",
    "id": "u9e0192ed52",
    "added_at": "2026-11-25T05:32:00-0500",
+   "new": true,
+   "cat": "Biology & Medicine",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 61,
+   "title": "PHM-ensemble: Scalable and Stable Probabilistic Multiresolution Clustering via Ensemble Density Estimation",
+   "desc": "Clustering is a foundational tool for exploratory data analysis across the sciences. We argue that clustering methods should be evaluated along four dimensions: fidelity to the data's underlying structure, interpretability of the recovered groups, stability un",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.32945",
+   "dt": "Nov 24",
+   "img": "",
+   "id": "u721022a432",
+   "added_at": "2026-11-25T07:17:21-0500",
+   "new": true,
+   "cat": "Biology & Medicine",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 62,
+   "title": "Accuracy of Noise Ceiling Estimators for Brain Scores",
+   "desc": "The internal activations of modern machine learning models align surprisingly well with the activities recorded in real brains. In the last five years, the alignment between encoding models and brain activities, often called brain scores, has steadily increase",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.32792",
+   "dt": "Nov 24",
+   "img": "",
+   "id": "u723d67b943",
+   "added_at": "2026-11-25T07:17:21-0500",
    "new": true,
    "cat": "Biology & Medicine",
    "sub": "",
