@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "updated_at": "2026-11-25T09:26:00-0500",
+ "updated_at": "2026-11-25T10:22:45-0500",
  "built_at": "2026-11-25T05:22:43-0500",
  "stories": [
   {
@@ -747,6 +747,20 @@
   },
   {
    "n": 54,
+   "title": "Why the Pentagon is asking for 'anomalies' as it plans for a long-term CR - Breaking Defense",
+   "desc": "The Trump administration is trying to protect Golden Dome and other priority programs as the budget remains uncertain.",
+   "src": "Breakingdefense",
+   "url": "https://breakingdefense.com/2026/11/why-the-pentagon-is-asking-for-anomalies-as-it-plans-for-a-long-term-cr/",
+   "dt": "Nov 25",
+   "img": "604d7ef479.jpg",
+   "id": "u604d7ef479",
+   "added_at": "2026-11-25T10:22:45-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Government contracts"
+  },
+  {
+   "n": 55,
    "title": "1st-ever detection of a dying star's 'final nuclear heartbeat' challenges what we know about our sun's eventual death",
    "desc": "\"We've caught, for the first time, a star's final nuclear heartbeat, frozen in gas.\"",
    "src": "Space.com",
@@ -760,7 +774,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 55,
+   "n": 56,
    "title": "Maybe Dark Energy Isn't so Inexplicable After All",
    "desc": "The Universe as we know it is comprised of three \"things\": baryonic matter (planets, stars, galaxies, us), dark matter (still unexplained) and dark energy (really, really still unexplained).",
    "src": "Universe Today",
@@ -774,7 +788,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 56,
+   "n": 57,
    "title": "NASA’s Titan-Bound Dragonfly Rotorcraft Gets Its Eyes",
    "desc": "Science instruments for NASA’s Dragonfly are starting to arrive at the Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, where the car-sized",
    "src": "NASA",
@@ -788,7 +802,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 57,
+   "n": 58,
    "title": "AI is ‘the end of mathematics as we know it’ — where does the field go next?",
    "desc": "Mathematicians are bracing for a future when their profession could be mostly delegated to machines.",
    "src": "Nature",
@@ -802,7 +816,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "Hera spacecraft investigates damage at asteroid \"crash scene\"",
    "desc": "The mission is studying an asteroid deliberately knocked off course by a colliding spacecraft.",
    "src": "BBC",
@@ -816,7 +830,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 59,
+   "n": 60,
    "title": "Huge fly-tip in South Wigston grew undetected for several months",
    "desc": "The council says the 20-tonne pile of rubbish was dumped over garden fences.",
    "src": "BBC",
@@ -830,7 +844,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 60,
+   "n": 61,
    "title": "This is the best time to eat Thanksgiving dinner for your health",
    "desc": "Research suggests that when we eat may matter as much as what we eat",
    "src": "Scientific American",
@@ -844,7 +858,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 61,
+   "n": 62,
    "title": "China's Shenzhou-24 carries Pakistan's first astronaut Muhammad Zeeshan Ali into space",
    "desc": "Muhammad Zeeshan Ali, a former fighter pilot, is the first foreigner to join a Chinese crewed space mission.",
    "src": "BBC",
@@ -858,7 +872,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 62,
+   "n": 63,
    "title": "Why has China sent the first Pakistani astronaut to space?",
    "desc": "Pakistan's Muhammad Zeeshan Ali has become the first foreign national to board China's Tiangong space station.",
    "src": "BBC",
@@ -872,7 +886,21 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 63,
+   "n": 64,
+   "title": "Macy's Thanksgiving Day Parade: Strong winds could ground iconic balloons",
+   "desc": "Strong winds and heavy rain are expected to impact celebrations across the USA, with the risk that the famous Macy's Thanksgiving Day parade could be impacted.",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/weather/articles/cr894e8dd7wqo?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 25",
+   "img": "3ed2c70d7d.jpg",
+   "id": "u3ed2c70d7d",
+   "added_at": "2026-11-25T10:22:45-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Physics & Astronomy"
+  },
+  {
+   "n": 65,
    "title": "Back-to-back measles deaths is our new reality; US tally now at 14",
    "desc": "Wisconsin reports 3rd measles death today; Pennsylvania reported its 9th yesterday.",
    "src": "Ars Technica",
@@ -886,7 +914,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 64,
+   "n": 66,
    "title": "Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists",
    "desc": "Anthropic and OpenAI’s language models can design proteins and predict their sequences and structures — capabilities previously seen only in specialized AI tools.",
    "src": "Nature",
@@ -900,7 +928,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 65,
+   "n": 67,
    "title": "Roche's potential breast cancer blockbuster drug wins second FDA nod",
    "desc": "Roche's breast cancer pill has picked up its second FDA clearance in a week, this time in early-stage breast cancer for use after surgery.",
    "src": "STAT",
@@ -914,7 +942,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 66,
+   "n": 68,
    "title": "Washington and Beijing are building walls around biotechnology. That’s the wrong approach",
    "desc": "“Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. Kinch.",
    "src": "STAT",
@@ -928,7 +956,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 67,
+   "n": 69,
    "title": "Yes, COVID cases are on the rise again. And yes, experts say, it's still a very good idea to get vaccinated",
    "desc": "Infectious disease specialists say there's plenty of reason to get the COVID-19 vaccine to reduce risk of severe infection, either for yourself or someone around you who may be at higher risk.",
    "src": "CBC",
@@ -942,7 +970,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 68,
+   "n": 70,
    "title": "The brain keeps the score: how trauma leaves molecular scars in cells",
    "desc": "Large post-mortem study identifies epigenetic changes in the brain linked to post-traumatic stress disorder.",
    "src": "Nature",
@@ -956,7 +984,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 69,
+   "n": 71,
    "title": "Menopause hormone therapy med popularity increases 141% compared to previous years",
    "desc": "In June 2026, 4.9M menopause hormone therapy medications were dispensed to cisgender women in the U.S. between the ages of 40 and 74.",
    "src": "STAT",
@@ -970,7 +998,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 70,
+   "n": 72,
    "title": "Alaskan hospitals use AI to improve stroke care, peptides go mainstream, and RSNA 2026",
    "desc": "In this edition of STAT Health Tech: Alaskan hospitals using AI to improve stroke care, a look ahead at RSNA 2026, and peptides go mainstream.",
    "src": "STAT",
@@ -984,7 +1012,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 71,
+   "n": 73,
    "title": "Pharmalittle: We’re reading about Sanofi buying Insmed, Roche touting its breast cancer pill, and more",
    "desc": "Sanofi is buying the biotech Insmed for $41 billion, the largest biopharma acquisition in years and one that will give the French firm two new approved drugs",
    "src": "STAT",
@@ -998,7 +1026,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 72,
+   "n": 74,
    "title": "Air force pilot allegedly moved drugs with military assets, say Malaysian police",
    "desc": "The police said the pilot served as a coordinator and transporter, moving drug supplies from the Klang Valley to Sabah.",
    "src": "The Straits Times",
@@ -1012,7 +1040,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 73,
+   "n": 75,
    "title": "Lightning strikes could more than double by 2100 thanks to climate change",
    "desc": "As the climate warms, heat rising from Earth’s surface creates more potential for electric fields—and cloud-to-ground lightning—to form",
    "src": "Scientific American",
@@ -1026,7 +1054,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 74,
+   "n": 76,
    "title": "From 'Super' to 'Godzilla' to 'Mega': Just how monstrous is this year's El Niño? | CBC",
    "desc": "From \"Super\" to \"Godzilla\" to \"Mega,\" the names for this year's powerful El Niño keep getting bigger. But scientists say there's no official upgrade.",
    "src": "CBC",
@@ -1040,7 +1068,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 75,
+   "n": 77,
    "title": "This winter's El Niño is a crystal ball for the future. We must use it as a test.",
    "desc": "A record El Niño is likely to temporarily push 2027 to temperatures we're only expecting in the late 2030s. It's a rare chance to learn how big El Niño can get says scientist Ioana Corfescu .",
    "src": "Live Science",
@@ -1054,7 +1082,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 76,
+   "n": 78,
    "title": "Mariana Trench holds deepest-ever evidence of volcanic explosion",
    "desc": "Robotic vehicle spots telltale rocks in Challenger Deep.",
    "src": "Nature",
@@ -1068,7 +1096,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 77,
+   "n": 79,
    "title": "The loss and damage fund exists, but the money doesn't",
    "desc": "Climate-vulnerable countries fought for years to create a loss and damage fund. Four years on, demand far outstrips funding, pledges are scarce, and disaster-hit nations are still waiting for support.",
    "src": "DW",
@@ -1082,7 +1110,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 78,
+   "n": 80,
    "title": "‘The worst COP ever’ offers a chance to learn from failure",
    "desc": "COP31 ended without agreement, but consensus-based approaches are essential to solve global issues, and ‘failures’ can lead to decisive action at future talks.",
    "src": "Nature",
@@ -1096,7 +1124,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 79,
+   "n": 81,
    "title": "Video: What are King Tides?",
    "desc": "King tides, the highest tides of the year, occur when the gravitational pull of the moon and sun aligns to raise water levels. Their effects this year are being amplified by the ongoing super El Niño, which has warmed the ocean, leading to an increased volume of seawater.",
    "src": "The Globe and Mail",
@@ -1110,7 +1138,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 80,
+   "n": 82,
    "title": "Taiwan comic takes a hit – and keeps the Xi Jinping jokes coming",
    "desc": "Huang Yi-hao turns a plot to silence him into fresh material about China’s leader.",
    "src": "The Straits Times",
@@ -1124,7 +1152,35 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 81,
+   "n": 83,
+   "title": "U.S. Army detonates toxic material in Iowa amid health, environmental concerns",
+   "desc": "Video footage from several miles away showed two white plumes rolling over the detonation site before the clouds quickly dissipated",
+   "src": "The Globe and Mail",
+   "url": "https://www.theglobeandmail.com/world/article-iowa-planned-detonation-lead-azide/",
+   "dt": "Nov 25",
+   "img": "c51b303da3.jpg",
+   "id": "uc51b303da3",
+   "added_at": "2026-11-25T10:22:45-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Materials & Chemistry"
+  },
+  {
+   "n": 84,
+   "title": "US army to detonate stockpile of unstable bomb-making chemicals in Iowa",
+   "desc": "The US military will on Wednesday detonate some 10,000 pounds of unstable and degraded explosive material in Iowa, where local residents were urged to evacuate amid concerns over possible toxic lead contamination. US officials say the 68 drums of lead azide are at risk of spontaneous explosion. A se",
+   "src": "France 24",
+   "url": "https://www.france24.com/en/video/20261125-us-army-to-detonate-stockpile-of-unstable-bomb-making-chemicals-in-iowa",
+   "dt": "Nov 25",
+   "img": "",
+   "id": "u7af112a9bb",
+   "added_at": "2026-11-25T10:22:45-0500",
+   "new": true,
+   "cat": "Sciences",
+   "sub": "Materials & Chemistry"
+  },
+  {
+   "n": 85,
    "title": "NASA may get $2 billion boost as White House seeks to accelerate Artemis",
    "desc": "Without this funding, activities would be delayed.\"",
    "src": "Ars Technica",
@@ -1138,7 +1194,7 @@
    "sub": "Space"
   },
   {
-   "n": 82,
+   "n": 86,
    "title": "Amazon discovers Falcon 9 and Ariane 6 can deliver when nobody else can",
    "desc": "Amazon has hundreds of satellites in storage waiting for rides to space.",
    "src": "Ars Technica",
@@ -1152,7 +1208,7 @@
    "sub": "Space"
   },
   {
-   "n": 83,
+   "n": 87,
    "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
    "desc": "Perseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply.",
    "src": "Ars Technica",
@@ -1166,7 +1222,7 @@
    "sub": "Space"
   },
   {
-   "n": 84,
+   "n": 88,
    "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
    "desc": "NASA completed a major review for SR-1 (Space Reactor-1) Freedom and locked in key elements of the spacecraft, set to demonstrate nuclear electric propulsion.",
    "src": "NASA",
@@ -1180,7 +1236,7 @@
    "sub": "Space"
   },
   {
-   "n": 85,
+   "n": 89,
    "title": "Russia launches Progress 97 cargo ship to the International Space Station (video)",
    "desc": "The Progress 97 freighter lifted off from Baikonur Cosmodrome in Kazakhstan today (Nov. 24).",
    "src": "Space.com",
@@ -1194,7 +1250,7 @@
    "sub": "Space"
   },
   {
-   "n": 86,
+   "n": 90,
    "title": "‘A new era begins’: Pakistan’s Zeeshan Ali enters new frontier as Shenzhou-24 docks with space station",
    "desc": "As part of three-member Chinese space mission, Ali is expected to spend around a week in space and conduct experiments.",
    "src": "Dawn",
@@ -1208,7 +1264,7 @@
    "sub": "Space"
   },
   {
-   "n": 87,
+   "n": 91,
    "title": "Voyager 1 hits a new data glitch while making history one light-day from Earth",
    "desc": "Just as NASA’s Voyager 1 was about to become the first human-made object to travel a light-day from Earth, the probe had yet another communication breakdown.",
    "src": "CNN",
@@ -1222,7 +1278,7 @@
    "sub": "Space"
   },
   {
-   "n": 88,
+   "n": 92,
    "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
    "desc": "China launched its Shenzhou-24 space mission to bring three astronauts to its Tiangong space station.",
    "src": "BBC",
@@ -1236,7 +1292,7 @@
    "sub": "Space"
   },
   {
-   "n": 89,
+   "n": 93,
    "title": "APOD: 2026 November 25 - SPHEREx Seeing Through Dust",
    "desc": "APOD Science APOD APOD: 2026 November 25 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our…",
    "src": "NASA",
@@ -1250,7 +1306,7 @@
    "sub": "Space"
   },
   {
-   "n": 90,
+   "n": 94,
    "title": "‘Made history’: Pakistan cheers as astronaut flies pioneering mission on Chinese space station",
    "desc": "Hearts race, cheers rise and dreams take flight as Pakistan watches its first astronaut reach orbit.",
    "src": "The Straits Times",
@@ -1264,7 +1320,7 @@
    "sub": "Space"
   },
   {
-   "n": 91,
+   "n": 95,
    "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
    "desc": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
    "src": "Ars Technica",
@@ -1278,7 +1334,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 92,
+   "n": 96,
    "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
    "desc": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
    "src": "Ars Technica",
@@ -1292,7 +1348,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 93,
+   "n": 97,
    "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
    "desc": "A new test assumes AI agents can go rogue—and asks whether they can resist temptation.",
    "src": "WIRED",
@@ -1306,7 +1362,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 94,
+   "n": 98,
    "title": "\"We're racing towards huge dangers,\" AI pioneer Yoshua Bengio says",
    "desc": "As one of the \"godfathers\" of artificial intelligence, Yoshua Bengio helped bring generative AI into the world. Now he worries society isn't ready for what's coming.",
    "src": "CBS News",
@@ -1320,7 +1376,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 95,
+   "n": 99,
    "title": "EA adds AI-generated John Motson to FC 27 video game",
    "desc": "The AI-generated Motson will appear in the game on 26 November, with the consent of his son and wife.",
    "src": "BBC",
@@ -1334,7 +1390,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 96,
+   "n": 100,
    "title": "Why the Nvidia Rally Fizzled",
    "desc": "Jensen Huang may be running Nvidia again, but investors are losing faith in the artificial intelligence boom the chipmaker has underpinned.",
    "src": "The New York Times",
@@ -1348,7 +1404,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 97,
+   "n": 101,
    "title": "Stock Sell-Off Set to Continue as A.I. Players Fall Again",
    "desc": "Shares of Nvidia, Anthropic and other tech companies tumbled in premarket trading, continuing their slide from the previous session, as investors also worried about tariffs and interest rates.",
    "src": "The New York Times",
@@ -1362,7 +1418,21 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 98,
+   "n": 102,
+   "title": "US stocks fall further as fears over AI intensify",
+   "desc": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+   "src": "BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+   "dt": "Nov 25",
+   "img": "8366bafb9d.jpg",
+   "id": "u8366bafb9d",
+   "added_at": "2026-11-25T10:22:45-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 103,
    "title": "NASA solicits lunar reactor proposals",
    "desc": "NASA has launched a request for proposals seeking industry partners to develop Lunar Reactor-1 (LR-1), a small fission power system that the agency said could support “future habitats, communications systems, rovers, scientific…",
    "src": "American Nuclear Society",
@@ -1376,7 +1446,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 99,
+   "n": 104,
    "title": "Start-up milestones for Indian plants",
    "desc": "As Kaiga unit 1 restarts after a record-breaking refurbishment outage, India's nuclear regulator has given Nuclear Power Corporation of India permission for the First Approach to Criticality for unit 8 at the Rajasthan Atomic…",
    "src": "World Nuclear News",
@@ -1390,7 +1460,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 100,
+   "n": 105,
    "title": "AI’s hunger for compute could break uranium’s boom-bust cycle",
    "desc": "Nuclear energy could answer big tech’s energy needs. That’s sparking optimism in Canada’s uranium industry. The post AI’s hunger for compute could break uranium’s boom-bust cycle first appeared on BetaKit .",
    "src": "BetaKit",
@@ -1404,7 +1474,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 101,
+   "n": 106,
    "title": "Taipower to pour NT$109.6 billion into grid for TSMC-led chip boom in southern Taiwan",
    "desc": "Taiwan Power Company (Taipower) plans to invest NT$109.6 billion (US$3.33 billion) in power transmission and transformation infrastructure to meet surging electricity demand from semiconductor manufacturers expanding in southern…",
    "src": "DigiTimes",
@@ -1418,7 +1488,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 102,
+   "n": 107,
    "title": "The Download: AI’s gas power boom and a consciousness reality check",
    "desc": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology.",
    "src": "MIT Technology Review",
@@ -1432,7 +1502,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 103,
+   "n": 108,
    "title": "VW will pay EV drivers in Germany up to €720 to plug in at home",
    "desc": "Volkswagen is giving EV drivers in Germany a reason to plug in at home, even if they don’t need a charge.",
    "src": "Electrek",
@@ -1446,7 +1516,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 104,
+   "n": 109,
    "title": "350MW data center campus proposed in New South Wales, Australia",
    "desc": "Project planned near Mulwala substation and solar farm",
    "src": "Data Center Dynamics",
@@ -1460,7 +1530,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 105,
+   "n": 110,
    "title": "Agile Analog delivers anti-tamper IP for ASPEED’s PQC-ready SoC",
    "desc": "Agile Analog has supplied a suite of analog security and power IP to ASPEED Technology for its AST1080 Platform Root of Trust (PRoT) system-on-chip (SoC). The IP has been successfully integrated into ASPEED’s second-generation, post-quantum cryptography (PQC)-ready chip, targeting next-generation da",
    "src": "Eenewseurope",
@@ -1474,7 +1544,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 106,
+   "n": 111,
    "title": "This miniature electric Bentley is ridiculously cool – and actually street legal",
    "desc": "If you’ve ever looked at a classic 1929 Bentley Blower and thought, “That looks great, but could it be smaller, electric, and somehow still cost six figures?” then good news: your car has arrived. Hedley Studios has completed the first 25 production Bentley Blower Jnrs, with the hand-built electric ",
    "src": "Electrek",
@@ -1488,7 +1558,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 107,
+   "n": 112,
    "title": "The battery in your Fitbit Edge is replaceable, but it's not as easy as you'd think - Engadget",
    "desc": "Google partnered with iFixit for a step-by-step guide to replacing the Fitbit Edge's battery.",
    "src": "Engadget",
@@ -1502,7 +1572,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 108,
+   "n": 113,
    "title": "Malaysia talks with US on AI chip curbs, tightens controls",
    "desc": "Malaysia said it is ensuring compliance with rules and that its technology is widely used beyond AI.",
    "src": "The Straits Times",
@@ -1516,7 +1586,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 109,
+   "n": 114,
    "title": "China’s Xi plays long game on US chip retaliation after Nvidia saga",
    "desc": "China’s Commerce Ministry on Nov 24 extended its pause on US export curbs for some critical minerals.",
    "src": "The Straits Times",
@@ -1530,7 +1600,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 110,
+   "n": 115,
    "title": "Fujitsu's 2nm Monaka server chip draws strong early demand",
    "desc": "Fujitsu's new Monaka server chip has drawn stronger-than-expected initial demand, driven by customers seeking alternatives to US and Chinese suppliers, the company's chief technology officer said.",
    "src": "DigiTimes",
@@ -1544,7 +1614,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 111,
+   "n": 116,
    "title": "Maybank reviews portfolio as chip curbs hit data centres",
    "desc": "Malaysia’s largest bank is reviewing its portfolio for potential exposure to the latest US chip curbs, as it assesses how the restrictions could affect data centre clients and their funding needs.",
    "src": "The Edge Malaysia",
@@ -1558,7 +1628,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 112,
+   "n": 117,
    "title": "This Acer Nitro V laptop with Nvidia RTX 5060 GPU is $1,049 at Best Buy — 16-inch boasts 16GB DDR5 RAM and a 512GB SSD",
    "desc": "This 15.6-inch Acer Nitro gaming laptop features an RTX 5060 GPU, a 10-core Intel CPU, and a 512GB SSD for $1,049",
    "src": "Tomshardware",
@@ -1572,7 +1642,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 113,
+   "n": 118,
    "title": "Lululemon founder’s remarks about women’s reproductive choices spark outrage at Calgary event",
    "desc": "Chip Wilson’s comments led some attendees of onstage Q&A to walk out, sources say",
    "src": "The Globe and Mail",
@@ -1586,7 +1656,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 114,
+   "n": 119,
    "title": "‘Second home’: Why Israel is celebrating Jensen Huang’s return to Nvidia",
    "desc": "Israel's tech sector and economy have strong ties to chip giant Nvidia, which invests billions of dollars.",
    "src": "Al Jazeera",
@@ -1600,7 +1670,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 115,
+   "n": 120,
    "title": "China's memory giants have a record year as Huawei ships HBM without a named source",
    "desc": "China's memory output comes from CXMT and YMTC, a few smaller fabs, and Chinese Samsung and SK hynix plants, but no Chinese maker has HBM in volume yet.",
    "src": "Tomshardware",
@@ -1614,7 +1684,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 116,
+   "n": 121,
    "title": "Source: President Trump is scheduled to lead a December 4 groundbreaking ceremony for TSMC's Phoenix plant expansion, deepening his chip sec",
    "desc": "Bloomberg : Source: President Trump is scheduled to lead a December 4 groundbreaking ceremony for TSMC's Phoenix plant expansion, deepening his chip sector involvement — President Donald Trump will headline the groundbreaking on a major new semiconductor manufacturing project in Arizona next week …",
    "src": "Techmeme",
@@ -1628,7 +1698,21 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 117,
+   "n": 122,
+   "title": "Save up to $300 on the 2026 M5 MacBook Air right now — deal nets you current-gen models with 16GB or 24GB RAM and up to 1TB storage",
+   "desc": "Grab Apple's 2026 MacBook Air with M5 chip for $1,049 right now, a $250 price drop that knocks it below early 2026 pricing.",
+   "src": "Tomshardware",
+   "url": "https://www.tomshardware.com/laptops/macbooks/save-up-to-usd300-on-the-2026-m5-macbook-air-right-now-deal-nets-you-current-gen-models-with-16gb-or-24gb-ram-and-up-to-1tb-storage",
+   "dt": "Nov 25",
+   "img": "e5158d43f3.jpg",
+   "id": "ue5158d43f3",
+   "added_at": "2026-11-25T10:22:45-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Semiconductors"
+  },
+  {
+   "n": 123,
    "title": "Diraq Finalizes $38 Million CHIPS R&D Award with U.S. Department of Commerce",
    "desc": "Diraq finalized an agreement with the U.S. Department of Commerce for up to $38 million in CHIPS Act funding.",
    "src": "The Quantum Insider",
@@ -1642,7 +1726,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 118,
+   "n": 124,
    "title": "Researchers Fit Quantum Circuits Into a 30 Billion-Parameter AI Model",
    "desc": "Researchers replaced eight layers of the Qwen3 language model with a module that can run on a quantum processor.",
    "src": "The Quantum Insider",
@@ -1656,7 +1740,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 119,
+   "n": 125,
    "title": "QuEra Joins Genesis Mission Effort to Reduce Quantum Error Correction Overhead",
    "desc": "The ASQC project, one of 12 Phase II awards under the Department of Energy’s Genesis Mission, will test AI-designed codes and decoders on hardware at QuEra, Harvard, and MIT. BOSTON, Nov.",
    "src": "HPCwire",
@@ -1670,7 +1754,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 120,
+   "n": 126,
    "title": "Pasqal Leads EU-Backed Project on Quantum Error Correction",
    "desc": "Coordinated by Pasqal with ParityQC and Thales Nederland, the CoPaNA project combines parity-based error correction with neutral-atom hardware to advance scalable quantum computing for European security and defense PARIS and…",
    "src": "HPCwire",
@@ -1684,7 +1768,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 121,
+   "n": 127,
    "title": "Quantum hardware startup Planckian awarded €10m EIC funding under accelerator program",
    "desc": "Italian firm developing quantum processors that utilize shared control lines",
    "src": "Data Center Dynamics",
@@ -1698,7 +1782,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 122,
+   "n": 128,
    "title": "Standard Chartered Expands Quantum Computing Research Program Following Successful Research Phase",
    "desc": "Insider Brief PRESS RELEASE — Standard Chartered today announced the expansion of its quantum computing research programme, following the successful completion of its first year of research supported under the Financial Sector…",
    "src": "The Quantum Insider",
@@ -1712,7 +1796,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 123,
+   "n": 129,
    "title": "Nexent Capital IFSC Launches $1 Billion Quantum Computing-ready AI Infrastructure & Advanced Energy Fund",
    "desc": "Insider Brief PRESS RELEASE — Nexent Capital IFSC Private Limited (“Nexent Capital”) today announced the launch of Nexent Capital ADGM Fund I, a closed-end fund targeting US$1 billion in capital commitments — expandable up to a…",
    "src": "The Quantum Insider",
@@ -1726,7 +1810,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 124,
+   "n": 130,
    "title": "SEALSQ Expands Quantum Highway Network Across the U.S. and Europe",
    "desc": "Insider Brief PRESS RELEASE — SEALSQ Corp (NASDAQ: LAES) (“SEALSQ” or “Company”), a company that focuses on developing and selling Semiconductors, PKI, and Post-Quantum technology hardware and software products, today announced…",
    "src": "The Quantum Insider",
@@ -1740,7 +1824,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 125,
+   "n": 131,
    "title": "Chulalongkorn Researchers Call for Greater Quantum Investment in Thailand",
    "desc": "Insider Brief PRESS RELEASE — Chulalongkorn University physicists are urging Thailand to build quantum expertise andstrengthen research support to prepare for opportunities in computing, industry and data security.",
    "src": "The Quantum Insider",
@@ -1754,7 +1838,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 126,
+   "n": 132,
    "title": "European Commission Proposes Quantum Act and New Sovereign Tech Equity Fund",
    "desc": "Insider Brief PRESS RELEASE — The European Commission today proposed the Quantum Act, a new framework to help turn Europe’s quantum research into products and services, strengthen supply chains and prepare Europe’s digital systems for post-quantum cryptography. The proposal also lays the groundwork ",
    "src": "Thequantuminsider",
