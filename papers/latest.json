@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "updated_at": "2026-11-24T20:22:15-0500",
+ "updated_at": "2026-11-24T21:25:38-0500",
  "built_at": "2026-11-24T05:31:15-0500",
  "stories": [
   {
@@ -885,6 +885,54 @@
   },
   {
    "n": 56,
+   "title": "Boundary Representation-Driven Graph Transformer Modeling for Machining Operation Sequencing",
+   "desc": "Machining process planning is inherently complex due to the interdependence between part geometry, machining operations, and evolving manufacturable states. Traditional approaches rely heavily on expert knowledge and rule-based systems, limiting scalability an",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.31661",
+   "dt": "Nov 23",
+   "img": "",
+   "id": "uc8ed170c07",
+   "added_at": "2026-11-24T21:25:38-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 57,
+   "title": "The cyborg fly: reflexes survive engineered actuators, coordination needs stand-ins",
+   "desc": "Two wiring diagrams now cover the whole central nervous system of an adult fruit fly: one female, one male. Can such a diagram, run as a network of spiking neurons, drive a body? And if we swap the body's muscles for engineered actuators, what survives? We ran",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.31644",
+   "dt": "Nov 23",
+   "img": "",
+   "id": "u391414e8a8",
+   "added_at": "2026-11-24T21:25:38-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 58,
+   "title": "Compact Slow-Wave Hybrid Magnonics on Ultrahigh-Permittivity Substrates",
+   "desc": "Hybrid magnonics based on spoof surface plasmon polaritons (SSPPs) enables strong, broadband magnon-photon coupling, but the centimeter-scale device footprints required at low gigahertz frequencies hinder integration. Here, we demonstrate miniaturized slow-wav",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.31612",
+   "dt": "Nov 23",
+   "img": "",
+   "id": "uba72394026",
+   "added_at": "2026-11-24T21:25:38-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 59,
    "title": "Architecture of the poxvirus early-transcription machinery and portal complex",
    "desc": "Poxviruses enclose a complete viral transcription machinery alongside their dsDNA genome within the viral core, a transcription-competent compartment delimited by a permeable multi-layered protein shell.",
    "src": "Nature",
@@ -900,7 +948,7 @@
    "topic": ""
   },
   {
-   "n": 57,
+   "n": 60,
    "title": "A prime-editing-based strategy for pooled protein tagging and subcellular localization mapping",
    "desc": "Sanchez et al. develop pooled prime editing for scalable endogenous protein tagging.",
    "src": "Nature Cell Biology",
@@ -916,7 +964,7 @@
    "topic": ""
   },
   {
-   "n": 58,
+   "n": 61,
    "title": "From joint attention to shared symbols: A free-energy principle account",
    "desc": "Joint attention precedes vocabulary acquisition. How can attending to the same object help two people with different sensory experiences come to use a shared word? In a free-energy principle account, marginalizing the common…",
    "src": "arXiv",
@@ -932,7 +980,7 @@
    "topic": ""
   },
   {
-   "n": 59,
+   "n": 62,
    "title": "Comparison of 3D-DXA Measurements with QCT Software Solutions for Proximal Femur Bone Density Assessment",
    "desc": "3D-Shaper reconstructs proximal femur shape and density in 3D from a standard hip dual-energy X-ray absorptiometry (DXA) scan.",
    "src": "arXiv",
@@ -948,7 +996,7 @@
    "topic": ""
   },
   {
-   "n": 60,
+   "n": 63,
    "title": "Pesticide mixtures may compromise ecosystem services provided by an egg parasitoid of soybean pest stink bugs: a comprehensive ecotoxicological risk assessment",
    "desc": "Tank mixtures of crop protection products are widely used in agricultural systems, yet their integrated effects on biological control agents remain poorly understood.",
    "src": "arXiv",
@@ -964,7 +1012,7 @@
    "topic": ""
   },
   {
-   "n": 61,
+   "n": 64,
    "title": "Impact of Topology and Sequence Length on the Pressure-Dependent Collapsibility of Proteins",
    "desc": "Several physical and evolutionary factors, including temperature, pressure, solvent quality, and natural selection, influence how amino acid sequences adopt their native structures.",
    "src": "arXiv",
@@ -980,7 +1028,7 @@
    "topic": ""
   },
   {
-   "n": 62,
+   "n": 65,
    "title": "When Can an AI Agent Serve as a Model of Human Psychopathology?",
    "desc": "Language models and AI agents are increasingly described in psychiatric terms, such as anxious, depressed, addicted or helpless.",
    "src": "arXiv",
@@ -996,7 +1044,7 @@
    "topic": ""
   },
   {
-   "n": 63,
+   "n": 66,
    "title": "What Do Co-Folding Models Learn? Insights from Enhanced Transition Path Sampling",
    "desc": "Co-folding models are diffusion-based generative models that sample biomolecular complexes from distributions learned on a large corpus of experimental data.",
    "src": "arXiv",
@@ -1012,7 +1060,7 @@
    "topic": ""
   },
   {
-   "n": 64,
+   "n": 67,
    "title": "GABIF: An Adaptive Guided Graph Denoising Framework for Antibody Conditional Inverse Folding",
    "desc": "Antibodies play a central role in the human immune system, and their design is critical for vaccine development, therapeutic intervention, and improving human longevity.",
    "src": "arXiv",
@@ -1028,7 +1076,7 @@
    "topic": ""
   },
   {
-   "n": 65,
+   "n": 68,
    "title": "Second-Order Dynamics in Noisy RNNs Produce Exploration and Temporal Compression in Replay",
    "desc": "Biological neural networks (like the hippocampus) can internally generate \"replay\" resembling stimulus-driven activity. Recent computational models of replay use noisy recurrent neural networks (RNNs) trained to path-integrate.",
    "src": "arXiv",
