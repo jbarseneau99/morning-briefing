@@ -1,6 +1,6 @@
 {
  "date": "2026-11-26",
- "updated_at": "2026-11-26T07:23:08-0500",
+ "updated_at": "2026-11-26T08:21:18-0500",
  "built_at": "2026-11-26T05:23:59-0500",
  "stories": [
   {
@@ -789,6 +789,20 @@
   },
   {
    "n": 57,
+   "title": "US defense officials considered using Cold War law to force Nvidia to reinstate Jensen Huang as CEO following his resignation, report claims",
+   "desc": "Pentagon leaders considered using the Cold War-era Defense Production Act to pressure Nvidia to reinstate founder Jensen Huang as CEO following his resignation over an affair with a suspected Chinese spy, with",
+   "src": "Tomshardware",
+   "url": "https://www.tomshardware.com/tech-industry/big-tech/us-defense-officials-considered-using-cold-war-law-to-force-nvidia-to-reinstate-jensen-huang-as-ceo-following-his-resignation-report-claims-1950-defense-production-act-was-floated-as-solution-to-president-trump",
+   "dt": "Nov 26",
+   "img": "f6cdcc5fc9.jpg",
+   "id": "uf6cdcc5fc9",
+   "added_at": "2026-11-26T08:21:18-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Government contracts"
+  },
+  {
+   "n": 58,
    "title": "Physicists trap antimatter in a breakthrough that could explain why the universe exists",
    "desc": "Positrons are the antimatter counterpart of an electron. Physicists trapped a positron and cooled it to temperatures near absolute zero. Positron is suspended in a wall-free trap, safely separated from ordinary matter.",
    "src": "ScienceDaily",
@@ -802,7 +816,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "James Webb and Euclid telescopes discover record-breaking black hole at the edge of the universe",
    "desc": "Scientists have discovered the oldest-known quasar lurking in the early universe — and it's growing at a slower rate than scientists believed possible.",
    "src": "Live Science",
@@ -816,7 +830,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 59,
+   "n": 60,
    "title": "The Event Horizon Telescope Views the Dynamics and Geometry of a Black Hole Jet in Extreme Detail",
    "desc": "Observations by the Event Horizon Telescope Collaboration resolved the innermost region of the blazar 3C 279 powerful jet emitted in unprecedented detail.",
    "src": "Universe Today",
@@ -830,7 +844,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 60,
+   "n": 61,
    "title": "Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter",
    "desc": "Scientists are inventing new ways to search for the missing mass of the universe.",
    "src": "Quanta",
@@ -844,7 +858,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 61,
+   "n": 62,
    "title": "A space telescope hunting for dark matter just discovered something unexpected",
    "desc": "ESA’s Euclid space telescope has discovered its first previously unknown comet, despite being designed to study distant galaxies and the mysteries of the dark Universe.",
    "src": "ScienceDaily",
@@ -858,7 +872,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 62,
+   "n": 63,
    "title": "ALMA Reveals a Dying Star's Final Breath, Encoded In a Giant Ring of Gas",
    "desc": "About 6,500 years ago, a dying star emitted its final thermal pulse. That dying breath created a giant ring of gas detected by ALMA. Then only 700 years ago, the star formed an hourglass nebula.",
    "src": "Universe Today",
@@ -872,7 +886,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 63,
+   "n": 64,
    "title": "AI may soon change what it means to be a theoretical physicist",
    "desc": "Frontier AI is already solving problems that once took top physicists a full day.",
    "src": "Ars Technica",
@@ -886,7 +900,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 64,
+   "n": 65,
    "title": "A New Discovery is Re-Drawing the Map of the Milky Way",
    "desc": "New research shows that star formation is occurring in the Milky Way's central bar. This goes against previous research, and against observations of other barred spiral galaxies.",
    "src": "Universe Today",
@@ -900,7 +914,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 65,
+   "n": 66,
    "title": "Comet Encke's Shape and Heat Revealed in Thermal Glow",
    "desc": "Comets are time capsules of the origins of the solar system, containing materials that have existed for billions of years.",
    "src": "Universe Today",
@@ -914,7 +928,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 66,
+   "n": 67,
    "title": "Paul Whitehouse calls on prime minister to save Windermere fish",
    "desc": "The comedian warns extinction beckons for Arctic charr in Windermere after thousands of years.",
    "src": "BBC",
@@ -928,7 +942,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 67,
+   "n": 68,
    "title": "Rare risk of vision loss with semaglutide GLP-1 drugs, warns Health Canada",
    "desc": "A safety review from Health Canada has found a possible link between semaglutide GLP-1 drugs and a rare form of vision loss.",
    "src": "CBC",
@@ -942,7 +956,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 68,
+   "n": 69,
    "title": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
    "desc": "Elon Musk’s Neuralink has received FDA permission to launch the first trial for its brain-computer interface.",
    "src": "Engadget",
@@ -956,7 +970,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 69,
+   "n": 70,
    "title": "100,000-year-old tooth found in Chinese cave may be from unknown human lineage",
    "desc": "One tooth from a cave in southern China may upend how we think about early human origins in Asia.",
    "src": "Live Science",
@@ -970,7 +984,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 70,
+   "n": 71,
    "title": "Pig kidney transplant patient marks 1 year without dialysis in medical breakthrough",
    "desc": "It's been more than a year since Molly Falco underwent experimental surgery to receive a kidney harvested from a genetically modified pig, and she says she has no regrets.",
    "src": "CBC",
@@ -984,7 +998,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 71,
+   "n": 72,
    "title": "FDA approves Cogent's drug for rare stomach cancer",
    "desc": "Cogent Biosciences won FDA clearance for its stomach cancer treatment, in combination with a much older drug from Pfizer called Sutent.",
    "src": "STAT",
@@ -998,7 +1012,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 72,
+   "n": 73,
    "title": "'Like designing a new key to open a defective lock': AI-designed protein tricks defective insulin receptors into working",
    "desc": "Scientists reported that an AI-designed protein can activate broken insulin receptors in lab mice, hinting at a potential new treatment for some forms of severe insulin resistance.",
    "src": "Live Science",
@@ -1012,7 +1026,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 73,
+   "n": 74,
    "title": "Your risk of heart attack and stroke could be forecasted 30 years in advance, study suggests",
    "desc": "Researchers knew that cholesterol and blood pressure are important for estimating stroke risk, but a new study suggests these should be measured far earlier in life.",
    "src": "Live Science",
@@ -1026,7 +1040,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 74,
+   "n": 75,
    "title": "Rare gene variants can affect a person’s height by up to 17 centimetres",
    "desc": "An analysis of 1.4 million people uncovered rare gene variants that are helping to unpick the genetic architecture behind the heritability of height.",
    "src": "Nature",
@@ -1040,7 +1054,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 75,
+   "n": 76,
    "title": "Dengue has exploded globally with shocking speed",
    "desc": "The number of recorded cases of the mosquito-borne disease worldwide rose by a factor of 34 over 34 years.",
    "src": "Nature",
@@ -1054,7 +1068,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 76,
+   "n": 77,
    "title": "Britain net migration falls to almost three-decade low, excluding Covid-19 pandemic slump",
    "desc": "Overall, annual net migration to Britain has now plunged by about 90% since its peak of nearly a million people in 2023.",
    "src": "The Straits Times",
@@ -1068,7 +1082,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 77,
+   "n": 78,
    "title": "World has six consecutive days 2C above preindustrial levels for first time",
    "desc": "Daily global surface temperature hit record 2.24C above baseline levels on Monday and streak is forecast to continue",
    "src": "Yahoo News UK",
@@ -1082,7 +1096,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 78,
+   "n": 79,
    "title": "Scientists discover mysterious lakes more than a mile beneath the Red Sea",
    "desc": "More than a mile beneath the surface of the Red Sea, scientists have discovered rare underwater lakes that could reveal secrets about Earth&apos;s ancient oceans and the possibility of alien life.",
    "src": "ScienceDaily",
@@ -1096,7 +1110,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 79,
+   "n": 80,
    "title": "Ancient 'supermountains' under Antarctica supercharged complex life on Earth, study claims ‪—‬ but not everyone agrees",
    "desc": "A study claims that ancient 'supervolcanoes' hidden under Antarctica may have provided the nutrients that led to an explosion of complex life millions of years later. But not everyone agrees.",
    "src": "Live Science",
@@ -1110,7 +1124,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 80,
+   "n": 81,
    "title": "California braces for triple flooding threat as 'king tides' overlap with 'super' El Niño",
    "desc": "Exceptionally high tides, El Niño-fueled conditions and abnormally warm water are converging on California's coast, with authorities urging residents to limit unnecessary travel this Thanksgiving.",
    "src": "Live Science",
@@ -1124,7 +1138,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 81,
+   "n": 82,
    "title": "How Birds With GPS and Audio Sensors Track Hidden Fishing Boats",
    "desc": "Researchers are using seabirds equipped with GPS and audio gear to detect vessels that operate with no tracking signals and to assess the environmental hazards they pose.",
    "src": "The New York Times",
@@ -1138,7 +1152,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 82,
+   "n": 83,
    "title": "The Iowa Lead Detonation Happened. Now the Real Work Begins to Study It",
    "desc": "Early results indicate minimal signs of lead in the environment, though it will take days for more rigorous testing.",
    "src": "WIRED",
@@ -1152,7 +1166,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 83,
+   "n": 84,
    "title": "Bogong moths can migrate using an internal geomagnetic compass",
    "desc": "Migratory moths distinguish poleward from equatorward by sensing the inclination of magnetic field lines.",
    "src": "Nature",
@@ -1166,7 +1180,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 84,
+   "n": 85,
    "title": "Draining peatlands is responsible for a few percent of our global warming",
    "desc": "Detailed estimate going back to 1800 shows how much carbon is being liberated.",
    "src": "Ars Technica",
@@ -1180,7 +1194,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 85,
+   "n": 86,
    "title": "What is the US permitting bill splitting Democrats and would it actually help the climate?",
    "desc": "A sweeping bill to speed up energy projects has rare bipartisan support. Supporters say it would unlock clean energy and lower bills, but critics say it's a gift to fossil fuels.",
    "src": "DW",
@@ -1194,7 +1208,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 86,
+   "n": 87,
    "title": "Enzymatic reactions adapted to make ‘living’ chains of sugars",
    "desc": "By tuning the binding between enzymes that chain sugars together and the molecules that initiate the reaction, precise chain lengths have been made for biological studies.",
    "src": "Nature",
@@ -1208,7 +1222,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 87,
+   "n": 88,
    "title": "Musk's plan to send a million SpaceX data satellites into space approved",
    "desc": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
    "src": "BBC",
@@ -1222,7 +1236,7 @@
    "sub": "Space"
   },
   {
-   "n": 88,
+   "n": 89,
    "title": "ESA mission reveals stadium-size crater left by first planetary defense test",
    "desc": "Scientists have released the first images from the Hera spacecraft’s arrival at the Dimorphos, an asteroid moved by NASA’s 2022 DART mission.",
    "src": "CNN",
@@ -1236,7 +1250,7 @@
    "sub": "Space"
   },
   {
-   "n": 89,
+   "n": 90,
    "title": "Taking on Starlink: Europe’s largest satellite factory opens in push to rival Musk",
    "desc": "The 20,000-square-meter mega factory will be able to produce up to 500 satellites annually, making it the world's third-largest satellite production site.",
    "src": "CNBC",
@@ -1250,7 +1264,7 @@
    "sub": "Space"
   },
   {
-   "n": 90,
+   "n": 91,
    "title": "Pakistani astronaut becomes 1st international visitor to China's Tiangong space station (photos)",
    "desc": "Muhammad Zeeshan Ali and his Shenzhou-24 crewmates arrived at Tiangong at 1:35 a.m. ET today (Nov. 25).",
    "src": "Space.com",
@@ -1264,7 +1278,7 @@
    "sub": "Space"
   },
   {
-   "n": 91,
+   "n": 92,
    "title": "Amazon Leo launches 36 satellites but struggles to close gap with Starlink",
    "desc": "Amazon's satellite internet initiative, Amazon Leo, has successfully launched another 36 low Earth orbit (LEO) satellites aboard Europe's Ariane 6 rocket, advancing its long-delayed commercial service rollout.",
    "src": "DigiTimes",
@@ -1278,7 +1292,7 @@
    "sub": "Space"
   },
   {
-   "n": 92,
+   "n": 93,
    "title": "NASA's nuclear-powered Mars delivery service takes shape",
    "desc": "SR-1 Freedom gets a shorter boom and larger antennas, with roughly two years to finish design, construction, and testing",
    "src": "The Register",
@@ -1292,7 +1306,7 @@
    "sub": "Space"
   },
   {
-   "n": 93,
+   "n": 94,
    "title": "Can Rassvet, 'Russia's Starlink' change the course of the war in Ukraine?",
    "desc": "SpaceX's US Starlink satellite system has played a key role in countering the Russian military in Ukraine, but now a Russian counterpart is under development. What could this mean for Ukraine in future?",
    "src": "DW",
@@ -1306,7 +1320,7 @@
    "sub": "Space"
   },
   {
-   "n": 94,
+   "n": 95,
    "title": "The Physics Wall Facing Orbital AI Data Centers",
    "desc": "Basing entire business plans on back-of-the-envelope calculations might not seem like the best idea. However, according to a new paper available in preprint on arXiv by Dr.",
    "src": "Universe Today",
@@ -1320,7 +1334,7 @@
    "sub": "Space"
   },
   {
-   "n": 95,
+   "n": 96,
    "title": "The threat of Starlink looms over Quebecor's Telus bid. But are Canadian telecoms actually vulnerable?",
    "desc": "In Quebecor’s $31-billion bid to take over Telus, the theme of Canadian sovereignty is emerging front and centre as the Montreal company pitches a merger, in part, to battle the threat of American satellite companies…",
    "src": "CBC",
@@ -1334,7 +1348,7 @@
    "sub": "Space"
   },
   {
-   "n": 96,
+   "n": 97,
    "title": "Study Finds Artemis Astronauts Will Enjoy Moon-Grown Potatoes",
    "desc": "Researchers have shown that potatoes grown in simulated lunar soil fortified with organic matter are safe to eat and can achieve growth and yields comparable to those produced on Earth.",
    "src": "Universe Today",
@@ -1348,7 +1362,7 @@
    "sub": "Space"
   },
   {
-   "n": 97,
+   "n": 98,
    "title": "Google's Gemini 4 agent claims six math proofs in a day, including one on factoring 30 years in the making",
    "desc": "Google says its Gemini 4-based Cogentic AI proved a faster worst-case bound for factoring integers. Lean proofs are pending; RSA faces no practical threat.",
    "src": "R&D World",
@@ -1362,7 +1376,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 98,
+   "n": 99,
    "title": "Google DeepMind AI engineers conjure mathematical proof of Signal's encryption protocol",
    "desc": "Google DeepMind AI engineers conjure mathematical proof of Signal's encryption protocol — AlphaProof Code framework powered human-bot cooperation for speedy work",
    "src": "Tom's Hardware",
@@ -1376,7 +1390,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 99,
+   "n": 100,
    "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
    "desc": "Chip restrictions, anti-distillation measures, and shrinking access to Nvidia hardware abroad are putting growing pressure on Deepseek, Moonshot AI, and Alibaba, according to a report.",
    "src": "The Decoder",
@@ -1390,7 +1404,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 100,
+   "n": 101,
    "title": "Sources: leading AI labs are sitting on major, unreleased algorithmic breakthroughs that could break deployed cryptosystems, but their exact",
    "desc": "",
    "src": "Techmeme",
@@ -1404,7 +1418,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 101,
+   "n": 102,
    "title": "Xpeng targets 2026 year-end mass production for Iron humanoid robot",
    "desc": "Chinese electric vehicle (EV) maker Xpeng held its AI Day 2026 in Guangzhou, China, on November 25, sharing its latest developments in physical artificial intelligence (AI), with its Iron humanoid robot.",
    "src": "DigiTimes",
@@ -1418,7 +1432,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 102,
+   "n": 103,
    "title": "The next generation of bionic hands is here—and they can feel",
    "desc": "Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure.",
    "src": "MIT Technology Review",
@@ -1432,7 +1446,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 103,
+   "n": 104,
    "title": "New York state bans AI chatbot toys for kids",
    "desc": "New York governor Kathy Hochul has signed into law a five-year ban on the sale of AI chatbot toys.",
    "src": "Engadget",
@@ -1446,7 +1460,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 104,
+   "n": 105,
    "title": "A Year After Genesis Launch, AI ‘Dominating’ Scientific Advances, DOE’s Gil Says",
    "desc": "It’s been exactly a year and a day since President Trump unveiled the Genesis Mission, an ambitious Department of Energy plan to accelerate science and engineering through AI.",
    "src": "HPCwire",
@@ -1460,7 +1474,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 105,
+   "n": 106,
    "title": "Who’ll pay for overruns on the Darlington small modular reactor? Plus other unanswered questions",
    "desc": "Nuclear projects are notorious for suffering cost overruns and taking longer than promised, often with consequences for consumers",
    "src": "The Globe and Mail",
@@ -1474,7 +1488,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 106,
+   "n": 107,
    "title": "Construction of third unit at Taishan begins",
    "desc": "The first concrete has been poured for the nuclear island of unit 3 at the Taishan nuclear power plant in Guangdong province, China General Nuclear has announced. &nbsp;;",
    "src": "World Nuclear News",
@@ -1488,7 +1502,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 107,
+   "n": 108,
    "title": "Westinghouse to qualify BWXT for AP1000 component manufacture",
    "desc": "Westinghouse Electric Company and BWXT Canada have agreed to qualify BWXT Canada to manufacture key components for AP1000 projects, a move the companies say expands opportunities for the Canadian and US nuclear supply…",
    "src": "World Nuclear News",
@@ -1502,7 +1516,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 108,
+   "n": 109,
    "title": "First radial plate manufactured for Proxima stellarator",
    "desc": "Three German industrial companies have completed the first of many radial plates for the Stellarator Model Coil designed and engineered by Munich-based fusion company Proxima Fusion. &nbsp;;",
    "src": "World Nuclear News",
@@ -1516,7 +1530,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 109,
+   "n": 110,
    "title": "How data centers are driving a US natural-gas boom",
    "desc": "Rising electricity demand is locking in fossil-fuel generation.",
    "src": "MIT Technology Review",
@@ -1530,7 +1544,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 110,
+   "n": 111,
    "title": "Type One Energy, UTK receive IRIS grant for fusion R&D",
    "desc": "",
    "src": "American Nuclear Society",
@@ -1544,7 +1558,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 111,
+   "n": 112,
    "title": "Report looks at reasons for Vogtle construction delays",
    "desc": "",
    "src": "American Nuclear Society",
@@ -1558,7 +1572,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 112,
+   "n": 113,
    "title": "FIA Convening Government and Industry on UK Market Framework for Fusion",
    "desc": "The Fusion Industry Association is leading a new industry-led process to help shape the market framework for commercial fusion in the UK.",
    "src": "Fusionindustryassociation",
@@ -1572,7 +1586,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 113,
+   "n": 114,
    "title": "Siemens digital twin targets 20% cut in hydrogen costs",
    "desc": "Siemens is working with InterContinental Energy (ICE) and Australian solution partner Mescada to develop what the companies describe as a world-first digital twin for large-scale green hydrogen production and renewable-powered AI…",
    "src": "eeNews Europe",
@@ -1586,7 +1600,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 114,
+   "n": 115,
    "title": "NIO targets 10,000 battery swap stations and $52B in batteries by 2030",
    "desc": "NIO plans over 10,000 battery swap stations and $52 billion in battery assets by 2030, more than double its network. Here's what it will take.",
    "src": "Electrek",
@@ -1600,7 +1614,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 115,
+   "n": 116,
    "title": "SK Hynix eyes 100-layer 3D DRAM production by 2031",
    "desc": "SK Hynix aims to mass-produce 100-layer 3D DRAM within four to five years as the South Korean chipmaker looks to overcome the limits of conventional memory scaling.",
    "src": "DigiTimes",
@@ -1614,7 +1628,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 116,
+   "n": 117,
    "title": "Huawei and crew tout homegrown EDA tools to overcome China’s fab deficit",
    "desc": "Chip design software leans heavily into 3D packaging and multi-node assemblies",
    "src": "The Register",
@@ -1628,7 +1642,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 117,
+   "n": 118,
    "title": "SK Hynix seeks TSMC 3nm expertise as Micron steps up hiring",
    "desc": "SK Hynix is seeking engineers with experience in TSMC's 3nm process to develop customized high-bandwidth memory (HBM), while US rival Micron Technology is stepping up recruitment in South Korea to support its Asian expansion.",
    "src": "DigiTimes",
@@ -1642,7 +1656,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 118,
+   "n": 119,
    "title": "Resonac targets 2027 production of photosensitive film for panel packaging",
    "desc": "Resonac has developed a photosensitive insulating film for panel-level semiconductor packaging, targeting mass production in 2027 as chipmakers look to larger package formats for high-performance devices.",
    "src": "DigiTimes",
@@ -1656,7 +1670,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 119,
+   "n": 120,
    "title": "CBTech launches TGV foundry production line, secures sample orders from 5 major customers",
    "desc": "Chime Ball Technology (CBTech) announced that Taiwan's first full-process foundry production line for through glass via (TGV) technology and glass core substrates has been completed.",
    "src": "DigiTimes",
@@ -1670,7 +1684,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 120,
+   "n": 121,
    "title": "Samsung returns to package substrates with Exynos 2700",
    "desc": "Samsung Electronics is reportedly returning to conventional package substrates for its Exynos 2700 mobile processor after nearly three years, bringing new business to affiliate Samsung Electro-Mechanics (Semco) as the…",
    "src": "DigiTimes",
@@ -1684,7 +1698,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 121,
+   "n": 122,
    "title": "ISSCC 2027 selects 10 Taiwan papers",
    "desc": "The IEEE International Solid-State Circuits Conference (ISSCC), known as the Olympics of chip design, has announced its 2027 paper selections.",
    "src": "DigiTimes",
@@ -1698,7 +1712,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 122,
+   "n": 123,
    "title": "US chip curbs, distillation crackdown threaten Chinese AI model development, sources say",
    "desc": "Washington’s latest chip restrictions threaten further delays.",
    "src": "The Straits Times",
@@ -1712,7 +1726,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 123,
+   "n": 124,
    "title": "European Commission Proposes Quantum Act to Bring Research to Market",
    "desc": "Nov. 25, 2026 — The European Commission has proposed the Quantum Act, a new framework to help turn Europe’s quantum research into products and services, strengthen supply chains and prepare Europe’s digital systems for…",
    "src": "HPCwire",
@@ -1726,7 +1740,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 124,
+   "n": 125,
    "title": "IQM to Deploy 54-Qubit Quantum Computer at South Korean Data Centre",
    "desc": "Insider Brief PRESS RELEASE — IQM Quantum Computers (Nasdaq: IQMX), a global leader in superconducting quantum computers, is partnering with QAI Co., Ltd., a South Korean quantum-AI data center and cloud infrastructure company,…",
    "src": "The Quantum Insider",
@@ -1740,7 +1754,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 125,
+   "n": 126,
    "title": "Arque Systems launches €35m Q-STAR.NRW initiative to develop and integrate 200 qubit quantum computer",
    "desc": "Program run in partnership with Germany’s Forschungszentrum Jülich Supercomputing Center",
    "src": "Data Center Dynamics",
@@ -1754,7 +1768,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 126,
+   "n": 127,
    "title": "Nordic Ministers Pledge Closer Cooperation on Quantum Research",
    "desc": "Insider Brief Nordic education and research ministers pledged Thursday to work more closely on quantum research facilities, workforce training and commercialization in a bid to attract researchers, companies and investment to the…",
    "src": "The Quantum Insider",
@@ -1768,7 +1782,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 127,
+   "n": 128,
    "title": "Guest Post: After DeepMind’s RSA Results, The Case For QKD on Critical Links",
    "desc": "Guest Post by Ofir Joseph, Quantum Communication Researcher, University of Haifa, and Head of the Cybersecurity Program, Academic College of Tel Aviv–Yaffo Prof.",
    "src": "The Quantum Insider",
@@ -1782,7 +1796,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 128,
+   "n": 129,
    "title": "Martinis, Preskill and Aaronson to Speak at Q2B26 x Chicago Quantum Summit",
    "desc": "Co-hosted by QC Ware and the Chicago Quantum Exchange, the December 8–10 event will feature Nobel laureate John Martinis alongside leading voices John Preskill and Scott Aaronson CHICAGO and PALO ALTO, Calif., Nov.",
    "src": "HPCwire",
@@ -1796,7 +1810,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 129,
+   "n": 130,
    "title": "Global Investors to Explore Australia's Quantum Industry at 2027 Conference",
    "desc": "Insider Brief PRESS RELEASE — The foundation behind Ozempic and an early Canva backer are expected to join a growing lineup of international investment heavyweights heading to Sydney to scout Australia’s quantum industry for…",
    "src": "The Quantum Insider",
@@ -1810,7 +1824,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 130,
+   "n": 131,
    "title": "QuIC Welcomes the European Quantum Act, Pledges to 'Mobilize Industry'",
    "desc": "Insider Brief PRESS RELEASE — The European Quantum Industry Consortium (QuIC) welcomes the publication of the European Commission’s proposal for the European Quantum Act, marking a significant milestone in Europe’s ambition to…",
    "src": "The Quantum Insider",
@@ -1824,7 +1838,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 131,
+   "n": 132,
    "title": "European Quantum Community Reacts to New Quantum Strategy",
    "desc": "The European Commission proposed a Quantum Act yesterday to commercialize European quantum research, strengthen supply chains and coordinate the transition to post-quantum cryptography. The proposal would bring EU and national programs together to fund research, expand access to shared facilities an",
    "src": "Thequantuminsider",
@@ -1838,7 +1852,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 132,
+   "n": 133,
    "title": "ARQUE Systems and Forschungszentrum Jülich Plan 200-Qubit Quantum Computer",
    "desc": "Insider Brief PRESS RELEASE — ARQUE Systems, a Jülich–Aachen spin-off, aims to overcome a major hurdle in quantum computing using innovative quantum semiconductor technology. As part of the € 35 million Q-STAR.NRW project, their approach will now be tested with up to 200 qubits, helping to stimulate",
    "src": "Thequantuminsider",
