@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "updated_at": "2026-11-25T20:18:44-0500",
+ "updated_at": "2026-11-25T21:23:11-0500",
  "built_at": "2026-11-25T05:22:43-0500",
  "stories": [
   {
@@ -837,6 +837,22 @@
   },
   {
    "n": 53,
+   "title": "Remote and Noncontact Acceleration and Suppression of Heat Convection on Object Surfaces using Intensity-Adjusted Acoustic Streaming",
+   "desc": "The temperature of objects in an environment is often controlled by accelerating or suppressing heat convection. Conventional methods generally involve insulation for heat retention and forced convection for cooling. However, there is no practical method for r",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.33752",
+   "dt": "Nov 24",
+   "img": "",
+   "id": "u50d64fe770",
+   "added_at": "2026-11-25T21:23:11-0500",
+   "new": true,
+   "cat": "Manufacturing",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 54,
    "title": "Modular mRNA-encoded helper proteins enhance DNA delivery",
    "desc": "DNA delivery is improved with codelivered helper proteins.",
    "src": "Nature Biotechnology",
@@ -852,7 +868,7 @@
    "topic": ""
   },
   {
-   "n": 54,
+   "n": 55,
    "title": "A multimodal foundation model for tissue proteomics and morphology in cancer",
    "desc": "Cancer diagnosis, prognosis, and treatment decisions increasingly rely on integrating tissue morphology with specific molecular readouts of the tumor and its microenvironment.",
    "src": "arXiv",
@@ -868,7 +884,7 @@
    "topic": ""
   },
   {
-   "n": 55,
+   "n": 56,
    "title": "Evolutionary constraints on protein fold diversity",
    "desc": "Arrangements of secondary structures in proteins yield a wide variety of possible topologies, yet the protein folds observed in nature are limited in their diversity.",
    "src": "arXiv",
@@ -884,7 +900,7 @@
    "topic": ""
   },
   {
-   "n": 56,
+   "n": 57,
    "title": "Beyond Hard Tokens: Predictive Memory for Multimodal Protein Generation",
    "desc": "Multimodal protein language models unify sequence and discrete structural tokens via iterative masked decoding, offering a promising paradigm for joint protein design.",
    "src": "arXiv",
@@ -900,7 +916,7 @@
    "topic": ""
   },
   {
-   "n": 57,
+   "n": 58,
    "title": "Cell and nuclear shapes predict confined motility",
    "desc": "Cancer metastasis relies on an enhanced property of cells to migrate efficiently even through constrictions smaller than their nucleus. Both cell and nuclear morphology may influence this process.",
    "src": "arXiv",
@@ -916,7 +932,7 @@
    "topic": ""
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "EEG-World: Context-Conditioned Dynamics of the Watching Brain",
    "desc": "Brain encoding models predict neural responses from audiovisual input, but typically overlook how ongoing brain activity shapes an individual's response.",
    "src": "arXiv",
@@ -932,7 +948,7 @@
    "topic": ""
   },
   {
-   "n": 59,
+   "n": 60,
    "title": "A Description-Derived Drug-Drug Interaction Benchmark Reveals Split-Dependent Molecular Representation Rankings",
    "desc": "Drug-drug interaction (DDI) prediction is clinically important and poses a distinct challenge for molecular representation learning.",
    "src": "arXiv",
@@ -948,7 +964,7 @@
    "topic": ""
   },
   {
-   "n": 60,
+   "n": 61,
    "title": "Normative and neural network models of multisensory integration",
    "desc": "Animals continuously detect scents, sights and sounds, which their brains combine into diverse multisensory streams.",
    "src": "arXiv",
@@ -964,7 +980,7 @@
    "topic": ""
   },
   {
-   "n": 61,
+   "n": 62,
    "title": "PHM-ensemble: Scalable and Stable Probabilistic Multiresolution Clustering via Ensemble Density Estimation",
    "desc": "Clustering is a foundational tool for exploratory data analysis across the sciences. We argue that clustering methods should be evaluated along four dimensions: fidelity to the data's underlying structure, interpretability of the recovered groups, stability un",
    "src": "arXiv",
@@ -980,7 +996,7 @@
    "topic": ""
   },
   {
-   "n": 62,
+   "n": 63,
    "title": "Accuracy of Noise Ceiling Estimators for Brain Scores",
    "desc": "The internal activations of modern machine learning models align surprisingly well with the activities recorded in real brains. In the last five years, the alignment between encoding models and brain activities, often called brain scores, has steadily increase",
    "src": "arXiv",
