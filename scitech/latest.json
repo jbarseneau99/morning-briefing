@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "updated_at": "2026-11-27T11:20:08-0500",
+ "updated_at": "2026-11-27T12:23:46-0500",
  "built_at": "2026-11-27T05:35:00-0500",
  "stories": [
   {
@@ -1875,6 +1875,20 @@
    "img": "3f4c521dd0.jpg",
    "id": "u3f4c521dd0",
    "added_at": "2026-11-27T11:20:08-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "Quantum"
+  },
+  {
+   "n": 135,
+   "title": "Gyeonggi Province Holds Forum on Quantum and Semiconductor Industry Cooperation",
+   "desc": "Insider Brief PRESS RELEASE — The ‘Gyeonggi Quantum Innovation Forum and 2026 Gyeonggi Quantum-Semiconductor Convergence Industry Networking Day’, hosted by Gyeonggi Province and the Gyeonggi Business and Science Accelerator and organised by Sungkyunkwan University’s Anchor Project Group and the Kor",
+   "src": "Thequantuminsider",
+   "url": "https://thequantuminsider.com/2026/11/27/gyeonggi-province-quantum-industry-development-forum/",
+   "dt": "Nov 27",
+   "img": "d1ea87a6fb.jpg",
+   "id": "ud1ea87a6fb",
+   "added_at": "2026-11-27T12:23:46-0500",
    "new": true,
    "cat": "Technology & Engineering",
    "sub": "Quantum"
