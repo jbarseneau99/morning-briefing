@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "updated_at": "2026-11-27T14:24:28-0500",
+ "updated_at": "2026-11-27T15:25:54-0500",
  "built_at": "2026-11-27T05:35:00-0500",
  "stories": [
   {
@@ -789,6 +789,20 @@
   },
   {
    "n": 57,
+   "title": "BAE Hägglunds lands record $6B deal for 400+ CV90s from five NATO nations - Breaking Defense",
+   "desc": "The joint procurement by Finland, Lithuania, the Netherlands, Norway and Sweden is expressly linked to the threat from Russia.",
+   "src": "Breakingdefense",
+   "url": "https://breakingdefense.com/2026/11/bae-hagglunds-lands-record-6b-deal-for-400-cv90s-from-five-nato-nations/",
+   "dt": "Nov 27",
+   "img": "25fc1b2a26.jpg",
+   "id": "u25fc1b2a26",
+   "added_at": "2026-11-27T15:25:54-0500",
+   "new": true,
+   "cat": "Investments and deals",
+   "sub": "Government contracts"
+  },
+  {
+   "n": 58,
    "title": "Astronomers Discover a Hidden Binary in a Star System Used to Calibrate the JWST",
    "desc": "Researchers from the Xinjiang Astronomical Observatory of the Chinese Academy of Sciences have discovered a binary system in a field used to calibrate the JWST's optics.",
    "src": "Universe Today",
@@ -802,7 +816,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 58,
+   "n": 59,
    "title": "Detection of Vaporized Rock Reveals the Birth of a Solar System",
    "desc": "Astronomers have detected titanium oxide in gas form for the first time around a young, massive star.",
    "src": "Universe Today",
@@ -816,7 +830,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 59,
+   "n": 60,
    "title": "Chang'e-6 Samples Reveal the Violent Chain Reaction That Built the Moon’s Largest Crater",
    "desc": "One of the most prominent features on the Moon is one we can’t regularly see, at least not completely.",
    "src": "Universe Today",
@@ -830,7 +844,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 60,
+   "n": 61,
    "title": "AI Helps Three Powerful Supercomputers Simulate The Milky Way In Extraordinary Detail",
    "desc": "Researchers have combined the power of three supercomputers to simulate the Milky Way in extraordinary detail. The effort also incorporated a new AI surrogate model of supernovae.",
    "src": "Universe Today",
@@ -844,7 +858,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 61,
+   "n": 62,
    "title": "Stanford Physicist Uses AI to Tackle Quantum Gravity Problem",
    "desc": "Insider Brief A Stanford physicist has proposed a quantum theory of gravity that uses the paths of light to get a finite answer for a calculation that can otherwise run to infinity.",
    "src": "The Quantum Insider",
@@ -858,7 +872,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 62,
+   "n": 63,
    "title": "Harrow Council to set London's highest littering fines",
    "desc": "Fines for littering will rise from £500 to £750 in Harrow, while fly-tipping will see a £5,000 penalty.",
    "src": "BBC",
@@ -872,7 +886,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 63,
+   "n": 64,
    "title": "Watch: Truck hangs in the balance after losing control in wet conditions",
    "desc": "A semi-truck carrying mail was left straddling an off-ramp and an overpass in Toledo, Ohio on Thanksgiving Day during severe weather in the US.",
    "src": "BBC",
@@ -886,7 +900,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 64,
+   "n": 65,
    "title": "Where are all the Milky Way’s black holes?",
    "desc": "Astronomers are missing hundreds of millions of quiet black holes",
    "src": "Scientific American",
@@ -900,7 +914,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 65,
+   "n": 66,
    "title": "Floating nature islands installed in Glasgow parks as Games legacy",
    "desc": "The islands, being planted in five Glasgow parks, are designed to encourage wildlife and help clean the water.",
    "src": "BBC",
@@ -914,7 +928,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 66,
+   "n": 67,
    "title": "Major Thanksgiving storm brings flooding, flight delays across US",
    "desc": "Almost one million customers in the US had no power on Thursday evening as storms descended on both US coasts, bringing wind gusts, heavy rain and flooding.",
    "src": "BBC",
@@ -928,7 +942,7 @@
    "sub": "Physics & Astronomy"
   },
   {
-   "n": 67,
+   "n": 68,
    "title": "In a fertility advance, engineered molecular glue stabilizes chromosomes in aging eggs",
    "desc": "Researchers engineered a protein system capable of restoring normal chromosome connections in aging mouse eggs, raising hopes of one day improving IVF outcomes",
    "src": "STAT",
@@ -942,7 +956,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 68,
+   "n": 69,
    "title": "Brain area’s mysterious role in speech decoded at last",
    "desc": "Wernicke’s area is known for processing spoken words, but brain recordings reveal that it also makes a crucial contribution to a related cognitive task.",
    "src": "Nature",
@@ -956,7 +970,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 69,
+   "n": 70,
    "title": "For decades, scientists may have misunderstood how brain cells work",
    "desc": "A major new study challenges a long-standing assumption about how the brain works, revealing that most neurons are versatile multitaskers rather than highly specialized workers.",
    "src": "ScienceDaily",
@@ -970,7 +984,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 70,
+   "n": 71,
    "title": "Octopuses Use a Multi-Step Process to Squeeze Into Tiny Spaces",
    "desc": "This flexible movement could potentially be applied to the design of soft robots that operate in confined spaces.",
    "src": "WIRED",
@@ -984,7 +998,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 71,
+   "n": 72,
    "title": "Brazilian footballer arrested in drug trafficking investigation",
    "desc": "Brazilian footballer David Correa da Fonseca was arrested during a Vasco da Gama training session in Rio de Janeiro.",
    "src": "Al Jazeera",
@@ -998,7 +1012,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 72,
+   "n": 73,
    "title": "Montana’s ‘right to try’ law makes patients responsible for bearing costs — and risks",
    "desc": "Montana has become the first state to have its own ‘right to try’ law, but important questions remain, researchers write.",
    "src": "STAT",
@@ -1012,7 +1026,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 73,
+   "n": 74,
    "title": "Pregnancy is the 'perfect storm' for eating disorders, but doctors keep missing them",
    "desc": "Many women struggle with eating disorders before and after childbirth, but they often slip through the cracks of the U.S. health care system.",
    "src": "STAT",
@@ -1026,7 +1040,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 74,
+   "n": 75,
    "title": "‘Proof it happened’: Photographers reflect on Philippine ex-president Duterte’s drug war",
    "desc": "Duterte goes on trial at the International Criminal Court on Nov 30.",
    "src": "The Straits Times",
@@ -1040,7 +1054,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 75,
+   "n": 76,
    "title": "Marie-Antoinette’s ‘nipple bowl’ auctioned for record US$3.1 million",
    "desc": "Part of the auction’s proceeds will go to the Pink Ribbon breast cancer charity.",
    "src": "The Straits Times",
@@ -1054,7 +1068,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 76,
+   "n": 77,
    "title": "Mexico bristles at US hotline for tips about drug cartels",
    "desc": "President Claudia Sheinbaum is under intense US pressure to crack down on her country’s drug gangs.",
    "src": "The Straits Times",
@@ -1068,7 +1082,7 @@
    "sub": "Biology & Medicine"
   },
   {
-   "n": 77,
+   "n": 78,
    "title": "Second court defeat for Trump's deep-sea mining ambitions",
    "desc": "Second judge rules against Trump administration's plans to lease areas of ocean floor and survey for mining.",
    "src": "BBC",
@@ -1082,7 +1096,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 78,
+   "n": 79,
    "title": "Orangutans face bleak future after Indonesia’s devastating wildfires",
    "desc": "The super El Niño intensified Indonesian fires, which ravaged the habitat of the critically endangered Bornean orangutan.",
    "src": "Nature",
@@ -1096,7 +1110,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 79,
+   "n": 80,
    "title": "Scientists discover signs of a hidden extinction crisis deep beneath the ocean",
    "desc": "The deep sea has long been considered a safe haven for marine life, but new genetic research suggests a hidden biodiversity crisis may be unfolding far beneath the waves.",
    "src": "ScienceDaily",
@@ -1110,7 +1124,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 80,
+   "n": 81,
    "title": "Scientists Use ‘Grand Theft Auto’ to Model the Effects of Climate Change",
    "desc": "The game’s high-resolution 3D maps based on real locations can be used to simulate the effects of rising sea levels and coastal flooding.",
    "src": "WIRED",
@@ -1124,7 +1138,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 81,
+   "n": 82,
    "title": "It’s cherry blossoms in spring but tourists now enjoy brilliant autumn colours in Kyoto",
    "desc": "Climate change is delaying the famed autumn foliage season, though this year it was within the norm.",
    "src": "The Straits Times",
@@ -1138,7 +1152,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 82,
+   "n": 83,
    "title": "Climate Talks Imploded, but the ‘Age of Electricity’ Rolls On, Energy Chief Says",
    "desc": "Fatih Birol, head of the International Energy Agency, said that market forces, data centers and energy security are driving the clean transition anyway.",
    "src": "The New York Times",
@@ -1152,7 +1166,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 83,
+   "n": 84,
    "title": "Ottawa rejects call to relieve Canadian automakers of greenhouse gas rules",
    "desc": "Environment Minister defended tailpipe emissions rules and carbon taxes after hearing from Premier Ford, Unifor leader",
    "src": "The Globe and Mail",
@@ -1166,7 +1180,7 @@
    "sub": "Earth & Climate"
   },
   {
-   "n": 84,
+   "n": 85,
    "title": "Scientists turn one of the world’s hardest-to-recycle plastics into high-performance lubricating oil",
    "desc": "Virginia Tech scientists have discovered how to transform one of the world's hardest-to-recycle plastics into a valuable ingredient for high-performance engine oil.",
    "src": "ScienceDaily",
@@ -1180,7 +1194,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 85,
+   "n": 86,
    "title": "The narwhal’s legendary “unicorn horn” holds a remarkable engineering secret",
    "desc": "The narwhal’s iconic spiral tusk, once prized in Europe as the horn of a mythical unicorn, conceals an extraordinary feat of natural engineering.",
    "src": "ScienceDaily",
@@ -1194,7 +1208,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 86,
+   "n": 87,
    "title": "Serbia’s student-led movement nominates chemistry professor for presidency",
    "desc": "Radomir Saicic, who teaches at Belgrade University, was among the first university professors to join the movement.",
    "src": "Al Jazeera",
@@ -1208,7 +1222,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 87,
+   "n": 88,
    "title": "Serbia's Student List runs chemistry professor Radomir Saicic for president",
    "desc": "After ousting strongman Aleksandar Vucic, Serbia's student movement has now nominated academic Radomir Saicic for the upcoming presidential vote. Saicic accused the \"outgoing regime\" of trying to collapse the state.",
    "src": "DW",
@@ -1222,7 +1236,7 @@
    "sub": "Materials & Chemistry"
   },
   {
-   "n": 88,
+   "n": 89,
    "title": "Rocket Lab sending Japanese satellite to orbit on Thanksgiving Day launch: Watch it live",
    "desc": "The 'Night Owls Never Sleep' mission is scheduled to launch today (Nov. 26) at 7 p.m. ET.",
    "src": "Space.com",
@@ -1236,7 +1250,7 @@
    "sub": "Space"
   },
   {
-   "n": 89,
+   "n": 90,
    "title": "Slingshot Earth: NASA's Europa Clipper Will Gain Speed and Tests Its Instruments During Its Earth Flyby",
    "desc": "NASA's Europa Clipper launched in October 2024, on its way to the Jupiter system. But it hasn't left the inner Solar System yet. It used a gravity braking maneuver at Mars in March 2025 to direct it back toward Earth.",
    "src": "Universe Today",
@@ -1250,7 +1264,7 @@
    "sub": "Space"
   },
   {
-   "n": 90,
+   "n": 91,
    "title": "How Engineers Designed a Mission to One of Jupiter’s Icy Moons",
    "desc": "The Europa Clipper will probe below the frozen surface for possible habitats for life",
    "src": "IEEE Spectrum",
@@ -1264,7 +1278,7 @@
    "sub": "Space"
   },
   {
-   "n": 91,
+   "n": 92,
    "title": "Robots, Not Astronauts, Will Have to Fix Space Data Centers",
    "desc": "Yesterday we explored some of the difficulties facing orbital data centers in our look at the bottleneck of launching enough solar panels and radiative cooling systems to power the AI computing boom in space.",
    "src": "Universe Today",
@@ -1278,7 +1292,7 @@
    "sub": "Space"
   },
   {
-   "n": 92,
+   "n": 93,
    "title": "SpaceX million-satellite plan exposes hurdles to space-based data centers",
    "desc": "The US Federal Communications Commission (FCC) has approved SpaceX's plan to deploy one million space-based data center satellites, paving the way for AI infrastructure to extend beyond Earth.",
    "src": "DigiTimes",
@@ -1292,7 +1306,7 @@
    "sub": "Space"
   },
   {
-   "n": 93,
+   "n": 94,
    "title": "Q&A With Aerospacelab CEO Benoît Deper",
    "desc": "Payload spoke with Aerospacelab CEO Benoît Deper about what its new factory means for Aerospacelab, and Europe’s space sector as a whole. The post Q&A With Aerospacelab CEO Benoît Deper appeared first on Payload .",
    "src": "Payload",
@@ -1306,7 +1320,7 @@
    "sub": "Space"
   },
   {
-   "n": 94,
+   "n": 95,
    "title": "Starlink demand drives Wonderful Hi-Tech to record profit, and its next cables are bound for orbit",
    "desc": "Taiwanese cable maker Wonderful Hi-Tech posted record quarterly profit in the third quarter of 2026.",
    "src": "DigiTimes",
@@ -1320,7 +1334,7 @@
    "sub": "Space"
   },
   {
-   "n": 95,
+   "n": 96,
    "title": "Pakistan’s viral cricket catch star hopes to launch career",
    "desc": "The motorbike passenger who went viral for his stunning cricket catch in Pakistan says he hopes to play for his country.",
    "src": "Al Jazeera",
@@ -1334,7 +1348,7 @@
    "sub": "Space"
   },
   {
-   "n": 96,
+   "n": 97,
    "title": "Why does Elon Musk want to put a million satellite data centres in space?",
    "desc": "The US FCC authorised the plan on Wednesday, calling it a first in the history of the country.",
    "src": "Al Jazeera",
@@ -1348,7 +1362,7 @@
    "sub": "Space"
   },
   {
-   "n": 97,
+   "n": 98,
    "title": "Astronomers watch a red giant star greedily devour a stellar 'Bao bun' before erupting: 'We couldn't quite believe our luck'",
    "desc": "Astronomers witnessed the spectacular cosmic indigestion that resulted from a red giant star that devoured a stellar Bao bun in the form of its smaller companion star.",
    "src": "Space.com",
@@ -1362,7 +1376,7 @@
    "sub": "Space"
   },
   {
-   "n": 98,
+   "n": 99,
    "title": "Has AI just cracked Internet encryption? Rumoured ‘bombshell’ stuns scientists",
    "desc": "AI-generated algorithms could be about to break public-key cryptography, the technology central to commerce, banking and privacy.",
    "src": "Nature",
@@ -1376,7 +1390,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 99,
+   "n": 100,
    "title": "AI models on one vLLM server secretly talk through GPU rounding errors",
    "desc": "Two AI models on one vLLM inference server traded secret messages through GPU kernel rounding errors, with no network or shared files.",
    "src": "Tom's Hardware",
@@ -1390,7 +1404,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 100,
+   "n": 101,
    "title": "Japan backs robot foundation models for manufacturing, construction, logistics",
    "desc": "Japan's Ministry of Economy, Trade and Industry (METI) and the New Energy and Industrial Technology Development Organization (NEDO) announced the latest results of the Generative AI Accelerator Challenge (GENIAC) in…",
    "src": "DigiTimes",
@@ -1404,7 +1418,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 101,
+   "n": 102,
    "title": "Samsung chip fabs could deploy over 10,000 robots by 2030",
    "desc": "The number of robots operating in Samsung Electronics' semiconductor facilities could rise from about 100 in 2026 to more than 10,000 by 2030 as the South Korean chipmaker seeks to automate tasks that still require…",
    "src": "DigiTimes",
@@ -1418,7 +1432,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 102,
+   "n": 103,
    "title": "Robots could be doing household chores in just 1-2 years, Chinese EV firm says",
    "desc": "Xpeng Co-President Brian Gu shared his humanoid robot predictions with CNBC in an interview Thursday.",
    "src": "CNBC",
@@ -1432,7 +1446,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 103,
+   "n": 104,
    "title": "Ukrainian 11th-grader builds AI-powered, GPS-free drone autopilot to beat frontline jamming",
    "desc": "Yaroslav Sheiko's innovation allows drones to fly accurately even if they don't have a GPS signal or encounter GPS jamming.",
    "src": "Tom's Hardware",
@@ -1446,7 +1460,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 104,
+   "n": 105,
    "title": "New York Governor Kathy Hochul signs ban on AI chatbot toys backed by $15,000 daily fines",
    "desc": "New York Governor Kathy Hochul has signed a bill that effectively bans the sale of toys with built-in AI chatbots within the state over concerns about what they might say to kids.",
    "src": "Tom's Hardware",
@@ -1460,7 +1474,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 105,
+   "n": 106,
    "title": "Bipartisan efforts in Congress to regulate AI are gaining momentum, but they face an uphill climb due to the slow pace of legislative work a",
    "desc": "",
    "src": "Techmeme",
@@ -1474,7 +1488,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 106,
+   "n": 107,
    "title": "OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit thei",
    "desc": "",
    "src": "Techmeme",
@@ -1488,7 +1502,7 @@
    "sub": "AI & Robotics"
   },
   {
-   "n": 107,
+   "n": 108,
    "title": "Tianwan moves step closer to becoming world's biggest nuclear power plant",
    "desc": "Hot tests have been completed and the initial fuel load delivered for Tianwan unit 8. When all eight units at the site in China are up and running it will become the world's largest nuclear power plant.",
    "src": "World Nuclear News",
@@ -1502,7 +1516,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 108,
+   "n": 109,
    "title": "Twice-recycled fuel loaded into BN-800 fast neutron reactor",
    "desc": "Recycled uranium-plutonium MOX fuel, manufactured using plutonium extracted from a MOX fuel assembly which had already completed a full cycle, has been loaded into the Beloyarsk Nuclear Power Plant&#39;s BN-800 fast…",
    "src": "World Nuclear News",
@@ -1516,7 +1530,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 109,
+   "n": 110,
    "title": "Additional partners join nuclear-powered LNG ship project",
    "desc": "A day after signing a two-way memorandum of understanding with Samsung Heavy Industries, Tesser Atomics announced it has entered into a four-way MoU with Samsung Heavy Industries, DNV and NTNU for its nuclear-powered…",
    "src": "World Nuclear News",
@@ -1530,7 +1544,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 110,
+   "n": 111,
    "title": "IAEA working with Russia, Ukraine on ceasefire to repair power link at Zaporizhzhia nuclear plant",
    "desc": "Nov 26 - The UN nuclear watchdog said on Thursday it was working with Russia and Ukraine to arrange a new local ceasefire at the Russian-held Zaporizhzhia nuclear power plant, following another loss of offsite power.",
    "src": "The Straits Times",
@@ -1544,7 +1558,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 111,
+   "n": 112,
    "title": "Data centres to double Malaysian electricity demand by 2050",
    "desc": "Malaysia's data centres are set to double electricity demand by 2050, as AI investment drives rapid power growth. Read more at straitstimes.com.",
    "src": "The Straits Times",
@@ -1558,7 +1572,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 112,
+   "n": 113,
    "title": "500MW data center project planned outside San Diego, California",
    "desc": "Spanish renewable firm Ignis behind project",
    "src": "Data Center Dynamics",
@@ -1572,7 +1586,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 113,
+   "n": 114,
    "title": "New approach to very low radiation doses needed, says nuclear industry",
    "desc": "The current regulation of exposures to very low doses of radiation needs to be modified to end the \"double standard\" where doses received from things like food, the environment and airline flights are not controlled, yet those…",
    "src": "World Nuclear News",
@@ -1586,7 +1600,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 114,
+   "n": 115,
    "title": "LG Energy Solution prepares LMR battery lines for GM at Tennessee joint venture, report says",
    "desc": "LG Energy Solution is preparing mass production lines for lithium manganese-rich (LMR) batteries at its Ultium Cells joint venture with General Motors (GM), and will soon begin equipment bidding, according to a report…",
    "src": "DigiTimes",
@@ -1600,7 +1614,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 115,
+   "n": 116,
    "title": "US battery startups find a second wind as Washington weighs funding revival",
    "desc": "Among the industrial-policy changes anticipated following the US midterm elections is a potential revival of federal funding aimed at stimulating the domestic energy-technology supply chain amid growing concerns over…",
    "src": "DigiTimes",
@@ -1614,7 +1628,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 116,
+   "n": 117,
    "title": "Wyoming uranium operation shuts down after cyberattack",
    "desc": "Peninsula Energy says plant and wellfield control systems were affected, with no restart date yet",
    "src": "The Register",
@@ -1628,7 +1642,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 117,
+   "n": 118,
    "title": "TSMC's A14 1.4nm-class node is ready for chip design",
    "desc": "TSMC announces availability of its version 0.9 process design kit for its A14 manufacturing technology.",
    "src": "Tom's Hardware",
@@ -1642,7 +1656,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 118,
+   "n": 119,
    "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
    "desc": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
    "src": "WIRED",
@@ -1656,7 +1670,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 119,
+   "n": 120,
    "title": "TSMC’s $22.6 billion Texas plan wouldn’t make 2nm-or-better chips until 2031",
    "desc": "TSMC’s Texas filing describes a $22.6 billion project in Brazos County for 2nm or more advanced chips, starting production in 2031.",
    "src": "Tom's Hardware",
@@ -1670,7 +1684,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 120,
+   "n": 121,
    "title": "Samsung revamps memory R&D in custom HBM push",
    "desc": "Samsung Electronics is streamlining its memory development operations and setting up a dedicated logic design team as it seeks to expand its presence in the market for customized high-bandwidth memory (HBM) used in AI…",
    "src": "DigiTimes",
@@ -1684,7 +1698,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 121,
+   "n": 122,
    "title": "Exploring the Indium phosphide supply chain — the material constraint tightening the optical interconnect bottleneck",
    "desc": "As the focus goes in on Optical, InP comes under the spotlight.",
    "src": "Tom's Hardware",
@@ -1698,7 +1712,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 122,
+   "n": 123,
    "title": "NTU team develops two generations of Transformer learning processor chips for edge AI",
    "desc": "A National Taiwan University (NTU) team has developed two generations of Transformer learning processor chips over four years, reaching a peak energy efficiency of 157 TOPS/W with its second-generation design, and has…",
    "src": "DigiTimes",
@@ -1712,7 +1726,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 123,
+   "n": 124,
    "title": "US chip equipment giant Applied Materials to grow S’pore workforce past 5,000 and boost investment",
    "desc": "It has doubled its production capacity and R&D footprint in the Republic.",
    "src": "The Straits Times",
@@ -1726,7 +1740,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 124,
+   "n": 125,
    "title": "US chip restrictions cast shadow over Chinese AI labs",
    "desc": "Chinese firms are worried in the short term, but the pressure may speed up use of domestic chips.",
    "src": "The Straits Times",
@@ -1740,7 +1754,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 125,
+   "n": 126,
    "title": "Opinion: Lululemon founder Chip Wilson should focus on self-control, not birth control",
    "desc": "His comments about women’s reproductive choices at a Calgary conference this week could hurt Lululemon’s brand",
    "src": "The Globe and Mail",
@@ -1754,7 +1768,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 126,
+   "n": 127,
    "title": "DARPA is assessing Microsoft's controversial quantum computing technology. What will happen if the Majorana 2 platform is vindicated?",
    "desc": "Microsoft has doubled down on its Majorana 2 quantum computing platform despite pushback from the physics community, with DARPA researchers now set to evaluate the bold claims.",
    "src": "Live Science",
@@ -1768,7 +1782,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 127,
+   "n": 128,
    "title": "Bank of England Urges Firms to Move Faster on Quantum Security",
    "desc": "Insider Brief The Bank of England urged financial firms with the greatest impact on the stability of the U.K.",
    "src": "The Quantum Insider",
@@ -1782,7 +1796,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 128,
+   "n": 129,
    "title": "SAP and planqc Expand Quantum Computing Partnership, Plan Hardware Tests in 2027",
    "desc": "Insider Brief PRESS RELEASE — SAP and planqc are expanding their collaboration in quantum computing.",
    "src": "The Quantum Insider",
@@ -1796,7 +1810,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 129,
+   "n": 130,
    "title": "Analysis: SoftBank eyes quantum-AI data centers by 2029",
    "desc": "SoftBank aims to commercialize data centers that combine quantum computing with artificial intelligence (AI) by 2029, working with Japanese national research institute RIKEN and US quantum computing company Quantinuum…",
    "src": "DigiTimes",
@@ -1810,7 +1824,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 130,
+   "n": 131,
    "title": "AI Is Already Shrinking Quantum Algorithms: What It Means for Megaquop, Gigaquop and Teraquop Machines – NextBigFuture.com",
    "desc": "AI is no longer just a hypothetical accelerator for quantum computing. In 2026, AI systems cut the cost of key fault-tolerant quantum subroutines by 4x to more than 9,000x.",
    "src": "NextBigFuture",
@@ -1824,7 +1838,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 131,
+   "n": 132,
    "title": "Wellington Community Foundation Receives $20,000 Quantum Foundation Grant",
    "desc": "Insider Brief The Wellington Community Foundation (WCF) received a $20,000 grant at the sixth annual Quantum in the Community Breakfast on Tuesday, Nov. 17, the Town-Crier reported. The foundation was one of the nonprofit organizations recognized at the event. Nonprofit leaders, community advocates ",
    "src": "Thequantuminsider",
@@ -1838,7 +1852,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 132,
+   "n": 133,
    "title": "Ethereum Plans Shift to Hash-Based Signatures for Post-Quantum Security",
    "desc": "Insider Brief Ethereum’s core developers are preparing to phase out the elliptic-curve cryptography that secures the network and switch to hash-based signatures, a change meant to protect against attacks powered by quantum computers or by advances in artificial intelligence, Crypto Briefing reported",
    "src": "Thequantuminsider",
@@ -1852,7 +1866,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 133,
+   "n": 134,
    "title": "Guest Post: Why Critical Infrastructure Must Prepare for Cryptographic Uncertainty",
    "desc": "Guest Post By Scott Aaronson, a computer scientist at the University of Texas at Austin. Companies preparing for quantum computers may have to confront a threat that requires no quantum computer at all. For the operators of critical infrastructure, from electric utilities and water systems to hospit",
    "src": "Thequantuminsider",
@@ -1866,7 +1880,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 134,
+   "n": 135,
    "title": "Equal1 Selected to Advance in EIC STEP Scale Up Program For Potential Equity Investment of up to €30 Million",
    "desc": "Insider Brief PRESS RELEASE — Equal1 today announced it has been selected to advance to the due-diligence phase with the European Innovation Council (EIC) Fund under the Strategic Technologies for Europe Platform (STEP) Scale Up program. The selection opens the path for a potential equity investment",
    "src": "Thequantuminsider",
@@ -1880,7 +1894,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 135,
+   "n": 136,
    "title": "Gyeonggi Province Holds Forum on Quantum and Semiconductor Industry Cooperation",
    "desc": "Insider Brief PRESS RELEASE — The ‘Gyeonggi Quantum Innovation Forum and 2026 Gyeonggi Quantum-Semiconductor Convergence Industry Networking Day’, hosted by Gyeonggi Province and the Gyeonggi Business and Science Accelerator and organised by Sungkyunkwan University’s Anchor Project Group and the Kor",
    "src": "Thequantuminsider",
