@@ -1,6 +1,6 @@
 {
  "date": "2026-11-26",
- "updated_at": "2026-11-26T20:17:06-0500",
+ "updated_at": "2026-11-26T21:21:58-0500",
  "built_at": "2026-11-26T05:23:59-0500",
  "stories": [
   {
@@ -1503,6 +1503,20 @@
   },
   {
    "n": 108,
+   "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
+   "desc": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while household consumption has been lagging.",
+   "src": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+   "dt": "Nov 26",
+   "img": "5d28a5ddaa.jpg",
+   "id": "u5d28a5ddaa",
+   "added_at": "2026-11-26T21:21:58-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 109,
    "title": "Who’ll pay for overruns on the Darlington small modular reactor? Plus other unanswered questions",
    "desc": "Nuclear projects are notorious for suffering cost overruns and taking longer than promised, often with consequences for consumers",
    "src": "The Globe and Mail",
@@ -1516,7 +1530,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 109,
+   "n": 110,
    "title": "Construction of third unit at Taishan begins",
    "desc": "The first concrete has been poured for the nuclear island of unit 3 at the Taishan nuclear power plant in Guangdong province, China General Nuclear has announced. &nbsp;;",
    "src": "World Nuclear News",
@@ -1530,7 +1544,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 110,
+   "n": 111,
    "title": "Westinghouse to qualify BWXT for AP1000 component manufacture",
    "desc": "Westinghouse Electric Company and BWXT Canada have agreed to qualify BWXT Canada to manufacture key components for AP1000 projects, a move the companies say expands opportunities for the Canadian and US nuclear supply…",
    "src": "World Nuclear News",
@@ -1544,7 +1558,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 111,
+   "n": 112,
    "title": "First radial plate manufactured for Proxima stellarator",
    "desc": "Three German industrial companies have completed the first of many radial plates for the Stellarator Model Coil designed and engineered by Munich-based fusion company Proxima Fusion. &nbsp;;",
    "src": "World Nuclear News",
@@ -1558,7 +1572,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 112,
+   "n": 113,
    "title": "How data centers are driving a US natural-gas boom",
    "desc": "Rising electricity demand is locking in fossil-fuel generation.",
    "src": "MIT Technology Review",
@@ -1572,7 +1586,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 113,
+   "n": 114,
    "title": "Type One Energy, UTK receive IRIS grant for fusion R&D",
    "desc": "",
    "src": "American Nuclear Society",
@@ -1586,7 +1600,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 114,
+   "n": 115,
    "title": "Report looks at reasons for Vogtle construction delays",
    "desc": "",
    "src": "American Nuclear Society",
@@ -1600,7 +1614,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 115,
+   "n": 116,
    "title": "FIA Convening Government and Industry on UK Market Framework for Fusion",
    "desc": "The Fusion Industry Association is leading a new industry-led process to help shape the market framework for commercial fusion in the UK.",
    "src": "Fusionindustryassociation",
@@ -1614,7 +1628,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 116,
+   "n": 117,
    "title": "Siemens digital twin targets 20% cut in hydrogen costs",
    "desc": "Siemens is working with InterContinental Energy (ICE) and Australian solution partner Mescada to develop what the companies describe as a world-first digital twin for large-scale green hydrogen production and renewable-powered AI…",
    "src": "eeNews Europe",
@@ -1628,7 +1642,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 117,
+   "n": 118,
    "title": "NIO targets 10,000 battery swap stations and $52B in batteries by 2030",
    "desc": "NIO plans over 10,000 battery swap stations and $52 billion in battery assets by 2030, more than double its network. Here's what it will take.",
    "src": "Electrek",
@@ -1642,7 +1656,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 118,
+   "n": 119,
    "title": "SK Hynix eyes 100-layer 3D DRAM production by 2031",
    "desc": "SK Hynix aims to mass-produce 100-layer 3D DRAM within four to five years as the South Korean chipmaker looks to overcome the limits of conventional memory scaling.",
    "src": "DigiTimes",
@@ -1656,7 +1670,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 119,
+   "n": 120,
    "title": "Huawei and crew tout homegrown EDA tools to overcome China’s fab deficit",
    "desc": "Chip design software leans heavily into 3D packaging and multi-node assemblies",
    "src": "The Register",
@@ -1670,7 +1684,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 120,
+   "n": 121,
    "title": "SK Hynix seeks TSMC 3nm expertise as Micron steps up hiring",
    "desc": "SK Hynix is seeking engineers with experience in TSMC's 3nm process to develop customized high-bandwidth memory (HBM), while US rival Micron Technology is stepping up recruitment in South Korea to support its Asian expansion.",
    "src": "DigiTimes",
@@ -1684,7 +1698,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 121,
+   "n": 122,
    "title": "Resonac targets 2027 production of photosensitive film for panel packaging",
    "desc": "Resonac has developed a photosensitive insulating film for panel-level semiconductor packaging, targeting mass production in 2027 as chipmakers look to larger package formats for high-performance devices.",
    "src": "DigiTimes",
@@ -1698,7 +1712,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 122,
+   "n": 123,
    "title": "CBTech launches TGV foundry production line, secures sample orders from 5 major customers",
    "desc": "Chime Ball Technology (CBTech) announced that Taiwan's first full-process foundry production line for through glass via (TGV) technology and glass core substrates has been completed.",
    "src": "DigiTimes",
@@ -1712,7 +1726,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 123,
+   "n": 124,
    "title": "Samsung returns to package substrates with Exynos 2700",
    "desc": "Samsung Electronics is reportedly returning to conventional package substrates for its Exynos 2700 mobile processor after nearly three years, bringing new business to affiliate Samsung Electro-Mechanics (Semco) as the…",
    "src": "DigiTimes",
@@ -1726,7 +1740,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 124,
+   "n": 125,
    "title": "ISSCC 2027 selects 10 Taiwan papers",
    "desc": "The IEEE International Solid-State Circuits Conference (ISSCC), known as the Olympics of chip design, has announced its 2027 paper selections.",
    "src": "DigiTimes",
@@ -1740,7 +1754,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 125,
+   "n": 126,
    "title": "US chip curbs, distillation crackdown threaten Chinese AI model development, sources say",
    "desc": "Washington’s latest chip restrictions threaten further delays.",
    "src": "The Straits Times",
@@ -1754,7 +1768,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 126,
+   "n": 127,
    "title": "Semiconductor chips are the new oil. Here's why",
    "desc": "Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.",
    "src": "CNBC",
@@ -1768,7 +1782,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 127,
+   "n": 128,
    "title": "Nvidia chip buyers told to rule out Chinese renters to buy GPUs, sources say",
    "desc": "A new BIS rule was intended to close \"loopholes,\" U.S. Trade Representative Jamieson Greer told CNBC's \"Squawk Box\" on Wednesday.",
    "src": "CNBC",
@@ -1782,7 +1796,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 128,
+   "n": 129,
    "title": "European Commission Proposes Quantum Act to Bring Research to Market",
    "desc": "Nov. 25, 2026 — The European Commission has proposed the Quantum Act, a new framework to help turn Europe’s quantum research into products and services, strengthen supply chains and prepare Europe’s digital systems for…",
    "src": "HPCwire",
@@ -1796,7 +1810,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 129,
+   "n": 130,
    "title": "IQM to Deploy 54-Qubit Quantum Computer at South Korean Data Centre",
    "desc": "Insider Brief PRESS RELEASE — IQM Quantum Computers (Nasdaq: IQMX), a global leader in superconducting quantum computers, is partnering with QAI Co., Ltd., a South Korean quantum-AI data center and cloud infrastructure company,…",
    "src": "The Quantum Insider",
@@ -1810,7 +1824,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 130,
+   "n": 131,
    "title": "Arque Systems launches €35m Q-STAR.NRW initiative to develop and integrate 200 qubit quantum computer",
    "desc": "Program run in partnership with Germany’s Forschungszentrum Jülich Supercomputing Center",
    "src": "Data Center Dynamics",
@@ -1824,7 +1838,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 131,
+   "n": 132,
    "title": "Nordic Ministers Pledge Closer Cooperation on Quantum Research",
    "desc": "Insider Brief Nordic education and research ministers pledged Thursday to work more closely on quantum research facilities, workforce training and commercialization in a bid to attract researchers, companies and investment to the…",
    "src": "The Quantum Insider",
@@ -1838,7 +1852,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 132,
+   "n": 133,
    "title": "Guest Post: After DeepMind’s RSA Results, The Case For QKD on Critical Links",
    "desc": "Guest Post by Ofir Joseph, Quantum Communication Researcher, University of Haifa, and Head of the Cybersecurity Program, Academic College of Tel Aviv–Yaffo Prof.",
    "src": "The Quantum Insider",
@@ -1852,7 +1866,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 133,
+   "n": 134,
    "title": "Martinis, Preskill and Aaronson to Speak at Q2B26 x Chicago Quantum Summit",
    "desc": "Co-hosted by QC Ware and the Chicago Quantum Exchange, the December 8–10 event will feature Nobel laureate John Martinis alongside leading voices John Preskill and Scott Aaronson CHICAGO and PALO ALTO, Calif., Nov.",
    "src": "HPCwire",
@@ -1866,7 +1880,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 134,
+   "n": 135,
    "title": "Global Investors to Explore Australia's Quantum Industry at 2027 Conference",
    "desc": "Insider Brief PRESS RELEASE — The foundation behind Ozempic and an early Canva backer are expected to join a growing lineup of international investment heavyweights heading to Sydney to scout Australia’s quantum industry for…",
    "src": "The Quantum Insider",
@@ -1880,7 +1894,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 135,
+   "n": 136,
    "title": "QuIC Welcomes the European Quantum Act, Pledges to 'Mobilize Industry'",
    "desc": "Insider Brief PRESS RELEASE — The European Quantum Industry Consortium (QuIC) welcomes the publication of the European Commission’s proposal for the European Quantum Act, marking a significant milestone in Europe’s ambition to…",
    "src": "The Quantum Insider",
@@ -1894,7 +1908,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 136,
+   "n": 137,
    "title": "European Quantum Community Reacts to New Quantum Strategy",
    "desc": "The European Commission proposed a Quantum Act yesterday to commercialize European quantum research, strengthen supply chains and coordinate the transition to post-quantum cryptography. The proposal would bring EU and national programs together to fund research, expand access to shared facilities an",
    "src": "Thequantuminsider",
@@ -1908,7 +1922,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 137,
+   "n": 138,
    "title": "ARQUE Systems and Forschungszentrum Jülich Plan 200-Qubit Quantum Computer",
    "desc": "Insider Brief PRESS RELEASE — ARQUE Systems, a Jülich–Aachen spin-off, aims to overcome a major hurdle in quantum computing using innovative quantum semiconductor technology. As part of the € 35 million Q-STAR.NRW project, their approach will now be tested with up to 200 qubits, helping to stimulate",
    "src": "Thequantuminsider",
