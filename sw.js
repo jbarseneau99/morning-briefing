@@ -1,5 +1,5 @@
 /* Morning Briefing shell worker: network-first for HTML so editions and the reader JS always update. */
-const VERSION = 'briefing-shell-20261128-0923';
+const VERSION = 'briefing-shell-20261128-1022';
 const SHELL_ASSETS = [
   '/morning-briefing/manifest.webmanifest',
   '/morning-briefing/img/mach33-wordmark-black.svg?v=3',
