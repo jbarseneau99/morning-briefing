@@ -1,6 +1,6 @@
 {
  "date": "2026-11-28",
- "updated_at": "2026-11-28T05:26:19-0500",
+ "updated_at": "2026-11-28T07:21:32-0500",
  "built_at": "2026-11-28T05:24:26-0500",
  "stories": [
   {
@@ -437,6 +437,38 @@
   },
   {
    "n": 28,
+   "title": "Background characterization in the PIKACHU Phase 1 search for two-neutrino double-beta decay of $^{160}$Gd",
+   "desc": "We report a background characterization for the search for two-neutrino double-beta ($2\\nu2β$) decay of $^{160}$Gd using Ce:Gd$_3$Al$_2$Ga$_3$O$_{12}$ scintillators in the PIKACHU experiment Phase 1 at the Kamioka underground laboratory. The experimental backg",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.31837",
+   "dt": "Nov 23",
+   "img": "",
+   "id": "ube4e306a21",
+   "added_at": "2026-11-28T07:21:32-0500",
+   "new": true,
+   "cat": "Energy & Nuclear",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 29,
+   "title": "Streaming instabilities and electron transport in electron transpiration cooling",
+   "desc": "Electron transpiration cooling requires emitted electrons to travel through a surrounding plasma, where their relative motion with background electrons can drive streaming instabilities. We investigate these instabilities using particle-in-cell simulations wit",
+   "src": "arXiv",
+   "url": "https://arxiv.org/abs/2611.31741",
+   "dt": "Nov 23",
+   "img": "",
+   "id": "uaf0051d192",
+   "added_at": "2026-11-28T07:21:32-0500",
+   "new": true,
+   "cat": "Energy & Nuclear",
+   "sub": "",
+   "region": "",
+   "topic": ""
+  },
+  {
+   "n": 30,
    "title": "Sharp Transitions of Copy Complexity in Local Certification of Typical Pure States",
    "desc": "We determine the asymptotic copy complexity of $n$-qudit state certification with tensor-product measurements. For given acceptance and rejection fidelities $a$ and $b$ ($b<a$), the optimal copy complexity is $Θ(n^r)$.",
    "src": "arXiv",
@@ -452,7 +484,7 @@
    "topic": ""
   },
   {
-   "n": 29,
+   "n": 31,
    "title": "Unitary Synthesis with a Unary Tracker",
    "desc": "This manuscript studies general unitary synthesis using unary-encoded ancillary register. Our first construction focuses on the $T$-cost of unitary synthesis.",
    "src": "arXiv",
@@ -468,7 +500,7 @@
    "topic": ""
   },
   {
-   "n": 30,
+   "n": 32,
    "title": "Rényi multi-entropy from Riemann surfaces",
    "desc": "We compute vacuum tripartite Rényi multi-entropy in a two-dimensional compact-boson conformal field theory (CFT).",
    "src": "arXiv",
@@ -484,7 +516,7 @@
    "topic": ""
   },
   {
-   "n": 31,
+   "n": 33,
    "title": "Direct generation of N00N states with layered semiconductors",
    "desc": "Photonic N00N states enable phase sensing beyond the classical limit, but their generation conventionally relies on interferometric manipulation of photons using bulk optical components.",
    "src": "arXiv",
@@ -500,7 +532,7 @@
    "topic": ""
   },
   {
-   "n": 32,
+   "n": 34,
    "title": "Experimental Quantum Hardware Benchmarks of Flat Non-Clifford Hypergraph States, Antipodal Obstructions, and Nonlocal Games on IBM Heron r2",
    "desc": "Real-hardware demonstrations of quantum contextuality have reached high precision on superconducting processors, exemplified by Google Quantum AI's Mermin-Peres magic square and stabilizer games on Willow (Science, 2026).",
    "src": "arXiv",
@@ -516,7 +548,7 @@
    "topic": ""
   },
   {
-   "n": 33,
+   "n": 35,
    "title": "Slow mixing of Gibbs sampling for the quantum Curie-Weiss model",
    "desc": "Hamiltonian evolution can spread local operators across a dense quantum magnet. We show that this global support does not remove the bottleneck to thermalization in the quantum Curie-Weiss model: at fixed low temperature and weak…",
    "src": "arXiv",
@@ -532,7 +564,7 @@
    "topic": ""
   },
   {
-   "n": 34,
+   "n": 36,
    "title": "Magic Moments: An Operational Approach of Certifying Nonstabilizerness from Few Copies",
    "desc": "Magic is the key resource enabling universal fault-tolerant quantum computation beyond classically simulable stabilizer circuits.",
    "src": "arXiv",
@@ -548,7 +580,7 @@
    "topic": ""
   },
   {
-   "n": 35,
+   "n": 37,
    "title": "The asymptotic spectrum of tensors is connected",
    "desc": "We prove path-connectedness of the asymptotic spectrum of complex tensors of every fixed order $k \\geq 3$: every spectral point is connected by a path to every \"one leg versus the rest\" flattening rank.",
    "src": "arXiv",
@@ -564,7 +596,7 @@
    "topic": ""
   },
   {
-   "n": 36,
+   "n": 38,
    "title": "Data-enhanced self-learning projective quantum Monte Carlo with Rydberg-atom measurements",
    "desc": "We introduce a data-enhanced self-learning projective quantum Monte Carlo (PQMC) method that incorporates projective measurements from programmable quantum simulators into the guiding wavefunction of a ground-state projection.",
    "src": "arXiv",
@@ -580,7 +612,7 @@
    "topic": ""
   },
   {
-   "n": 37,
+   "n": 39,
    "title": "LatentRL-QAS: Transfer via Latent Reinforcement Learning for Quantum Architecture Search",
    "desc": "Reinforcement learning (RL) emerges as a prominent approach to quantum architecture search (QAS), the automated design of quantum circuits.",
    "src": "arXiv",
@@ -596,7 +628,7 @@
    "topic": ""
   },
   {
-   "n": 38,
+   "n": 40,
    "title": "Lateral photovoltaic infrared detectors with colloidal quantum dots",
    "desc": "A photovoltaic device that uses HgTe colloidal quantum dot films deposited on interdigitated Au/Ti and Pt electrodes exploits asymmetric metal–Hg interactions to form lateral p–n junctions with efficient carrier…",
    "src": "Nature Photonics",
@@ -612,7 +644,7 @@
    "topic": ""
   },
   {
-   "n": 39,
+   "n": 41,
    "title": "Control of out-of-plane anti-damping spin torque with a canted ferromagnetic spin source",
    "desc": "Huang et al. show that canted magnetization in SrRuO3 generates a sizable out-of-plane damping-like torque without relying on low crystal symmetry, offering a strategy toward scalable magnetic-memory devices with…",
    "src": "Nature Communications",
@@ -628,7 +660,7 @@
    "topic": ""
   },
   {
-   "n": 40,
+   "n": 42,
    "title": "Origin of the anomalous shape of the $γ$-loop in paramagnetic Fe1-xCrx alloys from coupled Atomistic Spin Dynamics and ab initio Molecular Dynamics",
    "desc": "The region of fcc stability in Fe-rich Fe-Cr alloys, the $γ$-loop, has an anomalous shape: at low temperatures, Cr addition initially stabilizes fcc, but above 8 at.% Cr it stabilizes bcc.",
    "src": "arXiv",
@@ -644,7 +676,7 @@
    "topic": ""
   },
   {
-   "n": 41,
+   "n": 43,
    "title": "Measuring the Roughness of Quasi-Circular Interfaces at Finite Resolution",
    "desc": "Interface roughness characterizes the boundary fluctuations across different length scales, which can reveal information about a material''s pinning landscape and collective interfacial behaviour.",
    "src": "arXiv",
@@ -660,7 +692,7 @@
    "topic": ""
   },
   {
-   "n": 42,
+   "n": 44,
    "title": "Arbitrarily Weak Losses Destroy Fractal Bandstructure in Temporal Fibonacci Quasicrystals",
    "desc": "Lossless photonic crystals with weak refractive index contrasts block limited frequencies.",
    "src": "arXiv",
@@ -676,7 +708,7 @@
    "topic": ""
   },
   {
-   "n": 43,
+   "n": 45,
    "title": "EGQCA Code: automated high-throughput thermodynamic modeling of solid solutions",
    "desc": "Modeling disordered systems from first principles across the full composition range is a long-standing computational challenge.",
    "src": "arXiv",
@@ -692,7 +724,7 @@
    "topic": ""
   },
   {
-   "n": 44,
+   "n": 46,
    "title": "High-Throughput Orientation Extraction via Symmetry-Adapted Filters",
    "desc": "An algorithm for finding the orientation of objects in an image that have a known rotational symmetry, the symmetry-adapted filter (SAF) algorithm, is presented.",
    "src": "arXiv",
@@ -708,7 +740,7 @@
    "topic": ""
   },
   {
-   "n": 45,
+   "n": 47,
    "title": "Magnetic Reconfiguration Controls Spin Splitting and Spin-Orbit-Coupled Responses in Compensated Magnets",
    "desc": "Compensated magnets provide a versatile platform for spin-dependent electronic and transport phenomena.",
    "src": "arXiv",
@@ -724,7 +756,7 @@
    "topic": ""
   },
   {
-   "n": 46,
+   "n": 48,
    "title": "LetzElPhC: an electron-phonon code for efficient exciton-phonon workflows",
    "desc": "We present \\texttt{LetzElPhC}, an open-source software package that computes electron-phonon matrix elements from the output of density functional perturbation theory calculations performed with the \\texttt{Quantum ESPRESSO}…",
    "src": "arXiv",
@@ -740,7 +772,7 @@
    "topic": ""
   },
   {
-   "n": 47,
+   "n": 49,
    "title": "Solitons as conversion events in quadratic crystals",
    "desc": "In a $χ^{(2)}$ crystal with temporal walk-off and negligible dispersion, signal, idler and pump pulses obey the integrable three-wave interaction.",
    "src": "arXiv",
@@ -756,7 +788,7 @@
    "topic": ""
   },
   {
-   "n": 48,
+   "n": 50,
    "title": "DED-Agent: An agentic AI method for autonomous thermal simulation model development and calibration in laser directed energy deposition",
    "desc": "In metal additive manufacturing (AM), process parameters set the local thermal history, which governs defects, microstructure and properties.",
    "src": "arXiv",
@@ -772,7 +804,7 @@
    "topic": ""
   },
   {
-   "n": 49,
+   "n": 51,
    "title": "Aqua2CAD : Observation-Guided Point Cloud Correction and Completion for CAD Reconstruction from Underwater Stereo Images",
    "desc": "Recovering editable computer-aided design (CAD) models from underwater stereo images requires accurate and complete geometry, yet stereo reconstruction produces displaced points and missing regions.",
    "src": "arXiv",
@@ -788,7 +820,7 @@
    "topic": ""
   },
   {
-   "n": 50,
+   "n": 52,
    "title": "Wastewater sequencing enables scalable measles surveillance",
    "desc": "Integrated clinical and wastewater monitoring during the 2024–2025 outbreaks of measles in South Africa enabled high-resolution tracking of virus spread and evolution.",
    "src": "Nature Medicine",
@@ -804,7 +836,7 @@
    "topic": ""
   },
   {
-   "n": 51,
+   "n": 53,
    "title": "Z-TAC enables custom and combinatorial degradation of cell surface proteins",
    "desc": "Cell-surface protein degraders can eliminate disease-relevant proteins, but most require custom engineering for each target.",
    "src": "Nature Communications",
@@ -820,7 +852,7 @@
    "topic": ""
   },
   {
-   "n": 52,
+   "n": 54,
    "title": "A long-context generative foundation model for versatile RNA design",
    "desc": "Huang, Lv, Gao and colleagues investigate RNA scaling laws and introduce EVA, a long-context RNA foundation model for function prediction and diverse RNA design, supported by experimental validation.",
    "src": "Nature Machine Intelligence",
@@ -836,7 +868,7 @@
    "topic": ""
   },
   {
-   "n": 53,
+   "n": 55,
    "title": "Tissue-wide single-cell CRISPR screening for microproteins unveils hidden layers of ribosomal complexity",
    "desc": "Using an in vivo single-cell CRISPR screen, Valdivia-Francia et al. identify the pseudogene Gm10076, which encodes a microprotein identical to the ribosomal protein RPL41 and regulates ribosome biogenesis.",
    "src": "Nature Cell Biology",
@@ -852,7 +884,7 @@
    "topic": ""
   },
   {
-   "n": 54,
+   "n": 56,
    "title": "Cell-autonomous inflammation in VEXAS is mediated by ERAD failure and cGAS–STING",
    "desc": "Magaziner et al. describe ERAD failure in models of the inflammatory disease VEXAS with UBA1 mutation. ERAD failure arises from E2 charging defects.",
    "src": "Nature Cell Biology",
@@ -868,7 +900,7 @@
    "topic": ""
   },
   {
-   "n": 55,
+   "n": 57,
    "title": "KnitNet: Learning to Search at Inference Time for Exact RNA Inverse Design",
    "desc": "RNA inverse design seeks nucleotide sequences that fold into specified target structures.",
    "src": "arXiv",
@@ -884,7 +916,7 @@
    "topic": ""
   },
   {
-   "n": 56,
+   "n": 58,
    "title": "From the Deterministic Hook Effect to Stochastic Reliability in Ternary Complex Formation",
    "desc": "Ternary binding systems occur in signaling, scaffold-mediated assembly, and targeted protein degradation.",
    "src": "arXiv",
@@ -900,7 +932,7 @@
    "topic": ""
   },
   {
-   "n": 57,
+   "n": 59,
    "title": "Exclusion and internal structure in the association/dissociation kinetics of DNA-binding proteins in the fast diffusion limit",
    "desc": "In many canonical biophysical and biochemical contexts, complex diffusing DNA-binding proteins undergoing nonspecific adsorption and desorption can exist in different conformational states.",
    "src": "arXiv",
@@ -916,7 +948,7 @@
    "topic": ""
   },
   {
-   "n": 58,
+   "n": 60,
    "title": "Systematic study of the performance of small robots on controlled laboratory substrates",
    "desc": "The design of robots able to locomote effectively over a diversity of terrain requires detailed ground interaction models;",
    "src": "arXiv",
@@ -932,7 +964,7 @@
    "topic": ""
   },
   {
-   "n": 59,
+   "n": 61,
    "title": "Using waveform types, discrete Sobolev distances, and trend compatibility to cluster short time series of clinical data",
    "desc": "Clinical tests, such as the oral glucose tolerance test (OGTT), perturb a physiological system at rest and record its excursion over a fixed protocol window as a short, undersampled time series.",
    "src": "arXiv",
