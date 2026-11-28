@@ -1,6 +1,6 @@
 {
  "date": "2026-11-28",
- "updated_at": "2026-11-28T07:21:32-0500",
+ "updated_at": "2026-11-28T08:23:47-0500",
  "built_at": "2026-11-28T05:24:26-0500",
  "stories": [
   {
@@ -1475,6 +1475,20 @@
   },
   {
    "n": 106,
+   "title": "Claude Faces Allegations of Disrupting AI Research as Anthropic Limits Use | TokenPost",
+   "desc": "Developers allege Claude interfered with model training and research, while Anthropic restricts requests that could help develop competing artificial intelligence systems.",
+   "src": "Tokenpost",
+   "url": "https://www.tokenpost.com/news/technology/63400",
+   "dt": "Nov 27",
+   "img": "0c7a5d2834.jpg",
+   "id": "u0c7a5d2834",
+   "added_at": "2026-11-28T08:23:47-0500",
+   "new": true,
+   "cat": "Technology & Engineering",
+   "sub": "AI & Robotics"
+  },
+  {
+   "n": 107,
    "title": "Construction of pilot Elena-AM microreactor 'under way'",
    "desc": "The&nbsp;Strategy for the Development of the Arctic Zone of the Russian Federation and Ensuring National Security in the Arctic says that construction is under way on a pilot Elena-AM microreactor. &nbsp;;",
    "src": "World Nuclear News",
@@ -1488,7 +1502,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 107,
+   "n": 108,
    "title": "Ghosts of Bataan: Inside Philippines’ high-stakes gamble to revive its mothballed nuclear plant",
    "desc": "The Marcos government has renewed nuclear ambitions, but safety, cost and the plant's future remain uncertain.",
    "src": "The Straits Times",
@@ -1502,7 +1516,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 108,
+   "n": 109,
    "title": "Construction milestones reached at fourth Zhangzhou unit",
    "desc": "The inner safety dome has been installed on the containment building of unit 4 at the Zhangzhou nuclear power plant, the fourth of six Hualong One (HPR1000) reactors planned for the site in China&#39;s Fujian province.",
    "src": "World Nuclear News",
@@ -1516,7 +1530,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 109,
+   "n": 110,
    "title": "Project to boost Trans Mountain pipeline flows starts up ahead of schedule",
    "desc": "New chemical additives increase pipeline’s capacity by about 10%",
    "src": "The Globe and Mail",
@@ -1530,7 +1544,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 110,
+   "n": 111,
    "title": "The world is waking up to the Montney’s vast natural gas reserves. Will Canada seize the opportunity?",
    "desc": "A flurry of acquisitions reveals the region’s potential, but investors fear it might be too good to be true",
    "src": "The Globe and Mail",
@@ -1544,7 +1558,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 111,
+   "n": 112,
    "title": "Datlantis pitches underwater data centers powered by offshore wind",
    "desc": "Elsewhere, Russia prepares to send floating data center to the Antarctic",
    "src": "Data Center Dynamics",
@@ -1558,7 +1572,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 112,
+   "n": 113,
    "title": "World’s largest electric bulk cargo shop packs MASSIVE 23.5 MWh battery",
    "desc": "Moving millions of tons of coal, sugar, and other bulk cargo is serious business, and decarbonizing that business presents a...",
    "src": "Electrek",
@@ -1572,7 +1586,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 113,
+   "n": 114,
    "title": "Work begins on Husab heap leach plant",
    "desc": "China General Nuclear has announced the start of construction of an industrial-scale heap-leaching plant for low-grade uranium ore at its Husab project in Namibia. &nbsp;;",
    "src": "World Nuclear News",
@@ -1586,7 +1600,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 114,
+   "n": 115,
    "title": "Decommissioning projects in Germany and Switzerland near completion",
    "desc": "The dismantling of the steel sphere of the containment vessel has begun at the decommissioned Stade nuclear power plant in Germany.",
    "src": "World Nuclear News",
@@ -1600,7 +1614,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 115,
+   "n": 116,
    "title": "Makita power tool battery pack adapter tested as portable laptop power solution — $44 ADP15 charges a ThinkPad at 60W and iPhone 17 Pro Max ",
    "desc": "Leading power tool firm Makita has released an adapter for its battery packs, allowing them to be used for charging phones, tablets, and even laptops. A Japanese PC magazine has tested its laptop companion prowess.",
    "src": "Tomshardware",
@@ -1614,7 +1628,7 @@
    "sub": "Energy & Nuclear"
   },
   {
-   "n": 116,
+   "n": 117,
    "title": "Kioxia's 3rd-gen XL-Flash hits Optane-class 3-microsecond read latency with 70% higher density",
    "desc": "Kioxia showed an XL-Flash Generation 3 prototype at KIOXIA Forum in Tokyo and named the upcoming GP2 SSD as its first product.",
    "src": "Tom's Hardware",
@@ -1628,7 +1642,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 117,
+   "n": 118,
    "title": "TSMC gives a sneap peak at AI Design Kit: Agentic AI with foundry expertise",
    "desc": "TSMC's ADK promises to cut accelerate chip development as nodes get more complex.",
    "src": "Tom's Hardware",
@@ -1642,7 +1656,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 118,
+   "n": 119,
    "title": "Samsung, SK Hynix pursue different DRAM designs",
    "desc": "Samsung Electronics and SK Hynix are pursuing different approaches to increasing DRAM density as the capacitors used to store data become harder to shrink.",
    "src": "DigiTimes",
@@ -1656,7 +1670,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 119,
+   "n": 120,
    "title": "From lab to fab: Taiwan's supply chain holds key to mass-producing silicon photonics and CPO",
    "desc": "The first Silicon Photonics Technology Applications Exhibition will run from April 21 to 23, 2027, as AI speeds up the development of silicon photonics (SiPh) and co-packaged optics (CPO).",
    "src": "DigiTimes",
@@ -1670,7 +1684,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 120,
+   "n": 121,
    "title": "Analysis: optical makers face 2027 CPO test as FAU and EBO mass production looms",
    "desc": "As Largan Precision, Genius Electronic Optical (GSEO), and Kinko Optical hold back-to-back investor conferences, the industry spotlight has shifted beyond smartphone camera specifications to a more consequential…",
    "src": "DigiTimes",
@@ -1684,7 +1698,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 121,
+   "n": 122,
    "title": "Silicon 4.0 arrives as AI rewrites semiconductor economics, says Etron Chairman",
    "desc": "National Yang Ming Chiao Tung University (NYCU) has awarded an honorary doctorate to Etron Chairman and NYCU Chair Professor Nicky Lu, who said in a keynote speech that AI is penetrating industries across the board and…",
    "src": "DigiTimes",
@@ -1698,7 +1712,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 122,
+   "n": 123,
    "title": "How the MATCH Act could backfire by barring ASML from its ~350 immersion scanners in China, letting rivals service and reverse engineer them",
    "desc": "LithoWar : How the MATCH Act could backfire by barring ASML from its ~350 immersion scanners in China, letting rivals service and reverse engineer them, and hire its staff — At the heart of the AI race, while East and West stockpile advanced processors, a quiet technology battle is under …",
    "src": "Techmeme",
@@ -1712,7 +1726,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 123,
+   "n": 124,
    "title": "This ER Doctor Became a Hospital’s First Clinical AI Engineer",
    "desc": "When Boston Children’s Hospital posted a job listing for a prompt engineer in 2023, Dinesh Rai decided to apply. He didn’t expect to get the job. At the time, prompt engineering was being touted as one of the hot new jobs created by generative AI. Companies wanted people who knew how to coax the bes",
    "src": "IEEE Spectrum",
@@ -1726,7 +1740,7 @@
    "sub": "Semiconductors"
   },
   {
-   "n": 124,
+   "n": 125,
    "title": "IQM and QAI team up to bring quantum computing to Korean data centers",
    "desc": "IQM and QAI partner to deploy a 54-qubit quantum computer in Seoul, bringing quantum computing to commercial AI data center infrastructure.",
    "src": "eeNews Europe",
@@ -1740,7 +1754,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 125,
+   "n": 126,
    "title": "New research establishes fundamental complexity limit for quantum circuit optimization",
    "desc": "Quantum circuit optimization is an important research area, as the computational resources required to execute quantum algorithms remain a major challenge.",
    "src": "Phys.org",
@@ -1754,7 +1768,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 126,
+   "n": 127,
    "title": "Quantum computer scaling advances",
    "desc": "Quantum computer firms IBM, PsiQuantum and Quantinuum are pushing hard to deliver scalable systems over the next few years.",
    "src": "eeNews Europe",
@@ -1768,7 +1782,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 127,
+   "n": 128,
    "title": "Quantum: 'Five years, that's all we got…'",
    "desc": "Futuristic computing had a major presence in Chicago supercomputer show this year",
    "src": "The Register",
@@ -1782,7 +1796,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 128,
+   "n": 129,
    "title": "Guest Post: The Encryption Upgrade Needs a Backup Plan",
    "desc": "Guest Post By Companies preparing for quantum computers may have to confront a threat that requires no quantum computer at all.",
    "src": "The Quantum Insider",
@@ -1796,7 +1810,7 @@
    "sub": "Quantum"
   },
   {
-   "n": 129,
+   "n": 130,
    "title": "Quantum computing 101: from Schrödinger’s cat to qubits",
    "desc": "What is a qubit, why do quantum computers need to be colder than outer space, and what will they really be able to do? A plain-English guide to quantum computing, from Schrödinger’s cat to post-quantum cryptography.",
    "src": "Thequantuminsider",
